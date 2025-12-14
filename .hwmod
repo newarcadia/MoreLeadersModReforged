@@ -1,0 +1,9 @@
+﻿<HWMod ManifestVersion="1" ModID="48D6F161D01D6C8B4A617904743C9A653A5BEC42852A06FF53AE9CD808708CA7">
+  <RequiredData Title="More Leaders Mod Reforged" Author="Blackandfan" Version="1" />
+  <OptionalData>
+    <BannerArt>ModData\ModManager\Header.png</BannerArt>
+    <Icon>ModData\ModManager\icon.ico</Icon>
+    <Description>Open Beta test to gather feedback on issues to fix
+See Github for changes.</Description>
+  </OptionalData>
+</HWMod>
