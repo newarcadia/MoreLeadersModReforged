@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>StandardWeapon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>198</DamagePerSecond>
+		<WeaponType>Fire</WeaponType>
+		<Projectile>fx_proj_shadeplasma_02</Projectile>
+		<ImpactEffect size="Small">cov_shadeplasma_01</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<UseGroupRange />
+		<Hardpoint>Gun_Standard</Hardpoint>
+	</Weapon>
+	<Action>
+		<Name>StandardAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>StandardWeapon</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>StandardAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Terrain LoadVisRep="true">PHXscn14</Terrain>
+	<Sky />
+	<TerrainEnv>environment\sky\sw_interior_sky_en.ddx</TerrainEnv>
+	<Lightset>PHXscn14</Lightset>
+	<Pathing>PHXscn14</Pathing>
+	<Cinematics />
+	<Lightsets />
+	<TalkingHeads />
+	<Diplomacies>
+		<Diplomacy Team="1">
+			<Team ID="1">Ally</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Enemy</Team>
+		</Diplomacy>
+		<Diplomacy Team="2">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Ally</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Enemy</Team>
+		</Diplomacy>
+		<Diplomacy Team="3">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Ally</Team>
+			<Team ID="4">Enemy</Team>
+		</Diplomacy>
+		<Diplomacy Team="4">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Ally</Team>
+		</Diplomacy>
+	</Diplomacies>
+	<PlayerPlacement Type="Random" Spacing="0" />
+	<Positions>
+		<Position Player="-1" Number="2" Position="831.217529,-51.0010986,163.997894" Forward="0.0046000001,0,-1" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+		<Position Player="-1" Number="1" Position="566.872925,152.644196,857.843628" Forward="0.99970001,0,-0.0260000005" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+	</Positions>
+	<Players>
+		<Player Name="Player1" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="1" Team="1" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Player2" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="2" Team="2" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Creeps" LocalisedDisplayName="30393,Creeps" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="13" Team="3" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Floods" LocalisedDisplayName="25560,Flood" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Leader1="FloodMap" Color="13" Team="3" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+	</Players>
+	<Objectives>
+		<MaxObjectiveID>-1</MaxObjectiveID>
+	</Objectives>
+	<Minimap>
+		<MinimapTexture />
+	</Minimap>
+	<BuildingTextureIndexUNSC>2</BuildingTextureIndexUNSC>
+	<BuildingTextureIndexCOVN>2</BuildingTextureIndexCOVN>
+	<DesignObjects>
+		<Spheres>
+			<Sphere ID="24" Name="DesignSphere24" Position="228.307098,14.7730999,215.140503" Radius="55">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="25" Name="DesignSphere25" Position="128.702896,84.1288986,623.984985" Radius="55">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="27" Name="DesignSphere27" Position="742.886475,14.7719002,491.327301" Radius="35">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+		</Spheres>
+		<Lines />
+	</DesignObjects>
+	<ObjectGroups>
+		<ObjectGroup ID="1" Name="testbases" Visible="false" Locked="true" BB="false" ExploreGroup="false" />
+	</ObjectGroups>
+	<Objects>
+		<Object IsSquad="false" Player="0" ID="1654" TintValue="1" EditorName="cpgn_utility_airBlock_01_1654" Position="892.525818,152.643997,795.982483" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" ID="1655" TintValue="1" EditorName="cpgn_utility_airBlock_01_1655" Position="760.639893,152.644104,738.762573" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" ID="1656" TintValue="1" EditorName="cpgn_utility_airBlock_01_1656" Position="758.344116,152.644104,847.198914" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" ID="1659" TintValue="1" EditorName="cpgn_utility_airBlock_01_1659" Position="664.110229,152.643997,611.460327" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" ID="1661" TintValue="1" EditorName="cpgn_utility_airBlock_01_1661" Position="807.669312,125.425003,583.143982" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_01</Object>
+
+
+		<Object IsSquad="true" Player="3" ID="1625" TintValue="1" EditorName="fld_inf_tentacle_01_Squad_1625" Position="742.886475,14.7719002,491.327301" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+		<Object IsSquad="true" Player="3" ID="1625" TintValue="1" EditorName="fld_inf_tentacle_01_Squad_1625" Position="742.886475,14.7719002,491.327301" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+		<Object IsSquad="true" Player="3" ID="1625" TintValue="1" EditorName="fld_inf_tentacle_01_Squad_1625" Position="742.886475,14.7719002,491.327301" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+		<Object IsSquad="true" Player="3" ID="1625" TintValue="1" EditorName="fld_inf_tentacle_01_Squad_1625" Position="742.886475,14.7719002,491.327301" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_brute_01</Object>
+
+
+
+
+		<Object IsSquad="false" Player="0" ID="1297" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1297" Position="304.9617,84.1891022,483.568298" Forward="-0.644200027,0,0.764800012" Right="0.764800012,0,0.644200027" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1294" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1294" Position="649.930115,14.7730999,444.97699" Forward="0.479499996,0,0.877600014" Right="0.877600014,0,-0.479499996" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1298" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1298" Position="255.777893,84.1288986,776.88147" Forward="-0.644200027,0,0.764800012" Right="0.764800012,0,0.644200027" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1295" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1295" Position="675.734009,14.7730999,377.166992" Forward="-0.479400009,0,0.877600014" Right="0.877600014,0,0.479400009" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1293" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1293" Position="387.848114,14.7730999,321.999512" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1296" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1296" Position="487.427307,56.4213982,574.306213" Forward="-0.96359998,0,0.267500013" Right="0.267500013,0,0.96359998" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="2" TintValue="1" EditorName="game_base_Socket_01_2" Position="128.702896,84.1288986,623.984985" Forward="-0.00350000011,0,1" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="4820" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_4820" Position="178.702896,85,623.984985" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="4545" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_4545" Position="178.702896,85,623.984985" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="4822" TintValue="1" EditorName="sys_foreRunnerMarker_superSentinel_01_4822" Position="178.702896,85,623.984985" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_superSentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="1" TintValue="1" EditorName="game_base_Socket_01_1" Position="228.307098,14.7730999,215.140503" Forward="-0.00230000005,0,1" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="4820" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_4820" Position="278.307098,15,215.140503" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="4545" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_4545" Position="278.307098,15,215.140503" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="4822" TintValue="1" EditorName="sys_foreRunnerMarker_superSentinel_01_4822" Position="278.307098,15,215.140503" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_superSentinel_01</Object>
+	</Objects>
+	<Lights />
+	<TriggerSystem Name="Audio" Type="Scenario" NextTriggerVarID="41" NextTriggerID="38" NextConditionID="37" NextEffectID="39" External="false">
+		<TriggerGroups />
+		<TriggerVars>
+			<TriggerVar ID="0" Type="Sound" Name="" IsNull="false">play_amb_shield_int</TriggerVar>
+			<TriggerVar ID="1" Type="Bool" Name="QueueVar1" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="21" Type="Sound" Name="" IsNull="false">set_switch_music_shield_int</TriggerVar>
+			<TriggerVar ID="22" Type="Bool" Name="QueueVar2" IsNull="true">False</TriggerVar>
+		</TriggerVars>
+		<Triggers>
+			<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="497" Y="152" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="0" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+						<Input Name="Sound" SigID="1" Optional="false">0</Input>
+						<Input Name="Queue" SigID="3" Optional="true">1</Input>
+					</Effect>
+					<Effect ID="20" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+						<Input Name="Sound" SigID="1" Optional="false">21</Input>
+						<Input Name="Queue" SigID="3" Optional="true">22</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+		</Triggers>
+	</TriggerSystem>
+	<NextID>260</NextID>
+	<SimBoundsMinX>0</SimBoundsMinX>
+	<SimBoundsMinZ>0</SimBoundsMinZ>
+	<SimBoundsMaxX>1024</SimBoundsMaxX>
+	<SimBoundsMaxZ>1024</SimBoundsMaxZ>
+	<SoundBank>scenario_14.bnk</SoundBank>
+	<SoundBank>amb_shield_int.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Valley</EnvironmentReverbPreset>
+	<ScenarioWorld>SWI</ScenarioWorld>
+	<AllowVeterancy>true</AllowVeterancy>
+</Scenario>

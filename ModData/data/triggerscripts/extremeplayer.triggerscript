@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DeathMatchPlayer.triggerscript" Type="TriggerScript" NextTriggerVarID="854" NextTriggerID="66" NextConditionID="98" NextEffectID="327" External="false">
+	<TriggerGroups />
+	<TriggerVars>
+		<TriggerVar ID="1" Type="Unit" Name="ExternalUnitVar1" IsNull="true" />
+		<TriggerVar ID="2" Type="UnitList" Name="ExternalUnitListVar1" IsNull="true" />
+		<TriggerVar ID="3" Type="Squad" Name="ExternalSquadVar1" IsNull="true" />
+		<TriggerVar ID="4" Type="SquadList" Name="ExternalSquadListVar1" IsNull="true" />
+		<TriggerVar ID="6" Type="Power" Name="ExternalPowerVar1" IsNull="true" />
+		<TriggerVar ID="7" Type="Cost" Name="ExternalCostVar1" IsNull="true" />
+		<TriggerVar ID="8" Type="Vector" Name="ExternalLocationVar1" IsNull="true" />
+		<TriggerVar ID="9" Type="VectorList" Name="ExternalLocationListVar1" IsNull="true" />
+		<TriggerVar ID="10" Type="Player" Name="Player" IsNull="false" />
+		<TriggerVar ID="11" Type="Power" Name="ExternPowerVar1" IsNull="true" />
+		<TriggerVar ID="12" Type="Squad" Name="ExternSquadVar1" IsNull="true" />
+		<TriggerVar ID="13" Type="SquadList" Name="ExternSquadListVar1" IsNull="true" />
+		<TriggerVar ID="14" Type="Unit" Name="ExternUnitVar1" IsNull="true" />
+		<TriggerVar ID="15" Type="UnitList" Name="ExternUnitListVar1" IsNull="true" />
+		<TriggerVar ID="16" Type="Cost" Name="ExternCostVar1" IsNull="true" />
+		<TriggerVar ID="17" Type="Trigger" Name="TriggerVar1" IsNull="false">1</TriggerVar>
+		<TriggerVar ID="364" Type="String" Name="" IsNull="false">SkirmishPlayer.triggerscript</TriggerVar>
+		<TriggerVar ID="374" Type="Float" Name="ExternalFloatVar1" IsNull="true" />
+		<TriggerVar ID="727" Type="Tech" Name="" IsNull="false">Extreme_Tech</TriggerVar>
+		<TriggerVar ID="800" Type="Tech" Name="" IsNull="false">cov_grunt_upgrade1</TriggerVar>
+		<TriggerVar ID="801" Type="Tech" Name="" IsNull="false">cov_jackal_upgrade1</TriggerVar>
+		<TriggerVar ID="802" Type="Tech" Name="" IsNull="false">cov_vampire_upgrade2</TriggerVar>
+		<TriggerVar ID="803" Type="Tech" Name="" IsNull="false">cov_eliteCommando_upgrade2</TriggerVar>
+		<TriggerVar ID="804" Type="Tech" Name="" IsNull="false">cov_suicideGrunt_upgrade2</TriggerVar>
+		<TriggerVar ID="805" Type="Tech" Name="" IsNull="false">cov_brute_upgrade2</TriggerVar>
+		<TriggerVar ID="806" Type="Tech" Name="" IsNull="false">unsc_flameMarine_upgrade1</TriggerVar>
+		<TriggerVar ID="807" Type="Tech" Name="" IsNull="false">unsc_marine_upgrade1</TriggerVar>
+		<TriggerVar ID="808" Type="Tech" Name="" IsNull="false">unsc_scorpion_upgrade2</TriggerVar>
+		<TriggerVar ID="809" Type="Tech" Name="" IsNull="false">unsc_warthog_upgrade1</TriggerVar>
+		<TriggerVar ID="810" Type="Tech" Name="" IsNull="false">unsc_wolverine_upgrade2</TriggerVar>
+		<TriggerVar ID="811" Type="Tech" Name="" IsNull="false">unsc_odst_upgrade1</TriggerVar>
+		<TriggerVar ID="812" Type="Tech" Name="" IsNull="false">unsc_hawk_upgrade1</TriggerVar>
+		<TriggerVar ID="813" Type="Tech" Name="" IsNull="false">unsc_gremlin_upgrade2</TriggerVar>
+		<TriggerVar ID="814" Type="Tech" Name="" IsNull="false">unsc_grizzly_upgrade1</TriggerVar>
+		<TriggerVar ID="815" Type="Tech" Name="" IsNull="false">cov_bruteChopper_upgrade1</TriggerVar>
+		<TriggerVar ID="816" Type="Tech" Name="" IsNull="false">cov_ghost_upgrade1</TriggerVar>
+		<TriggerVar ID="817" Type="Tech" Name="" IsNull="false">unsc_elephant_upgrade1</TriggerVar>
+		<TriggerVar ID="818" Type="Tech" Name="" IsNull="false">unsc_cyclops_upgrade2</TriggerVar>
+		<TriggerVar ID="819" Type="Tech" Name="" IsNull="false">cov_wraith_upgrade2</TriggerVar>
+		<TriggerVar ID="820" Type="Tech" Name="" IsNull="false">cov_engineer_upgrade1</TriggerVar>
+		<TriggerVar ID="821" Type="Tech" Name="" IsNull="false">cov_hunter_upgrade1</TriggerVar>
+		<TriggerVar ID="822" Type="Tech" Name="" IsNull="false">cov_banshee_upgrade1</TriggerVar>
+		<TriggerVar ID="900" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+		<TriggerVar ID="901" Type="Time" Name="" IsNull="false">60000</TriggerVar>
+	</TriggerVars>
+	<Triggers>
+		<Trigger ID="0" Name="Startup and launch skirmish rules" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="167" Y="233" GroupID="-1" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="0" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="ExternPlayer" SigID="1" Optional="true">10</Output>
+						<Output Name="ExternPower" SigID="2" Optional="true">11</Output>
+						<Output Name="ExternSquad" SigID="3" Optional="true">12</Output>
+						<Output Name="ExternSquadList" SigID="7" Optional="true">13</Output>
+						<Output Name="ExternUnit" SigID="4" Optional="true">14</Output>
+						<Output Name="ExternUnitList" SigID="6" Optional="true">15</Output>
+						<Output Name="ExternCost" SigID="5" Optional="true">16</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="198" Type="LaunchScript" DBID="392" Version="4" CommentOut="false">
+					<Input Name="ScriptName" SigID="15" Optional="false">364</Input>
+					<Input Name="ExternalUnit" SigID="2" Optional="true">1</Input>
+					<Input Name="ExternalUnitList" SigID="3" Optional="true">2</Input>
+					<Input Name="ExternalSquad" SigID="4" Optional="true">3</Input>
+					<Input Name="ExternalSquadList" SigID="5" Optional="true">4</Input>
+					<Input Name="ExternalPlayer" SigID="6" Optional="true">10</Input>
+					<Input Name="ExternalPower" SigID="7" Optional="true">6</Input>
+					<Input Name="ExternalCost" SigID="8" Optional="true">7</Input>
+					<Input Name="ExternalLocation" SigID="11" Optional="true">8</Input>
+					<Input Name="ExternalLocationList" SigID="12" Optional="true">9</Input>
+					<Input Name="ExternalFloat" SigID="13" Optional="true">374</Input>
+				</Effect>
+				<Effect ID="1" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">17</Input>
+				</Effect>
+				<Effect ID="2" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">727</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="1" Name="Check if Player is AI, if so activate techs to help AI after 1 min" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="929" Y="611" GroupID="-1" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="500" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="CompareType" SigID="1" Optional="false">900</Input>
+						<Input Name="CompareTime" SigID="2" Optional="false">901</Input>
+					</Condition>
+					<Condition ID="501" Type="PlayerIsComputerAI" DBID="740" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">10</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="601" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">800</Input>
+				</Effect>
+				<Effect ID="602" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">801</Input>
+				</Effect>
+				<Effect ID="603" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">802</Input>
+				</Effect>
+				<Effect ID="604" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">803</Input>
+				</Effect>
+				<Effect ID="605" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">804</Input>
+				</Effect>
+				<Effect ID="606" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">805</Input>
+				</Effect>
+				<Effect ID="607" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">806</Input>
+				</Effect>
+				<Effect ID="608" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">807</Input>
+				</Effect>
+				<Effect ID="609" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">808</Input>
+				</Effect>
+				<Effect ID="610" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">809</Input>
+				</Effect>
+				<Effect ID="611" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">810</Input>
+				</Effect>
+				<Effect ID="612" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">811</Input>
+				</Effect>
+				<Effect ID="613" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">812</Input>
+				</Effect>
+				<Effect ID="614" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">813</Input>
+				</Effect>
+				<Effect ID="615" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">814</Input>
+				</Effect>
+				<Effect ID="616" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">815</Input>
+				</Effect>
+				<Effect ID="617" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">816</Input>
+				</Effect>
+				<Effect ID="618" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">817</Input>
+				</Effect>
+				<Effect ID="619" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">818</Input>
+				</Effect>
+				<Effect ID="620" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">819</Input>
+				</Effect>
+				<Effect ID="621" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">820</Input>
+				</Effect>
+				<Effect ID="622" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">821</Input>
+				</Effect>
+				<Effect ID="623" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">822</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+	</Triggers>
+</TriggerSystem>

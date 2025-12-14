@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<PlacementRules>
+	<DistanceAtLeastFromType player="Enemy" errorString="Must build further from the enemy" successString="" distance="100">MainBaseBuilding</DistanceAtLeastFromType>
+	<DistanceAtLeastFromType player="Enemy" errorString="Must build further from the enemy" successString="" distance="50">Unit</DistanceAtLeastFromType>
+	<DistanceAtLeastFromType player="Enemy" errorString="Must build further from other buildings" successString="" distance="35">Building</DistanceAtLeastFromType>
+	<DistanceAtMostFromType player="Team" errorString="Must build closer to the base" successString="" distance="300">MainBaseBuilding</DistanceAtMostFromType>
+</PlacementRules>

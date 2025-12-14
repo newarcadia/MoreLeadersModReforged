@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Campaign>
+	<DisplayNameStringID>25029</DisplayNameStringID>
+	<RolloverStringID>25030</RolloverStringID>
+	<CampaignNode name="Logos">
+		<Filename>video\Cinematic1.bik</Filename>
+		<DisplayNameStringID>25083</DisplayNameStringID>
+		<Visible>1</Visible>
+		<PostCinematic>1</PostCinematic>
+		<IntroTextStringID>25084</IntroTextStringID>
+		<PresenceMovieIndex>1</PresenceMovieIndex>
+		<ChunkID>2000</ChunkID>
+	</CampaignNode>
+</Campaign>

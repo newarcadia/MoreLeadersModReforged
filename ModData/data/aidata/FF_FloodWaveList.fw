@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Tables>
+	<Table Name="SetA" Type="BuildingBuildList">
+		<Row>
+			<c>fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectionForm_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectionForm_01,fld_inf_flameMarine_01,fld_inf_infectionForm_01,fld_inf_flameMarine_01,fld_inf_infectionForm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_flameMarine_01,fld_inf_flameMarine_01,fld_inf_flameMarine_01,fld_inf_flameMarine_01,fld_inf_flameMarine_01,fld_inf_flameMarine_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_Inf_infectedspartan_01_vp,fld_air_swarm_01,fld_air_swarm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_inf_creature_01,flood_inf_creature_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_Inf_infectedspartan_01_vp,flood_Inf_infectedspartan_01_vp</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_Inf_infectedspartan_01_vp,flood_Inf_infectedspartan_01_vp</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedElite_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedElite_01,fld_inf_infectedJackal_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedElite_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,fld_inf_infectedBrute_01,fld_inf_rhinodillo_01,cov_veh_wraith_01,fld_inf_infectedBrute_01,fld_inf_rhinodillo_01,cov_veh_wraith_01,fld_inf_infectedBrute_01,fld_inf_rhinodillo_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_inf_creature_01,flood_inf_creature_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_air_sporecloud_01,fld_inf_infectedCarrier_01,fld_air_sporecloud_01,fld_inf_infectedCarrier_01,fld_air_sporecloud_01,fld_inf_infectedCarrier_01,fld_air_sporecloud_01,fld_inf_infectedCarrier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_inf_creature_01,flood_inf_creature_01,flood_inf_creature_01,flood_inf_creature_01</c> <!-- Composition -->
+		</Row>
+	</Table>
+	<Table Name="SetB" Type="BuildingBuildList">
+		<Row>
+			<c>fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectionForm_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectionForm_01,fld_inf_flameMarine_01,fld_inf_infectionForm_01,fld_inf_flameMarine_01,fld_inf_infectionForm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_flameMarine_01,fld_inf_flameMarine_01,fld_inf_flameMarine_01,fld_inf_flameMarine_01,fld_inf_flameMarine_01,fld_inf_flameMarine_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_Inf_infectedspartan_01_vp,fld_air_swarm_01,fld_air_swarm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_inf_creature_01,flood_inf_creature_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_Inf_infectedspartan_01_vp,flood_Inf_infectedspartan_01_vp</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_Inf_infectedspartan_01_vp,flood_Inf_infectedspartan_01_vp</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,fld_inf_infectedBrute_01,fld_inf_rhinodillo_01,cov_veh_wraith_01,fld_inf_infectedBrute_01,fld_inf_rhinodillo_01,cov_veh_wraith_01,fld_inf_infectedBrute_01,fld_inf_rhinodillo_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_inf_creature_01,flood_inf_creature_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_air_sporecloud_01,fld_inf_infectedCarrier_01,fld_air_sporecloud_01,fld_inf_infectedCarrier_01,fld_air_sporecloud_01,fld_inf_infectedCarrier_01,fld_air_sporecloud_01,fld_inf_infectedCarrier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_inf_creature_01,flood_inf_creature_01,flood_inf_creature_01,flood_inf_creature_01</c> <!-- Composition -->
+		</Row>
+	</Table>
+	<Table Name="SetC" Type="BuildingBuildList">
+		<Row>
+			<c>fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectionForm_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectionForm_01,fld_inf_flameMarine_01,fld_inf_infectionForm_01,fld_inf_flameMarine_01,fld_inf_infectionForm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_flameMarine_01,fld_inf_flameMarine_01,fld_inf_flameMarine_01,fld_inf_flameMarine_01,fld_inf_flameMarine_01,fld_inf_flameMarine_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_Inf_infectedspartan_01_vp,fld_air_swarm_01,fld_air_swarm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_inf_creature_01,flood_inf_creature_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01,flood_random_infectedmarine_gl_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_Inf_infectedspartan_01_vp,flood_Inf_infectedspartan_01_vp</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_Inf_infectedspartan_01_vp,flood_Inf_infectedspartan_01_vp</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01,fld_inf_infectedJackal_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,fld_inf_infectedBrute_01,fld_inf_rhinodillo_01,cov_veh_wraith_01,fld_inf_infectedBrute_01,fld_inf_rhinodillo_01,cov_veh_wraith_01,fld_inf_infectedBrute_01,fld_inf_rhinodillo_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_inf_creature_01,flood_inf_creature_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_air_sporecloud_01,fld_inf_infectedCarrier_01,fld_air_sporecloud_01,fld_inf_infectedCarrier_01,fld_air_sporecloud_01,fld_inf_infectedCarrier_01,fld_air_sporecloud_01,fld_inf_infectedCarrier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>flood_inf_creature_01,flood_inf_creature_01,flood_inf_creature_01,flood_inf_creature_01</c> <!-- Composition -->
+		</Row>
+	</Table>
+</Tables>

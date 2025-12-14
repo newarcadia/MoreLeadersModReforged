@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\pureforms\spawner\mesh_spawner01</file>
+				<damagefile>template\defaultInfantry</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\pureforms\spawner\idle01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>flood\pureforms\spawner\idle02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Roar" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\pureforms\spawner\idle01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_death_infected_marine" tobone="GrannyRootBone_shroud01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="CameraShake" start="0" position="0.720000029" end="1" tobone="GrannyRootBone_shroud01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.25" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="PlasmaRifleAttack" exitAction="Loop" tweenTime="1" tweenToAnimation="PlasmaRifleAttack">
+			<asset type="Anim">
+				<file>flood\pureforms\spawner\idle01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.219999999" end="1" tobone="bone_hijack_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.319999993" end="1" tobone="bone_hijack_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.419999987" end="1" tobone="bone_hijack_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.519999981" end="1" tobone="bone_hijack_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Spawning" exitAction="Loop" tweenTime="1" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>flood\pureforms\spawner\attack</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.43" end="1" tobone="bone_vfx_PowerCoreBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Clamshell" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\pureforms\spawner\stunned</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\pureforms\spawner\idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\pureforms\spawner\idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\pureforms\spawner\idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Flail" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\pureforms\spawner\stunned</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spin" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\pureforms\spawner\stunned</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>

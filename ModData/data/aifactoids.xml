@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Factoids>
+	<Factoid Event="AllyAddingBase" defPri="2" File="play_cov_coach_1023" Civ="COV" Line="Our ally is taking this base." Status="_" />
+	<Factoid Event="AllyAddingBase" defPri="2" File="play_cov_coach_1024" Civ="COV" Line="Our ally is building a base here." Status="_" />
+	<Factoid Event="AllyAddingBase" defPri="2" File="play_cov_coach_1025" Civ="COV" Line="Our ally will soon control this base." Status="_" />
+	<Factoid Event="AllyAddingBase" defPri="2" File="play_unsc_coach_1024" Civ="UNSC" Line="Our ally is taking this base." Status="_" />
+	<Factoid Event="AllyAddingBase" defPri="2" File="play_unsc_coach_1025" Civ="UNSC" Line="Our ally is building a base here." Status="_" />
+	<Factoid Event="AllyAddingBase" defPri="2" File="play_unsc_coach_1026" Civ="UNSC" Line="Our ally will soon control this base." Status="_" />
+	<Factoid Event="AllyAssistsUs" defPri="3" File="play_cov_coach_434" Civ="COV" Line="Our ally's forces are joining ours." Status="_" />
+	<Factoid Event="AllyAssistsUs" defPri="3" File="play_cov_coach_435" Civ="COV" Line="Here comes our ally's forces." Status="_" />
+	<Factoid Event="AllyAssistsUs" defPri="3" File="play_cov_coach_436" Civ="COV" Line="Our ally is here!" Status="_" />
+	<Factoid Event="AllyAssistsUs" defPri="4" File="play_unsc_coach_434" Civ="UNSC" Line="Our ally's forces are joining ours." Status="_" />
+	<Factoid Event="AllyAssistsUs" defPri="4" File="play_unsc_coach_435" Civ="UNSC" Line="Here comes our ally's forces." Status="_" />
+	<Factoid Event="AllyAssistsUs" defPri="4" File="play_unsc_coach_436" Civ="UNSC" Line="Our ally is here!" Status="_" />
+	<Factoid Event="AllyAttackingHere" defPri="3" File="play_cov_coach_276" Civ="COV" Line="Our ally reports that he is attacking the enemy here." Status="_" />
+	<Factoid Event="AllyAttackingHere" defPri="3" File="play_cov_coach_277" Civ="COV" Line="Our ally says that he is assaulting this position." Status="_" />
+	<Factoid Event="AllyAttackingHere" defPri="3" File="play_cov_coach_278" Civ="COV" Line="Our ally is launching an attack here." Status="_" />
+	<Factoid Event="AllyAttackingHere" defPri="3" File="play_unsc_coach_276" Civ="UNSC" Line="Our ally reports that he is attacking the enemy here." Status="_" />
+	<Factoid Event="AllyAttackingHere" defPri="3" File="play_unsc_coach_277" Civ="UNSC" Line="Our ally says that he is assaulting this position." Status="_" />
+	<Factoid Event="AllyAttackingHere" defPri="3" File="play_unsc_coach_278" Civ="UNSC" Line="Our ally is launching an attack here." Status="_" />
+	<Factoid Event="AllyBaseUnderAttack" defPri="3" File="play_cov_coach_085" Civ="COV" Line="Our ally's base is being overrun." Status="_" />
+	<Factoid Event="AllyBaseUnderAttack" defPri="3" File="play_cov_coach_086" Civ="COV" Line="Our ally is being attacked at his base." Status="_" />
+	<Factoid Event="AllyBaseUnderAttack" defPri="3" File="play_cov_coach_087" Civ="COV" Line="Our adversary is attacking our ally's base." Status="_" />
+	<Factoid Event="AllyBaseUnderAttack" defPri="3" File="play_unsc_coach_085" Civ="UNSC" Line="Our ally's base is being overrun." Status="_" />
+	<Factoid Event="AllyBaseUnderAttack" defPri="3" File="play_unsc_coach_086" Civ="UNSC" Line="Our ally is being attacked at his base." Status="_" />
+	<Factoid Event="AllyBaseUnderAttack" defPri="3" File="play_unsc_coach_087" Civ="UNSC" Line="The enemy is attacking our ally's base." Status="_" />
+	<Factoid Event="AllyCharging" defPri="5" File="play_cov_coach_390" Civ="COV" Line="Allied forces assault an enemy base." Status="_" />
+	<Factoid Event="AllyCharging" defPri="5" File="play_cov_coach_391" Civ="COV" Line="Our ally is going after the enemy base." Status="_" />
+	<Factoid Event="AllyCharging" defPri="5" File="play_unsc_coach_390" Civ="UNSC" Line="Allied forces assaulting the enemy base." Status="_" />
+	<Factoid Event="AllyCharging" defPri="5" File="play_unsc_coach_391" Civ="UNSC" Line="Our ally is going after the enemy base." Status="_" />
+	<Factoid Event="AllyForcesAttackingHere" defPri="5" File="play_cov_coach_379" Civ="COV" Line="Allied troops are beginning their assault." Status="_" />
+	<Factoid Event="AllyForcesAttackingHere" defPri="5" File="play_cov_coach_380" Civ="COV" Line="Allied troops are starting an attack." Status="_" />
+	<Factoid Event="AllyForcesAttackingHere" defPri="5" File="play_cov_coach_381" Civ="COV" Line="Allied troops are commencing their attack." Status="_" />
+	<Factoid Event="AllyForcesAttackingHere" defPri="5" File="play_unsc_coach_379" Civ="UNSC" Line="Allied troops beginning their assault." Status="_" />
+	<Factoid Event="AllyForcesAttackingHere" defPri="5" File="play_unsc_coach_380" Civ="UNSC" Line="Allied troops starting an attack." Status="_" />
+	<Factoid Event="AllyForcesAttackingHere" defPri="5" File="play_unsc_coach_381" Civ="UNSC" Line="Allied troops commencing attack." Status="_" />
+	<Factoid Event="AllyForcesRallyingHere" defPri="5" File="play_cov_coach_349" Civ="COV" Line="Allied forces are rallying here." Status="_" />
+	<Factoid Event="AllyForcesRallyingHere" defPri="5" File="play_cov_coach_350" Civ="COV" Line="Our ally is assembing his troops here." Status="_" />
+	<Factoid Event="AllyForcesRallyingHere" defPri="5" File="play_cov_coach_351" Civ="COV" Line="Our ally is sending additional forces here." Status="_" />
+	<Factoid Event="AllyForcesRallyingHere" defPri="5" File="play_cov_coach_352" Civ="COV" Line="Our ally is rallying his forces here." Status="_" />
+	<Factoid Event="AllyForcesRallyingHere" defPri="5" File="play_cov_coach_353" Civ="COV" Line="Our ally's fresh troops are heading here." Status="_" />
+	<Factoid Event="AllyForcesRallyingHere" defPri="5" File="play_unsc_coach_349" Civ="UNSC" Line="Allied forces are rallying here." Status="_" />
+	<Factoid Event="AllyForcesRallyingHere" defPri="5" File="play_unsc_coach_350" Civ="UNSC" Line="Our ally is assembing his troops here." Status="_" />
+	<Factoid Event="AllyForcesRallyingHere" defPri="5" File="play_unsc_coach_351" Civ="UNSC" Line="Our ally is sending additional forces here." Status="_" />
+	<Factoid Event="AllyForcesRallyingHere" defPri="5" File="play_unsc_coach_352" Civ="UNSC" Line="Our ally is rallying his forces here." Status="_" />
+	<Factoid Event="AllyForcesRallyingHere" defPri="5" File="play_unsc_coach_353" Civ="UNSC" Line="Our ally's fresh troops are heading here." Status="_" />
+	<Factoid Event="AllyJoiningAttack" defPri="4" File="play_cov_coach_282" Civ="COV" Line="Our ally will be joining this attack." Status="_" />
+	<Factoid Event="AllyJoiningAttack" defPri="4" File="play_cov_coach_283" Civ="COV" Line="Our ally will help us attack here." Status="_" />
+	<Factoid Event="AllyJoiningAttack" defPri="4" File="play_cov_coach_284" Civ="COV" Line="We'll be joined in this attack by our ally." Status="_" />
+	<Factoid Event="AllyJoiningAttack" defPri="3" File="play_unsc_coach_282" Civ="UNSC" Line="Our ally will be joining this attack." Status="_" />
+	<Factoid Event="AllyJoiningAttack" defPri="3" File="play_unsc_coach_283" Civ="UNSC" Line="Our ally will help us attack here." Status="_" />
+	<Factoid Event="AllyJoiningAttack" defPri="3" File="play_unsc_coach_284" Civ="UNSC" Line="We'll be joined in this attack by our ally." Status="_" />
+	<Factoid Event="UsedAbilityBarrage" defPri="2" File="play_unsc_coach_493" Civ="UNSC" Line="That Vulture Barrage should wake them up!" Status="_" />
+	<Factoid Event="UsedAbilityBrute" defPri="3" File="play_cov_coach_489" Civ="COV" Line="There is never a bad time to use the Brute Shot." Status="_" />
+	<Factoid Event="UsedAbilityCleansing" defPri="3" File="play_cov_coach_487" Civ="COV" Line="See the fools fall before the Prophet's Cleansing!" Status="_" />
+	<Factoid Event="UsedAbilityCloak" defPri="3" File="play_cov_coach_488" Civ="COV" Line="Perfect - our enemies cannot see our cloaked Elites." Status="_" />
+	<Factoid Event="UsedAbilityDeploy" defPri="2" File="play_unsc_coach_485" Civ="UNSC" Line="That vehicle will be much more effective now that it's deployed." Status="_" />
+	<Factoid Event="UsedAbilityEMP" defPri="2" File="play_unsc_coach_487" Civ="UNSC" Line="A perfect use of the Gremlin's EMP!" Status="_" />
+	<Factoid Event="UsedAbilityFlash" defPri="2" File="play_unsc_coach_490" Civ="UNSC" Line="Ah! Good use of those Flash Bangs." Status="_" />
+	<Factoid Event="UsedAbilityGrenade" defPri="2" File="play_unsc_coach_488" Civ="UNSC" Line="Well done - there's never a bad time for a grenade!" Status="_" />
+	<Factoid Event="UsedAbilityJack" defPri="2" File="play_unsc_coach_484" Civ="UNSC" Line="Excellent - the Spartan will make good use of that vehicle." Status="_" />
+	<Factoid Event="UsedAbilityMortar" defPri="3" File="play_cov_coach_494" Civ="COV" Line="A good use of the Wraith's Plasma Mortar." Status="_" />
+	<Factoid Event="UsedAbilityOverdrive" defPri="3" File="play_cov_coach_495" Civ="COV" Line="No better time than now to use the Locust's Overdrive." Status="_" />
+	<Factoid Event="UsedAbilityRage" defPri="3" File="play_cov_coach_485" Civ="COV" Line="A fine time for the Arbiter's Rage." Status="_" />
+	<Factoid Event="UsedAbilityRam" defPri="3" File="play_cov_coach_483" Civ="COV" Line="Excellent use of that Ghost's Boosted Ram." Status="_" />
+	<Factoid Event="UsedAbilityRam" defPri="2" File="play_unsc_coach_483" Civ="UNSC" Line="Nice use of the Warthog's Ram ability." Status="_" />
+	<Factoid Event="UsedAbilityRocket" defPri="2" File="play_unsc_coach_489" Civ="UNSC" Line="Nice shooting with those rockets." Status="_" />
+	<Factoid Event="UsedAbilityRunOver" defPri="3" File="play_cov_coach_484" Civ="COV" Line="You used that Brute Chopper's ability well." Status="_" />
+	<Factoid Event="UsedAbilityStasis" defPri="3" File="play_cov_coach_497" Civ="COV" Line="Our Vampire's Stasis surprised our enemies!" Status="_" />
+	<Factoid Event="UsedAbilitySticky" defPri="3" File="play_cov_coach_491" Civ="COV" Line="A fine time for the Grunts to hurl their Sticky Grenades." Status="_" />
+	<Factoid Event="UsedAbilitySuicide" defPri="3" File="play_cov_coach_490" Civ="COV" Line="Those Grunts sacrificed themselves for a worthy cause." Status="_" />
+	<Factoid Event="UsedAbilityThrow" defPri="2" File="play_unsc_coach_486" Civ="UNSC" Line="Nicely-timed throw on the part of that Cyclops." Status="_" />
+	<Factoid Event="UsedAbilityVortex" defPri="3" File="play_cov_coach_486" Civ="COV" Line="An excellent use of the Chieftan's Vortex!" Status="_" />
+</Factoids>

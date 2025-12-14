@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BlockLP.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Power" Name="NewPower0" IsNull="false" />
+    <TriggerVar ID="1" Type="Player" Name="NewPlayer1" IsNull="false" />
+    <TriggerVar ID="40" Type="Bool" Name="NewBool40" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="43" Type="Player" Name="NewPlayer43" IsNull="false" />
+    <TriggerVar ID="46" Type="Bool" Name="NewBool40" IsNull="false">False</TriggerVar>
+    <TriggerVar ID="47" Type="Player" Name="NewPlayer43" IsNull="false" />
+    <TriggerVar ID="48" Type="Time" Name="NewTime48" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="51" Type="PlayerList" Name="NewPlayerList51" IsNull="false" />
+    <TriggerVar ID="54" Type="Diplomacy" Name="NewDiplomacy54" IsNull="false">Enemy</TriggerVar>
+    <TriggerVar ID="55" Type="PlayerState" Name="NewPlayerState55" IsNull="false">Playing</TriggerVar>
+    <TriggerVar ID="56" Type="Bool" Name="NewBool56" IsNull="false">False</TriggerVar>
+    <TriggerVar ID="60" Type="LocStringID" Name="NewLocStringID60" IsNull="false">357</TriggerVar>
+    <TriggerVar ID="62" Type="Time" Name="NewTime48" IsNull="false">45000</TriggerVar>
+    <TriggerVar ID="63" Type="Bool" Name="NewBool63" IsNull="false">False</TriggerVar>
+    <TriggerVar ID="64" Type="Integer" Name="NewInteger64" IsNull="false" />
+    <TriggerVar ID="67" Type="Trigger" Name="NewTrigger0" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="68" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="69" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="70" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="71" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="72" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="73" Type="Trigger" Name="NewTrigger2" IsNull="false">2</TriggerVar>
+    <TriggerVar ID="74" Type="Iterator" Name="linkedIterator" IsNull="false" />
+    <TriggerVar ID="75" Type="Trigger" Name="NewTrigger31" IsNull="false">31</TriggerVar>
+    <TriggerVar ID="76" Type="Player" Name="nullPlayer" IsNull="true" />
+    <TriggerVar ID="77" Type="Trigger" Name="NewTrigger33" IsNull="false">33</TriggerVar>
+    <TriggerVar ID="78" Type="Time" Name="nullTime" IsNull="true" />
+    <TriggerVar ID="79" Type="Iterator" Name="linkedIterator" IsNull="false" />
+    <TriggerVar ID="80" Type="Trigger" Name="NewTrigger31" IsNull="false">35</TriggerVar>
+    <TriggerVar ID="780" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="790" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="800" Type="Float" Name="nullFloat" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-2473" Y="-1959" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="0" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">1</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">0</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">68</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">69</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">70</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">71</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">72</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="7" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">73</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="10" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="2" Name="NewTrigger2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-1199" Y="-1948" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="3" Type="CanUsePower v1" DBID="27" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">1</Input>
+            <Input Name="Power" SigID="2" Optional="false">0</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="17" Type="PowerChargeUseOf v5" DBID="77" Version="5" CommentOut="false">
+          <Input Name="Owner" SigID="1" Optional="false">1</Input>
+          <Input Name="Power" SigID="2" Optional="false">0</Input>
+          <Input Name="Squad" SigID="4" Optional="true">780</Input>
+          <Input Name="Target" SigID="5" Optional="true">790</Input>
+          <Input Name="CostMultiplier" SigID="6" Optional="true">800</Input>
+        </Effect>
+        <Effect ID="18" Type="UIUnlock v1" DBID="330" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">1</Input>
+        </Effect>
+        <Effect ID="76" Type="GetPlayers2 v2" DBID="431" Version="2" CommentOut="false">
+          <Input Name="IncludeGaia" SigID="2" Optional="false">56</Input>
+          <Input Name="IncludeSelf" SigID="3" Optional="false">56</Input>
+          <Input Name="PlayerState" SigID="7" Optional="false">55</Input>
+          <Input Name="TestPlayer" SigID="5" Optional="false">1</Input>
+          <Input Name="RelationType" SigID="6" Optional="false">54</Input>
+          <Output Name="PlayerList" SigID="1" Optional="false">51</Output>
+        </Effect>
+        <Effect ID="69" Type="IteratorPlayerList v1" DBID="120" Version="1" CommentOut="false">
+          <Input Name="PlayerList" SigID="1" Optional="false">51</Input>
+          <Output Name="InitializedIterator" SigID="2" Optional="false">74</Output>
+        </Effect>
+        <Effect ID="73" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">75</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="31" Name="NewTrigger31" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1248" Y="-1976" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="34" Type="NextPlayer v1" DBID="118" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="PlayerIterator" SigID="1" Optional="false">74</Input>
+            <Output Name="NextPlayer" SigID="2" Optional="false">43</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="56" Type="BlockLeaderPowers v1" DBID="756" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">43</Input>
+          <Input Name="Block" SigID="2" Optional="false">40</Input>
+        </Effect>
+        <Effect ID="55" Type="BlockMinimap v1" DBID="753" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">43</Input>
+          <Input Name="Block" SigID="2" Optional="false">40</Input>
+        </Effect>
+        <Effect ID="60" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">75</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="81" Type="TimerCreate v5" DBID="658" Version="5" CommentOut="false">
+          <Input Name="CountUp" SigID="1" Optional="false">63</Input>
+          <Input Name="StartTime" SigID="2" Optional="false">62</Input>
+          <Input Name="StopTime" SigID="3" Optional="false">48</Input>
+          <Input Name="Label" SigID="6" Optional="true">60</Input>
+          <Input Name="Player" SigID="7" Optional="true">76</Input>
+          <Input Name="PlayerList" SigID="8" Optional="true">51</Input>
+          <Output Name="TimerID" SigID="4" Optional="false">64</Output>
+        </Effect>
+        <Effect ID="62" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">77</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="33" Name="NewTrigger33" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3697" Y="-1174" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="44" Type="TimerIsDone v1" DBID="661" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="TimerID" SigID="1" Optional="false">64</Input>
+            <Output Name="CurrentTime" SigID="2" Optional="true">78</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="84" Type="TimerDestroy v1" DBID="659" Version="1" CommentOut="false">
+          <Input Name="TimerID" SigID="1" Optional="false">64</Input>
+        </Effect>
+        <Effect ID="71" Type="IteratorPlayerList v1" DBID="120" Version="1" CommentOut="false">
+          <Input Name="PlayerList" SigID="1" Optional="false">51</Input>
+          <Output Name="InitializedIterator" SigID="2" Optional="false">79</Output>
+        </Effect>
+        <Effect ID="75" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">80</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="35" Name="NewTrigger31" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="5712" Y="-1051" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="38" Type="NextPlayer v1" DBID="118" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="PlayerIterator" SigID="1" Optional="false">79</Input>
+            <Output Name="NextPlayer" SigID="2" Optional="false">47</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="64" Type="BlockLeaderPowers v1" DBID="756" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">47</Input>
+          <Input Name="Block" SigID="2" Optional="false">46</Input>
+        </Effect>
+        <Effect ID="66" Type="BlockMinimap v1" DBID="753" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">47</Input>
+          <Input Name="Block" SigID="2" Optional="false">46</Input>
+        </Effect>
+        <Effect ID="67" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">80</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="68" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnFalse>
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Tables>
+	<Table Name="SetA" Type="BuildingBuildList">
+		<Row>
+			<c>fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_veh_pilotes_01,fore_air_attractor_01,fore_air_attractor_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_veh_pilotes_01,fore_inf_walker_01,fore_veh_pilotes_01,fore_inf_walker_01,fore_veh_pilotes_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_walker_01,fore_inf_walker_01,fore_inf_walker_01,fore_inf_walker_01,fore_inf_walker_01,fore_inf_walker_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_guardian_01_new,fore_inf_knight_01,fore_inf_knight_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_enforcer_01,for_air_enforcer_01,for_air_regulator_01,for_air_regulator_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_guardian_01_new,fore_air_guardian_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_guardian_01_new,fore_air_guardian_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_guardian_01_new,fore_air_guardian_01_new,fore_air_guardian_01_new,fore_air_guardian_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_inf_soldier_01,fore_inf_soldier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,for_air_enforcer_01,for_veh_eradicator_01_new,fore_air_sentinel_03,for_air_enforcer_01,for_veh_eradicator_01_new,fore_air_sentinel_03,for_air_enforcer_01,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_supersentinel_01,for_air_supersentinel_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,for_veh_eradicator_01_new,fore_air_sentinel_03,for_veh_eradicator_01_new,fore_air_sentinel_03,for_veh_eradicator_01_new,fore_air_sentinel_03,for_veh_eradicator_01_new,fore_air_sentinel_03</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_supersentinel_01,for_air_supersentinel_01,for_air_supersentinel_01</c> <!-- Composition -->
+		</Row>
+	</Table>
+	<Table Name="SetB" Type="BuildingBuildList">
+		<Row>
+			<c>fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_veh_pilotes_01,fore_air_attractor_01,fore_air_attractor_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_veh_pilotes_01,fore_inf_walker_01,fore_veh_pilotes_01,fore_inf_walker_01,fore_veh_pilotes_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_walker_01,fore_inf_walker_01,fore_inf_walker_01,fore_inf_walker_01,fore_inf_walker_01,fore_inf_walker_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_guardian_01_new,fore_inf_knight_01,fore_inf_knight_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_enforcer_01,for_air_enforcer_01,for_air_regulator_01,for_air_regulator_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_guardian_01_new,fore_air_guardian_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_guardian_01_new,fore_air_guardian_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_guardian_01_new,fore_air_guardian_01_new,fore_air_guardian_01_new,fore_air_guardian_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_inf_soldier_01,fore_inf_soldier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,for_air_enforcer_01,for_veh_eradicator_01_new,fore_air_sentinel_03,for_air_enforcer_01,for_veh_eradicator_01_new,fore_air_sentinel_03,for_air_enforcer_01,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_supersentinel_01,for_air_supersentinel_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,for_veh_eradicator_01_new,fore_air_sentinel_03,for_veh_eradicator_01_new,fore_air_sentinel_03,for_veh_eradicator_01_new,fore_air_sentinel_03,for_veh_eradicator_01_new,fore_air_sentinel_03</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_supersentinel_01,for_air_supersentinel_01,for_air_supersentinel_01</c> <!-- Composition -->
+		</Row>
+	</Table>
+	<Table Name="SetC" Type="BuildingBuildList">
+		<Row>
+			<c>fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_veh_pilotes_01,fore_air_attractor_01,fore_air_attractor_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_veh_pilotes_01,fore_inf_walker_01,fore_veh_pilotes_01,fore_inf_walker_01,fore_veh_pilotes_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_walker_01,fore_inf_walker_01,fore_inf_walker_01,fore_inf_walker_01,fore_inf_walker_01,fore_inf_walker_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_guardian_01_new,fore_inf_knight_01,fore_inf_knight_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_enforcer_01,for_air_enforcer_01,for_air_regulator_01,for_air_regulator_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_guardian_01_new,fore_air_guardian_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_guardian_01_new,fore_air_guardian_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_guardian_01_new,fore_air_guardian_01_new,fore_air_guardian_01_new,fore_air_guardian_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_inf_soldier_01,fore_inf_soldier_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_03,for_air_enforcer_01,for_veh_eradicator_01_new,fore_air_sentinel_03,for_air_enforcer_01,for_veh_eradicator_01_new,fore_air_sentinel_03,for_air_enforcer_01,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01,for_air_regulator_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_supersentinel_01,for_air_supersentinel_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,for_veh_eradicator_01_new,fore_air_sentinel_03,for_veh_eradicator_01_new,fore_air_sentinel_03,for_veh_eradicator_01_new,fore_air_sentinel_03,for_veh_eradicator_01_new,fore_air_sentinel_03</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_air_enforcer_01,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01,fore_inf_knight_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>for_air_supersentinel_01,for_air_supersentinel_01,for_air_supersentinel_01</c> <!-- Composition -->
+		</Row>
+	</Table>
+</Tables>

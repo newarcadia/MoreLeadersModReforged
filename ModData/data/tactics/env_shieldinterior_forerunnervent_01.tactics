@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>Revive</Name>
+		<ActionType>Revive</ActionType>
+		<ReviveDelay>5</ReviveDelay>
+		<HibernateReviveDelay>60</HibernateReviveDelay>
+		<ReviveRate>115</ReviveRate>
+	</Action>
+	<Action>
+		<Name>SpawnSentinel</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_air_bomber_01</SquadType>
+		<WorkRate>300</WorkRate>
+		<WorkRateVariance>124</WorkRateVariance>
+	</Action>
+	<Action>
+		<Name>SpawnSentinel</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_air_swarm_01</SquadType>
+		<WorkRate>120</WorkRate>
+		<WorkRateVariance>60</WorkRateVariance>
+	</Action>
+	<Action>
+		<Name>SpawnSentinel</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_air_sporecloud_01</SquadType>
+		<WorkRate>600</WorkRate>
+	</Action>
+	<Action>
+		<Name>AmbientLifeSpawner</Name>
+		<ActionType>AmbientLifeSpawner</ActionType>
+		<SquadType>fld_air_bomber_02</SquadType>
+	</Action>
+	<Tactic>
+		<PersistentAction>AmbientLifeSpawner</PersistentAction>
+		<PersistentAction>SpawnSentinel</PersistentAction>
+		<PersistentAction>Revive</PersistentAction>
+	</Tactic>
+</TacticData>

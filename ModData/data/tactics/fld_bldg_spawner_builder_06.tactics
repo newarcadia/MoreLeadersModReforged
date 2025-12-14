@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>SpawnSentinel</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_air_bomber_01</SquadType>
+		<WorkRate>60</WorkRate>
+		<HideSpawnUntilRelease />
+	</Action>
+	<Action>
+		<Name>SpawnSentinel1</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_air_bomber_01</SquadType>
+		<WorkRate>1</WorkRate>
+		<HideSpawnUntilRelease />
+		<Count>3</Count>
+	</Action>
+	<Tactic>
+		<PersistentAction>SpawnSentinel</PersistentAction>
+		<PersistentAction>SpawnSentinel1</PersistentAction>
+	</Tactic>
+</TacticData>

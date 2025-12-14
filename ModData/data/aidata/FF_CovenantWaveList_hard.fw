@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Tables>
+	<Table Name="SetA" Type="BuildingBuildList">
+		<Row>
+			<c>cov_inf_bruteBerserker_01,cov_inf_bruteBerserker_01,cov_inf_bruteBerserker_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_grunt_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_grunt_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_grunt_01,cov_inf_gruntDeacon_01,cov_inf_grunt_01,cov_inf_gruntDeacon_01,cov_inf_grunt_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_gruntDeacon_01,cov_inf_gruntDeacon_01,cov_inf_gruntDeacon_01,cov_inf_gruntDeacon_01,cov_inf_gruntDeacon_01,cov_inf_gruntDeacon_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_arbiter_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_hunter_01,cov_inf_hunter_01,cov_veh_chimera_02,cov_veh_chimera_02</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_scarab_01,cov_veh_scarab_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_ghost_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_bruteChief_01,cov_inf_arbiter_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_bruteChief_01,cov_inf_arbiter_01,cov_inf_prophet_01,cov_inf_skirmisherchampion_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_chimera_02,cov_veh_chimera_02,cov_veh_chimera_02,cov_veh_chimera_02,cov_veh_chimera_02,cov_veh_chimera_02,cov_veh_chimera_02</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_inf_fuelrodelite,cov_inf_fuelrodelite</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_grunt_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_locust_01,cov_veh_locust_01,cov_veh_locust_01,cov_veh_locust_01,cov_veh_locust_01,cov_veh_locust_01,cov_veh_locust_01,cov_veh_locust_01,cov_veh_locust_01,cov_veh_locust_01,cov_veh_locust_01,cov_veh_locust_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_inf_hunter_01,cov_veh_wraithaa_01,cov_veh_wraith_01,cov_inf_hunter_01,cov_veh_wraithaa_01,cov_veh_wraith_01,cov_inf_hunter_01,cov_veh_wraithaa_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_scarab_01,cov_veh_scarab_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_air_banshee_01,cov_air_vampire_01,cov_air_banshee_01,cov_air_vampire_01,cov_air_banshee_01,cov_air_vampire_01,cov_air_banshee_01,cov_air_vampire_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01,cov_inf_heavyelite_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_scarab_01,cov_veh_scarab_01,cov_titan_superscarab_01</c> <!-- Composition -->
+		</Row>
+	</Table>
+	<Table Name="SetB" Type="BuildingBuildList">
+		<Row>
+			<c>cov_inf_bruteBerserker_01,cov_inf_bruteBerserker_01,cov_inf_bruteBerserker_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_grunt_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_grunt_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_grunt_01,cov_veh_locust_01,cov_inf_grunt_01,cov_veh_locust_01,cov_inf_grunt_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_locust_01,cov_veh_locust_01,cov_veh_locust_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_locust_01,cov_veh_locust_01,cov_veh_locust_01,cov_veh_locust_01,cov_veh_locust_01,cov_veh_locust_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_skirmisherchampion_01,cov_inf_brute_01,cov_inf_brute_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_hunter_01,cov_inf_hunter_01,cov_veh_chimera_02,cov_veh_chimera_02</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_scarab_01,cov_veh_scarab_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_ghost_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_bruteChief_01,cov_inf_skirmisherchampion_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_bruteChief_01,cov_inf_skirmisherchampion_01,cov_inf_prophet_01,cov_inf_skirmisherchampion_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_chimera_02,cov_veh_chimera_02,cov_veh_chimera_02,cov_veh_chimera_02,cov_veh_chimera_02,cov_veh_chimera_02,cov_veh_chimera_02</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_inf_fuelrodelite,cov_inf_fuelrodelite</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_grunt_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraithaa_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_inf_hunter_01,cov_veh_wraithaa_01,cov_veh_wraith_01,cov_inf_hunter_01,cov_veh_wraithaa_01,cov_veh_wraith_01,cov_inf_hunter_01,cov_veh_wraithaa_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_inf_fuelrodelite</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_scarab_01,cov_veh_scarab_01,cov_veh_scarab_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_inf_eliteCommando_01,cov_air_vampire_01,cov_inf_eliteCommando_01,cov_air_vampire_01,cov_inf_eliteCommando_01,cov_air_vampire_01,cov_inf_eliteCommando_01,cov_air_vampire_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_titan_superscarab_01,cov_titan_superscarab_01</c> <!-- Composition -->
+		</Row>
+	</Table>
+	<Table Name="SetC" Type="BuildingBuildList">
+		<Row>
+			<c>cov_inf_bruteBerserker_01,cov_inf_bruteBerserker_01,cov_inf_bruteBerserker_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_drones_01,cov_inf_gutarider_01,cov_inf_gutarider_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_drones_01,cov_inf_gruntDeacon_01,cov_inf_drones_01,cov_inf_gruntDeacon_01,cov_inf_drones_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_gruntDeacon_01,cov_inf_gruntDeacon_01,cov_inf_gruntDeacon_01,cov_inf_gruntDeacon_01,cov_inf_gruntDeacon_01,cov_inf_gruntDeacon_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_arbiter_01,cov_inf_drones_01,cov_inf_drones_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_hunter_01,cov_inf_hunter_01,cov_veh_chimera_02,cov_veh_chimera_02</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_scarab_01,cov_veh_scarab_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01,cov_inf_eliteCommando_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_majordrones_01,cov_inf_majordrones_01,cov_inf_majordrones_01,cov_inf_majordrones_01,cov_inf_majordrones_01,cov_inf_majordrones_01,cov_inf_majordrones_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_bruteChief_01,cov_inf_arbiter_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_bruteChief_01,cov_inf_arbiter_01,cov_inf_prophet_01,cov_inf_skirmisherchampion_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_chimera_02,cov_veh_chimera_02,cov_veh_chimera_02,cov_veh_chimera_02,cov_veh_chimera_02,cov_veh_chimera_02,cov_veh_chimera_02</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_air_artillery_01,cov_air_artillery_01,cov_air_artillery_01,cov_air_artillery_01,cov_air_artillery_01,cov_air_artillery_01,cov_air_artillery_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_majordrones_01,cov_inf_majordrones_01,cov_inf_majordrones_01,cov_inf_majordrones_01,cov_inf_majordrones_01,cov_air_artillery_01,cov_air_artillery_01,cov_air_artillery_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_wraith_01,cov_inf_hunter_01,cov_air_artillery_01,cov_veh_wraith_01,cov_inf_hunter_01,cov_air_artillery_01,cov_veh_wraith_01,cov_inf_hunter_01,cov_air_artillery_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01,cov_inf_skirmisherAV_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_scarab_01,cov_veh_scarab_01,cov_veh_scarab_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_air_beetle_01,cov_air_vampire_01,cov_air_beetle_01,cov_air_vampire_01,cov_air_beetle_01,cov_air_vampire_01,cov_air_beetle_01,cov_air_vampire_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_air_artillery_01,cov_air_artillery_01,cov_air_artillery_01,cov_air_artillery_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_inf_gutarider_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01,cov_inf_drones_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_veh_scarab_01,cov_veh_scarab_01,cov_veh_scarab_01,cov_veh_scarab_01</c> <!-- Composition -->
+		</Row>
+	</Table>
+</Tables>

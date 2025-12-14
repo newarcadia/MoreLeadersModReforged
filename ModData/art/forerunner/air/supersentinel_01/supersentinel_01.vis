@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>forerunner\air\supersentinel_01\supersentinel_01</file>
+				<damagefile>forerunner\air\supersentinel_01\supersentinel_01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="TurretHead" tobone="BoneTurretHead" frombone="BoneTurretHead" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="RightTurret" tobone="BoneTurret01" frombone="BoneTurret01" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="LeftTurret" tobone="BoneTurret02" frombone="BoneTurret02" syncanims="true" disregardorient="false" />
+			<attach type="LightFile" name="campaign\scn11\supersentinel_01\mouthlight_01" tobone="BoneHead" syncanims="false" disregardorient="false" />
+			<point pointType="Impact" bone="bone_impact_01" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_02" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_03" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_04" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\air\sentinel_03\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\air\sentinel_03\walk_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\air\sentinel_03\walk_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\air\sentinel_03\walk_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="BeamAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\air\sentinel_03\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="RightTurretAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\air\sentinel_03\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="LeftTurretAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\air\sentinel_03\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\scn11\supersentinel_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="TurretHead">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>forerunner\air\supersentinel_01\supersentinelheadturret_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\air\sentinel_03\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="BeamAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\air\sentinel_03\idle_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.0250000004" end="1" tobone="bone_launchpoint01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\scn11\supersentinel_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="RightTurret">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>forerunner\air\supersentinel_01\supersentinelturret_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\air\sentinel_03\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="RightTurretAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\air\sentinel_03\idle_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.0250000004" end="1" tobone="bone_launchpoint04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\scn11\supersentinel_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="LeftTurret">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>forerunner\air\supersentinel_01\supersentinelturret_02</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\air\sentinel_03\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="LeftTurretAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\air\sentinel_03\idle_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.0250000004" end="1" tobone="bone_launchpoint03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\scn11\supersentinel_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>

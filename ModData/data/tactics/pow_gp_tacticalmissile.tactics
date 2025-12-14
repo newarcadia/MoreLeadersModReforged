@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>tacticalMissileAOE</Name>
+		<AllowFriendlyFire />
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>1000</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Reapply>0.15</Reapply>
+		<Apply>10</Apply>
+		<DOTrate>8</DOTrate>
+		<DOTduration>60</DOTduration>
+		<DOTEffect small="fx_proj_plasmadotSm_01" medium="fx_proj_plasmadotMed_01" large="fx_proj_plasmadotLg_01">fx_proj_plasmadot_01</DOTEffect>
+		<Projectile>pow_gp_tacticalMissile</Projectile>
+		<ImpactEffect size="Large">EmpBlast</ImpactEffect>
+		<ImpactCameraShake duration="0.5" strength="5" />
+		<ImpactRumble leftRumbleType="Fixed" leftStrength="1" rightRumbleType="Fixed" rightStrength="1" duration="0.5" />
+		<AllowFriendlyFire />
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MaxRange>1</MaxRange>
+		<AOERadius>60</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1500</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<Daze TargetType="Mechanical" MovementModifier="0" SmartTargeting="true">3.0f</Daze>
+	</Weapon>
+	<Weapon>
+		<Name>tacticalMissile</Name>
+		<AllowFriendlyFire />
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>63000</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>pow_gp_tacticalMissile</Projectile>
+		<ImpactEffect size="Large">NukeImpact</ImpactEffect>
+		<ImpactCameraShake duration="0.5" strength="5" />
+		<ImpactRumble leftRumbleType="Fixed" leftStrength="1" rightRumbleType="Fixed" rightStrength="1" duration="0.5" />
+		<AllowFriendlyFire />
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MaxRange>1</MaxRange>
+		<AOERadius>40</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1500</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<Daze TargetType="Mechanical" MovementModifier="0" SmartTargeting="true">8.0f</Daze>
+	</Weapon>
+	<Action>
+		<ActionType>Detonate</ActionType>
+		<Default>true</Default>
+		<Name>tacticalMissileAttackAction</Name>
+		<Weapon>tacticalMissile</Weapon>
+		<DetonateFromPhysics PhysicsDetonationThreshold="4" />
+		<Duration DurationSpread="1">3</Duration>
+		<DetonateOnDeath />
+	</Action>
+	<Action>
+		<ActionType>Detonate</ActionType>
+		<Name>tacticalMissileAOEAttackAction</Name>
+		<Weapon>tacticalMissileAOE</Weapon>
+		<DetonateFromPhysics PhysicsDetonationThreshold="4" />
+		<Duration DurationSpread="1">3</Duration>
+		<DetonateOnDeath />
+	</Action>
+	<Tactic>
+		<PersistentAction>tacticalMissileAttackAction</PersistentAction>
+		<PersistentAction>tacticalMissileAOEAttackAction</PersistentAction>
+	</Tactic>
+</TacticData>

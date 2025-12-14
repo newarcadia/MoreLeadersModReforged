@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Tables>
+	<Table Name="SetA" Type="BuildingBuildList">
+		<Row>
+			<c>ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_bruteGrunt_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_bruteGrunt_01,ban_inf_spartan_01,ban_inf_bruteGrunt_01,ban_inf_spartan_01,ban_inf_bruteGrunt_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_spartan_01,ban_inf_spartan_01,ban_inf_spartan_01,ban_inf_spartan_01,ban_inf_spartan_01,ban_inf_spartan_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_decimus_01,ban_veh_skitterer_01,ban_veh_skitterer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_hunter_01,ban_inf_hunter_01,ban_veh_marauder_01,ban_veh_marauder_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_scarab_01,ban_veh_scarab_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_huntercaptain_01,ban_inf_decimus_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_huntercaptain_01,ban_inf_decimus_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_inf_goliath_01,ban_inf_goliath_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_wraith_01,ban_inf_hunter_01,ban_veh_marauder_01,ban_veh_wraith_01,ban_inf_hunter_01,ban_veh_marauder_01,ban_veh_wraith_01,ban_inf_hunter_01,ban_veh_marauder_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_scarab_01,ban_veh_scarab_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_air_banshee_01,ban_veh_locust_01,ban_air_banshee_01,ban_veh_locust_01,ban_air_banshee_01,ban_veh_locust_01,ban_air_banshee_01,ban_veh_locust_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_scarab_01,ban_veh_scarab_01,ban_veh_scarab_01,ban_veh_scarab_01</c> <!-- Composition -->
+		</Row>
+	</Table>
+	<Table Name="SetB" Type="BuildingBuildList">
+		<Row>
+			<c>ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_bruteGrunt_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_bruteGrunt_01,ban_inf_spartan_01,ban_inf_bruteGrunt_01,ban_inf_spartan_01,ban_inf_bruteGrunt_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_spartan_01,ban_inf_spartan_01,ban_inf_spartan_01,ban_inf_spartan_01,ban_inf_spartan_01,ban_inf_spartan_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_decimus_01,ban_veh_skitterer_01,ban_veh_skitterer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_hunter_01,ban_inf_hunter_01,ban_veh_marauder_01,ban_veh_marauder_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_scarab_01,ban_veh_scarab_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_huntercaptain_01,ban_inf_decimus_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_huntercaptain_01,ban_inf_decimus_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_inf_goliath_01,ban_inf_goliath_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_wraith_01,ban_inf_hunter_01,ban_veh_marauder_01,ban_veh_wraith_01,ban_inf_hunter_01,ban_veh_marauder_01,ban_veh_wraith_01,ban_inf_hunter_01,ban_veh_marauder_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_scarab_01,ban_veh_scarab_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_air_banshee_01,ban_veh_locust_01,ban_air_banshee_01,ban_veh_locust_01,ban_air_banshee_01,ban_veh_locust_01,ban_air_banshee_01,ban_veh_locust_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_scarab_01,ban_veh_scarab_01,ban_veh_scarab_01,ban_veh_scarab_01</c> <!-- Composition -->
+		</Row>
+	</Table>
+	<Table Name="SetC" Type="BuildingBuildList">
+		<Row>
+			<c>ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_bruteGrunt_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_bruteGrunt_01,ban_inf_spartan_01,ban_inf_bruteGrunt_01,ban_inf_spartan_01,ban_inf_bruteGrunt_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_spartan_01,ban_inf_spartan_01,ban_inf_spartan_01,ban_inf_spartan_01,ban_inf_spartan_01,ban_inf_spartan_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_decimus_01,ban_veh_skitterer_01,ban_veh_skitterer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_hunter_01,ban_inf_hunter_01,ban_veh_marauder_01,ban_veh_marauder_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_scarab_01,ban_veh_scarab_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01,ban_inf_bruteHammer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_huntercaptain_01,ban_inf_decimus_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_huntercaptain_01,ban_inf_decimus_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_inf_goliath_01,ban_inf_goliath_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01,ban_veh_locust_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_wraith_01,ban_inf_hunter_01,ban_veh_marauder_01,ban_veh_wraith_01,ban_inf_hunter_01,ban_veh_marauder_01,ban_veh_wraith_01,ban_inf_hunter_01,ban_veh_marauder_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_scarab_01,ban_veh_scarab_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_air_banshee_01,ban_veh_locust_01,ban_air_banshee_01,ban_veh_locust_01,ban_air_banshee_01,ban_veh_locust_01,ban_air_banshee_01,ban_veh_locust_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_bruteChopper_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01,ban_veh_skitterer_01</c> <!-- Composition -->
+		</Row>
+		<Row>
+			<c>ban_veh_scarab_01,ban_veh_scarab_01,ban_veh_scarab_01,ban_veh_scarab_01</c> <!-- Composition -->
+		</Row>
+	</Table>
+</Tables>

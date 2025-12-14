@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>Join</Name>
+		<ActionType>Join</ActionType>
+		<WorkRange>5</WorkRange>
+		<JoinType>Follow</JoinType>
+		<MergeType>Air</MergeType>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>Join</Action>
+			<MergeType>Air</MergeType>
+		</TargetRule>
+	</Tactic>
+</TacticData>

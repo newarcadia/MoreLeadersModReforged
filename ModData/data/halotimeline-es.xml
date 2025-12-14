@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="us-ascii"?>
+<Timeline>
+	<LockedImage>img://art\ui\flash\shared\textures\timeline\timeline_locked.ddx</LockedImage>
+	<Event>
+		<Name>FloodOnslaught2</Name>
+		<Status>Unlocked</Status>
+		<Position>1</Position>
+		<Title>Configuración del juego</Title>
+		<Date>Firefight</Date>
+		<DetailText>Puedes establecer la dificultad de tiroteo usando el primer jugador de IA en el equipo Bravo (la IA que se destruye al comienzo del partido). Escala de olas según el número de jugadores.</DetailText>
+		<UnlockedImage>img://art\ui\flash\shared\textures\timeline\timeline_unsc.ddx</UnlockedImage>
+	</Event>
+	<Event>
+		<Name>FloodOnslaught</Name>
+		<Status>Unlocked</Status>
+		<Position>2</Position>
+		<Title>Difficulty Scale</Title>
+		<Date>Firefight</Date>
+		<DetailText>Fácil reduce el daño y la salud al 0,3 por ciento.
+Normal reduce el daño y la salud al 0,75 por ciento.
+Heroico reduce el daño al 0.9 por ciento y agrega un 15% a las recompensas de la unidad (nivelación de veteranía más rápida)
+Legendario aumenta el daño y la salud en un 30% y la velocidad (Velocidad de la unidad) en un 20% por ciento y agrega hasta un 100% a las recompensas (nivelación de veteranía más rápida)</DetailText>
+		<UnlockedImage>img://art\ui\flash\shared\textures\timeline\timeline_unsc.ddx</UnlockedImage>
+	</Event>
+	<Event>
+		<Name>GameStudios</Name>
+		<Status>Unlocked</Status>
+		<Position>90</Position>
+		<Title>Tools</Title>
+		<Date>Credits</Date>
+		<DetailText>Halo Wars © Microsoft Corporation. Sarcophagus was created under Microsoft's "Game Content Usage Rules" using assets from Halo Wars 1/2 and Halo 3 ODST, and it is not endorsed by or affiliated with Microsoft. www.xbox.com/de-DE/developers/rules</DetailText>
+		<UnlockedImage>img://art\ui\flash\shared\textures\timeline\timeline_unsc.ddx</UnlockedImage>
+	</Event>
+	<Event>
+		<Name>Credits1</Name>
+		<Status>Unlocked</Status>
+		<Position>95</Position>
+		<Title>Sketchfab</Title>
+		<Date>Credits</Date>
+		<DetailText>"Halo: Infinite - Skewer Banished" by Glitch5970 is licensed under Creative Commons Attribution.
+"Pulse Carbine - Halo: Infinite" by Glitch5970 is licensed under Creative Commons Attribution.</DetailText>
+		<UnlockedImage>img://art\ui\flash\shared\textures\timeline\timeline_unsc.ddx</UnlockedImage>
+	</Event>
+	<Event>
+		<Name>Credits2</Name>
+		<Status>Unlocked</Status>
+		<Position>96</Position>
+		<Title>Halopedia</Title>
+		<Date>Credits</Date>
+		<DetailText>Las descripciones de las unidades pueden utilizar texto de Halopedia. Echa un vistazo a su increíble trabajo.</DetailText>
+		<UnlockedImage>img://art\ui\flash\shared\textures\timeline\timeline_unsc.ddx</UnlockedImage>
+	</Event>
+	<Event>
+		<Name>Credits3</Name>
+		<Status>Unlocked</Status>
+		<Position>97</Position>
+		<Title>TheRealSlimLady</Title>
+		<Date>Credits</Date>
+		<DetailText>The Prowler, Spectre, Revenant, H3 Brutes, H3 Pureforms, H3 ODST, HW2 Reaver(Animation and main body), HW2 Abomination and HW2 Goliath(My textures) were made by TheRealSlimLady. She also created the Marauder and Banished Scarab as a commission(no pay) by TheRealSlimLady.</DetailText>
+		<UnlockedImage>img://art\ui\flash\shared\textures\timeline\timeline_unsc.ddx</UnlockedImage>
+	</Event>
+	<Event>
+		<Name>Credits4</Name>
+		<Status>Unlocked</Status>
+		<Position>98</Position>
+		<Title>ZAD_47</Title>
+		<Date>Credits</Date>
+		<DetailText>The Banished Brute Minor (textures are from me) was imported as a unpaid commission by ZAD_47.</DetailText>
+		<UnlockedImage>img://art\ui\flash\shared\textures\timeline\timeline_unsc.ddx</UnlockedImage>
+	</Event>
+	<Event>
+		<Name>Credits5</Name>
+		<Status>Unlocked</Status>
+		<Position>99</Position>
+		<Title>Tools</Title>
+		<Date>Credits</Date>
+		<DetailText>This Mod was created using
+PhxGui by KornnerStudios
+SMEditor by Stumpy
+HWDE Universal Geometry blender plugin by Stumpy
+Modmanager by Medstar</DetailText>
+		<UnlockedImage>img://art\ui\flash\shared\textures\timeline\timeline_unsc.ddx</UnlockedImage>
+	</Event>
+</Timeline>

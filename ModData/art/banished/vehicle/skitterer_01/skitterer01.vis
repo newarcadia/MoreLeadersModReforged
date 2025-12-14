@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="skitterer">
+	<model name="skitterer">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>banished\vehicle\skitterer_01\mesh_skitterer</file>
+				<damagefile>banished\vehicle\skitterer_01\skitterer</damagefile>
+			</asset>
+			<attach type="ModelRef" name="head" tobone="socketbone_turret_0" frombone="GrannyRootBone_turret_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_attack01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_death01_main</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_pfx_explosion_secondary_small" tobone="bone_vfx_EnginePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_vfx_EnginePoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle01_main</file>
+				<weight>3</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle02_main</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle03_main</file>
+				<weight>2</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle04_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleJog" exitAction="Transition" tweenTime="10" tweenToAnimation="Jog">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idlejog01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleWalk" exitAction="Transition" tweenTime="10" tweenToAnimation="Walk">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idlewalk01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_jog01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JogIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_jogidle01_main</file>
+				<weight>2</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_jogidle02_main</file>
+				<weight>3</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_jogidle03_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnLeft" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_standingturnleft01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnRight" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_standingturnright01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_walk01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="WalkIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_walkidle01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Takeoff" exitAction="Transition" tweenTime="10" tweenToAnimation="JoinIdle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_takeoff01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JoinIdle" exitAction="Transition" tweenTime="15" tweenToAnimation="JoinIdle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_join_idle01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JoinAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_join_attack01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Land" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_land01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AttackUpgrade" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_attack01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Knockdown" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_knockdown01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JoinAttackUpgrade" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_join_attack01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CombatIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JoinDeath" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_join_idle01_main</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_pfx_explosion_secondary_small" tobone="bone_vfx_EnginePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_vfx_EnginePoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="head">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>banished\vehicle\skitterer_01\mesh_turret_0</file>
+			</asset>
+			<attach type="ModelRef" name="guns" tobone="socketbone_turrent_gun_01" frombone="GrannyRootBone_turrent_gun_01" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_attack01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_death01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle01_turret</file>
+				<weight>3</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle02_turret</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle03_turret</file>
+				<weight>2</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle04_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleJog" exitAction="Transition" tweenTime="10" tweenToAnimation="Jog">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idlejog01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleWalk" exitAction="Transition" tweenTime="10" tweenToAnimation="Walk">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idlewalk01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_jog01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JogIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_jogidle01_turret</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_jogidle02_turret</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_jogidle03_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnLeft" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_standingturnleft01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnRight" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_standingturnright01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_walk01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="WalkIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="WalkIdle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_walkidle01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Takeoff" exitAction="Transition" tweenTime="10" tweenToAnimation="JoinIdle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_takeoff01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JoinIdle" exitAction="Transition" tweenTime="15" tweenToAnimation="JoinIdle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_join_idle01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JoinAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_join_attack01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Land" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_land01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AttackUpgrade" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_attack01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Knockdown" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_knockdown01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JoinAttackUpgrade" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_join_attack01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CombatIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JoinDeath" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_join_idle01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="guns">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>banished\vehicle\skitterer_01\mesh_turrent_gun_01</file>
+			</asset>
+			<attach type="ModelRef" name="gunattach" tobone="bone_turret_gun_barrel_end_left" frombone="GrannyRootBone" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_attack01_gun</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0" end="1" tobone="bone_turret_gun_barrel_end_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0" end="1" tobone="bone_turret_gun_barrel_end_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.3" end="1" tobone="bone_turret_gun_barrel_end_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.3" end="1" tobone="bone_turret_gun_barrel_end_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="bone_turret_gun_barrel_end_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="bone_turret_gun_barrel_end_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.8" end="1" tobone="bone_turret_gun_barrel_end_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.8" end="1" tobone="bone_turret_gun_barrel_end_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_death01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle01_gun</file>
+				<weight>3</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle02_gun</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle03_gun</file>
+				<weight>2</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle04_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleJog" exitAction="Transition" tweenTime="10" tweenToAnimation="Jog">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idlejog01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleWalk" exitAction="Transition" tweenTime="10" tweenToAnimation="Walk">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idlewalk01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_jog01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JogIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_jogidle01_gun</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_jogidle02_gun</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_jogidle03_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnLeft" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_standingturnleft01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnRight" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_standingturnright01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Transition" tweenTime="10" tweenToAnimation="WalkIdle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_walk01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="WalkIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_walkidle01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Takeoff" exitAction="Transition" tweenTime="10" tweenToAnimation="JoinIdle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_takeoff01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JoinIdle" exitAction="Transition" tweenTime="15" tweenToAnimation="JoinIdle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_join_idle01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JoinAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_join_attack01_gun</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0" end="1" tobone="bone_turret_gun_barrel_end_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Land" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_land01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AttackUpgrade" exitAction="Loop" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_attack01_gun</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0" end="1" tobone="bone_turret_gun_barrel_end_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Knockdown" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_knockdown01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JoinAttackUpgrade" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_join_attack01_gun</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0" end="1" tobone="bone_turret_gun_barrel_end_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="CombatIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JoinDeath" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_join_idle01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="gunattach">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>vfx/effects/fx_dummy</file>
+			</asset>
+		</component>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_attack01_gun</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0" end="1" tobone="bone_FX01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_death01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle01_gun</file>
+				<weight>3</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle02_gun</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle03_gun</file>
+				<weight>2</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle04_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleJog" exitAction="Transition" tweenTime="10" tweenToAnimation="Jog">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idlejog01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleWalk" exitAction="Transition" tweenTime="10" tweenToAnimation="Walk">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idlewalk01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_jog01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JogIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_jogidle01_gun</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_jogidle02_gun</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_jogidle03_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnLeft" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_standingturnleft01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnRight" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_standingturnright01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Transition" tweenTime="10" tweenToAnimation="WalkIdle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_walk01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="WalkIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_walkidle01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Takeoff" exitAction="Transition" tweenTime="10" tweenToAnimation="JoinIdle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_takeoff01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JoinIdle" exitAction="Transition" tweenTime="15" tweenToAnimation="JoinIdle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_join_idle01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JoinAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_join_attack01_gun</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0" end="1" tobone="bone_FX01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Land" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_land01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AttackUpgrade" exitAction="Loop" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_attack01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Knockdown" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_knockdown01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JoinAttackUpgrade" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_join_attack01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CombatIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_ground_idle01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JoinDeath" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\skitterer_01\skitterer01_join_idle01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>

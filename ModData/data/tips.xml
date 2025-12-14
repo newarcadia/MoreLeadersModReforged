@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TipList>
+	<Tip _locID="30058"/>
+	<Tip _locID="30059"/>
+	<Tip _locID="31000"/>
+	<Tip _locID="31001"/>
+	<Tip _locID="31002"/>
+	<Tip _locID="31003"/>
+	<Tip _locID="31004"/>
+	<Tip _locID="25859"/>
+	<Tip _locID="25856"/>
+	<Tip _locID="25857"/>
+	<Tip _locID="25858"/>
+	<Tip _locID="25845"/>
+	<Tip _locID="25850"/>
+	<Tip _locID="31005"/>
+	<Tip _locID="31000" LoadingScreen="true" />
+	<Tip _locID="31001" LoadingScreen="true" />
+	<Tip _locID="31002" LoadingScreen="true" />
+	<Tip _locID="31003" LoadingScreen="true" />
+	<Tip _locID="31004" LoadingScreen="true" />
+	<Tip _locID="25859" LoadingScreen="true" />
+	<Tip _locID="25856" LoadingScreen="true" />
+	<Tip _locID="25857" LoadingScreen="true" />
+	<Tip _locID="25858" LoadingScreen="true" />
+	<Tip _locID="25845" LoadingScreen="true" />
+	<Tip _locID="25850" LoadingScreen="true" />
+	<Tip _locID="31005" LoadingScreen="true" />
+	<Tip _locID="31006"/>
+	<Tip _locID="31006" LoadingScreen="true" />
+	<Tip _locID="31007"/>
+	<Tip _locID="31007" LoadingScreen="true" />
+	<Tip _locID="31008"/>
+	<Tip _locID="31008" LoadingScreen="true" />
+</TipList>

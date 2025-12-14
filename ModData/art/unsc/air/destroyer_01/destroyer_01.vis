@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\destroyer_01</file>
+				<damagefile>unsc\air\destroyer_01\destroyer_01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="mac_cannon_base" tobone="socketbone_MAC_cannon_base_0" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="front_centre_laser_base" tobone="brokenfrontgunbase_01" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="front_right_laser_base" tobone="brokenfrontrightbase_01" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="front_left_laser_base" tobone="socketbone_front_left_gun_base_0" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="rear_left_laser_base" tobone="socketbone_rear_left_gun_base_0" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="rear_right_laser_base" tobone="socketbone_rear_right_gun_base_0" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Turbine FL" tobone="Bone Wing FL" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Turbine FR" tobone="Bone Wing FR" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.00999999978" end="1" name="effects\building_FX\unsc\generic\podthrusterpoof_01" tobone="bone_body" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="3.5" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.159999996" end="1" name="effects\building_FX\unsc\generic\podthrusterpoof_01" tobone="bone_body" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="3.5" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Freeze" tweenTime="0" tweenToAnimation="HoverIdle">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\incoming_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.391000003" end="1" name="ani_buildpod_intro" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Outgoing" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\outgoing_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.050999999" end="1" name="ani_buildpod_exit" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Cinematic" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\pelican_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="FrontCentreLaserAttack" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="FrontRightLaserAttack" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="FrontLeftLaserAttack" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="RearLeftLaserAttack" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="RearRightLaserAttack" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MacCannonAttack" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="SpecialMacCannonAttack" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Turbine FL">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\wing_FL_01</file>
+			</asset>
+		</component>
+		<anim type="Walk" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Turbine FR">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\wing_FR_01</file>
+			</asset>
+		</component>
+		<anim type="Walk" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Turbine RL">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\wing_RL_01</file>
+			</asset>
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\pelican\redblinkinglight_01" tobone="bone_FXlight RL" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Walk" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Turbine RR">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\wing_RR_01</file>
+			</asset>
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\pelican\redblinkinglight_01" tobone="bone_FXlight RR" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Walk" exitAction="Loop" tweenTime="1" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="1" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="1" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Turbine Top RL">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\wing_RL_01</file>
+			</asset>
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\pelican\redblinkinglight_01" tobone="bone_FXlight RL" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Walk" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Turbine Top RR">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\wing_RR_01</file>
+			</asset>
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\pelican\redblinkinglight_01" tobone="bone_FXlight RR" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Walk" exitAction="Loop" tweenTime="1" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="1" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="1" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="mac_cannon_base">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\mesh_MAC_cannon_base_0</file>
+			</asset>
+			<attach type="ModelRef" name="mac_cannon" tobone="Socket" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</component>
+		<anim type="SpecialMacCannonAttack" exitAction="Freeze" tweenTime="15" tweenToAnimation="Idle" >
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MacCannonAttack" exitAction="Transition" tweenTime="15" tweenToAnimation="Idle" >
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="mac_cannon">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\mesh_MAC_cannon_pitch_0</file>
+			</asset>
+		</component>
+		<anim type="MacCannonAttack" exitAction="Freeze" tweenTime="15" tweenToAnimation="Idle" >
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.4" end="1" name="effects\vehicle_fx\unsc\scorpion\cannonmuzzleblast_01" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="3.05999994" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.4" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.4" end="1" name="play_cobra_cannon" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="SpecialMacCannonAttack" exitAction="Freeze" tweenTime="15" tweenToAnimation="Idle" >
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.65" end="1" name="play_unsc_rhino_cannon" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.65" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.65" end="1" name="effects\vehicle_fx\unsc\cobra\muzzleblast_01" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="3.05999994" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="CameraShake" start="0" position="0.65" end="1" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.5" force2="0" lifespan="0.150000006" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Rumble" start="0" position="0.65" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.899999976" force2="0.899999976" lifespan="0.100000001" userData="" leftRumbleType="Fixed" rightRumbleType="Fixed" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="front_centre_laser_base">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\mesh_gun_base_0</file>
+			</asset>
+			<attach type="ModelRef" name="front_centre_laser" tobone="bone_socket" frombone="GrannyRootBone" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="FrontCentreLaserAttack" exitAction="Freeze" tweenTime="5" tweenToAnimation="Idle" >
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="front_centre_laser">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\mesh_gun_pivot_0</file>
+			</asset>
+		</component>
+		<anim type="FrontCentreLaserAttack" exitAction="Freeze" tweenTime="5" tweenToAnimation="Idle" >
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.199000001" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasermuzzle_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0.200000003" end="1" name="unsc\infantry\marine_01\marineAttack2" tobone="bone_launchpoint2" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.200000003" end="1" name="play_weapon_spartan_laser" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.200000003" end="1" tobone="bone_launchpoint2" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="CameraShake" start="0" position="0.209999993" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.5" force2="0" lifespan="0.100000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.691999972" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.699999988" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.199000001" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasermuzzle_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0.200000003" end="1" name="unsc\infantry\marine_01\marineAttack2" tobone="bone_launchpoint1" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.200000003" end="1" tobone="bone_launchpoint1" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.691999972" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.699999988" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="front_right_laser_base">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\mesh_gun_base_0</file>
+			</asset>
+			<attach type="ModelRef" name="front_right_laser" tobone="bone_socket" frombone="GrannyRootBone" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="FrontRightLaserAttack" exitAction="Freeze" tweenTime="0" tweenToAnimation="Idle" >
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="front_right_laser">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\mesh_gun_pivot_0</file>
+			</asset>
+		</component>
+		<anim type="FrontRightLaserAttack" exitAction="Freeze" tweenTime="0" tweenToAnimation="Idle" >
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.199000001" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasermuzzle_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0.200000003" end="1" name="unsc\infantry\marine_01\marineAttack2" tobone="bone_launchpoint2" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.200000003" end="1" name="play_weapon_spartan_laser" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.200000003" end="1" tobone="bone_launchpoint2" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="CameraShake" start="0" position="0.209999993" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.5" force2="0" lifespan="0.100000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.691999972" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.699999988" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.199000001" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasermuzzle_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0.200000003" end="1" name="unsc\infantry\marine_01\marineAttack2" tobone="bone_launchpoint1" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.200000003" end="1" tobone="bone_launchpoint1" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.691999972" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.699999988" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="front_left_laser_base">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\mesh_gun_base_0</file>
+			</asset>
+			<attach type="ModelRef" name="front_left_laser" tobone="bone_socket" frombone="GrannyRootBone" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="FrontLeftLaserAttack" exitAction="Freeze" tweenTime="0" tweenToAnimation="Idle" >
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="front_left_laser">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\mesh_gun_pivot_0</file>
+			</asset>
+		</component>
+		<anim type="FrontLeftLaserAttack" exitAction="Freeze" tweenTime="0" tweenToAnimation="Idle" >
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.199000001" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasermuzzle_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0.200000003" end="1" name="unsc\infantry\marine_01\marineAttack2" tobone="bone_launchpoint2" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.200000003" end="1" name="play_weapon_spartan_laser" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.200000003" end="1" tobone="bone_launchpoint2" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="CameraShake" start="0" position="0.209999993" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.5" force2="0" lifespan="0.100000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.691999972" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.699999988" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.199000001" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasermuzzle_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0.200000003" end="1" name="unsc\infantry\marine_01\marineAttack2" tobone="bone_launchpoint1" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.200000003" end="1" tobone="bone_launchpoint1" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.691999972" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.699999988" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="rear_left_laser_base">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\mesh_gun_base_0</file>
+			</asset>
+			<attach type="ModelRef" name="rear_left_laser" tobone="bone_socket" frombone="GrannyRootBone" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="RearLeftLaserAttack" exitAction="Freeze" tweenTime="0" tweenToAnimation="Idle" >
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="rear_left_laser">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\mesh_gun_pivot_0</file>
+			</asset>
+		</component>
+		<anim type="RearLeftLaserAttack" exitAction="Freeze" tweenTime="0" tweenToAnimation="Idle" >
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.199000001" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasermuzzle_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0.200000003" end="1" name="unsc\infantry\marine_01\marineAttack2" tobone="bone_launchpoint2" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.200000003" end="1" name="play_weapon_spartan_laser" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.200000003" end="1" tobone="bone_launchpoint2" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="CameraShake" start="0" position="0.209999993" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.5" force2="0" lifespan="0.100000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.691999972" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.699999988" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.199000001" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasermuzzle_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0.200000003" end="1" name="unsc\infantry\marine_01\marineAttack2" tobone="bone_launchpoint1" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.200000003" end="1" tobone="bone_launchpoint1" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.691999972" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.699999988" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="rear_right_laser_base">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\mesh_gun_base_0</file>
+			</asset>
+			<attach type="ModelRef" name="rear_right_laser" tobone="bone_socket" frombone="GrannyRootBone" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="RearRightLaserAttack" exitAction="Freeze" tweenTime="0" tweenToAnimation="Idle" >
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="rear_right_laser">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\destroyer_01\mesh_gun_pivot_0</file>
+			</asset>
+		</component>
+		<anim type="RearRightLaserAttack" exitAction="Freeze" tweenTime="0" tweenToAnimation="Idle" >
+			<asset type="Anim">
+				<file>unsc\air\pelican_01\hoveridle_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.199000001" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasermuzzle_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0.200000003" end="1" name="unsc\infantry\marine_01\marineAttack2" tobone="bone_launchpoint2" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.200000003" end="1" name="play_weapon_spartan_laser" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.200000003" end="1" tobone="bone_launchpoint2" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="CameraShake" start="0" position="0.209999993" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.5" force2="0" lifespan="0.100000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.691999972" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.699999988" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.199000001" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasermuzzle_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0.200000003" end="1" name="unsc\infantry\marine_01\marineAttack2" tobone="bone_launchpoint1" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.200000003" end="1" tobone="bone_launchpoint1" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.691999972" end="1" name="effects\Unit_FX\unsc\spartan\targetlaser_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.699999988" end="1" name="effects\Unit_FX\unsc\spartan\spartanlasercharge_01" tobone="bone_launchpoint1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+</visual>

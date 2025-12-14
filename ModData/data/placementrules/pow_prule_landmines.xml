@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<PlacementRules>
+	<DistanceAtLeastFromType player="Any" errorString="" successString="" distance="45">fx_disruptionPower</DistanceAtLeastFromType>
+	<DistanceAtLeastFromType player="Any" errorString="" successString="" distance="45">_DisruptionPower</DistanceAtLeastFromType>
+</PlacementRules>

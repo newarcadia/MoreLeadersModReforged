@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="built">
+	<model name="built">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>banished\building\turret_01\turretbase_01</file>
+				<damagefile>banished\building\turret_01\turret_01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Pivot" tobone="socketbone_pivot_0" frombone="GrannyRootBone_pivot_0" syncanims="true" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\building\turret_01\idle01_base</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\building\turret_01\idle02_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\building\turret_01\idle01_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Pivot">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>banished\building\turret_01\pivot</file>
+			</asset>
+			<attach type="ModelRef" name="Gun_Standard" tobone="socketbone_standard_gun_0" frombone="GrannyRootBone_standard_gun_0" syncanims="true" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\building\turret_01\idle01_pivot</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\building\turret_01\idle02_pivot</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\building\turret_01\attack01_pivot</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Gun_Standard">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>banished\building\turret_01\turretai_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\building\turret_01\idle01_gun_standard</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\building\turret_01\idle02_gun_standard</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\building\turret_01\attack01_gun_standard</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.0419999994" end="1" name="play_cov_shade_turret_fire" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.0419999994" end="1" tobone="bone_vfx_MuzzleGunRight002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.0419999994" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="bone_vfx_MuzzleGunRight002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+
+				<tag type="Sound" start="0" position="0.171000004" end="1" name="play_cov_shade_turret_fire" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.171000004" end="1" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.171000004" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+
+				<tag type="Sound" start="0" position="0.300999999" end="1" name="play_cov_shade_turret_fire" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.300999999" end="1" tobone="bone_vfx_MuzzleGunRight002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.300999999" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="bone_vfx_MuzzleGunRight002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+
+				<tag type="Sound" start="0" position="0.42899999" end="1" name="play_cov_shade_turret_fire" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.42899999" end="1" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.42899999" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+
+				<tag type="Sound" start="0" position="0.550000012" end="1" name="play_cov_shade_turret_fire" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.550000012" end="1" tobone="bone_vfx_MuzzleGunRight002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.550000012" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="bone_vfx_MuzzleGunRight002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+
+				<tag type="Sound" start="0" position="0.677999973" end="1" name="play_cov_shade_turret_fire" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.677999973" end="1" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.677999973" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+
+				<tag type="Sound" start="0" position="0.737999976" end="1" name="play_cov_shade_turret_fire" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.737999976" end="1" tobone="bone_vfx_MuzzleGunRight002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.737999976" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="bone_vfx_MuzzleGunRight002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+
+				<tag type="Sound" start="0" position="0.934000015" end="1" name="play_cov_shade_turret_fire" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.934000015" end="1" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.934000015" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+	</model>
+</visual>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="player.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Player" Name="NewPlayer0" IsNull="false" />
+    <TriggerVar ID="1" Type="String" Name="NewString1" IsNull="false">vanillaplus\firefight\player_bonus.triggerscript</TriggerVar>
+    <TriggerVar ID="3" Type="String" Name="NewString1" IsNull="false">vanillaplus\firefight\player_legacyscript.triggerscript</TriggerVar>
+    <TriggerVar ID="9" Type="Trigger" Name="NewTrigger0" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="10" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="11" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="12" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="13" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="14" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="15" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="16" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="17" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="18" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="19" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="20" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="21" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="22" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="23" Type="VectorList" Name="nullVectorList" IsNull="true" />
+    <TriggerVar ID="24" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="25" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="26" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="27" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="28" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="29" Type="Player" Name="nullPlayer" IsNull="true" />
+    <TriggerVar ID="30" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="31" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="32" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="33" Type="VectorList" Name="nullVectorList" IsNull="true" />
+    <TriggerVar ID="34" Type="Float" Name="nullFloat" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-534" Y="-485" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="0" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">0</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">10</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">11</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">12</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">13</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">14</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">15</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="0" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
+          <Input Name="ScriptName" SigID="15" Optional="false">1</Input>
+          <Input Name="ExternalUnit" SigID="2" Optional="true">16</Input>
+          <Input Name="ExternalUnitList" SigID="3" Optional="true">17</Input>
+          <Input Name="ExternalSquad" SigID="4" Optional="true">18</Input>
+          <Input Name="ExternalSquadList" SigID="5" Optional="true">19</Input>
+          <Input Name="ExternalPlayer" SigID="6" Optional="true">0</Input>
+          <Input Name="ExternalPower" SigID="7" Optional="true">20</Input>
+          <Input Name="ExternalCost" SigID="8" Optional="true">21</Input>
+          <Input Name="ExternalLocation" SigID="11" Optional="true">22</Input>
+          <Input Name="ExternalLocationList" SigID="12" Optional="true">23</Input>
+          <Input Name="ExternalFloat" SigID="13" Optional="true">24</Input>
+        </Effect>
+        <Effect ID="3" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
+          <Input Name="ScriptName" SigID="15" Optional="false">3</Input>
+          <Input Name="ExternalUnit" SigID="2" Optional="true">25</Input>
+          <Input Name="ExternalUnitList" SigID="3" Optional="true">26</Input>
+          <Input Name="ExternalSquad" SigID="4" Optional="true">27</Input>
+          <Input Name="ExternalSquadList" SigID="5" Optional="true">28</Input>
+          <Input Name="ExternalPlayer" SigID="6" Optional="true">29</Input>
+          <Input Name="ExternalPower" SigID="7" Optional="true">30</Input>
+          <Input Name="ExternalCost" SigID="8" Optional="true">31</Input>
+          <Input Name="ExternalLocation" SigID="11" Optional="true">32</Input>
+          <Input Name="ExternalLocationList" SigID="12" Optional="true">33</Input>
+          <Input Name="ExternalFloat" SigID="13" Optional="true">34</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

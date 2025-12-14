@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Spikes</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>55</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>4</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Action>
+		<Name>SpikesAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Weapon>Spikes</Weapon>
+		<Anim>PlasmaRifleAttack</Anim>
+		<KillSelfOnAttack />
+		<MainAttack />
+	</Action>
+	<Weapon>
+		<Name>Bomb</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>5760</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxRange>6</MaxRange>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+		<TargetPriority type="Air">10</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>None</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<MaxRange>1</MaxRange>
+	</Weapon>
+	<Action>
+		<Name>Detonate</Name>
+		<ActionType>Detonate</ActionType>
+		<Weapon>Bomb</Weapon>
+		<DetonateWhenInRange>true</DetonateWhenInRange>
+	</Action>
+	<Action>
+		<Name>RunAtAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>None</Anim>
+		<Weapon>None</Weapon>
+		<MainAttack />
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<MeleeRange />
+	</Action>
+	<Action>
+		<Name>MoveAir</Name>
+		<ActionType>MoveAir</ActionType>
+		<AttackRunDelayMin>5</AttackRunDelayMin>
+		<AttackRunDelayMax>10</AttackRunDelayMax>
+	</Action>
+	<Tactic>
+		<PersistentAction>MoveAir</PersistentAction>
+		<PersistentAction>Detonate</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RunAtAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

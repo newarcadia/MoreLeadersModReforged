@@ -1,0 +1,686 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="aitech_brute.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Tech" Name="NewTech0" IsNull="false" />
+    <TriggerVar ID="1" Type="TechStatus" Name="NewTechStatus1" IsNull="false">Available</TriggerVar>
+    <TriggerVar ID="4" Type="TechStatus" Name="NewTechStatus1" IsNull="false">Active</TriggerVar>
+    <TriggerVar ID="5" Type="Player" Name="NewPlayer5" IsNull="false" />
+    <TriggerVar ID="6" Type="Time" Name="NewTime6" IsNull="false">300000</TriggerVar>
+    <TriggerVar ID="7" Type="Operator" Name="NewOperator7" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="10" Type="Time" Name="NewTime6" IsNull="false">110000</TriggerVar>
+    <TriggerVar ID="12" Type="Operator" Name="NewOperator7" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="13" Type="TechList" Name="AllTechUpgrades" IsNull="false">cov_grunt_upgrade1,unsc_groundunits_upgrade1,cov_grunt_upgrade2,cov_ghost_upgrade1,ban_goliath_upgrade1,unsc_groundunits_upgrade2,ban_elite_upgrade1,ban_elite_upgrade2,cov_wraith_upgrade2,unsc_tech_reinforcements1,cov_turret_upgrade1,cov_hunter_upgrade1,cov_ghost_upgrade2,cov_banshee_upgrade1,cov_hunter_upgrade2,unsc_airunits_upgrade1,unsc_airunits_upgrade2,cov_engineer_upgrade1,cov_banshee_upgrade2,cov_turret_upgrade2,unsc_tech_reinforcements2,cov_lekgologeneral_upgrade1,cov_lekgologeneral_upgrade2,ban_blisterback_upgrade2,ban_reaver_upgrade2,ban_goliath_upgrade2,cov_ghost_upgrade3,cov_grunt_upgrade3,unsc_groundunits_upgrade3,ban_elite_upgrade3,cov_hunter_upgrade3,cov_wraith_upgrade3,unsc_airunits_upgrade3,cov_engineer_upgrade2,cov_banshee_upgrade3,unsc_tech_reinforcements3,cov_lekgologeneral_upgrade3,ban_blisterback_upgrade3,ban_reaver_upgrade3,ban_goliath_upgrade3</TriggerVar>
+    <TriggerVar ID="14" Type="ListPosition" Name="AllTechUpgrades" IsNull="false">First</TriggerVar>
+    <TriggerVar ID="16" Type="Time" Name="NewTime6" IsNull="false">990000</TriggerVar>
+    <TriggerVar ID="17" Type="Operator" Name="NewOperator7" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="19" Type="TechStatus" Name="NewTechStatus1" IsNull="false">Active</TriggerVar>
+    <TriggerVar ID="21" Type="Tech" Name="FirstMinTech" IsNull="false">cov_grunt_upgrade1</TriggerVar>
+    <TriggerVar ID="25" Type="Time" Name="NewTime6" IsNull="false">60000</TriggerVar>
+    <TriggerVar ID="26" Type="Operator" Name="NewOperator7" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="28" Type="Time" Name="NewTime6" IsNull="false">120000</TriggerVar>
+    <TriggerVar ID="29" Type="Tech" Name="SecondMinTech" IsNull="false">cov_lekgologeneral_upgrade1</TriggerVar>
+    <TriggerVar ID="30" Type="Operator" Name="NewOperator7" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="31" Type="TechStatus" Name="NewTechStatus1" IsNull="false">Active</TriggerVar>
+    <TriggerVar ID="32" Type="Time" Name="NewTime6" IsNull="false">180000</TriggerVar>
+    <TriggerVar ID="33" Type="Tech" Name="ThirdMinTech" IsNull="false">cov_banshee_upgrade1</TriggerVar>
+    <TriggerVar ID="34" Type="Operator" Name="NewOperator7" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="35" Type="TechStatus" Name="NewTechStatus1" IsNull="false">Active</TriggerVar>
+    <TriggerVar ID="37" Type="TechStatus" Name="NewTechStatus1" IsNull="false">Active</TriggerVar>
+    <TriggerVar ID="38" Type="Time" Name="NewTime6" IsNull="false">300000</TriggerVar>
+    <TriggerVar ID="39" Type="Tech" Name="FifthMinTech" IsNull="false">cov_wraith_upgrade2</TriggerVar>
+    <TriggerVar ID="40" Type="Operator" Name="NewOperator7" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="41" Type="Float" Name="NewFloat41" IsNull="false" />
+    <TriggerVar ID="43" Type="Float" Name="NewFloat41" IsNull="false">0.5</TriggerVar>
+    <TriggerVar ID="44" Type="Operator" Name="NewOperator44" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="46" Type="Operator" Name="NewOperator7" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="47" Type="Time" Name="NewTime6" IsNull="false">110000</TriggerVar>
+    <TriggerVar ID="48" Type="Operator" Name="NewOperator7" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="49" Type="Time" Name="NewTime6" IsNull="false">320000</TriggerVar>
+    <TriggerVar ID="50" Type="Tech" Name="NewTech0" IsNull="false" />
+    <TriggerVar ID="51" Type="ListPosition" Name="AllTechUpgrades" IsNull="false">Random</TriggerVar>
+    <TriggerVar ID="52" Type="TechStatus" Name="NewTechStatus1" IsNull="false">Obtainable</TriggerVar>
+    <TriggerVar ID="54" Type="TechStatus" Name="NewTechStatus1" IsNull="false">Active</TriggerVar>
+    <TriggerVar ID="56" Type="Tech" Name="NewTech0" IsNull="false" />
+    <TriggerVar ID="57" Type="TechStatus" Name="NewTechStatus1" IsNull="false">Available</TriggerVar>
+    <TriggerVar ID="58" Type="TechStatus" Name="NewTechStatus1" IsNull="false">Active</TriggerVar>
+    <TriggerVar ID="59" Type="ListPosition" Name="AllTechUpgrades" IsNull="false">Random</TriggerVar>
+    <TriggerVar ID="60" Type="Time" Name="NewTime6" IsNull="false">170000</TriggerVar>
+    <TriggerVar ID="61" Type="Time" Name="NewTime6" IsNull="false">240000</TriggerVar>
+    <TriggerVar ID="62" Type="Operator" Name="NewOperator7" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="63" Type="Operator" Name="NewOperator7" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="64" Type="TechList" Name="GetLegalTechs" IsNull="false" />
+    <TriggerVar ID="68" Type="Trigger" Name="NewTrigger0" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="69" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="70" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="71" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="72" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="73" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="74" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="75" Type="Trigger" Name="NewTrigger28" IsNull="false">28</TriggerVar>
+    <TriggerVar ID="76" Type="Trigger" Name="FirstMinTech" IsNull="false">15</TriggerVar>
+    <TriggerVar ID="77" Type="Trigger" Name="NewTrigger4" IsNull="false">13</TriggerVar>
+    <TriggerVar ID="78" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="79" Type="Trigger" Name="SecondMinTech" IsNull="false">22</TriggerVar>
+    <TriggerVar ID="80" Type="Trigger" Name="NewTrigger4" IsNull="false">21</TriggerVar>
+    <TriggerVar ID="81" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="82" Type="Trigger" Name="ThirdMinTech" IsNull="false">24</TriggerVar>
+    <TriggerVar ID="83" Type="Trigger" Name="NewTrigger4" IsNull="false">23</TriggerVar>
+    <TriggerVar ID="84" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="85" Type="Trigger" Name="FifthMinTech" IsNull="false">27</TriggerVar>
+    <TriggerVar ID="86" Type="Trigger" Name="NewTrigger4" IsNull="false">26</TriggerVar>
+    <TriggerVar ID="87" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="88" Type="Trigger" Name="NewTrigger5" IsNull="false">5</TriggerVar>
+    <TriggerVar ID="89" Type="Trigger" Name="NewTrigger6" IsNull="false">6</TriggerVar>
+    <TriggerVar ID="90" Type="Trigger" Name="NewTrigger9" IsNull="false">9</TriggerVar>
+    <TriggerVar ID="91" Type="Trigger" Name="NewTrigger3" IsNull="false">3</TriggerVar>
+    <TriggerVar ID="92" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="93" Type="Trigger" Name="NewTrigger4" IsNull="false">4</TriggerVar>
+    <TriggerVar ID="94" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="95" Type="TechList" Name="nullTechList" IsNull="true" />
+    <TriggerVar ID="96" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="97" Type="TechList" Name="nullTechList" IsNull="true" />
+    <TriggerVar ID="98" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="99" Type="TechList" Name="nullTechList" IsNull="true" />
+    <TriggerVar ID="100" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="101" Type="Trigger" Name="Shutdown Script" IsNull="false">10</TriggerVar>
+    <TriggerVar ID="102" Type="Trigger" Name="NewTrigger5" IsNull="false">33</TriggerVar>
+    <TriggerVar ID="103" Type="Trigger" Name="NewTrigger6" IsNull="false">34</TriggerVar>
+    <TriggerVar ID="104" Type="Trigger" Name="NewTrigger9" IsNull="false">32</TriggerVar>
+    <TriggerVar ID="105" Type="Trigger" Name="NewTrigger3" IsNull="false">35</TriggerVar>
+    <TriggerVar ID="106" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="107" Type="Trigger" Name="NewTrigger4" IsNull="false">31</TriggerVar>
+    <TriggerVar ID="108" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="109" Type="TechList" Name="nullTechList" IsNull="true" />
+    <TriggerVar ID="110" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="111" Type="TechList" Name="nullTechList" IsNull="true" />
+    <TriggerVar ID="112" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="113" Type="TechList" Name="nullTechList" IsNull="true" />
+    <TriggerVar ID="114" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="115" Type="Trigger" Name="NewTrigger5" IsNull="false">37</TriggerVar>
+    <TriggerVar ID="116" Type="Integer" Name="nullInteger" IsNull="true" />
+    <TriggerVar ID="117" Type="Trigger" Name="NewTrigger6" IsNull="false">38</TriggerVar>
+    <TriggerVar ID="118" Type="Trigger" Name="NewTrigger9" IsNull="false">39</TriggerVar>
+    <TriggerVar ID="119" Type="Trigger" Name="NewTrigger3" IsNull="false">41</TriggerVar>
+    <TriggerVar ID="120" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="121" Type="Trigger" Name="NewTrigger4" IsNull="false">40</TriggerVar>
+    <TriggerVar ID="122" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="123" Type="TechList" Name="nullTechList" IsNull="true" />
+    <TriggerVar ID="124" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="125" Type="TechList" Name="nullTechList" IsNull="true" />
+    <TriggerVar ID="126" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="127" Type="TechList" Name="nullTechList" IsNull="true" />
+    <TriggerVar ID="128" Type="Bool" Name="nullBool" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-5729" Y="-343" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="0" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">5</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">69</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">70</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">71</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">72</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">73</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">74</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="41" Type="GetDifficulty v2" DBID="525" Version="2" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">5</Input>
+          <Output Name="DifficultyFloat" SigID="3" Optional="false">41</Output>
+        </Effect>
+        <Effect ID="42" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">75</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="28" Name="NewTrigger28" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-3808" Y="-575" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="28" Type="CompareFloat v1" DBID="453" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="FirstFloat" SigID="1" Optional="false">41</Input>
+            <Input Name="CompareType" SigID="2" Optional="false">44</Input>
+            <Input Name="SecondFloat" SigID="3" Optional="false">43</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="28" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">76</Input>
+        </Effect>
+        <Effect ID="32" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">79</Input>
+        </Effect>
+        <Effect ID="35" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">82</Input>
+        </Effect>
+        <Effect ID="38" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">85</Input>
+        </Effect>
+        <Effect ID="3" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">88</Input>
+        </Effect>
+        <Effect ID="12" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">101</Input>
+        </Effect>
+        <Effect ID="61" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">102</Input>
+        </Effect>
+        <Effect ID="75" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">115</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="44" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="15" Name="FirstMinTech" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2510" Y="-1834" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="18" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">26</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">25</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="19" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">77</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="13" Name="NewTrigger4" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="3882" Y="-1825" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="14" Type="TechStatus v2" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">5</Input>
+            <Input Name="Tech" SigID="2" Optional="false">21</Input>
+            <Input Name="TechStatus" SigID="3" Optional="false">19</Input>
+            <Input Name="UniqueUnit" SigID="4" Optional="true">78</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue />
+      <TriggerEffectsOnFalse>
+        <Effect ID="18" Type="TechActivate v1" DBID="60" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">5</Input>
+          <Input Name="Tech" SigID="2" Optional="false">21</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="22" Name="SecondMinTech" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2709" Y="-2974" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="21" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">30</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">28</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="33" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">80</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="21" Name="NewTrigger4" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="4081" Y="-2963" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="22" Type="TechStatus v2" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">5</Input>
+            <Input Name="Tech" SigID="2" Optional="false">29</Input>
+            <Input Name="TechStatus" SigID="3" Optional="false">31</Input>
+            <Input Name="UniqueUnit" SigID="4" Optional="true">81</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue />
+      <TriggerEffectsOnFalse>
+        <Effect ID="31" Type="TechActivate v1" DBID="60" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">5</Input>
+          <Input Name="Tech" SigID="2" Optional="false">29</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="24" Name="ThirdMinTech" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2763" Y="-4127" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="23" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">34</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">32</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="36" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">83</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="23" Name="NewTrigger4" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="4133" Y="-4118" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="24" Type="TechStatus v2" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">5</Input>
+            <Input Name="Tech" SigID="2" Optional="false">33</Input>
+            <Input Name="TechStatus" SigID="3" Optional="false">35</Input>
+            <Input Name="UniqueUnit" SigID="4" Optional="true">84</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue />
+      <TriggerEffectsOnFalse>
+        <Effect ID="34" Type="TechActivate v1" DBID="60" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">5</Input>
+          <Input Name="Tech" SigID="2" Optional="false">33</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="27" Name="FifthMinTech" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3021" Y="-5364" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="27" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">40</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">38</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="39" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">86</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="26" Name="NewTrigger4" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="4391" Y="-5355" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="26" Type="TechStatus v2" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">5</Input>
+            <Input Name="Tech" SigID="2" Optional="false">39</Input>
+            <Input Name="TechStatus" SigID="3" Optional="false">37</Input>
+            <Input Name="UniqueUnit" SigID="4" Optional="true">87</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue />
+      <TriggerEffectsOnFalse>
+        <Effect ID="40" Type="TechActivate v1" DBID="60" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">5</Input>
+          <Input Name="Tech" SigID="2" Optional="false">39</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="5" Name="NewTrigger5" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3106" Y="2086" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="6" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">7</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">6</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="4" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">89</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="6" Name="NewTrigger6" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="4398" Y="2208" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="7" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">12</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">10</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="8" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">90</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="9" Name="NewTrigger9" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="5687" Y="1852" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="10" Type="CanGetOneTech v1" DBID="488" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="TechList" SigID="1" Optional="false">13</Input>
+            <Input Name="ListPosition" SigID="2" Optional="false">14</Input>
+            <Output Name="Tech" SigID="3" Optional="false">0</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="15" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">91</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="3" Name="NewTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="7591" Y="1653" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="2" Type="TechStatus v2" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">5</Input>
+            <Input Name="Tech" SigID="2" Optional="false">0</Input>
+            <Input Name="TechStatus" SigID="3" Optional="false">1</Input>
+            <Input Name="UniqueUnit" SigID="4" Optional="true">92</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="2" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">93</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="24" Type="TechListRemove v1" DBID="574" Version="1" CommentOut="false">
+          <Input Name="RemoveOne" SigID="1" Optional="true">0</Input>
+          <Input Name="RemoveList" SigID="2" Optional="true">99</Input>
+          <Input Name="RemoveAll" SigID="3" Optional="true">100</Input>
+          <Output Name="ModifyList" SigID="4" Optional="false">13</Output>
+        </Effect>
+        <Effect ID="21" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">90</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="4" Name="NewTrigger4" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="8752" Y="1653" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="4" Type="TechStatus v2" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">5</Input>
+            <Input Name="Tech" SigID="2" Optional="false">0</Input>
+            <Input Name="TechStatus" SigID="3" Optional="false">4</Input>
+            <Input Name="UniqueUnit" SigID="4" Optional="true">94</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="26" Type="TechListRemove v1" DBID="574" Version="1" CommentOut="false">
+          <Input Name="RemoveOne" SigID="1" Optional="true">0</Input>
+          <Input Name="RemoveList" SigID="2" Optional="true">95</Input>
+          <Input Name="RemoveAll" SigID="3" Optional="true">96</Input>
+          <Output Name="ModifyList" SigID="4" Optional="false">13</Output>
+        </Effect>
+        <Effect ID="22" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">90</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="9" Type="TechActivate v1" DBID="60" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">5</Input>
+          <Input Name="Tech" SigID="2" Optional="false">0</Input>
+        </Effect>
+        <Effect ID="10" Type="TechListRemove v1" DBID="574" Version="1" CommentOut="false">
+          <Input Name="RemoveOne" SigID="1" Optional="true">0</Input>
+          <Input Name="RemoveList" SigID="2" Optional="true">97</Input>
+          <Input Name="RemoveAll" SigID="3" Optional="true">98</Input>
+          <Output Name="ModifyList" SigID="4" Optional="false">13</Output>
+        </Effect>
+        <Effect ID="11" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">89</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="10" Name="Shutdown Script" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="144" Y="2406" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="12" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">17</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">16</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="14" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="33" Name="NewTrigger5" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="6172" Y="-519" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="33" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">48</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">49</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="54" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">103</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="34" Name="NewTrigger6" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="7464" Y="-397" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="32" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">46</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">47</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="53" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">104</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="32" Name="NewTrigger9" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="8753" Y="-753" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="34" Type="CanGetOneTech v1" DBID="488" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="TechList" SigID="1" Optional="false">13</Input>
+            <Input Name="ListPosition" SigID="2" Optional="false">51</Input>
+            <Output Name="Tech" SigID="3" Optional="false">50</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="52" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">105</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="35" Name="NewTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="10657" Y="-952" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="35" Type="TechStatus v2" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">5</Input>
+            <Input Name="Tech" SigID="2" Optional="false">50</Input>
+            <Input Name="TechStatus" SigID="3" Optional="false">52</Input>
+            <Input Name="UniqueUnit" SigID="4" Optional="true">106</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="56" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">107</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="55" Type="TechListRemove v1" DBID="574" Version="1" CommentOut="false">
+          <Input Name="RemoveOne" SigID="1" Optional="true">50</Input>
+          <Input Name="RemoveList" SigID="2" Optional="true">113</Input>
+          <Input Name="RemoveAll" SigID="3" Optional="true">114</Input>
+          <Output Name="ModifyList" SigID="4" Optional="false">13</Output>
+        </Effect>
+        <Effect ID="51" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">104</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="31" Name="NewTrigger4" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="11818" Y="-952" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="31" Type="TechStatus v2" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">5</Input>
+            <Input Name="Tech" SigID="2" Optional="false">50</Input>
+            <Input Name="TechStatus" SigID="3" Optional="false">54</Input>
+            <Input Name="UniqueUnit" SigID="4" Optional="true">108</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="59" Type="TechListRemove v1" DBID="574" Version="1" CommentOut="false">
+          <Input Name="RemoveOne" SigID="1" Optional="true">50</Input>
+          <Input Name="RemoveList" SigID="2" Optional="true">109</Input>
+          <Input Name="RemoveAll" SigID="3" Optional="true">110</Input>
+          <Output Name="ModifyList" SigID="4" Optional="false">13</Output>
+        </Effect>
+        <Effect ID="58" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">104</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="57" Type="TechActivate v1" DBID="60" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">5</Input>
+          <Input Name="Tech" SigID="2" Optional="false">50</Input>
+        </Effect>
+        <Effect ID="60" Type="TechListRemove v1" DBID="574" Version="1" CommentOut="false">
+          <Input Name="RemoveOne" SigID="1" Optional="true">50</Input>
+          <Input Name="RemoveList" SigID="2" Optional="true">111</Input>
+          <Input Name="RemoveAll" SigID="3" Optional="true">112</Input>
+          <Output Name="ModifyList" SigID="4" Optional="false">13</Output>
+        </Effect>
+        <Effect ID="50" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">103</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="37" Name="NewTrigger5" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3408" Y="4707" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="38" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">62</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">61</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="46" Type="GetLegalTechs v1" DBID="506" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">5</Input>
+          <Output Name="TechList" SigID="2" Optional="false">64</Output>
+          <Output Name="Count" SigID="3" Optional="true">116</Output>
+        </Effect>
+        <Effect ID="64" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">117</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="38" Name="NewTrigger6" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="4700" Y="4829" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="41" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">63</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">60</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="63" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">118</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="39" Name="NewTrigger9" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="5989" Y="4473" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="39" Type="CanGetOneTech v1" DBID="488" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="TechList" SigID="1" Optional="false">64</Input>
+            <Input Name="ListPosition" SigID="2" Optional="false">59</Input>
+            <Output Name="Tech" SigID="3" Optional="false">56</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="71" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">119</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="41" Name="NewTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="7893" Y="4274" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="40" Type="TechStatus v2" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">5</Input>
+            <Input Name="Tech" SigID="2" Optional="false">56</Input>
+            <Input Name="TechStatus" SigID="3" Optional="false">57</Input>
+            <Input Name="UniqueUnit" SigID="4" Optional="true">120</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="69" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">121</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="70" Type="TechListRemove v1" DBID="574" Version="1" CommentOut="false">
+          <Input Name="RemoveOne" SigID="1" Optional="true">56</Input>
+          <Input Name="RemoveList" SigID="2" Optional="true">127</Input>
+          <Input Name="RemoveAll" SigID="3" Optional="true">128</Input>
+          <Output Name="ModifyList" SigID="4" Optional="false">64</Output>
+        </Effect>
+        <Effect ID="72" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">118</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="40" Name="NewTrigger4" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="9713" Y="4237" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="37" Type="TechStatus v2" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">5</Input>
+            <Input Name="Tech" SigID="2" Optional="false">56</Input>
+            <Input Name="TechStatus" SigID="3" Optional="false">58</Input>
+            <Input Name="UniqueUnit" SigID="4" Optional="true">122</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="65" Type="TechListRemove v1" DBID="574" Version="1" CommentOut="false">
+          <Input Name="RemoveOne" SigID="1" Optional="true">56</Input>
+          <Input Name="RemoveList" SigID="2" Optional="true">123</Input>
+          <Input Name="RemoveAll" SigID="3" Optional="true">124</Input>
+          <Output Name="ModifyList" SigID="4" Optional="false">64</Output>
+        </Effect>
+        <Effect ID="68" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">118</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="66" Type="TechActivate v1" DBID="60" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">5</Input>
+          <Input Name="Tech" SigID="2" Optional="false">56</Input>
+        </Effect>
+        <Effect ID="67" Type="TechListRemove v1" DBID="574" Version="1" CommentOut="false">
+          <Input Name="RemoveOne" SigID="1" Optional="true">56</Input>
+          <Input Name="RemoveList" SigID="2" Optional="true">125</Input>
+          <Input Name="RemoveAll" SigID="3" Optional="true">126</Input>
+          <Output Name="ModifyList" SigID="4" Optional="false">64</Output>
+        </Effect>
+        <Effect ID="73" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">117</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

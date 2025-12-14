@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<logic type="Variation">
+				<logicdata value="v1" modelref="Barracks" weight="1" />
+				<logicdata value="v2" modelref="Nest" weight="1" />
+				<logicdata value="v3" modelref="Egg" weight="1" />
+			</logic>
+		</component>
+	</model>
+	<model name="Barracks">
+		<component>
+			<logic type="Variation">
+				<logicdata value="v1" modelref="" weight="1" />
+				<logicdata value="v2" modelref="" weight="1" />
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\building\FloodBarracks_01\FloodBarracks_01</file>
+				<damagefile>flood\building\spawner_01\spawner_01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="FloodBarracksMouth" tobone="bone_attachpoint" frombone="bone_mastermouth" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\idleA_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AHealthIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\idleA_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="BHealthIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\idleB_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CHealthIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\idleC_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ShrinkAToB" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\shrinkAB</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ShrinkBToC" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\shrinkBC</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GrowBToA" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\growthBA</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GrowCToB" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\growthCB</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="DHealthIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\idleD_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ShrinkCToD" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\shrinkCD</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GrowDToC" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\growthDC</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\idleA_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="OpenIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\idleA_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Outgoing" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\idleA_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="FloodBarracksMouth">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\building\FloodBarracks_01\FloodBarracks_mouth01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\close_idle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AHealthIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\close_idle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="BHealthIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\close_idle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CHealthIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\close_idle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ShrinkAToB" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\close_idle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ShrinkBToC" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\close_idle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GrowBToA" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\close_idle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GrowCToB" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\close_idle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="DHealthIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\close_idle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ShrinkCToD" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\close_idle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GrowDToC" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\close_idle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\open</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="OpenIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\open_idle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Outgoing" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodBarracks_01\close</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Nest">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\building\nest_01\nest_01</file>
+				<damagefile>flood\building\nest_01\nest_01</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\nest_01\idleA_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AHealthIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\nest_01\idleA_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="BHealthIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\nest_01\idleB_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CHealthIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\nest_01\idleC_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ShrinkAToB" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\nest_01\shrinkAB</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ShrinkBToC" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\nest_01\shrinkBC</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GrowBToA" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\nest_01\growthBA</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GrowCToB" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\nest_01\growthCB</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="DHealthIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\nest_01\idleD_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ShrinkCToD" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\nest_01\shrinkCD</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GrowDToC" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\nest_01\growthDC</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Egg">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\building\FloodEggstalk_01\stalk_tree</file>
+				<damagefile>flood\building\FloodEggStalk_01\FloodEggStalk_01</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>flood\building\FloodEggstalk_01\idle_01</file>
+				<weight>35</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\building\FloodEggstalk_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.189999998" end="1" name="effects\environment\shieldworldEXT\floodpod_01" tobone="BoneBody" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.192000002" end="1" name="play_flood_pod_open" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.287999988" end="1" name="play_death_flood_egg_stalk" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.289999992" end="1" name="effects\environment\shieldworldEXT\floodpod_02" tobone="bone_egg01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.289999992" end="1" name="play_flood_pod_open" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.442000002" end="1" name="play_flood_pod_open" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.442999989" end="1" name="effects\environment\shieldworldEXT\floodpod_01" tobone="bone_egg02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.540000021" end="1" name="effects\environment\shieldworldEXT\floodpod_02" tobone="bone_egg03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+</visual>

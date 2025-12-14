@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>SpawnSentinel</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_inf_infectionForm_01</SquadType>
+		<WorkRate>100</WorkRate>
+		<HideSpawnUntilRelease />
+	</Action>
+	<Action>
+		<Name>SpawnSentinel1</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_inf_infectedCarrier_01</SquadType>
+		<WorkRate>1</WorkRate>
+		<HideSpawnUntilRelease />
+		<Count>2</Count>
+	</Action>
+	<Action>
+		<Name>SpawnSentinel2</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_air_swarm_01</SquadType>
+		<WorkRate>1</WorkRate>
+		<HideSpawnUntilRelease />
+		<Count>1</Count>
+	</Action>
+	<Tactic>
+		<PersistentAction>SpawnSentinel</PersistentAction>
+		<PersistentAction>SpawnSentinel1</PersistentAction>
+		<PersistentAction>SpawnSentinel2</PersistentAction>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<PlacementRules>
+	<DistanceAtLeastFromType player="any" errorString="Must build further from other buildings" successString="" distance="15">Building</DistanceAtLeastFromType>
+</PlacementRules>

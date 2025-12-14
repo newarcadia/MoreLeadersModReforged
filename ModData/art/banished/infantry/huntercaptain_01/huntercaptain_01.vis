@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>banished\infantry\huntercaptain_01\mesh_stormhunter01</file>
+				<damagefile />
+			</asset>
+			<point pointType="Pickup" bone="b_pelvis" pointData="Metal" />
+			<point pointType="Launch" bone="b_r_hand" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\idle_01</file>
+				<weight>40</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\idle_02</file>
+				<weight>3</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\idle_03</file>
+				<weight>3</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\idle_04</file>
+				<weight>3</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\idle_06</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\idle_07</file>
+				<weight>20</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\walk_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\run_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\run_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\run_03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\run_04</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\run_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\run_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\run_03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\run_04</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="FuelRodAttack" exitAction="Transition" tweenTime="15" tweenToAnimation="CombatIdle">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_BAN_FLY_Hunter_Fuel_Rod_Cannon_Reload_Anim_01" tobone="GrannyRootBone_stormhunter01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.254999995" end="1" tobone="bone_vfx_FuelRodMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.254999995" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/HunterFuelRodCannonMuzzle" tobone="bone_vfx_FuelRodMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.25999999" end="1" name="PLAY_SFX_3D_WPN_BAN_HunterFuelRod" tobone="GrannyRootBone_stormhunter01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\attack_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_BAN_FLY_Hunter_Fuel_Rod_Cannon_Reload_Anim_02" tobone="GrannyRootBone_stormhunter01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.518000007" end="1" tobone="bone_vfx_FuelRodMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.518000007" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/HunterFuelRodCannonMuzzle" tobone="bone_vfx_FuelRodMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.518000007" end="1" name="PLAY_SFX_3D_WPN_BAN_HunterFuelRod" tobone="GrannyRootBone_stormhunter01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\attack_03</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_BAN_FLY_Hunter_Fuel_Rod_Cannon_Reload_Anim_03" tobone="GrannyRootBone_stormhunter01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.35800001" end="1" tobone="bone_vfx_FuelRodMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.35800001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/HunterFuelRodCannonMuzzle" tobone="bone_vfx_FuelRodMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.35800001" end="1" name="PLAY_SFX_3D_WPN_BAN_HunterFuelRod" tobone="GrannyRootBone_stormhunter01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\death_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\death_03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\death_04</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\gather_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\gather_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Stunned" exitAction="Loop" tweenTime="15" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\stunned</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Block" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\block_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Deflect" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\deflect_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="BeamAttack" exitAction="Loop" tweenTime="15" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\beam_attack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0" end="1" tobone="bone_vfx_FuelRodMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Flail" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\flail_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\flail_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\flail_03</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Transition" tweenTime="3" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\idle_05</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\idle_06</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CombatIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\combatidle_01</file>
+				<weight>6</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\idle_06</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleWalk" exitAction="Transition" tweenTime="10" tweenToAnimation="Walk">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\idlewalk_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="WalkIdle" exitAction="Transition" tweenTime="15" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\walkidle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleJog" exitAction="Transition" tweenTime="10" tweenToAnimation="Jog">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\idlejog_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JogIdle" exitAction="Transition" tweenTime="20" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\jogidle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\jogidle_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Capture" exitAction="Transition" tweenTime="10" tweenToAnimation="Capture">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\combatidle_01</file>
+				<weight>6</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\idle_05</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\idle_06</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cower" exitAction="Transition" tweenTime="10" tweenToAnimation="Cower">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\cower_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\cower_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\cower_03</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JogAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="Jog">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\hunter_jog_attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnLeft" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\turnleft</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnRight" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\turnright</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="BeamJogAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="Jog">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\hunter_jog_attack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0" end="1" tobone="bone_hand_grip_right_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Knockdown" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\hunter_knockdown_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\hunter_knockdown_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\hunter_knockdown_03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\huntercaptain_01\hunter_knockdown_04</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Taunt" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>dlc3/pack2/animations/covenant/infantry/impervious_hunter01/taunt01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.474999994" end="1" name="vfx/dlc3/units/ImperviousHunterTaunt" tobone="GrannyRootBone_stormhunter01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="15" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.5" end="1" tobone="bone_root_01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="UpgradeBeamJogAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Jog">
+			<asset type="Anim">
+				<file>dlc3/pack2/animations/covenant/infantry/impervious_hunter01/hunter_jog_attack_upgrade_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TauntUpgrade" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>dlc3/pack2/animations/covenant/infantry/impervious_hunter01/taunt01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.479999989" end="1" name="vfx/dlc3/units/ImperviousHunterTauntUpgrade" tobone="GrannyRootBone_stormhunter01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="15" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.5" end="1" tobone="bone_root_01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="BeamAttackUpgrade" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>dlc3/pack2/animations/covenant/infantry/impervious_hunter01/beam_attack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0" end="1" tobone="bone_vfx_FuelRodMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+</visual>
