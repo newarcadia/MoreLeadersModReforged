@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<file>unsc\infantry_h2\marine\badger</file>
+				<damagefile>template\defaultInfantry</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\walk_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\run_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\run_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="EvadeLeft" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\evade_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="EvadeRight" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\evade_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\lockdown_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\lockdown_to_normal</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\death_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\death_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\death_headshot</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Lockdown">
+		<component>
+			<asset type="Model">
+				<file>unsc\infantry_h2\marine\badger_lockdown</file>
+				<damagefile>template\defaultInfantry</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\lockdown_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="LockdownCannonAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="LockdownCannonAttack">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\lockdown_idle_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.180000007" end="1" name="play_unsc_badger_fire" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+				<tag type="Attack" start="0" position="0.180000007" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+				<tag type="Particle" start="0" position="0.180000007" end="1" name="effects\vehicle_fx\unsc\badger\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\lockdown_idle_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.234999999" end="1" name="play_unsc_badger_fire" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+				<tag type="Attack" start="0" position="0.234999999" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+				<tag type="Particle" start="0" position="0.239999995" end="1" name="effects\vehicle_fx\unsc\badger\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\lockdown_idle_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.189999998" end="1" name="effects\vehicle_fx\unsc\badger\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+				<tag type="Sound" start="0" position="0.191" end="1" name="play_unsc_badger_fire" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+				<tag type="Attack" start="0" position="0.191" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\lockdown_idle_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.296000004" end="1" name="play_unsc_badger_fire" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+				<tag type="Attack" start="0" position="0.296000004" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+				<tag type="Particle" start="0" position="0.300000012" end="1" name="effects\vehicle_fx\unsc\badger\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+			</asset>
+		</anim>
+		<anim type="LockdownCannonReload" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\anchordown_reload_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\lockdown_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\lockdown_to_normal</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\lockdown_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\lockdown_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\lockdown_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\death_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\death_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry_h2\marine\badger_animations\death_headshot</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<logic type="SquadMode">
+		<logicdata value="Lockdown" modelref="Lockdown" />
+		<logicdata value="" modelref="Default" />
+	</logic>
+</visual>

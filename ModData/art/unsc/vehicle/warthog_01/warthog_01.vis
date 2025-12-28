@@ -563,7 +563,7 @@
 								<uvOffset channel="0" uOfs="0" vOfs="0" />
 								<uvOffset channel="1" uOfs="0" vOfs="0" />
 								<uvOffset channel="2" uOfs="0" vOfs="0" />
-								<file>unsc\vehicle\warthog_01\warthogmarine_01</file>
+								<file>unsc\infantry_h2\marine\marine_10</file>
 							</asset>
 						</logicdata>
 					</logic>
@@ -583,7 +583,7 @@
 								<uvOffset channel="0" uOfs="0" vOfs="0" />
 								<uvOffset channel="1" uOfs="0" vOfs="0" />
 								<uvOffset channel="2" uOfs="0" vOfs="0" />
-								<file>unsc\vehicle\warthog_01\warthogmarine_01</file>
+								<file>unsc\infantry_h2\marine\marine_2</file>
 							</asset>
 						</logicdata>
 					</logic>
@@ -603,7 +603,7 @@
 								<uvOffset channel="0" uOfs="0" vOfs="0" />
 								<uvOffset channel="1" uOfs="0" vOfs="0" />
 								<uvOffset channel="2" uOfs="0" vOfs="0" />
-								<file>unsc\vehicle\warthog_01\warthogmarine_01</file>
+								<file>unsc\infantry_h2\marine\marine_6</file>
 							</asset>
 						</logicdata>
 					</logic>
@@ -777,7 +777,7 @@
 								<uvOffset channel="0" uOfs="0" vOfs="0" />
 								<uvOffset channel="1" uOfs="0" vOfs="0" />
 								<uvOffset channel="2" uOfs="0" vOfs="0" />
-								<file>unsc\vehicle\warthog_01\warthogSniperLegs_01</file>
+								<file>unsc\infantry_h2\marine\warthogSniperLegs_01</file>
 							</asset>
 						</logicdata>
 					</logic>
@@ -797,7 +797,7 @@
 								<uvOffset channel="0" uOfs="0" vOfs="0" />
 								<uvOffset channel="1" uOfs="0" vOfs="0" />
 								<uvOffset channel="2" uOfs="0" vOfs="0" />
-								<file>unsc\vehicle\warthog_01\warthogSniperLegs_01</file>
+								<file>unsc\infantry_h2\marine\warthogSniperLegs_01</file>
 							</asset>
 						</logicdata>
 					</logic>
@@ -845,7 +845,7 @@
 								<uvOffset channel="0" uOfs="0" vOfs="0" />
 								<uvOffset channel="1" uOfs="0" vOfs="0" />
 								<uvOffset channel="2" uOfs="0" vOfs="0" />
-								<file>unsc\vehicle\warthog_01\warthogSniperTop_01</file>
+								<file>unsc\infantry_h2\marine\warthogSniperTop_01</file>
 							</asset>
 						</logicdata>
 					</logic>
@@ -865,7 +865,7 @@
 								<uvOffset channel="0" uOfs="0" vOfs="0" />
 								<uvOffset channel="1" uOfs="0" vOfs="0" />
 								<uvOffset channel="2" uOfs="0" vOfs="0" />
-								<file>unsc\vehicle\warthog_01\warthogSniperTop_01</file>
+								<file>unsc\infantry_h2\marine\warthogSniperTop_01</file>
 							</asset>
 						</logicdata>
 					</logic>
@@ -1060,7 +1060,7 @@
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>unsc\vehicle\warthog_01\warthogmarine_02</file>
+						<file>unsc\infantry_h2\marine\warthogmarine</file>
 					</asset>
 				</logicdata>
 			</logic>
@@ -1068,7 +1068,7 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>unsc\vehicle\warthog_01\warthogmarine_02</file>
+				<file>unsc\infantry_h2\marine\warthogmarine</file>
 			</asset>
 		</component>
 		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="idle">

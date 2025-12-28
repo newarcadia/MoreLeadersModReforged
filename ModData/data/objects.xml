@@ -5326,7 +5326,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>unsc\infantry\flameMarine_01\flameMarine_01.vis</Visual>
+		<Visual>unsc\infantry_h2\marine\marine_flamethrower.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_flamemarine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10048</DisplayNameID>
@@ -5406,7 +5406,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>unsc\infantry\flameMarine_01\flameMarine_01.vis</Visual>
+		<Visual>unsc\infantry_h2\marine\marine_flamethrower.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_flamemarine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10048</DisplayNameID>
@@ -5567,7 +5567,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>unsc\infantry\marine_01\marine_01.vis</Visual>
+		<Visual>unsc\infantry_h2\marine\marine_assaultrifle.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10048</DisplayNameID>
@@ -5649,7 +5649,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>unsc\infantry\marine_01\marine_01.vis</Visual>
+		<Visual>unsc\infantry_h2\marine\marine_battlerifle.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10048</DisplayNameID>
@@ -5732,7 +5732,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>unsc\infantry\medic_01\medic_01.vis</Visual>
+		<Visual>unsc\infantry_h2\marine\medic_battlerifle.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10048</DisplayNameID>
@@ -9228,7 +9228,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>grunt</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>covenant\infantry\suicideGrunt_01\suicideGrunt_01.vis</Visual>
+		<Visual>covenant\infantry_h2\grunt\suicideGrunt_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>24159</DisplayNameID>
@@ -9309,7 +9309,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>grunt</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>covenant\infantry\grunt_01\grunt_01.vis</Visual>
+		<Visual>covenant\infantry_h2\grunt\grunt_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10112</DisplayNameID>
@@ -9389,7 +9389,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>grunt</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>covenant\infantry\grunt_01\grunt_01.vis</Visual>
+		<Visual>covenant\infantry_h2\grunt\grunt_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10112</DisplayNameID>
@@ -9466,7 +9466,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>grunt</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>covenant\infantry\needlergrunt_01\needlergrunt_01.vis</Visual>
+		<Visual>covenant\infantry_h2\grunt\needlergrunt_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt_needler</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10112</DisplayNameID>
@@ -9543,7 +9543,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>grunt</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>covenant\infantry\needlergrunt_01\needlergrunt_01.vis</Visual>
+		<Visual>covenant\infantry_h2\grunt\needlergrunt_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt_needler</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10112</DisplayNameID>
@@ -9618,7 +9618,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>covenant\infantry\h2elite_01\elite_plasmarifle.vis</Visual>
+		<Visual>covenant\infantry_h2\elite\elite_plasmarifle.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10120</DisplayNameID>
@@ -9696,7 +9696,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>covenant\infantry\h2elite_01\elitehl_sword.vis</Visual>
+		<Visual>covenant\infantry_h2\elite\elitecommando_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10116</DisplayNameID>
@@ -9775,7 +9775,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>covenant\infantry\brute_01\brute_01.vis</Visual>
+		<Visual>covenant\infantry_h2\brute\brute_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10122</DisplayNameID>
@@ -9848,7 +9848,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>covenant\infantry\brute_01\bruteleader_01.vis</Visual>
+		<Visual>covenant\infantry_h2\brute\bruteleader_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10122</DisplayNameID>
@@ -9919,16 +9919,16 @@
 		<HPBar>COV_Health</HPBar>
 	</Object>
 	<Object name="cov_inf_jackalShield_01" id="0" dbid="4010">
-		<Visual>covenant\infantry\jackal_01\jackalShield_01.vis</Visual>
+		<Visual>covenant\infantry_h2\jackal\jackalShield_01.vis</Visual>
 	</Object>
 	<Object name="cov_inf_jackalShield_02" id="0" dbid="4010">
-		<Visual>covenant\infantry\jackal_01\jackalShield_02.vis</Visual>
+		<Visual>covenant\infantry_h2\jackal\jackalShield_02.vis</Visual>
 	</Object>
 	<Object name="cov_inf_hunter_01" id="0" dbid="199">
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>hunter</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>covenant\infantry\hunter_01\hunter_01.vis</Visual>
+		<Visual>covenant\infantry_h2\hunter\hunter_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_hunter</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10126</DisplayNameID>
@@ -12739,7 +12739,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>creep\infantry\jackal_01\jackal_01.vis</Visual>
+		<Visual>creep\infantry_h2\jackal\jackal_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>23991</DisplayNameID>
@@ -31941,7 +31941,7 @@
 	</Object>
 	<Object name="fx_jackalShield" is="0" id="8956" dbid="3861">
 		<ObjectClass>Object</ObjectClass>
-		<Visual>covenant\infantry\jackal_01\shield.vis</Visual>
+		<Visual>covenant\infantry_h2\jackal\shield.vis</Visual>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
 	</Object>

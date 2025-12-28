@@ -2,16 +2,17 @@
 <StringTable version="1">
 	<Language name="English">
 		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">
-TEST
-
 Changelog:
-- Replaced Forerunner with the VanillaPlus variant
-- Updated icons
-- Updated strings
+- Added a basic AI
+- Updated models
+
+Known issues:
+Missing textures or models for certain units
+Missing icons and strings for more certain units
 
 </String>
-		<String _locID="26217" category="UI" subtitle="false">More Leaders Mod Reforged</String>
-		<String _locID="26218" category="UI" subtitle="false">New Arcadia :)</String>
+		<String _locID="26217" category="UI" subtitle="false">More Leaders Mod Reforged (Early Access)</String>
+		<String _locID="26218" category="UI" subtitle="false">v1.1</String>
 		<!-- BlockLeaderpower effect uses this string-->
 		<String _locID="357" category="Code" subtitle="false">JAMMED! </String> 
 		<!-- FORERUNNER LEADER -->

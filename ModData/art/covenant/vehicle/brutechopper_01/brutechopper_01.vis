@@ -496,7 +496,7 @@
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>covenant\vehicle\bruteChopper_01\driver_01</file>
+						<file>covenant\infantry_h2\brute\driver</file>
 					</asset>
 				</logicdata>
 			</logic>

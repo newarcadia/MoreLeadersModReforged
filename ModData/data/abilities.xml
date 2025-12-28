@@ -106,6 +106,12 @@
 		<RecoverEndAnim>OpenBay</RecoverEndAnim>
 		<DontInterruptAttack>true</DontInterruptAttack>
 	</Ability>
+	<Ability Name="UnscUnpackTurret">
+		<DisplayNameID>6033</DisplayNameID>
+		<RolloverTextID>6034</RolloverTextID>
+		<Type>Unpack</Type>
+		<Object>unsc_bldg_turret_01</Object>
+	</Ability>
 	<Ability Name="UnscSpartanTakeOver">
 		<DisplayNameID>24236</DisplayNameID>
 		<RolloverTextID>24237</RolloverTextID>
