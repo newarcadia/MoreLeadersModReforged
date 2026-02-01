@@ -2,17 +2,11 @@
 <StringTable version="1">
 	<Language name="English">
 		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">
-Changelog:
-- Added a basic AI
-- Updated models
-
-Known issues:
-Missing textures or models for certain units
-Missing icons and strings for more certain units
+Early access build to test coming features/changes. Some units may not be in a finished state and are just there to test game balance and AI. Game issues and crashes are to be expected.
 
 </String>
-		<String _locID="26217" category="UI" subtitle="false">More Leaders Mod Reforged (Early Access)</String>
-		<String _locID="26218" category="UI" subtitle="false">v1.1</String>
+		<String _locID="26217" category="UI" subtitle="false">More Leaders Mod Reforged Beta Build (UNSC/COV AI TEST)</String>
+		<String _locID="26218" category="UI" subtitle="false">v1.1.1</String>
 		<!-- BlockLeaderpower effect uses this string-->
 		<String _locID="357" category="Code" subtitle="false">JAMMED! </String> 
 		<!-- FORERUNNER LEADER -->
@@ -561,6 +555,8 @@ and heavy air units.</String>
 		<String _locID="42721" category="Leaders" subtitle="false">Unique Unit: Insurrectionist Infantry, Rocket Warthog, Leader Power: Battle Support, Bonus: Faster infantry production.</String>
 		<String _locID="42722" category="Leaders" subtitle="false">Tek</String>
 		<String _locID="42723" category="Leaders" subtitle="false">Unique Units: Skirmishers, Drones, Beetles, Hydras, Leader Power: Hologram</String>
+		<String _locID="42724" category="Leaders" subtitle="false">Testleader</String>
+		<String _locID="42725" category="Leaders" subtitle="false">Leader to test work in progress assets.</String>
 
 
 		<!-- MISC -->
@@ -767,10 +763,10 @@ Raises potential army size</String>
 		<String _locID="50088" category="Techs" subtitle="false">Adds extra shielding to deflect incoming projectiles.</String>
 		<String _locID="50089" category="Techs" subtitle="false">BEAM RIFLE</String>
 		<String _locID="50090" category="Techs" subtitle="false">Elite are now equipped with particle beam rifles.</String>
-		<String _locID="50091" category="Techs" subtitle="false">cov_eliteupgrade_01</String>
-		<String _locID="50092" category="Techs" subtitle="false">shadow tech</String>
-		<String _locID="50093" category="Techs" subtitle="false">COMBAT REINFORCEMENTS</String>
-		<String _locID="50094" category="Techs" subtitle="false">Elite squads have one additional Elite.</String>
+		<String _locID="50091" category="Techs" subtitle="false">FUEL ROD</String>
+		<String _locID="50092" category="Techs" subtitle="false">Elite squads are now equipped with fuel rods.</String>
+		<String _locID="50093" category="Techs" subtitle="false">PERSONAL SHIELD</String>
+		<String _locID="50094" category="Techs" subtitle="false">Adds an energy shield that deflects some incoming damage.</String>
 		<String _locID="50095" category="Techs" subtitle="false">NEEDLER</String>
 		<String _locID="50096" category="Techs" subtitle="false">Elite squads are now equipped with needlers.</String>
 		<String _locID="50097" category="Techs" subtitle="false">Infected Unit Upgrade I</String>
@@ -950,18 +946,18 @@ Adds a drone.</String>
 		<String _locID="50269" category="Techs" subtitle="false">Health and damage boost.</String>
 		<String _locID="50270" category="Techs" subtitle="false">CHIMERA UPGRADE III</String>
 		<String _locID="50271" category="Techs" subtitle="false">Health and damage boost.</String>
-		<String _locID="50272" category="Techs" subtitle="false">cov_bruteBerserker_upgrade1</String>
-		<String _locID="50273" category="Techs" subtitle="false">shadow tech</String>
-		<String _locID="50274" category="Techs" subtitle="false">BERSERKER UPGRADE II</String>
-		<String _locID="50275" category="Techs" subtitle="false">Health and damage boost.</String>
-		<String _locID="50276" category="Techs" subtitle="false">BERSERKER UPGRADE III</String>
-		<String _locID="50277" category="Techs" subtitle="false">Health and damage boost.</String>
-		<String _locID="50278" category="Techs" subtitle="false">cov_GruntDeacon_upgrade1</String>
-		<String _locID="50279" category="Techs" subtitle="false">shadow tech</String>
-		<String _locID="50280" category="Techs" subtitle="false">DEACON UPGRADE II</String>
-		<String _locID="50281" category="Techs" subtitle="false">Health and damage boost. More deacons.</String>
-		<String _locID="50282" category="Techs" subtitle="false">DEACON UPGRADE III</String>
-		<String _locID="50283" category="Techs" subtitle="false">Health and damage boost. More deacons.</String>
+		<String _locID="50272" category="Techs" subtitle="false">ADRENALINE RUSH</String>
+		<String _locID="50273" category="Techs" subtitle="false">Increases velocity.</String>
+		<String _locID="50274" category="Techs" subtitle="false">GRENADE UPGRADE</String>
+		<String _locID="50275" category="Techs" subtitle="false">Berserker unlock active Grenade Ability. Spike grenades can stick to enemy targets.</String>
+		<String _locID="50276" category="Techs" subtitle="false">HAMMER UPGRADE</String>
+		<String _locID="50277" category="Techs" subtitle="false">Berserkers do now carry gravity hammer.</String>
+		<String _locID="50278" category="Techs" subtitle="false">FRESH BLOOD</String>
+		<String _locID="50279" category="Techs" subtitle="false">Adds another Heavy Grunt to the squad. This increases the combat effectiveness of the squad</String>
+		<String _locID="50280" category="Techs" subtitle="false">FUEL ROD ABILITY</String>
+		<String _locID="50281" category="Techs" subtitle="false">Unlock active Rocket Ability.</String>
+		<String _locID="50282" category="Techs" subtitle="false">NEEDLER</String>
+		<String _locID="50283" category="Techs" subtitle="false">Needlers can attack from a longer range than Plasma Rifles.</String>
 		<String _locID="50284" category="Techs" subtitle="false">INFECTIONFORM UPGRADE I</String>
 		<String _locID="50285" category="Techs" subtitle="false">Health and damage boost.</String>
 		<String _locID="50286" category="Techs" subtitle="false">INFECTIONFORM UPGRADE II</String>
@@ -1033,8 +1029,8 @@ Adds a drone.</String>
 		<String _locID="51036" category="Squads" subtitle="false">A support unit that repairs and heals nearby allied units.</String>
 		<String _locID="51037" category="Squads" subtitle="false">BERSERKER</String>
 		<String _locID="51038" category="Squads" subtitle="false">Heavy armored troops, good at distracting infantry units.</String>
-		<String _locID="51039" category="Squads" subtitle="false">DEACON SQUAD</String>
-		<String _locID="51040" category="Squads" subtitle="false">Mainline troop, slow and short range yet still the best returns per cost in combat.</String>
+		<String _locID="51039" category="Squads" subtitle="false">HEAVY GRUNT</String>
+		<String _locID="51040" category="Squads" subtitle="false">Mainline troop, slow and medium range yet still the best returns per cost in combat.</String>
 		<String _locID="51041" category="Squads" subtitle="false">SPAWNER FORM</String>
 		<String _locID="51042" category="Squads" subtitle="false">Spawners will take position in the Fog of War and begin spawning either Pod infectors, Infesters or Seeder infectors, depending on what is effective against the units the enemy is using. However, Spawners are slow, and will succumb to heavy firepower when faced with a diverse array of units.</String>
 		<String _locID="51043" category="Squads" subtitle="false">GAUNT FORM</String>
@@ -1228,6 +1224,31 @@ Adds a drone.</String>
 		<String _locID="52071" category="UI" scenario="Hooks" subtitle="false">Deploys 3 random Flood Combat Forms.</String>
 		<String _locID="52072" category="UI" scenario="Hooks" subtitle="false">Vehicles</String>
 		<String _locID="52073" category="UI" scenario="Hooks" subtitle="false">Deploys one random Vehicle or Aircraft.</String>
+
+		<String _locID="52100" category="Powers" subtitle="false">PLACEHOLDER DROP</String>
+		<String _locID="52101" category="Powers" subtitle="false">1 spectre, 3 elites</String>
+		<String _locID="52102" category="Powers" subtitle="false">PLACEHOLDER DROP</String>
+		<String _locID="52103" category="Powers" subtitle="false">1 wraith ultra</String>
+		<String _locID="52104" category="Powers" subtitle="false">PLACEHOLDER DROP</String>
+		<String _locID="52105" category="Powers" subtitle="false">Wraith Hero</String>
+		<String _locID="52106" category="Powers" subtitle="false">PLACEHOLDER DROP</String>
+		<String _locID="52107" category="Powers" subtitle="false">1 honor guard brute, 2 major brutes and 3 berserkers</String>
+		<String _locID="52108" category="Powers" subtitle="false">PLACEHOLDER DROP</String>
+		<String _locID="52109" category="Powers" subtitle="false">1 prowler, 2 brute chopper</String>
+		<String _locID="52110" category="Powers" subtitle="false">PLACEHOLDER DROP</String>
+		<String _locID="52111" category="Powers" subtitle="false">Brute Hero</String>
+		<String _locID="52112" category="Powers" subtitle="false">PLACEHOLDER DROP</String>
+		<String _locID="52113" category="Powers" subtitle="false">3 grunt heavies</String>
+		<String _locID="52114" category="Powers" subtitle="false">PLACEHOLDER DROP</String>
+		<String _locID="52115" category="Powers" subtitle="false">1 revenant, 2 locust</String>
+		<String _locID="52116" category="Powers" subtitle="false">PLACEHOLDER DROP</String>
+		<String _locID="52117" category="Powers" subtitle="false">3 locust heroes</String>
+		<String _locID="52118" category="Powers" subtitle="false">PLACEHOLDER DROP</String>
+		<String _locID="52119" category="Powers" subtitle="false">2 guta riders</String>
+		<String _locID="52120" category="Powers" subtitle="false">PLACEHOLDER DROP</String>
+		<String _locID="52121" category="Powers" subtitle="false">3 spectre (ce variant)</String>
+		<String _locID="52122" category="Powers" subtitle="false">PLACEHOLDER DROP</String>
+		<String _locID="52123" category="Powers" subtitle="false">Jackal Hero</String>
 
 
 		<String _locID="100" category="Code" subtitle="false">CONFIRM</String>

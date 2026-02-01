@@ -417,7 +417,7 @@
 		<Status>OBTAINABLE</Status>
 		<Effects>
 			<Effect type="GodPower" amount="0">UnscOdstDrop</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_odst_upgrade1" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_odst_upgrade1_player" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
 			</Effect>
 		</Effects>
@@ -570,6 +570,12 @@
 				<Target type="ProtoUnit">for_air_regulator_01</Target>
 				<Target type="ProtoUnit">for_veh_eradicator_01_new</Target>
 				<Target type="ProtoUnit">fore_veh_pilotes_01</Target>
+				<Target type="ProtoUnit">cov_inf_bruteBerserker_01</Target>
+				<Target type="ProtoUnit">cov_inf_bruteBerserker_02</Target>
+				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+				<Target type="ProtoUnit">cov_inf_elite_01</Target>
+				<Target type="ProtoUnit">cov_inf_needlerelite_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="RamAttack" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
@@ -769,7 +775,7 @@
 				<Target type="ProtoSquad">unsc_veh_grizzly_01</Target>
 				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
 				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
-				<Target type="ProtoSquad">unsc_inf_odst_01</Target>
+				<Target type="ProtoSquad">unsc_inf_odst_01_player</Target>
 				<Target type="ProtoSquad">unsc_inf_marine_01</Target>
 				<Target type="ProtoSquad">unsc_inf_marine_02</Target>
 				<Target type="ProtoSquad">unsc_inf_marine_03</Target>
@@ -1084,7 +1090,7 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_hawk_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_airpad_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_odst_upgrade1" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_odst_upgrade1_player" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_odst_upgrade2" relativity="Absolute">
@@ -1096,7 +1102,7 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_odst_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_odst_upgrade1" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_odst_upgrade1_player" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_hawk_upgrade1" relativity="Absolute">
@@ -1458,7 +1464,7 @@
 				<Target type="ProtoSquad">unsc_air_hawk_01</Target>
 				<Target type="ProtoSquad">unsc_air_hornet_01</Target>
 				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
-				<Target type="ProtoSquad">unsc_inf_odst_01</Target>
+				<Target type="ProtoSquad">unsc_inf_odst_01_player</Target>
 				<Target type="ProtoSquad">unsc_inf_odst_02</Target>
 				<Target type="ProtoSquad">unsc_inf_odst_03</Target>
 				<Target type="ProtoSquad">unsc_inf_sniper_01</Target>
@@ -2911,6 +2917,7 @@
 		<Effects>
 			<Effect type="GodPower" amount="1">_RallyPoint</Effect>
 			<Effect type="GodPower" amount="1">UnscCivTransport</Effect>
+			<Effect type="GodPower" amount="1">CovLeaderRepair</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_gutarider_01</Target>
 				<Target type="ProtoSquad">cov_veh_chimera_02</Target>
@@ -2942,7 +2949,7 @@
 				<Target type="ProtoUnit">cov_veh_spectre_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">cov_veh_wraithaa_01</Target>
+				<Target type="ProtoUnit">cov_bldg_specops_01</Target>
 				<Target type="ProtoSquad">cov_air_phantom_01</Target>
 				<Target type="ProtoSquad">cov_titan_superscarab_01</Target>
 				<Target type="ProtoUnit">cov_bldg_kingtemple_01</Target>
@@ -2985,6 +2992,42 @@
 				<Target type="ProtoSquad">cov_veh_locust_01</Target>
 				<Target type="ProtoUnit">cov_bldg_lightfactory_01</Target>
 				<Target type="ProtoSquad">cov_veh_scarab_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_titan_phantom_gunship_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_elite_pc_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_spectre_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraith_ultra_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_brute_hg_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_prowler_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_banshee_space_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_silentshadow_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_revenant_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithaa_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_spectre_ce_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_gutarider_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_skirmisherchampion_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
@@ -5759,7 +5802,7 @@
 		<Effects>
 			<Effect type="GodPower" amount="1">ODSTHeroDrop</Effect>
 			<Effect type="GodPower" amount="1">CutterSupportDrop</Effect>
-			<Effect type="GodPower" amount="1">OdstUnlock</Effect>
+			<Effect type="GodPower" amount="10">UnscOdstDrop_Player</Effect>
 			<Effect type="GodPower" amount="1">UnscLeaderOrbitalBombard</Effect>
 			<Effect type="TransformProtoUnit" FromType="unsc_bldg_command_01" ToType="unsc_bldg_command_02" />
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
@@ -5768,7 +5811,7 @@
 				<Target type="BuildOther">creep_rebel_arcadiaBase_05</Target>
 				<Target type="ProtoSquad">cpgn_npc_cutter_01</Target>
 				<Target type="ProtoSquad">unsc_inf_police_01</Target>
-				<Target type="ProtoSquad">unsc_inf_odst_01</Target>
+				<Target type="ProtoSquad">unsc_inf_odst_01_player</Target>
 				<Target type="ProtoSquad">unsc_inf_odst_02</Target>
 				<Target type="ProtoSquad">unsc_inf_odst_03</Target>
 			</Effect>
@@ -5792,10 +5835,10 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="ProtoUnit" CommandData="creep_rebel_arcadiaBase_05" relativity="Absolute">
 				<Target type="ProtoUnit">game_base_Socket_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_odst_upgrade1" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_odst_upgrade1_player" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_odst_upgrade1" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_odst_upgrade1_player" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_odst_upgrade2" relativity="Absolute">
@@ -6359,7 +6402,12 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="GodPower" amount="1">ArbiterSupportDrop</Effect>
+			<Effect type="GodPower" amount="1">Arbiter2ndSupportDrop</Effect>
+			<Effect type="GodPower" amount="1">ArbiterHeroDrop</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_titan_phantom_gunship_01</Target>
+				<Target type="ProtoSquad">cov_inf_elite_pc_01</Target>
 				<Target type="ProtoSquad">cov_inf_elite_01</Target>
 				<Target type="ProtoSquad">cov_inf_elite_02</Target>
 				<Target type="ProtoSquad">cov_inf_arbiter_01</Target>
@@ -6370,6 +6418,15 @@
 				<Target type="ProtoSquad">cov_veh_spectre_01</Target>
 				<Target type="ProtoSquad">cov_inf_suicideGrunt_01</Target>
 				<Target type="ProtoSquad">cov_veh_spectre_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_titan_phantom_gunship_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_elite_pc_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_spectre_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_plasmacasterelite_upgrade" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
@@ -6655,6 +6712,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="GodPower" amount="1">BruteSupportDrop</Effect>
+			<Effect type="GodPower" amount="1">Brute2ndSupportDrop</Effect>
+			<Effect type="GodPower" amount="1">BruteHeroDrop</Effect>
 			<Effect type="TransformProtoSquad" FromType="cov_inf_grunt_01" ToType="cov_inf_minorjackal_01" />
 			<Effect type="TransformProtoSquad" FromType="cov_inf_grunt_02" ToType="cov_inf_minorjackal_02" />
 			<Effect type="TransformProtoSquad" FromType="cov_inf_grunt_03" ToType="cov_inf_minorjackal_03" />
@@ -6662,6 +6722,9 @@
 				<Target type="ProtoUnit">cov_veh_brutetank_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_titan_phantom_gunship_01</Target>
+				<Target type="ProtoSquad">cov_inf_brute_hg_01</Target>
+				<Target type="ProtoSquad">cov_air_banshee_space_01</Target>
 				<Target type="ProtoSquad">cov_inf_bruteChief_01</Target>
 				<Target type="ProtoSquad">cov_inf_minorjackal_01</Target>
 				<Target type="ProtoSquad">cov_inf_minorjackal_02</Target>
@@ -6670,6 +6733,18 @@
 				<Target type="ProtoSquad">cov_veh_prowler_01</Target>
 				<Target type="ProtoSquad">cov_inf_bruteBerserker_01</Target>
 				<Target type="ProtoSquad">cov_veh_prowler_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_titan_phantom_gunship_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_brute_hg_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_prowler_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_banshee_space_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_brutehonorguard_upgrade" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
@@ -6853,7 +6928,12 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="GodPower" amount="1">ProphetSupportDrop</Effect>
+			<Effect type="GodPower" amount="1">Prophet2ndSupportDrop</Effect>
+			<Effect type="GodPower" amount="1">ProphetHeroDrop</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_titan_phantom_gunship_01</Target>
+				<Target type="ProtoSquad">cov_inf_silentshadow_01</Target>
 				<Target type="ProtoSquad">cov_inf_prophet_01</Target>
 				<Target type="ProtoUnit">cov_bldg_ProphetMegaTurret_01</Target>
 				<Target type="BuildOther">cov_bldg_ProphetMegaTurret_01</Target>
@@ -6862,6 +6942,15 @@
 				<Target type="ProtoSquad">cov_inf_gruntDeacon_02</Target>
 				<Target type="ProtoSquad">cov_inf_gruntDeacon_03</Target>
 				<Target type="ProtoSquad">cov_veh_revenant_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_titan_phantom_gunship_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_silentshadow_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_revenant_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_ProphetMegaTurret_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
@@ -7292,7 +7381,7 @@
 				<Target type="ProtoSquad">unsc_inf_marine_03</Target>
 			</Effect>
 			<Effect type="Data" amount="0.5" subtype="buildPoints" allactions="1" relativity="Percent">
-				<Target type="ProtoSquad">unsc_inf_odst_01</Target>
+				<Target type="ProtoSquad">unsc_inf_odst_01_player</Target>
 			</Effect>
 			<Effect type="Data" amount="0.5" subtype="buildPoints" allactions="1" relativity="Percent">
 				<Target type="ProtoSquad">unsc_inf_flameMarine_01</Target>

@@ -13,7 +13,7 @@
 		<TriggerVar ID="27" Type="String" Name="" IsNull="false">Pass</TriggerVar>
 		<TriggerVar ID="139" Type="Vector" Name="DropLoc" IsNull="false" />
 		<TriggerVar ID="140" Type="Squad" Name="" IsNull="true" />
-		<TriggerVar ID="141" Type="ProtoSquad" Name="" IsNull="false">unsc_inf_marine_01</TriggerVar>
+		<TriggerVar ID="141" Type="ProtoSquad" Name="" IsNull="false">unsc_inf_odst_01_player</TriggerVar>
 		<TriggerVar ID="144" Type="Vector" Name="FlyInStartVar1" IsNull="true" />
 		<TriggerVar ID="145" Type="Vector" Name="FlyInEndVar1" IsNull="true" />
 		<TriggerVar ID="146" Type="Squad" Name="CreatedSquadVar1" IsNull="true" />
@@ -30,7 +30,7 @@
 		<TriggerVar ID="168" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
 		<TriggerVar ID="169" Type="Time" Name="" IsNull="false">750</TriggerVar>
 		<TriggerVar ID="170" Type="Trigger" Name="TriggerVar2" IsNull="false">19</TriggerVar>
-		<TriggerVar ID="172" Type="ProtoObject" Name="" IsNull="false">unsc_air_odstPod_01</TriggerVar>
+		<TriggerVar ID="172" Type="ProtoObject" Name="" IsNull="false">unsc_air_odstPod_01_player</TriggerVar>
 		<TriggerVar ID="175" Type="Unit" Name="TargetUnitVar1" IsNull="true" />
 		<TriggerVar ID="178" Type="Vector" Name="" IsNull="false">0,0,1</TriggerVar>
 		<TriggerVar ID="179" Type="Float" Name="" IsNull="false">4.04250002</TriggerVar>

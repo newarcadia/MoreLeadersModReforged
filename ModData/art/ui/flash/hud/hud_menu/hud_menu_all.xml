@@ -219,6 +219,18 @@
 	<KeyFrame>queued</KeyFrame>
 	<KeyFrame>pc_off</KeyFrame>
 	<KeyFrame>pc_on</KeyFrame>
+	<Icon type="uniticon" name="cov_air_banshee_space_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_air_banshee_space_01" owner="cov_air_banshee_space_01">-1</Icon>
+	<Icon type="uniticon" name="cov_inf_brute_hg_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_inf_brute_hg_01" owner="cov_inf_brute_hg_01">-1</Icon>
+	<Icon type="uniticon" name="cov_inf_elite_pc_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_inf_elite_pc_01" owner="cov_inf_elite_pc_01">-1</Icon>
+	<Icon type="uniticon" name="cov_inf_silentshadow_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_inf_silentshadow_01" owner="cov_inf_silentshadow_01">-1</Icon>
+	<Icon type="uniticon" name="cov_inf_superdrone_hg_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_inf_superdrone_hg_01" owner="cov_inf_superdrone_hg_01">-1</Icon>
+	<Icon type="uniticon" name="cov_titan_phantom_gunship_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_titan_phantom_gunship_01" owner="cov_titan_phantom_gunship_01">-1</Icon>
+	<Icon type="uniticon" name="cov_veh_spectre_ce_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_veh_spectre_ce_01" owner="cov_veh_spectre_ce_01">-1</Icon>
+	<Icon type="uniticon" name="cov_veh_wraith_ultra_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_veh_wraith_ultra_01" owner="cov_veh_wraith_ultra_01">-1</Icon>
+	<Icon type="uniticon" name="kestrel_ce" texture="art\ui\flash\shared\textures\mlm_reforged\unit\kestrel_ce" owner="kestrel_ce">-1</Icon>
+	<Icon type="uniticon" name="scarab_long_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\scarab_long_01" owner="scarab_long_01">-1</Icon>
+	<Icon type="uniticon" name="viper_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\viper_01" owner="viper_01">-1</Icon>
+	<Icon type="uniticon" name="wraithaa_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\wraithaa_01" owner="wraithaa_01">-1</Icon>
 	<!-- VanillaPlus -->
 	<Icon type="techicon" name="flood_spartan_upgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_spartan_upgrade1" owner="flood_spartan_upgrade1">-1</Icon>
 	<Icon type="techicon" name="flood_spartan_upgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_spartan_upgrade2" owner="flood_spartan_upgrade2">-1</Icon>
@@ -623,11 +635,11 @@
 	<Icon type="uniticon" name="gruntD" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_gruntDeacon_01" owner="cov_inf_gruntDeacon_03">-1</Icon>
 	<Icon type="techicon" name="gruntDUPG1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_GruntDeacon_upgrade1" owner="cov_GruntDeacon_upgrade1">-1</Icon>
 	<Icon type="techicon" name="gruntDUPG2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_GruntDeacon_upgrade2" owner="cov_GruntDeacon_upgrade2">-1</Icon>
-	<Icon type="techicon" name="gruntDUPG3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_GruntDeacon_upgrade3" owner="cov_GruntDeacon_upgrade3">-1</Icon>
+	<Icon type="techicon" name="cov_GruntDeacon_upgrade3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_GruntDeacon_upgrade3" owner="cov_GruntDeacon_upgrade3">-1</Icon>
 	<Icon type="uniticon" name="brute" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_bruteberserker_01" owner="cov_inf_bruteBerserker_01">-1</Icon>
 	<Icon type="techicon" name="bruteUPG1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_bruteBerserker_upgrade1" owner="cov_bruteBerserker_upgrade1">-1</Icon>
 	<Icon type="techicon" name="bruteUPG2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_bruteBerserker_upgrade2" owner="cov_bruteBerserker_upgrade2">-1</Icon>
-	<Icon type="techicon" name="bruteUPG3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_bruteBerserker_upgrade3" owner="cov_bruteBerserker_upgrade3">-1</Icon>
+	<Icon type="techicon" name="cov_bruteBerserker_upgrade3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_bruteBerserker_upgrade3" owner="cov_bruteBerserker_upgrade3">-1</Icon>
 	<Icon type="buildingicon" name="bldg_light_factory" texture="art\ui\flash\shared\textures\covenant\icons\bldg\cov_bldg_lightfactory_01" owner="cov_bldg_lightfactorytek_01">-1</Icon>
 	<Icon type="uniticon" name="bldg_light_factory" texture="art\ui\flash\shared\textures\covenant\icons\bldg\cov_bldg_lightfactory_01" owner="cov_bldg_lightfactorytek_01">-1</Icon>
 	<Icon type="buildingicon" name="covbarracks" texture="art\ui\flash\shared\textures\covenant\icons\bldg\cov_bldg_barracks_01" owner="cov_bldg_barrackstek_01">-1</Icon>
@@ -821,10 +833,10 @@
 	<Icon type="techicon" name="spartan_up" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_spartan_upgrade1" owner="unsc_spartandouglas_upgrade1">-1</Icon>
 	<Icon type="techicon" name="spartan_up" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_spartan_upgrade2" owner="unsc_spartandouglas_upgrade2">-1</Icon>
 	<Icon type="techicon" name="spartan_up" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_spartan_upgrade3" owner="unsc_spartandouglas_upgrade3">-1</Icon>
-	<Icon type="techicon" name="ODSTUpgrade0" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade1" owner="unsc_odst_upgrade1">-1</Icon>
+	<Icon type="techicon" name="ODSTUpgrade0" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade1" owner="unsc_odst_upgrade1_player">-1</Icon>
 	<Icon type="techicon" name="ODSTUpgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade2" owner="unsc_odst_upgrade2">-1</Icon>
 	<Icon type="techicon" name="ODSTUpgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade3" owner="unsc_odst_upgrade3">-1</Icon>
-	<Icon type="uniticon" name="odst" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_odst_01" owner="unsc_inf_odst_01">-1</Icon>
+	<Icon type="uniticon" name="odst" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_odst_01" owner="unsc_inf_odst_01_player">-1</Icon>
 	<Icon type="uniticon" name="odst" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_odst_01" owner="unsc_inf_odst_02">-1</Icon>
 	<Icon type="uniticon" name="odst" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_odst_01" owner="unsc_inf_odst_03">-1</Icon>
 	<Icon type="techicon" name="unsc_hawk_upgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_hawk_upgrade1" owner="unsc_hawk_upgrade1">-1</Icon>
@@ -893,9 +905,9 @@
 	<Icon type="techicon" name="fld_inf_InfectionForm_01" texture="art\ui\flash\shared\textures\misc\global_tech_infantry_icon" owner="unsc_tech_reinforcements2">-1</Icon>
 	<Icon type="techicon" name="fld_inf_InfectionForm_01" texture="art\ui\flash\shared\textures\misc\global_tech_infantry_icon" owner="unsc_tech_reinforcements3">-1</Icon>6
 	<Icon type="uniticon" name="cov_inf_elite_02" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_eliteLeader_01" owner="cov_inf_elite_02">-1</Icon>
-	<Icon type="techicon" name="cov_eliteupgrade_01" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_eliteLeader_01" owner="cov_eliteupgrade_01">-1</Icon>
-	<Icon type="techicon" name="cov_eliteupgrade_02" texture="art\ui\flash\shared\textures\covenant\icons\unit\cpgn_inf_needlerElite_01" owner="cov_eliteupgrade_02">-1</Icon>
-	<Icon type="techicon" name="cov_eliteupgrade_03" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_eliteLeader_01" owner="cov_eliteupgrade_03">-1</Icon>
+	<Icon type="techicon" name="cov_eliteupgrade_01" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_eliteupgrade_01" owner="cov_eliteupgrade_01">-1</Icon>
+	<Icon type="techicon" name="cov_eliteupgrade_02" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_eliteupgrade_02" owner="cov_eliteupgrade_02">-1</Icon>
+	<Icon type="techicon" name="cov_eliteupgrade_03" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_eliteupgrade_03" owner="cov_eliteupgrade_03">-1</Icon>
 	<Icon type="techicon" name="cov_sniperelite_upgrade1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_sniperelite_upgrade1" owner="cov_sniperelite_upgrade1">-1</Icon>
 	<Icon type="techicon" name="cov_sniperelite_upgrade2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_sniperelite_upgrade2" owner="cov_sniperelite_upgrade2">-1</Icon>
 	<Icon type="techicon" name="cov_sniperelite_upgrade3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_sniperelite_upgrade3" owner="cov_sniperelite_upgrade3">-1</Icon>
@@ -904,7 +916,7 @@
 	<Icon type="techicon" name="cov_fuelrodelite_upgrade3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_fuelrodelite_upgrade3" owner="cov_fuelrodelite_upgrade3">-1</Icon>
 	<Icon type="uniticon" name="needler elite" texture="art\ui\flash\shared\textures\covenant\icons\unit\cpgn_inf_needlerElite_01" owner="fld_inf_needlerElite_01">-1</Icon>
 	<Icon type="uniticon" name="elite" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_eliteLeader_01" owner="cov_inf_eliteCarbine_01">-1</Icon>
-	<Icon type="uniticon" name="elite" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_eliteLeader_01" owner="cov_inf_elite_01">-1</Icon>
+	<Icon type="uniticon" name="elite" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_elite_01" owner="cov_inf_elite_01">-1</Icon>
 	<Icon type="techicon" name="fld_air_lugee_01" texture="art\ui\flash\shared\textures\units\fld_upgrade_build" owner="fld_upgrade_buildtime">-1</Icon>
 	<Icon type="techicon" name="fld_air_lugee_01" texture="art\ui\flash\shared\textures\units\fld_upgrade_health" owner="fld_upgrade_health">-1</Icon>
 	<Icon type="techicon" name="fld_air_lugee_01" texture="art\ui\flash\shared\textures\units\fld_upgrade_damage" owner="fld_upgrade_damage">-1</Icon>
@@ -1116,7 +1128,7 @@
 	<Icon type="techicon" name="MarineUpgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade2" owner="unsc_marine_upgrade2">-1</Icon>
 	<Icon type="techicon" name="MarineUpgrade3" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade3" owner="unsc_marine_upgrade3">-1</Icon>
 	<Icon type="techicon" name="ODSTUpgrade0" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_odst_upgrade0" owner="unsc_odst_upgrade0">-1</Icon>
-	<Icon type="techicon" name="ODSTUpgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_odst_upgrade1" owner="unsc_odst_upgrade1">-1</Icon>
+	<Icon type="techicon" name="ODSTUpgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_odst_upgrade1" owner="unsc_odst_upgrade1_player">-1</Icon>
 	<Icon type="techicon" name="reactor_upgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_bldg_reactor_02" owner="unsc_reactor_upgrade1">-1</Icon>
 	<Icon type="techicon" name="unsc_scorpion_upgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_scorpion_upgrade1" owner="unsc_scorpion_upgrade1">-1</Icon>
 	<Icon type="techicon" name="unsc_scorpion_upgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_scorpion_upgrade2" owner="unsc_scorpion_upgrade2">-1</Icon>

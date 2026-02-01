@@ -34,7 +34,7 @@
 		<TransportTrigger>cov_air_spirit_trigger_01</TransportTrigger>
 		<SoundBank>ui_covenant.bnk</SoundBank>
 		<LeaderMenuNameID>119</LeaderMenuNameID>
-		<PowerFromHero>true</PowerFromHero>
+		<PowerFromHero>false</PowerFromHero>
 		<UIControlBackground>img://art\ui\flash\shared\textures\civ\CivPict_covenant.ddx</UIControlBackground>
 	</Civ>
 	<Civ>

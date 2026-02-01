@@ -38,6 +38,7 @@
 		<TriggerVar ID="35" Type="ProtoObject" Name="nullProtoObjectVar" IsNull="true" />
 		<TriggerVar ID="36" Type="Player" Name="nullPlayerVar" IsNull="true" />
 		<TriggerVar ID="37" Type="BuildingCommandState" Name="nullBuildingCommandStateVar" IsNull="true" />
+		<TriggerVar ID="132" Type="Tech" Name="newTechVar" IsNull="false">cov_temple_upgrade2</TriggerVar>
 	</TriggerVars>
 	<Triggers>
 		<Trigger ID="1" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-374" Y="260" GroupID="-1">
@@ -151,11 +152,15 @@
 				</And>
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="5" Type="GetProtoObject" DBID="631" Version="2" CommentOut="false">
-					<Input Name="Unit" SigID="1" Optional="true">6</Input>
-					<Input Name="Object" SigID="2" Optional="true">25</Input>
-					<Input Name="ProtoSquad" SigID="4" Optional="true">26</Input>
-					<Output Name="ProtoObject" SigID="3" Optional="false">27</Output>
+				<Effect ID="6" Type="BuildingCommand" DBID="559" Version="4" CommentOut="false">
+					<Input Name="Unit" SigID="1" Optional="false">6</Input>
+					<Input Name="ProtoSquad" SigID="2" Optional="true">31</Input>
+					<Input Name="Tech" SigID="6" Optional="true">32</Input>
+					<Input Name="Count" SigID="3" Optional="true">33</Input>
+					<Input Name="NoCost" SigID="4" Optional="true">34</Input>
+					<Input Name="ProtoBuilding" SigID="7" Optional="true">35</Input>
+					<Input Name="Player" SigID="8" Optional="true">36</Input>
+					<Output Name="BuildingCommandState" SigID="5" Optional="true">37</Output>
 				</Effect>
 				<Effect ID="9" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
 					<Input Name="Trigger" SigID="1" Optional="false">28</Input>
@@ -166,10 +171,9 @@
 		<Trigger ID="7" Name="NewTrigger4" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="5514" Y="67" GroupID="-1">
 			<TriggerConditions>
 				<And>
-					<Condition ID="7" Type="CompareProtoObject" DBID="575" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="FirstProtoObject" SigID="1" Optional="false">27</Input>
-						<Input Name="CompareType" SigID="2" Optional="false">29</Input>
-						<Input Name="SecondProtoObject" SigID="3" Optional="false">30</Input>
+					<Condition ID="6" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="CompareType" SigID="1" Optional="false">24</Input>
+						<Input Name="CompareTime" SigID="2" Optional="false">22</Input>
 					</Condition>
 				</And>
 			</TriggerConditions>
@@ -177,7 +181,7 @@
 				<Effect ID="6" Type="BuildingCommand" DBID="559" Version="4" CommentOut="false">
 					<Input Name="Unit" SigID="1" Optional="false">6</Input>
 					<Input Name="ProtoSquad" SigID="2" Optional="true">31</Input>
-					<Input Name="Tech" SigID="6" Optional="true">32</Input>
+					<Input Name="Tech" SigID="6" Optional="true">132</Input>
 					<Input Name="Count" SigID="3" Optional="true">33</Input>
 					<Input Name="NoCost" SigID="4" Optional="true">34</Input>
 					<Input Name="ProtoBuilding" SigID="7" Optional="true">35</Input>

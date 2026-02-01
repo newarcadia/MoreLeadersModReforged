@@ -1,5 +1,845 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Objects>
+	<Object name="unsc_air_odstPod_01_player" id="0" dbid="3002">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>unsc\air\odstPod_01\odstPod_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>125</Velocity>
+		<Tactics>unsc_air_odstPod_01.tactics</Tactics>
+		<Lifespan>2</Lifespan>
+		<ObstructionRadiusX>0.100000001</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.100000001</ObstructionRadiusZ>
+		<Sound Type="Exist">play_odst_airdrop_travel</Sound>
+		<Sound Type="StopExist">stop_odst_airdrop_travel</Sound>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<MaxProjectileHeight>35</MaxProjectileHeight>
+	</Object>
+	<Object name="odst_activatepod" id="0" dbid="3002">
+		<ObjectClass>Projectile</ObjectClass>
+		<MovementType>Air</MovementType>
+		<Velocity>125</Velocity>
+		<Tactics>odst_activatepod.tactics</Tactics>
+		<Lifespan>2</Lifespan>
+		<ObstructionRadiusX>0.100000001</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.100000001</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<MaxProjectileHeight>35</MaxProjectileHeight>
+	</Object>
+	<Object name="odst_activatelp" id="0" dbid="148">
+		<Ability>skirmishai_new\odst_activatelp.triggerscript</Ability>
+		<Lifespan>2</Lifespan>
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10048</DisplayNameID>
+		<RolloverTextID>10049</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>720</Hitpoints>
+		<AttackGradeDPS>15</AttackGradeDPS>
+		<CombatValue>1</CombatValue>
+		<LOS>55</LOS>
+		<Bounty>1</Bounty>
+		<RamDodgeFactor>0.5</RamDodgeFactor>
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<AmmoMax>200</AmmoMax>
+		<AmmoRegenRate>9</AmmoRegenRate>
+		<Tactics>unsc_inf_odst_01_player.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>1</ObstructionRadiusX>
+		<ObstructionRadiusY>2</ObstructionRadiusY>
+		<ObstructionRadiusZ>1</ObstructionRadiusZ>
+		<PickRadius>2</PickRadius>
+		<PickOffset>1.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>3000</SubSelectSort>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
+		<DamageType direction="Full" mode="Normal">LightArmored</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>HardInfection</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>HasTrackMask</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="cov_inf_skirmisherAIhero_01" id="0" dbid="198">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\infantry\skirmisher_01\skirmisherAI_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10124</DisplayNameID>
+		<RolloverTextID>10125</RolloverTextID>
+		<RoleTextID>503</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>14</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>9852</Hitpoints>
+		<AttackGradeDPS>42</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Pop Type="Spartan">1</Pop>
+		<Bounty>11</Bounty>
+		<Veterancy Level="1" XP="4" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="10" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="18" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>cov_inf_skirmisherAI_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>1.79999995</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>1.89999998</PickRadius>
+		<PickOffset>1.39999998</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>4600</SubSelectSort>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<SquadModeAnim Mode="Sniper">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+		<Sound Type="Create">play_cov_jackal_birth</Sound>
+		<Sound Type="Death">play_cov_jackal_vo_death</Sound>
+		<Sound Type="Select">play_cov_jackal_select</Sound>
+		<Sound Type="Work">play_cov_jackal_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_jackal_attack</Sound>
+		<Sound Type="Pain">play_cov_jackal_vo_hit</Sound>
+		<ExtendedSoundBank>xtnd_ui_jackal.bnk</ExtendedSoundBank>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<SurfaceType>GruntFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
+	<Object name="cov_veh_locusthero_01" id="0" dbid="206">
+		<ObjectType>CanBeStunned</ObjectType>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\vehicle\locust_01\locust_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_chimera</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<DisplayNameID>10158</DisplayNameID>
+		<RolloverTextID>10159</RolloverTextID>
+		<MovementType>Scarab</MovementType>
+		<Velocity>17</Velocity>
+		<TurnRate>220</TurnRate>
+		<Shieldpoints>18000</Shieldpoints>
+		<Hitpoints>7333</Hitpoints>
+		<AttackGradeDPS>252</AttackGradeDPS>
+		<Hardpoint name="Turret" autocenter="true" yawrate="90" pitchrate="90" pitchMinAngle="-30" pitchMaxAngle="75" yawattachment="Turret" pitchattachment="Turret" />
+		<CombatValue>42</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Spartan">1</Pop>
+		<Bounty>65</Bounty>
+		<Veterancy Level="1" XP="5" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="24" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="45" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUp</LevelUpEffect>
+		<Tactics>cov_veh_locust_01.tactics</Tactics>
+		<RepairPoints>75</RepairPoints>
+		<ObstructionRadiusX>8</ObstructionRadiusX>
+		<ObstructionRadiusY>4.5999999</ObstructionRadiusY>
+		<ObstructionRadiusZ>8</ObstructionRadiusZ>
+		<PickRadius>5.5999999</PickRadius>
+		<PickOffset>3.29999995</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SubSelectSort>6300</SubSelectSort>
+		<SelectedRadiusX>2.79999995</SelectedRadiusX>
+		<SelectedRadiusZ>2.79999995</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_locust_birth</Sound>
+		<Sound Type="Death">play_cov_chimera_death</Sound>
+		<Sound Type="Select">play_cov_locust_select</Sound>
+		<Sound Type="Work">play_cov_locust_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_locust_attack</Sound>
+		<Sound Type="Ability">play_cov_locust_ability</Sound>
+		<Sound Type="StopExist">stop_exist_chimera</Sound>
+		<Sound Type="StartMove">start_move_chimera</Sound>
+		<Sound Type="StopMove">stop_move_chimera</Sound>
+		<ExtendedSoundBank>xtnd_ui_locust.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full">Heavy</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Covenant</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>ForerunnerStealPower</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>CovLocustOverburn</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
+	<Object name="cov_veh_wraith_hero_01" id="0" dbid="203">
+		<ObjectType>CanBeStunned</ObjectType>
+		<ObjectClass>Squad</ObjectClass>
+		<PhysicsInfo>ghost</PhysicsInfo>
+		<Visual>covenant\vehicle\wraith_ultra_01\wraith_ultra_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_wraith</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<DisplayNameID>10132</DisplayNameID>
+		<RolloverTextID>10133</RolloverTextID>
+		<Hardpoint name="PlasmaCannonTurret" autocenter="true" yawrate="240" yawmaxangle="120" yawattachment="Turret" />
+		<Hardpoint name="PlasmaMortarTurret" autocenter="true" pitchrate="180" yawmaxangle="0" yawattachment="Mortar" pitchattachment="Mortar" />
+		<AbilityCommand>CovWraithSpecial</AbilityCommand>
+		<MovementType>Land</MovementType>
+		<Velocity>20</Velocity>
+		<TurnRate>180</TurnRate>
+		<Hitpoints>19250</Hitpoints>
+		<Shieldpoints>16430</Shieldpoints>
+		<AttackGradeDPS>190.899994</AttackGradeDPS>
+		<CombatValue>14</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Spartan">1</Pop>
+		<Bounty>20</Bounty>
+		<Veterancy Level="1" XP="40" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="100" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="180" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUp</LevelUpEffect>
+		<AmmoMax>60</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>cov_veh_wraith_ultra_01.tactics</Tactics>
+		<RepairPoints>300</RepairPoints>
+		<ObstructionRadiusX>8</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>8</ObstructionRadiusZ>
+		<PickRadius>5.5</PickRadius>
+		<PickOffset>1.20000005</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SubSelectSort>6500</SubSelectSort>
+		<SelectedRadiusX>4</SelectedRadiusX>
+		<SelectedRadiusZ>3</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_wraith_birth</Sound>
+		<Sound Type="Death">play_wraith_death</Sound>
+		<Sound Type="Select">play_cov_wraith_select</Sound>
+		<Sound Type="Work">play_cov_wraith_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_wraith_attack</Sound>
+		<Sound Type="Exist">start_exist_wraith</Sound>
+		<Sound Type="StopExist">stop_exist_wraith</Sound>
+		<Sound Type="StartMove">start_move_wraith</Sound>
+		<Sound Type="StopMove">stop_move_wraith</Sound>
+		<ExtendedSoundBank>xtnd_ui_wraith.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full">Heavy</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Covenant</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>ForerunnerStealPower</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ShowRange</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="cov_inf_brutehero_01" id="0" dbid="196">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\infantry_h2\brute\brute_hg_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10122</DisplayNameID>
+		<RolloverTextID>10123</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>360</TurnRate>
+		<Hitpoints>8234</Hitpoints>
+		<Shieldpoints>2234</Shieldpoints>
+		<AttackGradeDPS>54</AttackGradeDPS>
+		<CombatValue>3</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Pop Type="Spartan">1</Pop>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="6" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="15" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="27" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>cov_inf_brute_hg_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5999999</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>2.0999999</PickRadius>
+		<PickOffset>2.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>4800</SubSelectSort>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_brute_birth</Sound>
+		<Sound Type="Death">play_cov_brute_vo_death</Sound>
+		<Sound Type="Death">play_cov_brute_vo_hit</Sound>
+		<Sound Type="Select">play_cov_brute_select</Sound>
+		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
+		<Sound Type="Ability">play_cov_brute_ability</Sound>
+		<Sound Type="Attack">play_cov_brute_attack</Sound>
+		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full" mode="Normal">Medium</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>CovJumppack</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
+	<!--Object name="cov_bldg_specops_01" id="0" dbid="186">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>covenant\building\heavyfactory_01\heavyfactory_01.vis</Visual>
+		<PhysicsInfo>cov_bldg_heavyfactory_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\bldg_heavy_factory</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10102</DisplayNameID>
+		<RolloverTextID>10103</RolloverTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<RoleTextID>512</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>12000</Hitpoints>
+		<CombatValue>10</CombatValue>
+		<LOS>55</LOS>
+		<ShieldType>cov_bldg_shieldMed_01</ShieldType>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">350</Cost>
+		<Cost ResourceType="Power">2</Cost>
+		<Bounty>6</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="0" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Tactics>cov_bldg_heavyfactory_01.tactics</Tactics>
+		<ObstructionRadiusX>12</ObstructionRadiusX>
+		<ObstructionRadiusY>7</ObstructionRadiusY>
+		<ObstructionRadiusZ>16</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>15.6000004</PickRadius>
+		<PickOffset>4.69999981</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>6.19999981</SelectedRadiusX>
+		<SelectedRadiusZ>6</SelectedRadiusZ>
+		!- Arbiter -
+		<Command Type="TrainSquad" Position="1">cov_inf_elite_pc_01</Command>
+		<Command Type="TrainSquad" Position="2">cov_veh_spectre_01</Command>
+		<Command Type="TrainSquad" Position="5">cov_veh_wraith_ultra_01</Command>
+		!- Brute -
+		<Command Type="TrainSquad" Position="1">cov_inf_brute_hg_01</Command>
+		<Command Type="TrainSquad" Position="2">cov_veh_prowler_01</Command>
+		<Command Type="TrainSquad" Position="3">cov_air_banshee_space_01</Command>
+		!- Prophet -
+		<Command Type="TrainSquad" Position="1">cov_inf_silentshadow_01</Command>
+		<Command Type="TrainSquad" Position="2">cov_veh_revenant_01</Command>
+		<Command Type="TrainSquad" Position="6">cov_veh_wraithaa_01</Command>
+		!- Jackal -
+		<Command Type="TrainSquad" Position="0">cov_titan_phantom_gunship_01</Command>
+		<Command Type="TrainSquad" Position="2">cov_veh_spectre_ce_01</Command>
+		<Command Type="TrainSquad" Position="3">cov_inf_superdrone_hg_01</Command>
+		<Command Type="TrainSquad" Position="7">cov_inf_gutarider_01</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Create">play_vog_building_factory</Sound>
+		<Sound Type="Death">play_cov_banshee_death</Sound>
+		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>ProductionBuiilding</ObjectType>
+		<ObjectType>_ProductionBuildingNotBase</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>Covenant</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Socket Player="Player">BuildingSocket</Socket>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>ScaleBuildAnimRate</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ChildForDamageTakenScalar</Flag>
+		<HPBar>COV_Bldg_Health</HPBar>
+		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotCov_01</AutoParkingLot>
+		<BuildRotation>90</BuildRotation>
+		<BuildOffset>-7.5,0,0</BuildOffset>
+	</Object-->
+	<Object name="cov_veh_wraith_ultra_01" id="0" dbid="203">
+		<ObjectType>CanBeStunned</ObjectType>
+		<ObjectClass>Squad</ObjectClass>
+		<PhysicsInfo>ghost</PhysicsInfo>
+		<Visual>covenant\vehicle\wraith_ultra_01\wraith_ultra_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_wraith</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<DisplayNameID>10132</DisplayNameID>
+		<RolloverTextID>10133</RolloverTextID>
+		<Hardpoint name="PlasmaCannonTurret" autocenter="true" yawrate="240" yawmaxangle="120" yawattachment="Turret" />
+		<Hardpoint name="PlasmaMortarTurret" autocenter="true" pitchrate="180" yawmaxangle="0" yawattachment="Mortar" pitchattachment="Mortar" />
+		<AbilityCommand>CovWraithSpecial</AbilityCommand>
+		<MovementType>Land</MovementType>
+		<Velocity>20</Velocity>
+		<TurnRate>180</TurnRate>
+		<Hitpoints>19250</Hitpoints>
+		<Shieldpoints>16430</Shieldpoints>
+		<AttackGradeDPS>190.899994</AttackGradeDPS>
+		<CombatValue>14</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">4</Pop>
+		<Bounty>20</Bounty>
+		<Veterancy Level="1" XP="40" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="100" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="180" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUp</LevelUpEffect>
+		<AmmoMax>60</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>cov_veh_wraith_ultra_01.tactics</Tactics>
+		<RepairPoints>300</RepairPoints>
+		<ObstructionRadiusX>8</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>8</ObstructionRadiusZ>
+		<PickRadius>5.5</PickRadius>
+		<PickOffset>1.20000005</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SubSelectSort>6500</SubSelectSort>
+		<SelectedRadiusX>4</SelectedRadiusX>
+		<SelectedRadiusZ>3</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_wraith_birth</Sound>
+		<Sound Type="Death">play_wraith_death</Sound>
+		<Sound Type="Select">play_cov_wraith_select</Sound>
+		<Sound Type="Work">play_cov_wraith_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_wraith_attack</Sound>
+		<Sound Type="Exist">start_exist_wraith</Sound>
+		<Sound Type="StopExist">stop_exist_wraith</Sound>
+		<Sound Type="StartMove">start_move_wraith</Sound>
+		<Sound Type="StopMove">stop_move_wraith</Sound>
+		<ExtendedSoundBank>xtnd_ui_wraith.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full">Heavy</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Covenant</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>ForerunnerStealPower</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ShowRange</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="cov_inf_elite_pc_01" id="0" dbid="3015">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\infantry_h2\elite\elite_pc.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10120</DisplayNameID>
+		<RolloverTextID>10121</RolloverTextID>
+		<RoleTextID>500</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>8</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>8000</Hitpoints>
+		<Shieldpoints>2000</Shieldpoints>
+		<AttackGradeDPS>33</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>6</Bounty>
+		<SubSelectSort>62600</SubSelectSort>
+		<Veterancy Level="1" XP="9" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="21" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="31" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<AmmoMax>1</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>cov_inf_elite_pc_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.4</ObstructionRadiusX>
+		<ObstructionRadiusY>2.2</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.4</ObstructionRadiusZ>
+		<PickRadius>1.9</PickRadius>
+		<PickOffset>1.8</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>2.5</SelectedRadiusX>
+		<SelectedRadiusZ>2.5</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_elite_birth</Sound>
+		<Sound Type="Death">play_cov_elite_vo_death</Sound>
+		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
+		<Sound Type="Select">play_cov_elite_select</Sound>
+		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_elite_attack</Sound>
+		<Sound Type="Ability">play_cov_elite_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full">Medium</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<SurfaceType>EliteFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="cov_inf_brute_hg_01" id="0" dbid="196">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\infantry_h2\brute\brute_hg_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10122</DisplayNameID>
+		<RolloverTextID>10123</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>360</TurnRate>
+		<Hitpoints>8234</Hitpoints>
+		<Shieldpoints>2234</Shieldpoints>
+		<AttackGradeDPS>54</AttackGradeDPS>
+		<CombatValue>3</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="6" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="15" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="27" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>cov_inf_brute_hg_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5999999</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>2.0999999</PickRadius>
+		<PickOffset>2.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>4800</SubSelectSort>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_brute_birth</Sound>
+		<Sound Type="Death">play_cov_brute_vo_death</Sound>
+		<Sound Type="Death">play_cov_brute_vo_hit</Sound>
+		<Sound Type="Select">play_cov_brute_select</Sound>
+		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
+		<Sound Type="Ability">play_cov_brute_ability</Sound>
+		<Sound Type="Attack">play_cov_brute_attack</Sound>
+		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full" mode="Normal">Medium</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>CovJumppack</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
+	<Object name="cov_inf_silentshadow_01" id="0" dbid="2452">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\infantry_h2\elite\silentshadow_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10116</DisplayNameID>
+		<RolloverTextID>10117</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>14</Velocity>
+		<Acceleration>27.5</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>8742</Hitpoints>
+		<Shieldpoints>4250</Shieldpoints>
+		<AttackGradeDPS>97.5</AttackGradeDPS>
+		<CombatValue>5</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>5</Bounty>
+		<Veterancy Level="1" XP="10" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="25" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="45" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<SubSelectSort>4003</SubSelectSort>
+		<AmmoMax>1</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>cov_inf_silentshadow_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>2</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>2</ObstructionRadiusZ>
+		<PickRadius>1.89999998</PickRadius>
+		<PickOffset>1.79999995</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_elite_birth</Sound>
+		<Sound Type="Death">play_cov_elite_vo_death</Sound>
+		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
+		<Sound Type="Select">play_cov_elite_select</Sound>
+		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_elite_attack</Sound>
+		<Sound Type="Ability">play_cov_elite_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
+		<Sound Type="Cloak">play_elite_camo_on</Sound>
+		<Sound Type="UnCloak">play_elite_camo_off</Sound>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full" mode="Normal">Medium</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>HardInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>EliteFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>CovCloak</AbilityCommand>
+		<Flag>AttackWhileCloaked</Flag>
+		<Flag>MoveWhileCloaked</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="cov_inf_superdrone_hg_01" id="0" dbid="1151">
+		<ObjectClass>Squad</ObjectClass>
+		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
+		<ObjectType>AirCraft</ObjectType>
+		<Visual>covenant\air\drone_01\superdrone_hg_01.vis</Visual>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>22238</DisplayNameID>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Velocity>20</Velocity>
+		<TurnRate>150</TurnRate>
+		<Hitpoints>1525</Hitpoints>
+		<Shieldpoints>7500</Shieldpoints>
+		<NumStasisFieldsToStop>0</NumStasisFieldsToStop>
+		<LOS>55</LOS>
+		<CombatValue>2</CombatValue>
+		<Pop Type="Unit">0.25</Pop>
+		<Veterancy Level="1" XP="7" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="16" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="24" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.4" />
+		<Bounty>2</Bounty>
+		<Tactics>cov_inf_superdrone_hg_01.tactics</Tactics>
+		<ObstructionRadiusX>2</ObstructionRadiusX>
+		<ObstructionRadiusY>1.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>2</ObstructionRadiusZ>
+		<PickRadius>2.5</PickRadius>
+		<PickOffset>0.8</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<SubSelectSort>21322</SubSelectSort>
+		<GotoType>Air</GotoType>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<DamageType direction="Full">MediumAir</DamageType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Covenant</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<SurfaceType>HunterFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>AirMovement</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>RocketOnDeath</Flag>
+		<HPBar>UNSC_Health</HPBar>
+		<RolloverTextID>24386</RolloverTextID>
+	</Object>
 	<Object name="unsc_inf_badger_01" id="0" dbid="148">
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
@@ -2685,7 +3525,193 @@
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
 	</Object>
+	<Object name="fx_proj_shadePlasma_GS_01" id="0" dbid="2380">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects\projectiles\cov\shadeplasma_02\shadeplasma_02.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>100</Velocity>
+		<Tactics>fx_proj_missile_01.tactics</Tactics>
+		<Lifespan>12</Lifespan>
+		<ObstructionRadiusX>0.100000001</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.100000001</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Tracking</Flag>
+		<TrackingDelay>0.400000006</TrackingDelay>
+		<TrackInterceptDistance>25</TrackInterceptDistance>
+		<StartingVelocity>10</StartingVelocity>
+		<Acceleration>30</Acceleration>
+		<Fuel>4</Fuel>
+		<TurnRate>180</TurnRate>
+		<Sound Type="StopExist">stop_fx_proj_missile_02</Sound>
+		<PerturbanceChance>0.25</PerturbanceChance>
+		<PerturbanceVelocity>15</PerturbanceVelocity>
+		<PerturbanceMinTime>0.0599999987</PerturbanceMinTime>
+		<PerturbanceMaxTime>0.100000001</PerturbanceMaxTime>
+		<ImpactDecal sizeX="2" sizeZ="2" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\missle_scorch01</ImpactDecal>
+	</Object>
+	<Object name="cov_titan_phantom_gunship_01" id="0" dbid="165">
+		<PhysicsInfo>vulture</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\titan\phantom_gunship_01\phantom_gunship_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_vulture</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<DisplayNameID>10136</DisplayNameID>
+		<RolloverTextID>10137</RolloverTextID>
+		<MovementType>Air</MovementType>
+		<Velocity>16</Velocity>
+		<TurnRate>120</TurnRate>
+		<Hardpoint name="MiddleCannonTurret" autocenter="true" combined="false" yawrate="90" yawmaxangle="120" yawattachment="CannonMiddle" />
+		<Hardpoint name="LeftCannonTurret" autocenter="true" combined="false" yawrate="90" yawmaxangle="120" yawattachment="CannonLeft" />
+		<Hardpoint name="RightCannonTurret" autocenter="true" combined="false" yawrate="90" yawmaxangle="120" yawattachment="CannonRight" />
+		<Hardpoint name="LeftMissileTurret" autocenter="true" combined="true" yawrate="180" yawattachment="MissleLeft" />
+		<Hardpoint name="RightMissileTurret" autocenter="true" combined="true" yawrate="180" yawattachment="MissleRight" />
+		<Hitpoints>48284</Hitpoints>
+		<Shieldpoints>38284</Shieldpoints>
+		<AttackGradeDPS>1200</AttackGradeDPS>
+		<CombatValue>120</CombatValue>
+		<LOS>80</LOS>
+		<Pop Type="Unit">20</Pop>
+		<Bounty>120</Bounty>
+		<Veterancy Level="1" XP="143" Damage="1.14999998" Velocity="1.1" Accuracy="1.5" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="280" Damage="1.25" Velocity="1.1" Accuracy="1.6" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="474" Damage="1.35" Velocity="1.1" Accuracy="1.7" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.75" />
+		<Veterancy Level="4" XP="753" Damage="1.45" Velocity="1.1" Accuracy="1.5" WorkRate="2" WeaponRange="1.25" DamageTaken="0.75" />
+		<Veterancy Level="5" XP="1021" Damage="1.5" Velocity="1.1" Accuracy="1.5" WorkRate="2" WeaponRange="1.25" DamageTaken="0.75" />
+		<LevelUpEffect>fx_unitLevelUp</LevelUpEffect>
+		<Tactics>cov_titan_phantom_gunship_01.tactics</Tactics>
+		<NumStasisFieldsToStop>5</NumStasisFieldsToStop>
+		<RepairPoints>800</RepairPoints>
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>8</ObstructionRadiusY>
+		<ObstructionRadiusZ>15</ObstructionRadiusZ>
+		<PickRadius>7.69999981</PickRadius>
+		<PickOffset>2</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Air</GotoType>
+		<SubSelectSort>6601</SubSelectSort>
+		<SelectedRadiusX>7.30000019</SelectedRadiusX>
+		<SelectedRadiusZ>2</SelectedRadiusZ>
+		<AbilityCommand>UnscBarrage</AbilityCommand>
+		<Sound Type="Exist">start_exist_spirit</Sound>
+		<Sound Type="StopExist">stop_exist_spirit</Sound>
+		<Sound Type="StartMove">start_move_spirit</Sound>
+		<Sound Type="StopMove">stop_move_spirit</Sound>
+		<Sound Type="Death">play_wraith_death</Sound>
+		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>AirCraft</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>Obscurable</Flag>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>34</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>35</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>Cov_HealthShield</HPBar>
+	</Object>
 	<Object name="cov_titan_superscarab_01" id="0" dbid="209">
+		<ObjectClass>Squad</ObjectClass>
+		<PhysicsInfo>scarab</PhysicsInfo>
+		<Visual>covenant\titan\scarab_01\scarab_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_scarab</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<DisplayNameID>10136</DisplayNameID>
+		<RolloverTextID>10137</RolloverTextID>
+		<MovementType>Scarab</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Velocity>8</Velocity>
+		<Acceleration>12</Acceleration>
+		<TurnRate>150</TurnRate>
+		<Hardpoint name="Turret" autocenter="true" combined="true" yawrate="60" yawmaxangle="60" yawattachment="Turret" />
+		<!--Hardpoint name="UpperPlasmaGun" autocenter="true" combined="true" yawrate="60" yawMaxAngle="60" yawattachment="UpperGun" />
+		<Hardpoint name="PlasmaTurretLeft" autocenter="true" combined="true" yawrate="360" yawmaxangle="180" yawattachment="PlasmaTurretLeft" />
+		<Hardpoint name="PlasmaTurretRight" autocenter="true" combined="true" yawrate="360" yawmaxangle="180" yawattachment="PlasmaTurretRight" />
+		<Hardpoint name="PlasmaTurretLeft2" autocenter="true" combined="true" yawrate="360" yawmaxangle="180" yawattachment="PlasmaTurretLeft2" />
+		<Hardpoint name="PlasmaTurretRight2" autocenter="true" combined="true" yawrate="360" yawmaxangle="180" yawattachment="PlasmaTurretRight2" />
+		<Hardpoint name="BackPlasmaGun" autocenter="true" combined="true" yawrate="60" yawMaxAngle="180" yawattachment="BackGun" /-->
+		<Hitpoints>278000</Hitpoints>
+		<AttackGradeDPS>1200</AttackGradeDPS>
+		<CombatValue>120</CombatValue>
+		<Veterancy Level="1" XP="200" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="360" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="3" XP="720" Damage="1.25" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="867" Damage="1.25" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="5" XP="1080" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<LevelUpEffect>fx_unitLevelUpHigh</LevelUpEffect>
+		<LOS>80</LOS>
+		<Pop Type="Unit">40</Pop>
+		<Bounty>476</Bounty>
+		<AmmoMax>500000</AmmoMax>
+		<AmmoRegenRate>40000</AmmoRegenRate>
+		<Tactics>cov_titan_superscarab_01.tactics</Tactics>
+		<RepairPoints>300</RepairPoints>
+		<ObstructionRadiusX>11</ObstructionRadiusX>
+		<ObstructionRadiusY>15</ObstructionRadiusY>
+		<ObstructionRadiusZ>11</ObstructionRadiusZ>
+		<RevealRadius>30</RevealRadius>
+		<PickRadius>10</PickRadius>
+		<PickOffset>6.80000019</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SubSelectSort>6600</SubSelectSort>
+		<SelectedRadiusX>8.60000038</SelectedRadiusX>
+		<SelectedRadiusZ>3</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_scarab_birth</Sound>
+		<Sound Type="Death">play_cov_scarab_death</Sound>
+		<Sound Type="Select">play_cov_scarab_select</Sound>
+		<Sound Type="Work">play_cov_scarab_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_scarab_attack</Sound>
+		<Sound Type="Exist">start_exist_scarab</Sound>
+		<Sound Type="StopExist">stop_exist_scarab</Sound>
+		<Sound Type="StartMove">start_move_scarab</Sound>
+		<Sound Type="StopMove">stop_move_scarab</Sound>
+		<ExtendedSoundBank>xtnd_ui_scarab.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">Heavy</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Covenant</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>NoRandomMoveAnimStart</Flag>
+		<Flag>TurnInPlace</Flag>
+		<Flag>SyncAnimRateToPhysics</Flag>
+		<Flag>IKTransitionToIdle</Flag>
+		<HPBar>COV_Health</HPBar>
+		<GroundIK ikRange="10" linkCount="3" x="-1" z="1">lb_toe_end</GroundIK>
+		<GroundIK ikRange="10" linkCount="3" x="1" z="1">lf_toe_end</GroundIK>
+		<GroundIK ikRange="10" linkCount="3" x="-1" z="-1">rb_toe_end</GroundIK>
+		<GroundIK ikRange="10" linkCount="3" x="1" z="-1">rf_toe_end</GroundIK>
+		<TrueLOSHeight>14</TrueLOSHeight>
+	</Object>
+	<Object name="cov_titan_superscarab_01_old" id="0" dbid="209">
 		<ObjectClass>Squad</ObjectClass>
 		<PhysicsInfo>scarab</PhysicsInfo>
 		<Visual>covenant\titan\superscarab_01\scarab_02.vis</Visual>
@@ -6875,15 +7901,15 @@
 		<RolloverTextID>10123</RolloverTextID>
 		<RoleTextID>519</RoleTextID>
 		<MovementType>Land</MovementType>
-		<Velocity>14</Velocity>
+		<Velocity>12</Velocity>
 		<Acceleration>23</Acceleration>
 		<TurnRate>360</TurnRate>
 		<Hitpoints>3651</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
-		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
-		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="spine" />
+		<SingleBoneIK>spine</SingleBoneIK>
 		<Pop Type="Unit">1</Pop>
 		<Bounty>3</Bounty>
 		<Veterancy Level="1" XP="5" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
@@ -6913,6 +7939,80 @@
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
 		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<AbilityCommand>CovGruntGrenade</AbilityCommand>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
+	<Object name="cov_inf_bruteBerserker_02" id="0" dbid="196">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\infantry_h2\brute\bruteberserker_02.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10122</DisplayNameID>
+		<RolloverTextID>10123</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>12</Velocity>
+		<Acceleration>23</Acceleration>
+		<TurnRate>360</TurnRate>
+		<Hitpoints>3651</Hitpoints>
+		<AttackGradeDPS>54</AttackGradeDPS>
+		<CombatValue>3</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="spine" />
+		<SingleBoneIK>spine</SingleBoneIK>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="5" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="12" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="22" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>cov_inf_bruteBerserker_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5999999</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>2.0999999</PickRadius>
+		<PickOffset>2.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>48310</SubSelectSort>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_brute_birth</Sound>
+		<Sound Type="Death">play_cov_brute_vo_death</Sound>
+		<Sound Type="Death">play_cov_brute_vo_hit</Sound>
+		<Sound Type="Select">play_cov_brute_select</Sound>
+		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
+		<Sound Type="Ability">play_cov_brute_ability</Sound>
+		<Sound Type="Attack">play_cov_brute_attack</Sound>
+		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<AbilityCommand>CovGruntGrenade</AbilityCommand>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
@@ -7074,13 +8174,13 @@
 		<SelectedRadiusX>4.5</SelectedRadiusX>
 		<SelectedRadiusZ>4.5</SelectedRadiusZ>
 		<Command Type="TrainSquad" Position="1">unsc_inf_marine_01</Command>
-		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01</Command>
+		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01_player</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_flameMarine_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_inf_sniper_01</Command>
 		<Command Type="Research" Position="7">unsc_marine_upgrade1</Command>
 		<Command Type="Research" Position="7">unsc_marine_upgrade2</Command>
 		<Command Type="Research" Position="7">unsc_marine_upgrade3</Command>
-		<Command Type="Research" Position="7">unsc_odst_upgrade1</Command>
+		<Command Type="Research" Position="7">unsc_odst_upgrade1_player</Command>
 		<Command Type="Research" Position="7">unsc_odst_upgrade2</Command>
 		<Command Type="Research" Position="7">unsc_odst_upgrade3</Command>
 		<Command Type="Research" Position="6">unsc_flameMarine_upgrade1</Command>
@@ -17992,88 +19092,12 @@
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
 		<Hitpoints>1114</Hitpoints>
-		<Shieldpoints>150</Shieldpoints>
+		<Shieldpoints>0</Shieldpoints>
 		<DamageType direction="Full">Shielded</DamageType>
 		<AttackGradeDPS>24.7000008</AttackGradeDPS>
 		<CombatValue>1.60000002</CombatValue>
 		<LOS>55</LOS>
 		<Pop Type="Unit">0.5</Pop>
-		<Bounty>1.60000002</Bounty>
-		<RamDodgeFactor>0.5</RamDodgeFactor>
-		<Veterancy Level="1" XP="2" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
-		<Veterancy Level="2" XP="6" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
-		<Veterancy Level="3" XP="12" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
-		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
-		<AmmoMax>1</AmmoMax>
-		<AmmoRegenRate>1</AmmoRegenRate>
-		<Tactics>cov_inf_elite_01.tactics</Tactics>
-		<SubSelectSort>4000</SubSelectSort>
-		<RepairPoints>33</RepairPoints>
-		<ObstructionRadiusX>1.5</ObstructionRadiusX>
-		<ObstructionRadiusY>2.20000005</ObstructionRadiusY>
-		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
-		<PickRadius>1.89999998</PickRadius>
-		<PickOffset>1.79999995</PickOffset>
-		<PickPriority>Unit</PickPriority>
-		<SelectType>Unit</SelectType>
-		<GotoType>Infantry</GotoType>
-		<SelectedRadiusX>1.29999995</SelectedRadiusX>
-		<SelectedRadiusZ>1</SelectedRadiusZ>
-		<Sound Type="Create">play_cov_elite_birth</Sound>
-		<Sound Type="Death">play_cov_elite_vo_death</Sound>
-		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
-		<Sound Type="Select">play_cov_elite_select</Sound>
-		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
-		<Sound Type="Attack">play_cov_elite_attack</Sound>
-		<Sound Type="Ability">play_cov_elite_ability</Sound>
-		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
-		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
-		<ObjectType>KeepsInGame</ObjectType>
-		<ObjectType>Military</ObjectType>
-		<ObjectType>NonFlying</ObjectType>
-		<ObjectType>Transportable</ObjectType>
-		<ObjectType>Unit</ObjectType>
-		<ObjectType>infantry</ObjectType>
-		<ObjectType>EasyInfection</ObjectType>
-		<ObjectType>_Infantry</ObjectType>
-		<ObjectType>CanBeFlashBanged</ObjectType>
-		<ObjectType>CanCryo</ObjectType>
-		<ObjectType>CanBeProtected</ObjectType>
-		<SurfaceType>EliteFlesh</SurfaceType>
-		<RallyPoint>Military</RallyPoint>
-		<AbilityCommand>CovGruntGrenade</AbilityCommand>
-		<Flag>KBAware</Flag>
-		<Flag>DontRotateObstruction</Flag>
-		<Flag>HasHPBar</Flag>
-		<Flag>Obscurable</Flag>
-		<Flag>Repairable</Flag>
-		<Flag>DieLast</Flag>
-		<HPBar>COV_Health</HPBar>
-	</Object>
-	<Object name="cov_inf_elite_02" id="0" dbid="195">
-		<ObjectType>CanBeStunned</ObjectType>
-		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
-		<ObjectClass>Squad</ObjectClass>
-		<Visual>covenant\infantry_h2\elite\elite_plasmarifle.vis</Visual>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<DisplayNameID>10120</DisplayNameID>
-		<RolloverTextID>10121</RolloverTextID>
-		<RoleTextID>500</RoleTextID>
-		<MovementType>Land</MovementType>
-		<Velocity>10</Velocity>
-		<Acceleration>26</Acceleration>
-		<TurnRate>540</TurnRate>
-		<Hitpoints>1114</Hitpoints>
-		<Shieldpoints>200</Shieldpoints>
-		<DamageType direction="Full">Shielded</DamageType>
-		<AttackGradeDPS>24.7000008</AttackGradeDPS>
-		<CombatValue>1.60000002</CombatValue>
-		<LOS>55</LOS>
 		<Bounty>1.60000002</Bounty>
 		<RamDodgeFactor>0.5</RamDodgeFactor>
 		<Veterancy Level="1" XP="2" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
@@ -18145,88 +19169,12 @@
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
 		<Hitpoints>1114</Hitpoints>
-		<Shieldpoints>200</Shieldpoints>
+		<Shieldpoints>0</Shieldpoints>
 		<DamageType direction="Full">Shielded</DamageType>
 		<AttackGradeDPS>24.7000008</AttackGradeDPS>
 		<CombatValue>1.60000002</CombatValue>
 		<LOS>55</LOS>
 		<Pop Type="Unit">0.5</Pop>
-		<Bounty>1.60000002</Bounty>
-		<RamDodgeFactor>0.5</RamDodgeFactor>
-		<Veterancy Level="1" XP="2" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
-		<Veterancy Level="2" XP="6" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
-		<Veterancy Level="3" XP="12" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
-		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
-		<AmmoMax>1</AmmoMax>
-		<AmmoRegenRate>1</AmmoRegenRate>
-		<Tactics>cov_inf_needlerelite_01.tactics</Tactics>
-		<SubSelectSort>4000</SubSelectSort>
-		<RepairPoints>33</RepairPoints>
-		<ObstructionRadiusX>1.5</ObstructionRadiusX>
-		<ObstructionRadiusY>2.20000005</ObstructionRadiusY>
-		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
-		<PickRadius>1.89999998</PickRadius>
-		<PickOffset>1.79999995</PickOffset>
-		<PickPriority>Unit</PickPriority>
-		<SelectType>Unit</SelectType>
-		<GotoType>Infantry</GotoType>
-		<SelectedRadiusX>1.29999995</SelectedRadiusX>
-		<SelectedRadiusZ>1</SelectedRadiusZ>
-		<Sound Type="Create">play_cov_elite_birth</Sound>
-		<Sound Type="Death">play_cov_elite_vo_death</Sound>
-		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
-		<Sound Type="Select">play_cov_elite_select</Sound>
-		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
-		<Sound Type="Attack">play_cov_elite_attack</Sound>
-		<Sound Type="Ability">play_cov_elite_ability</Sound>
-		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
-		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
-		<ObjectType>KeepsInGame</ObjectType>
-		<ObjectType>Military</ObjectType>
-		<ObjectType>NonFlying</ObjectType>
-		<ObjectType>Transportable</ObjectType>
-		<ObjectType>Unit</ObjectType>
-		<ObjectType>infantry</ObjectType>
-		<ObjectType>EasyInfection</ObjectType>
-		<ObjectType>_Infantry</ObjectType>
-		<ObjectType>CanBeFlashBanged</ObjectType>
-		<ObjectType>CanCryo</ObjectType>
-		<ObjectType>CanBeProtected</ObjectType>
-		<SurfaceType>EliteFlesh</SurfaceType>
-		<RallyPoint>Military</RallyPoint>
-		<AbilityCommand>CovGruntGrenade</AbilityCommand>
-		<Flag>KBAware</Flag>
-		<Flag>DontRotateObstruction</Flag>
-		<Flag>HasHPBar</Flag>
-		<Flag>Obscurable</Flag>
-		<Flag>Repairable</Flag>
-		<Flag>DieLast</Flag>
-		<HPBar>COV_Health</HPBar>
-	</Object>
-	<Object name="cov_inf_needlerelite_02" id="0" dbid="195">
-		<ObjectType>CanBeStunned</ObjectType>
-		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
-		<ObjectClass>Squad</ObjectClass>
-		<Visual>covenant\infantry_h2\elite\elite_needler.vis</Visual>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<DisplayNameID>10120</DisplayNameID>
-		<RolloverTextID>10121</RolloverTextID>
-		<RoleTextID>500</RoleTextID>
-		<MovementType>Land</MovementType>
-		<Velocity>10</Velocity>
-		<Acceleration>26</Acceleration>
-		<TurnRate>540</TurnRate>
-		<Hitpoints>1114</Hitpoints>
-		<Shieldpoints>200</Shieldpoints>
-		<DamageType direction="Full">Shielded</DamageType>
-		<AttackGradeDPS>24.7000008</AttackGradeDPS>
-		<CombatValue>1.60000002</CombatValue>
-		<LOS>55</LOS>
 		<Bounty>1.60000002</Bounty>
 		<RamDodgeFactor>0.5</RamDodgeFactor>
 		<Veterancy Level="1" XP="2" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
@@ -21216,16 +22164,16 @@
 		<HPBar>COV_Bldg_Health</HPBar>
 	</Object>
 	<Object name="flood_inf_jackalShield_01" id="0" dbid="4010">
-		<Visual>flood\Infantry\InfectedJackal_01\infected_jackal_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_jackal\infected_jackal_01.vis</Visual>
 	</Object>
 	<Object name="flood_inf_jackalShield_02" id="0" dbid="4010">
-		<Visual>flood\Infantry\InfectedJackal_01\infected_jackal_02.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_jackal\infected_jackal_02.vis</Visual>
 	</Object>
 	<Object name="flood_inf_infectedJackal_01" id="0" dbid="198">
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\Infantry\InfectedJackal_01\infected_jackal_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_jackal\infected_jackal_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10124</DisplayNameID>
@@ -21298,7 +22246,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\Infantry\InfectedJackal_01\infected_jackal_02.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_jackal\infected_jackal_02.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10124</DisplayNameID>
@@ -21938,7 +22886,7 @@
 		<Flag>Repairable</Flag>
 		<HPBar>COV_HealthShield</HPBar>
 	</Object>
-	<Object name="flood_inf_needlerElite_01" id="0" dbid="3013">
+	<!--Object name="flood_inf_needlerElite_01" id="0" dbid="3013">
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
@@ -22010,12 +22958,12 @@
 		<Flag>Obscurable</Flag>
 		<Flag>Repairable</Flag>
 		<HPBar>COV_HealthShield</HPBar>
-	</Object>
+	</Object-->
 	<Object name="flood_inf_marine_01" id="0" dbid="148">
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\infantry\infectedmarine_01\infectedmarine_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_human\infectedmarine_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10048</DisplayNameID>
@@ -22097,7 +23045,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\infantry\infectedmarine_01\infectedmarine_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_human\infectedmarine_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10048</DisplayNameID>
@@ -22180,7 +23128,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\infantry\infectedmedic_01\infectedmedic_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_human\infectedmedic_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10048</DisplayNameID>
@@ -23920,7 +24868,7 @@
 		<CombatValue>6</CombatValue>
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="60" yawattachment="turret" />
 		<LOS>75</LOS>
-		<Pop Type="Unit">1</Pop>
+		<Pop Type="Unit">2</Pop>
 		<Bounty>8</Bounty>
 		<Veterancy Level="1" XP="16" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
 		<Veterancy Level="2" XP="40" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -23932,6 +24880,166 @@
 		<AmmoRegenRate>30</AmmoRegenRate>
 		<AbilityCommand>CovSpectreBoost</AbilityCommand>
 		<Tactics>cov_veh_spectre_01.tactics</Tactics>
+		<RepairPoints>75</RepairPoints>
+		<ObstructionRadiusX>3.5</ObstructionRadiusX>
+		<ObstructionRadiusY>1.6</ObstructionRadiusY>
+		<ObstructionRadiusZ>3.5</ObstructionRadiusZ>
+		<PickRadius>3.5</PickRadius>
+		<PickOffset>1.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SubSelectSort>600</SubSelectSort>
+		<SelectedRadiusX>2.3</SelectedRadiusX>
+		<SelectedRadiusZ>2.3</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_ghost_birth</Sound>
+		<Sound Type="Death">play_cov_ghost_death</Sound>
+		<Sound Type="Select">play_cov_ghost_select</Sound>
+		<Sound Type="Work">play_cov_ghost_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_ghost_attack</Sound>
+		<Sound Type="Ability">play_cov_ghost_ability</Sound>
+		<Sound Type="StartMove">start_move_ghost</Sound>
+		<Sound Type="StopMove">stop_move_ghost</Sound>
+		<Sound Type="Exist">start_exist_ghost</Sound>
+		<Sound Type="StopExist">stop_exist_ghost</Sound>
+		<ExtendedSoundBank>xtnd_ui_ghost.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full">Medium</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Covenant</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>ForerunnerStealPower</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>NoActionOverrideMove</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="cov_veh_spectre_wip_01" id="0" dbid="207">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsInfo>ghost</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\vehicle\wip\spectre_01\spectre_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_ghost</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<DisplayNameID>10134</DisplayNameID>
+		<RolloverTextID>10135</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>30</Velocity>
+		<TurnRate>180</TurnRate>
+		<Hitpoints>4169</Hitpoints>
+		<Shieldpoints>3250</Shieldpoints>
+		<AttackGradeDPS>85.5</AttackGradeDPS>
+		<CombatValue>6</CombatValue>
+		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="360" pitchMaxAngle="60" pitchMinAngle="0" yawattachment="turret" pitchattachment="turretgun" />
+		<Hardpoint name="PassengerPlasmaRifleHP" autocenter="true" yawrate="180" pitchrate="120" pitchMaxAngle="60" pitchMinAngle="0" yawattachment="PassengerTop_Right" pitchattachment="PassengerTop_Right" />
+		<Hardpoint name="PassengerFuelRodHP" autocenter="true" yawrate="180" pitchrate="120" pitchMaxAngle="60" pitchMinAngle="0" yawattachment="PassengerTop_Left" pitchattachment="PassengerTop_Left" />
+		<LOS>75</LOS>
+		<Pop Type="Unit">2</Pop>
+		<Bounty>8</Bounty>
+		<Veterancy Level="1" XP="16" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="40" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="72" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="1.45" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<AmmoMax>610</AmmoMax>
+		<AmmoRegenRate>30</AmmoRegenRate>
+		<Tactics>wip\cov_veh_spectre_01.tactics</Tactics>
+		<RepairPoints>75</RepairPoints>
+		<ObstructionRadiusX>3.5</ObstructionRadiusX>
+		<ObstructionRadiusY>1.6</ObstructionRadiusY>
+		<ObstructionRadiusZ>3.5</ObstructionRadiusZ>
+		<PickRadius>3.5</PickRadius>
+		<PickOffset>1.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SubSelectSort>600</SubSelectSort>
+		<SelectedRadiusX>2.3</SelectedRadiusX>
+		<SelectedRadiusZ>2.3</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_ghost_birth</Sound>
+		<Sound Type="Death">play_cov_ghost_death</Sound>
+		<Sound Type="Select">play_cov_ghost_select</Sound>
+		<Sound Type="Work">play_cov_ghost_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_ghost_attack</Sound>
+		<Sound Type="Ability">play_cov_ghost_ability</Sound>
+		<Sound Type="StartMove">start_move_ghost</Sound>
+		<Sound Type="StopMove">stop_move_ghost</Sound>
+		<Sound Type="Exist">start_exist_ghost</Sound>
+		<Sound Type="StopExist">stop_exist_ghost</Sound>
+		<ExtendedSoundBank>xtnd_ui_ghost.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full">Medium</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Covenant</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>ForerunnerStealPower</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>NoActionOverrideMove</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="cov_veh_spectre_ce_01" id="0" dbid="207">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsInfo>ghost</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\vehicle\spectre_ce_01\spectre_ce_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_ghost</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<DisplayNameID>10134</DisplayNameID>
+		<RolloverTextID>10135</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>30</Velocity>
+		<TurnRate>180</TurnRate>
+		<Hitpoints>3169</Hitpoints>
+		<Shieldpoints>1250</Shieldpoints>
+		<AttackGradeDPS>85.5</AttackGradeDPS>
+		<CombatValue>6</CombatValue>
+		<Hardpoint name="Turret" autocenter="true" yawrate="180" pitchrate="180" pitchMinAngle="-15" pitchMaxAngle="45" yawattachment="turret" />
+		<Hardpoint name="PassengerTurret" autocenter="true" yawrate="180" pitchrate="180" pitchMaxAngle="60" pitchMinAngle="0" yawattachment="PassengerTop" pitchattachment="PassengerTop" />
+		<LOS>75</LOS>
+		<Pop Type="Unit">2</Pop>
+		<Bounty>8</Bounty>
+		<Veterancy Level="1" XP="16" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="40" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="72" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="1.45" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<AmmoMax>610</AmmoMax>
+		<AmmoRegenRate>30</AmmoRegenRate>
+		<AbilityCommand>CovSpectreBoost</AbilityCommand>
+		<Tactics>cov_veh_spectre_ce_01.tactics</Tactics>
 		<RepairPoints>75</RepairPoints>
 		<ObstructionRadiusX>3.5</ObstructionRadiusX>
 		<ObstructionRadiusY>1.6</ObstructionRadiusY>
@@ -24385,7 +25493,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\infantry\infectedodst_01\infectedodst_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_human\infectedodst_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10048</DisplayNameID>
@@ -24409,7 +25517,7 @@
 		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
 		<AmmoMax>200</AmmoMax>
 		<AmmoRegenRate>9</AmmoRegenRate>
-		<Tactics>unsc_inf_odst_01.tactics</Tactics>
+		<Tactics>unsc_inf_odst_01_player.tactics</Tactics>
 		<RepairPoints>25</RepairPoints>
 		<ObstructionRadiusX>1</ObstructionRadiusX>
 		<ObstructionRadiusY>2</ObstructionRadiusY>
@@ -24466,7 +25574,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\infantry\infectedodst_01\infectedodst_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_human\infectedodst_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10048</DisplayNameID>
@@ -24489,7 +25597,7 @@
 		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
 		<AmmoMax>200</AmmoMax>
 		<AmmoRegenRate>9</AmmoRegenRate>
-		<Tactics>unsc_inf_odst_01.tactics</Tactics>
+		<Tactics>unsc_inf_odst_01_player.tactics</Tactics>
 		<RepairPoints>25</RepairPoints>
 		<ObstructionRadiusX>1</ObstructionRadiusX>
 		<ObstructionRadiusY>2</ObstructionRadiusY>
@@ -24548,7 +25656,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\infantry\infectedodst_01\infectedodstmedic_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_human\infectedodstmedic_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10048</DisplayNameID>
@@ -36601,7 +37709,7 @@
 	<Object name="flood_random_plasmapistoljackal_01" id="0" dbid="3258">
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\infantry\infectedjackal_01\jackalplasmapistol_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_jackal\jackalplasmapistol_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>23991</DisplayNameID>
@@ -36671,7 +37779,7 @@
 	<Object name="flood_random_needlerJackal_01" id="0" dbid="3259">
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\infantry\infectedjackal_01\needlerjackal_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_jackal\needlerjackal_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>23991</DisplayNameID>
@@ -36741,7 +37849,7 @@
 	<Object name="flood_random_sniperJackal_01" id="0" dbid="3260">
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\infantry\infectedjackal_01\jackalsniper_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_jackal\jackalsniper_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>23991</DisplayNameID>
@@ -36885,7 +37993,7 @@
 	<Object name="flood_random_infectedMarine_01" id="0" dbid="230">
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\infantry\InfectedMarine_01\InfectedMarine_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_human\infectedmarine_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10162</DisplayNameID>
@@ -36957,7 +38065,7 @@
 	<Object name="flood_random_infectedmarine_pistol_01" id="0" dbid="230">
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\infantry\InfectedMarine_01\infectedmarine_pistol_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_human\infectedmarine_pistol_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10162</DisplayNameID>
@@ -37029,7 +38137,7 @@
 	<Object name="flood_random_infectedmarine_sniper_01" id="0" dbid="230">
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\infantry\InfectedMarine_01\infectedmarine_sniper_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_human\infectedmarine_sniper_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10162</DisplayNameID>
@@ -37100,7 +38208,7 @@
 	</Object>
 	<Object name="flood_random_infectedmarine_gl_01" id="0" dbid="2894">
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\infantry\InfectedMarine_01\infectedmarine_gl_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_human\infectedmarine_gl_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>23610</DisplayNameID>
@@ -37166,7 +38274,7 @@
 	<Object name="flood_random_infectedodst_01" is="0" id="1565" dbid="2569">
 		<ObjectClass>Squad</ObjectClass>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
-		<Visual>flood\Infantry\infectedodst_01\infectedodst_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_human\infectedodst_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>22674</DisplayNameID>
@@ -37187,7 +38295,7 @@
 		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<Tactics>unsc_inf_odst_01.tactics</Tactics>
+		<Tactics>unsc_inf_odst_01_player.tactics</Tactics>
 		<RepairPoints>25</RepairPoints>
 		<ObstructionRadiusX>1</ObstructionRadiusX>
 		<ObstructionRadiusY>2</ObstructionRadiusY>
@@ -37239,7 +38347,7 @@
 	<Object name="flood_random_infectedodstmedic_01" is="0" id="1565" dbid="2569">
 		<ObjectClass>Squad</ObjectClass>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
-		<Visual>flood\Infantry\infectedodst_01\infectedodstmedic_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_human\infectedodstmedic_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>22674</DisplayNameID>
@@ -37682,6 +38790,1128 @@
 			<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 		</FlashUI>
 		<HPBar>UNSC_HealthShield</HPBar>
+	</Object>
+	<Object name="flood_inf_elite_01" id="0" dbid="195">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry_h2\floodcombat_elite\elite_plasmarifle.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10120</DisplayNameID>
+		<RolloverTextID>10121</RolloverTextID>
+		<RoleTextID>500</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>1114</Hitpoints>
+		<Shieldpoints>0</Shieldpoints>
+		<DamageType direction="Full">Shielded</DamageType>
+		<AttackGradeDPS>24.7000008</AttackGradeDPS>
+		<CombatValue>1.60000002</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">0.5</Pop>
+		<Bounty>1.60000002</Bounty>
+		<RamDodgeFactor>0.5</RamDodgeFactor>
+		<Veterancy Level="1" XP="2" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="6" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="12" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<AmmoMax>1</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>cov_inf_elite_01.tactics</Tactics>
+		<SubSelectSort>4000</SubSelectSort>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.20000005</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>1.89999998</PickRadius>
+		<PickOffset>1.79999995</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_elite_birth</Sound>
+		<Sound Type="Death">play_cov_elite_vo_death</Sound>
+		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
+		<Sound Type="Select">play_cov_elite_select</Sound>
+		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_elite_attack</Sound>
+		<Sound Type="Ability">play_cov_elite_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>EliteFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>CovGruntGrenade</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>DieLast</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
+	<Object name="flood_inf_needlerelite_01" id="0" dbid="195">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry_h2\floodcombat_elite\elite_needler.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10120</DisplayNameID>
+		<RolloverTextID>10121</RolloverTextID>
+		<RoleTextID>500</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>1114</Hitpoints>
+		<Shieldpoints>0</Shieldpoints>
+		<DamageType direction="Full">Shielded</DamageType>
+		<AttackGradeDPS>24.7000008</AttackGradeDPS>
+		<CombatValue>1.60000002</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">0.5</Pop>
+		<Bounty>1.60000002</Bounty>
+		<RamDodgeFactor>0.5</RamDodgeFactor>
+		<Veterancy Level="1" XP="2" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="6" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="12" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<AmmoMax>1</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>cov_inf_needlerelite_01.tactics</Tactics>
+		<SubSelectSort>4000</SubSelectSort>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.20000005</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>1.89999998</PickRadius>
+		<PickOffset>1.79999995</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_elite_birth</Sound>
+		<Sound Type="Death">play_cov_elite_vo_death</Sound>
+		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
+		<Sound Type="Select">play_cov_elite_select</Sound>
+		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_elite_attack</Sound>
+		<Sound Type="Ability">play_cov_elite_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>EliteFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>CovGruntGrenade</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>DieLast</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
+	<Object name="flood_inf_needlerelite_cloak_01" id="0" dbid="195">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry_h2\floodcombat_elite\cloak_elite_needler.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10120</DisplayNameID>
+		<RolloverTextID>10121</RolloverTextID>
+		<RoleTextID>500</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>1114</Hitpoints>
+		<Shieldpoints>1340</Shieldpoints>
+		<DamageType direction="Full">Shielded</DamageType>
+		<AttackGradeDPS>24.7000008</AttackGradeDPS>
+		<CombatValue>1.60000002</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">0.5</Pop>
+		<Bounty>1.60000002</Bounty>
+		<RamDodgeFactor>0.5</RamDodgeFactor>
+		<Veterancy Level="1" XP="2" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="6" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="12" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<AmmoMax>1</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>flood_inf_needlerelite_cloak_01.tactics</Tactics>
+		<SubSelectSort>4000</SubSelectSort>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.20000005</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>1.89999998</PickRadius>
+		<PickOffset>1.79999995</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_elite_birth</Sound>
+		<Sound Type="Death">play_cov_elite_vo_death</Sound>
+		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
+		<Sound Type="Select">play_cov_elite_select</Sound>
+		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_elite_attack</Sound>
+		<Sound Type="Ability">play_cov_elite_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>EliteFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>CovGruntGrenade</AbilityCommand>
+		<Flag>AutoCloak</Flag>
+		<Flag>MoveWhileCloaked</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>DieLast</Flag>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="flood_inf_eliteBerserker_01" id="0" dbid="196">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry_h2\floodcombat_elite\elite_berserker.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10122</DisplayNameID>
+		<RolloverTextID>10123</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>15</Velocity>
+		<Acceleration>23</Acceleration>
+		<TurnRate>360</TurnRate>
+		<Hitpoints>1689</Hitpoints>
+		<AttackGradeDPS>54</AttackGradeDPS>
+		<CombatValue>3</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="b_spine" />
+		<SingleBoneIK>b_spine</SingleBoneIK>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="5" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="12" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="22" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>flood_inf_eliteBerserker_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5999999</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>2.0999999</PickRadius>
+		<PickOffset>2.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>48310</SubSelectSort>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_elite_birth</Sound>
+		<Sound Type="Death">play_cov_elite_vo_death</Sound>
+		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
+		<Sound Type="Select">play_cov_elite_select</Sound>
+		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_elite_attack</Sound>
+		<Sound Type="Ability">play_cov_elite_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
+		<AbilityCommand>CovGruntGrenade</AbilityCommand>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
+	<Object name="flood_inf_eliteHonorBerserker_01" id="0" dbid="196">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry_h2\floodcombat_elite\honor_berserker.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10122</DisplayNameID>
+		<RolloverTextID>10123</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>15</Velocity>
+		<Acceleration>23</Acceleration>
+		<TurnRate>360</TurnRate>
+		<Hitpoints>4689</Hitpoints>
+		<Shieldpoints>1589</Shieldpoints>
+		<AttackGradeDPS>54</AttackGradeDPS>
+		<CombatValue>3</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="b_spine" />
+		<SingleBoneIK>b_spine</SingleBoneIK>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="5" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="12" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="22" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>flood_inf_eliteBerserker_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5999999</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>2.0999999</PickRadius>
+		<PickOffset>2.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>48310</SubSelectSort>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_elite_birth</Sound>
+		<Sound Type="Death">play_cov_elite_vo_death</Sound>
+		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
+		<Sound Type="Select">play_cov_elite_select</Sound>
+		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_elite_attack</Sound>
+		<Sound Type="Ability">play_cov_elite_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
+		<AbilityCommand>CovGruntGrenade</AbilityCommand>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="flood_inf_hereticBerserker_01" id="0" dbid="196">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry_h2\floodcombat_elite\heretic_berserker.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10122</DisplayNameID>
+		<RolloverTextID>10123</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>15</Velocity>
+		<Acceleration>23</Acceleration>
+		<TurnRate>360</TurnRate>
+		<Hitpoints>1689</Hitpoints>
+		<AttackGradeDPS>54</AttackGradeDPS>
+		<CombatValue>3</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="b_spine" />
+		<SingleBoneIK>b_spine</SingleBoneIK>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="5" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="12" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="22" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>flood_inf_eliteBerserker_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5999999</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>2.0999999</PickRadius>
+		<PickOffset>2.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>48310</SubSelectSort>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_elite_birth</Sound>
+		<Sound Type="Death">play_cov_elite_vo_death</Sound>
+		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
+		<Sound Type="Select">play_cov_elite_select</Sound>
+		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_elite_attack</Sound>
+		<Sound Type="Ability">play_cov_elite_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
+		<AbilityCommand>CovGruntGrenade</AbilityCommand>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
+	<Object name="flood_inf_eliteHonorBerserker_cloak_01" id="0" dbid="196">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry_h2\floodcombat_elite\cloak_honor_berserker.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10122</DisplayNameID>
+		<RolloverTextID>10123</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>15</Velocity>
+		<Acceleration>23</Acceleration>
+		<TurnRate>360</TurnRate>
+		<Hitpoints>4689</Hitpoints>
+		<Shieldpoints>1589</Shieldpoints>
+		<AttackGradeDPS>54</AttackGradeDPS>
+		<CombatValue>3</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="b_spine" />
+		<SingleBoneIK>b_spine</SingleBoneIK>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="5" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="12" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="22" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>flood_inf_eliteBerserker_cloak_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5999999</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>2.0999999</PickRadius>
+		<PickOffset>2.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>48310</SubSelectSort>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_elite_birth</Sound>
+		<Sound Type="Death">play_cov_elite_vo_death</Sound>
+		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
+		<Sound Type="Select">play_cov_elite_select</Sound>
+		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_elite_attack</Sound>
+		<Sound Type="Ability">play_cov_elite_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
+		<AbilityCommand>CovGruntGrenade</AbilityCommand>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>AutoCloak</Flag>
+		<Flag>MoveWhileCloaked</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="flood_inf_hereticBerserker_cloak_01" id="0" dbid="196">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry_h2\floodcombat_elite\cloak_heretic_berserker.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10122</DisplayNameID>
+		<RolloverTextID>10123</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>15</Velocity>
+		<Acceleration>23</Acceleration>
+		<TurnRate>360</TurnRate>
+		<Hitpoints>4689</Hitpoints>
+		<Shieldpoints>1589</Shieldpoints>
+		<AttackGradeDPS>54</AttackGradeDPS>
+		<CombatValue>3</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="b_spine" />
+		<SingleBoneIK>b_spine</SingleBoneIK>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="5" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="12" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="22" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>flood_inf_eliteBerserker_cloak_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5999999</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>2.0999999</PickRadius>
+		<PickOffset>2.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>48310</SubSelectSort>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_elite_birth</Sound>
+		<Sound Type="Death">play_cov_elite_vo_death</Sound>
+		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
+		<Sound Type="Select">play_cov_elite_select</Sound>
+		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_elite_attack</Sound>
+		<Sound Type="Ability">play_cov_elite_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
+		<AbilityCommand>CovGruntGrenade</AbilityCommand>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>AutoCloak</Flag>
+		<Flag>MoveWhileCloaked</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="flood_inf_brute_01" id="0" dbid="196">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry_h2\floodcombat_brute\brute_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10122</DisplayNameID>
+		<RolloverTextID>10123</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>360</TurnRate>
+		<Hitpoints>1651</Hitpoints>
+		<AttackGradeDPS>54</AttackGradeDPS>
+		<CombatValue>3</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Pop Type="Unit">0.5</Pop>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="6" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="15" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="27" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>cov_inf_brute_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5999999</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>2.0999999</PickRadius>
+		<PickOffset>2.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>4800</SubSelectSort>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_brute_birth</Sound>
+		<Sound Type="Death">play_cov_brute_vo_death</Sound>
+		<Sound Type="Death">play_cov_brute_vo_hit</Sound>
+		<Sound Type="Select">play_cov_brute_select</Sound>
+		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
+		<Sound Type="Ability">play_cov_brute_ability</Sound>
+		<Sound Type="Attack">play_cov_brute_attack</Sound>
+		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>CovJumppack</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
+	<Object name="flood_inf_brute_honor_01" id="0" dbid="196">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry_h2\floodcombat_brute\brute_honor_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10122</DisplayNameID>
+		<RolloverTextID>10123</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>360</TurnRate>
+		<Hitpoints>3651</Hitpoints>
+		<Shieldpoints>6651</Shieldpoints>
+		<AttackGradeDPS>54</AttackGradeDPS>
+		<CombatValue>3</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="6" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="15" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="27" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>cov_inf_brute_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5999999</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>2.0999999</PickRadius>
+		<PickOffset>2.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>4800</SubSelectSort>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_brute_birth</Sound>
+		<Sound Type="Death">play_cov_brute_vo_death</Sound>
+		<Sound Type="Death">play_cov_brute_vo_hit</Sound>
+		<Sound Type="Select">play_cov_brute_select</Sound>
+		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
+		<Sound Type="Ability">play_cov_brute_ability</Sound>
+		<Sound Type="Attack">play_cov_brute_attack</Sound>
+		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>CovJumppack</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="flood_inf_bruteBerserker_01" id="0" dbid="196">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry_h2\floodcombat_brute\bruteberserker_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10122</DisplayNameID>
+		<RolloverTextID>10123</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>15</Velocity>
+		<Acceleration>23</Acceleration>
+		<TurnRate>360</TurnRate>
+		<Hitpoints>3651</Hitpoints>
+		<AttackGradeDPS>54</AttackGradeDPS>
+		<CombatValue>3</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="spine" />
+		<SingleBoneIK>spine</SingleBoneIK>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="5" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="12" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="22" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>cov_inf_bruteBerserker_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5999999</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>2.0999999</PickRadius>
+		<PickOffset>2.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>48310</SubSelectSort>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_brute_birth</Sound>
+		<Sound Type="Death">play_cov_brute_vo_death</Sound>
+		<Sound Type="Death">play_cov_brute_vo_hit</Sound>
+		<Sound Type="Select">play_cov_brute_select</Sound>
+		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
+		<Sound Type="Ability">play_cov_brute_ability</Sound>
+		<Sound Type="Attack">play_cov_brute_attack</Sound>
+		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<AbilityCommand>CovGruntGrenade</AbilityCommand>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
+	<Object name="flood_inf_bruteBerserker_02" id="0" dbid="196">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry_h2\floodcombat_brute\bruteberserker_02.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10122</DisplayNameID>
+		<RolloverTextID>10123</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>15</Velocity>
+		<Acceleration>23</Acceleration>
+		<TurnRate>360</TurnRate>
+		<Hitpoints>3651</Hitpoints>
+		<AttackGradeDPS>54</AttackGradeDPS>
+		<CombatValue>3</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="spine" />
+		<SingleBoneIK>spine</SingleBoneIK>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="5" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="12" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="22" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>cov_inf_bruteBerserker_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5999999</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>2.0999999</PickRadius>
+		<PickOffset>2.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>48310</SubSelectSort>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_brute_birth</Sound>
+		<Sound Type="Death">play_cov_brute_vo_death</Sound>
+		<Sound Type="Death">play_cov_brute_vo_hit</Sound>
+		<Sound Type="Select">play_cov_brute_select</Sound>
+		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
+		<Sound Type="Ability">play_cov_brute_ability</Sound>
+		<Sound Type="Attack">play_cov_brute_attack</Sound>
+		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<AbilityCommand>CovGruntGrenade</AbilityCommand>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
+	<Object name="flood_inf_bruteBerserker_03" id="0" dbid="196">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry_h2\floodcombat_brute\bruteberserker_03.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10122</DisplayNameID>
+		<RolloverTextID>10123</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>15</Velocity>
+		<Acceleration>23</Acceleration>
+		<TurnRate>360</TurnRate>
+		<Hitpoints>7151</Hitpoints>
+		<AttackGradeDPS>54</AttackGradeDPS>
+		<CombatValue>3</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="spine" />
+		<SingleBoneIK>spine</SingleBoneIK>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="5" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="12" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="22" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>cov_inf_bruteBerserker_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5999999</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>2.0999999</PickRadius>
+		<PickOffset>2.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>48310</SubSelectSort>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_brute_birth</Sound>
+		<Sound Type="Death">play_cov_brute_vo_death</Sound>
+		<Sound Type="Death">play_cov_brute_vo_hit</Sound>
+		<Sound Type="Select">play_cov_brute_select</Sound>
+		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
+		<Sound Type="Ability">play_cov_brute_ability</Sound>
+		<Sound Type="Attack">play_cov_brute_attack</Sound>
+		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<AbilityCommand>CovGruntGrenade</AbilityCommand>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
+	<Object name="flood_inf_marineBerserker_01" id="0" dbid="196">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry_h2\floodcombat_human\marine_berserker.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10122</DisplayNameID>
+		<RolloverTextID>10123</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>17</Velocity>
+		<Acceleration>23</Acceleration>
+		<TurnRate>360</TurnRate>
+		<Hitpoints>1689</Hitpoints>
+		<AttackGradeDPS>54</AttackGradeDPS>
+		<CombatValue>3</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="b_spine" />
+		<SingleBoneIK>b_spine</SingleBoneIK>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="5" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="12" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="22" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>flood_inf_marineBerserker_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5999999</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>2.0999999</PickRadius>
+		<PickOffset>2.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>48310</SubSelectSort>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_elite_birth</Sound>
+		<Sound Type="Death">play_cov_elite_vo_death</Sound>
+		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
+		<Sound Type="Select">play_cov_elite_select</Sound>
+		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_elite_attack</Sound>
+		<Sound Type="Ability">play_cov_elite_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
+		<AbilityCommand>CovGruntGrenade</AbilityCommand>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
+	<Object name="flood_inf_odstBerserker_01" id="0" dbid="196">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry_h2\floodcombat_human\odst_berserker.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10122</DisplayNameID>
+		<RolloverTextID>10123</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>17</Velocity>
+		<Acceleration>23</Acceleration>
+		<TurnRate>360</TurnRate>
+		<Hitpoints>2689</Hitpoints>
+		<AttackGradeDPS>54</AttackGradeDPS>
+		<CombatValue>3</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="b_spine" />
+		<SingleBoneIK>b_spine</SingleBoneIK>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="5" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="12" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="22" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>flood_inf_odstBerserker_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5999999</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>2.0999999</PickRadius>
+		<PickOffset>2.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>48310</SubSelectSort>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_elite_birth</Sound>
+		<Sound Type="Death">play_cov_elite_vo_death</Sound>
+		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
+		<Sound Type="Select">play_cov_elite_select</Sound>
+		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_elite_attack</Sound>
+		<Sound Type="Ability">play_cov_elite_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
+		<AbilityCommand>CovGruntGrenade</AbilityCommand>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
 	</Object>
 	<Object name="runewars_range" is="0" id="2061" dbid="4355" update="true">
 		<Flag>Doppled</Flag>

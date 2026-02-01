@@ -19,7 +19,7 @@
 		<TriggerVar ID="599" Type="Sound" Name="AllyCovVar1" IsNull="true" />
 		<TriggerVar ID="600" Type="Sound" Name="" IsNull="false">play_cov_vog_powers_odst</TriggerVar>
 		<TriggerVar ID="745" Type="Float" Name="CostMultiplierVar1" IsNull="true" />
-		<TriggerVar ID="788" Type="ProtoSquad" Name="" IsNull="false">unsc_inf_odst_01</TriggerVar>
+		<TriggerVar ID="788" Type="ProtoSquad" Name="" IsNull="false">unsc_inf_odst_01_player</TriggerVar>
 		<TriggerVar ID="789" Type="Bool" Name="CheckBidsVar2" IsNull="true">False</TriggerVar>
 		<TriggerVar ID="790" Type="Integer" Name="BonusLimitVar2" IsNull="true" />
 		<TriggerVar ID="791" Type="Integer" Name="OdstPopLimit" IsNull="false" />
@@ -56,7 +56,7 @@
 		<TriggerVar ID="868" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 		<TriggerVar ID="869" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 		<TriggerVar ID="870" Type="Bool" Name="" IsNull="false">True</TriggerVar>
-		<TriggerVar ID="871" Type="ProtoSquad" Name="" IsNull="false">unsc_inf_odst_01</TriggerVar>
+		<TriggerVar ID="871" Type="ProtoSquad" Name="" IsNull="false">unsc_inf_odst_01_player</TriggerVar>
 		<TriggerVar ID="872" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 		<TriggerVar ID="878" Type="Bool" Name="" IsNull="false">False</TriggerVar>
 		<TriggerVar ID="882" Type="Bool" Name="" IsNull="false">False</TriggerVar>

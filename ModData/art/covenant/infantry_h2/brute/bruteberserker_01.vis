@@ -103,6 +103,13 @@
 			</asset>
 			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
+		<anim type="PlasmaGrenadeAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>covenant\infantry_h2\brute\berserker_anim\hammer_throwgrenade_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="l_hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
 		<anim type="SwordAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="SwordAttack">
 			<asset type="Anim">
 				<file>covenant\infantry_h2\brute\berserker_anim\attack_01</file>

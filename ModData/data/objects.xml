@@ -4688,8 +4688,8 @@
 		<Command Type="Research" Position="7">unsc_marine_upgrade1</Command>
 		<Command Type="Research" Position="7">unsc_marine_upgrade2</Command>
 		<Command Type="Research" Position="7">unsc_marine_upgrade3</Command>
-		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01</Command>
-		<Command Type="Research" Position="7">unsc_odst_upgrade1</Command>
+		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01_player</Command>
+		<Command Type="Research" Position="7">unsc_odst_upgrade1_player</Command>
 		<Command Type="Research" Position="7">unsc_odst_upgrade2</Command>
 		<Command Type="Research" Position="7">unsc_odst_upgrade3</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_flameMarine_01</Command>
@@ -5905,7 +5905,7 @@
 		<DisplayNameID>10064</DisplayNameID>
 		<RolloverTextID>10065</RolloverTextID>
 		<MovementType>Land</MovementType>
-		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="60" yawattachment="turret" pitchattachment="turretgun" />
+		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="360" pitchMinAngle="-30" pitchMaxAngle="90" yawattachment="turret" pitchattachment="turretgun" />
 		<Hardpoint name="PassengerTurret" autocenter="true" yawrate="180" pitchrate="180" pitchMaxAngle="60" pitchMinAngle="0" yawattachment="PassengerTop" pitchattachment="PassengerTop" />
 		<Velocity>40</Velocity>
 		<TurnRate>450</TurnRate>
@@ -6203,7 +6203,7 @@
 		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
 		<ExitFromDirection>2</ExitFromDirection>
-		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01</Command>
+		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01_player</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_flameMarine_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_inf_sniper_01</Command>
 		<Command Type="ChangeMode" Position="6">Normal</Command>
@@ -6320,7 +6320,7 @@
 		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
 		<ExitFromDirection>2</ExitFromDirection>
-		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01</Command>
+		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01_player</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_flameMarine_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_inf_sniper_01</Command>
 		<Command Type="ChangeMode" Position="6">Normal</Command>
@@ -7217,10 +7217,10 @@
 		<SelectedRadiusX>6.69999981</SelectedRadiusX>
 		<SelectedRadiusZ>6.9000001</SelectedRadiusZ>
 		<Command Type="Research" Position="0">cov_base_upgrade1</Command>
-		<Command Type="TrainSquad" Position="1">cov_inf_suicideGrunt_01</Command>
-		<Command Type="Research" Position="7">cov_suicideGrunt_upgrade1</Command>
-		<Command Type="Research" Position="7">cov_suicideGrunt_upgrade2</Command>
-		<Command Type="Research" Position="7">cov_suicideGrunt_upgrade3</Command>
+		<Command Type="TrainSquad" Position="1">cov_inf_elite_01</Command>
+		<Command Type="Research" Position="7">cov_eliteupgrade_01</Command>
+		<Command Type="Research" Position="7">cov_eliteupgrade_02</Command>
+		<Command Type="Research" Position="7">cov_eliteupgrade_03</Command>
 		<Command Type="TrainSquad" Position="1">cov_inf_bruteBerserker_01</Command>
 		<Command Type="Research" Position="7">cov_bruteBerserker_upgrade1</Command>
 		<Command Type="Research" Position="7">cov_bruteBerserker_upgrade2</Command>
@@ -7229,14 +7229,18 @@
 		<Command Type="Research" Position="7">cov_GruntDeacon_upgrade1</Command>
 		<Command Type="Research" Position="7">cov_GruntDeacon_upgrade2</Command>
 		<Command Type="Research" Position="7">cov_GruntDeacon_upgrade3</Command>
-		<Command Type="TrainSquad" Position="2">cov_inf_elite_01</Command>
-		<Command Type="Research" Position="6">cov_eliteupgrade_01</Command>
-		<Command Type="Research" Position="6">cov_eliteupgrade_02</Command>
-		<Command Type="Research" Position="6">cov_eliteupgrade_03</Command>
+		<Command Type="TrainSquad" Position="1">cov_inf_drones_01</Command>
+		<Command Type="Research" Position="7">cov_drones_upgrade1</Command>
+		<Command Type="Research" Position="7">cov_drones_upgrade2</Command>
+		<Command Type="Research" Position="7">cov_drones_upgrade3</Command>
 		<Command Type="TrainSquad" Position="2">cov_inf_brute_01</Command>
 		<Command Type="Research" Position="6">cov_brute_upgrade1</Command>
 		<Command Type="Research" Position="6">cov_brute_upgrade2</Command>
 		<Command Type="Research" Position="6">cov_brute_upgrade3</Command>
+		<Command Type="TrainSquad" Position="2">cov_inf_suicideGrunt_01</Command>
+		<Command Type="Research" Position="6">cov_suicideGrunt_upgrade1</Command>
+		<Command Type="Research" Position="6">cov_suicideGrunt_upgrade2</Command>
+		<Command Type="Research" Position="6">cov_suicideGrunt_upgrade3</Command>
 		<Command Type="TrainSquad" Position="2">cov_inf_eliteCommando_01</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade1</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade2</Command>
@@ -7249,10 +7253,6 @@
 		<Command Type="Research" Position="6">cov_skirmisher_upgrade1</Command>
 		<Command Type="Research" Position="6">cov_skirmisher_upgrade2</Command>
 		<Command Type="Research" Position="6">cov_skirmisher_upgrade3</Command>
-		<Command Type="TrainSquad" Position="1">cov_inf_drones_01</Command>
-		<Command Type="Research" Position="7">cov_drones_upgrade1</Command>
-		<Command Type="Research" Position="7">cov_drones_upgrade2</Command>
-		<Command Type="Research" Position="7">cov_drones_upgrade3</Command>
 		<Command Type="DestroyBase" Position="4" />
 		<Command Type="TrainLock" Position="3" />
 		<Command Type="RallyPoint" Position="5" />
@@ -7341,10 +7341,10 @@
 		<SelectedRadiusX>6.69999981</SelectedRadiusX>
 		<SelectedRadiusZ>6.9000001</SelectedRadiusZ>
 		<Command Type="Research" Position="0">cov_base_upgrade2</Command>
-		<Command Type="TrainSquad" Position="1">cov_inf_suicideGrunt_01</Command>
-		<Command Type="Research" Position="7">cov_suicideGrunt_upgrade1</Command>
-		<Command Type="Research" Position="7">cov_suicideGrunt_upgrade2</Command>
-		<Command Type="Research" Position="7">cov_suicideGrunt_upgrade3</Command>
+		<Command Type="TrainSquad" Position="1">cov_inf_elite_01</Command>
+		<Command Type="Research" Position="7">cov_eliteupgrade_01</Command>
+		<Command Type="Research" Position="7">cov_eliteupgrade_02</Command>
+		<Command Type="Research" Position="7">cov_eliteupgrade_03</Command>
 		<Command Type="TrainSquad" Position="1">cov_inf_bruteBerserker_01</Command>
 		<Command Type="Research" Position="7">cov_bruteBerserker_upgrade1</Command>
 		<Command Type="Research" Position="7">cov_bruteBerserker_upgrade2</Command>
@@ -7353,14 +7353,18 @@
 		<Command Type="Research" Position="7">cov_GruntDeacon_upgrade1</Command>
 		<Command Type="Research" Position="7">cov_GruntDeacon_upgrade2</Command>
 		<Command Type="Research" Position="7">cov_GruntDeacon_upgrade3</Command>
-		<Command Type="TrainSquad" Position="2">cov_inf_elite_01</Command>
-		<Command Type="Research" Position="6">cov_eliteupgrade_01</Command>
-		<Command Type="Research" Position="6">cov_eliteupgrade_02</Command>
-		<Command Type="Research" Position="6">cov_eliteupgrade_03</Command>
+		<Command Type="TrainSquad" Position="1">cov_inf_drones_01</Command>
+		<Command Type="Research" Position="7">cov_drones_upgrade1</Command>
+		<Command Type="Research" Position="7">cov_drones_upgrade2</Command>
+		<Command Type="Research" Position="7">cov_drones_upgrade3</Command>
 		<Command Type="TrainSquad" Position="2">cov_inf_brute_01</Command>
 		<Command Type="Research" Position="6">cov_brute_upgrade1</Command>
 		<Command Type="Research" Position="6">cov_brute_upgrade2</Command>
 		<Command Type="Research" Position="6">cov_brute_upgrade3</Command>
+		<Command Type="TrainSquad" Position="2">cov_inf_suicideGrunt_01</Command>
+		<Command Type="Research" Position="6">cov_suicideGrunt_upgrade1</Command>
+		<Command Type="Research" Position="6">cov_suicideGrunt_upgrade2</Command>
+		<Command Type="Research" Position="6">cov_suicideGrunt_upgrade3</Command>
 		<Command Type="TrainSquad" Position="2">cov_inf_eliteCommando_01</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade1</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade2</Command>
@@ -7373,10 +7377,6 @@
 		<Command Type="Research" Position="6">cov_skirmisher_upgrade1</Command>
 		<Command Type="Research" Position="6">cov_skirmisher_upgrade2</Command>
 		<Command Type="Research" Position="6">cov_skirmisher_upgrade3</Command>
-		<Command Type="TrainSquad" Position="1">cov_inf_drones_01</Command>
-		<Command Type="Research" Position="7">cov_drones_upgrade1</Command>
-		<Command Type="Research" Position="7">cov_drones_upgrade2</Command>
-		<Command Type="Research" Position="7">cov_drones_upgrade3</Command>
 		<Command Type="DestroyBase" Position="4" />
 		<Command Type="TrainLock" Position="3" />
 		<Command Type="RallyPoint" Position="5" />
@@ -7470,11 +7470,11 @@
 		<ExitFromDirection>1</ExitFromDirection>
 		<SelectedRadiusX>6.69999981</SelectedRadiusX>
 		<SelectedRadiusZ>6.9000001</SelectedRadiusZ>
-		<Command Type="Research" Position="0">cov_base_upgrade3</Command>
-		<Command Type="TrainSquad" Position="1">cov_inf_suicideGrunt_01</Command>
-		<Command Type="Research" Position="7">cov_suicideGrunt_upgrade1</Command>
-		<Command Type="Research" Position="7">cov_suicideGrunt_upgrade2</Command>
-		<Command Type="Research" Position="7">cov_suicideGrunt_upgrade3</Command>
+		<Command Type="TrainSquad" Position="0">cov_titan_phantom_gunship_01</Command>
+		<Command Type="TrainSquad" Position="1">cov_inf_elite_01</Command>
+		<Command Type="Research" Position="7">cov_eliteupgrade_01</Command>
+		<Command Type="Research" Position="7">cov_eliteupgrade_02</Command>
+		<Command Type="Research" Position="7">cov_eliteupgrade_03</Command>
 		<Command Type="TrainSquad" Position="1">cov_inf_bruteBerserker_01</Command>
 		<Command Type="Research" Position="7">cov_bruteBerserker_upgrade1</Command>
 		<Command Type="Research" Position="7">cov_bruteBerserker_upgrade2</Command>
@@ -7483,14 +7483,18 @@
 		<Command Type="Research" Position="7">cov_GruntDeacon_upgrade1</Command>
 		<Command Type="Research" Position="7">cov_GruntDeacon_upgrade2</Command>
 		<Command Type="Research" Position="7">cov_GruntDeacon_upgrade3</Command>
-		<Command Type="TrainSquad" Position="2">cov_inf_elite_01</Command>
-		<Command Type="Research" Position="6">cov_eliteupgrade_01</Command>
-		<Command Type="Research" Position="6">cov_eliteupgrade_02</Command>
-		<Command Type="Research" Position="6">cov_eliteupgrade_03</Command>
+		<Command Type="TrainSquad" Position="1">cov_inf_drones_01</Command>
+		<Command Type="Research" Position="7">cov_drones_upgrade1</Command>
+		<Command Type="Research" Position="7">cov_drones_upgrade2</Command>
+		<Command Type="Research" Position="7">cov_drones_upgrade3</Command>
 		<Command Type="TrainSquad" Position="2">cov_inf_brute_01</Command>
 		<Command Type="Research" Position="6">cov_brute_upgrade1</Command>
 		<Command Type="Research" Position="6">cov_brute_upgrade2</Command>
 		<Command Type="Research" Position="6">cov_brute_upgrade3</Command>
+		<Command Type="TrainSquad" Position="2">cov_inf_suicideGrunt_01</Command>
+		<Command Type="Research" Position="6">cov_suicideGrunt_upgrade1</Command>
+		<Command Type="Research" Position="6">cov_suicideGrunt_upgrade2</Command>
+		<Command Type="Research" Position="6">cov_suicideGrunt_upgrade3</Command>
 		<Command Type="TrainSquad" Position="2">cov_inf_eliteCommando_01</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade1</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade2</Command>
@@ -7503,22 +7507,9 @@
 		<Command Type="Research" Position="6">cov_skirmisher_upgrade1</Command>
 		<Command Type="Research" Position="6">cov_skirmisher_upgrade2</Command>
 		<Command Type="Research" Position="6">cov_skirmisher_upgrade3</Command>
-		<Command Type="TrainSquad" Position="1">cov_inf_drones_01</Command>
-		<Command Type="Research" Position="7">cov_drones_upgrade1</Command>
-		<Command Type="Research" Position="7">cov_drones_upgrade2</Command>
-		<Command Type="Research" Position="7">cov_drones_upgrade3</Command>
 		<Command Type="DestroyBase" Position="4" />
 		<Command Type="TrainLock" Position="3" />
 		<Command Type="RallyPoint" Position="5" />
-
-
-		<Command Type="TrainSquad" Position="4">cov_veh_wraithaa_01</Command>
-		<Command Type="TrainSquad" Position="4">cov_veh_prowler_01</Command>
-		<Command Type="TrainSquad" Position="4">cov_veh_revenant_01</Command>
-		<Command Type="TrainSquad" Position="4">cov_inf_gutarider_01</Command>
-		<Command Type="TrainSquad" Position="4">cov_veh_spectre_01</Command>
-		<Command Type="TrainSquad" Position="4">cov_titan_superscarab_01</Command>
-		<Command Type="TrainSquad" Position="4">cov_inf_fuelrodelite</Command>
 		<ChildObjects>
 			<Object Type="Rally" Offset="85,0,15" Rotation="0">sys_rallystart_01</Object>
 			<Object Type="Socket" Offset="0,0,-34" Rotation="0">cov_bldg_socket_01</Object>
@@ -7699,6 +7690,7 @@
 		<PickRadius>8</PickRadius>
 		<PickOffset>0.699999988</PickOffset>
 		<GathererLimit>1</GathererLimit>
+		<Command Type="BuildOther" Position="0" AutoClose="true">cov_bldg_specops_01</Command>
 		<Command Type="BuildOther" Position="1" AutoClose="true">cov_bldg_supplyDepot_01</Command>
 		<Command Type="BuildOther" Position="2" AutoClose="true">cov_bldg_temple_01</Command>
 		<Command Type="BuildOther" Position="3" AutoClose="true">cov_bldg_shieldGen_01</Command>
@@ -8330,6 +8322,10 @@
 		<SelectType>Command</SelectType>
 		<SelectedRadiusX>8</SelectedRadiusX>
 		<SelectedRadiusZ>6.5</SelectedRadiusZ>
+		<Command Type="TrainSquad" Position="0">cov_inf_elite_pc_01</Command>
+		<Command Type="TrainSquad" Position="0">cov_inf_brute_hg_01</Command>
+		<Command Type="TrainSquad" Position="0">cov_inf_silentshadow_01</Command>
+		<Command Type="TrainSquad" Position="0">cov_inf_gutarider_01</Command>
 		<Command Type="TrainSquad" Position="1">cov_inf_minorjackal_01</Command>
 		<Command Type="TrainSquad" Position="1">cov_inf_grunt_01</Command>
 		<Command Type="TrainSquad" Position="2">cov_inf_jackal_01</Command>
@@ -8432,6 +8428,7 @@
 		<SelectType>Command</SelectType>
 		<SelectedRadiusX>6</SelectedRadiusX>
 		<SelectedRadiusZ>6.5</SelectedRadiusZ>
+		<Command Type="TrainSquad" Position="0">cov_air_banshee_space_01</Command>
 		<Command Type="TrainSquad" Position="1">cov_inf_engineer_01</Command>
 		<Command Type="TrainSquad" Position="2">cov_air_banshee_01</Command>
 		<Command Type="TrainSquad" Position="3">cov_air_vampire_01</Command>
@@ -8521,6 +8518,12 @@
 		<SelectType>Command</SelectType>
 		<SelectedRadiusX>6.19999981</SelectedRadiusX>
 		<SelectedRadiusZ>6</SelectedRadiusZ>
+		<Command Type="TrainSquad" Position="0">cov_veh_spectre_01</Command>
+		<Command Type="TrainSquad" Position="0">cov_veh_prowler_01</Command>
+		<Command Type="TrainSquad" Position="0">cov_veh_revenant_01</Command>
+		<Command Type="TrainSquad" Position="0">cov_veh_spectre_ce_01</Command>
+		<Command Type="TrainSquad" Position="5">cov_veh_wraith_ultra_01</Command>
+		<Command Type="TrainSquad" Position="5">cov_veh_wraithaa_01</Command>
 		<Command Type="TrainSquad" Position="1">cov_veh_ghost_01</Command>
 		<Command Type="TrainSquad" Position="1">cov_veh_bruteChopper_01</Command>
 		<Command Type="Research" Position="7">cov_ghost_upgrade1</Command>
@@ -13020,7 +13023,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\Infantry\InfectedJackal_01\infected_jackal_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_jackal\infected_jackal_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>24636</DisplayNameID>
@@ -13956,7 +13959,7 @@
 		<Ability>flood\infectedlos.triggerscript</Ability>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\infantry\InfectedMarine_01\InfectedMarine_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_human\infectedmarine_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10162</DisplayNameID>
@@ -28024,7 +28027,7 @@
 		<Command Type="Research" Position="7">unsc_marine_upgrade1</Command>
 		<Command Type="Research" Position="7">unsc_marine_upgrade2</Command>
 		<Command Type="Research" Position="7">unsc_marine_upgrade3</Command>
-		<Command Type="Research" Position="7">unsc_odst_upgrade1</Command>
+		<Command Type="Research" Position="7">unsc_odst_upgrade1_player</Command>
 		<Command Type="Research" Position="6">unsc_flameMarine_upgrade1</Command>
 		<Command Type="Research" Position="6">unsc_flameMarine_upgrade2</Command>
 		<Command Type="Research" Position="6">unsc_flameMarine_upgrade3</Command>

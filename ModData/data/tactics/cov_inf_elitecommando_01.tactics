@@ -119,7 +119,7 @@
 	<Action>
 		<Name>Cloak</Name>
 		<ActionType>Cloak</ActionType>
-		<NoAutoTarget />
+		<!--NoAutoTarget /-->
 		<ProtoObject>fx_cloakElite</ProtoObject>
 		<StartDisabled />
 	</Action>

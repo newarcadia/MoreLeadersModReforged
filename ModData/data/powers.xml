@@ -1,5 +1,393 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
+	<Power name="UnscOdstDrop_Player">
+		<Attributes>
+			<Cost Supplies="150" Power="1" />
+			<Pop type="Unit">1</Pop>
+			<AutoRecharge>12500</AutoRecharge>
+			<SequentialRecharge />
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>7</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>UnscOdstDrop.triggerscript</TriggerScript>
+	</Power>
+	<Power name="CovLeaderRepair">
+		<Attributes>
+			<PowerType>Repair</PowerType>
+			<Cost Supplies="350" />
+			<AutoRecharge>60000</AutoRecharge>
+			<UIRadius>35</UIRadius>
+			<DisplayNameID>5000</DisplayNameID>
+			<RolloverTextID>5001</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>2</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<DataLevel level="0">
+				<Data type="protoobject" name="RepairObject">fx_repairPower</Data>
+				<Data type="protoobject" name="RepairAttachment">fx_repairing</Data>
+				<Data type="float" name="RepairRadius">35</Data>
+				<Data type="objecttype" name="FilterType">Military</Data>
+				<Data type="float" name="TickDuration">0.125</Data>
+				<Data type="int" name="NumTicks">100</Data>
+				<Data type="float" name="RepairCombatValuePerTick">0.100000001</Data>
+				<Data type="bool" name="SpreadAmongSquads">true</Data>
+				<Data type="float" name="CooldownTimeIfDamaged">0</Data>
+				<Data type="bool" name="AllowReinforce">true</Data>
+				<Data type="bool" name="IgnorePlacement">false</Data>
+				<Data type="bool" name="HealAny">true</Data>
+				<Data type="sound" name="HudUpSound">play_unsc_heal_vo_ready</Data>
+				<Data type="sound" name="HudAbortSound">play_unsc_heal_vo_exit</Data>
+				<Data type="sound" name="HudFireSound">play_unsc_heal_vo_target</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="ArbiterSupportDrop">
+		<Attributes>
+			<Cost Supplies="440" Power="1" />
+			<Pop type="Unit">5</Pop>
+			<AutoRecharge>120000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>52100</DisplayNameID>
+			<RolloverTextID>52101</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>7</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>covenant\ArbiterSupportDropDo.triggerscript</TriggerScript>
+	</Power>
+	<Power name="Arbiter2ndSupportDrop">
+		<Attributes>
+			<Cost Supplies="550" Power="2" />
+			<Pop type="Unit">4</Pop>
+			<AutoRecharge>120000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>52102</DisplayNameID>
+			<RolloverTextID>52103</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>3</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>covenant\Arbiter2ndSupportDropDo.triggerscript</TriggerScript>
+	</Power>
+	<Power name="ArbiterHeroDrop">
+		<Attributes>
+			<Cost Supplies="350" Power="1" />
+			<Pop type="Spartan">1</Pop>
+			<AutoRecharge>120000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>52104</DisplayNameID>
+			<RolloverTextID>52105</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>5</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>covenant\ArbiterHeroDropDo.triggerscript</TriggerScript>
+	</Power>
+	<Power name="BruteSupportDrop">
+		<Attributes>
+			<Cost Supplies="520" Power="1" />
+			<Pop type="Unit">6</Pop>
+			<AutoRecharge>120000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>52106</DisplayNameID>
+			<RolloverTextID>52107</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>7</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>covenant\BruteSupportDropDo.triggerscript</TriggerScript>
+	</Power>
+	<Power name="Brute2ndSupportDrop">
+		<Attributes>
+			<Cost Supplies="465" Power="1" />
+			<Pop type="Unit">6</Pop>
+			<AutoRecharge>120000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>52108</DisplayNameID>
+			<RolloverTextID>52109</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>3</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>covenant\Brute2ndSupportDropDo.triggerscript</TriggerScript>
+	</Power>
+	<Power name="BruteHeroDrop">
+		<Attributes>
+			<Cost Supplies="350" Power="1" />
+			<Pop type="Spartan">1</Pop>
+			<AutoRecharge>120000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>52110</DisplayNameID>
+			<RolloverTextID>52111</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>5</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>covenant\BruteHeroDropDo.triggerscript</TriggerScript>
+	</Power>
+	<Power name="ProphetSupportDrop">
+		<Attributes>
+			<Cost Supplies="250" Power="1" />
+			<Pop type="Unit">3</Pop>
+			<AutoRecharge>120000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>52112</DisplayNameID>
+			<RolloverTextID>52113</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>7</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>covenant\ProphetSupportDropDo.triggerscript</TriggerScript>
+	</Power>
+	<Power name="Prophet2ndSupportDrop">
+		<Attributes>
+			<Cost Supplies="600" Power="2" />
+			<Pop type="Unit">8</Pop>
+			<AutoRecharge>120000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>52114</DisplayNameID>
+			<RolloverTextID>52115</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>3</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>covenant\Prophet2ndSupportDropDo.triggerscript</TriggerScript>
+	</Power>
+	<Power name="ProphetHeroDrop">
+		<Attributes>
+			<Cost Supplies="550" Power="2" />
+			<Pop type="Spartan">3</Pop>
+			<AutoRecharge>120000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>52116</DisplayNameID>
+			<RolloverTextID>52117</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>5</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>covenant\ProphetHeroDropDo.triggerscript</TriggerScript>
+	</Power>
+	<Power name="JackalSupportDrop">
+		<Attributes>
+			<Cost Supplies="600" Power="1" />
+			<Pop type="Unit">6</Pop>
+			<AutoRecharge>120000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>52118</DisplayNameID>
+			<RolloverTextID>52119</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>7</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>covenant\JackalSupportDropDo.triggerscript</TriggerScript>
+	</Power>
+	<Power name="Jackal2ndSupportDrop">
+		<Attributes>
+			<Cost Supplies="600" Power="1" />
+			<Pop type="Unit">6</Pop>
+			<AutoRecharge>120000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>52120</DisplayNameID>
+			<RolloverTextID>52121</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>3</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>covenant\Jackal2ndSupportDropDo.triggerscript</TriggerScript>
+	</Power>
+	<Power name="JackalHeroDrop">
+		<Attributes>
+			<Cost Supplies="350" Power="1" />
+			<Pop type="Spartan">1</Pop>
+			<AutoRecharge>120000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>52122</DisplayNameID>
+			<RolloverTextID>52123</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>5</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>covenant\JackalHeroDropDo.triggerscript</TriggerScript>
+	</Power>
 	<!--VanillaPlus-->
 	<Power name="UnscTacticalMissile">
 		<Attributes>
@@ -2205,9 +2593,9 @@
 	<Power name="UnscOdstDrop">
 		<Attributes>
 			<PowerType>ODST</PowerType>
-			<Cost Supplies="150" Power="3" />
+			<Cost Supplies="0" Power="1" />
 			<Pop type="Unit">1</Pop>
-			<AutoRecharge>10000</AutoRecharge>
+			<AutoRecharge>30000</AutoRecharge>
 			<SequentialRecharge />
 			<UIRadius>10</UIRadius>
 			<DisplayNameID>5012</DisplayNameID>
@@ -2378,18 +2766,18 @@
 	</Power>
 	<Power name="CpgnOdstDrop">
 		<Attributes>
-			<Cost Supplies="250" Power="2" />
+			<Cost Supplies="150" Power="1" />
 			<Pop type="Unit">1</Pop>
-			<AutoRecharge>2500</AutoRecharge>
+			<AutoRecharge>12500</AutoRecharge>
 			<SequentialRecharge />
 			<UIRadius>10</UIRadius>
-			<DisplayNameID>260461</DisplayNameID>
-			<RolloverTextID>260460</RolloverTextID>
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
 			<PrereqTextID>252</PrereqTextID>
 			<ShowLimit />
 			<LeaderPower />
 			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
-			<IconLocation>5</IconLocation>
+			<IconLocation>7</IconLocation>
 			<FlashUI>
 				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
 				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>

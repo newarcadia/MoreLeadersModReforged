@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Needler</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>39.5999985</DamagePerSecond>
+		<DamagePerSecond>20</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_needler_01</Projectile>
 		<ImpactEffect size="Medium">needler_01</ImpactEffect>
@@ -17,7 +17,7 @@
 	<Weapon>
 		<Name>InCoverNeedler</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>39.5999985</DamagePerSecond>
+		<DamagePerSecond>35</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_needler_01</Projectile>
 		<ImpactEffect size="Medium">needler_01</ImpactEffect>
@@ -28,6 +28,77 @@
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<SmallArmsDeflectable />
 	</Weapon>
+	<Weapon>
+		<Name>InCoverRocketWeapon</Name>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>ArmorPiercingFuelRod</WeaponType>
+		<Projectile>fx_proj_fuelRod_01</Projectile>
+		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.7</Accuracy>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>12</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>36</PostAttackCooldownMax>
+		<Dodgeable />
+		<Deflectable />
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
+	<Weapon>
+		<Name>RocketWeapon</Name>
+		<AttackRate>1.2</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>ArmorPiercingFuelRod</WeaponType>
+		<Projectile>fx_proj_fuelRod_01</Projectile>
+		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>0.7</Accuracy>
+		<EnableHeightBonusDamage />
+		<AOERadius>3</AOERadius>
+		<AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1250</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Dodgeable />
+		<Deflectable />
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
+	<Action>
+		<Name>InCoverNeedlerAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>NeedlerAttack</Anim>
+		<ReloadAnim>NeedlerReload</ReloadAnim>
+		<Weapon>Needler</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>InCoverRocketAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FuelRodAttack</Anim>
+		<Weapon>InCoverRocketWeapon</Weapon>
+		<BaseDPSWeapon>InCoverNeedlerAttackAction</BaseDPSWeapon>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
 	<Action>
 		<Name>NeedlerAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
@@ -37,12 +108,14 @@
 		<MainAttack />
 	</Action>
 	<Action>
-		<Name>InCoverNeedlerAttackAction</Name>
+		<Name>RocketAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>NeedlerAttack</Anim>
-		<ReloadAnim>NeedlerReload</ReloadAnim>
-		<Weapon>Needler</Weapon>
+		<Anim>FuelRodAttack</Anim>
+		<SupportAnim>Support</SupportAnim>
+		<Weapon>RocketWeapon</Weapon>
 		<MainAttack />
+		<DontLoopAttackAnim />
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
@@ -102,16 +175,6 @@
 	</Action>
 	<Tactic>
 		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>NeedlerAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>NeedlerAttackAction</Action>
-			<SquadMode>Cover</SquadMode>
-		</TargetRule>
-		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Resource_Supplies</TargetType>
 			<Action>GatherSupplies</Action>
@@ -133,6 +196,27 @@
 			<TargetType>CapturePoint</TargetType>
 			<TargetState>Capturable</TargetState>
 			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>InCoverRocketAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>NeedlerAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>NeedlerAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>RocketAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />

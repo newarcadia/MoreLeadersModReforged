@@ -295,14 +295,14 @@
 				<tag type="Attack" start="0" position="0,157" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0,25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0,16" end="1" name="play_cov_hunter_fuel_rod_cannon" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0,25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="Bip01 R Hand" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Ability" tobone="Bip01 R Hand" frombone="Bip01 R Hand" syncanims="true" disregardorient="false" />
 		</anim>
 		<anim type="FuelRodReload" exitAction="Transition" tweenTime="5" tweenToAnimation="FuelrodAttack">
 			<asset type="Anim">
 				<file>covenant\infantry\elite_01\fuelrod_reload_01</file>
 				<weight>65</weight>
 			</asset>
-			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="Bip01 R Hand" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Ability" tobone="Bip01 R Hand" frombone="Bip01 R Hand" syncanims="true" disregardorient="false" />
 		</anim>
 		<anim type="Support" exitAction="Transition" tweenTime="10" tweenToAnimation="PlasmaRifleAttack">
 			<asset type="Anim">
@@ -962,6 +962,16 @@
 				<weight>1</weight>
 			</asset>
 		</anim>
+	</model>
+	<model name="Ability">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>weapons\covenant\fuelrodcannon_01\fuelrodcannon_01</file>
+			</asset>
+		</component>
 	</model>
 	<model name="Weapon">
 		<component>

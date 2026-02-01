@@ -37,7 +37,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
@@ -46,7 +45,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
@@ -55,7 +53,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Run" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -64,7 +61,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="EvadeLeft" exitAction="Loop" tweenTime="0" tweenToAnimation="">
 			<asset type="Anim">
@@ -81,7 +77,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="EvadeRight" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -98,7 +93,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -109,7 +103,6 @@
 				<file>covenant\infantry\elite_01\death_02</file>
 				<weight>40</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="ClamShell" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -128,21 +121,18 @@
 				<file>covenant\infantry\elite_01\clamshell_02_2</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Flail" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
 				<file>covenant\infantry\elite_01\flail_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Spin" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
 				<file>covenant\infantry\elite_01\spin_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Stunned" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -151,7 +141,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Gather" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -161,7 +150,6 @@
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Build" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -170,7 +158,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Repair" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -180,7 +167,6 @@
 			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="PlasmaGrenadeAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -190,7 +176,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="PlasmaRifleAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="PlasmaRifleAttack">
 			<asset type="Anim">
@@ -243,7 +228,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="PlasmaRifleReload" exitAction="Loop" tweenTime="10" tweenToAnimation="PlasmaRifleAttack">
 			<asset type="Anim">
@@ -260,7 +244,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="NeedlerAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="PlasmaRifleAttack">
 			<asset type="Anim">
@@ -283,7 +266,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="NeedlerReload" exitAction="Loop" tweenTime="10" tweenToAnimation="PlasmaRifleAttack">
 			<asset type="Anim">
@@ -300,7 +282,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="FuelRodAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="FuelrodAttack">
 			<asset type="Anim">
@@ -353,7 +334,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="FuelRodReload" exitAction="Transition" tweenTime="5" tweenToAnimation="FuelrodAttack">
 			<asset type="Anim">
@@ -362,7 +342,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Support" exitAction="Transition" tweenTime="10" tweenToAnimation="PlasmaRifleAttack">
 			<asset type="Anim">
@@ -379,7 +358,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="DeathByFire" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -394,7 +372,6 @@
 				<file>covenant\infantry\elite_01\death_fire_03</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="DeathByHeadshot" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -409,7 +386,6 @@
 				<file>covenant\infantry\elite_01\death_headshot_03</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="DeathByMachinegun" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -424,7 +400,6 @@
 				<file>covenant\infantry\elite_01\death_machinegun_03</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="DeathByMelee" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -443,7 +418,6 @@
 				<file>covenant\infantry\elite_01\death_melee_04</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Fatality_SpartanEliteLeader_01" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -489,7 +463,6 @@
 				<file>unsc\infantry\spartan_01\Fatality_SpartanElite_Victim_10</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Fatality_ArbiterElite_01" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -525,7 +498,6 @@
 				<weight>1</weight>
 				<tag type="KillAndThrow" start="0" position="0.660000026" end="1" tobone="Bip01 Pelvis" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="HotDropUp" exitAction="Loop" tweenTime="15" tweenToAnimation="">
 			<asset type="Anim">
@@ -555,7 +527,6 @@
 				<tag type="Sound" start="0" position="0" end="1" name="play_pfx_teleport" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.0599999987" end="1" name="effects\hotdrop\hot_drop_infantrySpawner" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.5" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="HotDropDown" exitAction="Loop" tweenTime="15" tweenToAnimation="">
 			<asset type="Anim">
@@ -585,7 +556,6 @@
 				<tag type="Sound" start="0" position="0" end="1" name="play_pfx_teleport_end" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.300000012" end="1" name="effects\hotdrop\hot_drop_infantrySpawner" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.5" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="FloodDeathJog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
@@ -595,7 +565,6 @@
 			<attach type="ModelRef" name="Tenticles1" tobone="Bip01 Head" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="Tenticles2" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="Tenticles1" tobone="Bip01 R Forearm" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="FloodDeath" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -605,7 +574,6 @@
 			<attach type="ModelRef" name="Tenticles1" tobone="Bip01 Head" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="Tenticles2" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="Tenticles1" tobone="Bip01 R Forearm" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Fatality_MarkIElite_01" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -638,7 +606,6 @@
 				<file>unsc\infantry\mark1Suit_01\Fatality_MarkIElite_11B</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Fatality_EliteElite_01" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -660,7 +627,6 @@
 				<weight>1</weight>
 				<tag type="KillAndThrow" start="0" position="0.660000026" end="1" tobone="Bip01 Pelvis" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="TeleportOut" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -694,7 +660,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.0130000003" end="1" name="effects\special\teleportInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="TeleportIn" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -728,7 +693,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\special\teleportInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Train" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -762,7 +726,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Train2" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -796,7 +759,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Train3" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -830,7 +792,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Train4" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -864,7 +825,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Train5" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -898,7 +858,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Train6" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -932,7 +891,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Train7" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -966,7 +924,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Train8" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -1000,7 +957,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 	</model>
 	<model name="Tenticles1">
@@ -1017,14 +973,12 @@
 				<file>flood\Infantry\Attachments_01\tenticles_01\idle_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="FloodDeath" exitAction="Loop" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
 				<file>flood\Infantry\Attachments_01\tenticles_01\idle_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 	</model>
 	<model name="Tenticles2">
@@ -1041,14 +995,12 @@
 				<file>flood\Infantry\Attachments_01\tenticles_02\idle_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="FloodDeath" exitAction="Loop" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
 				<file>flood\Infantry\Attachments_01\tenticles_02\idle_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 	</model>
 	<model name="PlasmaCaster">
@@ -1084,7 +1036,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
@@ -1093,7 +1044,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
@@ -1102,7 +1052,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Run" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -1111,7 +1060,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="EvadeLeft" exitAction="Loop" tweenTime="0" tweenToAnimation="">
 			<asset type="Anim">
@@ -1128,7 +1076,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="EvadeRight" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -1145,7 +1092,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -1156,7 +1102,6 @@
 				<file>covenant\infantry\elite_01\death_02</file>
 				<weight>40</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="ClamShell" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -1175,21 +1120,18 @@
 				<file>covenant\infantry\elite_01\clamshell_02_2</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Flail" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
 				<file>covenant\infantry\elite_01\flail_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Spin" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
 				<file>covenant\infantry\elite_01\spin_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Stunned" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -1198,7 +1140,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Gather" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -1208,7 +1149,6 @@
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Build" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -1217,7 +1157,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Repair" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -1227,7 +1166,6 @@
 			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="PlasmaGrenadeAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -1237,7 +1175,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="FuelRodAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="FuelrodAttack">
 			<asset type="Anim">
@@ -1290,7 +1227,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="FuelRodReload" exitAction="Transition" tweenTime="5" tweenToAnimation="FuelrodAttack">
 			<asset type="Anim">
@@ -1299,7 +1235,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Support" exitAction="Transition" tweenTime="10" tweenToAnimation="PlasmaRifleAttack">
 			<asset type="Anim">
@@ -1316,7 +1251,6 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="JumpPack" tobone="Bip01 Spine1" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="DeathByFire" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -1331,7 +1265,6 @@
 				<file>covenant\infantry\elite_01\death_fire_03</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="DeathByHeadshot" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -1346,7 +1279,6 @@
 				<file>covenant\infantry\elite_01\death_headshot_03</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="DeathByMachinegun" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -1361,7 +1293,6 @@
 				<file>covenant\infantry\elite_01\death_machinegun_03</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="DeathByMelee" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -1380,7 +1311,6 @@
 				<file>covenant\infantry\elite_01\death_melee_04</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Fatality_SpartanEliteLeader_01" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -1426,7 +1356,6 @@
 				<file>unsc\infantry\spartan_01\Fatality_SpartanElite_Victim_10</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Fatality_ArbiterElite_01" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -1462,7 +1391,6 @@
 				<weight>1</weight>
 				<tag type="KillAndThrow" start="0" position="0.660000026" end="1" tobone="Bip01 Pelvis" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="HotDropUp" exitAction="Loop" tweenTime="15" tweenToAnimation="">
 			<asset type="Anim">
@@ -1492,7 +1420,6 @@
 				<tag type="Sound" start="0" position="0" end="1" name="play_pfx_teleport" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.0599999987" end="1" name="effects\hotdrop\hot_drop_infantrySpawner" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.5" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="HotDropDown" exitAction="Loop" tweenTime="15" tweenToAnimation="">
 			<asset type="Anim">
@@ -1522,7 +1449,6 @@
 				<tag type="Sound" start="0" position="0" end="1" name="play_pfx_teleport_end" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.300000012" end="1" name="effects\hotdrop\hot_drop_infantrySpawner" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.5" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="FloodDeathJog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
@@ -1532,7 +1458,6 @@
 			<attach type="ModelRef" name="Tenticles1" tobone="Bip01 Head" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="Tenticles2" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="Tenticles1" tobone="Bip01 R Forearm" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="FloodDeath" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -1542,7 +1467,6 @@
 			<attach type="ModelRef" name="Tenticles1" tobone="Bip01 Head" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="Tenticles2" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="Tenticles1" tobone="Bip01 R Forearm" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Fatality_MarkIElite_01" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -1575,7 +1499,6 @@
 				<file>unsc\infantry\mark1Suit_01\Fatality_MarkIElite_11B</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Fatality_EliteElite_01" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -1597,7 +1520,6 @@
 				<weight>1</weight>
 				<tag type="KillAndThrow" start="0" position="0.660000026" end="1" tobone="Bip01 Pelvis" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="TeleportOut" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -1631,7 +1553,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.0130000003" end="1" name="effects\special\teleportInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="TeleportIn" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -1665,7 +1586,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\special\teleportInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Train" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -1699,7 +1619,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Train2" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -1733,7 +1652,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Train3" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -1767,7 +1685,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Train4" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -1801,7 +1718,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Train5" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -1835,7 +1751,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Train6" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -1869,7 +1784,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Train7" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -1903,7 +1817,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 		<anim type="Train8" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
 			<asset type="Anim">
@@ -1937,7 +1850,6 @@
 				</progression>
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalMinor</meshEnable>
 		</anim>
 	</model>
 	<model name="Weapon">

@@ -71,6 +71,10 @@
     <TriggerVar ID="95" Type="Vector" Name="nullVector" IsNull="true" />
     <TriggerVar ID="96" Type="VectorList" Name="nullVectorList" IsNull="true" />
     <TriggerVar ID="97" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="100" Type="Tech" Name="NewTech21" IsNull="false">player_is_ai</TriggerVar>
+    <TriggerVar ID="101" Type="Trigger" Name="NewTrigger6" IsNull="false">50</TriggerVar>
+    <TriggerVar ID="102" Type="String" Name="NewString9" IsNull="false">skirmishai_new\skirmishai_cov.triggerscript</TriggerVar>
+    <TriggerVar ID="103" Type="Tech" Name="NewTech21" IsNull="false">unsc_odst_upgrade1</TriggerVar>
   </TriggerVars>
   <Triggers>
     <Trigger ID="0" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="247" Y="-870" GroupID="-1" TemplateID="-1">
@@ -108,6 +112,17 @@
         <Effect ID="28" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
           <Input Name="Trigger" SigID="1" Optional="false">89</Input>
         </Effect>
+        <Effect ID="12" Type="TechActivate v1" DBID="60" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">0</Input>
+          <Input Name="Tech" SigID="2" Optional="false">100</Input>
+        </Effect>
+        <Effect ID="28" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">101</Input>
+        </Effect>
+        <Effect ID="12" Type="TechActivate v1" DBID="60" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">0</Input>
+          <Input Name="Tech" SigID="2" Optional="false">103</Input>
+        </Effect>
       </TriggerEffectsOnTrue>
       <TriggerEffectsOnFalse />
     </Trigger>
@@ -136,18 +151,6 @@
     <Trigger ID="17" Name="NewTrigger17" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="3703" Y="-907" GroupID="-1" TemplateID="-1">
       <TriggerConditions>
         <Or>
-          <Condition ID="21" Type="PlayerUsingLeader v1" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-            <Input Name="Player" SigID="1" Optional="false">0</Input>
-            <Input Name="Leader" SigID="2" Optional="false">44</Input>
-          </Condition>
-          <Condition ID="22" Type="PlayerUsingLeader v1" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-            <Input Name="Player" SigID="1" Optional="false">0</Input>
-            <Input Name="Leader" SigID="2" Optional="false">45</Input>
-          </Condition>
-          <Condition ID="23" Type="PlayerUsingLeader v1" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-            <Input Name="Player" SigID="1" Optional="false">0</Input>
-            <Input Name="Leader" SigID="2" Optional="false">43</Input>
-          </Condition>
           <Condition ID="12" Type="PlayerUsingLeader v1" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
             <Input Name="Player" SigID="1" Optional="false">0</Input>
             <Input Name="Leader" SigID="2" Optional="false">37</Input>
@@ -222,10 +225,6 @@
             <Input Name="Player" SigID="1" Optional="false">0</Input>
             <Input Name="Leader" SigID="2" Optional="false">50</Input>
           </Condition>
-          <Condition ID="27" Type="PlayerUsingLeader v1" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-            <Input Name="Player" SigID="1" Optional="false">0</Input>
-            <Input Name="Leader" SigID="2" Optional="false">51</Input>
-          </Condition>
           <Condition ID="28" Type="PlayerUsingLeader v1" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
             <Input Name="Player" SigID="1" Optional="false">0</Input>
             <Input Name="Leader" SigID="2" Optional="false">49</Input>
@@ -274,6 +273,45 @@
           <Input Name="ExternalFloat" SigID="13" Optional="true">97</Input>
         </Effect>
         <Effect ID="31" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="50" Name="NewTrigger17" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="3703" Y="-907" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <Or>
+          <Condition ID="21" Type="PlayerUsingLeader v1" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">0</Input>
+            <Input Name="Leader" SigID="2" Optional="false">44</Input>
+          </Condition>
+          <Condition ID="22" Type="PlayerUsingLeader v1" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">0</Input>
+            <Input Name="Leader" SigID="2" Optional="false">45</Input>
+          </Condition>
+          <Condition ID="23" Type="PlayerUsingLeader v1" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">0</Input>
+            <Input Name="Leader" SigID="2" Optional="false">43</Input>
+          </Condition>
+          <Condition ID="27" Type="PlayerUsingLeader v1" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">0</Input>
+            <Input Name="Leader" SigID="2" Optional="false">51</Input>
+          </Condition>
+        </Or>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="0" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
+          <Input Name="ScriptName" SigID="15" Optional="false">102</Input>
+          <Input Name="ExternalUnit" SigID="2" Optional="true">63</Input>
+          <Input Name="ExternalUnitList" SigID="3" Optional="true">64</Input>
+          <Input Name="ExternalSquad" SigID="4" Optional="true">65</Input>
+          <Input Name="ExternalSquadList" SigID="5" Optional="true">66</Input>
+          <Input Name="ExternalPlayer" SigID="6" Optional="true">0</Input>
+          <Input Name="ExternalPower" SigID="7" Optional="true">67</Input>
+          <Input Name="ExternalCost" SigID="8" Optional="true">1</Input>
+          <Input Name="ExternalLocation" SigID="11" Optional="true">68</Input>
+          <Input Name="ExternalLocationList" SigID="12" Optional="true">69</Input>
+          <Input Name="ExternalFloat" SigID="13" Optional="true">70</Input>
+        </Effect>
+        <Effect ID="33" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
       </TriggerEffectsOnTrue>
       <TriggerEffectsOnFalse />
     </Trigger>

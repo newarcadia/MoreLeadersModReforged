@@ -75,6 +75,7 @@
 	<Icon type="uniticon" name="Hero" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="cpgn_npc_Forge_05">-1</Icon>
 	<Icon type="uniticon" name="Hero" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="cpgn_npc_Forge_02">-1</Icon>
 	<!-- Covenant -->
+	<Icon type="uniticon" name="covInfantry" SizeX="3" SizeZ="3" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_bruteBerserker_01">-1</Icon>
 	<Icon type="uniticon" name="covInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_gruntDeacon_01">-1</Icon>
 	<Icon type="uniticon" name="covInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_gruntDeacon_02">-1</Icon>
 	<Icon type="uniticon" name="covInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_gruntDeacon_03">-1</Icon>
@@ -253,7 +254,7 @@
 	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_marine_02">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_marine_03">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_cyclops_01">-1</Icon>
-	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_odst_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_odst_01_player">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="cpgn_inf_odst_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="4" SizeZ="4" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_scout_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="11" SizeZ="11" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_veh_rhino_01">-1</Icon>
@@ -554,7 +555,7 @@
 	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_marine_02">-1</Icon>
 	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_marine_03">-1</Icon>
 	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_cyclops_01">-1</Icon>
-	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_odst_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_odst_01_player">-1</Icon>
 	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="cpgn_inf_odst_01">-1</Icon>
 	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="4" SizeZ="4" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_scout_01">-1</Icon>
 	<Icon type="clumpdecal" name="DecalTextureVehicle" name2="DecalMaskVehicle" SizeX="11" SizeZ="11" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_veh_rhino_01">-1</Icon>

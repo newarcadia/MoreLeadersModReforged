@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>InCoverPlasmaRifle</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>36.2999992</DamagePerSecond>
+		<DamagePerSecond>35</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_plasmaRifle_01</Projectile>
 		<ImpactEffect size="small">cov_plasmarifle_01</ImpactEffect>
@@ -23,39 +23,9 @@
 		<SmallArmsDeflectable />
 	</Weapon>
 	<Weapon>
-		<Name>InCoverGrenade</Name>
-		<DamagePerSecond>10.8500004</DamagePerSecond>
-		<WeaponType>Grenade</WeaponType>
-		<Projectile>fx_proj_plasmaGrenade_01</Projectile>
-		<ImpactEffect size="Medium">cov_plasmagrenade_01</ImpactEffect>
-		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>60</MaxRange>
-		<Accuracy>0.330000013</Accuracy>
-		<MaxDeviation>6</MaxDeviation>
-		<MovingAccuracy>0.159999996</MovingAccuracy>
-		<MovingMaxDeviation>9</MovingMaxDeviation>
-		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
-		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
-		<AOERadius>3</AOERadius>
-		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
-		<AOEDistanceFactor>0.25</AOEDistanceFactor>
-		<AOEDamageFactor>0.25</AOEDamageFactor>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>800</PhysicsForceMin>
-		<PhysicsForceMax>1000</PhysicsForceMax>
-		<Hardpoint>Torso</Hardpoint>
-		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>14</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>44</PostAttackCooldownMax>
-		<Dodgeable />
-	</Weapon>
-	<Weapon>
 		<Name>PlasmaRifle</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>18.1499996</DamagePerSecond>
+		<DamagePerSecond>20</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_plasmaRifle_01</Projectile>
 		<ImpactEffect size="small">cov_plasmarifle_01</ImpactEffect>
@@ -75,19 +45,14 @@
 		<SmallArmsDeflectable />
 	</Weapon>
 	<Weapon>
-		<Name>Grenade</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>280</DamagePerSecond>
-		<UseDPSasDPA />
-		<WeaponType>Grenade</WeaponType>
-		<Projectile>fx_proj_plasmaGrenade_01</Projectile>
-		<ImpactEffect size="Medium">cov_plasmagrenade_01</ImpactEffect>
-		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>35</MaxRange>
-		<Accuracy>0.300000012</Accuracy>
-		<MaxDeviation>4</MaxDeviation>
-		<MovingAccuracy>0.300000012</MovingAccuracy>
-		<MovingMaxDeviation>4</MovingMaxDeviation>
+		<Name>InCoverRocketWeapon</Name>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>ArmorPiercingFuelRod</WeaponType>
+		<Projectile>fx_proj_fuelRod_01</Projectile>
+		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.7</Accuracy>
 		<AOERadius>4</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
 		<AOEDistanceFactor>0.25</AOEDistanceFactor>
@@ -97,7 +62,41 @@
 		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
 		<PhysicsForceMin>900</PhysicsForceMin>
 		<PhysicsForceMax>1100</PhysicsForceMax>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>12</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>36</PostAttackCooldownMax>
 		<Dodgeable />
+		<Deflectable />
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
+	<Weapon>
+		<Name>RocketWeapon</Name>
+		<AttackRate>1.2</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>ArmorPiercingFuelRod</WeaponType>
+		<Projectile>fx_proj_fuelRod_01</Projectile>
+		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>0.7</Accuracy>
+		<EnableHeightBonusDamage />
+		<AOERadius>3</AOERadius>
+		<AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1250</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Dodgeable />
+		<Deflectable />
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
 	</Weapon>
 	<Action>
 		<Name>InCoverPlasmaRifleAttackAction</Name>
@@ -108,11 +107,10 @@
 		<MainAttack />
 	</Action>
 	<Action>
-		<Name>InCoverGrenadeAttackAction</Name>
+		<Name>InCoverRocketAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>PlasmaGrenadeAttack</Anim>
-		<SupportAnim>Support</SupportAnim>
-		<Weapon>InCoverGrenade</Weapon>
+		<Anim>FuelRodAttack</Anim>
+		<Weapon>InCoverRocketWeapon</Weapon>
 		<BaseDPSWeapon>IcCoverPlasmaRifleAttackAction</BaseDPSWeapon>
 		<MainAttack />
 		<FindBetterAction />
@@ -126,13 +124,14 @@
 		<MainAttack />
 	</Action>
 	<Action>
-		<Name>GrenadeAttackAction</Name>
+		<Name>RocketAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>PlasmaGrenadeAttack</Anim>
-		<Weapon>Grenade</Weapon>
+		<Anim>FuelRodAttack</Anim>
+		<SupportAnim>Support</SupportAnim>
+		<Weapon>RocketWeapon</Weapon>
 		<MainAttack />
 		<DontLoopAttackAnim />
-		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
 	</Action>
 	<Action>
 		<Name>Garrison</Name>
@@ -235,7 +234,7 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
-			<Action>InCoverGrenadeAttackAction</Action>
+			<Action>InCoverRocketAttackAction</Action>
 			<SquadMode>Cover</SquadMode>
 		</TargetRule>
 		<TargetRule>
@@ -250,8 +249,7 @@
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
-			<TargetType>NonFlying</TargetType>
-			<Action>GrenadeAttackAction</Action>
+			<Action>RocketAttackAction</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
