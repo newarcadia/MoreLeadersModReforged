@@ -251,117 +251,36 @@
 		<TriggerVar ID="629" Type="Trigger" Name="TriggerVar44" IsNull="false">74</TriggerVar>
 		<TriggerVar ID="630" Type="Trigger" Name="TriggerVar45" IsNull="false">74</TriggerVar>
 		<TriggerVar ID="631" Type="Trigger" Name="TriggerVar46" IsNull="false">57</TriggerVar>
-		<TriggerVar ID="738" Type="Time" Name="" IsNull="false">240000</TriggerVar>
-		<TriggerVar ID="739" Type="Time" Name="" IsNull="false">360000</TriggerVar>
-		<TriggerVar ID="740" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
-		<TriggerVar ID="741" Type="Time" Name="" IsNull="false"></TriggerVar>
-		<TriggerVar ID="742" Type="Time" Name="" IsNull="false">550000</TriggerVar>
-		<TriggerVar ID="743" Type="Time" Name="" IsNull="false">800000</TriggerVar>
-		<TriggerVar ID="744" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
-		<TriggerVar ID="745" Type="Time" Name="" IsNull="false"></TriggerVar>
-		<TriggerVar ID="746" Type="Time" Name="" IsNull="false">800000</TriggerVar>
-		<TriggerVar ID="747" Type="Time" Name="" IsNull="false">1300000</TriggerVar>
-		<TriggerVar ID="748" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
-		<TriggerVar ID="749" Type="Time" Name="" IsNull="false"></TriggerVar>
-		<TriggerVar ID="750" Type="Trigger" Name="TriggerVar22" IsNull="false">100</TriggerVar>
-		<TriggerVar ID="751" Type="Trigger" Name="TriggerVar22" IsNull="false">101</TriggerVar>
-		<TriggerVar ID="752" Type="Trigger" Name="TriggerVar22" IsNull="false">102</TriggerVar>
-		<TriggerVar ID="753" Type="Trigger" Name="TriggerVar22" IsNull="false">103</TriggerVar>
-		<TriggerVar ID="754" Type="Trigger" Name="TriggerVar22" IsNull="false">104</TriggerVar>
-		<TriggerVar ID="860" Type="Trigger" Name="TriggerVar22" IsNull="false">121</TriggerVar>
-		<TriggerVar ID="861" Type="Trigger" Name="TriggerVar22" IsNull="false">122</TriggerVar>
-		<TriggerVar ID="862" Type="Trigger" Name="TriggerVar22" IsNull="false">123</TriggerVar>
-		<TriggerVar ID="863" Type="Trigger" Name="TriggerVar22" IsNull="false">124</TriggerVar>
-		<TriggerVar ID="864" Type="Trigger" Name="TriggerVar22" IsNull="false">125</TriggerVar>
-		<TriggerVar ID="865" Type="Trigger" Name="TriggerVar22" IsNull="false">126</TriggerVar>
-		<TriggerVar ID="866" Type="Trigger" Name="TriggerVar22" IsNull="false">127</TriggerVar>
-		<TriggerVar ID="867" Type="Trigger" Name="TriggerVar22" IsNull="false">128</TriggerVar>
-		<TriggerVar ID="868" Type="Trigger" Name="TriggerVar22" IsNull="false">129</TriggerVar>
-		<TriggerVar ID="869" Type="Trigger" Name="TriggerVar22" IsNull="false">130</TriggerVar>
-		<TriggerVar ID="870" Type="Trigger" Name="TriggerVar22" IsNull="false">131</TriggerVar>
-		<TriggerVar ID="871" Type="Trigger" Name="TriggerVar22" IsNull="false">132</TriggerVar>
-		<TriggerVar ID="872" Type="Trigger" Name="TriggerVar22" IsNull="false">133</TriggerVar>
-		<TriggerVar ID="873" Type="Trigger" Name="TriggerVar22" IsNull="false">134</TriggerVar>
-		<TriggerVar ID="874" Type="Trigger" Name="TriggerVar22" IsNull="false">135</TriggerVar>
-		<TriggerVar ID="875" Type="Trigger" Name="TriggerVar22" IsNull="false">136</TriggerVar>
-		<TriggerVar ID="882" Type="Leader" Name="" IsNull="false">Spectator</TriggerVar>
-		<TriggerVar ID="883" Type="PlayerState" Name="" IsNull="false">Defeated</TriggerVar>
-		<TriggerVar ID="884" Type="Trigger" Name="TriggerVar19" IsNull="false">137</TriggerVar>
-		<TriggerVar ID="885" Type="Trigger" Name="TriggerVar20" IsNull="false">138</TriggerVar>
-		<TriggerVar ID="886" Type="String" Name="" IsNull="false">spectator\player.triggerscript</TriggerVar>
-		<TriggerVar ID="887" Type="Unit" Name="ExternalUnitVar2" IsNull="true" />
-		<TriggerVar ID="888" Type="UnitList" Name="ExternalUnitListVar2" IsNull="true" />
-		<TriggerVar ID="889" Type="Squad" Name="ExternalSquadVar2" IsNull="true" />
-		<TriggerVar ID="890" Type="SquadList" Name="ExternalSquadListVar2" IsNull="true" />
-		<TriggerVar ID="891" Type="Power" Name="ExternalPowerVar2" IsNull="true" />
-		<TriggerVar ID="892" Type="Cost" Name="ExternalCostVar2" IsNull="true" />
-		<TriggerVar ID="893" Type="Vector" Name="DropoffLoc" IsNull="true" />
-		<TriggerVar ID="894" Type="VectorList" Name="ExternalLocationListVar2" IsNull="true" />
-		<TriggerVar ID="895" Type="Float" Name="ExternalFloatVar1" IsNull="true" />
-		<TriggerVar ID="900" Type="Trigger" Name="NewTrigger2Var" IsNull="false">101</TriggerVar>
-		<TriggerVar ID="901" Type="Time" Name="nullTimeVar" IsNull="true" />
-		<TriggerVar ID="903" Type="TechList" Name="newTechListVar" IsNull="false" />
-		<TriggerVar ID="904" Type="Integer" Name="nullIntegerVar" IsNull="true" />
-		<TriggerVar ID="905" Type="Trigger" Name="NewTrigger0Var" IsNull="false">102</TriggerVar>
-		<TriggerVar ID="906" Type="ListPosition" Name="newListPositionVar" IsNull="false">Random</TriggerVar>
-		<TriggerVar ID="907" Type="Tech" Name="newTechVar" IsNull="false" />
-		<TriggerVar ID="908" Type="TechList" Name="nullTechListVar" IsNull="true" />
-		<TriggerVar ID="909" Type="Bool" Name="newBoolVar" IsNull="false">True</TriggerVar>
-		<TriggerVar ID="910" Type="Trigger" Name="NewTrigger1Var" IsNull="false">103</TriggerVar>
-		<TriggerVar ID="911" Type="Operator" Name="newOperatorVar" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
-		<TriggerVar ID="912" Type="Time" Name="newTimeVar" IsNull="false">45000</TriggerVar>
-		<TriggerVar ID="913" Type="Trigger" Name="NewTrigger1Var" IsNull="false">102</TriggerVar>
-		<TriggerVar ID="914" Type="Trigger" Name="NewTrigger2Var" IsNull="false">104</TriggerVar>
-		<TriggerVar ID="915" Type="Time" Name="nullTimeVar" IsNull="true" />
-		<TriggerVar ID="916" Type="TechList" Name="newTechListVar" IsNull="false" />
-		<TriggerVar ID="917" Type="Integer" Name="nullIntegerVar" IsNull="true" />
-		<TriggerVar ID="918" Type="Trigger" Name="NewTrigger0Var" IsNull="false">105</TriggerVar>
-		<TriggerVar ID="919" Type="ListPosition" Name="newListPositionVar" IsNull="false">Random</TriggerVar>
-		<TriggerVar ID="920" Type="Tech" Name="newTechVar" IsNull="false" />
-		<TriggerVar ID="921" Type="TechList" Name="nullTechListVar" IsNull="true" />
-		<TriggerVar ID="922" Type="Bool" Name="newBoolVar" IsNull="false">False</TriggerVar>
-		<TriggerVar ID="923" Type="Trigger" Name="NewTrigger1Var" IsNull="false">106</TriggerVar>
-		<TriggerVar ID="924" Type="Operator" Name="newOperatorVar" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
-		<TriggerVar ID="925" Type="Time" Name="newTimeVar" IsNull="false">90000</TriggerVar>
-		<TriggerVar ID="926" Type="Trigger" Name="NewTrigger1Var" IsNull="false">105</TriggerVar>
-		<TriggerVar ID="927" Type="Trigger" Name="NewTrigger2Var" IsNull="false">107</TriggerVar>
-		<TriggerVar ID="928" Type="Time" Name="nullTimeVar" IsNull="true" />
-		<TriggerVar ID="929" Type="TechList" Name="newTechListVar" IsNull="false" />
-		<TriggerVar ID="930" Type="Integer" Name="nullIntegerVar" IsNull="true" />
-		<TriggerVar ID="931" Type="Trigger" Name="NewTrigger0Var" IsNull="false">108</TriggerVar>
-		<TriggerVar ID="932" Type="ListPosition" Name="newListPositionVar" IsNull="false">Random</TriggerVar>
-		<TriggerVar ID="933" Type="Tech" Name="newTechVar" IsNull="false" />
-		<TriggerVar ID="934" Type="TechList" Name="nullTechListVar" IsNull="true" />
-		<TriggerVar ID="935" Type="Bool" Name="newBoolVar" IsNull="false">False</TriggerVar>
-		<TriggerVar ID="936" Type="Trigger" Name="NewTrigger1Var" IsNull="false">109</TriggerVar>
-		<TriggerVar ID="937" Type="Operator" Name="newOperatorVar" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
-		<TriggerVar ID="938" Type="Time" Name="newTimeVar" IsNull="false">60000</TriggerVar>
-		<TriggerVar ID="939" Type="Trigger" Name="NewTrigger1Var" IsNull="false">108</TriggerVar>
-		<TriggerVar ID="940" Type="Cost" Name="newCostVar" IsNull="false">0=100,1=0,2=0,3=0,4=0</TriggerVar>
-		<TriggerVar ID="941" Type="Cost" Name="newCostVar" IsNull="false">0=200,1=0,2=0,3=0,4=0</TriggerVar>
-		<TriggerVar ID="942" Type="Cost" Name="newCostVar" IsNull="false">0=300,1=0,2=0,3=0,4=0</TriggerVar>
-		<TriggerVar ID="943" Type="Tech" Name="newTechVar" IsNull="false">fld_basecheat1</TriggerVar>
-		<TriggerVar ID="944" Type="Tech" Name="newTechVar" IsNull="false">fld_basecheat2</TriggerVar>
-		<TriggerVar ID="945" Type="Trigger" Name="NewTrigger1Var" IsNull="false">120</TriggerVar>
-		<TriggerVar ID="946" Type="Trigger" Name="NewTrigger1Var" IsNull="false">121</TriggerVar>
-		<TriggerVar ID="947" Type="Operator" Name="newOperatorVar" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
-		<TriggerVar ID="948" Type="Time" Name="newTimeVar" IsNull="false">300000</TriggerVar>
-		<TriggerVar ID="949" Type="Operator" Name="newOperatorVar" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
-		<TriggerVar ID="950" Type="Time" Name="newTimeVar" IsNull="false">900000</TriggerVar>
-		<TriggerVar ID="951" Type="Trigger" Name="NewTrigger1Var" IsNull="false">122</TriggerVar>
-		<TriggerVar ID="952" Type="Leader" Name="" IsNull="false">Flood</TriggerVar>
-		<TriggerVar ID="956" Type="Trigger" Name="NewTrigger1Var" IsNull="false">104</TriggerVar>
-		<TriggerVar ID="955" Type="Trigger" Name="NewTrigger1Var" IsNull="false">102</TriggerVar>
-		<TriggerVar ID="957" Type="TechStatus" Name="" IsNull="false">Active</TriggerVar>
-		<TriggerVar ID="958" Type="Unit" Name="UniqueUnitVar18" IsNull="true" />
-		<TriggerVar ID="959" Type="Tech" Name="newTechVar" IsNull="false">TechUnlock1</TriggerVar>
-		<TriggerVar ID="960" Type="Tech" Name="newTechVar" IsNull="false">TechUnlock2</TriggerVar>
-		<TriggerVar ID="961" Type="Trigger" Name="NewTrigger1Var" IsNull="false">150</TriggerVar>
-		<TriggerVar ID="962" Type="Trigger" Name="NewTrigger1Var" IsNull="false">151</TriggerVar>
-		<TriggerVar ID="963" Type="Trigger" Name="NewTrigger1Var" IsNull="false">152</TriggerVar>
-		<TriggerVar ID="964" Type="Trigger" Name="NewTrigger1Var" IsNull="false">153</TriggerVar>
-		<TriggerVar ID="965" Type="Leader" Name="" IsNull="false">BanishedBrute</TriggerVar>
-		<TriggerVar ID="966" Type="Leader" Name="" IsNull="false">BanishedElite</TriggerVar>
+		<TriggerVar ID="632" Type="String" Name="" IsNull="false">skirmish\newcontrols.triggerscript</TriggerVar>
+		<TriggerVar ID="633" Type="Unit" Name="ExternalUnitVar2" IsNull="true" />
+		<TriggerVar ID="634" Type="UnitList" Name="ExternalUnitListVar2" IsNull="true" />
+		<TriggerVar ID="635" Type="Squad" Name="ExternalSquadVar2" IsNull="true" />
+		<TriggerVar ID="636" Type="SquadList" Name="ExternalSquadListVar2" IsNull="true" />
+		<TriggerVar ID="637" Type="Power" Name="ExternalPowerVar2" IsNull="true" />
+		<TriggerVar ID="638" Type="Cost" Name="ExternalCostVar2" IsNull="true" />
+		<TriggerVar ID="639" Type="Vector" Name="DropoffLoc" IsNull="true" />
+		<TriggerVar ID="640" Type="VectorList" Name="ExternalLocationListVar2" IsNull="true" />
+		<TriggerVar ID="641" Type="Float" Name="ExternalFloatVar1" IsNull="true" />
+		<TriggerVar ID="642" Type="Trigger" Name="NewTrigger1Var" IsNull="false">100</TriggerVar>
+		<TriggerVar ID="643" Type="Leader" Name="newLeaderVar" IsNull="false">FreeForAll</TriggerVar>
+		<TriggerVar ID="644" Type="PlayerList" Name="nullPlayerListVar" IsNull="true" />
+		<TriggerVar ID="645" Type="Squad" Name="nullSquadVar" IsNull="true" />
+		<TriggerVar ID="646" Type="Power" Name="newPowerVar" IsNull="false">UnscLeaderRepair</TriggerVar>
+		<TriggerVar ID="647" Type="Power" Name="newPowerVar" IsNull="false">UnscLeaderDisruption</TriggerVar>
+		<TriggerVar ID="648" Type="Power" Name="newPowerVar" IsNull="false">_RallyPoint</TriggerVar>
+		<TriggerVar ID="649" Type="Power" Name="newPowerVar" IsNull="false">UnscCivTransport</TriggerVar>
+		<TriggerVar ID="650" Type="Leader" Name="" IsNull="false">Spectator</TriggerVar>
+		<TriggerVar ID="651" Type="Trigger" Name="TriggerVar19" IsNull="false">101</TriggerVar>
+		<TriggerVar ID="652" Type="String" Name="" IsNull="false">spectator\player.triggerscript</TriggerVar>
+		<TriggerVar ID="653" Type="Unit" Name="ExternalUnitVar2" IsNull="true" />
+		<TriggerVar ID="654" Type="UnitList" Name="ExternalUnitListVar2" IsNull="true" />
+		<TriggerVar ID="655" Type="Squad" Name="ExternalSquadVar2" IsNull="true" />
+		<TriggerVar ID="656" Type="SquadList" Name="ExternalSquadListVar2" IsNull="true" />
+		<TriggerVar ID="657" Type="Power" Name="ExternalPowerVar2" IsNull="true" />
+		<TriggerVar ID="658" Type="Cost" Name="ExternalCostVar2" IsNull="true" />
+		<TriggerVar ID="659" Type="Vector" Name="DropoffLoc" IsNull="true" />
+		<TriggerVar ID="660" Type="VectorList" Name="ExternalLocationListVar2" IsNull="true" />
+		<TriggerVar ID="661" Type="Float" Name="ExternalFloatVar1" IsNull="true" />
 	</TriggerVars>
 	<Triggers>
 		<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="345" Y="333" GroupID="-1" TemplateID="-1">
@@ -379,8 +298,21 @@
 				</And>
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="900" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">884</Input>
+				<Effect ID="651" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">651</Input>
+				</Effect>
+				<Effect ID="632" Type="LaunchScript" DBID="392" Version="4" CommentOut="false">
+					<Input Name="ScriptName" SigID="15" Optional="false">632</Input>
+					<Input Name="ExternalUnit" SigID="2" Optional="true">633</Input>
+					<Input Name="ExternalUnitList" SigID="3" Optional="true">634</Input>
+					<Input Name="ExternalSquad" SigID="4" Optional="true">635</Input>
+					<Input Name="ExternalSquadList" SigID="5" Optional="true">636</Input>
+					<Input Name="ExternalPlayer" SigID="6" Optional="true">0</Input>
+					<Input Name="ExternalPower" SigID="7" Optional="true">637</Input>
+					<Input Name="ExternalCost" SigID="8" Optional="true">638</Input>
+					<Input Name="ExternalLocation" SigID="11" Optional="true">639</Input>
+					<Input Name="ExternalLocationList" SigID="12" Optional="true">640</Input>
+					<Input Name="ExternalFloat" SigID="13" Optional="true">641</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -1223,228 +1155,65 @@
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="100" Name="Start Tech Upgrades" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1717" Y="29" GroupID="0" TemplateID="-1">
+		<Trigger ID="100" Name="FFAPlayer" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-1125" Y="-255" GroupID="-1">
 			<TriggerConditions>
 				<And>
-					<Condition ID="100" Type="PlayerIsComputerAI" DBID="740" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+					<Condition ID="100" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
 						<Input Name="Player" SigID="1" Optional="false">0</Input>
+						<Input Name="Leader" SigID="2" Optional="false">643</Input>
 					</Condition>
 				</And>
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="301" Type="RandomTime" DBID="516" Version="1" CommentOut="false">
-					<Input Name="Min" SigID="1" Optional="true">738</Input>
-					<Input Name="Max" SigID="2" Optional="true">739</Input>
-					<Output Name="Random" SigID="3" Optional="false">741</Output>
+				<Effect ID="1202" Type="PowerRevoke" DBID="457" Version="3" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="true">0</Input>
+					<Input Name="PlayerList" SigID="4" Optional="true">644</Input>
+					<Input Name="Power" SigID="2" Optional="false">646</Input>
+					<Input Name="PowerSquad" SigID="5" Optional="true">645</Input>
 				</Effect>
-				<Effect ID="302" Type="RandomTime" DBID="516" Version="1" CommentOut="false">
-					<Input Name="Min" SigID="1" Optional="true">742</Input>
-					<Input Name="Max" SigID="2" Optional="true">743</Input>
-					<Output Name="Random" SigID="3" Optional="false">745</Output>
+				<Effect ID="1203" Type="PowerRevoke" DBID="457" Version="3" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="true">0</Input>
+					<Input Name="PlayerList" SigID="4" Optional="true">644</Input>
+					<Input Name="Power" SigID="2" Optional="false">647</Input>
+					<Input Name="PowerSquad" SigID="5" Optional="true">645</Input>
 				</Effect>
-				<Effect ID="303" Type="RandomTime" DBID="516" Version="1" CommentOut="false">
-					<Input Name="Min" SigID="1" Optional="true">746</Input>
-					<Input Name="Max" SigID="2" Optional="true">747</Input>
-					<Output Name="Random" SigID="3" Optional="false">749</Output>
+				<Effect ID="1204" Type="PowerRevoke" DBID="457" Version="3" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="true">0</Input>
+					<Input Name="PlayerList" SigID="4" Optional="true">644</Input>
+					<Input Name="Power" SigID="2" Optional="false">648</Input>
+					<Input Name="PowerSquad" SigID="5" Optional="true">645</Input>
 				</Effect>
-				<Effect ID="304" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">900</Input>
-				</Effect>
-				<Effect ID="761" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">945</Input>
-				</Effect>
-				<Effect ID="961" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">961</Input>
-				</Effect>
-				<Effect ID="963" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">963</Input>
+				<Effect ID="1205" Type="PowerRevoke" DBID="457" Version="3" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="true">0</Input>
+					<Input Name="PlayerList" SigID="4" Optional="true">644</Input>
+					<Input Name="Power" SigID="2" Optional="false">649</Input>
+					<Input Name="PowerSquad" SigID="5" Optional="true">645</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="101" Name="GetallunlockableTechs" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="-462" Y="364" GroupID="-1">
+		<Trigger ID="101" Name="Spectator" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1717" Y="29" GroupID="0" TemplateID="-1">
 			<TriggerConditions>
 				<And>
-					<Condition ID="401" Type="GameTimeReached" DBID="268" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="TestTime" SigID="1" Optional="false">741</Input>
-						<Output Name="TimeRemaining" SigID="2" Optional="true">901</Output>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="401" Type="GetLegalTechs" DBID="506" Version="1" CommentOut="false">
-					<Input Name="Player" SigID="1" Optional="false">0</Input>
-					<Output Name="TechList" SigID="2" Optional="false">903</Output>
-					<Output Name="Count" SigID="3" Optional="true">904</Output>
-				</Effect>
-				<Effect ID="406" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">905</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
-		</Trigger>
-		<Trigger ID="102" Name="UnlockARandomTechAndRemoveIt" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1261" Y="293" GroupID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="402" Type="CanGetOneTech" DBID="488" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="TechList" SigID="1" Optional="false">903</Input>
-						<Input Name="ListPosition" SigID="2" Optional="false">906</Input>
-						<Output Name="Tech" SigID="3" Optional="false">907</Output>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="405" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">956</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse>
-				<Effect ID="442" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">910</Input>
-				</Effect>
-			</TriggerEffectsOnFalse>
-		</Trigger>
-		<Trigger ID="104" Name="IsTheTechActive?" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1261" Y="293" GroupID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="1901" Type="TechStatus" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+					<Condition ID="101" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
 						<Input Name="Player" SigID="1" Optional="false">0</Input>
-						<Input Name="Tech" SigID="2" Optional="false">907</Input>
-						<Input Name="TechStatus" SigID="3" Optional="false">957</Input>
-						<Input Name="UniqueUnit" SigID="4" Optional="true">958</Input>
+						<Input Name="Leader" SigID="2" Optional="false">650</Input>
 					</Condition>
 				</And>
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="433" Type="TechListRemove" DBID="574" Version="1" CommentOut="false">
-					<Input Name="RemoveOne" SigID="1" Optional="true">907</Input>
-					<Input Name="RemoveList" SigID="2" Optional="true">908</Input>
-					<Input Name="RemoveAll" SigID="3" Optional="true">909</Input>
-					<Output Name="ModifyList" SigID="4" Optional="false">903</Output>
-				</Effect>
-				<Effect ID="405" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">910</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse>
-				<Effect ID="402" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
-					<Input Name="Player" SigID="1" Optional="false">0</Input>
-					<Input Name="Tech" SigID="2" Optional="false">907</Input>
-				</Effect>
-				<Effect ID="403" Type="TechListRemove" DBID="574" Version="1" CommentOut="false">
-					<Input Name="RemoveOne" SigID="1" Optional="true">907</Input>
-					<Input Name="RemoveList" SigID="2" Optional="true">908</Input>
-					<Input Name="RemoveAll" SigID="3" Optional="true">909</Input>
-					<Output Name="ModifyList" SigID="4" Optional="false">903</Output>
-				</Effect>
-				<Effect ID="419" Type="PayCost" DBID="50" Version="1" CommentOut="false">
-					<Input Name="Player" SigID="1" Optional="false">0</Input>
-					<Input Name="ResourceAmount" SigID="2" Optional="false">940</Input>
-				</Effect>
-				<Effect ID="435" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">910</Input>
-				</Effect>
-			</TriggerEffectsOnFalse>
-		</Trigger>
-		<Trigger ID="103" Name="WaitAMinuteAndNextTech" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3113" Y="450" GroupID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="403" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="CompareType" SigID="1" Optional="false">911</Input>
-						<Input Name="CompareTime" SigID="2" Optional="false">912</Input>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="420" Type="GetLegalTechs" DBID="506" Version="1" CommentOut="false">
-					<Input Name="Player" SigID="1" Optional="false">0</Input>
-					<Output Name="TechList" SigID="2" Optional="false">903</Output>
-					<Output Name="Count" SigID="3" Optional="true">917</Output>
-				</Effect>
-				<Effect ID="404" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">913</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
-		</Trigger>
-		<Trigger ID="120" Name="Flood" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="3113" Y="450" GroupID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="766" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="Player" SigID="1" Optional="false">0</Input>
-						<Input Name="Leader" SigID="2" Optional="false">952</Input>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="761" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">946</Input>
-				</Effect>
-				<Effect ID="762" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">951</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
-		</Trigger>
-		<Trigger ID="121" Name="FirstCheat" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3113" Y="450" GroupID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="768" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="CompareType" SigID="1" Optional="false">947</Input>
-						<Input Name="CompareTime" SigID="2" Optional="false">948</Input>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="763" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
-					<Input Name="Player" SigID="1" Optional="false">0</Input>
-					<Input Name="Tech" SigID="2" Optional="false">943</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
-		</Trigger>
-		<Trigger ID="122" Name="SecondCheat" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3113" Y="450" GroupID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="767" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="CompareType" SigID="1" Optional="false">949</Input>
-						<Input Name="CompareTime" SigID="2" Optional="false">950</Input>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="764" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
-					<Input Name="Player" SigID="1" Optional="false">0</Input>
-					<Input Name="Tech" SigID="2" Optional="false">944</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
-		</Trigger>
-		<Trigger ID="137" Name="Spectator" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1717" Y="29" GroupID="0" TemplateID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="137" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="Player" SigID="1" Optional="false">0</Input>
-						<Input Name="Leader" SigID="2" Optional="false">882</Input>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="901" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">885</Input>
-				</Effect>
-				<Effect ID="902" Type="LaunchScript" DBID="392" Version="4" CommentOut="false">
-					<Input Name="ScriptName" SigID="15" Optional="false">886</Input>
-					<Input Name="ExternalUnit" SigID="2" Optional="true">887</Input>
-					<Input Name="ExternalUnitList" SigID="3" Optional="true">888</Input>
-					<Input Name="ExternalSquad" SigID="4" Optional="true">889</Input>
-					<Input Name="ExternalSquadList" SigID="5" Optional="true">890</Input>
+				<Effect ID="652" Type="LaunchScript" DBID="392" Version="4" CommentOut="false">
+					<Input Name="ScriptName" SigID="15" Optional="false">652</Input>
+					<Input Name="ExternalUnit" SigID="2" Optional="true">653</Input>
+					<Input Name="ExternalUnitList" SigID="3" Optional="true">654</Input>
+					<Input Name="ExternalSquad" SigID="4" Optional="true">655</Input>
+					<Input Name="ExternalSquadList" SigID="5" Optional="true">656</Input>
 					<Input Name="ExternalPlayer" SigID="6" Optional="true">0</Input>
-					<Input Name="ExternalPower" SigID="7" Optional="true">891</Input>
-					<Input Name="ExternalCost" SigID="8" Optional="true">892</Input>
-					<Input Name="ExternalLocation" SigID="11" Optional="true">893</Input>
-					<Input Name="ExternalLocationList" SigID="12" Optional="true">894</Input>
-					<Input Name="ExternalFloat" SigID="13" Optional="true">895</Input>
+					<Input Name="ExternalPower" SigID="7" Optional="true">657</Input>
+					<Input Name="ExternalCost" SigID="8" Optional="true">658</Input>
+					<Input Name="ExternalLocation" SigID="11" Optional="true">659</Input>
+					<Input Name="ExternalLocationList" SigID="12" Optional="true">660</Input>
+					<Input Name="ExternalFloat" SigID="13" Optional="true">661</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse>
@@ -1479,92 +1248,10 @@
 					<Input Name="BoolSource" SigID="1" Optional="false">589</Input>
 					<Output Name="BoolCopy" SigID="2" Optional="false">577</Output>
 				</Effect>
-				<Effect ID="300" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">750</Input>
+				<Effect ID="642" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">642</Input>
 				</Effect>
 			</TriggerEffectsOnFalse>
-		</Trigger>
-		<Trigger ID="138" Name="IsSpectatorAi" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1717" Y="29" GroupID="0" TemplateID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="100" Type="PlayerIsComputerAI" DBID="740" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="Player" SigID="1" Optional="false">0</Input>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="113" Type="SetPlayerState" DBID="130" Version="2" CommentOut="false">
-					<Input Name="Player" SigID="1" Optional="false">0</Input>
-					<Input Name="PlayerState" SigID="3" Optional="false">883</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
-		</Trigger>
-		<Trigger ID="150" Name="BanishedBrute" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="3113" Y="450" GroupID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="990" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="Player" SigID="1" Optional="false">0</Input>
-						<Input Name="Leader" SigID="2" Optional="false">965</Input>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="990" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">962</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
-		</Trigger>
-		<Trigger ID="151" Name="FirstCheat" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3113" Y="450" GroupID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="991" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="CompareType" SigID="1" Optional="false">947</Input>
-						<Input Name="CompareTime" SigID="2" Optional="false">948</Input>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="992" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
-					<Input Name="Player" SigID="1" Optional="false">0</Input>
-					<Input Name="Tech" SigID="2" Optional="false">959</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
-		</Trigger>
-		<Trigger ID="152" Name="BanishedElite" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="3113" Y="450" GroupID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="993" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="Player" SigID="1" Optional="false">0</Input>
-						<Input Name="Leader" SigID="2" Optional="false">966</Input>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="993" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">964</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
-		</Trigger>
-		<Trigger ID="153" Name="FirstCheat" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3113" Y="450" GroupID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="994" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="CompareType" SigID="1" Optional="false">947</Input>
-						<Input Name="CompareTime" SigID="2" Optional="false">948</Input>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="994" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
-					<Input Name="Player" SigID="1" Optional="false">0</Input>
-					<Input Name="Tech" SigID="2" Optional="false">960</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
 		</Trigger>
 	</Triggers>
 </TriggerSystem>

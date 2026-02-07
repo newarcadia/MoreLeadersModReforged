@@ -1171,6 +1171,32 @@
           <Input Name="ExternalLocationList" SigID="12" Optional="true">318</Input>
           <Input Name="ExternalFloat" SigID="13" Optional="true">319</Input>
         </Effect>
+        <Effect ID="128" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
+          <Input Name="ScriptName" SigID="15" Optional="false">72</Input>
+          <Input Name="ExternalUnit" SigID="2" Optional="true">312</Input>
+          <Input Name="ExternalUnitList" SigID="3" Optional="true">313</Input>
+          <Input Name="ExternalSquad" SigID="4" Optional="true">314</Input>
+          <Input Name="ExternalSquadList" SigID="5" Optional="true">315</Input>
+          <Input Name="ExternalPlayer" SigID="6" Optional="true">1</Input>
+          <Input Name="ExternalPower" SigID="7" Optional="true">316</Input>
+          <Input Name="ExternalCost" SigID="8" Optional="true">317</Input>
+          <Input Name="ExternalLocation" SigID="11" Optional="true">2</Input>
+          <Input Name="ExternalLocationList" SigID="12" Optional="true">318</Input>
+          <Input Name="ExternalFloat" SigID="13" Optional="true">319</Input>
+        </Effect>
+        <Effect ID="128" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
+          <Input Name="ScriptName" SigID="15" Optional="false">72</Input>
+          <Input Name="ExternalUnit" SigID="2" Optional="true">312</Input>
+          <Input Name="ExternalUnitList" SigID="3" Optional="true">313</Input>
+          <Input Name="ExternalSquad" SigID="4" Optional="true">314</Input>
+          <Input Name="ExternalSquadList" SigID="5" Optional="true">315</Input>
+          <Input Name="ExternalPlayer" SigID="6" Optional="true">1</Input>
+          <Input Name="ExternalPower" SigID="7" Optional="true">316</Input>
+          <Input Name="ExternalCost" SigID="8" Optional="true">317</Input>
+          <Input Name="ExternalLocation" SigID="11" Optional="true">2</Input>
+          <Input Name="ExternalLocationList" SigID="12" Optional="true">318</Input>
+          <Input Name="ExternalFloat" SigID="13" Optional="true">319</Input>
+        </Effect>
         <Effect ID="123" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
       </TriggerEffectsOnTrue>
       <TriggerEffectsOnFalse>

@@ -28,7 +28,7 @@
 		<AttackRate>3</AttackRate>
 		<DamagePerSecond>140</DamagePerSecond>
 		<WeaponType>ExplosiveWraith</WeaponType>
-		<Projectile>fx_proj_plasmaMortar_01</Projectile>
+		<Projectile>fx_proj_plasmaMortar_02</Projectile>
 		<ImpactEffect size="Medium">cov_plasmamortar_01</ImpactEffect>
 		<MaxVelocityLead>15</MaxVelocityLead>
 		<MaxRange>70</MaxRange>
@@ -41,6 +41,7 @@
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<AOERadius>6</AOERadius>
+		<TriggerScript>wraithultra.triggerscript</TriggerScript>
 		<AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
 		<AOEDistanceFactor>0.75</AOEDistanceFactor>
 		<AOEDamageFactor>0.5</AOEDamageFactor>
@@ -159,11 +160,6 @@
 		<WorkRange>0</WorkRange>
 	</Action>
 	<Action>
-		<Name>ShieldAction</Name>
-		<ActionType>EnergyShield</ActionType>
-		<ProtoObject>cov_wraithshield</ProtoObject>
-	</Action>
-	<Action>
 		<Name>GatherCollectables</Name>
 		<ActionType>Gather</ActionType>
 		<Anim>Gather</Anim>
@@ -172,7 +168,6 @@
 		<WorkRange>3</WorkRange>
 	</Action>
 	<Tactic>
-		<PersistentAction>ShieldAction</PersistentAction>
 		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>

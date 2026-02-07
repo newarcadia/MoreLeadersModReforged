@@ -392,6 +392,16 @@
 	<Icon type="uniticon" name="" owner="fld_bldg_spawner_03">-1</Icon>
 	<Icon type="uniticon" name="" owner="fld_building_boss_01">-1</Icon>
 	<Icon type="uniticon" name="" owner="cpgn_scn15_activationNode_01">-1</Icon>
+	<Icon type="uniticon" name="covInfantry" SizeX="7" SizeY="-1" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_brutehero_01">-1</Icon>
+	<Icon type="uniticon" name="covInfantry" SizeX="7" SizeY="-1" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_brute_hg_01">-1</Icon>
+	<Icon type="uniticon" name="covInfantry" SizeX="7" SizeY="-1" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_elite_pc_01">-1</Icon>
+	<Icon type="uniticon" name="covInfantry" SizeX="7" SizeY="-1" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_skirmisherAIhero_01">-1</Icon>
+	<Icon type="uniticon" name="covInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_silentshadow_01">-1</Icon>
+	<Icon type="uniticon" name="covInfantry" SizeX="8" SizeZ="8" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_locusthero_01">-1</Icon>
+	<Icon type="uniticon" name="covInfantry" SizeX="10" SizeZ="10" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_wraith_hero_01">-1</Icon>
+	<Icon type="uniticon" name="covInfantry" SizeX="10" SizeZ="10" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_wraith_ultra_01">-1</Icon>
+	<Icon type="uniticon" name="covInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_superdrone_hg_01">-1</Icon>
+	<Icon type="uniticon" name="covInfantry" SizeX="10" SizeZ="10" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_titan_phantom_gunship_01">-1</Icon>
 	<Icon type="uniticon" name="covInfantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_kamikazeGrunt_01">-1</Icon>
 	<Icon type="uniticon" name="covInfantry" SizeX="7" SizeY="-2" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_gruntHorde_01">-1</Icon>
 	<Icon type="uniticon" name="covInfantry" SizeX="5" SizeY="0" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_gruntHorde_02">-1</Icon>
@@ -596,5 +606,7 @@
 	<Icon type="staticdecal" name="StaticDecalTextureSpartan" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cpgn_npc_Forge_01">-1</Icon>
 	<Icon type="uniticon" name="unscInfantry" SizeX="4" SizeY="-2" SizeZ="4" Intensity1="8" Intensity2="28" Intensity3="18" owner="for_air_enforcer_01">-1</Icon>
 	<Icon type="uniticon" name="covInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_spectre_01">-1</Icon>
+	<Icon type="uniticon" name="covInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_spectre_01">-1</Icon>
 	<Icon type="uniticon" name="covInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_revenant_01">-1</Icon>
+	<Icon type="uniticon" name="covInfantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_spectre_ce_01">-1</Icon>
 	<Icon type="uniticon" name="covInfantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_prowler_01">-1</Icon>a</FlashMovieDefinition>

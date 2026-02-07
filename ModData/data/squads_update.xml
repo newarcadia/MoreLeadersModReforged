@@ -4,13 +4,13 @@
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>51025</DisplayNameID>
-		<RolloverTextID>51026</RolloverTextID>
+		<DisplayNameID>51163</DisplayNameID>
+		<RolloverTextID>51164</RolloverTextID>
 		<RoleTextID>503</RoleTextID>
 		<PrereqTextID>241</PrereqTextID>
 		<BuildPoints>8</BuildPoints>
 		<Cost resourcetype="Supplies">100</Cost>
-		<SubSelectSort>4600</SubSelectSort>
+		<SubSelectSort>4620</SubSelectSort>
 		<LeashDistance>15</LeashDistance>
 		<LeashDeadzone>5</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -35,14 +35,14 @@
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_chimera</PortraitIcon>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3070</DisplayNameID>
-		<RolloverTextID>3071</RolloverTextID>
+		<DisplayNameID>51161</DisplayNameID>
+		<RolloverTextID>51162</RolloverTextID>
 		<PrereqTextID>243</PrereqTextID>
 		<RoleTextID>507</RoleTextID>
 		<BuildPoints>23</BuildPoints>
 		<Cost resourcetype="Supplies">300</Cost>
 		<Cost resourcetype="Power">2</Cost>
-		<SubSelectSort>6300</SubSelectSort>
+		<SubSelectSort>6320</SubSelectSort>
 		<LeashDistance>15</LeashDistance>
 		<LeashDeadzone>5</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -66,14 +66,14 @@
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3046</DisplayNameID>
-		<RolloverTextID>3047</RolloverTextID>
+		<DisplayNameID>51165</DisplayNameID>
+		<RolloverTextID>51166</RolloverTextID>
 		<PrereqTextID>241</PrereqTextID>
 		<RoleTextID>519</RoleTextID>
 		<BuildPoints>24</BuildPoints>
 		<Cost resourcetype="Supplies">150</Cost>
 		<Cost resourcetype="Power">1</Cost>
-		<SubSelectSort>4800</SubSelectSort>
+		<SubSelectSort>4820</SubSelectSort>
 		<LeashDistance>55</LeashDistance>
 		<LeashDeadzone>25</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -184,20 +184,20 @@
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_wraith</PortraitIcon>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3056</DisplayNameID>
-		<RolloverTextID>3057</RolloverTextID>
+		<DisplayNameID>51158</DisplayNameID>
+		<RolloverTextID>51160</RolloverTextID>
 		<PrereqTextID>242</PrereqTextID>
 		<RoleTextID>501</RoleTextID>
 		<BuildPoints>26</BuildPoints>
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">2</Cost>
-		<SubSelectSort>6500</SubSelectSort>
+		<SubSelectSort>6520</SubSelectSort>
 		<LeashDistance>20</LeashDistance>
 		<LeashDeadzone>5</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>0</AggroDistance>
 		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint04" endPoint="bone_spawnPoint04">Trained</Birth>
-		<HPBar offset="0,12,0">COV_Health</HPBar>
+		<HPBar offset="0,12,0">COV_HealthShield</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
@@ -214,8 +214,8 @@
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_wraith</PortraitIcon>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3056</DisplayNameID>
-		<RolloverTextID>3057</RolloverTextID>
+		<DisplayNameID>51159</DisplayNameID>
+		<RolloverTextID>51160</RolloverTextID>
 		<PrereqTextID>242</PrereqTextID>
 		<RoleTextID>501</RoleTextID>
 		<BuildPoints>26</BuildPoints>
@@ -275,8 +275,8 @@
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3046</DisplayNameID>
-		<RolloverTextID>3047</RolloverTextID>
+		<DisplayNameID>51167</DisplayNameID>
+		<RolloverTextID>51168</RolloverTextID>
 		<PrereqTextID>241</PrereqTextID>
 		<RoleTextID>519</RoleTextID>
 		<BuildPoints>24</BuildPoints>
@@ -393,8 +393,8 @@
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>51116</DisplayNameID>
-		<RolloverTextID>51117</RolloverTextID>
+		<DisplayNameID>51169</DisplayNameID>
+		<RolloverTextID>51170</RolloverTextID>
 		<RoleTextID>500</RoleTextID>
 		<BuildPoints>9</BuildPoints>
 		<Cost resourcetype="Power">1</Cost>
@@ -424,8 +424,8 @@
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>51033</DisplayNameID>
-		<RolloverTextID>51034</RolloverTextID>
+		<DisplayNameID>51171</DisplayNameID>
+		<RolloverTextID>51172</RolloverTextID>
 		<PrereqTextID>241</PrereqTextID>
 		<RoleTextID>519</RoleTextID>
 		<BuildPoints>24</BuildPoints>

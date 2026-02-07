@@ -1,198 +1,288 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TriggerSystem Name="reactor.triggerscript" Type="TriggerScript" NextTriggerVarID="38" NextTriggerID="8" NextConditionID="8" NextEffectID="16" External="false">
-	<TriggerVars>
-		<TriggerVar ID="1" Type="Trigger" Name="NewTrigger0Var" IsNull="false">1</TriggerVar>
-		<TriggerVar ID="2" Type="Player" Name="nullPlayerVar" IsNull="true" />
-		<TriggerVar ID="3" Type="Power" Name="nullPowerVar" IsNull="true" />
-		<TriggerVar ID="4" Type="Squad" Name="nullSquadVar" IsNull="true" />
-		<TriggerVar ID="5" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
-		<TriggerVar ID="6" Type="Unit" Name="newUnitVar" IsNull="false" />
-		<TriggerVar ID="7" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
-		<TriggerVar ID="8" Type="Cost" Name="nullCostVar" IsNull="true" />
-		<TriggerVar ID="9" Type="Trigger" Name="NewTrigger1Var" IsNull="false">2</TriggerVar>
-		<TriggerVar ID="10" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
-		<TriggerVar ID="11" Type="Squad" Name="nullSquadVar" IsNull="true" />
-		<TriggerVar ID="12" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
-		<TriggerVar ID="13" Type="Squad" Name="nullSquadVar" IsNull="true" />
-		<TriggerVar ID="14" Type="Player" Name="newPlayerVar" IsNull="false" />
-		<TriggerVar ID="15" Type="Trigger" Name="NewTrigger2Var" IsNull="false">3</TriggerVar>
-		<TriggerVar ID="16" Type="Trigger" Name="NewTrigger5Var" IsNull="false">4</TriggerVar>
-		<TriggerVar ID="17" Type="Squad" Name="nullSquadVar" IsNull="true" />
-		<TriggerVar ID="18" Type="Trigger" Name="NewTrigger6Var" IsNull="false">5</TriggerVar>
-		<TriggerVar ID="19" Type="Cost" Name="newCostVar" IsNull="false">0=1000,1=0,2=0,3=0,4=0</TriggerVar>
-		<TriggerVar ID="20" Type="Time" Name="newTimeVar" IsNull="false">60000</TriggerVar>
-		<TriggerVar ID="21" Type="Time" Name="newTimeVar" IsNull="false">100000</TriggerVar>
-		<TriggerVar ID="22" Type="Time" Name="newTimeVar" IsNull="false" />
-		<TriggerVar ID="23" Type="Trigger" Name="NewTrigger3Var" IsNull="false">6</TriggerVar>
-		<TriggerVar ID="24" Type="Operator" Name="newOperatorVar" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
-		<TriggerVar ID="25" Type="Object" Name="nullObjectVar" IsNull="true" />
-		<TriggerVar ID="26" Type="ProtoSquad" Name="nullProtoSquadVar" IsNull="true" />
-		<TriggerVar ID="27" Type="ProtoObject" Name="newProtoObjectVar" IsNull="false" />
-		<TriggerVar ID="28" Type="Trigger" Name="NewTrigger4Var" IsNull="false">7</TriggerVar>
-		<TriggerVar ID="29" Type="Operator" Name="newOperatorVar" IsNull="false">EqualTo</TriggerVar>
-		<TriggerVar ID="30" Type="ProtoObject" Name="newProtoObjectVar" IsNull="false">cov_bldg_temple_01</TriggerVar>
-		<TriggerVar ID="31" Type="ProtoSquad" Name="nullProtoSquadVar" IsNull="true" />
-		<TriggerVar ID="32" Type="Tech" Name="newTechVar" IsNull="false">cov_temple_upgrade1</TriggerVar>
-		<TriggerVar ID="33" Type="Integer" Name="nullIntegerVar" IsNull="true" />
-		<TriggerVar ID="34" Type="Bool" Name="newBoolVar" IsNull="false">True</TriggerVar>
-		<TriggerVar ID="35" Type="ProtoObject" Name="nullProtoObjectVar" IsNull="true" />
-		<TriggerVar ID="36" Type="Player" Name="nullPlayerVar" IsNull="true" />
-		<TriggerVar ID="37" Type="BuildingCommandState" Name="nullBuildingCommandStateVar" IsNull="true" />
-		<TriggerVar ID="132" Type="Tech" Name="newTechVar" IsNull="false">cov_temple_upgrade2</TriggerVar>
-	</TriggerVars>
-	<Triggers>
-		<Trigger ID="1" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-374" Y="260" GroupID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="1" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Output Name="ExternPlayer" SigID="1" Optional="true">2</Output>
-						<Output Name="ExternPower" SigID="2" Optional="true">3</Output>
-						<Output Name="ExternSquad" SigID="3" Optional="true">4</Output>
-						<Output Name="ExternSquadList" SigID="7" Optional="true">5</Output>
-						<Output Name="ExternUnit" SigID="4" Optional="true">6</Output>
-						<Output Name="ExternUnitList" SigID="6" Optional="true">7</Output>
-						<Output Name="ExternCost" SigID="5" Optional="true">8</Output>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="2" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">9</Input>
-				</Effect>
-				<Effect ID="3" Type="GetOwner" DBID="193" Version="2" CommentOut="false">
-					<Input Name="Unit" SigID="1" Optional="true">6</Input>
-					<Input Name="Squad" SigID="2" Optional="true">13</Input>
-					<Output Name="Owner" SigID="3" Optional="false">14</Output>
-				</Effect>
-				<Effect ID="14" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">15</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse>
-				<Effect ID="15" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
-			</TriggerEffectsOnFalse>
-		</Trigger>
-		<Trigger ID="2" Name="NewTrigger1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="432" Y="-2" GroupID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="2" Type="IsDead" DBID="81" Version="3" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="TestUnit" SigID="3" Optional="true">6</Input>
-						<Input Name="TestUnitList" SigID="4" Optional="true">10</Input>
-						<Input Name="TestSquad" SigID="5" Optional="true">11</Input>
-						<Input Name="TestSquadList" SigID="6" Optional="true">12</Input>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="1" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
-		</Trigger>
-		<Trigger ID="3" Name="NewTrigger2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1381" Y="203" GroupID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="3" Type="PlayerIsComputerAI" DBID="740" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="Player" SigID="1" Optional="false">14</Input>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="12" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">16</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse>
-				<Effect ID="13" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
-			</TriggerEffectsOnFalse>
-		</Trigger>
-		<Trigger ID="4" Name="NewTrigger5" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2087" Y="178" GroupID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="4" Type="IsBuilt" DBID="414" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="Unit" SigID="1" Optional="true">6</Input>
-						<Input Name="Squad" SigID="2" Optional="true">17</Input>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="11" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">18</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
-		</Trigger>
-		<Trigger ID="5" Name="NewTrigger6" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2778" Y="83" GroupID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="5" Type="CanPayCost" DBID="15" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="Player" SigID="1" Optional="false">14</Input>
-						<Input Name="ResourceAmount" SigID="2" Optional="false">19</Input>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="4" Type="RandomTime" DBID="516" Version="1" CommentOut="false">
-					<Input Name="Min" SigID="1" Optional="true">20</Input>
-					<Input Name="Max" SigID="2" Optional="true">21</Input>
-					<Output Name="Random" SigID="3" Optional="false">22</Output>
-				</Effect>
-				<Effect ID="10" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">23</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
-		</Trigger>
-		<Trigger ID="6" Name="NewTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="4251" Y="138" GroupID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="6" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="CompareType" SigID="1" Optional="false">24</Input>
-						<Input Name="CompareTime" SigID="2" Optional="false">22</Input>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="6" Type="BuildingCommand" DBID="559" Version="4" CommentOut="false">
-					<Input Name="Unit" SigID="1" Optional="false">6</Input>
-					<Input Name="ProtoSquad" SigID="2" Optional="true">31</Input>
-					<Input Name="Tech" SigID="6" Optional="true">32</Input>
-					<Input Name="Count" SigID="3" Optional="true">33</Input>
-					<Input Name="NoCost" SigID="4" Optional="true">34</Input>
-					<Input Name="ProtoBuilding" SigID="7" Optional="true">35</Input>
-					<Input Name="Player" SigID="8" Optional="true">36</Input>
-					<Output Name="BuildingCommandState" SigID="5" Optional="true">37</Output>
-				</Effect>
-				<Effect ID="9" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">28</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
-		</Trigger>
-		<Trigger ID="7" Name="NewTrigger4" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="5514" Y="67" GroupID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="6" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="CompareType" SigID="1" Optional="false">24</Input>
-						<Input Name="CompareTime" SigID="2" Optional="false">22</Input>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="6" Type="BuildingCommand" DBID="559" Version="4" CommentOut="false">
-					<Input Name="Unit" SigID="1" Optional="false">6</Input>
-					<Input Name="ProtoSquad" SigID="2" Optional="true">31</Input>
-					<Input Name="Tech" SigID="6" Optional="true">132</Input>
-					<Input Name="Count" SigID="3" Optional="true">33</Input>
-					<Input Name="NoCost" SigID="4" Optional="true">34</Input>
-					<Input Name="ProtoBuilding" SigID="7" Optional="true">35</Input>
-					<Input Name="Player" SigID="8" Optional="true">36</Input>
-					<Output Name="BuildingCommandState" SigID="5" Optional="true">37</Output>
-				</Effect>
-				<Effect ID="7" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse>
-				<Effect ID="8" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
-			</TriggerEffectsOnFalse>
-		</Trigger>
-	</Triggers>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="temple.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Unit" Name="NewUnit0" IsNull="false" />
+    <TriggerVar ID="4" Type="ProtoObject" Name="NewProtoObject4" IsNull="false">cov_bldg_temple_01</TriggerVar>
+    <TriggerVar ID="6" Type="ProtoObject" Name="NewProtoObject4" IsNull="false">cov_bldg_temple_02</TriggerVar>
+    <TriggerVar ID="7" Type="ProtoObject" Name="NewProtoObject7" IsNull="false" />
+    <TriggerVar ID="8" Type="Tech" Name="NewTech8" IsNull="false">cov_temple_upgrade1</TriggerVar>
+    <TriggerVar ID="10" Type="Tech" Name="NewTech8" IsNull="false">cov_temple_upgrade2</TriggerVar>
+    <TriggerVar ID="12" Type="Operator" Name="NewOperator12" IsNull="false">EqualTo</TriggerVar>
+    <TriggerVar ID="17" Type="Player" Name="NewPlayer17" IsNull="false" />
+    <TriggerVar ID="25" Type="Time" Name="NewTime25" IsNull="false" />
+    <TriggerVar ID="28" Type="Time" Name="NewTime25" IsNull="false">120000</TriggerVar>
+    <TriggerVar ID="29" Type="Time" Name="NewTime25" IsNull="false">240000</TriggerVar>
+    <TriggerVar ID="30" Type="Time" Name="NewTime25" IsNull="false">180000</TriggerVar>
+    <TriggerVar ID="33" Type="Operator" Name="NewOperator33" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="34" Type="Bool" Name="NewBool34" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="35" Type="Trigger" Name="NewTrigger0" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="36" Type="Player" Name="nullPlayer" IsNull="true" />
+    <TriggerVar ID="37" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="38" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="39" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="40" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="41" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="42" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="43" Type="Trigger" Name="NewTrigger1" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="44" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="45" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="46" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="47" Type="Trigger" Name="NewTrigger3" IsNull="false">3</TriggerVar>
+    <TriggerVar ID="48" Type="Trigger" Name="NewTrigger6" IsNull="false">6</TriggerVar>
+    <TriggerVar ID="49" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="50" Type="Object" Name="nullObject" IsNull="true" />
+    <TriggerVar ID="51" Type="ProtoSquad" Name="nullProtoSquad" IsNull="true" />
+    <TriggerVar ID="52" Type="Trigger" Name="NewTrigger11" IsNull="false">11</TriggerVar>
+    <TriggerVar ID="53" Type="Trigger" Name="NewTrigger18" IsNull="false">18</TriggerVar>
+    <TriggerVar ID="54" Type="ProtoSquad" Name="nullProtoSquad" IsNull="true" />
+    <TriggerVar ID="55" Type="Integer" Name="nullInteger" IsNull="true" />
+    <TriggerVar ID="56" Type="ProtoObject" Name="nullProtoObject" IsNull="true" />
+    <TriggerVar ID="57" Type="Player" Name="nullPlayer" IsNull="true" />
+    <TriggerVar ID="58" Type="BuildingCommandState" Name="linkedBuildingCommandState" IsNull="false" />
+    <TriggerVar ID="59" Type="Trigger" Name="NewTrigger21" IsNull="false">21</TriggerVar>
+    <TriggerVar ID="60" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="61" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="62" Type="Trigger" Name="NewTrigger25" IsNull="false">25</TriggerVar>
+    <TriggerVar ID="63" Type="Time" Name="linkedTime" IsNull="false" />
+    <TriggerVar ID="64" Type="ProtoSquad" Name="nullProtoSquad" IsNull="true" />
+    <TriggerVar ID="65" Type="Integer" Name="nullInteger" IsNull="true" />
+    <TriggerVar ID="66" Type="ProtoObject" Name="nullProtoObject" IsNull="true" />
+    <TriggerVar ID="67" Type="Player" Name="nullPlayer" IsNull="true" />
+    <TriggerVar ID="68" Type="BuildingCommandState" Name="nullBuildingCommandState" IsNull="true" />
+    <TriggerVar ID="69" Type="Trigger" Name="NewTrigger12" IsNull="false">12</TriggerVar>
+    <TriggerVar ID="70" Type="Trigger" Name="NewTrigger18" IsNull="false">20</TriggerVar>
+    <TriggerVar ID="71" Type="ProtoSquad" Name="nullProtoSquad" IsNull="true" />
+    <TriggerVar ID="72" Type="Integer" Name="nullInteger" IsNull="true" />
+    <TriggerVar ID="73" Type="ProtoObject" Name="nullProtoObject" IsNull="true" />
+    <TriggerVar ID="74" Type="Player" Name="nullPlayer" IsNull="true" />
+    <TriggerVar ID="75" Type="BuildingCommandState" Name="nullBuildingCommandState" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-2009" Y="-528" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="0" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">36</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">37</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">38</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">39</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">0</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">40</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">41</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="0" Type="GetOwner v2" DBID="193" Version="2" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="true">0</Input>
+          <Input Name="Squad" SigID="2" Optional="true">42</Input>
+          <Output Name="Owner" SigID="3" Optional="false">17</Output>
+        </Effect>
+        <Effect ID="1" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">43</Input>
+        </Effect>
+        <Effect ID="4" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">47</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="1" Name="NewTrigger1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="-319" Y="-10" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="2" Type="IsDead v3" DBID="81" Version="3" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="TestUnit" SigID="3" Optional="true">0</Input>
+            <Input Name="TestUnitList" SigID="4" Optional="true">44</Input>
+            <Input Name="TestSquad" SigID="5" Optional="true">45</Input>
+            <Input Name="TestSquadList" SigID="6" Optional="true">46</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="2" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="3" Name="NewTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="241" Y="-796" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="1" Type="PlayerIsComputerAI v1" DBID="740" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">17</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="8" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">48</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="6" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="6" Name="NewTrigger6" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1650" Y="-1002" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="5" Type="IsBuilt v1" DBID="414" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Unit" SigID="1" Optional="true">0</Input>
+            <Input Name="Squad" SigID="2" Optional="true">49</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="9" Type="GetProtoObject v2" DBID="631" Version="2" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="true">0</Input>
+          <Input Name="Object" SigID="2" Optional="true">50</Input>
+          <Input Name="ProtoSquad" SigID="4" Optional="true">51</Input>
+          <Output Name="ProtoObject" SigID="3" Optional="false">7</Output>
+        </Effect>
+        <Effect ID="13" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">52</Input>
+        </Effect>
+        <Effect ID="41" Type="RandomTime v1" DBID="516" Version="1" CommentOut="false">
+          <Input Name="Min" SigID="1" Optional="true">28</Input>
+          <Input Name="Max" SigID="2" Optional="true">29</Input>
+          <Output Name="Random" SigID="3" Optional="false">25</Output>
+        </Effect>
+        <Effect ID="43" Type="RandomTime v1" DBID="516" Version="1" CommentOut="false">
+          <Input Name="Min" SigID="1" Optional="true">28</Input>
+          <Input Name="Max" SigID="2" Optional="true">30</Input>
+          <Output Name="Random" SigID="3" Optional="false">63</Output>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="11" Name="NewTrigger11" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="4558" Y="-1704" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="8" Type="CompareProtoObject v1" DBID="575" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="FirstProtoObject" SigID="1" Optional="false">7</Input>
+            <Input Name="CompareType" SigID="2" Optional="false">12</Input>
+            <Input Name="SecondProtoObject" SigID="3" Optional="false">4</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="28" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">53</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="15" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">69</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="18" Name="NewTrigger18" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="5752" Y="-2215" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="28" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">33</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">25</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="25" Type="BuildingCommand v4" DBID="559" Version="4" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="false">0</Input>
+          <Input Name="ProtoSquad" SigID="2" Optional="true">54</Input>
+          <Input Name="Tech" SigID="6" Optional="true">8</Input>
+          <Input Name="Count" SigID="3" Optional="true">55</Input>
+          <Input Name="NoCost" SigID="4" Optional="true">34</Input>
+          <Input Name="ProtoBuilding" SigID="7" Optional="true">56</Input>
+          <Input Name="Player" SigID="8" Optional="true">57</Input>
+          <Output Name="BuildingCommandState" SigID="5" Optional="true">58</Output>
+        </Effect>
+        <Effect ID="32" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">59</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="21" Name="NewTrigger21" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="8167" Y="-2413" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="23" Type="BuildingCommandDone v1" DBID="596" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="BuildingCommandState" SigID="1" Optional="false">58</Input>
+            <Output Name="Squad" SigID="2" Optional="true">60</Output>
+            <Output Name="SquadList" SigID="3" Optional="true">61</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="38" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">62</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="25" Name="NewTrigger25" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="9301" Y="-2628" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="34" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">33</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">63</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="26" Type="BuildingCommand v4" DBID="559" Version="4" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="false">0</Input>
+          <Input Name="ProtoSquad" SigID="2" Optional="true">64</Input>
+          <Input Name="Tech" SigID="6" Optional="true">10</Input>
+          <Input Name="Count" SigID="3" Optional="true">65</Input>
+          <Input Name="NoCost" SigID="4" Optional="true">34</Input>
+          <Input Name="ProtoBuilding" SigID="7" Optional="true">66</Input>
+          <Input Name="Player" SigID="8" Optional="true">67</Input>
+          <Output Name="BuildingCommandState" SigID="5" Optional="true">68</Output>
+        </Effect>
+        <Effect ID="40" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="12" Name="NewTrigger12" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="6134" Y="-1004" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="11" Type="CompareProtoObject v1" DBID="575" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="FirstProtoObject" SigID="1" Optional="false">7</Input>
+            <Input Name="CompareType" SigID="2" Optional="false">12</Input>
+            <Input Name="SecondProtoObject" SigID="3" Optional="false">6</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="30" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">70</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="17" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="20" Name="NewTrigger18" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="7454" Y="-1203" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="32" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">33</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">25</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="23" Type="BuildingCommand v4" DBID="559" Version="4" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="false">0</Input>
+          <Input Name="ProtoSquad" SigID="2" Optional="true">71</Input>
+          <Input Name="Tech" SigID="6" Optional="true">10</Input>
+          <Input Name="Count" SigID="3" Optional="true">72</Input>
+          <Input Name="NoCost" SigID="4" Optional="true">34</Input>
+          <Input Name="ProtoBuilding" SigID="7" Optional="true">73</Input>
+          <Input Name="Player" SigID="8" Optional="true">74</Input>
+          <Output Name="BuildingCommandState" SigID="5" Optional="true">75</Output>
+        </Effect>
+        <Effect ID="31" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
 </TriggerSystem>

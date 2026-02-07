@@ -5,7 +5,7 @@
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>300</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
-		<Projectile>fx_proj_rocket_01</Projectile>
+		<Projectile>fx_proj_rocket_banscrab_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
 		<MaxVelocityLead>18.4500008</MaxVelocityLead>
 		<MaxRange>70</MaxRange>

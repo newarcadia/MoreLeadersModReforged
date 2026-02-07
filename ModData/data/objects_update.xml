@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Objects>
+	<Object name="fx_proj_plasmaMortar_ad_02" id="0" dbid="59">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects\projectiles\cov\plasmamortar_02\plasmamortar_02.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>50</Velocity>
+		<Tactics>fx_proj_plasmaMortar_ad_02.tactics</Tactics>
+		<Lifespan>20</Lifespan>
+		<ObstructionRadiusX>0.100000001</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.100000001</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<Flag>HighArc</Flag>
+		<MaxProjectileHeight>10</MaxProjectileHeight>
+		<ImpactDecal sizeX="2" sizeZ="2" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\plasma_scorch01</ImpactDecal>
+	</Object>
+	<Object name="fx_proj_rocket_banscrab_01" id="0" dbid="2380">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects/projectiles/unsc/rocket_01/rocket_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>100</Velocity>
+		<Tactics>fx_proj_missile_01.tactics</Tactics>
+		<Lifespan>12</Lifespan>
+		<ObstructionRadiusX>0.100000001</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.100000001</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Tracking</Flag>
+		<TrackingDelay>0.400000006</TrackingDelay>
+		<TrackInterceptDistance>25</TrackInterceptDistance>
+		<StartingVelocity>10</StartingVelocity>
+		<Acceleration>30</Acceleration>
+		<Fuel>4</Fuel>
+		<TurnRate>180</TurnRate>
+		<Sound Type="StopExist">stop_fx_proj_missile_02</Sound>
+		<PerturbanceChance>0.25</PerturbanceChance>
+		<PerturbanceVelocity>15</PerturbanceVelocity>
+		<PerturbanceMinTime>0.0599999987</PerturbanceMinTime>
+		<PerturbanceMaxTime>0.100000001</PerturbanceMaxTime>
+		<ImpactDecal sizeX="2" sizeZ="2" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\missle_scorch01</ImpactDecal>
+	</Object>
 	<Object name="unsc_air_odstPod_01_player" id="0" dbid="3002">
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>unsc\air\odstPod_01\odstPod_01.vis</Visual>
@@ -93,7 +136,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>covenant\infantry\skirmisher_01\skirmisherAI_01.vis</Visual>
+		<Visual>covenant\infantry\skirmisher_01\skirmisherHero_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10124</DisplayNameID>
@@ -117,7 +160,7 @@
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
-		<Tactics>cov_inf_skirmisherAI_01.tactics</Tactics>
+		<Tactics>cov_inf_skirmisherAIhero_01.tactics</Tactics>
 		<RepairPoints>25</RepairPoints>
 		<ObstructionRadiusX>1.5</ObstructionRadiusX>
 		<ObstructionRadiusY>1.79999995</ObstructionRadiusY>
@@ -165,7 +208,7 @@
 	<Object name="cov_veh_locusthero_01" id="0" dbid="206">
 		<ObjectType>CanBeStunned</ObjectType>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>covenant\vehicle\locust_01\locust_01.vis</Visual>
+		<Visual>covenant\vehicle\locust_01\locust_hero_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_chimera</PortraitIcon>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<DisplayNameID>10158</DisplayNameID>
@@ -240,7 +283,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<ObjectClass>Squad</ObjectClass>
 		<PhysicsInfo>ghost</PhysicsInfo>
-		<Visual>covenant\vehicle\wraith_ultra_01\wraith_ultra_01.vis</Visual>
+		<Visual>covenant\vehicle\wraith_ultra_01\wraith_hero_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_wraith</PortraitIcon>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<DisplayNameID>10132</DisplayNameID>
@@ -319,7 +362,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>covenant\infantry_h2\brute\brute_hg_01.vis</Visual>
+		<Visual>covenant\infantry_h2\brute\brute_hero_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10122</DisplayNameID>

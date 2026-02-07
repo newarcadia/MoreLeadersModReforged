@@ -60,70 +60,12 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">9999</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_03" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="100,0,-20">cov_titan_superscarab_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="100,0,-20">cov_titan_phantom_gunship_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_bruteBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_bruteBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_bruteBerserker_02</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_bruteBerserker_02</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">flood_inf_brute_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">flood_inf_brute_honor_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,40">flood_inf_bruteBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,40">flood_inf_bruteBerserker_02</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,40">flood_inf_bruteBerserker_03</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,40">flood_inf_needlerelite_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,40">flood_inf_elite_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,40">flood_inf_eliteBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,40">flood_inf_eliteHonorBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,40">flood_inf_hereticBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,40">flood_inf_eliteHonorBerserker_cloak_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,40">flood_inf_hereticBerserker_cloak_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,40">flood_inf_needlerelite_cloak_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,50">cov_veh_spectre_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,50">cov_veh_spectre_wip_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,50">cov_veh_prowler_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,50">cov_veh_revenant_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,50">cov_veh_spectre_ce_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,50">cov_veh_spectre_ce_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,50">cov_veh_spectre_ce_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,40">flood_inf_marineBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,40">flood_inf_odstBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,40">flood_inf_marineBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,40">flood_inf_odstBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,40">flood_inf_marineBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,40">flood_inf_odstBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,40">flood_inf_marineBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,40">flood_inf_odstBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,40">flood_inf_marineBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,40">flood_inf_odstBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,40">flood_inf_marineBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,40">flood_inf_odstBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,40">flood_inf_marineBerserker_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,40">flood_inf_odstBerserker_01</StartingSquad>
-
-
-		<StartingSquad FlyIn="false" Offset="100,0,60">fld_inf_InfectedheavyinfantrySingle_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="100,0,60">fld_inf_Infectedheavyinfantry_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="100,0,60">fld_inf_infectedMarine_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="100,0,60">fld_inf_infectedOdst_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="100,0,60">flood_random_infectedmarine_pistol_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="100,0,60">flood_random_infectedmarine_sniper_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="100,0,60">flood_random_infectedmarine_gl_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="100,0,60">fld_inf_InfectedheavyinfantrySingle_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="100,0,60">fld_inf_Infectedheavyinfantry_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="100,0,60">fld_inf_infectedMarine_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="100,0,60">fld_inf_infectedOdst_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="100,0,60">flood_random_infectedmarine_pistol_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="100,0,60">flood_random_infectedmarine_sniper_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="100,0,60">flood_random_infectedmarine_gl_01</StartingSquad>
-
-
-		<StartingSquad FlyIn="false" Offset="100,0,60">fld_inf_infectedJackal_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="100,0,60">flood_inf_infectedJackal_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="100,0,60">flood_inf_infectedJackal_02</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="100,0,60">flood_random_plasmapistoljackal_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="100,0,60">flood_random_needlerJackal_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="100,0,60">flood_random_sniperJackal_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="100,0,-20">ban_veh_scarab_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,40">cov_inf_skirmisherAIhero_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,40">cov_veh_locusthero_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,40">cov_veh_wraith_hero_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,40">cov_inf_brutehero_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="70,0,40">cov_veh_wraith_ultra_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="70,0,40">cov_veh_wraith_ultra_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="70,0,40">cov_veh_wraith_ultra_01</StartingSquad>
@@ -151,8 +93,8 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_03" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_odst_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_odst_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_odst_01_player</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_odst_01_player</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>

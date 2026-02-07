@@ -384,6 +384,25 @@
 		</Effects>
 		<Flag>HiddenFromStats</Flag>
 	</Tech>
+	<Tech name="cov_heroboost" type="Normal">
+		<Status>OBTAINABLE</Status>
+		<Flag>HiddenFromStats</Flag>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="4" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_skirmisherAIhero_01</Target>
+				<Target type="ProtoSquad">cov_veh_locusthero_01</Target>
+				<Target type="ProtoSquad">cov_inf_brutehero_01</Target>
+				<Target type="ProtoSquad">cov_veh_wraith_hero_01</Target>
+			</Effect>
+			<Effect type="Data" amount="2" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_skirmisherAIhero_01</Target>
+				<Target type="ProtoUnit">cov_veh_locusthero_01</Target>
+				<Target type="ProtoUnit">cov_inf_brutehero_01</Target>
+				<Target type="ProtoUnit">cov_veh_wraith_hero_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="unlock_wraith_ultra" type="Normal">
 		<Status>OBTAINABLE</Status>
 		<Flag>HiddenFromStats</Flag>

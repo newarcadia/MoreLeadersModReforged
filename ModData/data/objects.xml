@@ -8690,7 +8690,7 @@
 		<BuildOffset>-7.5,0,0</BuildOffset>
 	</Object>
 	<Object name="cov_bldg_temple_02" id="0" dbid="3452">
-		<Ability>covenant\temple2.triggerscript</Ability>
+		<Ability>covenant\temple.triggerscript</Ability>
 		<ObjectClass>Building</ObjectClass>
 		<Visual>covenant\building\temple_02\temple_02.vis</Visual>
 		<PhysicsInfo>cov_bldg_temple_02</PhysicsInfo>
@@ -11297,7 +11297,7 @@
 		<Sound Type="Death">play_wraith_death</Sound>
 		<DamageType direction="Full">Medium</DamageType>
 		<Contain>Transportable</Contain>
-		<MaxContained>6</MaxContained>
+		<MaxContained>12</MaxContained>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>Flying</ObjectType>
@@ -11350,7 +11350,7 @@
 		<Sound Type="Death">play_wraith_death</Sound>
 		<DamageType direction="Full">Medium</DamageType>
 		<Contain>Transportable</Contain>
-		<MaxContained>6</MaxContained>
+		<MaxContained>12</MaxContained>
 		<AbilityCommand>UnscUnload</AbilityCommand>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Covenant</ObjectType>

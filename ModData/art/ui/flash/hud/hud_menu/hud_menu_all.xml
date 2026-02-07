@@ -219,6 +219,24 @@
 	<KeyFrame>queued</KeyFrame>
 	<KeyFrame>pc_off</KeyFrame>
 	<KeyFrame>pc_on</KeyFrame>
+	<Icon type="powericon" name="odstdrp" name2="specialPWR3" texture="art\ui\flash\shared\textures\unsc\icons\power\UnscODSTDrop" owner="UnscOdstDrop_Player">-1</Icon>
+	<Icon type="powericon" name="repair" name2="specialPWR2" texture="art\ui\flash\shared\textures\unsc\icons\power\UnscLeaderRepair" owner="CovLeaderRepair">-1</Icon>
+	<Icon type="powericon" name="spectre" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_veh_spectre_01" owner="ArbiterSupportDrop">-1</Icon>
+	<Icon type="powericon" name="cov_veh_wraith_ultra_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_veh_wraith_ultra_01" owner="Arbiter2ndSupportDrop">-1</Icon>
+	<Icon type="powericon" name="cov_veh_wraith_ultra_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_veh_wraith_hero_01" owner="ArbiterHeroDrop">-1</Icon>
+	<Icon type="uniticon" name="cov_veh_wraith_ultra_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_veh_wraith_hero_01" owner="cov_veh_wraith_hero_01">-1</Icon>
+	<Icon type="powericon" name="brute" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_brute_01" owner="BruteSupportDrop">-1</Icon>
+	<Icon type="powericon" name="prowler" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_veh_prowler_01" owner="Brute2ndSupportDrop">-1</Icon>
+	<Icon type="powericon" name="cov_veh_wraith_ultra_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_inf_brutehero_01" owner="BruteHeroDrop">-1</Icon>
+	<Icon type="uniticon" name="cov_veh_wraith_ultra_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_inf_brutehero_01" owner="cov_inf_brutehero_01">-1</Icon>
+	<Icon type="powericon" name="gruntD" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_gruntDeacon_01" owner="ProphetSupportDrop">-1</Icon>
+	<Icon type="powericon" name="revenant" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_veh_revenant_01" owner="Prophet2ndSupportDrop">-1</Icon>
+	<Icon type="powericon" name="elite" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_veh_locusthero_01" owner="ProphetHeroDrop">-1</Icon>
+	<Icon type="uniticon" name="elite" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_veh_locusthero_01" owner="cov_veh_locusthero_01">-1</Icon>
+	<Icon type="powericon" name="gutarider" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_gutarider_01" owner="JackalSupportDrop">-1</Icon>
+	<Icon type="powericon" name="cov_veh_spectre_ce_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_veh_spectre_ce_01" owner="Jackal2ndSupportDrop">-1</Icon>
+	<Icon type="powericon" name="skirmisherav" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_inf_skirmisherAIhero_01" owner="JackalHeroDrop">-1</Icon>
+	<Icon type="uniticon" name="skirmisherav" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_inf_skirmisherAIhero_01" owner="cov_inf_skirmisherAIhero_01">-1</Icon>
 	<Icon type="uniticon" name="cov_air_banshee_space_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_air_banshee_space_01" owner="cov_air_banshee_space_01">-1</Icon>
 	<Icon type="uniticon" name="cov_inf_brute_hg_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_inf_brute_hg_01" owner="cov_inf_brute_hg_01">-1</Icon>
 	<Icon type="uniticon" name="cov_inf_elite_pc_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\cov_inf_elite_pc_01" owner="cov_inf_elite_pc_01">-1</Icon>

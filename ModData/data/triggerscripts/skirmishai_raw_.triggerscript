@@ -75,6 +75,7 @@
     <TriggerVar ID="101" Type="Trigger" Name="NewTrigger6" IsNull="false">50</TriggerVar>
     <TriggerVar ID="102" Type="String" Name="NewString9" IsNull="false">skirmishai_new\skirmishai_cov.triggerscript</TriggerVar>
     <TriggerVar ID="103" Type="Tech" Name="NewTech21" IsNull="false">unsc_odst_upgrade1</TriggerVar>
+    <TriggerVar ID="104" Type="String" Name="NewString9" IsNull="false">skirmishai_new\ai_unlocktechs.triggerscript</TriggerVar>
   </TriggerVars>
   <Triggers>
     <Trigger ID="0" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="247" Y="-870" GroupID="-1" TemplateID="-1">
@@ -92,6 +93,19 @@
         </And>
       </TriggerConditions>
       <TriggerEffectsOnTrue>
+        <Effect ID="0" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
+          <Input Name="ScriptName" SigID="15" Optional="false">104</Input>
+          <Input Name="ExternalUnit" SigID="2" Optional="true">63</Input>
+          <Input Name="ExternalUnitList" SigID="3" Optional="true">64</Input>
+          <Input Name="ExternalSquad" SigID="4" Optional="true">65</Input>
+          <Input Name="ExternalSquadList" SigID="5" Optional="true">66</Input>
+          <Input Name="ExternalPlayer" SigID="6" Optional="true">0</Input>
+          <Input Name="ExternalPower" SigID="7" Optional="true">67</Input>
+          <Input Name="ExternalCost" SigID="8" Optional="true">1</Input>
+          <Input Name="ExternalLocation" SigID="11" Optional="true">68</Input>
+          <Input Name="ExternalLocationList" SigID="12" Optional="true">69</Input>
+          <Input Name="ExternalFloat" SigID="13" Optional="true">70</Input>
+        </Effect>
         <Effect ID="7" Type="RandomInt v1" DBID="178" Version="1" CommentOut="false">
           <Input Name="Min" SigID="1" Optional="true">14</Input>
           <Input Name="Max" SigID="2" Optional="true">16</Input>

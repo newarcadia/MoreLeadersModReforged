@@ -11580,6 +11580,9 @@
 		<TriggerVar ID="27492" Type="Trigger" Name="TriggerVar2216" IsNull="false">2676</TriggerVar>
 		<TriggerVar ID="27493" Type="Trigger" Name="TriggerVar2217" IsNull="false">2677</TriggerVar>
 		<TriggerVar ID="27494" Type="Trigger" Name="TriggerVar2218" IsNull="false">2678</TriggerVar>
+		<TriggerVar ID="27495" Type="Trigger" Name="TriggerVar2216" IsNull="false">5000</TriggerVar>
+		<TriggerVar ID="27496" Type="Trigger" Name="TriggerVar2217" IsNull="false">5001</TriggerVar>
+		<TriggerVar ID="27497" Type="Trigger" Name="TriggerVar2218" IsNull="false">5002</TriggerVar>
 	</TriggerVars>
 	<Triggers>
 		<Trigger ID="0" Name="start" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="206" Y="603" GroupID="-1" TemplateID="-1">
@@ -11737,6 +11740,9 @@
 				</Effect>
 				<Effect ID="3306" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
 					<Input Name="Trigger" SigID="1" Optional="false">5432</Input>
+				</Effect>
+				<Effect ID="3306" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">16438</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -17065,11 +17071,45 @@
 				</Effect>
 			</TriggerEffectsOnFalse>
 		</Trigger>
-		<Trigger ID="619" Name="newTrigger619" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3679" Y="1165" GroupID="15" TemplateID="-1">
+		<Trigger ID="619" Name="newTrigger619" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="3679" Y="1165" GroupID="15" TemplateID="-1">
 			<TriggerConditions>
-				<And />
+				<And>
+					<Condition ID="1" Type="CanGetUnits" DBID="2" Version="6" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FilterPlayer" SigID="3" Optional="true">69</Input>
+						<Input Name="FilterPlayerList" SigID="10" Optional="true">20961</Input>
+						<Input Name="FilterObjectType" SigID="4" Optional="true">20962</Input>
+						<Input Name="FilterLocation" SigID="1" Optional="true">21008</Input>
+						<Input Name="FilterDistance" SigID="2" Optional="true">20964</Input>
+						<Input Name="FilterBoxForward" SigID="11" Optional="true">20965</Input>
+						<Input Name="FilterBoxHalfX" SigID="13" Optional="true">20966</Input>
+						<Input Name="FilterBoxHalfY" SigID="14" Optional="true">20967</Input>
+						<Input Name="FilterBoxHalfZ" SigID="15" Optional="true">20968</Input>
+						<Input Name="FilterUnitList" SigID="9" Optional="true">20969</Input>
+						<Output Name="FoundUnits" SigID="8" Optional="true">20970</Output>
+						<Output Name="FoundUnitCount" SigID="6" Optional="true">20971</Output>
+					</Condition>
+				</And>
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
+				<Effect ID="8207" Type="GetClosestUnit" DBID="939" Version="1" CommentOut="false">
+					<Input Name="UnitList" SigID="1" Optional="false">20970</Input>
+					<Input Name="TestLocation" SigID="2" Optional="false">20997</Input>
+					<Output Name="ClosestUnit" SigID="4" Optional="false">20973</Output>
+				</Effect>
+				<Effect ID="2" Type="GetLocation" DBID="189" Version="2" CommentOut="false">
+					<Input Name="Unit" SigID="1" Optional="true">20973</Input>
+					<Input Name="Squad" SigID="2" Optional="true">20974</Input>
+					<Input Name="Object" SigID="4" Optional="true">20975</Input>
+					<Output Name="OutputLocation" SigID="3" Optional="false">20976</Output>
+				</Effect>
+				<Effect ID="1" Type="RallyPointSet" DBID="717" Version="2" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">69</Input>
+					<Input Name="Location" SigID="2" Optional="false">20976</Input>
+					<Input Name="Base" SigID="3" Optional="true">20959</Input>
+					<Input Name="RallyTargetUnit" SigID="4" Optional="true">20973</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
 				<Effect ID="2946" Type="LerpLocation" DBID="294" Version="1" CommentOut="false">
 					<Input Name="Location1" SigID="1" Optional="false">519</Input>
 					<Input Name="Location2" SigID="2" Optional="false">4352</Input>
@@ -17089,8 +17129,7 @@
 					<Input Name="Base" SigID="3" Optional="true">21866</Input>
 					<Input Name="RallyTargetUnit" SigID="4" Optional="true">21867</Input>
 				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
+			</TriggerEffectsOnFalse>
 		</Trigger>
 		<Trigger ID="620" Name="CenterOfMapCalculation" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1396" Y="838" GroupID="1" TemplateID="-1">
 			<TriggerConditions>
@@ -18794,11 +18833,45 @@
 				</Effect>
 			</TriggerEffectsOnFalse>
 		</Trigger>
-		<Trigger ID="872" Name="Set Rally Point" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2799" Y="801" GroupID="15" TemplateID="-1">
+		<Trigger ID="872" Name="Set Rally Point" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="2799" Y="801" GroupID="15" TemplateID="-1">
 			<TriggerConditions>
-				<And />
+				<And>
+					<Condition ID="1" Type="CanGetUnits" DBID="2" Version="6" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FilterPlayer" SigID="3" Optional="true">69</Input>
+						<Input Name="FilterPlayerList" SigID="10" Optional="true">20961</Input>
+						<Input Name="FilterObjectType" SigID="4" Optional="true">20962</Input>
+						<Input Name="FilterLocation" SigID="1" Optional="true">21008</Input>
+						<Input Name="FilterDistance" SigID="2" Optional="true">20964</Input>
+						<Input Name="FilterBoxForward" SigID="11" Optional="true">20965</Input>
+						<Input Name="FilterBoxHalfX" SigID="13" Optional="true">20966</Input>
+						<Input Name="FilterBoxHalfY" SigID="14" Optional="true">20967</Input>
+						<Input Name="FilterBoxHalfZ" SigID="15" Optional="true">20968</Input>
+						<Input Name="FilterUnitList" SigID="9" Optional="true">20969</Input>
+						<Output Name="FoundUnits" SigID="8" Optional="true">20970</Output>
+						<Output Name="FoundUnitCount" SigID="6" Optional="true">20971</Output>
+					</Condition>
+				</And>
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
+				<Effect ID="8207" Type="GetClosestUnit" DBID="939" Version="1" CommentOut="false">
+					<Input Name="UnitList" SigID="1" Optional="false">20970</Input>
+					<Input Name="TestLocation" SigID="2" Optional="false">20997</Input>
+					<Output Name="ClosestUnit" SigID="4" Optional="false">20973</Output>
+				</Effect>
+				<Effect ID="2" Type="GetLocation" DBID="189" Version="2" CommentOut="false">
+					<Input Name="Unit" SigID="1" Optional="true">20973</Input>
+					<Input Name="Squad" SigID="2" Optional="true">20974</Input>
+					<Input Name="Object" SigID="4" Optional="true">20975</Input>
+					<Output Name="OutputLocation" SigID="3" Optional="false">20976</Output>
+				</Effect>
+				<Effect ID="1" Type="RallyPointSet" DBID="717" Version="2" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">69</Input>
+					<Input Name="Location" SigID="2" Optional="false">20976</Input>
+					<Input Name="Base" SigID="3" Optional="true">20959</Input>
+					<Input Name="RallyTargetUnit" SigID="4" Optional="true">20973</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
 				<Effect ID="3772" Type="CopyLocation" DBID="99" Version="1" CommentOut="false">
 					<Input Name="LocationSource" SigID="1" Optional="false">6724</Input>
 					<Output Name="LocationCopy" SigID="2" Optional="false">4305</Output>
@@ -18822,8 +18895,7 @@
 					<Input Name="AttackMove" SigID="8" Optional="true">6712</Input>
 					<Input Name="QueueOrder" SigID="9" Optional="true">6680</Input>
 				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
+			</TriggerEffectsOnFalse>
 		</Trigger>
 		<Trigger ID="873" Name="find rally point 3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="2762" Y="627" GroupID="15" TemplateID="-1">
 			<TriggerConditions>
@@ -24115,11 +24187,45 @@
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="1490" Name="Move reserves" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3493" Y="483" GroupID="34" TemplateID="-1">
+		<Trigger ID="1490" Name="Move reserves" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="3493" Y="483" GroupID="34" TemplateID="-1">
 			<TriggerConditions>
-				<And />
+				<And>
+					<Condition ID="1" Type="CanGetUnits" DBID="2" Version="6" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FilterPlayer" SigID="3" Optional="true">69</Input>
+						<Input Name="FilterPlayerList" SigID="10" Optional="true">20961</Input>
+						<Input Name="FilterObjectType" SigID="4" Optional="true">20962</Input>
+						<Input Name="FilterLocation" SigID="1" Optional="true">21008</Input>
+						<Input Name="FilterDistance" SigID="2" Optional="true">20964</Input>
+						<Input Name="FilterBoxForward" SigID="11" Optional="true">20965</Input>
+						<Input Name="FilterBoxHalfX" SigID="13" Optional="true">20966</Input>
+						<Input Name="FilterBoxHalfY" SigID="14" Optional="true">20967</Input>
+						<Input Name="FilterBoxHalfZ" SigID="15" Optional="true">20968</Input>
+						<Input Name="FilterUnitList" SigID="9" Optional="true">20969</Input>
+						<Output Name="FoundUnits" SigID="8" Optional="true">20970</Output>
+						<Output Name="FoundUnitCount" SigID="6" Optional="true">20971</Output>
+					</Condition>
+				</And>
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
+				<Effect ID="8207" Type="GetClosestUnit" DBID="939" Version="1" CommentOut="false">
+					<Input Name="UnitList" SigID="1" Optional="false">20970</Input>
+					<Input Name="TestLocation" SigID="2" Optional="false">20997</Input>
+					<Output Name="ClosestUnit" SigID="4" Optional="false">20973</Output>
+				</Effect>
+				<Effect ID="2" Type="GetLocation" DBID="189" Version="2" CommentOut="false">
+					<Input Name="Unit" SigID="1" Optional="true">20973</Input>
+					<Input Name="Squad" SigID="2" Optional="true">20974</Input>
+					<Input Name="Object" SigID="4" Optional="true">20975</Input>
+					<Output Name="OutputLocation" SigID="3" Optional="false">20976</Output>
+				</Effect>
+				<Effect ID="1" Type="RallyPointSet" DBID="717" Version="2" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">69</Input>
+					<Input Name="Location" SigID="2" Optional="false">20976</Input>
+					<Input Name="Base" SigID="3" Optional="true">20959</Input>
+					<Input Name="RallyTargetUnit" SigID="4" Optional="true">20973</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
 				<Effect ID="5517" Type="CopyBool" DBID="102" Version="1" CommentOut="false">
 					<Input Name="BoolSource" SigID="1" Optional="false">11834</Input>
 					<Output Name="BoolCopy" SigID="2" Optional="false">11828</Output>
@@ -24147,8 +24253,7 @@
 					<Input Name="IntSource" SigID="1" Optional="false">13208</Input>
 					<Output Name="IntCopy" SigID="2" Optional="false">13087</Output>
 				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
+			</TriggerEffectsOnFalse>
 		</Trigger>
 		<Trigger ID="1491" Name="newTrigger1491" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="755" Y="2242" GroupID="23" TemplateID="-1">
 			<TriggerConditions>
@@ -31388,19 +31493,52 @@
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="2095" Name="newTrigger2095" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3064" Y="693" GroupID="1" TemplateID="-1">
+		<Trigger ID="2095" Name="newTrigger2095" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="3064" Y="693" GroupID="1" TemplateID="-1">
 			<TriggerConditions>
-				<And />
+				<And>
+					<Condition ID="1" Type="CanGetUnits" DBID="2" Version="6" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FilterPlayer" SigID="3" Optional="true">69</Input>
+						<Input Name="FilterPlayerList" SigID="10" Optional="true">20961</Input>
+						<Input Name="FilterObjectType" SigID="4" Optional="true">20962</Input>
+						<Input Name="FilterLocation" SigID="1" Optional="true">21008</Input>
+						<Input Name="FilterDistance" SigID="2" Optional="true">20964</Input>
+						<Input Name="FilterBoxForward" SigID="11" Optional="true">20965</Input>
+						<Input Name="FilterBoxHalfX" SigID="13" Optional="true">20966</Input>
+						<Input Name="FilterBoxHalfY" SigID="14" Optional="true">20967</Input>
+						<Input Name="FilterBoxHalfZ" SigID="15" Optional="true">20968</Input>
+						<Input Name="FilterUnitList" SigID="9" Optional="true">20969</Input>
+						<Output Name="FoundUnits" SigID="8" Optional="true">20970</Output>
+						<Output Name="FoundUnitCount" SigID="6" Optional="true">20971</Output>
+					</Condition>
+				</And>
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
+				<Effect ID="8207" Type="GetClosestUnit" DBID="939" Version="1" CommentOut="false">
+					<Input Name="UnitList" SigID="1" Optional="false">20970</Input>
+					<Input Name="TestLocation" SigID="2" Optional="false">20997</Input>
+					<Output Name="ClosestUnit" SigID="4" Optional="false">20973</Output>
+				</Effect>
+				<Effect ID="2" Type="GetLocation" DBID="189" Version="2" CommentOut="false">
+					<Input Name="Unit" SigID="1" Optional="true">20973</Input>
+					<Input Name="Squad" SigID="2" Optional="true">20974</Input>
+					<Input Name="Object" SigID="4" Optional="true">20975</Input>
+					<Output Name="OutputLocation" SigID="3" Optional="false">20976</Output>
+				</Effect>
+				<Effect ID="1" Type="RallyPointSet" DBID="717" Version="2" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">69</Input>
+					<Input Name="Location" SigID="2" Optional="false">20976</Input>
+					<Input Name="Base" SigID="3" Optional="true">20959</Input>
+					<Input Name="RallyTargetUnit" SigID="4" Optional="true">20973</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
 				<Effect ID="8485" Type="RallyPointSet" DBID="717" Version="2" CommentOut="false">
 					<Input Name="Player" SigID="1" Optional="false">69</Input>
 					<Input Name="Location" SigID="2" Optional="false">6814</Input>
 					<Input Name="Base" SigID="3" Optional="true">22043</Input>
 					<Input Name="RallyTargetUnit" SigID="4" Optional="true">22044</Input>
 				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
+			</TriggerEffectsOnFalse>
 		</Trigger>
 		<Trigger ID="2098" Name="Filter out squads we don't own" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1506" Y="1404" GroupID="3" TemplateID="-1">
 			<TriggerConditions>
@@ -50250,6 +50388,101 @@
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="5000" Name="newTrigger2497" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1042" Y="1115" GroupID="14" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="2262" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="CompareType" SigID="1" Optional="false">20941</Input>
+						<Input Name="CompareTime" SigID="2" Optional="false">20942</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="8196" Type="UnitListFilter" DBID="349" Version="1" CommentOut="false">
+					<Input Name="SourceUnitList" SigID="1" Optional="false">4013</Input>
+					<Input Name="EntityFilterSet" SigID="2" Optional="false">20951</Input>
+					<Output Name="PassedUnitList" SigID="3" Optional="true">20956</Output>
+					<Output Name="FailedUnitList" SigID="4" Optional="true">20955</Output>
+				</Effect>
+				<Effect ID="8197" Type="IteratorUnitList" DBID="152" Version="1" CommentOut="false">
+					<Input Name="UnitList" SigID="1" Optional="false">20956</Input>
+					<Output Name="InitializedIterator" SigID="2" Optional="false">20957</Output>
+				</Effect>
+				<Effect ID="9017" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">27496</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="5001" Name="newTrigger2499" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1906" Y="1073" GroupID="14" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="2264" Type="NextUnit" DBID="140" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="UnitIterator" SigID="1" Optional="false">20957</Input>
+						<Output Name="NextUnit" SigID="2" Optional="false">20959</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="8199" Type="GetLocation" DBID="189" Version="2" CommentOut="false">
+					<Input Name="Unit" SigID="1" Optional="true">20959</Input>
+					<Input Name="Squad" SigID="2" Optional="true">20995</Input>
+					<Input Name="Object" SigID="4" Optional="true">20996</Input>
+					<Output Name="OutputLocation" SigID="3" Optional="false">20997</Output>
+				</Effect>
+				<Effect ID="8198" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">27497</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="5002" Name="newTrigger1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1912" Y="1283" GroupID="14" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="1" Type="CanGetUnits" DBID="2" Version="6" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FilterPlayer" SigID="3" Optional="true">69</Input>
+						<Input Name="FilterPlayerList" SigID="10" Optional="true">20961</Input>
+						<Input Name="FilterObjectType" SigID="4" Optional="true">20962</Input>
+						<Input Name="FilterLocation" SigID="1" Optional="true">21008</Input>
+						<Input Name="FilterDistance" SigID="2" Optional="true">20964</Input>
+						<Input Name="FilterBoxForward" SigID="11" Optional="true">20965</Input>
+						<Input Name="FilterBoxHalfX" SigID="13" Optional="true">20966</Input>
+						<Input Name="FilterBoxHalfY" SigID="14" Optional="true">20967</Input>
+						<Input Name="FilterBoxHalfZ" SigID="15" Optional="true">20968</Input>
+						<Input Name="FilterUnitList" SigID="9" Optional="true">20969</Input>
+						<Output Name="FoundUnits" SigID="8" Optional="true">20970</Output>
+						<Output Name="FoundUnitCount" SigID="6" Optional="true">20971</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="8207" Type="GetClosestUnit" DBID="939" Version="1" CommentOut="false">
+					<Input Name="UnitList" SigID="1" Optional="false">20970</Input>
+					<Input Name="TestLocation" SigID="2" Optional="false">20997</Input>
+					<Output Name="ClosestUnit" SigID="4" Optional="false">20973</Output>
+				</Effect>
+				<Effect ID="2" Type="GetLocation" DBID="189" Version="2" CommentOut="false">
+					<Input Name="Unit" SigID="1" Optional="true">20973</Input>
+					<Input Name="Squad" SigID="2" Optional="true">20974</Input>
+					<Input Name="Object" SigID="4" Optional="true">20975</Input>
+					<Output Name="OutputLocation" SigID="3" Optional="false">20976</Output>
+				</Effect>
+				<Effect ID="1" Type="RallyPointSet" DBID="717" Version="2" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">69</Input>
+					<Input Name="Location" SigID="2" Optional="false">20976</Input>
+					<Input Name="Base" SigID="3" Optional="true">20959</Input>
+					<Input Name="RallyTargetUnit" SigID="4" Optional="true">20973</Input>
+				</Effect>
+				<Effect ID="8200" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">27496</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="8201" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">27496</Input>
+				</Effect>
+			</TriggerEffectsOnFalse>
 		</Trigger>
 	</Triggers>
 </TriggerSystem>
