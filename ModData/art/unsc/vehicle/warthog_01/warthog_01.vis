@@ -8,8 +8,8 @@
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>unsc\vehicle\warthog_01\warthog_damagelce_01</file>
-						<damagefile>unsc\vehicle\warthog_01\warthog_01</damagefile>
+						<file>creep\insurrectionists\spade_01\spade_01</file>
+						<damagefile>creep\insurrectionists\spade_01\spade_01</damagefile>
 					</asset>
 				</logicdata>
 				<logicdata value="" modelref="" weight="1">
@@ -306,29 +306,65 @@
 	<model name="Turret">
 		<component>
 			<logic type="Tech">
-				<logicdata value="Unsc_warthog_upgrade3" modelref="" weight="1">
-					<asset type="Model">
-						<uvOffset channel="0" uOfs="0" vOfs="0" />
-						<uvOffset channel="1" uOfs="0" vOfs="0" />
-						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>unsc\vehicle\warthog_01\mg_turret</file>
-					</asset>
+				<logicdata value="unsc_warthog_upgrade3" modelref="Gunner" weight="1">
+					<logic type="Tech">
+						<logicdata value="creep_LeaderBork" modelref="" weight="1">
+							<asset type="Model">
+								<uvOffset channel="0" uOfs="0" vOfs="0" />
+								<uvOffset channel="1" uOfs="0" vOfs="0" />
+								<uvOffset channel="2" uOfs="0" vOfs="0" />
+								<file>creep\insurrectionists\spade_01\turret_01</file>
+							</asset>
+						</logicdata>
+						<logicdata value="" modelref="" weight="1">
+							<asset type="Model">
+								<uvOffset channel="0" uOfs="0" vOfs="0" />
+								<uvOffset channel="1" uOfs="0" vOfs="0" />
+								<uvOffset channel="2" uOfs="0" vOfs="0" />
+								<file>unsc\vehicle\warthog_01\mg_turret</file>
+							</asset>
+						</logicdata>
+					</logic>
 				</logicdata>
-				<logicdata value="Unsc_warthog_upgrade2" modelref="" weight="1">
-					<asset type="Model">
-						<uvOffset channel="0" uOfs="0" vOfs="0" />
-						<uvOffset channel="1" uOfs="0" vOfs="0" />
-						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>unsc\vehicle\warthog_01\mg_turret</file>
-					</asset>
+				<logicdata value="unsc_warthog_upgrade2" modelref="Gunner" weight="1">
+					<logic type="Tech">
+						<logicdata value="creep_LeaderBork" modelref="" weight="1">
+							<asset type="Model">
+								<uvOffset channel="0" uOfs="0" vOfs="0" />
+								<uvOffset channel="1" uOfs="0" vOfs="0" />
+								<uvOffset channel="2" uOfs="0" vOfs="0" />
+								<file>creep\insurrectionists\spade_01\turret_01</file>
+							</asset>
+						</logicdata>
+						<logicdata value="" modelref="" weight="1">
+							<asset type="Model">
+								<uvOffset channel="0" uOfs="0" vOfs="0" />
+								<uvOffset channel="1" uOfs="0" vOfs="0" />
+								<uvOffset channel="2" uOfs="0" vOfs="0" />
+								<file>unsc\vehicle\warthog_01\mg_turret</file>
+							</asset>
+						</logicdata>
+					</logic>
 				</logicdata>
-				<logicdata value="Unsc_warthog_upgrade1" modelref="" weight="1">
-					<asset type="Model">
-						<uvOffset channel="0" uOfs="0" vOfs="0" />
-						<uvOffset channel="1" uOfs="0" vOfs="0" />
-						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>unsc\vehicle\warthog_01\mg_turret</file>
-					</asset>
+				<logicdata value="unsc_warthog_upgrade1" modelref="Gunner" weight="1">
+					<logic type="Tech">
+						<logicdata value="creep_LeaderBork" modelref="" weight="1">
+							<asset type="Model">
+								<uvOffset channel="0" uOfs="0" vOfs="0" />
+								<uvOffset channel="1" uOfs="0" vOfs="0" />
+								<uvOffset channel="2" uOfs="0" vOfs="0" />
+								<file>creep\insurrectionists\spade_01\turret_01</file>
+							</asset>
+						</logicdata>
+						<logicdata value="" modelref="" weight="1">
+							<asset type="Model">
+								<uvOffset channel="0" uOfs="0" vOfs="0" />
+								<uvOffset channel="1" uOfs="0" vOfs="0" />
+								<uvOffset channel="2" uOfs="0" vOfs="0" />
+								<file>unsc\vehicle\warthog_01\mg_turret</file>
+							</asset>
+						</logicdata>
+					</logic>
 				</logicdata>
 				<logicdata value="" modelref="" weight="1">
 					<asset type="Model">
@@ -352,29 +388,65 @@
 	<model name="Turretgun">
 		<component>
 			<logic type="Tech">
-				<logicdata value="Unsc_warthog_upgrade3" modelref="" weight="1">
-					<asset type="Model">
-						<uvOffset channel="0" uOfs="0" vOfs="0" />
-						<uvOffset channel="1" uOfs="0" vOfs="0" />
-						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>unsc\vehicle\warthog_01\warthog_gauss_01</file>
-					</asset>
+				<logicdata value="unsc_warthog_upgrade3" modelref="Gunner" weight="1">
+					<logic type="Tech">
+						<logicdata value="creep_LeaderBork" modelref="" weight="1">
+							<asset type="Model">
+								<uvOffset channel="0" uOfs="0" vOfs="0" />
+								<uvOffset channel="1" uOfs="0" vOfs="0" />
+								<uvOffset channel="2" uOfs="0" vOfs="0" />
+								<file>creep\insurrectionists\spade_01\grenade_launcher_01</file>
+							</asset>
+						</logicdata>
+						<logicdata value="" modelref="" weight="1">
+							<asset type="Model">
+								<uvOffset channel="0" uOfs="0" vOfs="0" />
+								<uvOffset channel="1" uOfs="0" vOfs="0" />
+								<uvOffset channel="2" uOfs="0" vOfs="0" />
+								<file>unsc\vehicle\warthog_01\warthog_gauss_01</file>
+							</asset>
+						</logicdata>
+					</logic>
 				</logicdata>
-				<logicdata value="Unsc_warthog_upgrade2" modelref="" weight="1">
-					<asset type="Model">
-						<uvOffset channel="0" uOfs="0" vOfs="0" />
-						<uvOffset channel="1" uOfs="0" vOfs="0" />
-						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>unsc\vehicle\warthog_01\mg_gun</file>
-					</asset>
+				<logicdata value="unsc_warthog_upgrade2" modelref="Gunner" weight="1">
+					<logic type="Tech">
+						<logicdata value="creep_LeaderBork" modelref="" weight="1">
+							<asset type="Model">
+								<uvOffset channel="0" uOfs="0" vOfs="0" />
+								<uvOffset channel="1" uOfs="0" vOfs="0" />
+								<uvOffset channel="2" uOfs="0" vOfs="0" />
+								<file>creep\insurrectionists\spade_01\gun_01</file>
+							</asset>
+						</logicdata>
+						<logicdata value="" modelref="" weight="1">
+							<asset type="Model">
+								<uvOffset channel="0" uOfs="0" vOfs="0" />
+								<uvOffset channel="1" uOfs="0" vOfs="0" />
+								<uvOffset channel="2" uOfs="0" vOfs="0" />
+								<file>unsc\vehicle\warthog_01\mg_gun</file>
+							</asset>
+						</logicdata>
+					</logic>
 				</logicdata>
-				<logicdata value="Unsc_warthog_upgrade1" modelref="" weight="1">
-					<asset type="Model">
-						<uvOffset channel="0" uOfs="0" vOfs="0" />
-						<uvOffset channel="1" uOfs="0" vOfs="0" />
-						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>unsc\vehicle\warthog_01\mg_gun</file>
-					</asset>
+				<logicdata value="unsc_warthog_upgrade1" modelref="Gunner" weight="1">
+					<logic type="Tech">
+						<logicdata value="creep_LeaderBork" modelref="" weight="1">
+							<asset type="Model">
+								<uvOffset channel="0" uOfs="0" vOfs="0" />
+								<uvOffset channel="1" uOfs="0" vOfs="0" />
+								<uvOffset channel="2" uOfs="0" vOfs="0" />
+								<file>creep\insurrectionists\spade_01\gun_01</file>
+							</asset>
+						</logicdata>
+						<logicdata value="" modelref="" weight="1">
+							<asset type="Model">
+								<uvOffset channel="0" uOfs="0" vOfs="0" />
+								<uvOffset channel="1" uOfs="0" vOfs="0" />
+								<uvOffset channel="2" uOfs="0" vOfs="0" />
+								<file>unsc\vehicle\warthog_01\mg_gun</file>
+							</asset>
+						</logicdata>
+					</logic>
 				</logicdata>
 				<logicdata value="" modelref="" weight="1">
 					<asset type="Model">

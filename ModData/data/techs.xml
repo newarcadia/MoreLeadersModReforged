@@ -576,6 +576,10 @@
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
 				<Target type="ProtoUnit">cov_inf_elite_01</Target>
 				<Target type="ProtoUnit">cov_inf_needlerelite_01</Target>
+				<Target type="ProtoUnit">fore_inf_walker_01</Target>
+				<Target type="ProtoUnit">fore_inf_walker_02</Target>
+				<Target type="ProtoUnit">fore_inf_walker_gold_01</Target>
+				<Target type="ProtoUnit">fore_inf_walker_gold_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="RamAttack" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
@@ -791,6 +795,90 @@
 				<Target type="ProtoSquad">unsc_inf_spartanjerome_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartandouglas_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartanalice_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="creep_inf_marine_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_marine_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_marine_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_marine_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="creep_inf_badger_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_badger_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_badger_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_badger_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="creep_inf_empmarine_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_empmarine_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_empmarine_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_empmarine_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="creep_veh_tank_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_tank_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_tank_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_tank_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="creep_veh_havok_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_havok_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_havok_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_havok_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="creep_air_wasp_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_airPad_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_wasp_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_airPad_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_wasp_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_airPad_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_wasp_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_airPad_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="creep_air_gunship_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_airPad_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_gunship_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_airPad_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_gunship_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_airPad_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="creep_gunship_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_airPad_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_mantis_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
@@ -2152,36 +2240,22 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="machineGunAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
-				<Target type="ProtoUnit">creep_veh_havok_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
-				<Target type="ProtoUnit">creep_veh_havok_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
-				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
-				<Target type="ProtoUnit">creep_veh_havok_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
-				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
-				<Target type="ProtoUnit">creep_veh_havok_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="machineGunAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
 			</Effect>
 		</Effects>
@@ -2209,29 +2283,18 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="GrenadeLauncherAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
-				<Target type="ProtoUnit">creep_veh_havok_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
-				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
-				<Target type="ProtoUnit">creep_veh_havok_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
-				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
-				<Target type="ProtoUnit">creep_veh_havok_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="GrenadeLauncherAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
 			</Effect>
 		</Effects>
@@ -2259,38 +2322,26 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="machineGunAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="GaussCannonAttackAction" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
-				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
-				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="machineGunAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="GaussCannonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
 			</Effect>
 		</Effects>

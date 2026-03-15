@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="built">
+	<model name="built">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>forerunner\building\base_01\base_damaged_01</file>
+				<damagefile>forerunner\building\base_01\base_01</damagefile>
+			</asset>
+		</component>
+	</model>
+</visual>

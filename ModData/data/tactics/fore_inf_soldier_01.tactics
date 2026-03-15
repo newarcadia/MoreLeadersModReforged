@@ -41,6 +41,7 @@
 		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<VisualAmmo>26</VisualAmmo>
+		<Daze TargetType="Unit" MovementModifier="0" SmartTargeting="true">0.5f</Daze>
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="Aircraft">5</TargetPriority>
 		<TargetPriority type="Building">-3</TargetPriority>

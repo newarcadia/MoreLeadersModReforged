@@ -31,6 +31,16 @@
 		<NPC />
 	</GameMode>
 	<GameMode>
+		<Name>Uncapped</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>uncappedPlayer.triggerscript</PlayerScript>
+		<Tech>uc_mode</Tech>
+		<DisplayNameID>53024</DisplayNameID>
+		<DescriptionID>53025</DescriptionID>
+		<LongDescriptionID>53025</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
 		<Name>RuneWars</Name>
 		<WorldScript>VanillaPlus\RuneWars\RuneWarsWorld.triggerscript</WorldScript>
 		<PlayerScript>SkirmishPlayer.triggerscript</PlayerScript>

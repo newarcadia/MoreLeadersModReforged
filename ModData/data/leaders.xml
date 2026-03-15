@@ -46,7 +46,7 @@
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\random.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leader_pict_random.ddx</UIControlBackground>
 	</Leader>
-	<Leader Name="TestLeader" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="17">
+	<!--Leader Name="TestLeader" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="17">
 		<Civ>UNSC</Civ>
 		<Tech>unsc_LeaderCutter</Tech>
 		<NameID>42724</NameID>
@@ -70,6 +70,28 @@
 		<StartingSquad FlyIn="false" Offset="70,0,40">cov_veh_wraith_ultra_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="70,0,40">cov_veh_wraith_ultra_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="70,0,40">cov_veh_wraith_ultra_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_badger_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_badger_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_badger_02</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_badger_test_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_veh_tank_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_badger_test_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_veh_tank_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_air_gunship_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_air_gunship_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_veh_spade_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_veh_spade_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_veh_spade_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_mongoose_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_mongoose_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_air_wasp_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_air_wasp_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_air_wasp_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_air_wasp_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_air_wasp_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_veh_mongoose_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_veh_mongoose_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_veh_mongoose_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -78,7 +100,7 @@
 		<Pop Type="Unit" Max="999">999</Pop>
 		<Pop Type="Spartan" Max="999">999</Pop>
 		<Pop Type="Leader" Max="999">999</Pop>
-	</Leader>
+	</Leader-->
 	<Leader Name="Cutter" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="2" StatsID="1" DefaultPlayerSlotFlags="0x81">
 		<Civ>UNSC</Civ>
 		<Tech>unsc_LeaderCutter</Tech>
@@ -449,8 +471,51 @@
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="60">40</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
+		<Pop Type="Temple" Max="3">3</Pop>
 	</Leader>
-	<Leader Name="Insurry" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" LeaderPickerOrder="16" StatsID="3" DefaultPlayerSlotFlags="0x4">
+	<Leader Name="Spectator" LeaderPickerOrder="16" Random="false">
+		<Civ>UNSC</Civ>
+		<Tech>spectator_leader</Tech>
+		<NameID>42716</NameID>
+		<DescriptionID>42717</DescriptionID>
+		<FlashCivID>0</FlashCivID>
+		<FlashPortrait>img://art\ui\flash\shared\textures\leaders\leaderpict_spec.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leaderpict_specbanner.ddx</UIControlBackground>
+	</Leader>
+	<!--Leader Name="Insurry" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" LeaderPickerOrder="16" StatsID="3" DefaultPlayerSlotFlags="0x4">
+		<Civ>UNSC</Civ>
+		<Tech>creep_LeaderBork</Tech>
+		<NameID>42720</NameID>
+		<DescriptionID>42721</DescriptionID>
+		<FlashCivID>4</FlashCivID>
+		<FlashImg>oni</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\leaders\leaderpict_rebel.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leaderpict_rebelbanner.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="suc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_veh_mongoose_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_veh_spade_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_inf_marine_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_inf_badger_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_inf_empmarine_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_veh_tank_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_veh_havok_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_air_wasp_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">suc_air_raven_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_air_gunship_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="70">40</Pop>
+		<Pop Type="Spartan" Max="25">1</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+	</Leader-->
+	<!--Leader Name="Insurry" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" LeaderPickerOrder="16" StatsID="3" DefaultPlayerSlotFlags="0x4">
 		<Civ>UNSC</Civ>
 		<Tech>creep_LeaderBork</Tech>
 		<NameID>42720</NameID>
@@ -474,7 +539,7 @@
 		<Pop Type="Unit" Max="60">30</Pop>
 		<Pop Type="Spartan" Max="25">1</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
-	</Leader>
+	</Leader-->
 	<!--Leader Name="Johnson" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="14" StatsID="1">
 		<Civ>UNSC</Civ>
 		<Tech>unsc_LeaderJohnson</Tech>

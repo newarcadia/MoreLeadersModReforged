@@ -101,6 +101,7 @@
 	<KeyFrame>UNSC_res</KeyFrame>
 	<KeyFrame>COV_res</KeyFrame>
 	<!-- VanillaPlus -->
+	<Icon type="objectIcon" name="Icon12" owner="for_bldg_minibuilder_01" priority="50" SizeX="15" SizeY="15" allowPlayerColor="true">-1</Icon>
 	<Icon type="objectIcon" name="Icon51" owner="runewars_range" priority="160" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
 	<Icon type="objectIcon" name="Icon51" owner="runewars_damage" priority="160" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
 	<Icon type="objectIcon" name="Icon51" owner="runewars_accuracy" priority="160" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>

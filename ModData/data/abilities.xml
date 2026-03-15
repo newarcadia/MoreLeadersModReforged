@@ -264,7 +264,7 @@
 		<KeepSquadMode>true</KeepSquadMode>
 		<TargetType>UnitOrLocation</TargetType>
 		<RecoverType>Ability</RecoverType>
-		<RecoverTime>60</RecoverTime>
+		<RecoverTime>120</RecoverTime>
 		<Duration>30</Duration>
 		<DamageTakenModifier>0.5</DamageTakenModifier>
 		<NoAbilityReticle>true</NoAbilityReticle>

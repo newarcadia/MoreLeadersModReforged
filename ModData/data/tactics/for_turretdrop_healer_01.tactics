@@ -4,11 +4,11 @@
 		<Name>RepairOther</Name>
 		<ActionType>RepairOther</ActionType>
 		<Anim>Repair</Anim>
-		<WorkRange>40</WorkRange>
-		<WorkRate>0.15</WorkRate>
+		<WorkRange>80</WorkRange>
+		<WorkRate>0.35</WorkRate>
 		<Hardpoint>Turret</Hardpoint>
 		<AllowReinforce />
-		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99000001" AutoRepairSearchDistance="40" />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99000001" AutoRepairSearchDistance="80" />
 		<ProtoObject bone="Bone SecondaryTurret">fx_covhealbeam</ProtoObject>
 	</Action>
 	<Tactic>

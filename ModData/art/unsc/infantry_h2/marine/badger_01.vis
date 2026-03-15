@@ -106,32 +106,16 @@
 		</anim>
 		<anim type="LockdownCannonAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="LockdownCannonAttack">
 			<asset type="Anim">
-				<file>unsc\infantry_h2\marine\badger_animations\lockdown_idle_01</file>
+				<file>unsc\infantry_h2\marine\badger_animations\lockdown_attack_01</file>
 				<weight>1</weight>
-				<tag type="Sound" start="0" position="0.180000007" end="1" name="play_unsc_badger_fire" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
-				<tag type="Attack" start="0" position="0.180000007" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
-				<tag type="Particle" start="0" position="0.180000007" end="1" name="effects\vehicle_fx\unsc\badger\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
-			</asset>
-			<asset type="Anim">
-				<file>unsc\infantry_h2\marine\badger_animations\lockdown_idle_01</file>
-				<weight>1</weight>
-				<tag type="Sound" start="0" position="0.234999999" end="1" name="play_unsc_badger_fire" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
-				<tag type="Attack" start="0" position="0.234999999" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
-				<tag type="Particle" start="0" position="0.239999995" end="1" name="effects\vehicle_fx\unsc\badger\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
-			</asset>
-			<asset type="Anim">
-				<file>unsc\infantry_h2\marine\badger_animations\lockdown_idle_01</file>
-				<weight>1</weight>
-				<tag type="Particle" start="0" position="0.189999998" end="1" name="effects\vehicle_fx\unsc\badger\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
-				<tag type="Sound" start="0" position="0.191" end="1" name="play_unsc_badger_fire" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
-				<tag type="Attack" start="0" position="0.191" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
-			</asset>
-			<asset type="Anim">
-				<file>unsc\infantry_h2\marine\badger_animations\lockdown_idle_01</file>
-				<weight>1</weight>
-				<tag type="Sound" start="0" position="0.296000004" end="1" name="play_unsc_badger_fire" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
-				<tag type="Attack" start="0" position="0.296000004" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
-				<tag type="Particle" start="0" position="0.300000012" end="1" name="effects\vehicle_fx\unsc\badger\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+				<tag type="Sound" start="0" position="0" end="1" name="play_unsc_badger_fire" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.100000001" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.100000001" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.270000011" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.469999999" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.469999999" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.670000017" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.870000005" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
 		</anim>
 		<anim type="LockdownCannonReload" exitAction="Loop" tweenTime="5" tweenToAnimation="">

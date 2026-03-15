@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
+	<Power name="For_Minibase_01">
+		<Attributes>
+			<Cost Supplies="500" Power="2" />
+			<Pop type="Temple">1</Pop>
+			<AutoRecharge>90000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>53022</DisplayNameID>
+			<RolloverTextID>53023</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>7</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>vanillaplus\forerunner\base_drop.triggerscript</TriggerScript>
+	</Power>
+	<Power name="BanishedSpartan_Drop">
+		<Attributes>
+			<Cost Supplies="150" />
+			<Pop type="Unit">1</Pop>
+			<AutoRecharge>17500</AutoRecharge>
+			<SequentialRecharge />
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>7</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>banishedspartandrop.triggerscript</TriggerScript>
+	</Power>
 	<Power name="UnscOdstDrop_Player">
 		<Attributes>
 			<Cost Supplies="150" Power="1" />

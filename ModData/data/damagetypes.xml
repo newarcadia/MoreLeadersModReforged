@@ -8,6 +8,7 @@
 	<DamageType AttackRating="true" BaseType="true">Medium</DamageType>
 	<DamageType AttackRating="true" BaseType="true">MediumAir</DamageType>
 	<DamageType AttackRating="true" BaseType="true">Heavy</DamageType>
+	<DamageType AttackRating="true" BaseType="true">HeavyAir</DamageType>
 	<DamageType AttackRating="true" BaseType="true">Building</DamageType>
 	<DamageType AttackRating="true" BaseType="true">Flood</DamageType>
 	<DamageType Shielded="true">Shielded</DamageType>

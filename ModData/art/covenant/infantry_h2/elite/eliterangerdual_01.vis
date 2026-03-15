@@ -78,12 +78,6 @@
 			<attach type="ModelRef" name="Weapon2" tobone="l_hand" frombone="l_hand" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="Weapon" tobone="r_hand" frombone="r_hand" syncanims="true" disregardorient="false" />
 		</anim>
-		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
-			<asset type="Anim">
-				<file>covenant\infantry_h2\elite\animations\death_01</file>
-				<weight>60</weight>
-			</asset>
-		</anim>
 		<anim type="ClamShell" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
 				<file>covenant\infantry_h2\elite\animations\death_01</file>

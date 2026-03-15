@@ -19,12 +19,46 @@
 		<TargetPriority type="Building">1</TargetPriority>
 		<SmallArmsDeflectable />
 	</Weapon>
+	<Weapon>
+		<Name>RocketWeapon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>125</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Grenade</WeaponType>
+		<Projectile>fx_proj_fuelRod_01</Projectile>
+		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>100</Accuracy>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<Dodgeable />
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
 	<Action>
 		<Name>BeamCannonAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>RangedAttack</Anim>
 		<Weapon>BeamCannon</Weapon>
 		<MainAttack />
+	</Action>
+	<Action>
+		<Name>RocketAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FuelrodAttack</Anim>
+		<SupportAnim>Idle</SupportAnim>
+		<Weapon>RocketWeapon</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
+		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
@@ -128,6 +162,11 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>BeamCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>RocketAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />

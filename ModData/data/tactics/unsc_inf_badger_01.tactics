@@ -3,10 +3,10 @@
 	<Weapon>
 		<Name>LightCannon</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>210</DamagePerSecond>
-		<WeaponType>ArmorPiercing</WeaponType>
-		<Projectile>fx_proj_lightCannon_01</Projectile>
-		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
+		<DamagePerSecond>122</DamagePerSecond>
+		<WeaponType>AASmallArms</WeaponType>
+		<Projectile>fx_proj_rifle_01</Projectile>
+		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
 		<MaxRange>100</MaxRange>
 		<MinRange>3</MinRange>
@@ -15,8 +15,6 @@
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
-		<Hardpoint>Turre</Hardpoint>
-		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>10</PhysicsLaunchAngleMax>
 		<PhysicsForceMin>100</PhysicsForceMin>
@@ -25,13 +23,21 @@
 		<TargetPriority type="GroundVehicle">7</TargetPriority>
 		<TargetPriority type="TurretBuilding">5</TargetPriority>
 		<TargetPriority type="Building">3</TargetPriority>
-		<Dodgeable />
-		<Deflectable />
+		<SmallArmsDeflectable />
 	</Weapon>
 	<Action>
 		<Name>LockdownAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>LockdownCannonAttack</Anim>
+		<Weapon>LightCannon</Weapon>
+		<MainAttack />
+		<DisableAttackWaitTimer />
+		<Strafing maxDistance="35" turnRate="45" trackingSpeed="30" jitter="20" />
+	</Action>
+	<Action>
+		<Name>AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Idle</Anim>
 		<Weapon>LightCannon</Weapon>
 		<MainAttack />
 	</Action>
@@ -184,7 +190,7 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>LockdownAttackAction</Action>
+			<Action>AttackAction</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>

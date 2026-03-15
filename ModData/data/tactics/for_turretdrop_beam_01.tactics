@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>BeamCannon</Name>
 		<AttackRate>4</AttackRate>
-		<DamagePerSecond>80</DamagePerSecond>
+		<DamagePerSecond>156</DamagePerSecond>
 		<WeaponType>ForerunnerBeam</WeaponType>
 		<Projectile>fx_proj_forerunnerBeam_01</Projectile>
 		<DOTrate>6.80000019</DOTrate>

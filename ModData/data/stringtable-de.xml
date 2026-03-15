@@ -4,9 +4,11 @@
 		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">
 Early access build to test coming features/changes. Some units may not be in a finished state and are just there to test game balance and AI. Game issues and crashes are to be expected.
 
+Current focus is the UNSC and Covenant AI, with certain changes to new leaders like the rebels.
+
 </String>
-		<String _locID="26217" category="UI" subtitle="false">More Leaders Mod Reforged Beta Build (UNSC/COV AI TEST)</String>
-		<String _locID="26218" category="UI" subtitle="false">v1.1.2</String>
+		<String _locID="26217" category="UI" subtitle="false">Early Access Build (v1.1.3)</String>
+		<String _locID="26218" category="UI" subtitle="false">new-arcadia.net/discord</String>
 		<!-- BlockLeaderpower effect uses this string-->
 		<String _locID="357" category="Code" subtitle="false">JAMMED! </String> 
 		<!-- FORERUNNER LEADER -->
@@ -104,11 +106,11 @@ Early access build to test coming features/changes. Some units may not be in a f
 		<String _locID="30052" category="Techs" subtitle="false">ASCENDED</String>
 		<String _locID="30053" category="Techs" subtitle="false">Walker armor and weaponry are greatly upgraded.</String>
 		<String _locID="30054" category="Techs" subtitle="false">PROTOCOL</String>
-		<String _locID="30055" category="Techs" subtitle="false">Walker squads have one additional Walker.</String>
+		<String _locID="30055" category="Techs" subtitle="false">Adds a active ability. Charged Bolt ability.</String>
 		<String _locID="30056" category="Techs" subtitle="false">SOLDIER I</String>
 		<String _locID="30057" category="Techs" subtitle="false">Increases attack and defense</String>
 		<String _locID="30058" category="Techs" subtitle="false">REPEATING CANNON</String>
-		<String _locID="30059" category="Techs" subtitle="false">Increases the rate of fire for the Soldier's weapons.</String>
+		<String _locID="30059" category="Techs" subtitle="false">Increases the rate of fire for the Soldier's weapons. Adds a slight stun.</String>
 		<String _locID="30060" category="Techs" subtitle="false">SOLDIER III</String>
 		<String _locID="30061" category="Techs" subtitle="false">Soldier speed is greatly improved.</String>
 		<String _locID="30062" category="Techs" subtitle="false">DEFLECTION PLATING</String>
@@ -215,9 +217,9 @@ Early access build to test coming features/changes. Some units may not be in a f
 		<String _locID="30165" category="Techs" subtitle="false">Hardened steel plates give the Cobra extra protection when locked down.</String>
 		<String _locID="30166" category="Techs" subtitle="false">PLASMA MODULATOR</String>
 		<String _locID="30167" category="Techs" subtitle="false">The Plasma Rhino is a secret UNSC weapon just now entering field tests. Unpacking the Rhino turns it into a long-range artillery unit that fires heated plasma, decimating anything it hits.</String>
-		<String _locID="30168" category="Squads" subtitle="false">FALCON</String>
-		<String _locID="30169" category="Squads" subtitle="false">Mainline air unit, the Falcon is a sophisticated rocket-armed attack craft.</String>
-		<String _locID="30170" category="Techs" subtitle="false">FALCON SUPER UNIT</String>
+		<String _locID="30168" category="Squads" subtitle="false">FALCATA</String>
+		<String _locID="30169" category="Squads" subtitle="false">Mainline air unit, the Falcata is a sophisticated rocket-armed attack craft.</String>
+		<String _locID="30170" category="Techs" subtitle="false">FALCATA SUPER UNIT</String>
 		<String _locID="30171" category="Techs" subtitle="false">Upgrades Hornets to Falcon super units. Equipped with rocket launchers, Falcons are fearsome combat units.</String>
 		<String _locID="30172" category="Powers" subtitle="false">LAND MINES</String>
 		<String _locID="30173" category="Powers" subtitle="false">Use the UNSC Shortsword Bomber to drop a high number of anti-vehicle mines in an area.</String>
@@ -290,7 +292,7 @@ Increases damage</String>
 		<String _locID="30238" category="Powers" subtitle="false">GHOST IN THE MACHINE</String>
 		<String _locID="30239" category="Powers" subtitle="false">Takes temporary control of targeted enemy vehicles and aircraft.</String>
 		<String _locID="30240" category="Powers" subtitle="false">VIGILANCE</String>
-		<String _locID="30241" category="Powers" subtitle="false">Disable enemy access to orbital support for a short duration.</String>
+		<String _locID="30241" category="Powers" subtitle="false">Disable enemy access to orbital support for 30 seconds.</String>
 		<String _locID="30242" category="Powers" subtitle="false">SW DEFENSE</String>
 		<String _locID="30243" category="Powers" subtitle="false">Activate to call in several Aggressors.
 The Sentinels temporarily guard a set area.</String>
@@ -1022,9 +1024,9 @@ Adds a drone.</String>
 		<String _locID="51029" category="Squads" subtitle="false">TEK</String>
 		<String _locID="51030" category="Squads" subtitle="false">Tek sport full-body golden armor and a helmet. Occasionally in combat, she will utilize holograms of herself in order to confuse her enemies. Unlike most Kig-Yar, Tek is not equipped with protective energy shielding.</String>
 		<String _locID="51031" category="Squads" subtitle="false">DRONES</String>
-		<String _locID="51032" category="Squads" subtitle="false">Counter-building aircraft, heavy mortar turret can track and engage enemies in a large area.</String>
+		<String _locID="51032" category="Squads" subtitle="false">Drone Minors are the lowest of the Drone ranks, signified by their lack of extra horns or carapace.</String>
 		<String _locID="51033" category="Squads" subtitle="false">MAJOR DRONES</String>
-		<String _locID="51034" category="Squads" subtitle="false">Counter-building aircraft, heavy mortar turret can track and engage enemies in a large area.</String>
+		<String _locID="51034" category="Squads" subtitle="false">Drone Major are the lowest of the Drone ranks, signified by their lack of extra horns or carapace.</String>
 		<String _locID="51035" category="Squads" subtitle="false">ENGINEER</String>
 		<String _locID="51036" category="Squads" subtitle="false">A support unit that repairs and heals nearby allied units.</String>
 		<String _locID="51037" category="Squads" subtitle="false">BERSERKER</String>
@@ -1264,6 +1266,32 @@ Adds a drone.</String>
 		<String _locID="52121" category="Powers" subtitle="false">3 spectre (ce variant)</String>
 		<String _locID="52122" category="Powers" subtitle="false">SKIRMISHERHERO DROP</String>
 		<String _locID="52123" category="Powers" subtitle="false">Jackal Hero</String>
+
+
+		<String _locID="53000" category="Techs" subtitle="false">MONGOOSE UPG I</String>
+		<String _locID="53001" category="Techs" subtitle="false">HP and DMG buff.</String>
+		<String _locID="53002" category="Techs" subtitle="false">PASSENGER</String>
+		<String _locID="53003" category="Techs" subtitle="false">Mongoose vehicles now come with a passenger armed with a rocket launcher.</String>
+		<String _locID="53004" category="Techs" subtitle="false">SPARTAN LASER</String>
+		<String _locID="53005" category="Techs" subtitle="false">Passengers are now arriving with a stolen Spartan laser. Greatly improving Anti-Air potential.</String>
+		<String _locID="53006" category="Squads" subtitle="false">MONGOOSE</String>
+		<String _locID="53007" category="Squads" subtitle="false">The Mongoose is a light ground reconnaissance vehicle. Cheap and quick to produce.</String>
+		<String _locID="53008" category="Techs" subtitle="false">SPADE UPG I</String>
+		<String _locID="53009" category="Techs" subtitle="false">HP and DMG buff.</String>
+		<String _locID="53010" category="Techs" subtitle="false">GRENADIER</String>
+		<String _locID="53011" category="Techs" subtitle="false">Adds a Scavenger armed with a Grenade Launcher to improve attack strength.</String>
+		<String _locID="53012" category="Techs" subtitle="false">GRENADE LAUNCHER</String>
+		<String _locID="53013" category="Techs" subtitle="false">Upgrades Spade machine gun to a grenade launcher. Improves damage and defense.</String>
+		<String _locID="53014" category="Squads" subtitle="false">SPADE</String>
+		<String _locID="53015" category="Squads" subtitle="false">The Spade is a all-terrain transport vehicle modified by the insurrection for combat purposes, making it very effective against UNSC Infantry.</String>
+		<String _locID="53016" category="Techs" subtitle="false">REGULATOR SENTINELS</String>
+		<String _locID="53017" category="Techs" subtitle="false">Adds 3x Regulators to the SW Defense Power.</String>
+		<String _locID="53018" category="Techs" subtitle="false">TROVE SENTINEL</String>
+		<String _locID="53019" category="Techs" subtitle="false">Adds 2x Trove Sentinel to the SW Defense Power.</String>
+		<String _locID="53020" category="Techs" subtitle="false">ENFORCER SENTINEL</String>
+		<String _locID="53021" category="Techs" subtitle="false">Adds 1x Enforcer and 2x Regulators to the SW Defense Power.</String>
+		<String _locID="53022" category="Powers" subtitle="false">MINI BASE</String>
+		<String _locID="53023" category="Powers" subtitle="false">Place down a small base anywhere. Max 3 mini bases.</String>
 
 
 		<String _locID="100" category="Code" subtitle="false">CONFIRM</String>

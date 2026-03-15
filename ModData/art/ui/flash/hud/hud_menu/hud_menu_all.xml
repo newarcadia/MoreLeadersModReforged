@@ -219,6 +219,18 @@
 	<KeyFrame>queued</KeyFrame>
 	<KeyFrame>pc_off</KeyFrame>
 	<KeyFrame>pc_on</KeyFrame>
+	<Icon type="powericon" name="forbuilder_1" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\for_bldg_builder_01" owner="For_Minibase_01">-1</Icon>
+	<Icon type="techicon" name="ForSWDefense" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForSWDefense" owner="for_swdefense_upgrade1">-1</Icon>
+	<Icon type="techicon" name="ForSWDefense" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForSWDefense" owner="for_swdefense_upgrade2">-1</Icon>
+	<Icon type="techicon" name="ForSWDefense" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForSWDefense" owner="for_swdefense_upgrade3">-1</Icon>
+	<Icon type="techicon" name="spade1" texture="art\ui\flash\shared\textures\mlm_reforged\tech\creep_spade_upgrade1" owner="creep_spade_upgrade1">-1</Icon>
+	<Icon type="techicon" name="spade2" texture="art\ui\flash\shared\textures\mlm_reforged\tech\creep_spade_upgrade2" owner="creep_spade_upgrade2">-1</Icon>
+	<Icon type="techicon" name="spade3" texture="art\ui\flash\shared\textures\mlm_reforged\tech\creep_spade_upgrade3" owner="creep_spade_upgrade3">-1</Icon>
+	<Icon type="uniticon" name="spadee" texture="art\ui\flash\shared\textures\mlm_reforged\unit\creep_veh_spade_01" owner="creep_veh_spade_01">-1</Icon>
+	<Icon type="uniticon" name="monosoe" texture="art\ui\flash\shared\textures\mlm_reforged\unit\creep_veh_mongoose_01" owner="creep_veh_mongoose_01">-1</Icon>
+	<Icon type="techicon" name="monosoe1" texture="art\ui\flash\shared\textures\mlm_reforged\tech\creep_mongoose_upgrade1" owner="creep_mongoose_upgrade1">-1</Icon>
+	<Icon type="techicon" name="monosoe2" texture="art\ui\flash\shared\textures\mlm_reforged\tech\creep_mongoose_upgrade2" owner="creep_mongoose_upgrade2">-1</Icon>
+	<Icon type="techicon" name="monosoe3" texture="art\ui\flash\shared\textures\mlm_reforged\tech\creep_mongoose_upgrade3" owner="creep_mongoose_upgrade3">-1</Icon>
 	<Icon type="powericon" name="odstdrp" name2="specialPWR3" texture="art\ui\flash\shared\textures\unsc\icons\power\UnscODSTDrop" owner="UnscOdstDrop_Player">-1</Icon>
 	<Icon type="powericon" name="repair" name2="specialPWR2" texture="art\ui\flash\shared\textures\unsc\icons\power\UnscLeaderRepair" owner="CovLeaderRepair">-1</Icon>
 	<Icon type="powericon" name="spectre" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_veh_spectre_01" owner="ArbiterSupportDrop">-1</Icon>

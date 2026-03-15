@@ -4700,18 +4700,18 @@
 		<Command Type="Research" Position="5">unsc_sniper_upgrade1</Command>
 		<Command Type="Research" Position="5">unsc_sniper_upgrade2</Command>
 		<Command Type="Research" Position="5">unsc_sniper_upgrade3</Command>
-		<Command Type="TrainSquad" Position="1">suc_inf_heavyinfantry_01</Command>
-		<Command Type="TrainSquad" Position="2">suc_inf_sniper_01</Command>
-		<Command Type="TrainSquad" Position="3">suc_inf_stealth_01</Command>
-		<Command Type="Research" Position="7">suc_heavyinfantry_upgrade1</Command>
-		<Command Type="Research" Position="7">suc_heavyinfantry_upgrade2</Command>
-		<Command Type="Research" Position="7">suc_heavyinfantry_upgrade3</Command>
-		<Command Type="Research" Position="6">suc_sniper_upgrade1</Command>
-		<Command Type="Research" Position="6">suc_sniper_upgrade2</Command>
-		<Command Type="Research" Position="6">suc_sniper_upgrade3</Command>
-		<Command Type="Research" Position="5">suc_stealth_upgrade1</Command>
-		<Command Type="Research" Position="5">suc_stealth_upgrade2</Command>
-		<Command Type="Research" Position="5">suc_stealth_upgrade3</Command>
+		<Command Type="TrainSquad" Position="1">creep_inf_marine_01</Command>
+		<Command Type="TrainSquad" Position="2">creep_inf_badger_01</Command>
+		<Command Type="TrainSquad" Position="3">creep_inf_empmarine_01</Command>
+		<Command Type="Research" Position="7">creep_marine_upgrade1</Command>
+		<Command Type="Research" Position="7">creep_marine_upgrade2</Command>
+		<Command Type="Research" Position="7">creep_marine_upgrade3</Command>
+		<Command Type="Research" Position="6">creep_badger_upgrade1</Command>
+		<Command Type="Research" Position="6">creep_badger_upgrade2</Command>
+		<Command Type="Research" Position="6">creep_badger_upgrade3</Command>
+		<Command Type="Research" Position="5">creep_empmarine_upgrade1</Command>
+		<Command Type="Research" Position="5">creep_empmarine_upgrade2</Command>
+		<Command Type="Research" Position="5">creep_empmarine_upgrade3</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Death">play_fx_vehicle_death_generic</Sound>
 		<Sound Type="Create">play_vog_building_barracks</Sound>
@@ -4811,6 +4811,14 @@
 		<Command Type="Research" Position="7">unsc_colossus_upgrade1</Command>
 		<Command Type="Research" Position="7">unsc_colossus_upgrade2</Command>
 		<Command Type="Research" Position="7">unsc_colossus_upgrade3</Command>
+		<Command Type="TrainSquad" Position="1">creep_veh_tank_01</Command>
+		<Command Type="Research" Position="7">creep_tank_upgrade1</Command>
+		<Command Type="Research" Position="7">creep_tank_upgrade2</Command>
+		<Command Type="Research" Position="7">creep_tank_upgrade3</Command>
+		<Command Type="TrainSquad" Position="2">creep_veh_havok_01</Command>
+		<Command Type="Research" Position="6">creep_havok_upgrade1</Command>
+		<Command Type="Research" Position="6">creep_havok_upgrade2</Command>
+		<Command Type="Research" Position="6">creep_havok_upgrade3</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_vehicledepot</Sound>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
@@ -4885,7 +4893,6 @@
 		<SelectedRadiusZ>9.89999962</SelectedRadiusZ>
 		<Command Type="TrainSquad" Position="1">unsc_air_nightingale_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_air_hornet_01</Command>
-		<Command Type="TrainSquad" Position="2">suc_air_raven_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_air_falcon_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_air_vulture_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_air_hawk_01</Command>
@@ -4900,6 +4907,15 @@
 		<Command Type="Research" Position="6">unsc_hawk_upgrade2</Command>
 		<Command Type="Research" Position="6">unsc_hawk_upgrade3</Command>
 		<Command Type="Research" Position="5">unsc_vulture_upgrade1</Command>
+		<Command Type="TrainSquad" Position="1">creep_air_wasp_01</Command>
+		<Command Type="Research" Position="6">creep_wasp_upgrade1</Command>
+		<Command Type="Research" Position="6">creep_wasp_upgrade2</Command>
+		<Command Type="Research" Position="6">creep_wasp_upgrade3</Command>
+		<Command Type="TrainSquad" Position="2">suc_air_raven_01</Command>
+		<Command Type="TrainSquad" Position="3">creep_air_gunship_01</Command>
+		<Command Type="Research" Position="6">creep_gunship_upgrade1</Command>
+		<Command Type="Research" Position="6">creep_gunship_upgrade2</Command>
+		<Command Type="Research" Position="6">creep_gunship_upgrade3</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_airpad</Sound>
 		<Sound Type="Death">play_unsc_air_pad_death</Sound>
@@ -5989,7 +6005,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsInfo>warthog</PhysicsInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>unsc\vehicle\warthog_01\warthogLCE_01.vis</Visual>
+		<Visual>unsc\vehicle\warthog_01\warthog_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<DisplayNameID>10064</DisplayNameID>
@@ -12953,7 +12969,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\Infantry\InfectedBrute_01\InfectedBrute_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_brute\brute_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>24638</DisplayNameID>
@@ -13819,7 +13835,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\infantry\infectedelite_01\InfectedElite_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_elite\elite_berserker.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10164</DisplayNameID>
@@ -13845,7 +13861,7 @@
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<AmmoMax>1</AmmoMax>
 		<AmmoRegenRate>1</AmmoRegenRate>
-		<Tactics>fld_inf_infectedElite_01.tactics</Tactics>
+		<Tactics>flood_inf_eliteBerserker_01.tactics</Tactics>
 		<RepairPoints>33</RepairPoints>
 		<ObstructionRadiusX>1.39999998</ObstructionRadiusX>
 		<ObstructionRadiusY>2.20000005</ObstructionRadiusY>
@@ -13890,7 +13906,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\infantry\infectedelite_01\InfectedElite_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_elite\elite_berserker.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10164</DisplayNameID>
@@ -13913,7 +13929,7 @@
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<AmmoMax>1</AmmoMax>
 		<AmmoRegenRate>1</AmmoRegenRate>
-		<Tactics>fld_inf_infectedElite_01.tactics</Tactics>
+		<Tactics>flood_inf_eliteBerserker_01.tactics</Tactics>
 		<RepairPoints>33</RepairPoints>
 		<ObstructionRadiusX>1.39999998</ObstructionRadiusX>
 		<ObstructionRadiusY>2.20000005</ObstructionRadiusY>

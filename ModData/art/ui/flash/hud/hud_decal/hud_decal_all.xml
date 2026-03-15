@@ -36,6 +36,9 @@
 		<Data type="Texture" name="StaticDecalTextureSpartan">ui\flash\HUD\hud_decal\decal_test\heros\HUD_unsc_hero</Data>
 	</Properties>
 	<!-- UNSC -->
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="creep_veh_spade_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="4" SizeZ="4" Intensity1="8" Intensity2="28" Intensity3="18" owner="creep_veh_mongoose_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="4" SizeZ="4" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_veh_mongoose_01">-1</Icon>
 	<Icon type="uniticon" name="Hero" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_hero_odst_tac_01">-1</Icon>
 	<Icon type="uniticon" name="Hero" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_hero_odst_comm_01">-1</Icon>
 	<Icon type="uniticon" name="Hero" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_hero_odst_demo_01">-1</Icon>

@@ -14,7 +14,7 @@
     <TriggerVar ID="55" Type="PlayerState" Name="NewPlayerState55" IsNull="false">Playing</TriggerVar>
     <TriggerVar ID="56" Type="Bool" Name="NewBool56" IsNull="false">False</TriggerVar>
     <TriggerVar ID="60" Type="LocStringID" Name="NewLocStringID60" IsNull="false">357</TriggerVar>
-    <TriggerVar ID="62" Type="Time" Name="NewTime48" IsNull="false">45000</TriggerVar>
+    <TriggerVar ID="62" Type="Time" Name="NewTime48" IsNull="false">30000</TriggerVar>
     <TriggerVar ID="63" Type="Bool" Name="NewBool63" IsNull="false">False</TriggerVar>
     <TriggerVar ID="64" Type="Integer" Name="NewInteger64" IsNull="false" />
     <TriggerVar ID="67" Type="Trigger" Name="NewTrigger0" IsNull="false">0</TriggerVar>

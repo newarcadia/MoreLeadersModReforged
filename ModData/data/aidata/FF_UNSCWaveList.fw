@@ -253,7 +253,7 @@
 			<c>unsc_veh_rhino_01,unsc_veh_rhino_01,unsc_veh_rhino_01,unsc_veh_rhino_01,unsc_veh_rhino_01,unsc_veh_rhino_01,unsc_veh_rhino_01</c> <!-- Composition -->
 		</Row>
 		<Row>
-			<c>suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01,suc_inf_sniper_01</c> <!-- Composition -->
+			<c>creep_veh_spade_01,creep_veh_spade_01,creep_veh_spade_01,creep_veh_spade_01,creep_veh_spade_01,creep_veh_spade_01,creep_veh_mongoose_01,creep_veh_mongoose_01,creep_veh_mongoose_01,creep_veh_mongoose_01,creep_veh_mongoose_01</c> <!-- Composition -->
 		</Row>
 		<Row>
 			<c>unsc_veh_scorpion_01,unsc_veh_scorpion_01,unsc_veh_scorpion_01,unsc_veh_scorpion_01,unsc_veh_scorpion_01,unsc_veh_scorpion_01,unsc_veh_scorpion_01</c> <!-- Composition -->
@@ -345,7 +345,7 @@
 			<c>unsc_veh_grizzly_01,unsc_veh_grizzly_01,unsc_veh_rhino_01,unsc_veh_rhino_01</c> <!-- Composition -->
 		</Row>
 		<Row>
-			<c>unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01</c> <!-- Composition -->
+			<c>creep_veh_mongoose_01,creep_veh_mongoose_01,creep_veh_mongoose_01,creep_veh_mongoose_01,creep_veh_mongoose_01,creep_veh_mongoose_01,creep_veh_mongoose_01/c> <!-- Composition -->
 		</Row>
 		<Row>
 			<c>unsc_air_vulture_01,unsc_air_vulture_01</c> <!-- Composition -->
@@ -381,7 +381,7 @@
 			<c>unsc_inf_spartanalice_01,unsc_inf_spartanjerome_01</c> <!-- Composition -->
 		</Row>
 		<Row>
-			<c>unsc_veh_mantis_01,unsc_veh_mantis_01,unsc_veh_mantis_01,unsc_veh_mantis_01,unsc_veh_mantis_01,unsc_veh_mantis_01,unsc_veh_mantis_01,unsc_veh_mantis_01,unsc_veh_mantis_01,unsc_veh_mantis_01,unsc_veh_mantis_01</c> <!-- Composition -->
+			<c>creep_veh_mongoose_01,creep_veh_mongoose_01,creep_veh_mongoose_01,creep_veh_mongoose_01,creep_veh_mongoose_01,creep_veh_mongoose_01,creep_veh_mongoose_01</c> <!-- Composition -->
 		</Row>
 		<Row>
 			<c>unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01</c> <!-- Composition -->

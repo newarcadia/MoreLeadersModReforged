@@ -3,8 +3,8 @@
 	<Weapon>
 		<Name>PlasmaCannons</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>85</DamagePerSecond>
-		<WeaponType>SmallArms</WeaponType>
+		<DamagePerSecond>115</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
 		<Projectile>for_proj_enforcer_01</Projectile>
 		<MaxVelocityLead>30</MaxVelocityLead>
 		<MaxRange>70</MaxRange>
@@ -25,8 +25,8 @@
 	<Weapon>
 		<Name>PlasmaCannonsAir</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>85</DamagePerSecond>
-		<WeaponType>SmallArms</WeaponType>
+		<DamagePerSecond>115</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
 		<Projectile>for_proj_enforcer_01</Projectile>
 		<MaxVelocityLead>30</MaxVelocityLead>
 		<MaxRange>70</MaxRange>
@@ -47,8 +47,8 @@
 	<Weapon>
 		<Name>Mortar</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>110</DamagePerSecond>
-		<WeaponType>Explosive</WeaponType>
+		<DamagePerSecond>144</DamagePerSecond>
+		<WeaponType>Missile</WeaponType>
 		<Projectile>fx_proj_enforcerCannon_01</Projectile>
 		<ImpactEffect size="Medium">cov_brutechopper_01</ImpactEffect>
 		<MaxVelocityLead>15</MaxVelocityLead>
