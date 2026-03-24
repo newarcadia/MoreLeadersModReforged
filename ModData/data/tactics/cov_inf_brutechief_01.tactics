@@ -4,7 +4,7 @@
 		<Name>Hammer</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>221.5</DamagePerSecond>
-		<WeaponType>HeroMelee</WeaponType>
+		<WeaponType>LeaderPower</WeaponType>
 		<MaxRange>3</MaxRange>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
@@ -21,7 +21,7 @@
 		<Name>stunHammer</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>221.5</DamagePerSecond>
-		<WeaponType>HeroMelee</WeaponType>
+		<WeaponType>LeaderPower</WeaponType>
 		<MaxRange>3</MaxRange>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
@@ -39,7 +39,7 @@
 		<Name>stunPullHammer</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>221.5</DamagePerSecond>
-		<WeaponType>HeroMelee</WeaponType>
+		<WeaponType>LeaderPower</WeaponType>
 		<MaxRange>3</MaxRange>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
@@ -59,7 +59,7 @@
 		<Name>AreaStunHammer</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>221.5</DamagePerSecond>
-		<WeaponType>HeroMelee</WeaponType>
+		<WeaponType>LeaderPower</WeaponType>
 		<MaxRange>3</MaxRange>
 		<AOERadius>6</AOERadius>
 		<AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>

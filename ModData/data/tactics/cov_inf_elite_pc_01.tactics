@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>InCoverRocketWeapon</Name>
 		<DamagePerSecond>300</DamagePerSecond>
-		<WeaponType>ArmorPiercingFuelRod</WeaponType>
+		<WeaponType>ArmorPiercing</WeaponType>
 		<Projectile>fx_proj_fuelRod_01</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
 		<MaxVelocityLead>4</MaxVelocityLead>
@@ -31,7 +31,7 @@
 		<AttackRate>1.2</AttackRate>
 		<DamagePerSecond>300</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>ArmorPiercingFuelRod</WeaponType>
+		<WeaponType>ArmorPiercing</WeaponType>
 		<Projectile>fx_proj_fuelRod_01</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
 		<MaxVelocityLead>4</MaxVelocityLead>
@@ -64,7 +64,7 @@
 		<DOTrate>8</DOTrate>
 		<DOTduration>3.5</DOTduration>
 		<DOTEffect small="fx_proj_plasmadotSm_01" medium="fx_proj_plasmadotMed_01" large="fx_proj_plasmadotLg_01">fx_proj_plasmadot_01</DOTEffect>
-		<WeaponType>ArmorPiercingFuelRod</WeaponType>
+		<WeaponType>ArmorPiercing</WeaponType>
 		<Projectile>fx_proj_fuelRod_01</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
 		<MaxVelocityLead>4</MaxVelocityLead>

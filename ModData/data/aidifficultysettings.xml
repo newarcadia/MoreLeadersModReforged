@@ -85,7 +85,7 @@
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DamageGivenMultiplier" InputLabel="Difficulty" OutputLabel="Multiplier" Comment="2.0 means the AI's units inflict double damage">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="1" Comment="Damage given always normal...feature disabled" />
+			<DataPoint Input="0" Output="0.5" Comment="Damage given always normal...feature disabled" />
 			<DataPoint Input="0.670000017" Output="1" Comment="Damage given always normal...feature disabled" />
 			<DataPoint Input="1" Output="1" Comment="33% Boost for Legendary" />
 			<DataPoint Input="2" Output="1" Comment="133% Boost for Hyper-Legendary" />
@@ -93,7 +93,7 @@
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DamageTakenMultiplier" InputLabel="Difficulty" OutputLabel="Multiplier" Comment="2.0 means the AI's units TAKE double damage.  High values are easy, low are hard.">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="1" Comment="On easy, takes 3x damage" />
+			<DataPoint Input="0" Output="2" Comment="On easy, takes 3x damage" />
 			<DataPoint Input="0.330000013" Output="1" Comment="At normal, normal damage" />
 			<DataPoint Input="0.670000017" Output="1" Comment="At hard, normal damage" />
 			<DataPoint Input="1" Output="1" Comment="On legendary, AI takes 75%% normal damage" />

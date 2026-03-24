@@ -219,6 +219,45 @@
 	<KeyFrame>queued</KeyFrame>
 	<KeyFrame>pc_off</KeyFrame>
 	<KeyFrame>pc_on</KeyFrame>
+	<Icon type="techicon" name="suc_warthog_upgrade2" texture="art\ui\flash\shared\textures\unsc\icons\unit\creep_veh_havok_01" owner="creep_havok_upgrade1">-1</Icon>
+	<Icon type="techicon" name="suc_warthog_upgrade2" texture="art\ui\flash\shared\textures\unsc\icons\unit\creep_veh_havok_01" owner="creep_havok_upgrade2">-1</Icon>
+	<Icon type="techicon" name="suc_warthog_upgrade2" texture="art\ui\flash\shared\textures\unsc\icons\unit\creep_veh_havok_01" owner="creep_havok_upgrade3">-1</Icon>
+	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\creep_air_wasp_01" owner="creep_air_wasp_01">-1</Icon>
+	<Icon type="techicon" name="spad1" texture="art\ui\flash\shared\textures\mlm_reforged\tech\creep_wasp_upgrade1" owner="creep_wasp_upgrade1">-1</Icon>
+	<Icon type="techicon" name="spad2" texture="art\ui\flash\shared\textures\mlm_reforged\tech\creep_wasp_upgrade2" owner="creep_wasp_upgrade2">-1</Icon>
+	<Icon type="techicon" name="spad3" texture="art\ui\flash\shared\textures\mlm_reforged\tech\creep_wasp_upgrade3" owner="creep_wasp_upgrade3">-1</Icon>
+	<Icon type="uniticon" name="pelican" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_air_pelican_01" owner="creep_air_gunship_01">-1</Icon>
+	<Icon type="techicon" name="creep_inf_marine_03" texture="art\ui\flash\shared\textures\misc\pelican_upgrade" owner="creep_gunship_upgrade2">-1</Icon>
+	<Icon type="techicon" name="spad1" texture="art\ui\flash\shared\textures\mlm_reforged\tech\creep_marine_upgrade1" owner="creep_marine_upgrade1">-1</Icon>
+	<Icon type="techicon" name="spad2" texture="art\ui\flash\shared\textures\mlm_reforged\tech\creep_marine_upgrade2" owner="creep_marine_upgrade2">-1</Icon>
+	<Icon type="techicon" name="spad3" texture="art\ui\flash\shared\textures\mlm_reforged\tech\creep_marine_upgrade3" owner="creep_marine_upgrade3">-1</Icon>
+	<Icon type="techicon" name="spad1" texture="art\ui\flash\shared\textures\mlm_reforged\tech\creep_badger_upgrade1" owner="creep_badger_upgrade1">-1</Icon>
+	<Icon type="techicon" name="spad2" texture="art\ui\flash\shared\textures\mlm_reforged\tech\creep_badger_upgrade2" owner="creep_badger_upgrade2">-1</Icon>
+	<Icon type="techicon" name="spad3" texture="art\ui\flash\shared\textures\mlm_reforged\tech\creep_badger_upgrade3" owner="creep_badger_upgrade3">-1</Icon>
+	<Icon type="techicon" name="spad1" texture="art\ui\flash\shared\textures\mlm_reforged\tech\creep_empmarine_upgrade1" owner="creep_empmarine_upgrade1">-1</Icon>
+	<Icon type="techicon" name="spad2" texture="art\ui\flash\shared\textures\mlm_reforged\tech\creep_empmarine_upgrade2" owner="creep_empmarine_upgrade2">-1</Icon>
+	<Icon type="techicon" name="spad3" texture="art\ui\flash\shared\textures\mlm_reforged\tech\creep_empmarine_upgrade3" owner="creep_empmarine_upgrade3">-1</Icon>
+	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\creep_inf_marine_01" owner="creep_inf_marine_01">-1</Icon>
+	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\creep_inf_marine_01" owner="creep_inf_marine_02">-1</Icon>
+	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\creep_inf_marine_01" owner="creep_inf_marine_03">-1</Icon>
+	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\creep_inf_badger_01" owner="creep_inf_badger_01">-1</Icon>
+	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\creep_inf_badger_01" owner="creep_inf_badger_02">-1</Icon>
+	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\creep_inf_badger_01" owner="creep_inf_badger_03">-1</Icon>
+	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\creep_inf_empmarine_01" owner="creep_inf_empmarine_01">-1</Icon>
+	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\creep_inf_empmarine_01" owner="creep_inf_empmarine_02">-1</Icon>
+	<Icon type="powericon" name="FloodCombatForm" texture="art\ui\flash\shared\textures\flood\fld_bldg_nest_01" owner="FloodNonPlayerSpawner">-1</Icon>
+	<Icon type="techicon" name="fld_inf_infectedBruteSingle_01" texture="art\ui\flash\shared\textures\flood\fld_inf_infectedBrute_01" owner="flood_spawner_brute">-1</Icon>
+	<Icon type="techicon" name="sus" texture="art\ui\flash\shared\textures\flood\fld_inf_vehinfector_01" owner="flood_spawner_vehinfector">-1</Icon>
+	<Icon type="techicon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_spawner_runner">-1</Icon>
+	<Icon type="techicon" name="spartan" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_spartan_01" owner="flood_spawner_spartan">-1</Icon>
+	<Icon type="uniticon" name="all_light_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\fld_veh_all_light_01" owner="fld_veh_all_light_01">-1</Icon>
+	<Icon type="uniticon" name="all_medium_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\fld_veh_all_medium_01" owner="fld_veh_all_medium_01">-1</Icon>
+	<Icon type="uniticon" name="all_heavy_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\fld_veh_all_heavy_01" owner="fld_veh_all_heavy_01">-1</Icon>
+	<Icon type="uniticon" name="all_light_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\fld_air_all_light_01" owner="fld_air_all_light_01">-1</Icon>
+	<Icon type="uniticon" name="all_main_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\fld_inf_all_main_01" owner="fld_inf_all_main_01">-1</Icon>
+	<Icon type="uniticon" name="all_antiinf_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\fld_inf_all_antiinf_01" owner="fld_inf_all_antiinf_01">-1</Icon>
+	<Icon type="uniticon" name="all_antiveh_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\fld_inf_all_antiveh_01" owner="fld_inf_all_antiveh_01">-1</Icon>
+	<Icon type="uniticon" name="all_berserker_01" texture="art\ui\flash\shared\textures\mlm_reforged\unit\fld_inf_all_berserker_01" owner="fld_inf_all_berserker_01">-1</Icon>
 	<Icon type="powericon" name="forbuilder_1" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\for_bldg_builder_01" owner="For_Minibase_01">-1</Icon>
 	<Icon type="techicon" name="ForSWDefense" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForSWDefense" owner="for_swdefense_upgrade1">-1</Icon>
 	<Icon type="techicon" name="ForSWDefense" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForSWDefense" owner="for_swdefense_upgrade2">-1</Icon>
@@ -876,7 +915,6 @@
 	<Icon type="uniticon" name="spectre" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_veh_spectre_01" owner="cov_veh_spectre_01">-1</Icon>
 	<Icon type="uniticon" name="prowler" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_veh_prowler_01" owner="cov_veh_prowler_01">-1</Icon>
 	<Icon type="uniticon" name="revenant" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_veh_revenant_01" owner="cov_veh_revenant_01">-1</Icon>
-	<Icon type="uniticon" name="empguy" texture="art\creep\infantry\marine_01\creep_inf_empguy_01" owner="creep_inf_empmarine_01">-1</Icon>
 	<Icon type="buildingicon" name="fld_building_boss_01" texture="art\ui\flash\shared\textures\flood\fld_building_boss_01" owner="fld_bossbase_03">-1</Icon>
 	<Icon type="uniticon" name="fld_building_boss_01" texture="art\ui\flash\shared\textures\flood\fld_building_boss_01" owner="fld_bossbase_03">-1</Icon>
 	<Icon type="powericon" name="fld_bldg_nest_01" texture="art\ui\flash\shared\textures\flood\fld_bldg_nest_01" owner="BuilderDrop1">-1</Icon>
@@ -904,9 +942,6 @@
 	<Icon type="powericon" name="fld_inf_InfectedElite_01" texture="art\ui\flash\shared\textures\flood\fld_inf_InfectedElite_01" owner="FloodEliteDrop">-1</Icon>
 	<Icon type="uniticon" name="Spartan" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_spartan_01" owner="rebel_inf_spartanRocket_01">-1</Icon>
 	<Icon type="uniticon" name="grizzly" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_veh_grizzly_01" owner="rebel_veh_grizzly_01">-1</Icon>
-	<Icon type="uniticon" name="creep_inf_marine_01" texture="art\ui\flash\shared\textures\misc\creep_squad" owner="creep_inf_marine_01">-1</Icon>
-	<Icon type="uniticon" name="creep_inf_marine_02" texture="art\ui\flash\shared\textures\misc\creep_squad" owner="creep_inf_marine_02">-1</Icon>
-	<Icon type="uniticon" name="creep_inf_marine_03" texture="art\ui\flash\shared\textures\misc\creep_squad" owner="creep_inf_marine_03">-1</Icon>
 	<Icon type="uniticon" name="creep_inf_sniper_01" texture="art\ui\flash\shared\textures\creeps\creep_rebel_sniper_01" owner="creep_inf_sniper_01">-1</Icon>
 	<Icon type="uniticon" name="creep_inf_specialinfantry_01" texture="art\ui\flash\shared\textures\misc\creep_special" owner="creep_inf_specialinfantry_01">-1</Icon>
 	<Icon type="uniticon" name="creep_veh_grizzly_01" texture="art\ui\flash\shared\textures\misc\creep_tank" owner="creep_veh_grizzly_01">-1</Icon>

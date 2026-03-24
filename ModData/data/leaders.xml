@@ -117,6 +117,24 @@
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_03" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_odst_01_player</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_odst_01_player</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">flood_random_InfectedMarine_ar_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">flood_random_InfectedMarine_gl_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">flood_random_InfectedMarine_pistol_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">flood_random_InfectedMarine_rt_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">flood_random_InfectedMarine_sniper_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">flood_random_InfectedOdst_sg_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">flood_random_InfectedOdst_br_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">flood_random_InfectedOdst_rt_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">flood_random_InfectedOdst_sniper_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">flood_random_InfectedMedic_br_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">flood_random_InfectedMedic_rt_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">flood_random_InfectedOdstMedic_br_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">flood_random_InfectedOdstMedic_rt_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,20">flood_random_InfectedElite_pr_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,20">flood_random_InfectedElite_needler_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,20">flood_random_InfectedElite_fr_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,20">flood_random_brute_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,20">flood_random_brute_hg_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -352,8 +370,8 @@
 		<Resource Type="Supplies">800</Resource>
 		<Resource Type="CampaignFoo">100</Resource>
 		<Resource Type="Collectable">0</Resource>
-		<Resource Type="Power">4</Resource>
-		<StartingUnit Offset="0,0,0" BuildOther="ban_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">ban_inf_bruteGrunt_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_bruteGrunt_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
@@ -378,8 +396,8 @@
 		<Resource Type="Supplies">800</Resource>
 		<Resource Type="CampaignFoo">100</Resource>
 		<Resource Type="Collectable">0</Resource>
-		<Resource Type="Power">4</Resource>
-		<StartingUnit Offset="0,0,0" BuildOther="ban_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">ban_inf_bruteGrunt_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_bruteGrunt_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
@@ -461,9 +479,8 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="for_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">fore_air_attractor_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,20">fore_air_attractor_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,0">fore_air_attractor_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">fore_inf_walker_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">fore_inf_walker_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -473,16 +490,7 @@
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Temple" Max="3">3</Pop>
 	</Leader>
-	<Leader Name="Spectator" LeaderPickerOrder="16" Random="false">
-		<Civ>UNSC</Civ>
-		<Tech>spectator_leader</Tech>
-		<NameID>42716</NameID>
-		<DescriptionID>42717</DescriptionID>
-		<FlashCivID>0</FlashCivID>
-		<FlashPortrait>img://art\ui\flash\shared\textures\leaders\leaderpict_spec.ddx</FlashPortrait>
-		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leaderpict_specbanner.ddx</UIControlBackground>
-	</Leader>
-	<!--Leader Name="Insurry" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" LeaderPickerOrder="16" StatsID="3" DefaultPlayerSlotFlags="0x4">
+	<Leader Name="Insurry" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" LeaderPickerOrder="16" StatsID="3" DefaultPlayerSlotFlags="0x4">
 		<Civ>UNSC</Civ>
 		<Tech>creep_LeaderBork</Tech>
 		<NameID>42720</NameID>
@@ -496,16 +504,8 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="suc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_veh_mongoose_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_veh_spade_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_inf_marine_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_inf_badger_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_inf_empmarine_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_veh_tank_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_veh_havok_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_air_wasp_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">suc_air_raven_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_air_gunship_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">creep_inf_marine_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -514,7 +514,7 @@
 		<Pop Type="Unit" Max="70">40</Pop>
 		<Pop Type="Spartan" Max="25">1</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
-	</Leader-->
+	</Leader>
 	<!--Leader Name="Insurry" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" LeaderPickerOrder="16" StatsID="3" DefaultPlayerSlotFlags="0x4">
 		<Civ>UNSC</Civ>
 		<Tech>creep_LeaderBork</Tech>

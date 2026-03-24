@@ -281,6 +281,9 @@
 		<TriggerVar ID="659" Type="Vector" Name="DropoffLoc" IsNull="true" />
 		<TriggerVar ID="660" Type="VectorList" Name="ExternalLocationListVar2" IsNull="true" />
 		<TriggerVar ID="661" Type="Float" Name="ExternalFloatVar1" IsNull="true" />
+		<TriggerVar ID="1000" Type="Leader" Name="newLeaderVar" IsNull="false">Flood</TriggerVar>
+		<TriggerVar ID="1001" Type="String" Name="" IsNull="false">flood_unlockbonustechs.triggerscript</TriggerVar>
+		<TriggerVar ID="1002" Type="Trigger" Name="NewTrigger1Var" IsNull="false">1000</TriggerVar>
 	</TriggerVars>
 	<Triggers>
 		<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="345" Y="333" GroupID="-1" TemplateID="-1">
@@ -1251,7 +1254,36 @@
 				<Effect ID="642" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
 					<Input Name="Trigger" SigID="1" Optional="false">642</Input>
 				</Effect>
+				<Effect ID="642" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">1002</Input>
+				</Effect>
 			</TriggerEffectsOnFalse>
+		</Trigger>
+		<Trigger ID="1000" Name="FloodPlayer" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-1125" Y="-255" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="100" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">0</Input>
+						<Input Name="Leader" SigID="2" Optional="false">1000</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="652" Type="LaunchScript" DBID="392" Version="4" CommentOut="false">
+					<Input Name="ScriptName" SigID="15" Optional="false">1001</Input>
+					<Input Name="ExternalUnit" SigID="2" Optional="true">653</Input>
+					<Input Name="ExternalUnitList" SigID="3" Optional="true">654</Input>
+					<Input Name="ExternalSquad" SigID="4" Optional="true">655</Input>
+					<Input Name="ExternalSquadList" SigID="5" Optional="true">656</Input>
+					<Input Name="ExternalPlayer" SigID="6" Optional="true">0</Input>
+					<Input Name="ExternalPower" SigID="7" Optional="true">657</Input>
+					<Input Name="ExternalCost" SigID="8" Optional="true">658</Input>
+					<Input Name="ExternalLocation" SigID="11" Optional="true">659</Input>
+					<Input Name="ExternalLocationList" SigID="12" Optional="true">660</Input>
+					<Input Name="ExternalFloat" SigID="13" Optional="true">661</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
 		</Trigger>
 	</Triggers>
 </TriggerSystem>

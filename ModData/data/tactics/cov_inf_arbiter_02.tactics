@@ -4,7 +4,7 @@
 		<Name>DualSword</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>240</DamagePerSecond>
-		<WeaponType>HeroMelee</WeaponType>
+		<WeaponType>LeaderPower</WeaponType>
 		<MaxRange>3</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
 		<AOERadius>4</AOERadius>
@@ -18,7 +18,7 @@
 		<Name>RageDualSword</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>750</DamagePerSecond>
-		<WeaponType>HeroMelee</WeaponType>
+		<WeaponType>LeaderPower</WeaponType>
 		<MaxRange>3</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
 		<AOERadius>6</AOERadius>

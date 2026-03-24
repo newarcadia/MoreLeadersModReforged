@@ -20,7 +20,7 @@
     <TriggerVar ID="43" Type="Leader" Name="NewLeader37" IsNull="false">Prophet of Mercy</TriggerVar>
     <TriggerVar ID="44" Type="Leader" Name="NewLeader37" IsNull="false">Arbiter</TriggerVar>
     <TriggerVar ID="45" Type="Leader" Name="NewLeader37" IsNull="false">Brute Chieftain</TriggerVar>
-    <TriggerVar ID="46" Type="Leader" Name="NewLeader37" IsNull="false">ForStark</TriggerVar>
+    <TriggerVar ID="46" Type="Leader" Name="NewLeader37" IsNull="false">BanishedHunter</TriggerVar>
     <TriggerVar ID="47" Type="Leader" Name="NewLeader37" IsNull="false">BanishedBrute</TriggerVar>
     <TriggerVar ID="48" Type="Leader" Name="NewLeader37" IsNull="false">BanishedElite</TriggerVar>
     <TriggerVar ID="49" Type="Leader" Name="NewLeader37" IsNull="false">Insurry</TriggerVar>
@@ -76,6 +76,12 @@
     <TriggerVar ID="102" Type="String" Name="NewString9" IsNull="false">skirmishai_new\skirmishai_cov.triggerscript</TriggerVar>
     <TriggerVar ID="103" Type="Tech" Name="NewTech21" IsNull="false">unsc_odst_upgrade1</TriggerVar>
     <TriggerVar ID="104" Type="String" Name="NewString9" IsNull="false">skirmishai_new\ai_unlocktechs.triggerscript</TriggerVar>
+    <TriggerVar ID="105" Type="String" Name="NewString9" IsNull="false">skirmishai_new\ai_banished.triggerscript</TriggerVar>
+    <TriggerVar ID="106" Type="Leader" Name="NewLeader37" IsNull="false">ForStark</TriggerVar>
+    <TriggerVar ID="107" Type="String" Name="NewString9" IsNull="false">skirmishai_new\ai_forerunner.triggerscript</TriggerVar>
+    <TriggerVar ID="108" Type="Trigger" Name="NewTrigger6" IsNull="false">51</TriggerVar>
+    <TriggerVar ID="109" Type="Trigger" Name="NewTrigger6" IsNull="false">52</TriggerVar>
+    <TriggerVar ID="110" Type="String" Name="NewString9" IsNull="false">skirmishai_new\ai_Bork.triggerscript</TriggerVar>
   </TriggerVars>
   <Triggers>
     <Trigger ID="0" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="247" Y="-870" GroupID="-1" TemplateID="-1">
@@ -136,6 +142,12 @@
         <Effect ID="12" Type="TechActivate v1" DBID="60" Version="1" CommentOut="false">
           <Input Name="Player" SigID="1" Optional="false">0</Input>
           <Input Name="Tech" SigID="2" Optional="false">103</Input>
+        </Effect>
+        <Effect ID="28" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">108</Input>
+        </Effect>
+        <Effect ID="28" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">109</Input>
         </Effect>
       </TriggerEffectsOnTrue>
       <TriggerEffectsOnFalse />
@@ -216,7 +228,7 @@
       </TriggerConditions>
       <TriggerEffectsOnTrue>
         <Effect ID="2" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
-          <Input Name="ScriptName" SigID="15" Optional="false">11</Input>
+          <Input Name="ScriptName" SigID="15" Optional="false">105</Input>
           <Input Name="ExternalUnit" SigID="2" Optional="true">72</Input>
           <Input Name="ExternalUnitList" SigID="3" Optional="true">73</Input>
           <Input Name="ExternalSquad" SigID="4" Optional="true">74</Input>
@@ -238,10 +250,6 @@
           <Condition ID="26" Type="PlayerUsingLeader v1" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
             <Input Name="Player" SigID="1" Optional="false">0</Input>
             <Input Name="Leader" SigID="2" Optional="false">50</Input>
-          </Condition>
-          <Condition ID="28" Type="PlayerUsingLeader v1" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-            <Input Name="Player" SigID="1" Optional="false">0</Input>
-            <Input Name="Leader" SigID="2" Optional="false">49</Input>
           </Condition>
         </Or>
       </TriggerConditions>
@@ -326,6 +334,60 @@
           <Input Name="ExternalFloat" SigID="13" Optional="true">70</Input>
         </Effect>
         <Effect ID="33" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="51" Name="NewTrigger18" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="6369" Y="-1588" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <Or>
+          <Condition ID="18" Type="PlayerUsingLeader v1" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">0</Input>
+            <Input Name="Leader" SigID="2" Optional="false">106</Input>
+          </Condition>
+        </Or>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="2" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
+          <Input Name="ScriptName" SigID="15" Optional="false">107</Input>
+          <Input Name="ExternalUnit" SigID="2" Optional="true">72</Input>
+          <Input Name="ExternalUnitList" SigID="3" Optional="true">73</Input>
+          <Input Name="ExternalSquad" SigID="4" Optional="true">74</Input>
+          <Input Name="ExternalSquadList" SigID="5" Optional="true">75</Input>
+          <Input Name="ExternalPlayer" SigID="6" Optional="true">0</Input>
+          <Input Name="ExternalPower" SigID="7" Optional="true">76</Input>
+          <Input Name="ExternalCost" SigID="8" Optional="true">1</Input>
+          <Input Name="ExternalLocation" SigID="11" Optional="true">77</Input>
+          <Input Name="ExternalLocationList" SigID="12" Optional="true">78</Input>
+          <Input Name="ExternalFloat" SigID="13" Optional="true">79</Input>
+        </Effect>
+        <Effect ID="35" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="52" Name="NewTrigger19" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="6434" Y="-733" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <Or>
+          <Condition ID="28" Type="PlayerUsingLeader v1" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">0</Input>
+            <Input Name="Leader" SigID="2" Optional="false">49</Input>
+          </Condition>
+        </Or>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="4" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
+          <Input Name="ScriptName" SigID="15" Optional="false">110</Input>
+          <Input Name="ExternalUnit" SigID="2" Optional="true">81</Input>
+          <Input Name="ExternalUnitList" SigID="3" Optional="true">82</Input>
+          <Input Name="ExternalSquad" SigID="4" Optional="true">83</Input>
+          <Input Name="ExternalSquadList" SigID="5" Optional="true">84</Input>
+          <Input Name="ExternalPlayer" SigID="6" Optional="true">0</Input>
+          <Input Name="ExternalPower" SigID="7" Optional="true">85</Input>
+          <Input Name="ExternalCost" SigID="8" Optional="true">1</Input>
+          <Input Name="ExternalLocation" SigID="11" Optional="true">86</Input>
+          <Input Name="ExternalLocationList" SigID="12" Optional="true">87</Input>
+          <Input Name="ExternalFloat" SigID="13" Optional="true">88</Input>
+        </Effect>
+        <Effect ID="29" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
       </TriggerEffectsOnTrue>
       <TriggerEffectsOnFalse />
     </Trigger>

@@ -4,7 +4,7 @@
 		<Name>BashMelee</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>220</DamagePerSecond>
-		<WeaponType>Guta</WeaponType>
+		<WeaponType>Explosive</WeaponType>
 		<MaxRange>3</MaxRange>
 		<AOERadius>12</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>

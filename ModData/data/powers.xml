@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
+	<Power name="FloodNonPlayerSpawner">
+		<Attributes>
+			<Cost Supplies="400" Power="1" />
+			<AutoRecharge>60000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>53046</DisplayNameID>
+			<RolloverTextID>53047</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>flood\FloodNonPlayerSpawner.triggerscript</TriggerScript>
+	</Power>
 	<Power name="For_Minibase_01">
 		<Attributes>
 			<Cost Supplies="500" Power="2" />
@@ -491,7 +517,7 @@
 	</Power>
 	<Power name="BanLeaderHunterBrand">
 		<Attributes>
-			<Cost Supplies="600" Power="1" />
+			<Cost Supplies="600"/>
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<DisplayNameID>35064</DisplayNameID>
@@ -517,7 +543,7 @@
 	</Power>
 	<Power name="BanLeaderGlassing">
 		<Attributes>
-			<Cost Supplies="550" Power="1" />
+			<Cost Supplies="550"/>
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<DisplayNameID>35066</DisplayNameID>
@@ -543,7 +569,7 @@
 	</Power>
 	<Power name="TechSpartanUnlock">
 		<Attributes>
-			<Cost Supplies="300" Power="2" />
+			<Cost Supplies="300"/>
 			<UIRadius>10</UIRadius>
 			<DisplayNameID>35052</DisplayNameID>
 			<RolloverTextID>35053</RolloverTextID>
@@ -557,7 +583,7 @@
 	</Power>
 	<Power name="SpartanSupportDrop">
 		<Attributes>
-			<Cost Supplies="750" Power="3" />
+			<Cost Supplies="750"/>
 			<Pop type="Unit">6</Pop>
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>10</UIRadius>
@@ -584,7 +610,7 @@
 	</Power>
 	<Power name="TechMarauderUnlock">
 		<Attributes>
-			<Cost Supplies="300" Power="2" />
+			<Cost Supplies="300"/>
 			<UIRadius>10</UIRadius>
 			<DisplayNameID>35056</DisplayNameID>
 			<RolloverTextID>35057</RolloverTextID>
@@ -598,7 +624,7 @@
 	</Power>
 	<Power name="MarauderSupportDrop">
 		<Attributes>
-			<Cost Supplies="700" Power="3" />
+			<Cost Supplies="700"/>
 			<Pop type="Unit">4</Pop>
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>10</UIRadius>
@@ -625,7 +651,7 @@
 	</Power>
 	<Power name="BanDisplacement">
 		<Attributes>
-			<Cost Supplies="400" Power="0" />
+			<Cost Supplies="400"/>
 			<AutoRecharge>1</AutoRecharge>
 			<DisplayNameID>35060</DisplayNameID>
 			<RolloverTextID>35061</RolloverTextID>

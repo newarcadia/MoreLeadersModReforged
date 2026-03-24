@@ -4,7 +4,7 @@
 		<Name>FocusRifle</Name>
 		<AttackRate>4</AttackRate>
 		<DamagePerSecond>140</DamagePerSecond>
-		<WeaponType>Hero</WeaponType>
+		<WeaponType>LeaderPower</WeaponType>
 		<Projectile>fx_focusbeam</Projectile>
 		<ImpactEffect size="small">cov_sniperrifle_01</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>

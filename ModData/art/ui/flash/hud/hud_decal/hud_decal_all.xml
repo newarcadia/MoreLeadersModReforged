@@ -36,6 +36,16 @@
 		<Data type="Texture" name="StaticDecalTextureSpartan">ui\flash\HUD\hud_decal\decal_test\heros\HUD_unsc_hero</Data>
 	</Properties>
 	<!-- UNSC -->
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeY="-1" SizeZ="7" Intensity1="8" Intensity2="28" Intensity3="18" owner="creep_air_wasp_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="9" SizeY="-3" SizeZ="9" Intensity1="8" Intensity2="28" Intensity3="18" owner="creep_air_gunship_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="creep_inf_marine_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="creep_inf_marine_02">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="creep_inf_marine_03">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="creep_inf_badger_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="creep_inf_badger_02">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="creep_inf_badger_03">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="creep_inf_empmarine_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="creep_inf_empmarine_02">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="creep_veh_spade_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="4" SizeZ="4" Intensity1="8" Intensity2="28" Intensity3="18" owner="creep_veh_mongoose_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="4" SizeZ="4" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_veh_mongoose_01">-1</Icon>

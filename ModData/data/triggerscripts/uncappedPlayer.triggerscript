@@ -22,7 +22,7 @@
 		<TriggerVar ID="15" Type="UnitList" Name="ExternUnitListVar1" IsNull="true" />
 		<TriggerVar ID="16" Type="Cost" Name="ExternCostVar1" IsNull="true" />
 		<TriggerVar ID="364" Type="String" Name="" IsNull="false">SkirmishPlayer.triggerscript</TriggerVar>
-		<TriggerVar ID="486" Type="Cost" Name="" IsNull="false">0=5000,1=0,2=0,3=0,4=0</TriggerVar>
+		<TriggerVar ID="486" Type="Cost" Name="" IsNull="false">0=5000,1=0,2=5000,3=5000,4=0</TriggerVar>
 		<TriggerVar ID="374" Type="Float" Name="ExternalFloatVar1" IsNull="true" />
 		<TriggerVar ID="815" Type="Float" Name="" IsNull="false">5000</TriggerVar>
 		<TriggerVar ID="816" Type="Float" Name="" IsNull="false">5000</TriggerVar>

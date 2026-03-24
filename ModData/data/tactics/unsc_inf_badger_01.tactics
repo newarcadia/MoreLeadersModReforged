@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>LightCannon</Name>
+		<Name>HandTurret</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>122</DamagePerSecond>
-		<WeaponType>AASmallArms</WeaponType>
+		<DamagePerSecond>40</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_rifle_01</Projectile>
 		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
@@ -14,32 +14,24 @@
 		<MaxDeviation>5</MaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
-		<EnableHeightBonusDamage />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>10</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>100</PhysicsForceMin>
-		<PhysicsForceMax>200</PhysicsForceMax>
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="GroundVehicle">7</TargetPriority>
 		<TargetPriority type="TurretBuilding">5</TargetPriority>
 		<TargetPriority type="Building">3</TargetPriority>
+		<EnableHeightBonusDamage />
 		<SmallArmsDeflectable />
 	</Weapon>
 	<Action>
-		<Name>LockdownAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>LockdownCannonAttack</Anim>
-		<Weapon>LightCannon</Weapon>
-		<MainAttack />
-		<DisableAttackWaitTimer />
-		<Strafing maxDistance="35" turnRate="45" trackingSpeed="30" jitter="20" />
-	</Action>
-	<Action>
 		<Name>AttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>Idle</Anim>
-		<Weapon>LightCannon</Weapon>
+		<Anim>MinigunAttack</Anim>
+		<Weapon>HandTurret</Weapon>
+		<StartAnim noInterrupt="true">Prefire</StartAnim>
+		<EndAnim SoundCue="stop_unsc_minigun">Postfire</EndAnim>
 		<MainAttack />
+		<Strafing maxDistance="35" turnRate="360" trackingSpeed="40" jitter="20" />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
@@ -185,13 +177,8 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
-			<Action>LockdownAttackAction</Action>
-			<SquadMode>LockDown</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
 			<Action>AttackAction</Action>
-			<SquadMode>Normal</SquadMode>
+			<SquadMode>LockDown</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>

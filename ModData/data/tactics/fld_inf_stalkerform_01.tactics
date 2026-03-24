@@ -4,7 +4,7 @@
 		<Name>Melee</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>75</DamagePerSecond>
-		<WeaponType>PureForm</WeaponType>
+		<WeaponType>GaussCannon</WeaponType>
 		<MaxRange>4</MaxRange>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
@@ -19,7 +19,7 @@
 		<Name>Lunge</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>75</DamagePerSecond>
-		<WeaponType>PureForm</WeaponType>
+		<WeaponType>GaussCannon</WeaponType>
 		<MaxRange>3</MaxRange>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>

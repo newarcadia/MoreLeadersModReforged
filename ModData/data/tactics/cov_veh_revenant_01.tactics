@@ -4,7 +4,7 @@
 		<Name>PlasmaMortar</Name>
 		<AttackRate>5</AttackRate>
 		<DamagePerSecond>30</DamagePerSecond>
-		<WeaponType>ExplosivePlasma</WeaponType>
+		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_revenantMortar_01</Projectile>
 		<ImpactEffect size="Medium">cov_revenantmortar_01</ImpactEffect>
 		<MaxVelocityLead>15</MaxVelocityLead>
@@ -37,7 +37,7 @@
 		<Name>UpgradedPlasmaMortar</Name>
 		<AttackRate>5</AttackRate>
 		<DamagePerSecond>33</DamagePerSecond>
-		<WeaponType>ExplosivePlasma</WeaponType>
+		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_revenantMortar_01</Projectile>
 		<ImpactEffect size="Medium">cov_revenantmortar_01</ImpactEffect>
 		<MaxVelocityLead>15</MaxVelocityLead>
@@ -76,7 +76,7 @@
 		<DOTrate>8</DOTrate>
 		<DOTduration>10</DOTduration>
 		<DOTEffect small="fx_proj_plasmadotSm_01" medium="fx_proj_plasmadotMed_01" large="fx_proj_plasmadotLg_01">fx_proj_plasmadot_01</DOTEffect>
-		<WeaponType>ExplosivePlasma</WeaponType>
+		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_plasmaburn_01</Projectile>
 		<ImpactEffect size="Medium">cov_plasmaburn_01</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>

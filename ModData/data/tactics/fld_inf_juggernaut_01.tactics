@@ -4,7 +4,7 @@
 		<Name>Melee</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>250</DamagePerSecond>
-		<WeaponType>Juggernaut</WeaponType>
+		<WeaponType>LeaderPower</WeaponType>
 		<MaxRange>5</MaxRange>
 		<TargetPriority type="Infantry">25</TargetPriority>
 		<TargetPriority type="Building">-3</TargetPriority>
@@ -13,7 +13,7 @@
 		<Name>GroundAttack</Name>
 		<AttackRate>5</AttackRate>
 		<DamagePerSecond>250</DamagePerSecond>
-		<WeaponType>Juggernaut</WeaponType>
+		<WeaponType>LeaderPower</WeaponType>
 		<MaxRange>5</MaxRange>
 		<TargetPriority type="Infantry">25</TargetPriority>
 		<TargetPriority type="Building">-3</TargetPriority>

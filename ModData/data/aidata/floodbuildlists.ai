@@ -2,27 +2,27 @@
 <Tables>
 	<Table Name="UnscStartBoom" Type="BuildingBuildList">
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -32,17 +32,17 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_02</c>
+			<c>fld_bldg_gravemind_02</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>6</c>
 			<c>2</c>
 		</Row>
@@ -52,7 +52,7 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>3</c>
 			<c>2</c>
 		</Row>
@@ -62,19 +62,19 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>4</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 	</Table>
 	<Table Name="UnscStartRushInf" Type="BuildingBuildList">
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -84,17 +84,17 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>1</c>
 			<c>2</c>
 		</Row>
@@ -104,17 +104,17 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>6</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_02</c>
+			<c>fld_bldg_gravemind_02</c>
 			<c>2</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>2</c>
 			<c>3</c>
 		</Row>
@@ -124,22 +124,22 @@
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>4</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>4</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>1</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>5</c>
 			<c>3</c>
 		</Row>
@@ -149,34 +149,34 @@
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>2</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>5</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>6</c>
 			<c>3</c>
 		</Row>
 	</Table>
 	<Table Name="UnscStartRushVeh" Type="BuildingBuildList">
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -186,74 +186,74 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>1</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>5</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>2</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>4</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_02</c>
+			<c>fld_bldg_gravemind_02</c>
 			<c>2</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>2</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>7</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>4</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>4</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>5</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>5</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>3</c>
 			<c>3</c>
 		</Row>
 	</Table>
 	<Table Name="UnscStartRushMixed" Type="BuildingBuildList">
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>3</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -263,12 +263,12 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
@@ -278,7 +278,7 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>4</c>
 			<c>2</c>
 		</Row>
@@ -288,17 +288,17 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>4</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_02</c>
+			<c>fld_bldg_gravemind_02</c>
 			<c>2</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>3</c>
 			<c>3</c>
 		</Row>
@@ -313,37 +313,37 @@
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>3</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>1</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>1</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>5</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>5</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>2</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>5</c>
 			<c>3</c>
 		</Row>
@@ -355,7 +355,7 @@
 	</Table>
 	<Table Name="UnscStartTurtleAir" Type="BuildingBuildList">
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -365,7 +365,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -375,7 +375,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -390,17 +390,17 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>5</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>5</c>
 			<c>1</c>
 		</Row>
@@ -415,12 +415,12 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -430,12 +430,12 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_02</c>
+			<c>fld_bldg_gravemind_02</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>6</c>
 			<c>2</c>
 		</Row>
@@ -445,7 +445,7 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>3</c>
 			<c>2</c>
 		</Row>
@@ -455,34 +455,34 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>4</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 	</Table>
 	<Table Name="UnscStartTech" Type="BuildingBuildList">
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>4</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>4</c>
 			<c>2</c>
 		</Row>
@@ -492,32 +492,32 @@
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>4</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>4</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_02</c>
+			<c>fld_bldg_gravemind_02</c>
 			<c>2</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>5</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>5</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>1</c>
 			<c>4</c>
 		</Row>
@@ -527,7 +527,7 @@
 			<c>4</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>5</c>
 			<c>4</c>
 		</Row>
@@ -537,12 +537,12 @@
 			<c>5</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>3</c>
 			<c>5</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_02</c>
+			<c>fld_bldg_gravemind_02</c>
 			<c>3</c>
 			<c>5</c>
 		</Row>
@@ -554,37 +554,37 @@
 	</Table>
 	<Table Name="MidEconFirst" Type="BuildingBuildList">
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_02</c>
+			<c>fld_bldg_gravemind_02</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -594,49 +594,49 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_02</c>
+			<c>fld_bldg_gravemind_02</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>8</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>8</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>10</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>10</c>
 			<c>2</c>
 		</Row>
 	</Table>
 	<Table Name="MidProductionFirst" Type="BuildingBuildList">
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -646,7 +646,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -661,12 +661,12 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>3</c>
 			<c>1</c>
 		</Row>
@@ -676,17 +676,17 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>8</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_02</c>
+			<c>fld_bldg_gravemind_02</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>8</c>
 			<c>2</c>
 		</Row>
@@ -696,17 +696,17 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>10</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>10</c>
 			<c>2</c>
 		</Row>
@@ -718,12 +718,12 @@
 	</Table>
 	<Table Name="MidTechFirst" Type="BuildingBuildList">
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>3</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -738,27 +738,27 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>8</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_02</c>
+			<c>fld_bldg_gravemind_02</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>8</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -768,24 +768,24 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>10</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>10</c>
 			<c>1</c>
 		</Row>
 	</Table>
 	<Table Name="MidTurretUp" Type="BuildingBuildList">
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -810,32 +810,32 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>8</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_02</c>
+			<c>fld_bldg_gravemind_02</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>8</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -845,19 +845,19 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>10</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>10</c>
 			<c>1</c>
 		</Row>
 	</Table>
 	<Table Name="MidBaseGrab" Type="BuildingBuildList">
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -867,42 +867,42 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>8</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_02</c>
+			<c>fld_bldg_gravemind_02</c>
 			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>8</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>10</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>10</c>
 			<c>1</c>
 		</Row>
@@ -912,7 +912,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -927,29 +927,29 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>6</c>
 			<c>1</c>
 		</Row>
 	</Table>
 	<Table Name="UnscStartRushTL1" Type="BuildingBuildList">
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>3</c>
 			<c>2</c>
 		</Row>
@@ -961,17 +961,17 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>3</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>1</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>4</c>
 			<c>3</c>
 		</Row>
@@ -983,17 +983,17 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>3</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>1</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>5</c>
 			<c>2</c>
 		</Row>
@@ -1005,24 +1005,24 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>6</c>
 			<c>2</c>
 		</Row>
 	</Table>
 	<Table Name="UnscStartBoomCutter" Type="BuildingBuildList">
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -1032,29 +1032,29 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>7</c>
 			<c>2</c>
 		</Row>
 	</Table>
 	<Table Name="UnscStartTech1" Type="BuildingBuildList">
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -1069,17 +1069,17 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_02</c>
+			<c>fld_bldg_gravemind_02</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>6</c>
 			<c>2</c>
 		</Row>
@@ -1089,7 +1089,7 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>3</c>
 			<c>2</c>
 		</Row>
@@ -1099,12 +1099,12 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>4</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
@@ -1116,7 +1116,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_01</c>
+			<c>fld_bldg_hive_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -1141,7 +1141,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>3</c>
 			<c>1</c>
 		</Row>
@@ -1151,34 +1151,34 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>6</c>
 			<c>1</c>
 		</Row>
 	</Table>
 	<Table Name="UnscStartTech4P" Type="BuildingBuildList">
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_02</c>
+			<c>fld_bldg_ressourcedrop_02_ai</c>
 			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_bldg_command_03</c>
+			<c>fld_bldg_gravemind_03</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -1195,12 +1195,12 @@
 	</Table>
 	<Table Name="UnscStartRushEarly1P" Type="BuildingBuildList">
 		<Row>
-			<c>fore_bldg_reactor_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -1210,7 +1210,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_supplypad_01</c>
+			<c>fld_bldg_ressourcedrop_01_ai</c>
 			<c>3</c>
 			<c>2</c>
 		</Row>

@@ -7,7 +7,7 @@ Early access build to test coming features/changes. Some units may not be in a f
 Current focus is the UNSC and Covenant AI, with certain changes to new leaders like the rebels.
 
 </String>
-		<String _locID="26217" category="UI" subtitle="false">Early Access Build (v1.1.3)</String>
+		<String _locID="26217" category="UI" subtitle="false">Early Access Build (v1.1.4)</String>
 		<String _locID="26218" category="UI" subtitle="false">new-arcadia.net/discord</String>
 		<!-- BlockLeaderpower effect uses this string-->
 		<String _locID="357" category="Code" subtitle="false">JAMMED! </String> 
@@ -1292,6 +1292,90 @@ Adds a drone.</String>
 		<String _locID="53021" category="Techs" subtitle="false">Adds 1x Enforcer and 2x Regulators to the SW Defense Power.</String>
 		<String _locID="53022" category="Powers" subtitle="false">MINI BASE</String>
 		<String _locID="53023" category="Powers" subtitle="false">Place down a small base anywhere. Max 3 mini bases.</String>
+		<String _locID="53024" category="Skirmish" subtitle="false">UNCAPPED</String>
+		<String _locID="53025" category="Skirmish" subtitle="false">Replicates the Uncapped mod in MLM.</String>
+		<String _locID="53026" category="Code" subtitle="false">GROUPED</String> 
+		<String _locID="53027" category="Code" subtitle="false">Several infected gather to attack as a group.</String>
+		<String _locID="53028" category="Code" subtitle="false">SINGLE</String> 
+		<String _locID="53029" category="Code" subtitle="false">Infected attack at once.</String> 
+		<String _locID="53030" category="Squads" subtitle="false">INFECTED INFANTRY</String>
+		<String _locID="53031" category="Squads" subtitle="false">Unarmed combatforms.</String>
+		<String _locID="53032" category="Squads" subtitle="false">INFECTED RANGED INFANTRY</String>
+		<String _locID="53033" category="Squads" subtitle="false">Armed combatforms.</String>
+		<String _locID="53034" category="Squads" subtitle="false">INFECTED AI INFANTRY</String>
+		<String _locID="53035" category="Squads" subtitle="false">Armed combatforms with anti-infantry weaponry.</String>
+		<String _locID="53036" category="Squads" subtitle="false">INFECTED AV INFANTRY</String>
+		<String _locID="53037" category="Squads" subtitle="false">Armed combatforms with anti-vehicle weaponry.</String>
+		<String _locID="53038" category="Squads" subtitle="false">CORRUPTED LIGHT VEHICLES</String>
+		<String _locID="53039" category="Squads" subtitle="false">Transformed light vehicles</String>
+		<String _locID="53040" category="Squads" subtitle="false">CORRUPTED MEDIUM VEHICLES</String>
+		<String _locID="53041" category="Squads" subtitle="false">Transformed medium vehicles</String>
+		<String _locID="53042" category="Squads" subtitle="false">CORRUPTED HEAVY VEHICLES</String>
+		<String _locID="53043" category="Squads" subtitle="false">Transformed heavy vehicles</String>
+		<String _locID="53044" category="Squads" subtitle="false">CORRUPTED LIGHT AIR</String>
+		<String _locID="53045" category="Squads" subtitle="false">Transformed air vehicles</String>
+		<String _locID="53046" category="Powers" subtitle="false">PROTO NODE</String>
+		<String _locID="53047" category="Powers" subtitle="false">Local node that coordinates a small amount of combatforms.</String>
+		<String _locID="53048" category="Techs" subtitle="false">LIGHT VEH UP I</String>
+		<String _locID="53049" category="Techs" subtitle="false">Unlock several tier 1 upgrades.</String>
+		<String _locID="53050" category="Techs" subtitle="false">LIGHT VEH UP II</String>
+		<String _locID="53051" category="Techs" subtitle="false">Unlock several tier 2 upgrades.</String>
+		<String _locID="53052" category="Techs" subtitle="false">LIGHT VEH UP III</String>
+		<String _locID="53053" category="Techs" subtitle="false">Unlock several tier 3 upgrades.</String>
+		<String _locID="53054" category="Techs" subtitle="false">MEDIUM VEH UP I</String>
+		<String _locID="53055" category="Techs" subtitle="false">Unlock several tier 1 upgrades.</String>
+		<String _locID="53056" category="Techs" subtitle="false">MEDIUM VEH UP II</String>
+		<String _locID="53057" category="Techs" subtitle="false">Unlock several tier 2 upgrades.</String>
+		<String _locID="53058" category="Techs" subtitle="false">MEDIUM VEH UP III</String>
+		<String _locID="53059" category="Techs" subtitle="false">Unlock several tier 3 upgrades.</String>
+		<String _locID="53060" category="Techs" subtitle="false">HEAVY VEH UP I</String>
+		<String _locID="53061" category="Techs" subtitle="false">Unlock several tier 1 upgrades.</String>
+		<String _locID="53062" category="Techs" subtitle="false">HEAVY VEH UP II</String>
+		<String _locID="53063" category="Techs" subtitle="false">Unlock several tier 2 upgrades.</String>
+		<String _locID="53064" category="Techs" subtitle="false">HEAVY VEH UP III</String>
+		<String _locID="53065" category="Techs" subtitle="false">Unlock several tier 3 upgrades.</String>
+		<String _locID="53066" category="Squads" subtitle="false">INFANTRY</String>
+		<String _locID="53067" category="Squads" subtitle="false">Generic rebel squad, identical to the UNSC marine squad.</String>
+		<String _locID="53068" category="Squads" subtitle="false">BADGER</String>
+		<String _locID="53069" category="Squads" subtitle="false">Specialised squad against Infantry.</String>
+		<String _locID="53070" category="Squads" subtitle="false">TASER SQUAD</String>
+		<String _locID="53071" category="Squads" subtitle="false">Specialised squad against Vehicle.</String>
+		<String _locID="53072" category="Techs" subtitle="false">INFANTRY I</String>
+		<String _locID="53073" category="Techs" subtitle="false">DPS/HP Buff, increased squad count.</String>
+		<String _locID="53074" category="Techs" subtitle="false">INFANTRY II</String>
+		<String _locID="53075" category="Techs" subtitle="false">DPS/HP Buff, enables Rocket Launcher.</String>
+		<String _locID="53076" category="Techs" subtitle="false">INFANTRY III</String>
+		<String _locID="53077" category="Techs" subtitle="false">DPS/HP Buff, increased squad count.</String>
+		<String _locID="53078" category="Techs" subtitle="false">BADGER I</String>
+		<String _locID="53079" category="Techs" subtitle="false">DPS/HP Buff, increased squad count.</String>
+		<String _locID="53080" category="Techs" subtitle="false">BADGER II</String>
+		<String _locID="53081" category="Techs" subtitle="false">DPS/HP Buff, increased squad count.</String>
+		<String _locID="53082" category="Techs" subtitle="false">BADGER III</String>
+		<String _locID="53083" category="Techs" subtitle="false">DPS/HP Buff, enables Grenade Launcher.</String>
+		<String _locID="53084" category="Techs" subtitle="false">TASER I</String>
+		<String _locID="53085" category="Techs" subtitle="false">DPS/HP Buff.</String>
+		<String _locID="53086" category="Techs" subtitle="false">TASER II</String>
+		<String _locID="53087" category="Techs" subtitle="false">DPS/HP Buff.</String>
+		<String _locID="53088" category="Techs" subtitle="false">TASER III</String>
+		<String _locID="53089" category="Techs" subtitle="false">DPS/HP Buff.</String>
+		<String _locID="53090" category="Techs" subtitle="false">DRONE I</String>
+		<String _locID="53091" category="Techs" subtitle="false">DPS/HP Buff.</String>
+		<String _locID="53092" category="Techs" subtitle="false">DRONE II</String>
+		<String _locID="53093" category="Techs" subtitle="false">DPS/HP Buff.</String>
+		<String _locID="53094" category="Techs" subtitle="false">DRONE III</String>
+		<String _locID="53095" category="Techs" subtitle="false">DPS/HP Buff.</String>
+		<String _locID="53096" category="Techs" subtitle="false">PELICAN I</String>
+		<String _locID="53097" category="Techs" subtitle="false">DPS/HP Buff.</String>
+		<String _locID="53098" category="Squads" subtitle="false">AUTOMATED DRONE</String>
+		<String _locID="53099" category="Squads" subtitle="false">The Insurrection uses automated drones to reconnoiter the area around enemy positions.</String>
+		<String _locID="53100" category="Squads" subtitle="false">PELICAN</String>
+		<String _locID="53101" category="Squads" subtitle="false">Weaponised Pelican.</String>
+		<String _locID="53102" category="Techs" subtitle="false">HAVOK I</String>
+		<String _locID="53103" category="Techs" subtitle="false">DPS/HP Buff.</String>
+		<String _locID="53104" category="Techs" subtitle="false">HAVOK II</String>
+		<String _locID="53105" category="Techs" subtitle="false">DPS/HP Buff.</String>
+		<String _locID="53106" category="Techs" subtitle="false">HAVOK III</String>
+		<String _locID="53107" category="Techs" subtitle="false">DPS/HP Buff.</String>
 
 
 		<String _locID="100" category="Code" subtitle="false">CONFIRM</String>

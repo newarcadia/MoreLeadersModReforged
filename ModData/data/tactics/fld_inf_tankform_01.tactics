@@ -4,7 +4,7 @@
 		<Name>Melee</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>367.5</DamagePerSecond>
-		<WeaponType>PureForm</WeaponType>
+		<WeaponType>FuelRod</WeaponType>
 		<MaxRange>5</MaxRange>
 		<AOERadius>4</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
@@ -22,7 +22,7 @@
 		<Name>StunMelee</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>367.5</DamagePerSecond>
-		<WeaponType>PureForm</WeaponType>
+		<WeaponType>FuelRod</WeaponType>
 		<MaxRange>5</MaxRange>
 		<AOERadius>4</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
@@ -40,7 +40,7 @@
 		<Name>GroundAttack</Name>
 		<AttackRate>5</AttackRate>
 		<DamagePerSecond>5</DamagePerSecond>
-		<WeaponType>PureForm</WeaponType>
+		<WeaponType>FuelRod</WeaponType>
 		<Projectile>fx_proj_infectionform_01</Projectile>
 		<ImpactEffect size="Medium">flood_spit_01</ImpactEffect>
 		<MaxVelocityLead>6</MaxVelocityLead>

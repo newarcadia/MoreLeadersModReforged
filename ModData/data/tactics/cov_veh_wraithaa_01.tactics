@@ -28,7 +28,7 @@
 		<Name>FuelRodTurret</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>200</DamagePerSecond>
-		<WeaponType>AntiAirFuelRod</WeaponType>
+		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_fuelRod_01</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
@@ -60,7 +60,7 @@
 		<Name>FuelRodTurretTracking</Name>
 		<AttackRate>6</AttackRate>
 		<DamagePerSecond>200</DamagePerSecond>
-		<WeaponType>AntiAirFuelRod</WeaponType>
+		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_fuelRodtracking_01</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
@@ -74,7 +74,7 @@
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>2000</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>AntiAirFuelRod</WeaponType>
+		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_fuelRod_01</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>

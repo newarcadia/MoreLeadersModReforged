@@ -4,7 +4,7 @@
 		<Name>SwipMelee</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>800</DamagePerSecond>
-		<WeaponType>Creature</WeaponType>
+		<WeaponType>Basic</WeaponType>
 		<MaxRange>12</MaxRange>
 		<AOERadius>6</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
@@ -27,7 +27,7 @@
 		<Name>BashMelee</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>700</DamagePerSecond>
-		<WeaponType>Creature</WeaponType>
+		<WeaponType>Basic</WeaponType>
 		<MaxRange>12</MaxRange>
 		<AOERadius>12</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>

@@ -4811,10 +4811,6 @@
 		<Command Type="Research" Position="7">unsc_colossus_upgrade1</Command>
 		<Command Type="Research" Position="7">unsc_colossus_upgrade2</Command>
 		<Command Type="Research" Position="7">unsc_colossus_upgrade3</Command>
-		<Command Type="TrainSquad" Position="1">creep_veh_tank_01</Command>
-		<Command Type="Research" Position="7">creep_tank_upgrade1</Command>
-		<Command Type="Research" Position="7">creep_tank_upgrade2</Command>
-		<Command Type="Research" Position="7">creep_tank_upgrade3</Command>
 		<Command Type="TrainSquad" Position="2">creep_veh_havok_01</Command>
 		<Command Type="Research" Position="6">creep_havok_upgrade1</Command>
 		<Command Type="Research" Position="6">creep_havok_upgrade2</Command>
@@ -4908,14 +4904,13 @@
 		<Command Type="Research" Position="6">unsc_hawk_upgrade3</Command>
 		<Command Type="Research" Position="5">unsc_vulture_upgrade1</Command>
 		<Command Type="TrainSquad" Position="1">creep_air_wasp_01</Command>
-		<Command Type="Research" Position="6">creep_wasp_upgrade1</Command>
-		<Command Type="Research" Position="6">creep_wasp_upgrade2</Command>
-		<Command Type="Research" Position="6">creep_wasp_upgrade3</Command>
+		<Command Type="Research" Position="7">creep_wasp_upgrade1</Command>
+		<Command Type="Research" Position="7">creep_wasp_upgrade2</Command>
+		<Command Type="Research" Position="7">creep_wasp_upgrade3</Command>
 		<Command Type="TrainSquad" Position="2">suc_air_raven_01</Command>
 		<Command Type="TrainSquad" Position="3">creep_air_gunship_01</Command>
-		<Command Type="Research" Position="6">creep_gunship_upgrade1</Command>
-		<Command Type="Research" Position="6">creep_gunship_upgrade2</Command>
-		<Command Type="Research" Position="6">creep_gunship_upgrade3</Command>
+		<Command Type="Research" Position="5">creep_gunship_upgrade1</Command>
+		<Command Type="Research" Position="5">creep_gunship_upgrade2</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_airpad</Sound>
 		<Sound Type="Death">play_unsc_air_pad_death</Sound>

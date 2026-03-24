@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>InCoverAssaultRifle</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>44</DamagePerSecond>
+		<DamagePerSecond>22</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_rifle_01</Projectile>
 		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
@@ -16,7 +16,7 @@
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
-		<VisualAmmo>8</VisualAmmo>
+		<VisualAmmo>16</VisualAmmo>
 		<ReloadAnimation>AssaultRifleReload</ReloadAnimation>
 		<TargetPriority type="Infantry">5</TargetPriority>
 		<TargetPriority type="Building">-3</TargetPriority>
@@ -26,7 +26,7 @@
 	<Weapon>
 		<Name>AssaultRifle</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>33</DamagePerSecond>
+		<DamagePerSecond>22</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_rifle_01</Projectile>
 		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
@@ -39,7 +39,7 @@
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
-		<VisualAmmo>8</VisualAmmo>
+		<VisualAmmo>16</VisualAmmo>
 		<ReloadAnimation>AssaultRifleReload</ReloadAnimation>
 		<TargetPriority type="Infantry">5</TargetPriority>
 		<TargetPriority type="Building">-3</TargetPriority>

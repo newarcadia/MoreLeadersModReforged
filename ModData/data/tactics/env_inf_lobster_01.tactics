@@ -5,7 +5,7 @@
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>46</DamagePerSecond>
 		<MaxRange>2</MaxRange>
-		<WeaponType>FldInfectionForm</WeaponType>
+		<WeaponType>Basic</WeaponType>
 		<MaxRange>0.35</MaxRange>
 		<TargetPriority type="Infantry">10</TargetPriority>
 	</Weapon>

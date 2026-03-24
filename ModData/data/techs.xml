@@ -546,6 +546,7 @@
 				<Target type="ProtoSquad">for_air_monitor_04</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">creep_veh_tank_01</Target>
 				<Target type="ProtoUnit">for_air_regulator_01</Target>
 				<Target type="ProtoUnit">for_veh_eradicator_01_new</Target>
 				<Target type="ProtoUnit">ban_veh_locust_01</Target>
@@ -2445,20 +2446,16 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_veh_grizzly_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">creep_veh_tank_01</Target>
 				<Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">creep_veh_tank_01</Target>
 				<Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
 			</Effect>
 		</Effects>
@@ -2480,23 +2477,16 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
-			</Effect>
-			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_scorpion_upgrade2">
-				<Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_veh_grizzly_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">creep_veh_tank_01</Target>
 				<Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">creep_veh_tank_01</Target>
 				<Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
 			</Effect>
 		</Effects>
@@ -2518,29 +2508,21 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
+				<Target type="ProtoSquad">unsc_veh_grizzly_01</Target>
 			</Effect>
 			<Effect type="Data" amount="120" subType="TurretYawRate" Hardpoint="MGTurret" allactions="1" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
-			</Effect>
-			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_scorpion_upgrade3">
-				<Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_veh_grizzly_01</Target>
-			</Effect>
-			<Effect type="Data" amount="120" subType="TurretYawRate" Hardpoint="CannonTurret" allactions="1" relativity="Absolute">
+				<Target type="ProtoUnit">creep_veh_tank_01</Target>
 				<Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">creep_veh_tank_01</Target>
 				<Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">creep_veh_tank_01</Target>
 				<Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
 			</Effect>
 		</Effects>

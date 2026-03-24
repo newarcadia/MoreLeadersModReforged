@@ -1,5 +1,641 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TechTree version="8">
+	<Tech name="creep_havok_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53102</DisplayNameID>
+		<RolloverTextID>53103</RolloverTextID>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">creep_veh_havok_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="creep_havok_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53104</DisplayNameID>
+		<RolloverTextID>53105</RolloverTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_wingmen</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">creep_havok_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">creep_veh_havok_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">creep_veh_havok_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">creep_veh_havok_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="creep_havok_upgrade3" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53106</DisplayNameID>
+		<RolloverTextID>53107</RolloverTextID>
+		<PrereqTextID>234</PrereqTextID>
+		<Cost resourcetype="Supplies">900</Cost>
+		<Cost resourcetype="Power">4</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_chaffpods</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">creep_havok_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">creep_veh_havok_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">creep_veh_havok_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">creep_veh_havok_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="creep_wasp_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53090</DisplayNameID>
+		<RolloverTextID>53091</RolloverTextID>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">creep_air_wasp_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">creep_air_wasp_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">creep_air_wasp_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="creep_wasp_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53092</DisplayNameID>
+		<RolloverTextID>53093</RolloverTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_wingmen</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">creep_wasp_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">creep_air_wasp_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">creep_air_wasp_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">creep_air_wasp_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="creep_wasp_upgrade3" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53094</DisplayNameID>
+		<RolloverTextID>53095</RolloverTextID>
+		<PrereqTextID>234</PrereqTextID>
+		<Cost resourcetype="Supplies">900</Cost>
+		<Cost resourcetype="Power">4</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_chaffpods</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">creep_wasp_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">creep_air_wasp_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">creep_air_wasp_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">creep_air_wasp_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="creep_gunship_upgrade1" type="Normal">
+		<Status>OBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="2" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">creep_air_gunship_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.95" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">creep_air_gunship_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.95" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">creep_air_gunship_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="creep_gunship_upgrade2" type="Normal">
+		<DisplayNameID>53096</DisplayNameID>
+		<RolloverTextID>53097</RolloverTextID>
+		<PrereqTextID>235</PrereqTextID>
+		<Cost resourcetype="Supplies">800</Cost>
+		<Cost resourcetype="Power">4</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<ResearchCompleteSound>play_vog_tech_megabarrage</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">creep_air_gunship_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">creep_air_gunship_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">creep_air_gunship_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="creep_marine_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53072</DisplayNameID>
+		<RolloverTextID>53073</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Cost resourcetype="Supplies">200</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">creep_inf_marine_01</Target>
+				<Target type="ProtoSquad">creep_inf_marine_02</Target>
+				<Target type="ProtoSquad">creep_inf_marine_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">creep_inf_marine_01</Target>
+				<Target type="ProtoUnit">creep_inf_marine_02</Target>
+				<Target type="ProtoUnit">creep_inf_medic_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">creep_inf_marine_01</Target>
+				<Target type="ProtoUnit">creep_inf_marine_02</Target>
+				<Target type="ProtoUnit">creep_inf_medic_01</Target>
+			</Effect>
+			<Effect type="TransformProtoSquad" FromType="creep_inf_marine_01" ToType="creep_inf_marine_02" />
+		</Effects>
+	</Tech>
+	<Tech name="creep_marine_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53074</DisplayNameID>
+		<RolloverTextID>53075</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_rpg</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">creep_marine_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">creep_inf_marine_01</Target>
+				<Target type="ProtoSquad">creep_inf_marine_02</Target>
+				<Target type="ProtoSquad">creep_inf_marine_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">creep_inf_marine_01</Target>
+				<Target type="ProtoUnit">creep_inf_marine_02</Target>
+				<Target type="ProtoUnit">creep_inf_medic_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">creep_inf_marine_01</Target>
+				<Target type="ProtoUnit">creep_inf_marine_02</Target>
+				<Target type="ProtoUnit">creep_inf_medic_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="GrenadeAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">creep_inf_marine_01</Target>
+				<Target type="ProtoUnit">creep_inf_marine_02</Target>
+				<Target type="ProtoUnit">creep_inf_medic_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="InCoverGrenadeAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">creep_inf_marine_01</Target>
+				<Target type="ProtoUnit">creep_inf_marine_02</Target>
+				<Target type="ProtoUnit">creep_inf_medic_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="RocketAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">creep_inf_marine_01</Target>
+				<Target type="ProtoUnit">creep_inf_marine_02</Target>
+				<Target type="ProtoUnit">creep_inf_medic_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="InCoverRocketAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">creep_inf_marine_01</Target>
+				<Target type="ProtoUnit">creep_inf_marine_02</Target>
+				<Target type="ProtoUnit">creep_inf_medic_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="creep_marine_upgrade3" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53076</DisplayNameID>
+		<RolloverTextID>53077</RolloverTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<Cost resourcetype="Supplies">700</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_medic</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">creep_marine_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">creep_inf_marine_01</Target>
+				<Target type="ProtoSquad">creep_inf_marine_02</Target>
+				<Target type="ProtoSquad">creep_inf_marine_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">creep_inf_marine_01</Target>
+				<Target type="ProtoUnit">creep_inf_marine_02</Target>
+				<Target type="ProtoUnit">creep_inf_medic_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">creep_inf_marine_01</Target>
+				<Target type="ProtoUnit">creep_inf_marine_02</Target>
+				<Target type="ProtoUnit">creep_inf_medic_01</Target>
+			</Effect>
+			<Effect type="TransformProtoSquad" FromType="creep_inf_marine_01" ToType="creep_inf_marine_03" />
+		</Effects>
+	</Tech>
+	<Tech name="creep_badger_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53078</DisplayNameID>
+		<RolloverTextID>53079</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Cost resourcetype="Supplies">200</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">creep_inf_badger_01</Target>
+				<Target type="ProtoSquad">creep_inf_badger_02</Target>
+				<Target type="ProtoSquad">creep_inf_badger_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">creep_inf_badger_marine_02</Target>
+				<Target type="ProtoUnit">creep_inf_badger_marine_01</Target>
+				<Target type="ProtoUnit">creep_inf_badger_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">creep_inf_badger_marine_02</Target>
+				<Target type="ProtoUnit">creep_inf_badger_marine_01</Target>
+				<Target type="ProtoUnit">creep_inf_badger_01</Target>
+			</Effect>
+			<Effect type="TransformProtoSquad" FromType="creep_inf_badger_01" ToType="creep_inf_badger_02" />
+		</Effects>
+	</Tech>
+	<Tech name="creep_badger_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53080</DisplayNameID>
+		<RolloverTextID>53081</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_rpg</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">creep_badger_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">creep_inf_badger_01</Target>
+				<Target type="ProtoSquad">creep_inf_badger_02</Target>
+				<Target type="ProtoSquad">creep_inf_badger_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">creep_inf_badger_marine_02</Target>
+				<Target type="ProtoUnit">creep_inf_badger_marine_01</Target>
+				<Target type="ProtoUnit">creep_inf_badger_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">creep_inf_badger_marine_02</Target>
+				<Target type="ProtoUnit">creep_inf_badger_marine_01</Target>
+				<Target type="ProtoUnit">creep_inf_badger_01</Target>
+			</Effect>
+			<Effect type="TransformProtoSquad" FromType="creep_inf_badger_01" ToType="creep_inf_badger_03" />
+		</Effects>
+	</Tech>
+	<Tech name="creep_badger_upgrade3" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53082</DisplayNameID>
+		<RolloverTextID>53083</RolloverTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<Cost resourcetype="Supplies">700</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_medic</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">creep_badger_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">creep_inf_badger_01</Target>
+				<Target type="ProtoSquad">creep_inf_badger_02</Target>
+				<Target type="ProtoSquad">creep_inf_badger_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">creep_inf_badger_marine_02</Target>
+				<Target type="ProtoUnit">creep_inf_badger_marine_01</Target>
+				<Target type="ProtoUnit">creep_inf_badger_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">creep_inf_badger_marine_02</Target>
+				<Target type="ProtoUnit">creep_inf_badger_marine_01</Target>
+				<Target type="ProtoUnit">creep_inf_badger_01</Target>
+			</Effect>
+			<Effect type="TransformProtoUnit" FromType="creep_inf_badger_marine_01" ToType="creep_inf_badger_marine_02" />
+		</Effects>
+	</Tech>
+	<Tech name="creep_empmarine_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53084</DisplayNameID>
+		<RolloverTextID>53085</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Cost resourcetype="Supplies">200</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">creep_inf_empmarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">creep_inf_empmarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">creep_inf_empmarine_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="creep_empmarine_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53086</DisplayNameID>
+		<RolloverTextID>53087</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_rpg</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">creep_empmarine_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">creep_inf_empmarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">creep_inf_empmarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">creep_inf_empmarine_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="creep_empmarine_upgrade3" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53088</DisplayNameID>
+		<RolloverTextID>53089</RolloverTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<Cost resourcetype="Supplies">700</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_medic</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">creep_empmarine_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">creep_inf_empmarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">creep_inf_empmarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">creep_inf_empmarine_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="flood_lightveh_upgrade1" type="Normal">
+		<DBID>1962</DBID>
+		<DisplayNameID>53048</DisplayNameID>
+		<RolloverTextID>53049</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<ResearchPoints>20</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Effects />
+	</Tech>
+	<Tech name="flood_lightveh_upgrade2" type="Normal">
+		<DBID>1962</DBID>
+		<DisplayNameID>53050</DisplayNameID>
+		<RolloverTextID>53051</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<Cost resourcetype="Supplies">700</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Prereqs>
+			<TechStatus status="Active">flood_lightveh_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects />
+	</Tech>
+	<Tech name="flood_lightveh_upgrade3" type="Normal">
+		<DBID>1962</DBID>
+		<DisplayNameID>53052</DisplayNameID>
+		<RolloverTextID>53053</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<Cost resourcetype="Supplies">900</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Prereqs>
+			<TechStatus status="Active">flood_lightveh_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects />
+	</Tech>
+	<Tech name="flood_mediumveh_upgrade1" type="Normal">
+		<DBID>1962</DBID>
+		<DisplayNameID>53054</DisplayNameID>
+		<RolloverTextID>53055</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<ResearchPoints>20</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Effects />
+	</Tech>
+	<Tech name="flood_mediumveh_upgrade2" type="Normal">
+		<DBID>1962</DBID>
+		<DisplayNameID>53056</DisplayNameID>
+		<RolloverTextID>53057</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<Cost resourcetype="Supplies">700</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Prereqs>
+			<TechStatus status="Active">flood_mediumveh_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects />
+	</Tech>
+	<Tech name="flood_mediumveh_upgrade3" type="Normal">
+		<DBID>1962</DBID>
+		<DisplayNameID>53058</DisplayNameID>
+		<RolloverTextID>53059</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<Cost resourcetype="Supplies">900</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Prereqs>
+			<TechStatus status="Active">flood_mediumveh_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects />
+	</Tech>
+	<Tech name="flood_heavyveh_upgrade1" type="Normal">
+		<DBID>1962</DBID>
+		<DisplayNameID>53060</DisplayNameID>
+		<RolloverTextID>53061</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<ResearchPoints>20</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Effects />
+	</Tech>
+	<Tech name="flood_heavyveh_upgrade2" type="Normal">
+		<DBID>1962</DBID>
+		<DisplayNameID>53062</DisplayNameID>
+		<RolloverTextID>53063</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<Cost resourcetype="Supplies">700</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Prereqs>
+			<TechStatus status="Active">flood_heavyveh_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects />
+	</Tech>
+	<Tech name="flood_heavyveh_upgrade3" type="Normal">
+		<DBID>1962</DBID>
+		<DisplayNameID>53064</DisplayNameID>
+		<RolloverTextID>53065</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<Cost resourcetype="Supplies">900</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Prereqs>
+			<TechStatus status="Active">flood_heavyveh_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects />
+	</Tech>
+	<Tech name="flood_spawner_vehinfector" type="Normal">
+		<DBID>1962</DBID>
+		<DisplayNameID>51053</DisplayNameID>
+		<RolloverTextID>51054</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<Cost resourcetype="Supplies">100</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<ResearchPoints>15</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Flag>UniqueProtoUnitInstance</Flag>
+		<Effects />
+	</Tech>
+	<Tech name="flood_spawner_brute" type="Normal">
+		<DBID>1962</DBID>
+		<DisplayNameID>51167</DisplayNameID>
+		<RolloverTextID>51168</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<Cost resourcetype="Supplies">100</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<ResearchPoints>15</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Flag>UniqueProtoUnitInstance</Flag>
+		<Effects />
+	</Tech>
+	<Tech name="flood_spawner_runner" type="Normal">
+		<DBID>1962</DBID>
+		<DisplayNameID>51043</DisplayNameID>
+		<RolloverTextID>51044</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<Cost resourcetype="Supplies">100</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<ResearchPoints>15</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Flag>UniqueProtoUnitInstance</Flag>
+		<Effects />
+	</Tech>
+	<Tech name="flood_spawner_spartan" type="Normal">
+		<DBID>1962</DBID>
+		<DisplayNameID>48050</DisplayNameID>
+		<RolloverTextID>48051</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<Cost resourcetype="Supplies">100</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<ResearchPoints>15</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Flag>UniqueProtoUnitInstance</Flag>
+		<Effects />
+	</Tech>
 	<Tech name="uc_mode" type="Normal">
 		<Status>OBTAINABLE</Status>
 		<Flag>HiddenFromStats</Flag>
@@ -19,6 +655,30 @@
 				<Target type="ProtoUnit">ban_bldg_supplyDepot_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0.15" subtype="buildPoints" allactions="1" relativity="Percent">
+				<Target type="ProtoSquad">creep_veh_mongoose_01</Target>
+				<Target type="ProtoSquad">creep_veh_spade_01</Target>
+				<Target type="ProtoSquad">creep_inf_marine_01</Target>
+				<Target type="ProtoSquad">creep_inf_marine_02</Target>
+				<Target type="ProtoSquad">creep_inf_marine_03</Target>
+				<Target type="ProtoSquad">creep_inf_badger_01</Target>
+				<Target type="ProtoSquad">creep_inf_badger_02</Target>
+				<Target type="ProtoSquad">creep_inf_badger_03</Target>
+				<Target type="ProtoSquad">creep_inf_empmarine_01</Target>
+				<Target type="ProtoSquad">creep_inf_empmarine_02</Target>
+				<Target type="ProtoSquad">creep_veh_tank_01</Target>
+				<Target type="ProtoSquad">creep_veh_havok_01</Target>
+				<Target type="ProtoSquad">creep_air_wasp_01</Target>
+				<Target type="ProtoSquad">suc_air_raven_01</Target>
+				<Target type="ProtoSquad">creep_air_gunship_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartanmech_01</Target>
+				<Target type="ProtoSquad">fld_veh_all_light_01</Target>
+				<Target type="ProtoSquad">fld_veh_all_medium_01</Target>
+				<Target type="ProtoSquad">fld_veh_all_heavy_01</Target>
+				<Target type="ProtoSquad">fld_air_all_light_01</Target>
+				<Target type="ProtoSquad">fld_inf_all_main_01</Target>
+				<Target type="ProtoSquad">fld_inf_all_antiinf_01</Target>
+				<Target type="ProtoSquad">fld_inf_all_antiveh_01</Target>
+				<Target type="ProtoSquad">fld_inf_all_berserker_01</Target>
 				<Target type="ProtoSquad">unsc_inf_marine_01</Target>
 				<Target type="ProtoSquad">unsc_inf_marine_02</Target>
 				<Target type="ProtoSquad">unsc_inf_marine_03</Target>
@@ -1225,9 +1885,9 @@
 		<!-- Drop random squads -->
 		<Effects>
 			<Effect type="GodPower" amount="10">UnscOdstDrop</Effect>
-			<Effect type="TransformProtoSquad" FromType="unsc_inf_odst_01" ToType="cov_inf_suicideGrunt_01" />
-			<Effect type="TransformProtoSquad" FromType="unsc_inf_odst_02" ToType="cov_inf_suicideGrunt_01" />
-			<Effect type="TransformProtoSquad" FromType="unsc_inf_odst_03" ToType="cov_inf_suicideGrunt_01" />
+			<Effect type="TransformProtoSquad" FromType="unsc_inf_odst_01" ToType="fld_inf_tentacle_01" />
+			<Effect type="TransformProtoSquad" FromType="unsc_inf_odst_02" ToType="fld_inf_tentacle_01" />
+			<Effect type="TransformProtoSquad" FromType="unsc_inf_odst_03" ToType="fld_inf_tentacle_01" />
 			<Effect type="TransformProtoUnit" FromType="unsc_air_odstPod_01" ToType="fld_air_lugee_01" />
 		</Effects>
 	</Tech>
@@ -1356,6 +2016,30 @@
 				<Target type="ProtoUnit">ban_bldg_supplyDepot_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0.5" subtype="buildPoints" allactions="1" relativity="Percent">
+				<Target type="ProtoSquad">creep_veh_mongoose_01</Target>
+				<Target type="ProtoSquad">creep_veh_spade_01</Target>
+				<Target type="ProtoSquad">creep_inf_marine_01</Target>
+				<Target type="ProtoSquad">creep_inf_marine_02</Target>
+				<Target type="ProtoSquad">creep_inf_marine_03</Target>
+				<Target type="ProtoSquad">creep_inf_badger_01</Target>
+				<Target type="ProtoSquad">creep_inf_badger_02</Target>
+				<Target type="ProtoSquad">creep_inf_badger_03</Target>
+				<Target type="ProtoSquad">creep_inf_empmarine_01</Target>
+				<Target type="ProtoSquad">creep_inf_empmarine_02</Target>
+				<Target type="ProtoSquad">creep_veh_tank_01</Target>
+				<Target type="ProtoSquad">creep_veh_havok_01</Target>
+				<Target type="ProtoSquad">creep_air_wasp_01</Target>
+				<Target type="ProtoSquad">suc_air_raven_01</Target>
+				<Target type="ProtoSquad">creep_air_gunship_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartanmech_01</Target>
+				<Target type="ProtoSquad">fld_veh_all_light_01</Target>
+				<Target type="ProtoSquad">fld_veh_all_medium_01</Target>
+				<Target type="ProtoSquad">fld_veh_all_heavy_01</Target>
+				<Target type="ProtoSquad">fld_air_all_light_01</Target>
+				<Target type="ProtoSquad">fld_inf_all_main_01</Target>
+				<Target type="ProtoSquad">fld_inf_all_antiinf_01</Target>
+				<Target type="ProtoSquad">fld_inf_all_antiveh_01</Target>
+				<Target type="ProtoSquad">fld_inf_all_berserker_01</Target>
 				<Target type="ProtoSquad">unsc_inf_marine_01</Target>
 				<Target type="ProtoSquad">unsc_inf_marine_02</Target>
 				<Target type="ProtoSquad">unsc_inf_marine_03</Target>
@@ -4640,6 +5324,7 @@
 			<!-- Squad builders, tranform to different types using upgrades -->
 			<Effect type="GodPower" amount="1">FloodCombatForm</Effect>
 
+			<Effect type="GodPower" amount="1">FloodNonPlayerSpawner</Effect>
 			<Effect type="GodPower" amount="1">FloodInfectionForm</Effect>
 			<Effect type="GodPower" amount="1">FloodSpecialForm</Effect>
 			<Effect type="TransformProtoUnit" FromType="cov_bldg_builder_01" ToType="flood_bldg_builder_01" />
@@ -4661,7 +5346,7 @@
 			<Effect type="TransformProtoUnit" FromType="flood_air_pelican_01" ToType="flood_air_transport_01" />
 			<Effect type="TransformProtoUnit" FromType="unsc_air_pelican_01" ToType="flood_air_transport_01" />
 			<Effect type="TransformProtoUnit" FromType="cpgn_air_pelican_01" ToType="flood_air_transport_01" />
-			<Effect type="TransformProtoUnit" FromType="cov_air_banshee_01" ToType="flood_air_banshee_01" />
+			<!--Effect type="TransformProtoUnit" FromType="cov_air_banshee_01" ToType="flood_air_banshee_01" />
 			<Effect type="TransformProtoUnit" FromType="cov_air_vampire_01" ToType="flood_air_vampire_01" />
 			<Effect type="TransformProtoUnit" FromType="cov_veh_locust_01" ToType="flood_veh_locust_01" />
 			<Effect type="TransformProtoUnit" FromType="cov_veh_wraith_01" ToType="flood_veh_wraith_01" />
@@ -4677,7 +5362,10 @@
 			<Effect type="TransformProtoUnit" FromType="unsc_veh_wolverine_01" ToType="flood_veh_wolverine_01" />
 			<Effect type="TransformProtoUnit" FromType="unsc_veh_cobra_01" ToType="flood_veh_cobra_01" />
 			<Effect type="TransformProtoUnit" FromType="unsc_veh_warthog_01" ToType="flood_veh_warthog_01" />
-			<Effect type="TransformProtoUnit" FromType="unsc_veh_gremlin_01" ToType="flood_veh_gremlin_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_veh_mantis_01" ToType="flood_veh_mantis_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_veh_colossus_01" ToType="flood_veh_colossus_01" />
+			<Effect type="TransformProtoUnit" FromType="ban_veh_marauder_01" ToType="flood_veh_marauder_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_veh_gremlin_01" ToType="flood_veh_gremlin_01" /-->
 			<Effect type="TransformProtoUnit" FromType="unsc_inf_spartan_01" ToType="fld_inf_infectedSpartan_01" />
 			<Effect type="TransformProtoUnit" FromType="unsc_inf_marine_01" ToType="flood_inf_marine_01" />
 			<Effect type="TransformProtoUnit" FromType="unsc_inf_marine_02" ToType="flood_inf_marine_02" />
@@ -4696,14 +5384,11 @@
 			<Effect type="TransformProtoUnit" FromType="creep_inf_jackal_01" ToType="flood_inf_mercjackal_01" />
 			<Effect type="TransformProtoUnit" FromType="creep_inf_needlerJackal_01" ToType="flood_inf_mercneedlerJackal_01" />
 			<Effect type="TransformProtoUnit" FromType="creep_inf_sniperJackal_01" ToType="flood_inf_mercsniperJackal_01" />
-			<Effect type="TransformProtoUnit" FromType="ban_veh_marauder_01" ToType="flood_veh_marauder_01" />
 			<Effect type="TransformProtoUnit" FromType="cov_inf_eliteLeader_01" ToType="fld_inf_InfectedElite_01" />
 			<Effect type="TransformProtoUnit" FromType="cov_inf_grunt_01" ToType="fld_inf_InfectedGrunt_01" />
 			<Effect type="TransformProtoUnit" FromType="cov_inf_grunt_02" ToType="fld_inf_InfectedGrunt_01" />
 			<Effect type="TransformProtoUnit" FromType="cov_inf_gruntDeacon_01" ToType="fld_inf_infectedBrute_01" />
 			<Effect type="TransformProtoUnit" FromType="unsc_inf_rangedcyclops_01" ToType="flood_inf_rangedcyclops_01" />
-			<Effect type="TransformProtoUnit" FromType="unsc_veh_mantis_01" ToType="flood_veh_mantis_01" />
-			<Effect type="TransformProtoUnit" FromType="unsc_veh_colossus_01" ToType="flood_veh_colossus_01" />
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_temple_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
 			</Effect>
@@ -4732,6 +5417,14 @@
 				<Target type="ProtoSquad">fld_air_sporecloud_01</Target>
 				<Target type="ProtoSquad">flood_inf_creature_01</Target>
 				<Target type="ProtoSquad">flood_Inf_infectedspartan_01_vp</Target>
+				<Target type="ProtoSquad">fld_inf_all_berserker_01</Target>
+				<Target type="ProtoSquad">fld_inf_all_main_01</Target>
+				<Target type="ProtoSquad">fld_inf_all_antiinf_01</Target>
+				<Target type="ProtoSquad">fld_inf_all_antiveh_01</Target>
+				<Target type="ProtoSquad">fld_veh_all_light_01</Target>
+				<Target type="ProtoSquad">fld_veh_all_medium_01</Target>
+				<Target type="ProtoSquad">fld_veh_all_heavy_01</Target>
+				<Target type="ProtoSquad">fld_air_all_light_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_hive_01</Target>
@@ -5655,6 +6348,28 @@
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<Effects>
 			<Effect type="Data" amount="1.25" subtype="Damage" relativity="Percent">
+				<Target type="ProtoUnit">flood_random_InfectedMarine_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_gl_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMedic_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdstMedic_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedElite_fr_01</Target>
+				<Target type="ProtoUnit">flood_random_brute_01</Target>
+				<Target type="ProtoUnit">flood_random_brute_hg_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_br_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdstMedic_br_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_sniper_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_sniper_01</Target>
+				<Target type="ProtoUnit">flood_random_Jackal_01</Target>
+				<Target type="ProtoUnit">flood_random_sniperJackal_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_ar_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_pistol_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_sg_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMedic_br_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedElite_pr_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedElite_needler_01</Target>
+				<Target type="ProtoUnit">flood_random_plasmapistoljackal_01</Target>
+				<Target type="ProtoUnit">flood_random_needlerJackal_01</Target>
 				<Target type="ProtoUnit">fld_inf_flameMarine_01</Target>
 				<Target type="ProtoUnit">fld_inf_infectedMarine_01</Target>
 				<Target type="ProtoUnit">flood_inf_rangedcyclops_01</Target>
@@ -5680,6 +6395,28 @@
 				<Target type="ProtoUnit">flood_infantry_infectedodst_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">flood_random_InfectedMarine_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_gl_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMedic_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdstMedic_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedElite_fr_01</Target>
+				<Target type="ProtoUnit">flood_random_brute_01</Target>
+				<Target type="ProtoUnit">flood_random_brute_hg_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_br_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdstMedic_br_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_sniper_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_sniper_01</Target>
+				<Target type="ProtoUnit">flood_random_Jackal_01</Target>
+				<Target type="ProtoUnit">flood_random_sniperJackal_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_ar_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_pistol_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_sg_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMedic_br_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedElite_pr_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedElite_needler_01</Target>
+				<Target type="ProtoUnit">flood_random_plasmapistoljackal_01</Target>
+				<Target type="ProtoUnit">flood_random_needlerJackal_01</Target>
 				<Target type="ProtoUnit">fld_inf_flameMarine_01</Target>
 				<Target type="ProtoUnit">fld_inf_infectedMarine_01</Target>
 				<Target type="ProtoUnit">flood_inf_rangedcyclops_01</Target>
@@ -5721,6 +6458,28 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="1.25" subtype="Damage" relativity="Percent">
+				<Target type="ProtoUnit">flood_random_InfectedMarine_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_gl_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMedic_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdstMedic_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedElite_fr_01</Target>
+				<Target type="ProtoUnit">flood_random_brute_01</Target>
+				<Target type="ProtoUnit">flood_random_brute_hg_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_br_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdstMedic_br_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_sniper_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_sniper_01</Target>
+				<Target type="ProtoUnit">flood_random_Jackal_01</Target>
+				<Target type="ProtoUnit">flood_random_sniperJackal_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_ar_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_pistol_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_sg_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMedic_br_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedElite_pr_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedElite_needler_01</Target>
+				<Target type="ProtoUnit">flood_random_plasmapistoljackal_01</Target>
+				<Target type="ProtoUnit">flood_random_needlerJackal_01</Target>
 				<Target type="ProtoUnit">fld_inf_flameMarine_01</Target>
 				<Target type="ProtoUnit">fld_inf_infectedMarine_01</Target>
 				<Target type="ProtoUnit">flood_inf_rangedcyclops_01</Target>
@@ -5746,6 +6505,28 @@
 				<Target type="ProtoUnit">flood_infantry_infectedodst_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">flood_random_InfectedMarine_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_gl_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMedic_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdstMedic_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedElite_fr_01</Target>
+				<Target type="ProtoUnit">flood_random_brute_01</Target>
+				<Target type="ProtoUnit">flood_random_brute_hg_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_br_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdstMedic_br_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_sniper_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_sniper_01</Target>
+				<Target type="ProtoUnit">flood_random_Jackal_01</Target>
+				<Target type="ProtoUnit">flood_random_sniperJackal_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_ar_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_pistol_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_sg_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMedic_br_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedElite_pr_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedElite_needler_01</Target>
+				<Target type="ProtoUnit">flood_random_plasmapistoljackal_01</Target>
+				<Target type="ProtoUnit">flood_random_needlerJackal_01</Target>
 				<Target type="ProtoUnit">fld_inf_flameMarine_01</Target>
 				<Target type="ProtoUnit">fld_inf_infectedMarine_01</Target>
 				<Target type="ProtoUnit">flood_inf_rangedcyclops_01</Target>
@@ -5787,6 +6568,28 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="1.25" subtype="Damage" relativity="Percent">
+				<Target type="ProtoUnit">flood_random_InfectedMarine_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_gl_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMedic_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdstMedic_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedElite_fr_01</Target>
+				<Target type="ProtoUnit">flood_random_brute_01</Target>
+				<Target type="ProtoUnit">flood_random_brute_hg_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_br_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdstMedic_br_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_sniper_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_sniper_01</Target>
+				<Target type="ProtoUnit">flood_random_Jackal_01</Target>
+				<Target type="ProtoUnit">flood_random_sniperJackal_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_ar_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_pistol_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_sg_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMedic_br_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedElite_pr_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedElite_needler_01</Target>
+				<Target type="ProtoUnit">flood_random_plasmapistoljackal_01</Target>
+				<Target type="ProtoUnit">flood_random_needlerJackal_01</Target>
 				<Target type="ProtoUnit">fld_inf_flameMarine_01</Target>
 				<Target type="ProtoUnit">fld_inf_infectedMarine_01</Target>
 				<Target type="ProtoUnit">flood_inf_rangedcyclops_01</Target>
@@ -5812,6 +6615,28 @@
 				<Target type="ProtoUnit">flood_infantry_infectedodst_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">flood_random_InfectedMarine_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_gl_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMedic_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdstMedic_rt_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedElite_fr_01</Target>
+				<Target type="ProtoUnit">flood_random_brute_01</Target>
+				<Target type="ProtoUnit">flood_random_brute_hg_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_br_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdstMedic_br_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_sniper_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_sniper_01</Target>
+				<Target type="ProtoUnit">flood_random_Jackal_01</Target>
+				<Target type="ProtoUnit">flood_random_sniperJackal_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_ar_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMarine_pistol_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedOdst_sg_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedMedic_br_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedElite_pr_01</Target>
+				<Target type="ProtoUnit">flood_random_InfectedElite_needler_01</Target>
+				<Target type="ProtoUnit">flood_random_plasmapistoljackal_01</Target>
+				<Target type="ProtoUnit">flood_random_needlerJackal_01</Target>
 				<Target type="ProtoUnit">fld_inf_flameMarine_01</Target>
 				<Target type="ProtoUnit">fld_inf_infectedMarine_01</Target>
 				<Target type="ProtoUnit">flood_inf_rangedcyclops_01</Target>
@@ -8106,14 +8931,12 @@
 			<Effect type="GodPower" amount="1">BattleSupportDrop</Effect>
 			<Effect type="GodPower" amount="1">UnscLeaderDisruption</Effect>
 			<Effect type="GodPower" amount="1">RebelHeroDrop</Effect>
+			<Effect type="TransformProtoUnit" FromType="unsc_veh_scorpion_01" ToType="creep_veh_tank_01" />
 			<Effect type="TransformProtoUnit" FromType="unsc_bldg_command_01" ToType="suc_bldg_command_01" />
 			<Effect type="TransformProtoUnit" FromType="unsc_bldg_command_02" ToType="suc_bldg_command_02" />
 			<Effect type="TransformProtoUnit" FromType="unsc_bldg_command_03" ToType="suc_bldg_command_03" />
 			<Effect type="TransformProtoUnit" FromType="unsc_veh_warthog_01" ToType="creep_veh_spade_01" />
 			<Effect type="TransformProtoUnit" FromType="unsc_veh_cobra_01" ToType="suc_veh_cobra_01" />
-			<Effect type="Data" subtype="Cost" Resource="Power" amount="-2" relativity="Absolute">
-				<Target type="Tech">unsc_bldg_vehicledepot_01</Target>
-			</Effect>
 			<Effect type="Data" subtype="Cost" Resource="Power" amount="-1" relativity="Absolute">
 				<Target type="Tech">unsc_bldg_airPad_01</Target>
 			</Effect>
@@ -8124,7 +8947,10 @@
 				<Target type="ProtoSquad">creep_inf_marine_02</Target>
 				<Target type="ProtoSquad">creep_inf_marine_03</Target>
 				<Target type="ProtoSquad">creep_inf_badger_01</Target>
+				<Target type="ProtoSquad">creep_inf_badger_02</Target>
+				<Target type="ProtoSquad">creep_inf_badger_03</Target>
 				<Target type="ProtoSquad">creep_inf_empmarine_01</Target>
+				<Target type="ProtoSquad">creep_inf_empmarine_02</Target>
 				<Target type="ProtoSquad">creep_veh_tank_01</Target>
 				<Target type="ProtoSquad">creep_veh_havok_01</Target>
 				<Target type="ProtoSquad">creep_air_wasp_01</Target>
@@ -8155,6 +8981,18 @@
 				<Target type="ProtoSquad">unsc_inf_spartanalice_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartanjerome_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartandouglas_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_cobra_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_cobra_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_cobra_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_cobra_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_marine_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
@@ -8311,6 +9149,18 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartanmech_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_nightingale_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_airPad_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_nightingale_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_airPad_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_nightingale_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_airPad_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_vulture_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_airPad_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -11862,11 +12712,15 @@
 			<Effect type="TransformProtoUnit" FromType="cov_bldg_builder_01" ToType="ban_bldg_builder_01" />
 			<Effect type="TransformProtoUnit" FromType="cov_bldg_builder_02" ToType="ban_bldg_builder_02" />
 			<Effect type="TransformProtoUnit" FromType="cov_bldg_builder_03" ToType="ban_bldg_builder_03" />
-			<Effect type="TransformProtoUnit" FromType="unsc_bldg_supplypad_01" ToType="ban_bldg_supplyDepot_01" />
-			<Effect type="TransformProtoUnit" FromType="unsc_bldg_reactor_01" ToType="ban_bldg_powerDepot_01" />
-			<Effect type="TransformProtoUnit" FromType="unsc_bldg_barracks_01" ToType="ban_bldg_barracks_01" />
-			<Effect type="TransformProtoUnit" FromType="unsc_bldg_vehicledepot_01" ToType="ban_bldg_heavyfactory_01" />
-			<Effect type="TransformProtoUnit" FromType="unsc_bldg_airpad_01" ToType="ban_bldg_lightfactory_01" />
+			<Effect type="TransformProtoUnit" FromType="cov_bldg_turret_01" ToType="ban_bldg_turret_01" />
+			<Effect type="TransformProtoUnit" FromType="cob_bldg_temple_01" ToType="ban_bldg_temple_01" />
+			<Effect type="TransformProtoUnit" FromType="cov_bldg_supplyDepot_01" ToType="ban_bldg_supplyDepot_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_barracks_01" ToType="ban_bldg_powerDepot_01" />
+			<Effect type="TransformProtoUnit" FromType="cov_bldg_supplyDepot_02" ToType="ban_bldg_supplyDepot_02" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_barracks_01" ToType="ban_bldg_powerDepot_02" />
+			<Effect type="TransformProtoUnit" FromType="cov_bldg_barracks_01" ToType="ban_bldg_barracks_01" />
+			<Effect type="TransformProtoUnit" FromType="cov_bldg_lightfactory_01" ToType="ban_bldg_lightfactory_01" />
+			<Effect type="TransformProtoUnit" FromType="cov_bldg_heavyfactory_01" ToType="ban_bldg_heavyfactory_01" />
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_supplypad_01</Target>
 				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
@@ -12308,7 +13162,6 @@
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">ban_veh_marauder_01</Target>
 			</Effect>
-			<Effect type="GodPower" amount="1">MarauderSupportDrop</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ban_LeaderDecimus" type="Normal">
@@ -12318,12 +13171,16 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="GodPower" amount="1">BanLeaderGlassing</Effect>
-			<Effect type="GodPower" amount="1">TechMarauderUnlock</Effect>
+			<Effect type="GodPower" amount="1">MarauderSupportDrop</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">ban_veh_bruteChopper_01</Target>
 				<Target type="ProtoSquad">ban_inf_bruteHammer_01</Target>
 				<Target type="ProtoSquad">ban_inf_bruteHammer_02</Target>
 				<Target type="ProtoSquad">ban_inf_decimus_01</Target>
+				<Target type="ProtoSquad">ban_veh_marauder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="ban_veh_marauder_01" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_heavyfactory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="ban_inf_bruteHammer_01" relativity="Absolute">
 				<Target type="ProtoUnit">ban_bldg_barracks_01</Target>
@@ -12402,7 +13259,6 @@
 				<Target type="ProtoSquad">ban_inf_spartan_01</Target>
 			</Effect>
 			<Effect type="TransformProtoUnit" FromType="unsc_inf_odst_01" ToType="ban_inf_spartan_01" />
-			<Effect type="GodPower" amount="5">BanishedSpartan_Drop</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="ban_LeaderColony" type="Normal">
@@ -12411,12 +13267,17 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="GodPower" amount="1">TechSpartanUnlock</Effect>
+			<Effect type="GodPower" amount="5">BanishedSpartan_Drop</Effect>
 			<Effect type="GodPower" amount="1">BanLeaderHunterBrand</Effect>
+			<Effect type="TransformProtoUnit" FromType="unsc_inf_odst_01" ToType="ban_inf_spartan_01" />
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">ban_inf_goliath_01</Target>
 				<Target type="ProtoSquad">ban_veh_skitterer_01</Target>
 				<Target type="ProtoSquad">ban_inf_huntercaptain_01</Target>
+				<Target type="ProtoSquad">ban_inf_spartan_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="ban_inf_spartan_01" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_barracks_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="ban_inf_goliath_01" relativity="Absolute">
 				<Target type="ProtoUnit">ban_bldg_barracks_01</Target>

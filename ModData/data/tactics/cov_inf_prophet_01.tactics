@@ -4,7 +4,7 @@
 		<Name>FuelRodCannon</Name>
 		<AttackRate>4</AttackRate>
 		<DamagePerSecond>200</DamagePerSecond>
-		<WeaponType>Hero</WeaponType>
+		<WeaponType>LeaderPower</WeaponType>
 		<Projectile>fx_proj_prophetFuelRod_01</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
@@ -36,7 +36,7 @@
 		<Name>plasmaCannon</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>200</DamagePerSecond>
-		<WeaponType>Hero</WeaponType>
+		<WeaponType>LeaderPower</WeaponType>
 		<Projectile>fx_proj_plasmaRifle_01</Projectile>
 		<MaxVelocityLead>15</MaxVelocityLead>
 		<MaxRange>60</MaxRange>

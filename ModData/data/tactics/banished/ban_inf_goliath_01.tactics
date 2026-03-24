@@ -4,7 +4,7 @@
 		<Name>SwipMelee</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>135</DamagePerSecond>
-		<WeaponType>GoliathMelee</WeaponType>
+		<WeaponType>Grenade</WeaponType>
 		<MaxRange>3</MaxRange>
 		<ThrowUnits />
 		<ThrowAliveUnits />
@@ -21,7 +21,7 @@
 		<Name>BashMelee</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>135</DamagePerSecond>
-		<WeaponType>GoliathMelee</WeaponType>
+		<WeaponType>Grenade</WeaponType>
 		<MaxRange>3</MaxRange>
 		<AOERadius>12</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
@@ -41,7 +41,7 @@
 		<Name>SwipPullMelee</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>135</DamagePerSecond>
-		<WeaponType>GoliathMelee</WeaponType>
+		<WeaponType>Grenade</WeaponType>
 		<MaxRange>3</MaxRange>
 		<ThrowUnits />
 		<PhysicsForceMin>50</PhysicsForceMin>

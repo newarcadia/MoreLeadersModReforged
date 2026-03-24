@@ -3,12 +3,12 @@
 	<Weapon>
 		<Name>BeamCannon</Name>
 		<AttackRate>4</AttackRate>
-		<DamagePerSecond>110</DamagePerSecond>
+		<DamagePerSecond>30</DamagePerSecond>
 		<WeaponType>ArmorPiercing</WeaponType>
 		<Projectile>fx_proj_empstasisbeam_01</Projectile>
 		<ImpactEffect size="Medium">foxEmp</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
-		<MaxRange>55</MaxRange>
+		<MaxRange>35</MaxRange>
 		<Accuracy>0.200000003</Accuracy>
 		<MaxDeviation>7</MaxDeviation>
 		<MovingAccuracy>0.100000001</MovingAccuracy>
@@ -16,7 +16,7 @@
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
-		<AOERadius>3</AOERadius>
+		<AOERadius>1</AOERadius>
 		<AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
 		<AOEDistanceFactor>0.5</AOEDistanceFactor>
 		<AOEDamageFactor>0.75</AOEDamageFactor>
@@ -25,9 +25,7 @@
 		<TargetPriority type="Building">-3</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
 		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
-		<Daze TargetType="EmpEffectNormal" MovementModifier="0" SmartTargeting="true">1.0f</Daze>
-		<Bounces>1</Bounces>
-		<BounceRange>10</BounceRange>
+		<Daze TargetType="EmpEffectNormal" MovementModifier="0" SmartTargeting="true">0.5f</Daze>
 	</Weapon>
 	<Action>
 		<Name>BeamCannonAttackAction</Name>

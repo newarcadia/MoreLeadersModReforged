@@ -27,7 +27,7 @@
 		<Name>PlasmaMortar</Name>
 		<AttackRate>3</AttackRate>
 		<DamagePerSecond>140</DamagePerSecond>
-		<WeaponType>ExplosiveWraith</WeaponType>
+		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_plasmaMortar_02</Projectile>
 		<ImpactEffect size="Medium">cov_plasmamortar_01</ImpactEffect>
 		<MaxVelocityLead>15</MaxVelocityLead>
@@ -62,7 +62,7 @@
 		<AttackRate>30</AttackRate>
 		<DamagePerSecond>450</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>ExplosiveWraith</WeaponType>
+		<WeaponType>Explosive</WeaponType>
 		<Reapply>0.25</Reapply>
 		<Apply>2</Apply>
 		<DOTrate>8</DOTrate>

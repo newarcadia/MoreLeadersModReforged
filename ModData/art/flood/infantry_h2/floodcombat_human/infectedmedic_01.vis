@@ -437,7 +437,7 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>unsc\infantry\weapons_02\battle_rifle_01\battle_rifle_01</file>
+				<file>unsc\infantry_h2\weapons\battle_rifle_01\battle_rifle_01</file>
 			</asset>
 		</component>
 	</model>
@@ -447,7 +447,7 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>unsc\infantry\weapons_02\rocket_launcher_01\rocket_launcher_01</file>
+				<file>unsc\infantry_h2\weapons\rocket_launcher_01\rocket_launcher_01</file>
 			</asset>
 		</component>
 	</model>
