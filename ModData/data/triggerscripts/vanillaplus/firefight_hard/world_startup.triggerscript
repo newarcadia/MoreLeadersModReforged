@@ -167,6 +167,7 @@
     <TriggerVar ID="407" Type="Vector" Name="nullVector" IsNull="true" />
     <TriggerVar ID="408" Type="VectorList" Name="nullVectorList" IsNull="true" />
     <TriggerVar ID="409" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="500" Type="Tech" Name="NewTech81" IsNull="false">ff_randomswapper</TriggerVar>
   </TriggerVars>
   <Triggers>
     <Trigger ID="0" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-5932" Y="-9814" GroupID="-1" TemplateID="-1">
@@ -622,6 +623,10 @@
         </And>
       </TriggerConditions>
       <TriggerEffectsOnTrue>
+        <Effect ID="105" Type="TechActivate v1" DBID="60" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">71</Input>
+          <Input Name="Tech" SigID="2" Optional="false">500</Input>
+        </Effect>
         <Effect ID="6" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
           <Input Name="ScriptName" SigID="15" Optional="false">8</Input>
           <Input Name="ExternalUnit" SigID="2" Optional="true">392</Input>

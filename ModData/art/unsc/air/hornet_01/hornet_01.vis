@@ -17,6 +17,8 @@
 			<attach type="ModelRef" name="ChaffPod" tobone="BoneHornet" frombone="BoneHornet" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="LeftWingmen" tobone="BoneWingMenLeftTurret" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="RightWingmen" tobone="BoneWingMenRightTurret" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="LeftWingmenBase" tobone="BoneWingMenLeftBase" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="RightWingmenBase" tobone="BoneWingMenRightBase" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<point pointType="Impact" bone="impactbone01" pointData="Metal" />
 			<point pointType="Impact" bone="impactbone02" pointData="Metal" />
 			<point pointType="Impact" bone="impactbone03" pointData="Metal" />
@@ -420,6 +422,22 @@
 	<model name="RightWingmenBase">
 		<component>
 			<logic type="Tech">
+				<logicdata value="unsc_hornet_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\hornet_01\wingmen\wingmenbase_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_hornet_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\hornet_01\wingmen\wingmenbase_01</file>
+					</asset>
+				</logicdata>
 				<logicdata value="flood_basic" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
@@ -433,7 +451,7 @@
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>unsc\air\hornet_01\wingmen\wingmenbase_01</file>
+						<file>unsc\infantry\marine_01\nothing_01</file>
 					</asset>
 				</logicdata>
 			</logic>
@@ -448,6 +466,22 @@
 	<model name="RightWingmen">
 		<component>
 			<logic type="Tech">
+				<logicdata value="unsc_hornet_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\hornet_01\wingmen\wingmenturret_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_hornet_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\hornet_01\wingmen\wingmenturret_01</file>
+					</asset>
+				</logicdata>
 				<logicdata value="flood_basic" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
@@ -461,7 +495,7 @@
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>unsc\air\hornet_01\wingmen\wingmenturret_01</file>
+						<file>unsc\infantry\marine_01\nothing_01</file>
 					</asset>
 				</logicdata>
 			</logic>
@@ -485,6 +519,22 @@
 	<model name="LeftWingmenBase">
 		<component>
 			<logic type="Tech">
+				<logicdata value="unsc_hornet_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\hornet_01\wingmen\wingmenbase_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_hornet_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\hornet_01\wingmen\wingmenbase_01</file>
+					</asset>
+				</logicdata>
 				<logicdata value="flood_basic" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
@@ -498,7 +548,7 @@
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>unsc\air\hornet_01\wingmen\wingmenbase_01</file>
+						<file>unsc\infantry\marine_01\nothing_01</file>
 					</asset>
 				</logicdata>
 			</logic>
@@ -513,6 +563,22 @@
 	<model name="LeftWingmen">
 		<component>
 			<logic type="Tech">
+				<logicdata value="unsc_hornet_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\hornet_01\wingmen\wingmenturret_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_hornet_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\hornet_01\wingmen\wingmenturret_01</file>
+					</asset>
+				</logicdata>
 				<logicdata value="flood_basic" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
@@ -526,7 +592,7 @@
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>unsc\air\hornet_01\wingmen\wingmenturret_01</file>
+						<file>unsc\infantry\marine_01\nothing_01</file>
 					</asset>
 				</logicdata>
 			</logic>

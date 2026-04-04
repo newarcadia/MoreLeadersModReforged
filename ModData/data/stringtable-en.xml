@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StringTable version="1">
 	<Language name="English">
-		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">
-Early access build to test coming features/changes. Some units may not be in a finished state and are just there to test game balance and AI. Game issues and crashes are to be expected.
-
-Current focus is the UNSC and Covenant AI, with certain changes to new leaders like the rebels.
-
+		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">Try out Haruspis, our new modmanager for both Halo Wars DE and 2.
 </String>
-		<String _locID="26217" category="UI" subtitle="false">Early Access Build (v1.1.4)</String>
+		<String _locID="26217" category="UI" subtitle="false">Pre-Release (v1.2)</String>
 		<String _locID="26218" category="UI" subtitle="false">new-arcadia.net/discord</String>
 		<!-- BlockLeaderpower effect uses this string-->
 		<String _locID="357" category="Code" subtitle="false">JAMMED! </String> 
@@ -751,7 +747,7 @@ adds another drone.</String>
 		<String _locID="50076" category="Techs" subtitle="false">Improves health and damage output,
 adds another drone.</String>
 		<String _locID="50077" category="Techs" subtitle="false">REINFORCEMENTS</String>
-		<String _locID="50078" category="Techs" subtitle="false">Boosts population cap by +10
+		<String _locID="50078" category="Techs" subtitle="false">Boosts population cap by +20
 Raises potential army size</String>
 		<String _locID="50079" category="Techs" subtitle="false">SCORCH ABILITY</String>
 		<String _locID="50080" category="Techs" subtitle="false">Enables the Scorch Ability that superheats an area of terrain for extra damage over time.</String>
@@ -1376,7 +1372,15 @@ Adds a drone.</String>
 		<String _locID="53105" category="Techs" subtitle="false">DPS/HP Buff.</String>
 		<String _locID="53106" category="Techs" subtitle="false">HAVOK III</String>
 		<String _locID="53107" category="Techs" subtitle="false">DPS/HP Buff.</String>
+		<String _locID="53108" category="Squads" subtitle="false">CORRUPTED VEHICLE</String>
+		<String _locID="53109" category="Squads" subtitle="false">Transformed light vehicles</String>
 
+
+		<String _locID="60000" subtitle="false">Tips appear here. Really.</String>
+		<String _locID="60001" subtitle="false">SurvivalWar is still not allowed to just steal this mods content.</String>
+		<String _locID="60002" subtitle="false">Try out Haruspis :)</String>
+		<String _locID="60003" subtitle="false">When building bases, remember this simple rule: Supply, Reactor, Supply</String>
+		<String _locID="60004" subtitle="false">No matter what strategy you're using, you can always build turrets. They may add a minute or two to your strategy build, but they can be a game changer.</String>
 
 		<String _locID="100" category="Code" subtitle="false">CONFIRM</String>
 		<String _locID="101" category="Code" subtitle="false">CANCEL</String>

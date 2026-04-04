@@ -36,6 +36,14 @@
 		<Data type="Texture" name="StaticDecalTextureSpartan">ui\flash\HUD\hud_decal\decal_test\heros\HUD_unsc_hero</Data>
 	</Properties>
 	<!-- UNSC -->
+	<Icon type="uniticon" name="fldInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="fld_inf_all_berserker_01">-1</Icon>
+	<Icon type="uniticon" name="fldInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="fld_inf_all_main_01">-1</Icon>
+	<Icon type="uniticon" name="fldInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="fld_inf_all_antiveh_01">-1</Icon>
+	<Icon type="uniticon" name="fldInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="fld_inf_all_antiinf_01">-1</Icon>
+	<Icon type="uniticon" name="fldInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="fld_veh_all_light_01">-1</Icon>
+	<Icon type="uniticon" name="fldInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="fld_veh_all_medium_01">-1</Icon>
+	<Icon type="uniticon" name="fldInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="fld_veh_all_heavy_01">-1</Icon>
+	<Icon type="uniticon" name="fldInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="fld_air_all_light_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="6" SizeY="-1" SizeZ="7" Intensity1="8" Intensity2="28" Intensity3="18" owner="creep_air_wasp_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="9" SizeY="-3" SizeZ="9" Intensity1="8" Intensity2="28" Intensity3="18" owner="creep_air_gunship_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="creep_inf_marine_01">-1</Icon>

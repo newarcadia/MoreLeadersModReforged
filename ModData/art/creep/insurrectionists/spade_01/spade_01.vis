@@ -11,7 +11,7 @@
 			</asset>
 			<attach type="ModelRef" name="Driver" tobone="Bip02" frombone="Bip02" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="Turret" tobone="bone_turret_01" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
-			<attach type="ModelRef" name="PassengerLegs" tobone="Bone Rocket" frombone="bone_body" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="PassengerLegs" tobone="bone_body" frombone="bone_body" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="PassengerTop" tobone="Bone Rocket" frombone="bone_body" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="Wheel" tobone="bone_wheel_01" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<attach type="ModelRef" name="Wheel" tobone="bone_wheel_02" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />

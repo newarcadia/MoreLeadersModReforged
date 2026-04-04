@@ -43,6 +43,13 @@
 			</asset>
 			<meshEnable>optionalAssaultRifle</meshEnable>
 		</anim>
+		<anim type="Gather" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\combat_crouchidle_02</file>
+				<weight>50</weight>
+			</asset>
+			<meshEnable>optionalAssaultRifle</meshEnable>
+		</anim>
 		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\combat_crouchjog_forward_01</file>

@@ -3,9 +3,9 @@
   <TriggerGroups />
   <TriggerVars>
     <TriggerVar ID="0" Type="Unit" Name="NewUnit0" IsNull="false" />
-    <TriggerVar ID="1" Type="ProtoObjectList" Name="NewProtoObjectList1" IsNull="false">flood_random_InfectedMarine_ar_01,flood_random_InfectedMarine_pistol_01,flood_random_InfectedElite_pr_01,flood_random_plasmapistoljackal_01</TriggerVar>
+    <TriggerVar ID="1" Type="ProtoObjectList" Name="NewProtoObjectList1" IsNull="false">flood_random_InfectedMarine_ar_01,flood_random_InfectedMarine_pistol_01,flood_random_InfectedElite_pr_01,flood_random_plasmapistoljackal_01,flood_random_infectedGrunt_01</TriggerVar>
     <TriggerVar ID="2" Type="ListPosition" Name="NewListPosition2" IsNull="false">Random</TriggerVar>
-    <TriggerVar ID="3" Type="ProtoObjectList" Name="NewProtoObjectList3" IsNull="false">flood_random_InfectedElite_needler_01,flood_random_needlerJackal_01</TriggerVar>
+    <TriggerVar ID="3" Type="ProtoObjectList" Name="NewProtoObjectList3" IsNull="false">flood_random_InfectedElite_needler_01,flood_random_needlerJackal_01,flood_random_infectedneedlerGrunt_01</TriggerVar>
     <TriggerVar ID="5" Type="ProtoObjectList" Name="NewProtoObjectList3" IsNull="false">flood_random_InfectedOdst_sg_01</TriggerVar>
     <TriggerVar ID="10" Type="TechStatus" Name="NewTechStatus10" IsNull="false">Active</TriggerVar>
     <TriggerVar ID="11" Type="Player" Name="NewPlayer11" IsNull="false" />

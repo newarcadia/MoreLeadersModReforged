@@ -2154,9 +2154,11 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_gremlin_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_gremlin_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_gremlin_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_gremlin_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2180,12 +2182,15 @@
 			</Effect>
 			<Effect type="Data" amount="1.5" subtype="MaximumRange" action="laserCannon" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_gremlin_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_gremlin_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.125" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_gremlin_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_gremlin_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.125" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_gremlin_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_gremlin_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2209,15 +2214,19 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_gremlin_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_gremlin_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_gremlin_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_gremlin_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="specialAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_gremlin_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_gremlin_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="specialAttackActionUpgraded" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_gremlin_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_gremlin_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2242,22 +2251,27 @@
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="machineGunAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_warthog_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_warthog_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_warthog_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_warthog_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_warthog_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2285,18 +2299,22 @@
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="GrenadeLauncherAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_warthog_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_warthog_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_warthog_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2324,26 +2342,32 @@
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="machineGunAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_warthog_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="GaussCannonAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_warthog_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_warthog_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_warthog_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_warthog_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_warthog_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2360,9 +2384,11 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wolverine_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wolverine_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2386,15 +2412,19 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wolverine_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="BarrageAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wolverine_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wolverine_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wolverine_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_wolverine_upgrade2">
 				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
@@ -2421,15 +2451,19 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="MissileAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wolverine_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="UpgradedMissileAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wolverine_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wolverine_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wolverine_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_wolverine_upgrade3">
 				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
@@ -2452,11 +2486,15 @@
 				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
 				<Target type="ProtoUnit">creep_veh_tank_01</Target>
 				<Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_grizzly_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
 				<Target type="ProtoUnit">creep_veh_tank_01</Target>
 				<Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_grizzly_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2483,11 +2521,15 @@
 				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
 				<Target type="ProtoUnit">creep_veh_tank_01</Target>
 				<Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_grizzly_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
 				<Target type="ProtoUnit">creep_veh_tank_01</Target>
 				<Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_grizzly_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2514,16 +2556,22 @@
 				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
 				<Target type="ProtoUnit">creep_veh_tank_01</Target>
 				<Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_grizzly_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
 				<Target type="ProtoUnit">creep_veh_tank_01</Target>
 				<Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_grizzly_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
 				<Target type="ProtoUnit">creep_veh_tank_01</Target>
 				<Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_grizzly_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2540,9 +2588,11 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_air_hornet_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_hornet_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_air_hornet_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_hornet_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="LeftWingmanAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_air_hornet_01</Target>
@@ -2578,6 +2628,7 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_air_hornet_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_hornet_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_hornet_upgrade2">
 				<Target type="ProtoSquad">unsc_air_hornet_01</Target>
@@ -2604,12 +2655,15 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_air_hornet_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_hornet_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.10000002" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_air_hornet_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_hornet_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="Chaff" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_air_hornet_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_hornet_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_hornet_upgrade3">
 				<Target type="ProtoSquad">unsc_air_hornet_01</Target>
@@ -2629,9 +2683,11 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_cobra_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_cobra_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_cobra_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_cobra_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2655,12 +2711,14 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_cobra_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_cobra_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="cobraupgrade2">
 				<Target type="ProtoSquad">unsc_veh_cobra_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="Deflect" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_cobra_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_cobra_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2684,27 +2742,35 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="ArtilleryAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_cobra_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_cobra_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="LockdownAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_cobra_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_cobra_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="UpgradedArtilleryAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_cobra_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_cobra_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="UpgradedLockdownAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_cobra_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_cobra_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Projectile" action="Artillery" unitType="fx_proj_lightRailGun_02">
 				<Target type="ProtoUnit">unsc_veh_cobra_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_cobra_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Projectile" action="LockdownArtillery" unitType="fx_proj_railGun_02">
 				<Target type="ProtoUnit">unsc_veh_cobra_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_cobra_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_cobra_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_cobra_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_cobra_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_cobra_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="cobraupgrade3">
 				<Target type="ProtoSquad">unsc_veh_cobra_01</Target>
@@ -2720,9 +2786,11 @@
 			</Effect>
 			<Effect type="Data" amount="1.95000005" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_air_vulture_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_vulture_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.95000005" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_air_vulture_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_vulture_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2741,9 +2809,11 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="BarrageAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_air_vulture_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_vulture_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="Barrage2AttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_air_vulture_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_vulture_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_vulture_upgrade1">
 				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
@@ -4855,27 +4925,27 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="RamAttack" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -4899,23 +4969,23 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="Dodge" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.10000002" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -4939,15 +5009,15 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1200" subtype="Shieldpoints" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" hpbar="Cov_HealthShield" subtype="HPBar" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
@@ -5020,18 +5090,21 @@
 				<Target type="ProtoUnit">ban_air_banshee_01</Target>
 				<Target type="ProtoUnit">ban_air_banshee_typ_b_01</Target>
 				<Target type="ProtoUnit">cov_air_stormbanshee_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_banshee_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_air_banshee_01</Target>
 				<Target type="ProtoUnit">ban_air_banshee_01</Target>
 				<Target type="ProtoUnit">ban_air_banshee_typ_b_01</Target>
 				<Target type="ProtoUnit">cov_air_stormbanshee_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_banshee_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="Dodge" relativity="Absolute">
 				<Target type="ProtoUnit">cov_air_banshee_01</Target>
 				<Target type="ProtoUnit">ban_air_banshee_01</Target>
 				<Target type="ProtoUnit">ban_air_banshee_typ_b_01</Target>
 				<Target type="ProtoUnit">cov_air_stormbanshee_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_banshee_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5058,12 +5131,14 @@
 				<Target type="ProtoUnit">ban_air_banshee_01</Target>
 				<Target type="ProtoUnit">ban_air_banshee_typ_b_01</Target>
 				<Target type="ProtoUnit">cov_air_stormbanshee_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_banshee_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_air_banshee_01</Target>
 				<Target type="ProtoUnit">ban_air_banshee_01</Target>
 				<Target type="ProtoUnit">ban_air_banshee_typ_b_01</Target>
 				<Target type="ProtoUnit">cov_air_stormbanshee_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_banshee_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5090,24 +5165,28 @@
 				<Target type="ProtoUnit">ban_air_banshee_01</Target>
 				<Target type="ProtoUnit">ban_air_banshee_typ_b_01</Target>
 				<Target type="ProtoUnit">cov_air_stormbanshee_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_banshee_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_air_banshee_01</Target>
 				<Target type="ProtoUnit">ban_air_banshee_01</Target>
 				<Target type="ProtoUnit">ban_air_banshee_typ_b_01</Target>
 				<Target type="ProtoUnit">cov_air_stormbanshee_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_banshee_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="AvoidCollisionAir" relativity="Absolute">
 				<Target type="ProtoUnit">cov_air_banshee_01</Target>
 				<Target type="ProtoUnit">ban_air_banshee_01</Target>
 				<Target type="ProtoUnit">ban_air_banshee_typ_b_01</Target>
 				<Target type="ProtoUnit">cov_air_stormbanshee_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_banshee_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="KamikazeOnDeath" relativity="Absolute">
 				<Target type="ProtoUnit">cov_air_banshee_01</Target>
 				<Target type="ProtoUnit">ban_air_banshee_01</Target>
 				<Target type="ProtoUnit">ban_air_banshee_typ_b_01</Target>
 				<Target type="ProtoUnit">cov_air_stormbanshee_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_banshee_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5124,9 +5203,11 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_air_vampire_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_vampire_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_air_vampire_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_vampire_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5150,12 +5231,15 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_air_vampire_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_vampire_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="StasisBeamAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_air_vampire_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_vampire_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="StasisDrainBeamAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_air_vampire_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_vampire_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5179,12 +5263,15 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_air_vampire_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_vampire_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="StasisDrainBeamAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_air_vampire_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_vampire_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="StasisBombBeamAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_air_vampire_01</Target>
+				<Target type="ProtoUnit">ff_infected_air_vampire_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5200,11 +5287,13 @@
 			<Effect type="Data" hpbar="Cov_HealthShield" subtype="HPBar" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_wraith_01</Target>
 				<Target type="ProtoSquad">cov_veh_wraithLCE_01</Target>
+				<Target type="ProtoSquad">ff_infected_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="4488" subtype="Shieldpoints" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
 				<Target type="ProtoUnit">flood_veh_wraith_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wraith_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5230,21 +5319,25 @@
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
 				<Target type="ProtoUnit">flood_veh_wraith_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" action="PlasmaCannon" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
 				<Target type="ProtoUnit">flood_veh_wraith_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
 				<Target type="ProtoUnit">flood_veh_wraith_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
 				<Target type="ProtoUnit">flood_veh_wraith_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wraith_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5270,31 +5363,37 @@
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
 				<Target type="ProtoUnit">flood_veh_wraith_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="ImpactEffect" action="PlasmaMortar" impactEffect="cov_plasmamortar_02">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
 				<Target type="ProtoUnit">flood_veh_wraith_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
 				<Target type="ProtoUnit">flood_veh_wraith_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.3" subtype="Damage" action="PlasmaMortar" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
 				<Target type="ProtoUnit">flood_veh_wraith_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
 				<Target type="ProtoUnit">flood_veh_wraith_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
 				<Target type="ProtoUnit">flood_veh_wraith_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_wraith_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5312,12 +5411,15 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_locust_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5341,15 +5443,19 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_locust_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5373,15 +5479,19 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.36000001" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="ShieldRegenRate" amount="2" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="ShieldRegenDelay" amount="0.5" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_locust_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5661,27 +5771,27 @@
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="plasmaCannonAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 				<Target type="ProtoUnit">flood_veh_bruteChopper_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 				<Target type="ProtoUnit">flood_veh_bruteChopper_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 				<Target type="ProtoUnit">flood_veh_bruteChopper_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 				<Target type="ProtoUnit">flood_veh_bruteChopper_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 				<Target type="ProtoUnit">flood_veh_bruteChopper_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_bruteChopper_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5706,32 +5816,32 @@
 			<Effect type="Data" amount="0.25" subtype="MaxDeviation" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 				<Target type="ProtoUnit">flood_veh_bruteChopper_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0.5" subtype="MovingMaxDeviation" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 				<Target type="ProtoUnit">flood_veh_bruteChopper_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 				<Target type="ProtoUnit">flood_veh_bruteChopper_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 				<Target type="ProtoUnit">flood_veh_bruteChopper_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 				<Target type="ProtoUnit">flood_veh_bruteChopper_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 				<Target type="ProtoUnit">flood_veh_bruteChopper_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_bruteChopper_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5756,22 +5866,22 @@
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 				<Target type="ProtoUnit">flood_veh_bruteChopper_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="2" subtype="AmmoMax" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 				<Target type="ProtoUnit">flood_veh_bruteChopper_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="2" subtype="AmmoRegenRate" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 				<Target type="ProtoUnit">flood_veh_bruteChopper_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0.25" subtype="ReflectDamageFactor" action="Ram" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 				<Target type="ProtoUnit">flood_veh_bruteChopper_01</Target>
-				<Target type="ProtoUnit">flood_ban_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ff_infected_veh_bruteChopper_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>

@@ -78,9 +78,9 @@
 		<Dodgeable />
 		<Deflectable />
 		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>6</PreAttackCooldownMax>
+		<PreAttackCooldownMax>4</PreAttackCooldownMax>
 		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>6</PostAttackCooldownMax>
+		<PostAttackCooldownMax>4</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
 		<Name>CannonUpgraded</Name>
@@ -116,9 +116,9 @@
 		<Dodgeable />
 		<Deflectable />
 		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>4</PreAttackCooldownMax>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
 		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>4</PostAttackCooldownMax>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
 	</Weapon>
 	<Action>
 		<Name>CannonAttackAction</Name>

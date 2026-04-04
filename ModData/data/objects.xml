@@ -13107,7 +13107,7 @@
 		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>grunt</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\Infantry\InfectedGrunt\InfectedGrunt_01.vis</Visual>
+		<Visual>flood\infantry_h2\floodcombat_grunt\InfectedGrunt_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>24634</DisplayNameID>
@@ -15198,7 +15198,59 @@
 		<Flag>Update</Flag>
 		<Flag>Build</Flag>
 	</Object>
-	<Object name="hook_bldg_miniBase_01" id="0" dbid="4141">
+	<Object name="hook_bldg_miniBase_01" is="0" id="2072" dbid="3476">
+		<ObjectType>NewCapturePointSystem</ObjectType>
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\bonus\house_01\house_01.vis</Visual>
+		<Ability>HookLockDownCover.triggerscript</Ability>
+		<DisplayNameID>24022</DisplayNameID>
+		<RolloverTextID>24023</RolloverTextID>
+		<RoleTextID>24023</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>75000</Hitpoints>
+		<PopCapAddition Type="Unit">10</PopCapAddition>
+		<LOS>55</LOS>
+		<BuildPoints>40</BuildPoints>
+		<ObstructionRadiusX>12</ObstructionRadiusX>
+		<ObstructionRadiusY>9</ObstructionRadiusY>
+		<ObstructionRadiusZ>12</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<SelectedRadiusX>10</SelectedRadiusX>
+		<SelectedRadiusZ>10</SelectedRadiusZ>
+		<PickRadius>11.5</PickRadius>
+		<PickOffset>2.5999999</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<DeathReplacement>hook_bonus_house_01</DeathReplacement>
+		<DamageType direction="Full">Heavy</DamageType>
+		<Command Type="Unload" Position="0" AutoClose="true" />
+		<Contain>Infantry</Contain>
+		<MaxContained>1</MaxContained>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Garrison</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<ObjectType>GaiaGarrison</ObjectType>
+		<ObjectType>BlitzDestruction</ObjectType>
+		<ObjectType>_Cover</ObjectType>
+		<Sound Type="Exist">play_for_reactor_hook_exist</Sound>
+		<Sound Type="StopExist">stop_for_reactor_hook_exist</Sound>
+		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>SoundBehindFOW</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>UnGarrisonToGaia</Flag>
+		<Flag>SoundBehindFOW</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+		<Flag>ForceUpdateContainedUnits</Flag>
+		<Flag>ObstructsAir</Flag>
+	</Object>
+	<!--Object name="hook_bldg_miniBase_01" id="0" dbid="4141">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>hook/building/parkingLotUNSC_01/parkingLotUNSC_hologram_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
@@ -15257,7 +15309,7 @@
 		<Flag>PermanentSocket</Flag>
 		<Flag>UseBuildRotation</Flag>
 		<Flag>UseAutoParkingLot</Flag>
-	</Object>
+	</Object-->
 	<Object name="hook_bldg_socket_01" id="0" dbid="3753">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>unsc\Building\socket_01\socket_01.vis</Visual>
