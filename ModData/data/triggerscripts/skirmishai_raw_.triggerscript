@@ -82,6 +82,8 @@
     <TriggerVar ID="108" Type="Trigger" Name="NewTrigger6" IsNull="false">51</TriggerVar>
     <TriggerVar ID="109" Type="Trigger" Name="NewTrigger6" IsNull="false">52</TriggerVar>
     <TriggerVar ID="110" Type="String" Name="NewString9" IsNull="false">skirmishai_new\ai_Bork.triggerscript</TriggerVar>
+    <TriggerVar ID="111" Type="Leader" Name="NewLeader37" IsNull="false">ForDidact</TriggerVar>
+    <TriggerVar ID="112" Type="Leader" Name="NewLeader37" IsNull="false">InfectedCovenantLeader</TriggerVar>
   </TriggerVars>
   <Triggers>
     <Trigger ID="0" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="247" Y="-870" GroupID="-1" TemplateID="-1">
@@ -317,6 +319,10 @@
             <Input Name="Player" SigID="1" Optional="false">0</Input>
             <Input Name="Leader" SigID="2" Optional="false">51</Input>
           </Condition>
+          <Condition ID="27" Type="PlayerUsingLeader v1" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">0</Input>
+            <Input Name="Leader" SigID="2" Optional="false">112</Input>
+          </Condition>
         </Or>
       </TriggerConditions>
       <TriggerEffectsOnTrue>
@@ -343,6 +349,10 @@
           <Condition ID="18" Type="PlayerUsingLeader v1" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
             <Input Name="Player" SigID="1" Optional="false">0</Input>
             <Input Name="Leader" SigID="2" Optional="false">106</Input>
+          </Condition>
+          <Condition ID="18" Type="PlayerUsingLeader v1" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">0</Input>
+            <Input Name="Leader" SigID="2" Optional="false">111</Input>
           </Condition>
         </Or>
       </TriggerConditions>

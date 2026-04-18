@@ -1,5 +1,701 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TechTree version="8">
+	<Tech name="for_didact_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53130</DisplayNameID>
+		<RolloverTextID>53131</RolloverTextID>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<ResearchPoints>20</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_fiendishreturn</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">for_inf_didact_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.95" subtype="Damage" action="DualSword" relativity="Percent">
+				<Target type="ProtoUnit">for_inf_didact_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.425" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">for_inf_didact_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="FiendishReturn" relativity="Absolute">
+				<Target type="ProtoUnit">for_inf_didact_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="for_didact_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53132</DisplayNameID>
+		<RolloverTextID>53133</RolloverTextID>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_viciousblades</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">for_didact_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">for_inf_didact_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.73000002" subtype="Damage" action="DualSword" relativity="Percent">
+				<Target type="ProtoUnit">for_inf_didact_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.42499995" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">for_inf_didact_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="for_didact_upgrade3" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53134</DisplayNameID>
+		<RolloverTextID>53135</RolloverTextID>
+		<Cost resourcetype="Supplies">900</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_ghastlyvision</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">for_didact_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">for_inf_didact_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.39999998" subtype="Damage" action="DualSword" relativity="Percent">
+				<Target type="ProtoUnit">for_inf_didact_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.70000005" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">for_inf_didact_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="for_phaeton_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53136</DisplayNameID>
+		<RolloverTextID>53137</RolloverTextID>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">for_air_phaeton_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">for_air_phaeton_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">for_air_phaeton_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="for_phaeton_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53138</DisplayNameID>
+		<RolloverTextID>53139</RolloverTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Prereqs>
+			<TechStatus status="Active">for_phaeton_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">for_air_phaeton_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">for_air_phaeton_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">for_air_phaeton_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="for_phaeton_upgrade3" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53140</DisplayNameID>
+		<RolloverTextID>53141</RolloverTextID>
+		<PrereqTextID>244</PrereqTextID>
+		<Cost resourcetype="Supplies">700</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Prereqs>
+			<TechStatus status="Active">for_phaeton_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">for_air_phaeton_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">for_air_phaeton_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">for_air_phaeton_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="for_LeaderDidact" type="Normal">
+		<DBID>2104</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="GodPower" amount="1">ForSWDefense</Effect>
+			<Effect type="GodPower" amount="1">ForBlockLP</Effect>
+			<Effect type="GodPower" amount="1">ForerunnerTurretDrop</Effect>
+			<Effect type="GodPower" amount="1">For_Minibase_01</Effect>
+			<Effect type="GodPower" amount="1">UnscLeaderRepair</Effect>
+			<Effect type="GodPower" amount="1">_RallyPoint</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="for_air_oracle_01" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_gamma_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="for_air_enforcer_01" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_alpha_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="fore_inf_walker_01" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_beta_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="fore_inf_knight_01" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_beta_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="for_oracle_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_gamma_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="for_oracle_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_gamma_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="for_oracle_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_gamma_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="for_enforcer_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_alpha_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="for_enforcer_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_alpha_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="for_enforcer_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_alpha_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1.3" subtype="WorkRate" action="GatherSupplies" relativity="Percent">
+				<Target type="ProtoUnit">fore_bldg_supplypad_01</Target>
+				<Target type="ProtoUnit">fore_bldg_supplypad_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_supplypad_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_reactor_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_gamma_02" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_beta_02" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_alpha_02" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_factory_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1" subtype="WorkRate" action="GatherSupplies" relativity="Percent">
+				<Target type="ProtoUnit">fore_bldg_supplypad_01</Target>
+				<Target type="ProtoUnit">fore_bldg_supplypad_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_supplypad_01</Target>
+				<Target type="ProtoUnit">fore_bldg_supplypad_02</Target>
+				<Target type="ProtoUnit">fore_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">fore_bldg_reactor_02</Target>
+				<Target type="ProtoUnit">fore_bldg_factory_01</Target>
+				<Target type="ProtoUnit">fore_bldg_beta_02</Target>
+				<Target type="ProtoUnit">fore_bldg_alpha_02</Target>
+				<Target type="ProtoUnit">fore_bldg_gamma_02</Target>
+				<Target type="ProtoUnit">for_turretdrop_01</Target>
+				<Target type="ProtoUnit">for_bldg_builder_01</Target>
+				<Target type="ProtoUnit">for_bldg_builder_02</Target>
+				<Target type="ProtoUnit">for_bldg_builder_03</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+				<Target type="ProtoUnit">fore_fbs_command_01</Target>
+				<Target type="ProtoUnit">fore_fbs_command_02</Target>
+				<Target type="ProtoUnit">fore_fbs_command_03</Target>
+				<Target type="ProtoUnit">fore_fbs_command_04</Target>
+				<Target type="ProtoUnit">fore_fbs_command_05</Target>
+				<Target type="ProtoUnit">fore_bldg_Turret_01</Target>
+				<Target type="ProtoSquad">fore_inf_soldier_01</Target>
+				<Target type="ProtoSquad">fore_air_sentinel_01</Target>
+				<Target type="ProtoSquad">fore_air_sentinel_03</Target>
+				<Target type="ProtoSquad">fore_veh_hyperion_01</Target>
+				<Target type="ProtoSquad">fore_veh_superwalker_01</Target>
+				<Target type="ProtoSquad">fore_veh_swarm_01</Target>
+				<Target type="ProtoSquad">for_air_supersentinel_01</Target>
+				<Target type="ProtoSquad">fore_air_attractor_01</Target>
+				<Target type="ProtoSquad">for_air_regulator_01</Target>
+				<Target type="ProtoSquad">fore_veh_pilotes_01</Target>
+				<Target type="ProtoSquad">fore_veh_blister_01</Target>
+				<Target type="ProtoSquad">fore_veh_tripod_01</Target>
+				<Target type="ProtoSquad">for_veh_eradicator_01_new</Target>
+				<Target type="ProtoSquad">fore_air_guardian_01_new</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_01</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_02</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_03</Target>
+				<Target type="ProtoSquad">for_inf_prometheanknight_01</Target>
+				<Target type="ProtoSquad">for_inf_didact_01</Target>
+				<Target type="ProtoSquad">for_air_phaeton_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_gruntgoblin_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53114</DisplayNameID>
+		<RolloverTextID>53115</RolloverTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<Cost resourcetype="CampaignFoo">200</Cost>
+		<ResearchPoints>20</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_deacon</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">ban_inf_gruntgoblin_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">ban_inf_gruntgoblin_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">ban_inf_gruntgoblin_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">ban_inf_gruntgoblin_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.35" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">ban_inf_gruntgoblin_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_gruntgoblin_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53116</DisplayNameID>
+		<RolloverTextID>53117</RolloverTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<Cost resourcetype="CampaignFoo">400</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_deacon</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_gruntgoblin_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">ban_inf_gruntgoblin_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">ban_inf_gruntgoblin_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.5" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">ban_inf_gruntgoblin_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.5" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">ban_inf_gruntgoblin_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="MissileLauncherAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">ban_inf_gruntgoblin_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_gruntgoblin_upgrade3" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>53118</DisplayNameID>
+		<RolloverTextID>53119</RolloverTextID>
+		<PrereqTextID>243</PrereqTextID>
+		<Cost resourcetype="CampaignFoo">700</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_deacon</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_gruntgoblin_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">ban_inf_gruntgoblin_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">ban_inf_gruntgoblin_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">ban_inf_gruntgoblin_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.3" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">ban_inf_gruntgoblin_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ban_hgruntdeacon_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>1076</DisplayNameID>
+		<RolloverTextID>1077</RolloverTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<Cost resourcetype="CampaignFoo">200</Cost>
+		<ResearchPoints>20</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_HeavygruntDeacon_01</Target>
+				<Target type="ProtoSquad">cov_inf_HeavygruntDeacon_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_HeavygruntDeacon_01</Target>
+				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_HeavygruntDeacon_01</Target>
+				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+			</Effect>
+			<Effect type="TransformProtoSquad" FromType="cov_inf_HeavygruntDeacon_01" ToType="cov_inf_HeavygruntDeacon_02" />
+		</Effects>
+	</Tech>
+	<Tech name="ban_hgruntdeacon_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>1078</DisplayNameID>
+		<RolloverTextID>1079</RolloverTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<Cost resourcetype="CampaignFoo">400</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_needler</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">ban_hgruntdeacon_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_HeavygruntDeacon_01</Target>
+				<Target type="ProtoSquad">cov_inf_HeavygruntDeacon_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_HeavygruntDeacon_01</Target>
+				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_HeavygruntDeacon_01</Target>
+				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ban_hgruntdeacon_upgrade3" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>1146</DisplayNameID>
+		<RolloverTextID>1147</RolloverTextID>
+		<PrereqTextID>243</PrereqTextID>
+		<Cost resourcetype="CampaignFoo">700</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_deacon</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">ban_hgruntdeacon_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_HeavygruntDeacon_01</Target>
+				<Target type="ProtoSquad">cov_inf_HeavygruntDeacon_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_HeavygruntDeacon_01</Target>
+				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_HeavygruntDeacon_01</Target>
+				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="ban_LeaderElite" type="Normal">
+		<DBID>2104</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="GodPower" amount="5">BanishedSpartan_Drop</Effect>
+			<Effect type="GodPower" amount="1">BanLeaderGlassing</Effect>
+			<Effect type="TransformProtoSquad" FromType="ban_inf_bruteGrunt_01" ToType="cov_inf_grunt_01" />
+			<Effect type="TransformProtoSquad" FromType="ban_inf_bruteGrunt_02" ToType="cov_inf_grunt_02" />
+			<Effect type="TransformProtoSquad" FromType="ban_inf_bruteGrunt_03" ToType="cov_inf_grunt_03" />
+			<Effect type="TransformProtoUnit" FromType="unsc_inf_odst_01" ToType="ban_inf_spartan_01" />
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">ban_inf_gruntgoblin_01</Target>
+				<Target type="ProtoSquad">ban_veh_ghost_01</Target>
+				<Target type="ProtoSquad">ban_inf_bruteGrunt_01</Target>
+				<Target type="ProtoSquad">ban_inf_bruteGrunt_02</Target>
+				<Target type="ProtoSquad">ban_inf_bruteGrunt_03</Target>
+				<Target type="ProtoSquad">cov_inf_grunt_01</Target>
+				<Target type="ProtoSquad">cov_inf_grunt_02</Target>
+				<Target type="ProtoSquad">cov_inf_grunt_03</Target>
+				<Target type="ProtoSquad">cov_inf_HeavygruntDeacon_01</Target>
+				<Target type="ProtoSquad">cov_inf_HeavygruntDeacon_02</Target>
+				<Target type="ProtoSquad">ban_veh_methanewagon_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="ban_veh_methanewagon_01" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_HeavygruntDeacon_01" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="ban_hgruntdeacon_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="ban_hgruntdeacon_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="ban_hgruntdeacon_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="ban_veh_ghost_01" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_builder_01</Target>
+				<Target type="ProtoUnit">ban_bldg_builder_02</Target>
+				<Target type="ProtoUnit">ban_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_builder_01</Target>
+				<Target type="ProtoUnit">ban_bldg_builder_02</Target>
+				<Target type="ProtoUnit">ban_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_builder_01</Target>
+				<Target type="ProtoUnit">ban_bldg_builder_02</Target>
+				<Target type="ProtoUnit">ban_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_builder_01</Target>
+				<Target type="ProtoUnit">ban_bldg_builder_02</Target>
+				<Target type="ProtoUnit">ban_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="ban_inf_gruntgoblin_01" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_temple_01</Target>
+				<Target type="ProtoUnit">ban_bldg_templeai_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_gruntgoblin_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_temple_01</Target>
+				<Target type="ProtoUnit">ban_bldg_templeai_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_gruntgoblin_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_temple_01</Target>
+				<Target type="ProtoUnit">ban_bldg_templeai_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_gruntgoblin_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_temple_01</Target>
+				<Target type="ProtoUnit">ban_bldg_templeai_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_decibeam_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_temple_01</Target>
+				<Target type="ProtoUnit">ban_bldg_templeai_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_decibeam_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_temple_01</Target>
+				<Target type="ProtoUnit">ban_bldg_templeai_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_decibeam_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_temple_01</Target>
+				<Target type="ProtoUnit">ban_bldg_templeai_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="covenant_LeaderInfected" type="Normal">
+		<DBID>2104</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="GodPower" amount="1">BruteSupportDrop</Effect>
+			<Effect type="GodPower" amount="1">Arbiter2ndSupportDrop</Effect>
+			<Effect type="GodPower" amount="1">ArbiterHeroDrop</Effect>
+			<Effect type="TransformProtoUnit" FromType="cov_inf_gruntDeacon_01" ToType="flood_infected_gruntDeacon_01" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_gruntDeacon_02" ToType="flood_infected_gruntDeacon_02" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_eliteCommando_01" ToType="flood_infected_eliteCommando_01" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_grunt_01" ToType="flood_infected_grunt_01" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_grunt_02" ToType="flood_infected_grunt_02" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_needlerGrunt_01" ToType="flood_infected_needlerGrunt_01" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_needlerGrunt_02" ToType="flood_infected_needlerGrunt_02" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_eliteLeader_01" ToType="flood_infected_eliteLeader_01" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_eliteLeader_02" ToType="flood_infected_eliteLeader_02" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_jackal_01" ToType="flood_infected_jackal_01" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_jackal_02" ToType="flood_infected_jackal_02" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_fuelrodelite" ToType="flood_infected_fuelrodelite_01" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_jackalShield_01" ToType="flood_infected_jackalShield_01" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_jackalShield_02" ToType="flood_infected_jackalShield_02" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_brute_hg_01" ToType="flood_infected_brute_hg_01" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_bruteBerserker_01" ToType="flood_infected_bruteBerserker_01" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_bruteBerserker_02" ToType="flood_infected_bruteBerserker_01" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_brute_01" ToType="flood_infected_brute_01" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_prophet_01" ToType="flood_infected_prophet_01" />
+			<Effect type="TransformProtoUnit" FromType="cov_inf_prophet_02" ToType="flood_infected_prophet_02" />
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_titan_phantom_gunship_01</Target>
+				<Target type="ProtoSquad">cov_inf_prophet_01</Target>
+				<Target type="ProtoSquad">cov_inf_gruntDeacon_01</Target>
+				<Target type="ProtoSquad">cov_inf_gruntDeacon_02</Target>
+				<Target type="ProtoSquad">cov_inf_gruntDeacon_03</Target>
+				<Target type="ProtoSquad">cov_inf_fuelrodelite</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_titan_phantom_gunship_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_ghost_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_GruntDeacon_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_GruntDeacon_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_GruntDeacon_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_gruntDeacon_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_eliteCommando_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_prophet_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_prophet_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_prophet_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_cleansing_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_cleansing_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_cleansing_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_prophet_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_kingtemple_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hunter_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_hunter_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_hunter_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_hunter_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_fuelrodelite_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_fuelrodelite_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_fuelrodelite_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_fuelrodelite" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="ff_randomswapper" type="Normal">
 		<DBID>1916</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -668,8 +1364,21 @@
 				<Target type="ProtoUnit">suc_bldg_supplypad_02</Target>
 				<Target type="ProtoUnit">ban_bldg_supplyDepot_01</Target>
 				<Target type="ProtoUnit">ban_bldg_supplyDepot_02</Target>
+				<Target type="ProtoUnit">fore_bldg_supplypad_01</Target>
+				<Target type="ProtoUnit">fore_bldg_supplypad_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0.15" subtype="buildPoints" allactions="1" relativity="Percent">
+				<Target type="ProtoSquad">for_inf_prometheanpawn_01</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_02</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_03</Target>
+				<Target type="ProtoSquad">for_inf_prometheanknight_01</Target>
+				<Target type="ProtoSquad">for_inf_didact_01</Target>
+				<Target type="ProtoSquad">for_air_phaeton_01</Target>
+				<Target type="ProtoSquad">ban_inf_gruntgoblin_01</Target>
+				<Target type="ProtoSquad">cov_inf_HeavygruntDeacon_01</Target>
+				<Target type="ProtoSquad">cov_inf_HeavygruntDeacon_02</Target>
+				<Target type="ProtoSquad">ban_veh_methanewagon_01</Target>
+				<Target type="ProtoSquad">ban_veh_ghost_01</Target>
 				<Target type="ProtoSquad">creep_veh_mongoose_01</Target>
 				<Target type="ProtoSquad">creep_veh_spade_01</Target>
 				<Target type="ProtoSquad">creep_inf_marine_01</Target>
@@ -934,131 +1643,160 @@
 				<Target type="Tech">cov_prophet_upgrade1</Target>
 				<Target type="Tech">cov_prophet_upgrade2</Target>
 				<Target type="Tech">cov_prophet_upgrade3</Target>
-				<Target type="Tech">unsc_tech_reinforcements1</Command>
-				<Target type="Tech">unsc_tech_reinforcements2</Command>
-				<Target type="Tech">unsc_tech_reinforcements3</Command>
-				<Target type="Tech">suc_infantry_upgrade1</Command>
-				<Target type="Tech">suc_infantry_upgrade2</Command>
-				<Target type="Tech">suc_infantry_upgrade3</Command>
-				<Target type="Tech">suc_heavyinfantry_upgrade1</Command>
-				<Target type="Tech">suc_heavyinfantry_upgrade2</Command>
-				<Target type="Tech">suc_heavyinfantry_upgrade3</Command>
-				<Target type="Tech">suc_sniper_upgrade1</Command>
-				<Target type="Tech">suc_sniper_upgrade2</Command>
-				<Target type="Tech">suc_sniper_upgrade3</Command>
-				<Target type="Tech">suc_stealth_upgrade1</Command>
-				<Target type="Tech">suc_stealth_upgrade2</Command>
-				<Target type="Tech">suc_stealth_upgrade3</Command>
-				<Target type="Tech">unsc_spartanmech_upgrade1</Command>
-				<Target type="Tech">unsc_spartanmech_upgrade2</Command>
-				<Target type="Tech">unsc_spartanmech_upgrade3</Command>
-				<Target type="Tech">for_soldier_upgrade1</Command>
-				<Target type="Tech">for_soldier_upgrade2</Command>
-				<Target type="Tech">for_soldier_upgrade3</Command>
-				<Target type="Tech">for_pawnsniper_upgrade1</Command>
-				<Target type="Tech">for_pawnsniper_upgrade2</Command>
-				<Target type="Tech">for_pawnsniper_upgrade3</Command>
-				<Target type="Tech">for_knight_upgrade1</Command>
-				<Target type="Tech">for_knight_upgrade2</Command>
-				<Target type="Tech">for_knight_upgrade3</Command>
-				<Target type="Tech">for_tank_upgrade2</Command>
-				<Target type="Tech">for_tank_upgrade3</Command>
-				<Target type="Tech">for_sentinel3_upgrade1</Command>
-				<Target type="Tech">for_sentinel3_upgrade2</Command>
-				<Target type="Tech">for_sentinel3_upgrade3</Command>
-				<Target type="Tech">for_sentinel4_upgrade1</Command>
-				<Target type="Tech">for_sentinel4_upgrade2</Command>
-				<Target type="Tech">for_sentinel4_upgrade3</Command>
-				<Target type="Tech">for_enforcer_upgrade1</Command>
-				<Target type="Tech">for_enforcer_upgrade2</Command>
-				<Target type="Tech">for_enforcer_upgrade3</Command>
-				<Target type="Tech">for_oracle_upgrade1</Command>
-				<Target type="Tech">for_oracle_upgrade2</Command>
-				<Target type="Tech">for_oracle_upgrade3</Command>
-				<Target type="Tech">fld_infectionform_upgrade1</Command>
-				<Target type="Tech">fld_infectionform_upgrade2</Command>
-				<Target type="Tech">fld_infectionform_upgrade3</Command>
-				<Target type="Tech">fld_juggernaut_upgrade1</Command>
-				<Target type="Tech">fld_juggernaut_upgrade2</Command>
-				<Target type="Tech">fld_juggernaut_upgrade3</Command>
-				<Target type="Tech">cov_champion_upgrade1</Command>
-				<Target type="Tech">cov_champion_upgrade2</Command>
-				<Target type="Tech">cov_champion_upgrade3</Command>
-				<Target type="Tech">cov_chimera_upgrade1</Command>
-				<Target type="Tech">cov_chimera_upgrade2</Command>
-				<Target type="Tech">cov_chimera_upgrade3</Command>
-				<Target type="Tech">cov_repairdrones_upgrade1</Command>
-				<Target type="Tech">cov_repairdrones_upgrade2</Command>
-				<Target type="Tech">cov_beetle_upgrade1</Command>
-				<Target type="Tech">cov_beetle_upgrade2</Command>
-				<Target type="Tech">cov_beetle_upgrade3</Command>
-				<Target type="Tech">cov_artillery_upgrade1</Command>
-				<Target type="Tech">cov_artillery_upgrade2</Command>
-				<Target type="Tech">cov_artillery_upgrade3</Command>
-				<Target type="Tech">cov_majordrones_upgrade1</Command>
-				<Target type="Tech">cov_majordrones_upgrade2</Command>
-				<Target type="Tech">cov_majordrones_upgrade3</Command>
-				<Target type="Tech">cov_skirmisherAI_upgrade1</Command>
-				<Target type="Tech">cov_skirmisherAI_upgrade2</Command>
-				<Target type="Tech">cov_skirmisherAI_upgrade3</Command>
-				<Target type="Tech">cov_skirmisherAV_upgrade1</Command>
-				<Target type="Tech">cov_skirmisherAV_upgrade2</Command>
-				<Target type="Tech">cov_skirmisherAV_upgrade3</Command>
-				<Target type="Tech">cov_fuelrodelite_upgrade1</Command>
-				<Target type="Tech">cov_fuelrodelite_upgrade2</Command>
-				<Target type="Tech">cov_fuelrodelite_upgrade3</Command>
-				<Target type="Tech">cov_sniperelite_upgrade1</Command>
-				<Target type="Tech">cov_sniperelite_upgrade2</Command>
-				<Target type="Tech">cov_sniperelite_upgrade3</Command>
-				<Target type="Tech">cov_brutehonorguard_upgrade</Command>
-				<Target type="Tech">cov_silentshadow_upgrade</Command>
-				<Target type="Tech">cov_superdrone_upgrade</Command>
-				<Target type="Tech">cov_plasmacasterelite_upgrade</Command>
-				<Target type="Tech">cov_drones_upgrade1</Command>
-				<Target type="Tech">cov_drones_upgrade2</Command>
-				<Target type="Tech">cov_drones_upgrade3</Command>
-				<Target type="Tech">cov_skirmisher_upgrade1</Command>
-				<Target type="Tech">cov_skirmisher_upgrade2</Command>
-				<Target type="Tech">cov_skirmisher_upgrade3</Command>
-				<Target type="Tech">cov_GruntDeacon_upgrade1</Command>
-				<Target type="Tech">cov_GruntDeacon_upgrade2</Command>
-				<Target type="Tech">cov_GruntDeacon_upgrade3</Command>
-				<Target type="Tech">cov_bruteBerserker_upgrade1</Command>
-				<Target type="Tech">cov_bruteBerserker_upgrade2</Command>
-				<Target type="Tech">cov_bruteBerserker_upgrade3</Command>
-				<Target type="Tech">unsc_spartanjerome_upgrade1</Command>
-				<Target type="Tech">unsc_spartanjerome_upgrade2</Command>
-				<Target type="Tech">unsc_spartanjerome_upgrade3</Command>
-				<Target type="Tech">unsc_spartanalice_upgrade1</Command>
-				<Target type="Tech">unsc_spartanalice_upgrade2</Command>
-				<Target type="Tech">unsc_spartanalice_upgrade3</Command>
-				<Target type="Tech">unsc_spartandouglas_upgrade1</Command>
-				<Target type="Tech">unsc_spartandouglas_upgrade2</Command>
-				<Target type="Tech">unsc_spartandouglas_upgrade3</Command>
-				<Target type="Tech">unsc_hawk_upgrade2</Command>
-				<Target type="Tech">unsc_hawk_upgrade3</Command>
-				<Target type="Tech">unsc_nightingale_upgrade1</Command>
-				<Target type="Tech">unsc_nightingale_upgrade2</Command>
-				<Target type="Tech">unsc_nightingale_upgrade3</Command>
-				<Target type="Tech">unsc_grizzly_upgrade2</Command>
-				<Target type="Tech">unsc_grizzly_upgrade3</Command>
-				<Target type="Tech">unsc_rhino_upgrade1</Command>
-				<Target type="Tech">unsc_rhino_upgrade2</Command>
-				<Target type="Tech">unsc_rhino_upgrade3</Command>
-				<Target type="Tech">unsc_colossus_upgrade1</Command>
-				<Target type="Tech">unsc_colossus_upgrade2</Command>
-				<Target type="Tech">unsc_colossus_upgrade3</Command>
-				<Target type="Tech">unsc_sniper_upgrade1</Command>
-				<Target type="Tech">unsc_sniper_upgrade2</Command>
-				<Target type="Tech">unsc_sniper_upgrade3</Command>
-				<Target type="Tech">unsc_odst_upgrade2</Command>
-				<Target type="Tech">unsc_odst_upgrade3</Command>
-				<Target type="Tech">unsc_mantis_upgrade1</Command>
-				<Target type="Tech">unsc_mantis_upgrade2</Command>
-				<Target type="Tech">unsc_mantis_upgrade3</Command>
-				<Target type="Tech">unsc_drone_upgrade1</Command>
-				<Target type="Tech">unsc_drone_upgrade2</Command>
-				<Target type="Tech">unsc_drone_upgrade3</Command>
+				<Target type="Tech">unsc_tech_reinforcements1</Target>
+				<Target type="Tech">unsc_tech_reinforcements2</Target>
+				<Target type="Tech">unsc_tech_reinforcements3</Target>
+				<Target type="Tech">suc_infantry_upgrade1</Target>
+				<Target type="Tech">suc_infantry_upgrade2</Target>
+				<Target type="Tech">suc_infantry_upgrade3</Target>
+				<Target type="Tech">suc_heavyinfantry_upgrade1</Target>
+				<Target type="Tech">suc_heavyinfantry_upgrade2</Target>
+				<Target type="Tech">suc_heavyinfantry_upgrade3</Target>
+				<Target type="Tech">suc_sniper_upgrade1</Target>
+				<Target type="Tech">suc_sniper_upgrade2</Target>
+				<Target type="Tech">suc_sniper_upgrade3</Target>
+				<Target type="Tech">suc_stealth_upgrade1</Target>
+				<Target type="Tech">suc_stealth_upgrade2</Target>
+				<Target type="Tech">suc_stealth_upgrade3</Target>
+				<Target type="Tech">unsc_spartanmech_upgrade1</Target>
+				<Target type="Tech">unsc_spartanmech_upgrade2</Target>
+				<Target type="Tech">unsc_spartanmech_upgrade3</Target>
+				<Target type="Tech">for_soldier_upgrade1</Target>
+				<Target type="Tech">for_soldier_upgrade2</Target>
+				<Target type="Tech">for_soldier_upgrade3</Target>
+				<Target type="Tech">for_pawnsniper_upgrade1</Target>
+				<Target type="Tech">for_pawnsniper_upgrade2</Target>
+				<Target type="Tech">for_pawnsniper_upgrade3</Target>
+				<Target type="Tech">for_knight_upgrade1</Target>
+				<Target type="Tech">for_knight_upgrade2</Target>
+				<Target type="Tech">for_knight_upgrade3</Target>
+				<Target type="Tech">for_tank_upgrade2</Target>
+				<Target type="Tech">for_tank_upgrade3</Target>
+				<Target type="Tech">for_sentinel3_upgrade1</Target>
+				<Target type="Tech">for_sentinel3_upgrade2</Target>
+				<Target type="Tech">for_sentinel3_upgrade3</Target>
+				<Target type="Tech">for_sentinel4_upgrade1</Target>
+				<Target type="Tech">for_sentinel4_upgrade2</Target>
+				<Target type="Tech">for_sentinel4_upgrade3</Target>
+				<Target type="Tech">for_enforcer_upgrade1</Target>
+				<Target type="Tech">for_enforcer_upgrade2</Target>
+				<Target type="Tech">for_enforcer_upgrade3</Target>
+				<Target type="Tech">for_oracle_upgrade1</Target>
+				<Target type="Tech">for_oracle_upgrade2</Target>
+				<Target type="Tech">for_oracle_upgrade3</Target>
+				<Target type="Tech">fld_infectionform_upgrade1</Target>
+				<Target type="Tech">fld_infectionform_upgrade2</Target>
+				<Target type="Tech">fld_infectionform_upgrade3</Target>
+				<Target type="Tech">fld_juggernaut_upgrade1</Target>
+				<Target type="Tech">fld_juggernaut_upgrade2</Target>
+				<Target type="Tech">fld_juggernaut_upgrade3</Target>
+				<Target type="Tech">cov_champion_upgrade1</Target>
+				<Target type="Tech">cov_champion_upgrade2</Target>
+				<Target type="Tech">cov_champion_upgrade3</Target>
+				<Target type="Tech">cov_chimera_upgrade1</Target>
+				<Target type="Tech">cov_chimera_upgrade2</Target>
+				<Target type="Tech">cov_chimera_upgrade3</Target>
+				<Target type="Tech">cov_repairdrones_upgrade1</Target>
+				<Target type="Tech">cov_repairdrones_upgrade2</Target>
+				<Target type="Tech">cov_beetle_upgrade1</Target>
+				<Target type="Tech">cov_beetle_upgrade2</Target>
+				<Target type="Tech">cov_beetle_upgrade3</Target>
+				<Target type="Tech">cov_artillery_upgrade1</Target>
+				<Target type="Tech">cov_artillery_upgrade2</Target>
+				<Target type="Tech">cov_artillery_upgrade3</Target>
+				<Target type="Tech">cov_majordrones_upgrade1</Target>
+				<Target type="Tech">cov_majordrones_upgrade2</Target>
+				<Target type="Tech">cov_majordrones_upgrade3</Target>
+				<Target type="Tech">cov_skirmisherAI_upgrade1</Target>
+				<Target type="Tech">cov_skirmisherAI_upgrade2</Target>
+				<Target type="Tech">cov_skirmisherAI_upgrade3</Target>
+				<Target type="Tech">cov_skirmisherAV_upgrade1</Target>
+				<Target type="Tech">cov_skirmisherAV_upgrade2</Target>
+				<Target type="Tech">cov_skirmisherAV_upgrade3</Target>
+				<Target type="Tech">cov_fuelrodelite_upgrade1</Target>
+				<Target type="Tech">cov_fuelrodelite_upgrade2</Target>
+				<Target type="Tech">cov_fuelrodelite_upgrade3</Target>
+				<Target type="Tech">cov_sniperelite_upgrade1</Target>
+				<Target type="Tech">cov_sniperelite_upgrade2</Target>
+				<Target type="Tech">cov_sniperelite_upgrade3</Target>
+				<Target type="Tech">cov_brutehonorguard_upgrade</Target>
+				<Target type="Tech">cov_silentshadow_upgrade</Target>
+				<Target type="Tech">cov_superdrone_upgrade</Target>
+				<Target type="Tech">cov_plasmacasterelite_upgrade</Target>
+				<Target type="Tech">cov_drones_upgrade1</Target>
+				<Target type="Tech">cov_drones_upgrade2</Target>
+				<Target type="Tech">cov_drones_upgrade3</Target>
+				<Target type="Tech">cov_skirmisher_upgrade1</Target>
+				<Target type="Tech">cov_skirmisher_upgrade2</Target>
+				<Target type="Tech">cov_skirmisher_upgrade3</Target>
+				<Target type="Tech">cov_GruntDeacon_upgrade1</Target>
+				<Target type="Tech">cov_GruntDeacon_upgrade2</Target>
+				<Target type="Tech">cov_GruntDeacon_upgrade3</Target>
+				<Target type="Tech">cov_bruteBerserker_upgrade1</Target>
+				<Target type="Tech">cov_bruteBerserker_upgrade2</Target>
+				<Target type="Tech">cov_bruteBerserker_upgrade3</Target>
+				<Target type="Tech">unsc_spartanjerome_upgrade1</Target>
+				<Target type="Tech">unsc_spartanjerome_upgrade2</Target>
+				<Target type="Tech">unsc_spartanjerome_upgrade3</Target>
+				<Target type="Tech">unsc_spartanalice_upgrade1</Target>
+				<Target type="Tech">unsc_spartanalice_upgrade2</Target>
+				<Target type="Tech">unsc_spartanalice_upgrade3</Target>
+				<Target type="Tech">unsc_spartandouglas_upgrade1</Target>
+				<Target type="Tech">unsc_spartandouglas_upgrade2</Target>
+				<Target type="Tech">unsc_spartandouglas_upgrade3</Target>
+				<Target type="Tech">unsc_hawk_upgrade2</Target>
+				<Target type="Tech">unsc_hawk_upgrade3</Target>
+				<Target type="Tech">unsc_nightingale_upgrade1</Target>
+				<Target type="Tech">unsc_nightingale_upgrade2</Target>
+				<Target type="Tech">unsc_nightingale_upgrade3</Target>
+				<Target type="Tech">unsc_grizzly_upgrade2</Target>
+				<Target type="Tech">unsc_grizzly_upgrade3</Target>
+				<Target type="Tech">unsc_rhino_upgrade1</Target>
+				<Target type="Tech">unsc_rhino_upgrade2</Target>
+				<Target type="Tech">unsc_rhino_upgrade3</Target>
+				<Target type="Tech">unsc_colossus_upgrade1</Target>
+				<Target type="Tech">unsc_colossus_upgrade2</Target>
+				<Target type="Tech">unsc_colossus_upgrade3</Target>
+				<Target type="Tech">unsc_sniper_upgrade1</Target>
+				<Target type="Tech">unsc_sniper_upgrade2</Target>
+				<Target type="Tech">unsc_sniper_upgrade3</Target>
+				<Target type="Tech">unsc_odst_upgrade2</Target>
+				<Target type="Tech">unsc_odst_upgrade3</Target>
+				<Target type="Tech">unsc_mantis_upgrade1</Target>
+				<Target type="Tech">unsc_mantis_upgrade2</Target>
+				<Target type="Tech">unsc_mantis_upgrade3</Target>
+				<Target type="Tech">unsc_drone_upgrade1</Target>
+				<Target type="Tech">unsc_drone_upgrade2</Target>
+				<Target type="Tech">unsc_drone_upgrade3</Target>
+				<Target type="Tech">for_didact_upgrade1</Target>
+				<Target type="Tech">for_didact_upgrade2</Target>
+				<Target type="Tech">for_didact_upgrade3</Target>
+				<Target type="Tech">for_phaeton_upgrade1</Target>
+				<Target type="Tech">for_phaeton_upgrade2</Target>
+				<Target type="Tech">for_phaeton_upgrade3</Target>
+				<Target type="Tech">cov_gruntgoblin_upgrade1</Target>
+				<Target type="Tech">cov_gruntgoblin_upgrade2</Target>
+				<Target type="Tech">cov_gruntgoblin_upgrade3</Target>
+				<Target type="Tech">ban_hgruntdeacon_upgrade1</Target>
+				<Target type="Tech">ban_hgruntdeacon_upgrade2</Target>
+				<Target type="Tech">ban_hgruntdeacon_upgrade3</Target>
+				<Target type="Tech">creep_havok_upgrade1</Target>
+				<Target type="Tech">creep_havok_upgrade2</Target>
+				<Target type="Tech">creep_havok_upgrade3</Target>
+				<Target type="Tech">creep_wasp_upgrade1</Target>
+				<Target type="Tech">creep_wasp_upgrade2</Target>
+				<Target type="Tech">creep_wasp_upgrade3</Target>
+				<Target type="Tech">creep_gunship_upgrade1</Target>
+				<Target type="Tech">creep_gunship_upgrade2</Target>
+				<Target type="Tech">creep_marine_upgrade1</Target>
+				<Target type="Tech">creep_marine_upgrade2</Target>
+				<Target type="Tech">creep_marine_upgrade3</Target>
+				<Target type="Tech">creep_badger_upgrade1</Target>
+				<Target type="Tech">creep_badger_upgrade2</Target>
+				<Target type="Tech">creep_badger_upgrade3</Target>
+				<Target type="Tech">creep_empmarine_upgrade1</Target>
+				<Target type="Tech">creep_empmarine_upgrade2</Target>
+				<Target type="Tech">creep_empmarine_upgrade3</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -1579,131 +2317,131 @@
 				<Target type="Tech">cov_prophet_upgrade1</Target>
 				<Target type="Tech">cov_prophet_upgrade2</Target>
 				<Target type="Tech">cov_prophet_upgrade3</Target>
-				<Target type="Tech">unsc_tech_reinforcements1</Command>
-				<Target type="Tech">unsc_tech_reinforcements2</Command>
-				<Target type="Tech">unsc_tech_reinforcements3</Command>
-				<Target type="Tech">suc_infantry_upgrade1</Command>
-				<Target type="Tech">suc_infantry_upgrade2</Command>
-				<Target type="Tech">suc_infantry_upgrade3</Command>
-				<Target type="Tech">suc_heavyinfantry_upgrade1</Command>
-				<Target type="Tech">suc_heavyinfantry_upgrade2</Command>
-				<Target type="Tech">suc_heavyinfantry_upgrade3</Command>
-				<Target type="Tech">suc_sniper_upgrade1</Command>
-				<Target type="Tech">suc_sniper_upgrade2</Command>
-				<Target type="Tech">suc_sniper_upgrade3</Command>
-				<Target type="Tech">suc_stealth_upgrade1</Command>
-				<Target type="Tech">suc_stealth_upgrade2</Command>
-				<Target type="Tech">suc_stealth_upgrade3</Command>
-				<Target type="Tech">unsc_spartanmech_upgrade1</Command>
-				<Target type="Tech">unsc_spartanmech_upgrade2</Command>
-				<Target type="Tech">unsc_spartanmech_upgrade3</Command>
-				<Target type="Tech">for_soldier_upgrade1</Command>
-				<Target type="Tech">for_soldier_upgrade2</Command>
-				<Target type="Tech">for_soldier_upgrade3</Command>
-				<Target type="Tech">for_pawnsniper_upgrade1</Command>
-				<Target type="Tech">for_pawnsniper_upgrade2</Command>
-				<Target type="Tech">for_pawnsniper_upgrade3</Command>
-				<Target type="Tech">for_knight_upgrade1</Command>
-				<Target type="Tech">for_knight_upgrade2</Command>
-				<Target type="Tech">for_knight_upgrade3</Command>
-				<Target type="Tech">for_tank_upgrade2</Command>
-				<Target type="Tech">for_tank_upgrade3</Command>
-				<Target type="Tech">for_sentinel3_upgrade1</Command>
-				<Target type="Tech">for_sentinel3_upgrade2</Command>
-				<Target type="Tech">for_sentinel3_upgrade3</Command>
-				<Target type="Tech">for_sentinel4_upgrade1</Command>
-				<Target type="Tech">for_sentinel4_upgrade2</Command>
-				<Target type="Tech">for_sentinel4_upgrade3</Command>
-				<Target type="Tech">for_enforcer_upgrade1</Command>
-				<Target type="Tech">for_enforcer_upgrade2</Command>
-				<Target type="Tech">for_enforcer_upgrade3</Command>
-				<Target type="Tech">for_oracle_upgrade1</Command>
-				<Target type="Tech">for_oracle_upgrade2</Command>
-				<Target type="Tech">for_oracle_upgrade3</Command>
-				<Target type="Tech">fld_infectionform_upgrade1</Command>
-				<Target type="Tech">fld_infectionform_upgrade2</Command>
-				<Target type="Tech">fld_infectionform_upgrade3</Command>
-				<Target type="Tech">fld_juggernaut_upgrade1</Command>
-				<Target type="Tech">fld_juggernaut_upgrade2</Command>
-				<Target type="Tech">fld_juggernaut_upgrade3</Command>
-				<Target type="Tech">cov_champion_upgrade1</Command>
-				<Target type="Tech">cov_champion_upgrade2</Command>
-				<Target type="Tech">cov_champion_upgrade3</Command>
-				<Target type="Tech">cov_chimera_upgrade1</Command>
-				<Target type="Tech">cov_chimera_upgrade2</Command>
-				<Target type="Tech">cov_chimera_upgrade3</Command>
-				<Target type="Tech">cov_repairdrones_upgrade1</Command>
-				<Target type="Tech">cov_repairdrones_upgrade2</Command>
-				<Target type="Tech">cov_beetle_upgrade1</Command>
-				<Target type="Tech">cov_beetle_upgrade2</Command>
-				<Target type="Tech">cov_beetle_upgrade3</Command>
-				<Target type="Tech">cov_artillery_upgrade1</Command>
-				<Target type="Tech">cov_artillery_upgrade2</Command>
-				<Target type="Tech">cov_artillery_upgrade3</Command>
-				<Target type="Tech">cov_majordrones_upgrade1</Command>
-				<Target type="Tech">cov_majordrones_upgrade2</Command>
-				<Target type="Tech">cov_majordrones_upgrade3</Command>
-				<Target type="Tech">cov_skirmisherAI_upgrade1</Command>
-				<Target type="Tech">cov_skirmisherAI_upgrade2</Command>
-				<Target type="Tech">cov_skirmisherAI_upgrade3</Command>
-				<Target type="Tech">cov_skirmisherAV_upgrade1</Command>
-				<Target type="Tech">cov_skirmisherAV_upgrade2</Command>
-				<Target type="Tech">cov_skirmisherAV_upgrade3</Command>
-				<Target type="Tech">cov_fuelrodelite_upgrade1</Command>
-				<Target type="Tech">cov_fuelrodelite_upgrade2</Command>
-				<Target type="Tech">cov_fuelrodelite_upgrade3</Command>
-				<Target type="Tech">cov_sniperelite_upgrade1</Command>
-				<Target type="Tech">cov_sniperelite_upgrade2</Command>
-				<Target type="Tech">cov_sniperelite_upgrade3</Command>
-				<Target type="Tech">cov_brutehonorguard_upgrade</Command>
-				<Target type="Tech">cov_silentshadow_upgrade</Command>
-				<Target type="Tech">cov_superdrone_upgrade</Command>
-				<Target type="Tech">cov_plasmacasterelite_upgrade</Command>
-				<Target type="Tech">cov_drones_upgrade1</Command>
-				<Target type="Tech">cov_drones_upgrade2</Command>
-				<Target type="Tech">cov_drones_upgrade3</Command>
-				<Target type="Tech">cov_skirmisher_upgrade1</Command>
-				<Target type="Tech">cov_skirmisher_upgrade2</Command>
-				<Target type="Tech">cov_skirmisher_upgrade3</Command>
-				<Target type="Tech">cov_GruntDeacon_upgrade1</Command>
-				<Target type="Tech">cov_GruntDeacon_upgrade2</Command>
-				<Target type="Tech">cov_GruntDeacon_upgrade3</Command>
-				<Target type="Tech">cov_bruteBerserker_upgrade1</Command>
-				<Target type="Tech">cov_bruteBerserker_upgrade2</Command>
-				<Target type="Tech">cov_bruteBerserker_upgrade3</Command>
-				<Target type="Tech">unsc_spartanjerome_upgrade1</Command>
-				<Target type="Tech">unsc_spartanjerome_upgrade2</Command>
-				<Target type="Tech">unsc_spartanjerome_upgrade3</Command>
-				<Target type="Tech">unsc_spartanalice_upgrade1</Command>
-				<Target type="Tech">unsc_spartanalice_upgrade2</Command>
-				<Target type="Tech">unsc_spartanalice_upgrade3</Command>
-				<Target type="Tech">unsc_spartandouglas_upgrade1</Command>
-				<Target type="Tech">unsc_spartandouglas_upgrade2</Command>
-				<Target type="Tech">unsc_spartandouglas_upgrade3</Command>
-				<Target type="Tech">unsc_hawk_upgrade2</Command>
-				<Target type="Tech">unsc_hawk_upgrade3</Command>
-				<Target type="Tech">unsc_nightingale_upgrade1</Command>
-				<Target type="Tech">unsc_nightingale_upgrade2</Command>
-				<Target type="Tech">unsc_nightingale_upgrade3</Command>
-				<Target type="Tech">unsc_grizzly_upgrade2</Command>
-				<Target type="Tech">unsc_grizzly_upgrade3</Command>
-				<Target type="Tech">unsc_rhino_upgrade1</Command>
-				<Target type="Tech">unsc_rhino_upgrade2</Command>
-				<Target type="Tech">unsc_rhino_upgrade3</Command>
-				<Target type="Tech">unsc_colossus_upgrade1</Command>
-				<Target type="Tech">unsc_colossus_upgrade2</Command>
-				<Target type="Tech">unsc_colossus_upgrade3</Command>
-				<Target type="Tech">unsc_sniper_upgrade1</Command>
-				<Target type="Tech">unsc_sniper_upgrade2</Command>
-				<Target type="Tech">unsc_sniper_upgrade3</Command>
-				<Target type="Tech">unsc_odst_upgrade2</Command>
-				<Target type="Tech">unsc_odst_upgrade3</Command>
-				<Target type="Tech">unsc_mantis_upgrade1</Command>
-				<Target type="Tech">unsc_mantis_upgrade2</Command>
-				<Target type="Tech">unsc_mantis_upgrade3</Command>
-				<Target type="Tech">unsc_drone_upgrade1</Command>
-				<Target type="Tech">unsc_drone_upgrade2</Command>
-				<Target type="Tech">unsc_drone_upgrade3</Command>
+				<Target type="Tech">unsc_tech_reinforcements1</Target>
+				<Target type="Tech">unsc_tech_reinforcements2</Target>
+				<Target type="Tech">unsc_tech_reinforcements3</Target>
+				<Target type="Tech">suc_infantry_upgrade1</Target>
+				<Target type="Tech">suc_infantry_upgrade2</Target>
+				<Target type="Tech">suc_infantry_upgrade3</Target>
+				<Target type="Tech">suc_heavyinfantry_upgrade1</Target>
+				<Target type="Tech">suc_heavyinfantry_upgrade2</Target>
+				<Target type="Tech">suc_heavyinfantry_upgrade3</Target>
+				<Target type="Tech">suc_sniper_upgrade1</Target>
+				<Target type="Tech">suc_sniper_upgrade2</Target>
+				<Target type="Tech">suc_sniper_upgrade3</Target>
+				<Target type="Tech">suc_stealth_upgrade1</Target>
+				<Target type="Tech">suc_stealth_upgrade2</Target>
+				<Target type="Tech">suc_stealth_upgrade3</Target>
+				<Target type="Tech">unsc_spartanmech_upgrade1</Target>
+				<Target type="Tech">unsc_spartanmech_upgrade2</Target>
+				<Target type="Tech">unsc_spartanmech_upgrade3</Target>
+				<Target type="Tech">for_soldier_upgrade1</Target>
+				<Target type="Tech">for_soldier_upgrade2</Target>
+				<Target type="Tech">for_soldier_upgrade3</Target>
+				<Target type="Tech">for_pawnsniper_upgrade1</Target>
+				<Target type="Tech">for_pawnsniper_upgrade2</Target>
+				<Target type="Tech">for_pawnsniper_upgrade3</Target>
+				<Target type="Tech">for_knight_upgrade1</Target>
+				<Target type="Tech">for_knight_upgrade2</Target>
+				<Target type="Tech">for_knight_upgrade3</Target>
+				<Target type="Tech">for_tank_upgrade2</Target>
+				<Target type="Tech">for_tank_upgrade3</Target>
+				<Target type="Tech">for_sentinel3_upgrade1</Target>
+				<Target type="Tech">for_sentinel3_upgrade2</Target>
+				<Target type="Tech">for_sentinel3_upgrade3</Target>
+				<Target type="Tech">for_sentinel4_upgrade1</Target>
+				<Target type="Tech">for_sentinel4_upgrade2</Target>
+				<Target type="Tech">for_sentinel4_upgrade3</Target>
+				<Target type="Tech">for_enforcer_upgrade1</Target>
+				<Target type="Tech">for_enforcer_upgrade2</Target>
+				<Target type="Tech">for_enforcer_upgrade3</Target>
+				<Target type="Tech">for_oracle_upgrade1</Target>
+				<Target type="Tech">for_oracle_upgrade2</Target>
+				<Target type="Tech">for_oracle_upgrade3</Target>
+				<Target type="Tech">fld_infectionform_upgrade1</Target>
+				<Target type="Tech">fld_infectionform_upgrade2</Target>
+				<Target type="Tech">fld_infectionform_upgrade3</Target>
+				<Target type="Tech">fld_juggernaut_upgrade1</Target>
+				<Target type="Tech">fld_juggernaut_upgrade2</Target>
+				<Target type="Tech">fld_juggernaut_upgrade3</Target>
+				<Target type="Tech">cov_champion_upgrade1</Target>
+				<Target type="Tech">cov_champion_upgrade2</Target>
+				<Target type="Tech">cov_champion_upgrade3</Target>
+				<Target type="Tech">cov_chimera_upgrade1</Target>
+				<Target type="Tech">cov_chimera_upgrade2</Target>
+				<Target type="Tech">cov_chimera_upgrade3</Target>
+				<Target type="Tech">cov_repairdrones_upgrade1</Target>
+				<Target type="Tech">cov_repairdrones_upgrade2</Target>
+				<Target type="Tech">cov_beetle_upgrade1</Target>
+				<Target type="Tech">cov_beetle_upgrade2</Target>
+				<Target type="Tech">cov_beetle_upgrade3</Target>
+				<Target type="Tech">cov_artillery_upgrade1</Target>
+				<Target type="Tech">cov_artillery_upgrade2</Target>
+				<Target type="Tech">cov_artillery_upgrade3</Target>
+				<Target type="Tech">cov_majordrones_upgrade1</Target>
+				<Target type="Tech">cov_majordrones_upgrade2</Target>
+				<Target type="Tech">cov_majordrones_upgrade3</Target>
+				<Target type="Tech">cov_skirmisherAI_upgrade1</Target>
+				<Target type="Tech">cov_skirmisherAI_upgrade2</Target>
+				<Target type="Tech">cov_skirmisherAI_upgrade3</Target>
+				<Target type="Tech">cov_skirmisherAV_upgrade1</Target>
+				<Target type="Tech">cov_skirmisherAV_upgrade2</Target>
+				<Target type="Tech">cov_skirmisherAV_upgrade3</Target>
+				<Target type="Tech">cov_fuelrodelite_upgrade1</Target>
+				<Target type="Tech">cov_fuelrodelite_upgrade2</Target>
+				<Target type="Tech">cov_fuelrodelite_upgrade3</Target>
+				<Target type="Tech">cov_sniperelite_upgrade1</Target>
+				<Target type="Tech">cov_sniperelite_upgrade2</Target>
+				<Target type="Tech">cov_sniperelite_upgrade3</Target>
+				<Target type="Tech">cov_brutehonorguard_upgrade</Target>
+				<Target type="Tech">cov_silentshadow_upgrade</Target>
+				<Target type="Tech">cov_superdrone_upgrade</Target>
+				<Target type="Tech">cov_plasmacasterelite_upgrade</Target>
+				<Target type="Tech">cov_drones_upgrade1</Target>
+				<Target type="Tech">cov_drones_upgrade2</Target>
+				<Target type="Tech">cov_drones_upgrade3</Target>
+				<Target type="Tech">cov_skirmisher_upgrade1</Target>
+				<Target type="Tech">cov_skirmisher_upgrade2</Target>
+				<Target type="Tech">cov_skirmisher_upgrade3</Target>
+				<Target type="Tech">cov_GruntDeacon_upgrade1</Target>
+				<Target type="Tech">cov_GruntDeacon_upgrade2</Target>
+				<Target type="Tech">cov_GruntDeacon_upgrade3</Target>
+				<Target type="Tech">cov_bruteBerserker_upgrade1</Target>
+				<Target type="Tech">cov_bruteBerserker_upgrade2</Target>
+				<Target type="Tech">cov_bruteBerserker_upgrade3</Target>
+				<Target type="Tech">unsc_spartanjerome_upgrade1</Target>
+				<Target type="Tech">unsc_spartanjerome_upgrade2</Target>
+				<Target type="Tech">unsc_spartanjerome_upgrade3</Target>
+				<Target type="Tech">unsc_spartanalice_upgrade1</Target>
+				<Target type="Tech">unsc_spartanalice_upgrade2</Target>
+				<Target type="Tech">unsc_spartanalice_upgrade3</Target>
+				<Target type="Tech">unsc_spartandouglas_upgrade1</Target>
+				<Target type="Tech">unsc_spartandouglas_upgrade2</Target>
+				<Target type="Tech">unsc_spartandouglas_upgrade3</Target>
+				<Target type="Tech">unsc_hawk_upgrade2</Target>
+				<Target type="Tech">unsc_hawk_upgrade3</Target>
+				<Target type="Tech">unsc_nightingale_upgrade1</Target>
+				<Target type="Tech">unsc_nightingale_upgrade2</Target>
+				<Target type="Tech">unsc_nightingale_upgrade3</Target>
+				<Target type="Tech">unsc_grizzly_upgrade2</Target>
+				<Target type="Tech">unsc_grizzly_upgrade3</Target>
+				<Target type="Tech">unsc_rhino_upgrade1</Target>
+				<Target type="Tech">unsc_rhino_upgrade2</Target>
+				<Target type="Tech">unsc_rhino_upgrade3</Target>
+				<Target type="Tech">unsc_colossus_upgrade1</Target>
+				<Target type="Tech">unsc_colossus_upgrade2</Target>
+				<Target type="Tech">unsc_colossus_upgrade3</Target>
+				<Target type="Tech">unsc_sniper_upgrade1</Target>
+				<Target type="Tech">unsc_sniper_upgrade2</Target>
+				<Target type="Tech">unsc_sniper_upgrade3</Target>
+				<Target type="Tech">unsc_odst_upgrade2</Target>
+				<Target type="Tech">unsc_odst_upgrade3</Target>
+				<Target type="Tech">unsc_mantis_upgrade1</Target>
+				<Target type="Tech">unsc_mantis_upgrade2</Target>
+				<Target type="Tech">unsc_mantis_upgrade3</Target>
+				<Target type="Tech">unsc_drone_upgrade1</Target>
+				<Target type="Tech">unsc_drone_upgrade2</Target>
+				<Target type="Tech">unsc_drone_upgrade3</Target>
 			</Effect>
 		</Effects>
 		<Flag>HiddenFromStats</Flag>
@@ -1934,7 +2672,44 @@
 			<Effect type="TransformProtoUnit" FromType="unsc_air_odstPod_01" ToType="odst_activatepod" />
 		</Effects>
 	</Tech>
-	<Tech name="qm_mode" type="Normal">
+	<Tech name="swap_odstdrop_banelite" type="Normal">
+		<DBID>1915</DBID>
+		<Flag>Shadow</Flag>
+		<Prereqs>
+			<TechStatus status="Active">player_is_ai</TechStatus>
+			<TechStatus status="Active">ban_LeaderElite</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="GodPower" amount="1">UnscOdstDrop</Effect>
+			<Effect type="TransformProtoUnit" FromType="unsc_air_odstPod_01" ToType="odst_activatepod" />
+		</Effects>
+	</Tech>
+	<Tech name="swap_odstdrop_promethean" type="Normal">
+		<DBID>1915</DBID>
+		<Flag>Shadow</Flag>
+		<Prereqs>
+			<TechStatus status="Active">player_is_ai</TechStatus>
+			<TechStatus status="Active">for_LeaderDidact</TechStatus>
+		</Prereqs>
+		<!-- Drop Turret -->
+		<Effects>
+			<Effect type="GodPower" amount="1">UnscOdstDrop</Effect>
+			<Effect type="TransformProtoUnit" FromType="unsc_air_odstPod_01" ToType="odst_activatepod" />
+		</Effects>
+	</Tech>
+	<Tech name="swap_odstdrop_infectedprophet" type="Normal">
+		<DBID>1915</DBID>
+		<Flag>Shadow</Flag>
+		<Prereqs>
+			<TechStatus status="Active">player_is_ai</TechStatus>
+			<TechStatus status="Active">covenant_LeaderInfected</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="GodPower" amount="1">UnscOdstDrop</Effect>
+			<Effect type="TransformProtoUnit" FromType="unsc_air_odstPod_01" ToType="odst_activatepod" />
+		</Effects>
+	</Tech>
+	<!--Tech name="qm_mode" type="Normal">
 		<Status>OBTAINABLE</Status>
 		<Flag>HiddenFromStats</Flag>
 		<Effects> 
@@ -2044,8 +2819,21 @@
 				<Target type="ProtoUnit">suc_bldg_supplypad_02</Target>
 				<Target type="ProtoUnit">ban_bldg_supplyDepot_01</Target>
 				<Target type="ProtoUnit">ban_bldg_supplyDepot_02</Target>
+				<Target type="ProtoUnit">fore_bldg_supplypad_01</Target>
+				<Target type="ProtoUnit">fore_bldg_supplypad_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0.5" subtype="buildPoints" allactions="1" relativity="Percent">
+				<Target type="ProtoSquad">for_inf_prometheanpawn_01</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_02</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_03</Target>
+				<Target type="ProtoSquad">for_inf_prometheanknight_01</Target>
+				<Target type="ProtoSquad">for_inf_didact_01</Target>
+				<Target type="ProtoSquad">for_air_phaeton_01</Target>
+				<Target type="ProtoSquad">ban_inf_gruntgoblin_01</Target>
+				<Target type="ProtoSquad">cov_inf_HeavygruntDeacon_01</Target>
+				<Target type="ProtoSquad">cov_inf_HeavygruntDeacon_02</Target>
+				<Target type="ProtoSquad">ban_veh_methanewagon_01</Target>
+				<Target type="ProtoSquad">ban_veh_ghost_01</Target>
 				<Target type="ProtoSquad">creep_veh_mongoose_01</Target>
 				<Target type="ProtoSquad">creep_veh_spade_01</Target>
 				<Target type="ProtoSquad">creep_inf_marine_01</Target>
@@ -2231,6 +3019,35 @@
 				<Target type="ProtoSquad">cov_veh_chimera_02</Target>
 			</Effect>
 			<Effect type="Data" subtype="ResearchPoints" amount="0.5" relativity="Percent">
+				<Target type="Tech">for_didact_upgrade1</Target>
+				<Target type="Tech">for_didact_upgrade2</Target>
+				<Target type="Tech">for_didact_upgrade3</Target>
+				<Target type="Tech">for_phaeton_upgrade1</Target>
+				<Target type="Tech">for_phaeton_upgrade2</Target>
+				<Target type="Tech">for_phaeton_upgrade3</Target>
+				<Target type="Tech">cov_gruntgoblin_upgrade1</Target>
+				<Target type="Tech">cov_gruntgoblin_upgrade2</Target>
+				<Target type="Tech">cov_gruntgoblin_upgrade3</Target>
+				<Target type="Tech">ban_hgruntdeacon_upgrade1</Target>
+				<Target type="Tech">ban_hgruntdeacon_upgrade2</Target>
+				<Target type="Tech">ban_hgruntdeacon_upgrade3</Target>
+				<Target type="Tech">creep_havok_upgrade1</Target>
+				<Target type="Tech">creep_havok_upgrade2</Target>
+				<Target type="Tech">creep_havok_upgrade3</Target>
+				<Target type="Tech">creep_wasp_upgrade1</Target>
+				<Target type="Tech">creep_wasp_upgrade2</Target>
+				<Target type="Tech">creep_wasp_upgrade3</Target>
+				<Target type="Tech">creep_gunship_upgrade1</Target>
+				<Target type="Tech">creep_gunship_upgrade2</Target>
+				<Target type="Tech">creep_marine_upgrade1</Target>
+				<Target type="Tech">creep_marine_upgrade2</Target>
+				<Target type="Tech">creep_marine_upgrade3</Target>
+				<Target type="Tech">creep_badger_upgrade1</Target>
+				<Target type="Tech">creep_badger_upgrade2</Target>
+				<Target type="Tech">creep_badger_upgrade3</Target>
+				<Target type="Tech">creep_empmarine_upgrade1</Target>
+				<Target type="Tech">creep_empmarine_upgrade2</Target>
+				<Target type="Tech">creep_empmarine_upgrade3</Target>
 				<Target type="Tech">unsc_marine_upgrade1</Target>
 				<Target type="Tech">unsc_marine_upgrade2</Target>
 				<Target type="Tech">unsc_marine_upgrade3</Target>
@@ -2310,134 +3127,134 @@
 				<Target type="Tech">cov_prophet_upgrade1</Target>
 				<Target type="Tech">cov_prophet_upgrade2</Target>
 				<Target type="Tech">cov_prophet_upgrade3</Target>
-				<Target type="Tech">unsc_tech_reinforcements1</Command>
-				<Target type="Tech">unsc_tech_reinforcements2</Command>
-				<Target type="Tech">unsc_tech_reinforcements3</Command>
-				<Target type="Tech">suc_infantry_upgrade1</Command>
-				<Target type="Tech">suc_infantry_upgrade2</Command>
-				<Target type="Tech">suc_infantry_upgrade3</Command>
-				<Target type="Tech">suc_heavyinfantry_upgrade1</Command>
-				<Target type="Tech">suc_heavyinfantry_upgrade2</Command>
-				<Target type="Tech">suc_heavyinfantry_upgrade3</Command>
-				<Target type="Tech">suc_sniper_upgrade1</Command>
-				<Target type="Tech">suc_sniper_upgrade2</Command>
-				<Target type="Tech">suc_sniper_upgrade3</Command>
-				<Target type="Tech">suc_stealth_upgrade1</Command>
-				<Target type="Tech">suc_stealth_upgrade2</Command>
-				<Target type="Tech">suc_stealth_upgrade3</Command>
-				<Target type="Tech">unsc_spartanmech_upgrade1</Command>
-				<Target type="Tech">unsc_spartanmech_upgrade2</Command>
-				<Target type="Tech">unsc_spartanmech_upgrade3</Command>
-				<Target type="Tech">for_soldier_upgrade1</Command>
-				<Target type="Tech">for_soldier_upgrade2</Command>
-				<Target type="Tech">for_soldier_upgrade3</Command>
-				<Target type="Tech">for_pawnsniper_upgrade1</Command>
-				<Target type="Tech">for_pawnsniper_upgrade2</Command>
-				<Target type="Tech">for_pawnsniper_upgrade3</Command>
-				<Target type="Tech">for_knight_upgrade1</Command>
-				<Target type="Tech">for_knight_upgrade2</Command>
-				<Target type="Tech">for_knight_upgrade3</Command>
-				<Target type="Tech">for_tank_upgrade2</Command>
-				<Target type="Tech">for_tank_upgrade3</Command>
-				<Target type="Tech">for_sentinel3_upgrade1</Command>
-				<Target type="Tech">for_sentinel3_upgrade2</Command>
-				<Target type="Tech">for_sentinel3_upgrade3</Command>
-				<Target type="Tech">for_sentinel4_upgrade1</Command>
-				<Target type="Tech">for_sentinel4_upgrade2</Command>
-				<Target type="Tech">for_sentinel4_upgrade3</Command>
-				<Target type="Tech">for_enforcer_upgrade1</Command>
-				<Target type="Tech">for_enforcer_upgrade2</Command>
-				<Target type="Tech">for_enforcer_upgrade3</Command>
-				<Target type="Tech">for_oracle_upgrade1</Command>
-				<Target type="Tech">for_oracle_upgrade2</Command>
-				<Target type="Tech">for_oracle_upgrade3</Command>
-				<Target type="Tech">fld_infectionform_upgrade1</Command>
-				<Target type="Tech">fld_infectionform_upgrade2</Command>
-				<Target type="Tech">fld_infectionform_upgrade3</Command>
-				<Target type="Tech">fld_juggernaut_upgrade1</Command>
-				<Target type="Tech">fld_juggernaut_upgrade2</Command>
-				<Target type="Tech">fld_juggernaut_upgrade3</Command>
-				<Target type="Tech">cov_champion_upgrade1</Command>
-				<Target type="Tech">cov_champion_upgrade2</Command>
-				<Target type="Tech">cov_champion_upgrade3</Command>
-				<Target type="Tech">cov_chimera_upgrade1</Command>
-				<Target type="Tech">cov_chimera_upgrade2</Command>
-				<Target type="Tech">cov_chimera_upgrade3</Command>
-				<Target type="Tech">cov_repairdrones_upgrade1</Command>
-				<Target type="Tech">cov_repairdrones_upgrade2</Command>
-				<Target type="Tech">cov_beetle_upgrade1</Command>
-				<Target type="Tech">cov_beetle_upgrade2</Command>
-				<Target type="Tech">cov_beetle_upgrade3</Command>
-				<Target type="Tech">cov_artillery_upgrade1</Command>
-				<Target type="Tech">cov_artillery_upgrade2</Command>
-				<Target type="Tech">cov_artillery_upgrade3</Command>
-				<Target type="Tech">cov_majordrones_upgrade1</Command>
-				<Target type="Tech">cov_majordrones_upgrade2</Command>
-				<Target type="Tech">cov_majordrones_upgrade3</Command>
-				<Target type="Tech">cov_skirmisherAI_upgrade1</Command>
-				<Target type="Tech">cov_skirmisherAI_upgrade2</Command>
-				<Target type="Tech">cov_skirmisherAI_upgrade3</Command>
-				<Target type="Tech">cov_skirmisherAV_upgrade1</Command>
-				<Target type="Tech">cov_skirmisherAV_upgrade2</Command>
-				<Target type="Tech">cov_skirmisherAV_upgrade3</Command>
-				<Target type="Tech">cov_fuelrodelite_upgrade1</Command>
-				<Target type="Tech">cov_fuelrodelite_upgrade2</Command>
-				<Target type="Tech">cov_fuelrodelite_upgrade3</Command>
-				<Target type="Tech">cov_sniperelite_upgrade1</Command>
-				<Target type="Tech">cov_sniperelite_upgrade2</Command>
-				<Target type="Tech">cov_sniperelite_upgrade3</Command>
-				<Target type="Tech">cov_brutehonorguard_upgrade</Command>
-				<Target type="Tech">cov_silentshadow_upgrade</Command>
-				<Target type="Tech">cov_superdrone_upgrade</Command>
-				<Target type="Tech">cov_plasmacasterelite_upgrade</Command>
-				<Target type="Tech">cov_drones_upgrade1</Command>
-				<Target type="Tech">cov_drones_upgrade2</Command>
-				<Target type="Tech">cov_drones_upgrade3</Command>
-				<Target type="Tech">cov_skirmisher_upgrade1</Command>
-				<Target type="Tech">cov_skirmisher_upgrade2</Command>
-				<Target type="Tech">cov_skirmisher_upgrade3</Command>
-				<Target type="Tech">cov_GruntDeacon_upgrade1</Command>
-				<Target type="Tech">cov_GruntDeacon_upgrade2</Command>
-				<Target type="Tech">cov_GruntDeacon_upgrade3</Command>
-				<Target type="Tech">cov_bruteBerserker_upgrade1</Command>
-				<Target type="Tech">cov_bruteBerserker_upgrade2</Command>
-				<Target type="Tech">cov_bruteBerserker_upgrade3</Command>
-				<Target type="Tech">unsc_spartanjerome_upgrade1</Command>
-				<Target type="Tech">unsc_spartanjerome_upgrade2</Command>
-				<Target type="Tech">unsc_spartanjerome_upgrade3</Command>
-				<Target type="Tech">unsc_spartanalice_upgrade1</Command>
-				<Target type="Tech">unsc_spartanalice_upgrade2</Command>
-				<Target type="Tech">unsc_spartanalice_upgrade3</Command>
-				<Target type="Tech">unsc_spartandouglas_upgrade1</Command>
-				<Target type="Tech">unsc_spartandouglas_upgrade2</Command>
-				<Target type="Tech">unsc_spartandouglas_upgrade3</Command>
-				<Target type="Tech">unsc_hawk_upgrade2</Command>
-				<Target type="Tech">unsc_hawk_upgrade3</Command>
-				<Target type="Tech">unsc_nightingale_upgrade1</Command>
-				<Target type="Tech">unsc_nightingale_upgrade2</Command>
-				<Target type="Tech">unsc_nightingale_upgrade3</Command>
-				<Target type="Tech">unsc_grizzly_upgrade2</Command>
-				<Target type="Tech">unsc_grizzly_upgrade3</Command>
-				<Target type="Tech">unsc_rhino_upgrade1</Command>
-				<Target type="Tech">unsc_rhino_upgrade2</Command>
-				<Target type="Tech">unsc_rhino_upgrade3</Command>
-				<Target type="Tech">unsc_colossus_upgrade1</Command>
-				<Target type="Tech">unsc_colossus_upgrade2</Command>
-				<Target type="Tech">unsc_colossus_upgrade3</Command>
-				<Target type="Tech">unsc_sniper_upgrade1</Command>
-				<Target type="Tech">unsc_sniper_upgrade2</Command>
-				<Target type="Tech">unsc_sniper_upgrade3</Command>
-				<Target type="Tech">unsc_odst_upgrade2</Command>
-				<Target type="Tech">unsc_odst_upgrade3</Command>
-				<Target type="Tech">unsc_mantis_upgrade1</Command>
-				<Target type="Tech">unsc_mantis_upgrade2</Command>
-				<Target type="Tech">unsc_mantis_upgrade3</Command>
-				<Target type="Tech">unsc_drone_upgrade1</Command>
-				<Target type="Tech">unsc_drone_upgrade2</Command>
-				<Target type="Tech">unsc_drone_upgrade3</Command>
+				<Target type="Tech">unsc_tech_reinforcements1</Target>
+				<Target type="Tech">unsc_tech_reinforcements2</Target>
+				<Target type="Tech">unsc_tech_reinforcements3</Target>
+				<Target type="Tech">suc_infantry_upgrade1</Target>
+				<Target type="Tech">suc_infantry_upgrade2</Target>
+				<Target type="Tech">suc_infantry_upgrade3</Target>
+				<Target type="Tech">suc_heavyinfantry_upgrade1</Target>
+				<Target type="Tech">suc_heavyinfantry_upgrade2</Target>
+				<Target type="Tech">suc_heavyinfantry_upgrade3</Target>
+				<Target type="Tech">suc_sniper_upgrade1</Target>
+				<Target type="Tech">suc_sniper_upgrade2</Target>
+				<Target type="Tech">suc_sniper_upgrade3</Target>
+				<Target type="Tech">suc_stealth_upgrade1</Target>
+				<Target type="Tech">suc_stealth_upgrade2</Target>
+				<Target type="Tech">suc_stealth_upgrade3</Target>
+				<Target type="Tech">unsc_spartanmech_upgrade1</Target>
+				<Target type="Tech">unsc_spartanmech_upgrade2</Target>
+				<Target type="Tech">unsc_spartanmech_upgrade3</Target>
+				<Target type="Tech">for_soldier_upgrade1</Target>
+				<Target type="Tech">for_soldier_upgrade2</Target>
+				<Target type="Tech">for_soldier_upgrade3</Target>
+				<Target type="Tech">for_pawnsniper_upgrade1</Target>
+				<Target type="Tech">for_pawnsniper_upgrade2</Target>
+				<Target type="Tech">for_pawnsniper_upgrade3</Target>
+				<Target type="Tech">for_knight_upgrade1</Target>
+				<Target type="Tech">for_knight_upgrade2</Target>
+				<Target type="Tech">for_knight_upgrade3</Target>
+				<Target type="Tech">for_tank_upgrade2</Target>
+				<Target type="Tech">for_tank_upgrade3</Target>
+				<Target type="Tech">for_sentinel3_upgrade1</Target>
+				<Target type="Tech">for_sentinel3_upgrade2</Target>
+				<Target type="Tech">for_sentinel3_upgrade3</Target>
+				<Target type="Tech">for_sentinel4_upgrade1</Target>
+				<Target type="Tech">for_sentinel4_upgrade2</Target>
+				<Target type="Tech">for_sentinel4_upgrade3</Target>
+				<Target type="Tech">for_enforcer_upgrade1</Target>
+				<Target type="Tech">for_enforcer_upgrade2</Target>
+				<Target type="Tech">for_enforcer_upgrade3</Target>
+				<Target type="Tech">for_oracle_upgrade1</Target>
+				<Target type="Tech">for_oracle_upgrade2</Target>
+				<Target type="Tech">for_oracle_upgrade3</Target>
+				<Target type="Tech">fld_infectionform_upgrade1</Target>
+				<Target type="Tech">fld_infectionform_upgrade2</Target>
+				<Target type="Tech">fld_infectionform_upgrade3</Target>
+				<Target type="Tech">fld_juggernaut_upgrade1</Target>
+				<Target type="Tech">fld_juggernaut_upgrade2</Target>
+				<Target type="Tech">fld_juggernaut_upgrade3</Target>
+				<Target type="Tech">cov_champion_upgrade1</Target>
+				<Target type="Tech">cov_champion_upgrade2</Target>
+				<Target type="Tech">cov_champion_upgrade3</Target>
+				<Target type="Tech">cov_chimera_upgrade1</Target>
+				<Target type="Tech">cov_chimera_upgrade2</Target>
+				<Target type="Tech">cov_chimera_upgrade3</Target>
+				<Target type="Tech">cov_repairdrones_upgrade1</Target>
+				<Target type="Tech">cov_repairdrones_upgrade2</Target>
+				<Target type="Tech">cov_beetle_upgrade1</Target>
+				<Target type="Tech">cov_beetle_upgrade2</Target>
+				<Target type="Tech">cov_beetle_upgrade3</Target>
+				<Target type="Tech">cov_artillery_upgrade1</Target>
+				<Target type="Tech">cov_artillery_upgrade2</Target>
+				<Target type="Tech">cov_artillery_upgrade3</Target>
+				<Target type="Tech">cov_majordrones_upgrade1</Target>
+				<Target type="Tech">cov_majordrones_upgrade2</Target>
+				<Target type="Tech">cov_majordrones_upgrade3</Target>
+				<Target type="Tech">cov_skirmisherAI_upgrade1</Target>
+				<Target type="Tech">cov_skirmisherAI_upgrade2</Target>
+				<Target type="Tech">cov_skirmisherAI_upgrade3</Target>
+				<Target type="Tech">cov_skirmisherAV_upgrade1</Target>
+				<Target type="Tech">cov_skirmisherAV_upgrade2</Target>
+				<Target type="Tech">cov_skirmisherAV_upgrade3</Target>
+				<Target type="Tech">cov_fuelrodelite_upgrade1</Target>
+				<Target type="Tech">cov_fuelrodelite_upgrade2</Target>
+				<Target type="Tech">cov_fuelrodelite_upgrade3</Target>
+				<Target type="Tech">cov_sniperelite_upgrade1</Target>
+				<Target type="Tech">cov_sniperelite_upgrade2</Target>
+				<Target type="Tech">cov_sniperelite_upgrade3</Target>
+				<Target type="Tech">cov_brutehonorguard_upgrade</Target>
+				<Target type="Tech">cov_silentshadow_upgrade</Target>
+				<Target type="Tech">cov_superdrone_upgrade</Target>
+				<Target type="Tech">cov_plasmacasterelite_upgrade</Target>
+				<Target type="Tech">cov_drones_upgrade1</Target>
+				<Target type="Tech">cov_drones_upgrade2</Target>
+				<Target type="Tech">cov_drones_upgrade3</Target>
+				<Target type="Tech">cov_skirmisher_upgrade1</Target>
+				<Target type="Tech">cov_skirmisher_upgrade2</Target>
+				<Target type="Tech">cov_skirmisher_upgrade3</Target>
+				<Target type="Tech">cov_GruntDeacon_upgrade1</Target>
+				<Target type="Tech">cov_GruntDeacon_upgrade2</Target>
+				<Target type="Tech">cov_GruntDeacon_upgrade3</Target>
+				<Target type="Tech">cov_bruteBerserker_upgrade1</Target>
+				<Target type="Tech">cov_bruteBerserker_upgrade2</Target>
+				<Target type="Tech">cov_bruteBerserker_upgrade3</Target>
+				<Target type="Tech">unsc_spartanjerome_upgrade1</Target>
+				<Target type="Tech">unsc_spartanjerome_upgrade2</Target>
+				<Target type="Tech">unsc_spartanjerome_upgrade3</Target>
+				<Target type="Tech">unsc_spartanalice_upgrade1</Target>
+				<Target type="Tech">unsc_spartanalice_upgrade2</Target>
+				<Target type="Tech">unsc_spartanalice_upgrade3</Target>
+				<Target type="Tech">unsc_spartandouglas_upgrade1</Target>
+				<Target type="Tech">unsc_spartandouglas_upgrade2</Target>
+				<Target type="Tech">unsc_spartandouglas_upgrade3</Target>
+				<Target type="Tech">unsc_hawk_upgrade2</Target>
+				<Target type="Tech">unsc_hawk_upgrade3</Target>
+				<Target type="Tech">unsc_nightingale_upgrade1</Target>
+				<Target type="Tech">unsc_nightingale_upgrade2</Target>
+				<Target type="Tech">unsc_nightingale_upgrade3</Target>
+				<Target type="Tech">unsc_grizzly_upgrade2</Target>
+				<Target type="Tech">unsc_grizzly_upgrade3</Target>
+				<Target type="Tech">unsc_rhino_upgrade1</Target>
+				<Target type="Tech">unsc_rhino_upgrade2</Target>
+				<Target type="Tech">unsc_rhino_upgrade3</Target>
+				<Target type="Tech">unsc_colossus_upgrade1</Target>
+				<Target type="Tech">unsc_colossus_upgrade2</Target>
+				<Target type="Tech">unsc_colossus_upgrade3</Target>
+				<Target type="Tech">unsc_sniper_upgrade1</Target>
+				<Target type="Tech">unsc_sniper_upgrade2</Target>
+				<Target type="Tech">unsc_sniper_upgrade3</Target>
+				<Target type="Tech">unsc_odst_upgrade2</Target>
+				<Target type="Tech">unsc_odst_upgrade3</Target>
+				<Target type="Tech">unsc_mantis_upgrade1</Target>
+				<Target type="Tech">unsc_mantis_upgrade2</Target>
+				<Target type="Tech">unsc_mantis_upgrade3</Target>
+				<Target type="Tech">unsc_drone_upgrade1</Target>
+				<Target type="Tech">unsc_drone_upgrade2</Target>
+				<Target type="Tech">unsc_drone_upgrade3</Target>
 			</Effect>
 		</Effects>
-	</Tech>
+	</Tech-->
 	<Tech name="GravemindBaseBuff" type="Normal">
 		<DBID>1917</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -2742,9 +3559,6 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<Prereqs>
-			<TechStatus status="Active">covenant_LeaderProphet</TechStatus>
-		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_gruntDeacon_01</Target>
@@ -2752,10 +3566,14 @@
 			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_02</Target>
 			</Effect>
 			<Effect type="TransformProtoSquad" FromType="cov_inf_gruntDeacon_01" ToType="cov_inf_gruntDeacon_02" />
 		</Effects>
@@ -2781,22 +3599,32 @@
 			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="InCoverRocketAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="RocketAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2824,34 +3652,50 @@
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="InCoverRocketAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="InCoverNeedlerRocketAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="InCoverAssaultRifleAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="InCoverNeedlerAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="AssaultRifleAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="NeedlerAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_02</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2874,13 +3718,16 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_bruteBerserker_01</Target>
+				<Target type="ProtoUnit">flood_infected_bruteBerserker_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_bruteBerserker_01</Target>
+				<Target type="ProtoUnit">flood_infected_bruteBerserker_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.2" subtype="MaximumVelocity" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_bruteBerserker_01</Target>
 				<Target type="ProtoUnit">cov_inf_bruteBerserker_02</Target>
+				<Target type="ProtoUnit">flood_infected_bruteBerserker_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2904,17 +3751,21 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_bruteBerserker_02</Target>
+				<Target type="ProtoUnit">flood_infected_bruteBerserker_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_bruteBerserker_02</Target>
+				<Target type="ProtoUnit">flood_infected_bruteBerserker_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_bruteBerserker_01</Target>
 				<Target type="ProtoUnit">cov_inf_bruteBerserker_02</Target>
+				<Target type="ProtoUnit">flood_infected_bruteBerserker_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="GrenadeAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_bruteBerserker_01</Target>
 				<Target type="ProtoUnit">cov_inf_bruteBerserker_02</Target>
+				<Target type="ProtoUnit">flood_infected_bruteBerserker_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2938,9 +3789,11 @@
 			</Effect>
 			<Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_bruteBerserker_02</Target>
+				<Target type="ProtoUnit">flood_infected_bruteBerserker_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_bruteBerserker_02</Target>
+				<Target type="ProtoUnit">flood_infected_bruteBerserker_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="cov_bruteBerserker_upgrade3">
 				<Target type="ProtoSquad">cov_inf_bruteBerserker_01</Target>
@@ -9897,6 +10750,36 @@
 				<Target type="ProtoUnit">fore_bldg_supplypad_01</Target>
 				<Target type="ProtoUnit">fore_bldg_supplypad_02</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="for_inf_didact_01" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_gamma_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="for_air_phaeton_01" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_alpha_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="for_inf_prometheanpawn_01" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_beta_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="for_inf_prometheanknight_01" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_beta_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="for_didact_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_gamma_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="for_didact_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_gamma_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="for_didact_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_gamma_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="for_phaeton_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_alpha_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="for_phaeton_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_alpha_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="for_phaeton_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">fore_bldg_alpha_02</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_supplypad_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
 				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
@@ -10093,20 +10976,30 @@
 				<Target type="ProtoSquad">fore_inf_walker_01</Target>
 				<Target type="ProtoSquad">fore_inf_walker_02</Target>
 				<Target type="ProtoSquad">fore_inf_walker_03</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_01</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_02</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_03</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">fore_inf_walker_01</Target>
 				<Target type="ProtoUnit">fore_inf_walker_02</Target>
 				<Target type="ProtoUnit">fore_inf_walker_gold_01</Target>
 				<Target type="ProtoUnit">fore_inf_walker_gold_02</Target>
+				<Target type="ProtoUnit">for_inf_prometheanpawn_01</Target>
+				<Target type="ProtoUnit">for_inf_prometheanpawn_02</Target>
+				<Target type="ProtoUnit">for_inf_prometheanpawnleader_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">fore_inf_walker_01</Target>
 				<Target type="ProtoUnit">fore_inf_walker_02</Target>
 				<Target type="ProtoUnit">fore_inf_walker_gold_01</Target>
 				<Target type="ProtoUnit">fore_inf_walker_gold_02</Target>
+				<Target type="ProtoUnit">for_inf_prometheanpawn_01</Target>
+				<Target type="ProtoUnit">for_inf_prometheanpawn_02</Target>
+				<Target type="ProtoUnit">for_inf_prometheanpawnleader_01</Target>
 			</Effect>
 			<Effect type="TransformProtoSquad" FromType="fore_inf_walker_01" ToType="fore_inf_walker_02" />
+			<Effect type="TransformProtoSquad" FromType="for_inf_prometheanpawn_01" ToType="for_inf_prometheanpawn_02" />
 		</Effects>
 	</Tech>
 	<Tech name="for_walker_upgrade2" type="Normal">
@@ -10127,19 +11020,29 @@
 				<Target type="ProtoSquad">fore_inf_walker_01</Target>
 				<Target type="ProtoSquad">fore_inf_walker_02</Target>
 				<Target type="ProtoSquad">fore_inf_walker_03</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_01</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_02</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_03</Target>
 			</Effect>
 			<Effect type="Data" amount="1.8" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">fore_inf_walker_01</Target>
 				<Target type="ProtoUnit">fore_inf_walker_02</Target>
 				<Target type="ProtoUnit">fore_inf_walker_gold_01</Target>
 				<Target type="ProtoUnit">fore_inf_walker_gold_02</Target>
+				<Target type="ProtoUnit">for_inf_prometheanpawn_01</Target>
+				<Target type="ProtoUnit">for_inf_prometheanpawn_02</Target>
+				<Target type="ProtoUnit">for_inf_prometheanpawnleader_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.8" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">fore_inf_walker_01</Target>
 				<Target type="ProtoUnit">fore_inf_walker_02</Target>
 				<Target type="ProtoUnit">fore_inf_walker_gold_01</Target>
 				<Target type="ProtoUnit">fore_inf_walker_gold_02</Target>
+				<Target type="ProtoUnit">for_inf_prometheanpawn_01</Target>
+				<Target type="ProtoUnit">for_inf_prometheanpawn_02</Target>
+				<Target type="ProtoUnit">for_inf_prometheanpawnleader_01</Target>
 			</Effect>
+			<Effect type="TransformProtoSquad" FromType="for_inf_prometheanpawn_01" ToType="for_inf_prometheanpawn_03" />
 			<Effect type="TransformProtoUnit" FromType="fore_inf_walker_01" ToType="fore_inf_walker_gold_01" />
 			<Effect type="TransformProtoUnit" FromType="fore_inf_walker_02" ToType="fore_inf_walker_gold_02" />
 		</Effects>
@@ -10162,18 +11065,27 @@
 				<Target type="ProtoSquad">fore_inf_walker_01</Target>
 				<Target type="ProtoSquad">fore_inf_walker_02</Target>
 				<Target type="ProtoSquad">fore_inf_walker_03</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_01</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_02</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_03</Target>
 			</Effect>
 			<Effect type="Data" amount="1.2" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">fore_inf_walker_01</Target>
 				<Target type="ProtoUnit">fore_inf_walker_02</Target>
 				<Target type="ProtoUnit">fore_inf_walker_gold_01</Target>
 				<Target type="ProtoUnit">fore_inf_walker_gold_02</Target>
+				<Target type="ProtoUnit">for_inf_prometheanpawn_01</Target>
+				<Target type="ProtoUnit">for_inf_prometheanpawn_02</Target>
+				<Target type="ProtoUnit">for_inf_prometheanpawnleader_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.2" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">fore_inf_walker_01</Target>
 				<Target type="ProtoUnit">fore_inf_walker_02</Target>
 				<Target type="ProtoUnit">fore_inf_walker_gold_01</Target>
 				<Target type="ProtoUnit">fore_inf_walker_gold_02</Target>
+				<Target type="ProtoUnit">for_inf_prometheanpawn_01</Target>
+				<Target type="ProtoUnit">for_inf_prometheanpawn_02</Target>
+				<Target type="ProtoUnit">for_inf_prometheanpawnleader_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">fore_inf_walker_01</Target>
@@ -10284,12 +11196,15 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">fore_inf_knight_01</Target>
+				<Target type="ProtoSquad">for_inf_prometheanknight_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">fore_inf_knight_01</Target>
+				<Target type="ProtoUnit">for_inf_prometheanknight_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">fore_inf_knight_01</Target>
+				<Target type="ProtoUnit">for_inf_prometheanknight_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="Deflect_01" relativity="Absolute">
 				<Target type="ProtoUnit">fore_inf_knight_01</Target>
@@ -10312,9 +11227,13 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">fore_inf_knight_01</Target>
+				<Target type="ProtoSquad">for_inf_prometheanknight_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Shieldpoints" relativity="Percent">
-				<Target type="ProtoUnit">fore_inf_knight_01</Target>
+			<Effect type="Data" amount="1.33" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">for_inf_prometheanknight_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.33" subtype="hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">for_inf_prometheanknight_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="SpawnSentinel" relativity="Absolute">
 				<Target type="ProtoUnit">fore_inf_knight_01</Target>
@@ -10338,12 +11257,15 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">fore_inf_knight_01</Target>
+				<Target type="ProtoSquad">for_inf_prometheanknight_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">fore_inf_knight_01</Target>
+				<Target type="ProtoUnit">for_inf_prometheanknight_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">fore_inf_knight_01</Target>
+				<Target type="ProtoUnit">for_inf_prometheanknight_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="Knight3">
 				<Target type="ProtoSquad">fore_inf_knight_01</Target>
@@ -11220,20 +12142,20 @@
 		<DisplayNameID>50077</DisplayNameID>
 		<RolloverTextID>50078</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
-		<Cost resourcetype="Supplies">300</Cost>
-		<Cost resourcetype="Power">1</Cost>
+		<Cost resourcetype="Supplies">800</Cost>
+		<Cost resourcetype="Power">3</Cost>
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_reinforcements</ResearchCompleteSound>
-		<Flag>Perpetual</Flag>
+		<!--Flag>Perpetual</Flag-->
 		<Effects>
-			<Effect type="Data" subtype="PopCap" amount="10" popType="Unit" relativity="Absolute">
+			<Effect type="Data" subtype="PopCap" amount="20" popType="Unit" relativity="Absolute">
 				<Target type="Player" />
 			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="400" relativity="Absolute">
-				<Target type="Tech">for_tech_reinforcements</Target>
-			</Effect>
+			<!--Effect type="Data" subtype="Cost" Resource="Supplies" amount="400" relativity="Absolute">
+				<Target type="Tech">unsc_tech_reinforcements1</Target>
+			</Effect-->
 		</Effects>
 	</Tech>
 	<Tech name="for_pilotes_upgrade1" type="Normal">
@@ -11576,6 +12498,27 @@
 				<Target type="ProtoUnit">Building</Target>
 			</Effect>
 			<Effect type="Data" amount="0.25" subtype="buildPoints" allactions="1" relativity="Percent">
+				<Target type="ProtoSquad">for_inf_prometheanpawn_01</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_02</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_03</Target>
+				<Target type="ProtoSquad">for_inf_prometheanknight_01</Target>
+				<Target type="ProtoSquad">for_inf_didact_01</Target>
+				<Target type="ProtoSquad">for_air_phaeton_01</Target>
+				<Target type="ProtoSquad">ban_inf_gruntgoblin_01</Target>
+				<Target type="ProtoSquad">cov_inf_HeavygruntDeacon_01</Target>
+				<Target type="ProtoSquad">cov_inf_HeavygruntDeacon_02</Target>
+				<Target type="ProtoSquad">ban_veh_methanewagon_01</Target>
+				<Target type="ProtoSquad">ban_veh_ghost_01</Target>
+				<Target type="ProtoSquad">creep_veh_havok_01</Target>
+				<Target type="ProtoSquad">creep_air_wasp_01</Target>
+				<Target type="ProtoSquad">creep_air_gunship_01</Target>
+				<Target type="ProtoSquad">creep_inf_marine_01</Target>
+				<Target type="ProtoSquad">creep_inf_marine_02</Target>
+				<Target type="ProtoSquad">creep_inf_marine_03</Target>
+				<Target type="ProtoSquad">creep_inf_badger_01</Target>
+				<Target type="ProtoSquad">creep_inf_badger_02</Target>
+				<Target type="ProtoSquad">creep_inf_badger_03</Target>
+				<Target type="ProtoSquad">creep_inf_empmarine_01</Target>
 				<Target type="ProtoSquad">unsc_inf_marine_01</Target>
 				<Target type="ProtoSquad">unsc_inf_marine_02</Target>
 				<Target type="ProtoSquad">unsc_inf_marine_03</Target>
@@ -11774,6 +12717,27 @@
 				<Target type="ProtoUnit">fld_bldg_ressourcedrop_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0.25" subtype="buildPoints" allactions="1" relativity="Percent">
+				<Target type="ProtoSquad">for_inf_prometheanpawn_01</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_02</Target>
+				<Target type="ProtoSquad">for_inf_prometheanpawn_03</Target>
+				<Target type="ProtoSquad">for_inf_prometheanknight_01</Target>
+				<Target type="ProtoSquad">for_inf_didact_01</Target>
+				<Target type="ProtoSquad">for_air_phaeton_01</Target>
+				<Target type="ProtoSquad">ban_inf_gruntgoblin_01</Target>
+				<Target type="ProtoSquad">cov_inf_HeavygruntDeacon_01</Target>
+				<Target type="ProtoSquad">cov_inf_HeavygruntDeacon_02</Target>
+				<Target type="ProtoSquad">ban_veh_methanewagon_01</Target>
+				<Target type="ProtoSquad">ban_veh_ghost_01</Target>
+				<Target type="ProtoSquad">creep_veh_havok_01</Target>
+				<Target type="ProtoSquad">creep_air_wasp_01</Target>
+				<Target type="ProtoSquad">creep_air_gunship_01</Target>
+				<Target type="ProtoSquad">creep_inf_marine_01</Target>
+				<Target type="ProtoSquad">creep_inf_marine_02</Target>
+				<Target type="ProtoSquad">creep_inf_marine_03</Target>
+				<Target type="ProtoSquad">creep_inf_badger_01</Target>
+				<Target type="ProtoSquad">creep_inf_badger_02</Target>
+				<Target type="ProtoSquad">creep_inf_badger_03</Target>
+				<Target type="ProtoSquad">creep_inf_empmarine_01</Target>
 				<Target type="ProtoUnit">Building</Target>
 				<Target type="ProtoSquad">ban_veh_bruteChopper_01</Target>
 				<Target type="ProtoSquad">ban_inf_bruteHammer_01</Target>
@@ -11938,8 +12902,6 @@
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
-				<Target type="BuildOther">unsc_bldg_command_01</Target>
-				<Target type="BuildOther">cov_bldg_builder_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
@@ -12832,6 +13794,9 @@
 				<Target type="ProtoSquad">cov_inf_slugmen_01</Target>
 				<Target type="ProtoSquad">ban_inf_hunter_01</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="ban_veh_methanewagon_01" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_heavyfactory_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="ban_inf_spartan_01" relativity="Absolute">
 				<Target type="ProtoUnit">ban_bldg_barracks_01</Target>
 			</Effect>
@@ -13125,6 +14090,54 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="flood_bldg_special_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="ban_veh_ghost_01" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_builder_01</Target>
+				<Target type="ProtoUnit">ban_bldg_builder_02</Target>
+				<Target type="ProtoUnit">ban_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_builder_01</Target>
+				<Target type="ProtoUnit">ban_bldg_builder_02</Target>
+				<Target type="ProtoUnit">ban_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_builder_01</Target>
+				<Target type="ProtoUnit">ban_bldg_builder_02</Target>
+				<Target type="ProtoUnit">ban_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_builder_01</Target>
+				<Target type="ProtoUnit">ban_bldg_builder_02</Target>
+				<Target type="ProtoUnit">ban_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_HeavygruntDeacon_01" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="ban_hgruntdeacon_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="ban_hgruntdeacon_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="ban_hgruntdeacon_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="ban_inf_gruntgoblin_01" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_temple_01</Target>
+				<Target type="ProtoUnit">ban_bldg_templeai_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_gruntgoblin_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_temple_01</Target>
+				<Target type="ProtoUnit">ban_bldg_templeai_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_gruntgoblin_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_temple_01</Target>
+				<Target type="ProtoUnit">ban_bldg_templeai_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_gruntgoblin_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">ban_bldg_temple_01</Target>
+				<Target type="ProtoUnit">ban_bldg_templeai_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -13542,18 +14555,25 @@
 				<Target type="ProtoSquad">ban_inf_bruteGrunt_01</Target>
 				<Target type="ProtoSquad">ban_inf_bruteGrunt_02</Target>
 				<Target type="ProtoSquad">ban_inf_bruteGrunt_03</Target>
+				<Target type="ProtoSquad">cov_inf_grunt_01</Target>
+				<Target type="ProtoSquad">cov_inf_grunt_02</Target>
+				<Target type="ProtoSquad">cov_inf_grunt_03</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
 				<Target type="ProtoUnit">cov_inf_grunt_02</Target>
 				<Target type="ProtoUnit">ban_inf_bruteLeader_01</Target>
 				<Target type="ProtoUnit">ban_inf_bruteLeader_02</Target>
+				<Target type="ProtoUnit">cov_inf_eliteLeader_01</Target>
+				<Target type="ProtoUnit">cov_inf_eliteLeader_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
 				<Target type="ProtoUnit">cov_inf_grunt_02</Target>
 				<Target type="ProtoUnit">ban_inf_bruteLeader_01</Target>
 				<Target type="ProtoUnit">ban_inf_bruteLeader_02</Target>
+				<Target type="ProtoUnit">cov_inf_eliteLeader_01</Target>
+				<Target type="ProtoUnit">cov_inf_eliteLeader_02</Target>
 			</Effect>
 			<Effect type="TransformProtoSquad" FromType="ban_inf_bruteGrunt_01" ToType="ban_inf_bruteGrunt_02" />
 		</Effects>
@@ -13576,6 +14596,9 @@
 				<Target type="ProtoSquad">ban_inf_bruteGrunt_01</Target>
 				<Target type="ProtoSquad">ban_inf_bruteGrunt_02</Target>
 				<Target type="ProtoSquad">ban_inf_bruteGrunt_03</Target>
+				<Target type="ProtoSquad">cov_inf_grunt_01</Target>
+				<Target type="ProtoSquad">cov_inf_grunt_02</Target>
+				<Target type="ProtoSquad">cov_inf_grunt_03</Target>
 			</Effect>
 			<Effect type="Data" amount="0.8" subtype="Damage" action="RocketAttackAction" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
@@ -13584,12 +14607,16 @@
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">ban_inf_bruteLeader_01</Target>
 				<Target type="ProtoUnit">ban_inf_bruteLeader_02</Target>
+				<Target type="ProtoUnit">cov_inf_eliteLeader_01</Target>
+				<Target type="ProtoUnit">cov_inf_eliteLeader_02</Target>
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
 				<Target type="ProtoUnit">cov_inf_grunt_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">ban_inf_bruteLeader_01</Target>
 				<Target type="ProtoUnit">ban_inf_bruteLeader_02</Target>
+				<Target type="ProtoUnit">cov_inf_eliteLeader_01</Target>
+				<Target type="ProtoUnit">cov_inf_eliteLeader_02</Target>
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
 				<Target type="ProtoUnit">cov_inf_grunt_02</Target>
 			</Effect>
@@ -13629,17 +14656,24 @@
 				<Target type="ProtoSquad">ban_inf_bruteGrunt_01</Target>
 				<Target type="ProtoSquad">ban_inf_bruteGrunt_02</Target>
 				<Target type="ProtoSquad">ban_inf_bruteGrunt_03</Target>
+				<Target type="ProtoSquad">cov_inf_grunt_01</Target>
+				<Target type="ProtoSquad">cov_inf_grunt_02</Target>
+				<Target type="ProtoSquad">cov_inf_grunt_03</Target>
 			</Effect>
 			<Effect type="TransformProtoSquad" FromType="ban_inf_bruteGrunt_01" ToType="ban_inf_bruteGrunt_03" />
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">ban_inf_bruteLeader_01</Target>
 				<Target type="ProtoUnit">ban_inf_bruteLeader_02</Target>
+				<Target type="ProtoUnit">cov_inf_eliteLeader_01</Target>
+				<Target type="ProtoUnit">cov_inf_eliteLeader_02</Target>
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
 				<Target type="ProtoUnit">cov_inf_grunt_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">ban_inf_bruteLeader_01</Target>
 				<Target type="ProtoUnit">ban_inf_bruteLeader_02</Target>
+				<Target type="ProtoUnit">cov_inf_eliteLeader_01</Target>
+				<Target type="ProtoUnit">cov_inf_eliteLeader_02</Target>
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
 				<Target type="ProtoUnit">cov_inf_grunt_02</Target>
 			</Effect>
@@ -14068,20 +15102,20 @@
 		<DisplayNameID>50077</DisplayNameID>
 		<RolloverTextID>50078</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
-		<Cost resourcetype="CampaignFoo">250</Cost>
-		<Cost resourcetype="Power">1</Cost>
+		<Cost resourcetype="Supplies">800</Cost>
+		<Cost resourcetype="Power">3</Cost>
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_reinforcements</ResearchCompleteSound>
-		<Flag>Perpetual</Flag>
+		<!--Flag>Perpetual</Flag-->
 		<Effects>
-			<Effect type="Data" subtype="PopCap" amount="10" popType="Unit" relativity="Absolute">
+			<Effect type="Data" subtype="PopCap" amount="20" popType="Unit" relativity="Absolute">
 				<Target type="Player" />
 			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="CampaignFoo" amount="300" relativity="Absolute">
-				<Target type="Tech">ban_tech_followers</Target>
-			</Effect>
+			<!--Effect type="Data" subtype="Cost" Resource="Supplies" amount="400" relativity="Absolute">
+				<Target type="Tech">unsc_tech_reinforcements1</Target>
+			</Effect-->
 		</Effects>
 	</Tech>
 	<Tech name="ban_turret_upgrade1" type="Normal">
@@ -14225,17 +15259,6 @@
 				<Target type="ProtoUnit">Military</Target>
 			</Effect>
 			<Effect type="Data" amount="0.8" subtype="buildPoints" allactions="1" relativity="Percent">
-				<Target type="ProtoSquad">unsc_inf_marine_01</Target>
-				<Target type="ProtoSquad">unsc_inf_marine_02</Target>
-				<Target type="ProtoSquad">unsc_inf_marine_03</Target>
-				<Target type="ProtoSquad">unsc_inf_odst_01_player</Target>
-				<Target type="ProtoSquad">unsc_inf_flameMarine_01</Target>
-				<Target type="ProtoSquad">unsc_inf_cyclops_01</Target>
-				<Target type="ProtoSquad">unsc_inf_spartan_01</Target>
-				<Target type="ProtoSquad">unsc_inf_spartan_02</Target>
-				<Target type="ProtoSquad">unsc_inf_spartan_03</Target>
-			</Effect>
-			<Effect type="Data" amount="0.8" subtype="Cost" allactions="1" relativity="Percent">
 				<Target type="ProtoSquad">unsc_inf_marine_01</Target>
 				<Target type="ProtoSquad">unsc_inf_marine_02</Target>
 				<Target type="ProtoSquad">unsc_inf_marine_03</Target>

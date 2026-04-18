@@ -88,5 +88,5 @@
 	<ScenarioInfo ChunkID="1000" MapName="img://art\ui\flash\shared\textures\pregame\mapimages\phxscn09.ddx" MaxPlayers="2" NameStringID="" InfoStringID="30256" Type="Final" File="custom\design\phxscn09\phxscn09.scn" LoadingScreen="off" />
 	<ScenarioInfo ChunkID="1000" MapName="img://art\ui\flash\shared\textures\pregame\mapimages\3player_repository.ddx" MaxPlayers="6" NameStringID="30506" InfoStringID="23963" Type="Final" File="custom\design\repository\repository.scn" LoadingScreen="Repository" /-->
 	<ScenarioInfo ChunkID="1000" MapName="img://art\ui\flash\shared\textures\pregame\mapimages\not_so_frozen_valley.ddx" MaxPlayers="6" NameStringID="41012" InfoStringID="41013" Type="Final" File="custom\design\not_so_frozen_valley\frozen_valley.scn" LoadingScreen="FrozenValley" />
-	<ScenarioInfo ChunkID="1000" MapName="img://art\ui\flash\shared\textures\pregame\mapimages\not_so_frozen_valley.ddx" MaxPlayers="6" NameStringID="41010" InfoStringID="41011" Type="Final" File="custom\design\entanglement_lom\labyrinth.scn" LoadingScreen="FrozenValley" />
+	<ScenarioInfo ChunkID="1000" MapName="img://art\ui\flash\shared\textures\pregame\mapimages\entanglement.ddx" MaxPlayers="6" NameStringID="41010" InfoStringID="41011" Type="Final" File="custom\design\entanglement_lom\labyrinth.scn" LoadingScreen="FrozenValley" />
 </ScenarioDescriptions>

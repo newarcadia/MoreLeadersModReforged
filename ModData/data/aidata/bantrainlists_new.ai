@@ -26,6 +26,22 @@
 			<c>15</c>
 		</Row>
 		<Row>
+			<c>cov_inf_HeavygruntDeacon_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_veh_methanewagon_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_veh_ghost_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_inf_gruntgoblin_01</c>
+			<c>3</c>
+		</Row>
+		<Row>
 			<c>ban_inf_decimus_01</c>
 			<c>1</c>
 		</Row>
@@ -46,6 +62,14 @@
 		<Row>
 			<c>ban_inf_huntercaptain_01</c>
 			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_veh_ghost_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_inf_gruntgoblin_01</c>
+			<c>3</c>
 		</Row>
 	</Table>
 	<Table Name="UnscGeneric_1" Type="SquadBuildList">
@@ -76,6 +100,22 @@
 		<Row>
 			<c>cov_inf_slugmen_01</c>
 			<c>0</c>
+		</Row>
+		<Row>
+			<c>cov_inf_HeavygruntDeacon_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_veh_methanewagon_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_veh_ghost_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_inf_gruntgoblin_01</c>
+			<c>3</c>
 		</Row>
 		<Row>
 			<c>ban_air_banshee_01</c>
@@ -122,6 +162,22 @@
 		<Row>
 			<c>ban_air_banshee_01</c>
 			<c>6</c>
+		</Row>
+		<Row>
+			<c>cov_inf_HeavygruntDeacon_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_veh_methanewagon_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_veh_ghost_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_inf_gruntgoblin_01</c>
+			<c>3</c>
 		</Row>
 		<Row>
 			<c>ban_inf_engineer_01</c>
@@ -188,6 +244,22 @@
 		<Row>
 			<c>ban_veh_reaver_01</c>
 			<c>0</c>
+		</Row>
+		<Row>
+			<c>cov_inf_HeavygruntDeacon_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_veh_methanewagon_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_veh_ghost_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_inf_gruntgoblin_01</c>
+			<c>3</c>
 		</Row>
 		<Row>
 			<c>ban_veh_locust_01</c>
@@ -313,6 +385,22 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>cov_inf_HeavygruntDeacon_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_veh_methanewagon_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_veh_ghost_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_inf_gruntgoblin_01</c>
+			<c>3</c>
+		</Row>
+		<Row>
 			<c>ban_veh_skitterer_01</c>
 			<c>2</c>
 		</Row>
@@ -357,6 +445,22 @@
 		<Row>
 			<c>ban_veh_locust_01</c>
 			<c>2</c>
+		</Row>
+		<Row>
+			<c>cov_inf_HeavygruntDeacon_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_veh_methanewagon_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_veh_ghost_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_inf_gruntgoblin_01</c>
+			<c>3</c>
 		</Row>
 		<Row>
 			<c>ban_veh_bruteChopper_01</c>
@@ -415,6 +519,22 @@
 		<Row>
 			<c>ban_inf_goliath_01</c>
 			<c>2</c>
+		</Row>
+		<Row>
+			<c>cov_inf_HeavygruntDeacon_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_veh_methanewagon_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_veh_ghost_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_inf_gruntgoblin_01</c>
+			<c>3</c>
 		</Row>
 		<Row>
 			<c>cov_inf_slugmen_01</c>
@@ -621,6 +741,10 @@
 		<Row>
 			<c>ban_air_banshee_01</c>
 			<c>5</c>
+		</Row>
+		<Row>
+			<c>ban_inf_gruntgoblin_01</c>
+			<c>3</c>
 		</Row>
 		<Row>
 			<c>ban_inf_engineer_01</c>

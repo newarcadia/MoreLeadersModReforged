@@ -35,6 +35,16 @@
 		<Data type="Texture" name="DecalTextureHero">ui\flash\HUD\hud_decal\decal_test\heros\HUD_unsc_hero</Data>
 		<Data type="Texture" name="StaticDecalTextureSpartan">ui\flash\HUD\hud_decal\decal_test\heros\HUD_unsc_hero</Data>
 	</Properties>
+	<Icon type="uniticon" name="covLeader" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="for_inf_didact_01">-1</Icon>
+	<Icon type="uniticon" name="covLeader" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_inf_gruntgoblin_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="28" Intensity3="18" owner="for_inf_prometheanpawn_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="28" Intensity3="18" owner="for_inf_prometheanpawn_02">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="28" Intensity3="18" owner="for_inf_prometheanpawn_03">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="for_inf_prometheanknight_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="cov_inf_HeavygruntDeacon_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="cov_inf_HeavygruntDeacon_02">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="ban_veh_methanewagon_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeY="-1" SizeZ="7" Intensity1="8" Intensity2="28" Intensity3="18" owner="for_air_phaeton_01">-1</Icon>
 	<!-- UNSC -->
 	<Icon type="uniticon" name="fldInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="fld_inf_all_berserker_01">-1</Icon>
 	<Icon type="uniticon" name="fldInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="fld_inf_all_main_01">-1</Icon>
@@ -125,6 +135,7 @@
 	<Icon type="uniticon" name="covInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_gruntJackal_01">-1</Icon>
 	<Icon type="uniticon" name="covInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_gruntJackal_02">-1</Icon>
 	<Icon type="uniticon" name="covInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_ghost_02">-1</Icon>
+	<Icon type="uniticon" name="covInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_veh_ghost_01">-1</Icon>
 	<Icon type="uniticon" name="covInfantry" SizeX="10" SizeZ="10" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_wraithaa_01">-1</Icon>
 	<Icon type="uniticon" name="covInfantry" SizeX="8" SizeZ="8" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_locusttank_01">-1</Icon>
 	<Icon type="uniticon" name="covInfantry" SizeX="8" SizeZ="8" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_locustaa_01">-1</Icon>

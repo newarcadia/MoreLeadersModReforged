@@ -76,11 +76,6 @@
 		<RestrictedAutoTarget>true</RestrictedAutoTarget>
 	</Action>
 	<Action>
-		<Name>Garrison</Name>
-		<ActionType>Garrison</ActionType>
-		<WorkRange>5</WorkRange>
-	</Action>
-	<Action>
 		<Name>Capture</Name>
 		<ActionType>Capture</ActionType>
 		<Anim>Build</Anim>

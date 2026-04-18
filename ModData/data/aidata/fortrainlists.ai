@@ -30,6 +30,14 @@
 			<c>4</c>
 		</Row>
 		<Row>
+			<c>for_inf_prometheanpawn_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_inf_didact_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fore_inf_soldier_01</c>
 			<c>4</c>
 		</Row>
@@ -66,6 +74,14 @@
 		<Row>
 			<c>fore_inf_walker_01</c>
 			<c>6</c>
+		</Row>
+		<Row>
+			<c>for_inf_prometheanpawn_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_inf_didact_01</c>
+			<c>1</c>
 		</Row>
 		<Row>
 			<c>fore_inf_soldier_01</c>
@@ -110,6 +126,22 @@
 			<c>0</c>
 		</Row>
 		<Row>
+			<c>for_inf_prometheanpawn_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_inf_prometheanknight_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_inf_didact_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_air_phaeton_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>for_air_supersentinel_01</c>
 			<c>0</c>
 		</Row>
@@ -152,6 +184,22 @@
 			<c>6</c>
 		</Row>
 		<Row>
+			<c>for_inf_prometheanpawn_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_inf_prometheanknight_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_inf_didact_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_air_phaeton_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>for_air_supersentinel_01</c>
 			<c>0</c>
 		</Row>
@@ -192,6 +240,22 @@
 		<Row>
 			<c>fore_air_sentinel_01</c>
 			<c>3</c>
+		</Row>
+		<Row>
+			<c>for_inf_prometheanpawn_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_inf_prometheanknight_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_inf_didact_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_air_phaeton_01</c>
+			<c>1</c>
 		</Row>
 		<Row>
 			<c>for_air_supersentinel_01</c>
@@ -304,6 +368,22 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>for_inf_prometheanpawn_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_inf_prometheanknight_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_inf_didact_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_air_phaeton_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fore_air_attractor_01</c>
 			<c>2</c>
 		</Row>
@@ -342,6 +422,22 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>for_inf_prometheanpawn_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_inf_prometheanknight_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_inf_didact_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_air_phaeton_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fore_inf_soldier_01</c>
 			<c>1</c>
 		</Row>
@@ -377,6 +473,22 @@
 		</Row>
 		<Row>
 			<c>fore_air_guardian_01_new</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_inf_prometheanpawn_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_inf_prometheanknight_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_inf_didact_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_air_phaeton_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -568,6 +680,14 @@
 		<Row>
 			<c>fore_inf_soldier_01</c>
 			<c>3</c>
+		</Row>
+		<Row>
+			<c>for_inf_prometheanpawn_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_inf_didact_01</c>
+			<c>1</c>
 		</Row>
 		<Row>
 			<c>fore_air_attractor_01</c>

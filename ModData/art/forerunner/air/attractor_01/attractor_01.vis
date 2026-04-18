@@ -2,6 +2,26 @@
 <visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
 	<model name="Default">
 		<component>
+			<logic type="Tech">
+				<logicdata value="for_LeaderDidact" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>forerunner\promethean\bishop_01\bishop_01</file>
+						<damagefile>forerunner\promethean\bishop_01\bishop_01</damagefile>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>forerunner\air\attractor_01\attractor_01</file>
+						<damagefile>forerunner\air\attractor_01\attractor_01</damagefile>
+					</asset>
+				</logicdata>
+			</logic>
 			<asset type="Model">
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />

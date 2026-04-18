@@ -13434,7 +13434,7 @@
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>HasHPBar</Flag>
 		<Flag>NotSelectableWhenChildObject</Flag>
-		<Flag>NonCollidable</Flag>
+		<Flag>NonCollideable</Flag>
 	</Object>
 	<Object name="fld_egg_musicForm_01" is="0" id="596" dbid="4013">
 		<ObjectClass>Building</ObjectClass>
@@ -18335,7 +18335,7 @@
 		<TurnRate>60</TurnRate>
 		<Hitpoints>14070</Hitpoints>
 		<LOS>55</LOS>
-		<Pop Type="Rhino">1</Pop>
+		<Pop Type="Temple">1</Pop>
 		<CombatValue>30</CombatValue>
 		<Bounty>30</Bounty>
 		<SubSelectSort>5300</SubSelectSort>
@@ -31469,7 +31469,7 @@
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>HasHPBar</Flag>
 		<Flag>NotSelectableWhenChildObject</Flag>
-		<Flag>NonCollidable</Flag>
+		<Flag>NonCollideable</Flag>
 	</Object>
 	<Object name="cpgn_scn02_forechasm_01" is="0" id="2349" dbid="3669">
 		<ObjectClass>Object</ObjectClass>

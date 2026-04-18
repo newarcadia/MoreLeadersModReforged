@@ -393,6 +393,14 @@
 						<file>flood\air\vampire_01\mass_01</file>
 					</asset>
 				</logicdata>
+				<logicdata value="covenant_LeaderInfected" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>flood\air\vampire_01\mass_01</file>
+					</asset>
+				</logicdata>
 				<logicdata value="" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
@@ -414,6 +422,14 @@
 		<component>
 			<logic type="Tech">
 				<logicdata value="flood_basic" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>flood\air\vampire_01\needlerturretmass_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="covenant_LeaderInfected" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />

@@ -581,6 +581,12 @@
 				<Target type="ProtoUnit">fore_inf_walker_02</Target>
 				<Target type="ProtoUnit">fore_inf_walker_gold_01</Target>
 				<Target type="ProtoUnit">fore_inf_walker_gold_02</Target>
+				<Target type="ProtoUnit">flood_infected_eliteCommando_01</Target>
+				<Target type="ProtoUnit">flood_infected_bruteBerserker_01</Target>
+				<Target type="ProtoUnit">flood_infected_brute_01</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">flood_infected_gruntDeacon_02</Target>
+				<Target type="ProtoUnit">ban_inf_gruntgoblin_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="RamAttack" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
@@ -4134,27 +4140,28 @@
 			</Effect>
 			<Effect type="Data" amount="1.176" subtype="Damage" action="Grenade" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.176" subtype="Damage" action="Grenade" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_02</Target>
+				<Target type="ProtoUnit">flood_infected_grunt_01</Target>
+				<Target type="ProtoUnit">flood_infected_grunt_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" action="Grenade" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteLeader_01</Target>
+				<Target type="ProtoUnit">flood_infected_eliteLeader_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" action="Grenade" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_bruteLeader_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.0625" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
+				<Target type="ProtoUnit">cov_inf_grunt_02</Target>
+				<Target type="ProtoUnit">flood_infected_grunt_01</Target>
+				<Target type="ProtoUnit">flood_infected_grunt_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.0625" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.0625" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_02</Target>
-			</Effect>
-			<Effect type="Data" amount="1.0625" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">cov_inf_grunt_02</Target>
+				<Target type="ProtoUnit">flood_infected_grunt_01</Target>
+				<Target type="ProtoUnit">flood_infected_grunt_02</Target>
 			</Effect>
 			<Effect type="TransformProtoSquad" FromType="cov_inf_grunt_01" ToType="cov_inf_grunt_02" />
 		</Effects>
@@ -4181,27 +4188,28 @@
 			<Effect type="TransformProtoUnit" FromType="cov_inf_grunt_02" ToType="cov_inf_needlergrunt_02" />
 			<Effect type="Data" amount="1.25" subtype="Damage" action="Grenade" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteLeader_01</Target>
+				<Target type="ProtoUnit">flood_infected_eliteLeader_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" action="Grenade" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_bruteLeader_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.08500004" subtype="Damage" action="Grenade" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.08500004" subtype="Damage" action="Grenade" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_02</Target>
+				<Target type="ProtoUnit">flood_infected_grunt_01</Target>
+				<Target type="ProtoUnit">flood_infected_grunt_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.44000006" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
+				<Target type="ProtoUnit">cov_inf_grunt_02</Target>
+				<Target type="ProtoUnit">flood_infected_grunt_01</Target>
+				<Target type="ProtoUnit">flood_infected_grunt_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.44000006" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.44000006" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_02</Target>
-			</Effect>
-			<Effect type="Data" amount="1.44000006" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">cov_inf_grunt_02</Target>
+				<Target type="ProtoUnit">flood_infected_grunt_01</Target>
+				<Target type="ProtoUnit">flood_infected_grunt_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -4226,29 +4234,36 @@
 			<Effect type="TransformProtoSquad" FromType="cov_inf_grunt_01" ToType="cov_inf_grunt_03" />
 			<Effect type="Data" amount="1.25" subtype="Damage" action="Grenade" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteLeader_01</Target>
+				<Target type="ProtoUnit">flood_infected_eliteLeader_01</Target>
 				<Target type="ProtoUnit">cov_inf_bruteLeader_01</Target>
-				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.16" subtype="Damage" action="Grenade" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
 				<Target type="ProtoUnit">cov_inf_grunt_02</Target>
+				<Target type="ProtoUnit">flood_infected_grunt_01</Target>
+				<Target type="ProtoUnit">flood_infected_grunt_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.55" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">flood_infected_eliteLeader_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.55" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">flood_infected_eliteLeader_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.08" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
 				<Target type="ProtoUnit">cov_inf_grunt_02</Target>
+				<Target type="ProtoUnit">flood_infected_grunt_01</Target>
+				<Target type="ProtoUnit">flood_infected_grunt_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.08" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
 				<Target type="ProtoUnit">cov_inf_grunt_02</Target>
+				<Target type="ProtoUnit">flood_infected_grunt_01</Target>
+				<Target type="ProtoUnit">flood_infected_grunt_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" action="Grenade" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteLeader_02</Target>
+				<Target type="ProtoUnit">flood_infected_eliteLeader_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -4269,12 +4284,21 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_jackal_01</Target>
+				<Target type="ProtoUnit">cov_inf_jackal_02</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_01</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_jackal_01</Target>
+				<Target type="ProtoUnit">cov_inf_jackal_02</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_01</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="Deflect_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_jackal_01</Target>
+				<Target type="ProtoUnit">cov_inf_jackal_02</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_01</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -4299,15 +4323,27 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="CarbineRifleAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_jackal_01</Target>
+				<Target type="ProtoUnit">cov_inf_jackal_02</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_01</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="SniperRifleAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_jackal_01</Target>
+				<Target type="ProtoUnit">cov_inf_jackal_02</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_01</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.4" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_jackal_01</Target>
+				<Target type="ProtoUnit">cov_inf_jackal_02</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_01</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.1" subtype="hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_jackal_01</Target>
+				<Target type="ProtoUnit">cov_inf_jackal_02</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_01</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -4331,15 +4367,27 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_jackal_01</Target>
+				<Target type="ProtoUnit">cov_inf_jackal_02</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_01</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_jackal_01</Target>
+				<Target type="ProtoUnit">cov_inf_jackal_02</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_01</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="Deflect_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_jackal_01</Target>
+				<Target type="ProtoUnit">cov_inf_jackal_02</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_01</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="Deflect_03" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_jackal_01</Target>
+				<Target type="ProtoUnit">cov_inf_jackal_02</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_01</Target>
+				<Target type="ProtoUnit">flood_infected_jackal_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -4451,23 +4499,31 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="fuelRodCannonAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_prophet_01</Target>
+				<Target type="ProtoUnit">flood_infected_prophet_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="plasmaCannonAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_prophet_01</Target>
+				<Target type="ProtoUnit">flood_infected_prophet_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.95" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_prophet_01</Target>
 				<Target type="ProtoUnit">cov_inf_prophet_02</Target>
+				<Target type="ProtoUnit">flood_infected_prophet_01</Target>
+				<Target type="ProtoUnit">flood_infected_prophet_02</Target>
 			</Effect>
 			<Effect type="Data" amount="2.425" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_prophet_01</Target>
 				<Target type="ProtoUnit">cov_inf_prophet_02</Target>
+				<Target type="ProtoUnit">flood_infected_prophet_01</Target>
+				<Target type="ProtoUnit">flood_infected_prophet_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="ShieldAction2" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_prophet_01</Target>
+				<Target type="ProtoUnit">flood_infected_prophet_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="ShieldAction1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_prophet_01</Target>
+				<Target type="ProtoUnit">flood_infected_prophet_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -4490,12 +4546,15 @@
 			</Effect>
 			<Effect type="Data" amount="1.85" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_prophet_01</Target>
+				<Target type="ProtoUnit">flood_infected_prophet_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.85" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_prophet_02</Target>
+				<Target type="ProtoUnit">flood_infected_prophet_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="SpawnSentinel" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_prophet_01</Target>
+				<Target type="ProtoUnit">flood_infected_prophet_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -4518,6 +4577,7 @@
 			</Effect>
 			<Effect type="Data" amount="1.625" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_prophet_02</Target>
+				<Target type="ProtoUnit">flood_infected_prophet_02</Target>
 			</Effect>
 			<Effect type="TransformProtoUnit" FromType="cov_inf_prophet_01" ToType="cov_inf_prophet_02" />
 			<Effect type="TransformProtoUnit" FromType="cov_air_monitor_01" ToType="cov_air_monitor_02" />
@@ -4922,29 +4982,36 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
+				<Target type="ProtoSquad">ban_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">ban_veh_ghost_01</Target>
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
 				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="RamAttack" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ban_veh_ghost_01</Target>
 				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ban_veh_ghost_01</Target>
 				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ban_veh_ghost_01</Target>
 				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ban_veh_ghost_01</Target>
 				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ban_veh_ghost_01</Target>
 				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 		</Effects>
@@ -4966,25 +5033,31 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
+				<Target type="ProtoSquad">ban_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="Dodge" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ban_veh_ghost_01</Target>
 				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ban_veh_ghost_01</Target>
 				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.10000002" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ban_veh_ghost_01</Target>
 				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ban_veh_ghost_01</Target>
 				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ban_veh_ghost_01</Target>
 				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 		</Effects>
@@ -5006,21 +5079,26 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
+				<Target type="ProtoSquad">ban_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ban_veh_ghost_01</Target>
 				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ban_veh_ghost_01</Target>
 				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1200" subtype="Shieldpoints" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
+				<Target type="ProtoUnit">ban_veh_ghost_01</Target>
 				<Target type="ProtoUnit">ff_infected_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" hpbar="Cov_HealthShield" subtype="HPBar" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
+				<Target type="ProtoSquad">ban_veh_ghost_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5509,9 +5587,11 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
+				<Target type="ProtoUnit">flood_infected_eliteCommando_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
+				<Target type="ProtoUnit">flood_infected_eliteCommando_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5535,15 +5615,19 @@
 			</Effect>
 			<Effect type="Data" amount="1.10000002" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
+				<Target type="ProtoUnit">flood_infected_eliteCommando_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
+				<Target type="ProtoUnit">flood_infected_eliteCommando_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="Cloak" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
+				<Target type="ProtoUnit">flood_infected_eliteCommando_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
+				<Target type="ProtoUnit">flood_infected_eliteCommando_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5567,12 +5651,15 @@
 			</Effect>
 			<Effect type="Data" amount="3049" subtype="Shieldpoints" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
+				<Target type="ProtoUnit">flood_infected_eliteCommando_01</Target>
 			</Effect>
 			<Effect type="Data" hpbar="Cov_HealthShield" subtype="HPBar" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_eliteCommando_01</Target>
+				<Target type="ProtoUnit">flood_infected_eliteCommando_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="ShieldAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
+				<Target type="ProtoUnit">flood_infected_eliteCommando_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5674,9 +5761,11 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_brute_01</Target>
+				<Target type="ProtoUnit">flood_infected_brute_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_brute_01</Target>
+				<Target type="ProtoUnit">flood_infected_brute_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5700,24 +5789,31 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_brute_01</Target>
+				<Target type="ProtoUnit">flood_infected_brute_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="JumpPack" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_brute_01</Target>
+				<Target type="ProtoUnit">flood_infected_brute_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="JumpPackGather" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_brute_01</Target>
+				<Target type="ProtoUnit">flood_infected_brute_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="JumpPackGarrison" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_brute_01</Target>
+				<Target type="ProtoUnit">flood_infected_brute_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="JumpAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_brute_01</Target>
+				<Target type="ProtoUnit">flood_infected_brute_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_brute_01</Target>
+				<Target type="ProtoUnit">flood_infected_brute_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_brute_01</Target>
+				<Target type="ProtoUnit">flood_infected_brute_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5741,15 +5837,19 @@
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_brute_01</Target>
+				<Target type="ProtoUnit">flood_infected_brute_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_brute_01</Target>
+				<Target type="ProtoUnit">flood_infected_brute_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="UpgradedBrutegunAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_brute_01</Target>
+				<Target type="ProtoUnit">flood_infected_brute_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="UpgradedInCoverBrutegunAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_brute_01</Target>
+				<Target type="ProtoUnit">flood_infected_brute_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5951,7 +6051,6 @@
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
 				<Target type="ProtoUnit">creep_rebel_arcadiaBase_05</Target>
-				<Target type="BuildOther">creep_rebel_arcadiaBase_05</Target>
 				<Target type="ProtoSquad">cpgn_npc_cutter_01</Target>
 				<Target type="ProtoSquad">unsc_inf_police_01</Target>
 				<Target type="ProtoSquad">unsc_inf_odst_01_player</Target>
@@ -5973,9 +6072,6 @@
 				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="creep_rebel_arcadiaBase_05" relativity="Absolute">
-				<Target type="ProtoUnit">game_base_Socket_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="ProtoUnit" CommandData="creep_rebel_arcadiaBase_05" relativity="Absolute">
 				<Target type="ProtoUnit">game_base_Socket_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_odst_upgrade1_player" relativity="Absolute">
@@ -7079,7 +7175,6 @@
 				<Target type="ProtoSquad">cov_inf_silentshadow_01</Target>
 				<Target type="ProtoSquad">cov_inf_prophet_01</Target>
 				<Target type="ProtoUnit">cov_bldg_ProphetMegaTurret_01</Target>
-				<Target type="BuildOther">cov_bldg_ProphetMegaTurret_01</Target>
 				<Target type="ProtoSquad">cov_veh_revenant_01</Target>
 				<Target type="ProtoSquad">cov_inf_gruntDeacon_01</Target>
 				<Target type="ProtoSquad">cov_inf_gruntDeacon_02</Target>

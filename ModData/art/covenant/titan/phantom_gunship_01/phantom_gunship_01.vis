@@ -9,6 +9,7 @@
 				<file>covenant\titan\phantom_gunship_01\phantom_gunship_01</file>
 				<damagefile>covenant\titan\phantom_gunship_01\phantom_gunship_01</damagefile>
 			</asset>
+			<attach type="ModelRef" name="BioMass" tobone="BoneVulture" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="CannonMiddle" tobone="BoneTurretM_new" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="CannonLeft" tobone="BoneTurretL_new" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="CannonRight" tobone="BoneTurretR_new" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
@@ -499,5 +500,41 @@
 				<weight>1</weight>
 			</asset>
 		</anim>
+	</model>
+	<model name="BioMass">
+		<component>
+			<logic type="Tech">
+				<logicdata value="flood_basic" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>flood\air\vulture_01\pelicanmess_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="covenant_LeaderInfected" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>flood\air\vulture_01\pelicanmess_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\air\vulture_01\pelicanmess_01</file>
+			</asset>
+		</component>
 	</model>
 </visual>

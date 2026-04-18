@@ -2461,7 +2461,7 @@
 		<TriggerVar ID="2407" Type="Trigger" Name="" IsNull="false">2418</TriggerVar>
 		<TriggerVar ID="2408" Type="String" Name="" IsNull="false">CovBuildLists.ai</TriggerVar>
 		<TriggerVar ID="2409" Type="Power" Name="" IsNull="false">UnscLeaderOrbitalBombard</TriggerVar>
-		<TriggerVar ID="2410" Type="Leader" Name="" IsNull="false">Forge</TriggerVar>
+		<TriggerVar ID="2410" Type="Leader" Name="" IsNull="false">BanishedHunter</TriggerVar>
 		<TriggerVar ID="2411" Type="Power" Name="" IsNull="false">UnscLeaderCryo</TriggerVar>
 		<TriggerVar ID="2412" Type="Leader" Name="" IsNull="false">Prophet of Mercy</TriggerVar>
 		<TriggerVar ID="2413" Type="Leader" Name="" IsNull="false">Arbiter</TriggerVar>

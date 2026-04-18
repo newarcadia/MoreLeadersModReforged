@@ -12,6 +12,15 @@
 						<damagefile>banished\air\banshee_01\banshee_01</damagefile>
 					</asset>
 				</logicdata>
+				<logicdata value="covenant_LeaderInfected" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>banished\air\banshee_01\banshee_infected_01</file>
+						<damagefile>banished\air\banshee_01\banshee_01</damagefile>
+					</asset>
+				</logicdata>
 				<logicdata value="" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StringTable version="1">
 	<Language name="English">
-		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">Try out Haruspis, our new modmanager for both Halo Wars DE and 2.
+		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">Try out Haruspis, our new modmanager for both Halo Wars DE and 2. Please note that this version currently experiences issues with the AI and balancing.
 </String>
-		<String _locID="26217" category="UI" subtitle="false">Pre-Release (v1.2)</String>
+		<String _locID="26217" category="UI" subtitle="false">Release (v1.2)</String>
 		<String _locID="26218" category="UI" subtitle="false">new-arcadia.net/discord</String>
 		<!-- BlockLeaderpower effect uses this string-->
 		<String _locID="357" category="Code" subtitle="false">JAMMED! </String> 
@@ -555,6 +555,12 @@ and heavy air units.</String>
 		<String _locID="42723" category="Leaders" subtitle="false">Unique Units: Skirmishers, Drones, Beetles, Hydras, Leader Power: Hologram</String>
 		<String _locID="42724" category="Leaders" subtitle="false">Testleader</String>
 		<String _locID="42725" category="Leaders" subtitle="false">Leader to test work in progress assets.</String>
+		<String _locID="42726" category="Leaders" subtitle="false">Infected Shipmaster</String>
+		<String _locID="42727" category="Leaders" subtitle="false">Unique Units: Infected Combatforms, Leader Power: Glassing</String>
+		<String _locID="42728" category="Leaders" subtitle="false">Shipmaster</String>
+		<String _locID="42729" category="Leaders" subtitle="false">Unique Unit: Ghost and Heavy Grunts, Leader Power: Glassing, Spartan Drop</String>
+		<String _locID="42730" category="Leaders" subtitle="false">Didact</String>
+		<String _locID="42731" category="Leaders" subtitle="false">Unique Units: Promethean, Leader Power: SW Defense</String>
 
 
 		<!-- MISC -->
@@ -1374,6 +1380,38 @@ Adds a drone.</String>
 		<String _locID="53107" category="Techs" subtitle="false">DPS/HP Buff.</String>
 		<String _locID="53108" category="Squads" subtitle="false">CORRUPTED VEHICLE</String>
 		<String _locID="53109" category="Squads" subtitle="false">Transformed light vehicles</String>
+		<String _locID="53110" category="Squads" subtitle="false">HEAVY GRUNT</String>
+		<String _locID="53111" category="Squads" subtitle="false">TBD.</String>
+		<String _locID="53112" category="Squads" subtitle="false">Grunt Goblin</String>
+		<String _locID="53113" category="Squads" subtitle="false">TBD.</String>
+		<String _locID="53114" category="Techs" subtitle="false">GOBLIN I</String>
+		<String _locID="53115" category="Techs" subtitle="false">DPS/HP Buff. Ability unlocked (not done yet)</String>
+		<String _locID="53116" category="Techs" subtitle="false">GOBLIN II</String>
+		<String _locID="53117" category="Techs" subtitle="false">DPS/HP Buff. Secondary attack unlocked.</String>
+		<String _locID="53118" category="Techs" subtitle="false">GOBLIN III</String>
+		<String _locID="53119" category="Techs" subtitle="false">DPS/HP Buff.</String>
+		<String _locID="53120" category="Squads" subtitle="false">Methane Wagon</String>
+		<String _locID="53121" category="Squads" subtitle="false">TBD.</String>
+		<String _locID="53122" category="Squads" subtitle="false">Didact</String>
+		<String _locID="53123" category="Squads" subtitle="false">TBD.</String>
+		<String _locID="53124" category="Squads" subtitle="false">Phaeton</String>
+		<String _locID="53125" category="Squads" subtitle="false">TBD.</String>
+		<String _locID="53126" category="Squads" subtitle="false">Promethean Knight</String>
+		<String _locID="53127" category="Squads" subtitle="false">TBD.</String>
+		<String _locID="53128" category="Squads" subtitle="false">Crawler</String>
+		<String _locID="53129" category="Squads" subtitle="false">TBD.</String>
+		<String _locID="53130" category="Techs" subtitle="false">DIDACT I</String>
+		<String _locID="53131" category="Techs" subtitle="false">DPS/HP Buff.</String>
+		<String _locID="53132" category="Techs" subtitle="false">DIDACT II</String>
+		<String _locID="53133" category="Techs" subtitle="false">DPS/HP Buff.</String>
+		<String _locID="53134" category="Techs" subtitle="false">DIDACT III</String>
+		<String _locID="53135" category="Techs" subtitle="false">DPS/HP Buff.</String>
+		<String _locID="53136" category="Techs" subtitle="false">PHAETON I</String>
+		<String _locID="53137" category="Techs" subtitle="false">DPS/HP Buff.</String>
+		<String _locID="53138" category="Techs" subtitle="false">PHAETON II</String>
+		<String _locID="53139" category="Techs" subtitle="false">DPS/HP Buff.</String>
+		<String _locID="53140" category="Techs" subtitle="false">PHAETON III</String>
+		<String _locID="53141" category="Techs" subtitle="false">DPS/HP Buff.</String>
 
 
 		<String _locID="60000" subtitle="false">Tips appear here. Really.</String>

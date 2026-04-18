@@ -12,6 +12,15 @@
 						<damagefile>covenant\vehicle\wraith_01\wraith_01</damagefile>
 					</asset>
 				</logicdata>
+				<logicdata value="covenant_LeaderInfected" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>banished\vehicle\wraith_01\wraith_infected_01</file>
+						<damagefile>covenant\vehicle\wraith_01\wraith_01</damagefile>
+					</asset>
+				</logicdata>
 				<logicdata value="" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />

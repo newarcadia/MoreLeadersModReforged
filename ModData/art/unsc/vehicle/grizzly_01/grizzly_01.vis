@@ -361,6 +361,14 @@
 						<file>flood\vehicle\grizzly_01\grizzlybodymass</file>
 					</asset>
 				</logicdata>
+				<logicdata value="covenant_LeaderInfected" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>flood\vehicle\grizzly_01\grizzlybodymass</file>
+					</asset>
+				</logicdata>
 				<logicdata value="" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
@@ -389,6 +397,14 @@
 						<file>flood\vehicle\grizzly_01\grizzlyturretmass</file>
 					</asset>
 				</logicdata>
+				<logicdata value="covenant_LeaderInfected" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>flood\vehicle\grizzly_01\grizzlyturretmass</file>
+					</asset>
+				</logicdata>
 				<logicdata value="" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
@@ -410,6 +426,14 @@
 		<component>
 			<logic type="Tech">
 				<logicdata value="flood_basic" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>flood\vehicle\grizzly_01\grizzlycannonmass</file>
+					</asset>
+				</logicdata>
+				<logicdata value="covenant_LeaderInfected" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />

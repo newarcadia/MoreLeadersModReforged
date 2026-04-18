@@ -219,6 +219,29 @@
 	<KeyFrame>queued</KeyFrame>
 	<KeyFrame>pc_off</KeyFrame>
 	<KeyFrame>pc_on</KeyFrame>
+	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\for_inf_didact_01" owner="for_inf_didact_01">-1</Icon>
+	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\for_air_phaeton_01" owner="for_air_phaeton_01">-1</Icon>
+	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\for_inf_prometheanpawn_01" owner="for_inf_prometheanpawn_01">-1</Icon>
+	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\for_inf_prometheanpawn_01" owner="for_inf_prometheanpawn_02">-1</Icon>
+	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\for_inf_prometheanpawn_01" owner="for_inf_prometheanpawn_03">-1</Icon>
+	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\for_inf_prometheanknight_01" owner="for_inf_prometheanknight_01">-1</Icon>
+	<Icon type="techicon" name="spad1" texture="art\ui\flash\shared\textures\mlm_reforged\tech\for_didact_upgrade1" owner="for_didact_upgrade1">-1</Icon>
+	<Icon type="techicon" name="spad2" texture="art\ui\flash\shared\textures\mlm_reforged\tech\for_didact_upgrade2" owner="for_didact_upgrade2">-1</Icon>
+	<Icon type="techicon" name="spad3" texture="art\ui\flash\shared\textures\mlm_reforged\tech\for_didact_upgrade3" owner="for_didact_upgrade3">-1</Icon>
+	<Icon type="techicon" name="spad1" texture="art\ui\flash\shared\textures\mlm_reforged\tech\for_phaeton_upgrade1" owner="for_phaeton_upgrade1">-1</Icon>
+	<Icon type="techicon" name="spad2" texture="art\ui\flash\shared\textures\mlm_reforged\tech\for_phaeton_upgrade2" owner="for_phaeton_upgrade2">-1</Icon>
+	<Icon type="techicon" name="spad3" texture="art\ui\flash\shared\textures\mlm_reforged\tech\for_phaeton_upgrade3" owner="for_phaeton_upgrade3">-1</Icon>
+	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\ban_veh_methanewagon_01" owner="ban_veh_methanewagon_01">-1</Icon>
+	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\ban_inf_gruntgoblin_01" owner="ban_inf_gruntgoblin_01">-1</Icon>
+	<Icon type="techicon" name="spad1" texture="art\ui\flash\shared\textures\mlm_reforged\tech\cov_gruntgoblin_upgrade1" owner="cov_gruntgoblin_upgrade1">-1</Icon>
+	<Icon type="techicon" name="spad2" texture="art\ui\flash\shared\textures\mlm_reforged\tech\cov_gruntgoblin_upgrade2" owner="cov_gruntgoblin_upgrade2">-1</Icon>
+	<Icon type="techicon" name="spad3" texture="art\ui\flash\shared\textures\mlm_reforged\tech\cov_gruntgoblin_upgrade3" owner="cov_gruntgoblin_upgrade3">-1</Icon>
+	<Icon type="techicon" name="gruntUPG1" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_grunt_upgrade1" owner="ban_hgruntdeacon_upgrade1">-1</Icon>
+	<Icon type="techicon" name="gruntUPG2" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_grunt_upgrade2" owner="ban_hgruntdeacon_upgrade2">-1</Icon>
+	<Icon type="techicon" name="gruntUPG3" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_grunt_upgrade3" owner="ban_hgruntdeacon_upgrade3">-1</Icon>
+	<Icon type="uniticon" name="gruntD" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_gruntDeacon_01" owner="cov_inf_HeavygruntDeacon_01">-1</Icon>
+	<Icon type="uniticon" name="gruntD" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_gruntDeacon_01" owner="cov_inf_HeavygruntDeacon_02">-1</Icon>
+	<Icon type="uniticon" name="ghost" texture="art\ui\flash\shared\textures\mlm_reforged\unit\ban_veh_ghost_01" owner="ban_veh_ghost_01">-1</Icon>
 	<Icon type="techicon" name="suc_warthog_upgrade2" texture="art\ui\flash\shared\textures\unsc\icons\unit\creep_veh_havok_01" owner="creep_havok_upgrade1">-1</Icon>
 	<Icon type="techicon" name="suc_warthog_upgrade2" texture="art\ui\flash\shared\textures\unsc\icons\unit\creep_veh_havok_01" owner="creep_havok_upgrade2">-1</Icon>
 	<Icon type="techicon" name="suc_warthog_upgrade2" texture="art\ui\flash\shared\textures\unsc\icons\unit\creep_veh_havok_01" owner="creep_havok_upgrade3">-1</Icon>

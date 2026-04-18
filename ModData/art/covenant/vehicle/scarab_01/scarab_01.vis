@@ -292,6 +292,7 @@
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
 				<file>covenant\vehicle\scarab_01\scarab_head_01</file>
 			</asset>
+			<attach type="ModelRef" name="BioMassTurret" tobone="bone_head" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<point pointType="Pickup" bone="Bone Head" pointData="Metal" />
 		</component>
 		<anim type="scarabBeamAttack" exitAction="Loop" tweenTime="10" tweenToAnimation="">
@@ -363,5 +364,77 @@
 				<tag type="Particle" start="0" position="0.899999976" end="1" name="effects/vehicle_fx/cov/scarab/turretMuzzleblast_01" tobone="bone_launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
 		</anim>
+	</model>
+	<model name="BioMass">
+		<component>
+			<logic type="Tech">
+				<logicdata value="flood_basic" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>flood\vehicle\wraith_01\mass_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="covenant_LeaderInfected" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>flood\vehicle\wraith_01\mass_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\vehicle\wraith_01\mass_01</file>
+			</asset>
+		</component>
+	</model>
+	<model name="BioMassTurret">
+		<component>
+			<logic type="Tech">
+				<logicdata value="flood_basic" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>flood\vehicle\locust_01\locusttop</file>
+					</asset>
+				</logicdata>
+				<logicdata value="covenant_LeaderInfected" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>flood\vehicle\locust_01\locusttop</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\vehicle\locust_01\locusttop</file>
+			</asset>
+		</component>
 	</model>
 </visual>

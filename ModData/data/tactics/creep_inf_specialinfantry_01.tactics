@@ -16,9 +16,7 @@
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
 		<DamageRatingOverride type="Unarmored">1.2</DamageRatingOverride> 
-		<DamageRatingOverride type="Infantry">1.1</DamageRatingOverride> 
 		<DamageRatingOverride type="Air">0.5</DamageRatingOverride> 
-		<DamageRatingOverride type="GroundVehicle">0.75</DamageRatingOverride> 
 		<DamageRatingOverride type="Building">0.9</DamageRatingOverride>
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="Aircraft">3</TargetPriority>
