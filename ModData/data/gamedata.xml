@@ -207,9 +207,11 @@
 		<!-- Infantry -->
 		<InfectionMapEntry base="unsc_inf_sniper_01" infected="fld_inf_Infectedsniper_01" infectedSquad="fld_inf_InfectedsniperSingle_01" />
 		<InfectionMapEntry base="unsc_inf_flameMarine_01" infected="flood_mapentry_flameMarine_01" infectedSquad="fld_Inf_flameMarineSingle_01" />
+		<InfectionMapEntry base="unsc_inf_flameMarine_02" infected="flood_mapentry_flameMarine_01" infectedSquad="fld_Inf_flameMarineSingle_01" />
 		<InfectionMapEntry base="unsc_inf_marine_01" infected="flood_mapentry_infectedMarine_01" infectedSquad="fld_Inf_InfectedMarineSingle_01" />
 		<InfectionMapEntry base="unsc_inf_marine_02" infected="flood_mapentry_infectedMarine_01" infectedSquad="fld_Inf_InfectedMarineSingle_01" />
 		<InfectionMapEntry base="unsc_inf_medic_01" infected="flood_mapentry_infectedMarine_01" infectedSquad="fld_Inf_InfectedMarineSingle_01" />
+		<InfectionMapEntry base="unsc_inf_odstRocket_01" infected="flood_mapentry_infectedodst_01" infectedSquad="fld_Inf_InfectedMarineSingle_01" />
 		<InfectionMapEntry base="unsc_inf_odst_01" infected="flood_mapentry_infectedodst_01" infectedSquad="fld_Inf_InfectedMarineSingle_01" />
 		<InfectionMapEntry base="unsc_inf_odst_02" infected="flood_mapentry_infectedodst_01" infectedSquad="fld_Inf_InfectedMarineSingle_01" />
 		<InfectionMapEntry base="unsc_inf_odstMedic_01" infected="flood_mapentry_infectedodstmedic_01" infectedSquad="fld_Inf_InfectedMarineSingle_01" />

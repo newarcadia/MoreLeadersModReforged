@@ -81,4 +81,9 @@
 		<Fields Name="Faction4Turret" Type="ProtoObject" />
 		<Fields Name="Faction4TurretAmount" Type="Integer" />
 	</UserClass>
+	<UserClass DBID="8" Name="ForbidTechs">
+		<Fields Name="Leader" Type="Leader" />
+		<Fields Name="ForbidList" Type="Techlist" />
+		<Fields Name="ForbidSquadList" Type="ProtoSquadList" />
+	</UserClass>
 </UserClasses>

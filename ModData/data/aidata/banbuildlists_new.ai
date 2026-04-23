@@ -2,176 +2,273 @@
 <Tables>
 	<Table Name="UnscStartBoom" Type="BuildingBuildList">
 		<Row>
-			<c>ban_bldg_builder_03</c>
+			<c>unsc_bldg_reactor_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>_ProductionBuildingNotBase</c>
+			<c>unsc_bldg_supplypad_02</c>
+			<c>3</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_supplypad_01</c>
+			<c>3</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_bldg_builder_03</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_01</c>
+			<c>unsc_bldg_reactor_01</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>cov_bldg_heavyfactory_01</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_bldg_builder_01</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_02</c>
+			<c>for_bldg_builder_02</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>6</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>_ProductionBuildingNotBase</c>
+			<c>cov_bldg_barracks_01</c>
 			<c>1</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>_ProductionBuildingNotBase</c>
+			<c>unsc_bldg_reactor_01</c>
+			<c>3</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>cov_bldg_lightfactory_01</c>
 			<c>1</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_03</c>
-			<c>2</c>
-			<c>2</c>
-		</Row>
-	</Table>
-	<Table Name="UnscStartRushInf" Type="BuildingBuildList">
-		<Row>
-			<c>ban_bldg_builder_03</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_builder_01</c>
-			<c>2</c>
+			<c>unsc_bldg_reactor_01</c>
+			<c>4</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_02</c>
-			<c>2</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
-			<c>6</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_builder_03</c>
+			<c>for_bldg_builder_03</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 	</Table>
 	<Table Name="UnscStartRushVeh" Type="BuildingBuildList">
 		<Row>
-			<c>ban_bldg_builder_03</c>
+			<c>unsc_bldg_supplypad_01</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_reactor_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>_ProductionBuildingNotBase</c>
+			<c>unsc_bldg_supplypad_02</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>cov_bldg_lightfactory_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_01</c>
-			<c>2</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_builder_02</c>
-			<c>2</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
-			<c>6</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
+			<c>for_bldg_builder_03</c>
 			<c>1</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
+			<c>unsc_bldg_supplypad_01</c>
+			<c>5</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_03</c>
+			<c>for_bldg_builder_01</c>
 			<c>2</c>
+			<c>3</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_supplypad_01</c>
+			<c>4</c>
+			<c>3</c>
+		</Row>
+		<Row>
+			<c>for_bldg_builder_02</c>
 			<c>2</c>
+			<c>3</c>
+		</Row>
+		<Row>
+			<c>for_bldg_builder_03</c>
+			<c>2</c>
+			<c>3</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_supplypad_01</c>
+			<c>7</c>
+			<c>3</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_reactor_01</c>
+			<c>4</c>
+			<c>3</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_supplypad_02</c>
+			<c>4</c>
+			<c>3</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_supplypad_01</c>
+			<c>5</c>
+			<c>3</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_supplypad_02</c>
+			<c>5</c>
+			<c>3</c>
+		</Row>
+		<Row>
+			<c>for_bldg_builder_03</c>
+			<c>3</c>
+			<c>3</c>
 		</Row>
 	</Table>
-	<Table Name="UnscStartRushMixed" Type="BuildingBuildList">
+	<Table Name="UnscStartRushEarly1" Type="BuildingBuildList">
 		<Row>
-			<c>ban_bldg_builder_03</c>
+			<c>cov_bldg_barracks_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>_ProductionBuildingNotBase</c>
+			<c>unsc_bldg_supplypad_01</c>
+			<c>2</c>
 			<c>1</c>
-			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_01</c>
-			<c>2</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_builder_02</c>
-			<c>2</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
-			<c>6</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
+			<c>unsc_bldg_reactor_01</c>
 			<c>1</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>2</c>
+			<c>3</c>
+		</Row>
+	</Table>
+	<Table Name="UnscStartRushEarly1P" Type="BuildingBuildList">
+		<Row>
+			<c>cov_bldg_temple_01</c>
+			<c>1</c>
+			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_03</c>
+			<c>unsc_bldg_supplypad_01</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_reactor_01</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>cov_bldg_barracks_01</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+	</Table>
+	<Table Name="UnscStartRushEarly2" Type="BuildingBuildList">
+		<Row>
+			<c>cov_bldg_barracks_01</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_supplypad_01</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_reactor_01</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 	</Table>
 	<Table Name="UnscStartTurtleAir" Type="BuildingBuildList">
 		<Row>
-			<c>ban_bldg_builder_03</c>
+			<c>unsc_bldg_supplypad_01</c>
+			<c>2</c>
 			<c>1</c>
+		</Row>
+		<Row>
+			<c>fore_bldg_turret_01</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_reactor_01</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>cov_bldg_lightfactory_01</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_bldg_builder_03</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_supplypad_02</c>
+			<c>4</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_supplypad_01</c>
+			<c>4</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fore_bldg_turret_01</c>
+			<c>4</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_bldg_builder_01</c>
+			<c>2</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_reactor_01</c>
+			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -180,107 +277,112 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_01</c>
+			<c>for_bldg_builder_02</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_02</c>
-			<c>2</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>6</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>_ProductionBuildingNotBase</c>
+			<c>cov_bldg_barracks_01</c>
 			<c>1</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>_ProductionBuildingNotBase</c>
+			<c>unsc_bldg_reactor_01</c>
+			<c>3</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>cov_bldg_heavyfactory_01</c>
 			<c>1</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_03</c>
+			<c>unsc_bldg_reactor_01</c>
+			<c>4</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>for_bldg_builder_03</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 	</Table>
-	<Table Name="UnscStartTech" Type="BuildingBuildList">
+	<Table Name="UnscStartTech4P" Type="BuildingBuildList">
 		<Row>
-			<c>ban_bldg_builder_03</c>
+			<c>unsc_bldg_reactor_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>_ProductionBuildingNotBase</c>
+			<c>unsc_bldg_supplypad_02</c>
+			<c>3</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_supplypad_01</c>
+			<c>3</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_bldg_builder_03</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_01</c>
+			<c>unsc_bldg_reactor_01</c>
 			<c>2</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_builder_02</c>
-			<c>2</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
-			<c>6</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
-			<c>2</c>
 		</Row>
 		<Row>
-			<c>_ProductionBuildingNotBase</c>
+			<c>cov_bldg_heavyfactory_01</c>
 			<c>1</c>
-			<c>2</c>
+			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_03</c>
+			<c>unsc_bldg_reactor_02</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 	</Table>
 	<Table Name="MidEconFirst" Type="BuildingBuildList">
 		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_02</c>
+			<c>for_bldg_builder_02</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_bldg_temple_01</c>
+			<c>unsc_bldg_reactor_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_powerDepot_01</c>
+			<c>unsc_bldg_supplypad_02</c>
+			<c>4</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_bldg_builder_03</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_reactor_01</c>
 			<c>2</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_builder_03</c>
-			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -289,50 +391,80 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_bldg_builder_01</c>
+			<c>for_bldg_builder_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_02</c>
+			<c>for_bldg_builder_02</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>8</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_powerDepot_01</c>
-			<c>4</c>
+			<c>unsc_bldg_supplypad_02</c>
+			<c>8</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_03</c>
+			<c>unsc_bldg_reactor_01</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>for_bldg_builder_03</c>
+			<c>2</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>10</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_powerDepot_01</c>
-			<c>5</c>
+			<c>unsc_bldg_supplypad_02</c>
+			<c>10</c>
 			<c>2</c>
 		</Row>
 	</Table>
 	<Table Name="MidProductionFirst" Type="BuildingBuildList">
 		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>_ProductionBuildingNotBase</c>
+			<c>cov_bldg_barracks_01</c>
 			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_reactor_01</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>cov_bldg_heavyfactory_01</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>cov_bldg_lightfactory_01</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_bldg_builder_01</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_reactor_01</c>
+			<c>3</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -341,52 +473,37 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>cov_bldg_builder_01</c>
-			<c>2</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>cov_bldg_specops_01</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>8</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_02</c>
+			<c>for_bldg_builder_02</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_powerDepot_01</c>
+			<c>unsc_bldg_supplypad_02</c>
 			<c>8</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_03</c>
+			<c>unsc_bldg_reactor_02</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_bldg_builder_03</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>10</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_powerDepot_01</c>
+			<c>unsc_bldg_supplypad_02</c>
 			<c>10</c>
 			<c>2</c>
 		</Row>
@@ -398,8 +515,18 @@
 	</Table>
 	<Table Name="MidTechFirst" Type="BuildingBuildList">
 		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>3</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_reactor_01</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_reactor_02</c>
+			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -408,32 +535,27 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_bldg_specops_01</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>cov_bldg_builder_01</c>
+			<c>for_bldg_builder_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>8</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_02</c>
+			<c>for_bldg_builder_02</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_powerDepot_01</c>
+			<c>unsc_bldg_supplypad_02</c>
 			<c>8</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_03</c>
+			<c>for_bldg_builder_03</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -443,69 +565,74 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>10</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_powerDepot_01</c>
+			<c>unsc_bldg_supplypad_02</c>
 			<c>10</c>
 			<c>1</c>
 		</Row>
 	</Table>
 	<Table Name="MidTurretUp" Type="BuildingBuildList">
 		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_bldg_temple_01</c>
+			<c>unsc_bldg_reactor_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_bldg_turret_01</c>
+			<c>fore_bldg_turret_01</c>
 			<c>8</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_bldg_turretAA_01</c>
+			<c>unsc_bldg_turretAA_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_bldg_turretAI_01</c>
+			<c>unsc_bldg_turretAI_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_bldg_turretAV_01</c>
+			<c>unsc_bldg_turretAV_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_bldg_builder_01</c>
+			<c>for_bldg_builder_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>8</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_02</c>
+			<c>for_bldg_builder_02</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_powerDepot_01</c>
+			<c>unsc_bldg_reactor_01</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_supplypad_02</c>
 			<c>8</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_03</c>
+			<c>for_bldg_builder_03</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -515,188 +642,91 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>10</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_powerDepot_01</c>
+			<c>unsc_bldg_supplypad_02</c>
 			<c>10</c>
 			<c>1</c>
 		</Row>
 	</Table>
 	<Table Name="MidBaseGrab" Type="BuildingBuildList">
 		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>_ProductionBuildingNotBase</c>
+			<c>cov_bldg_barracks_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_bldg_builder_01</c>
+			<c>for_bldg_builder_01</c>
 			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>8</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_02</c>
+			<c>for_bldg_builder_02</c>
 			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_bldg_temple_01</c>
+			<c>unsc_bldg_reactor_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_powerDepot_01</c>
+			<c>unsc_bldg_supplypad_02</c>
 			<c>8</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_builder_03</c>
+			<c>for_bldg_builder_03</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>10</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_powerDepot_01</c>
+			<c>unsc_bldg_supplypad_02</c>
 			<c>10</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>_ProductionBuildingNotBase</c>
+			<c>cov_bldg_barracks_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>_ProductionBuildingNotBase</c>
+			<c>unsc_bldg_reactor_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>_ProductionBuildingNotBase</c>
+			<c>cov_bldg_lightfactory_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_bldg_builder_01</c>
+			<c>cov_bldg_heavyfactory_01</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_bldg_builder_01</c>
 			<c>6</c>
 			<c>1</c>
-		</Row>
-	</Table>
-	<Table Name="UnscStartRushTL1" Type="BuildingBuildList">
-		<Row>
-			<c>ban_bldg_builder_03</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-	</Table>
-	<Table Name="UnscStartRushEarly1" Type="BuildingBuildList">
-		<Row>
-			<c>ban_bldg_builder_03</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-	</Table>
-	<Table Name="UnscStartRushEarly2" Type="BuildingBuildList">
-		<Row>
-			<c>ban_bldg_builder_03</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-	</Table>
-	<Table Name="UnscStartBoom1" Type="BuildingBuildList">
-		<Row>
-			<c>ban_bldg_builder_03</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-	</Table>
-	<Table Name="UnscStartBoomCutter" Type="BuildingBuildList">
-		<Row>
-			<c>ban_bldg_builder_03</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-	</Table>
-	<Table Name="UnscStartTech1" Type="BuildingBuildList">
-		<Row>
-			<c>ban_bldg_builder_03</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_builder_01</c>
-			<c>2</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_builder_02</c>
-			<c>2</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
-			<c>6</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_builder_03</c>
-			<c>2</c>
-			<c>2</c>
 		</Row>
 	</Table>
 	<Table Name="Deathmatch1" Type="BuildingBuildList">
@@ -706,32 +736,32 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_bldg_builder_01</c>
+			<c>for_bldg_builder_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_bldg_turret_01</c>
+			<c>fore_bldg_turret_01</c>
 			<c>4</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>cov_bldg_turretAA_01</c>
+			<c>unsc_bldg_turretAA_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_bldg_turretAI_01</c>
+			<c>unsc_bldg_turretAI_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_bldg_turretAV_01</c>
+			<c>unsc_bldg_turretAV_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>3</c>
 			<c>1</c>
 		</Row>
@@ -741,93 +771,9 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
+			<c>unsc_bldg_supplypad_01</c>
 			<c>6</c>
 			<c>1</c>
-		</Row>
-	</Table>
-	<Table Name="UnscStartTech4P" Type="BuildingBuildList">
-		<Row>
-			<c>ban_bldg_builder_03</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_builder_01</c>
-			<c>2</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_builder_02</c>
-			<c>2</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
-			<c>6</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_builder_03</c>
-			<c>2</c>
-			<c>2</c>
-		</Row>
-	</Table>
-	<Table Name="UnscStartRushEarly1P" Type="BuildingBuildList">
-		<Row>
-			<c>ban_bldg_builder_03</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_builder_01</c>
-			<c>2</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_builder_02</c>
-			<c>2</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_supplyDepot_01</c>
-			<c>6</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
-			<c>2</c>
-		</Row>
-		<Row>
-			<c>ban_bldg_builder_03</c>
-			<c>2</c>
-			<c>2</c>
 		</Row>
 	</Table>
 </Tables>

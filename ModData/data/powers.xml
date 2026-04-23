@@ -1192,7 +1192,7 @@
 			<ShowLimit />
 			<LeaderPower />
 			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
-			<IconLocation>3</IconLocation>
+			<IconLocation>4</IconLocation>
 			<CameraZoomMin>200</CameraZoomMin>
 			<CameraZoomMax>200</CameraZoomMax>
 			<CameraPitchMin>55</CameraPitchMin>

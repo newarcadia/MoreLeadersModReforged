@@ -4377,6 +4377,7 @@
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<AddResource Amount="1">Power</AddResource>
+		<Tactics>banished\ban_bldg_powerDepot_01.tactics</Tactics>
 		<ObstructionRadiusX>14</ObstructionRadiusX>
 		<ObstructionRadiusY>3</ObstructionRadiusY>
 		<ObstructionRadiusZ>10</ObstructionRadiusZ>
@@ -4457,6 +4458,7 @@
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<AddResource Amount="2">Power</AddResource>
+		<Tactics>banished\ban_bldg_powerDepot_02.tactics</Tactics>
 		<ObstructionRadiusX>12</ObstructionRadiusX>
 		<ObstructionRadiusY>3</ObstructionRadiusY>
 		<ObstructionRadiusZ>12</ObstructionRadiusZ>
@@ -4713,6 +4715,20 @@
 		<Command Type="Research" Position="5">creep_empmarine_upgrade2</Command>
 		<Command Type="Research" Position="5">creep_empmarine_upgrade3</Command>
 		<Command Type="Kill" Position="4" />
+		<Command Type="TrainSquad" Position="1">fore_inf_walker_01</Command>
+		<Command Type="TrainSquad" Position="1">for_inf_prometheanpawn_01</Command>
+		<Command Type="TrainSquad" Position="2">fore_inf_soldier_01</Command>
+		<Command Type="TrainSquad" Position="3">fore_inf_knight_01</Command>
+		<Command Type="TrainSquad" Position="3">for_inf_prometheanknight_01</Command>
+		<Command Type="Research" Position="7">for_walker_upgrade1</Command>
+		<Command Type="Research" Position="7">for_walker_upgrade2</Command>
+		<Command Type="Research" Position="7">for_walker_upgrade3</Command>
+		<Command Type="Research" Position="6">for_soldier_upgrade1</Command>
+		<Command Type="Research" Position="6">for_soldier_upgrade2</Command>
+		<Command Type="Research" Position="6">for_soldier_upgrade3</Command>
+		<Command Type="Research" Position="5">for_knight_upgrade1</Command>
+		<Command Type="Research" Position="5">for_knight_upgrade2</Command>
+		<Command Type="Research" Position="5">for_knight_upgrade3</Command>
 		<Sound Type="Death">play_fx_vehicle_death_generic</Sound>
 		<Sound Type="Create">play_vog_building_barracks</Sound>
 		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
@@ -4816,6 +4832,18 @@
 		<Command Type="Research" Position="6">creep_havok_upgrade2</Command>
 		<Command Type="Research" Position="6">creep_havok_upgrade3</Command>
 		<Command Type="Kill" Position="4" />
+		<Command Type="TrainSquad" Position="1">fore_air_sentinel_01</Command>
+		<Command Type="TrainSquad" Position="2">for_air_regulator_01</Command>
+		<Command Type="TrainSquad" Position="3">fore_air_sentinel_03</Command>
+		<Command Type="Research" Position="7">for_sentinel_upgrade1</Command>
+		<Command Type="Research" Position="7">for_sentinel_upgrade2</Command>
+		<Command Type="Research" Position="7">for_sentinel_upgrade3</Command>
+		<Command Type="Research" Position="6">for_regulator_upgrade1</Command>
+		<Command Type="Research" Position="6">for_regulator_upgrade2</Command>
+		<Command Type="Research" Position="6">for_regulator_upgrade3</Command>
+		<Command Type="Research" Position="5">for_sentinel3_upgrade1</Command>
+		<Command Type="Research" Position="5">for_sentinel3_upgrade2</Command>
+		<Command Type="Research" Position="5">for_sentinel3_upgrade3</Command>
 		<Sound Type="Create">play_vog_building_vehicledepot</Sound>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
 		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
@@ -4912,6 +4940,22 @@
 		<Command Type="Research" Position="5">creep_gunship_upgrade1</Command>
 		<Command Type="Research" Position="5">creep_gunship_upgrade2</Command>
 		<Command Type="Kill" Position="4" />
+		<Command Type="TrainSquad" Position="1">for_air_enforcer_01</Command>
+		<Command Type="TrainSquad" Position="1">for_air_phaeton_01</Command>
+		<Command Type="TrainSquad" Position="2">for_veh_eradicator_01_new</Command>
+		<Command Type="TrainSquad" Position="3">fore_air_guardian_01_new</Command>
+		<Command Type="Research" Position="7">for_enforcer_upgrade1</Command>
+		<Command Type="Research" Position="7">for_enforcer_upgrade2</Command>
+		<Command Type="Research" Position="7">for_enforcer_upgrade3</Command>
+		<Command Type="Research" Position="7">for_phaeton_upgrade1</Command>
+		<Command Type="Research" Position="7">for_phaeton_upgrade2</Command>
+		<Command Type="Research" Position="7">for_phaeton_upgrade3</Command>
+		<Command Type="Research" Position="6">for_eradicator_upgrade1_new</Command>
+		<Command Type="Research" Position="6">for_eradicator_upgrade2_new</Command>
+		<Command Type="Research" Position="6">for_eradicator_upgrade3_new</Command>
+		<Command Type="Research" Position="5">for_guardian_upgrade1_new</Command>
+		<Command Type="Research" Position="5">for_guardian_upgrade2_new</Command>
+		<Command Type="Research" Position="5">for_guardian_upgrade3_new</Command>
 		<Sound Type="Create">play_vog_building_airpad</Sound>
 		<Sound Type="Death">play_unsc_air_pad_death</Sound>
 		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
@@ -4995,8 +5039,6 @@
 		<Command Type="Research" Position="2">unsc_cryo_upgrade2</Command>
 		<Command Type="Research" Position="2">unsc_cryo_upgrade3</Command>
 		<Command Type="Research" Position="5">unsc_tech_reinforcements1</Command>
-		<Command Type="Research" Position="5">unsc_tech_reinforcements2</Command>
-		<Command Type="Research" Position="5">unsc_tech_reinforcements3</Command>
 		<Command Type="Research" Position="3">unsc_tech_adrenaline</Command>
 		<Command Type="Research" Position="3">unsc_tech_recruitTraining</Command>
 		<Command Type="TrainSquad" Position="1">unsc_inf_spartanalice_01</Command>
@@ -5015,12 +5057,30 @@
 		<Command Type="Research" Position="7">unsc_spartandouglas_upgrade1</Command>
 		<Command Type="Research" Position="7">unsc_spartandouglas_upgrade2</Command>
 		<Command Type="Research" Position="7">unsc_spartandouglas_upgrade3</Command>
+		<Command Type="Research" Position="0">for_tech_speedupgrade</Command>
+		<Command Type="TrainSquad" Position="1">for_air_oracle_01</Command>
+		<Command Type="Research" Position="2">for_swdefense_upgrade1</Command>
+		<Command Type="Research" Position="2">for_swdefense_upgrade2</Command>
+		<Command Type="Research" Position="2">for_swdefense_upgrade3</Command>
+		<Command Type="Research" Position="5">for_tech_reinforcements</Command>
+		<Command Type="Research" Position="7">for_oracle_upgrade1</Command>
+		<Command Type="Research" Position="7">for_oracle_upgrade2</Command>
+		<Command Type="Research" Position="7">for_oracle_upgrade3</Command>
+		<Command Type="TrainSquad" Position="3">for_air_supersentinel_01</Command>
+		<Command Type="Research" Position="6">for_turret_upgrade1</Command>
+		<Command Type="Research" Position="6">for_turret_upgrade2</Command>
+		<Command Type="TrainSquad" Position="1">for_inf_didact_01</Command>
+		<Command Type="Research" Position="7">for_didact_upgrade1</Command>
+		<Command Type="Research" Position="7">for_didact_upgrade2</Command>
+		<Command Type="Research" Position="7">for_didact_upgrade3</Command>
 		<Command Type="Kill" Position="4" />
 		<ChildObjects>
 			<Object Type="OneTimeSpawnSquad">unsc_inf_spartanalice_01</Object>
 			<Object Type="OneTimeSpawnSquad">unsc_inf_spartanjerome_01</Object>
 			<Object Type="OneTimeSpawnSquad">unsc_inf_spartandouglas_01</Object>
 			<Object Type="OneTimeSpawnSquad">unsc_inf_spartanmech_01</Object>
+			<Object Type="OneTimeSpawnSquad">for_air_oracle_01</Object>
+			<Object Type="OneTimeSpawnSquad">for_inf_didact_01</Object>
 		</ChildObjects>
 		<Sound Type="Create">play_vog_building_fieldarmory</Sound>
 		<Sound Type="Death">play_fx_vehicle_death_generic</Sound>
@@ -8370,6 +8430,27 @@
 		<Command Type="Research" Position="5">cov_skirmisherAV_upgrade1</Command>
 		<Command Type="Research" Position="5">cov_skirmisherAV_upgrade2</Command>
 		<Command Type="Research" Position="5">cov_skirmisherAV_upgrade3</Command>
+		<Command Type="TrainSquad" Position="0">ban_inf_spartan_01</Command>
+		<Command Type="TrainSquad" Position="1">cov_inf_HeavygruntDeacon_01</Command>
+		<Command Type="TrainSquad" Position="1">ban_inf_bruteHammer_01</Command>
+		<Command Type="TrainSquad" Position="1">ban_inf_goliath_01</Command>
+		<Command Type="TrainSquad" Position="2">cov_inf_slugmen_01</Command>
+		<Command Type="TrainSquad" Position="3">ban_inf_hunter_01</Command>
+		<Command Type="Research" Position="7">ban_hgruntdeacon_upgrade1</Command>
+		<Command Type="Research" Position="7">ban_hgruntdeacon_upgrade2</Command>
+		<Command Type="Research" Position="7">ban_hgruntdeacon_upgrade3</Command>
+		<Command Type="Research" Position="7">ban_bhammer_upgrade1</Command>
+		<Command Type="Research" Position="7">ban_bhammer_upgrade2</Command>
+		<Command Type="Research" Position="7">ban_bhammer_upgrade3</Command>
+		<Command Type="Research" Position="7">ban_goliath_upgrade1</Command>
+		<Command Type="Research" Position="7">ban_goliath_upgrade2</Command>
+		<Command Type="Research" Position="7">ban_goliath_upgrade3</Command>
+		<Command Type="Research" Position="6">cov_slugman_upgrade1</Command>
+		<Command Type="Research" Position="6">cov_slugman_upgrade2</Command>
+		<Command Type="Research" Position="6">cov_slugman_upgrade3</Command>
+		<Command Type="Research" Position="5">ban_hunter_upgrade1</Command>
+		<Command Type="Research" Position="5">ban_hunter_upgrade2</Command>
+		<Command Type="Research" Position="5">ban_hunter_upgrade3</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_hall</Sound>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
@@ -8462,6 +8543,17 @@
 		<Command Type="Research" Position="5">cov_artillery_upgrade1</Command>
 		<Command Type="Research" Position="5">cov_artillery_upgrade2</Command>
 		<Command Type="Research" Position="5">cov_artillery_upgrade3</Command>
+		<Command Type="TrainSquad" Position="1">ban_inf_engineer_01</Command>
+		<Command Type="Research" Position="7">ban_engineer_upgrade1</Command>
+		<Command Type="Research" Position="7">ban_engineer_upgrade2</Command>
+		<Command Type="TrainSquad" Position="2">ban_air_banshee_01</Command>
+		<Command Type="Research" Position="6">ban_banshee_upgrade1</Command>
+		<Command Type="Research" Position="6">ban_banshee_upgrade2</Command>
+		<Command Type="Research" Position="6">ban_banshee_upgrade3</Command>
+		<Command Type="TrainSquad" Position="3">ban_air_blisterback_01</Command>
+		<Command Type="Research" Position="5">ban_blisterback_upgrade1</Command>
+		<Command Type="Research" Position="5">ban_blisterback_upgrade2</Command>
+		<Command Type="Research" Position="5">ban_blisterback_upgrade3</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_summit</Sound>
 		<Sound Type="Death">play_death_megaturret</Sound>
@@ -8556,6 +8648,20 @@
 		<Command Type="Research" Position="6">cov_chimera_upgrade2</Command>
 		<Command Type="Research" Position="6">cov_chimera_upgrade3</Command>
 		<Command Type="Kill" Position="4" />
+		<Command Type="TrainSquad" Position="0">ban_veh_methanewagon_01</Command>
+		<Command Type="TrainSquad" Position="0">ban_veh_marauder_01</Command>
+		<Command Type="TrainSquad" Position="1">ban_veh_wraith_01</Command>
+		<Command Type="Research" Position="7">ban_wraith_upgrade1</Command>
+		<Command Type="Research" Position="7">ban_wraith_upgrade2</Command>
+		<Command Type="Research" Position="7">ban_wraith_upgrade3</Command>
+		<Command Type="TrainSquad" Position="2">ban_veh_locust_01</Command>
+		<Command Type="Research" Position="6">ban_locust_upgrade1</Command>
+		<Command Type="Research" Position="6">ban_locust_upgrade2</Command>
+		<Command Type="Research" Position="6">ban_locust_upgrade3</Command>
+		<Command Type="TrainSquad" Position="3">ban_veh_reaver_01</Command>
+		<Command Type="Research" Position="5">ban_reaver_upgrade1</Command>
+		<Command Type="Research" Position="5">ban_reaver_upgrade2</Command>
+		<Command Type="Research" Position="5">ban_reaver_upgrade3</Command>
 		<Sound Type="Create">play_vog_building_factory</Sound>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
 		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
@@ -8657,12 +8763,34 @@
 		<Command Type="Research" Position="6">cov_turret_upgrade1</Command>
 		<Command Type="Research" Position="6">cov_turret_upgrade2</Command>
 		<Command Type="Research" Position="5">unsc_tech_reinforcements1</Command>
+		<Command Type="TrainSquad" Position="1">ban_inf_decimus_01</Command>
+		<Command Type="TrainSquad" Position="1">ban_inf_huntercaptain_01</Command>
+		<Command Type="TrainSquad" Position="1">ban_inf_gruntgoblin_01</Command>
+		<Command Type="TrainSquad" Position="3">ban_veh_scarab_01</Command>
+		<Command Type="Research" Position="2">cov_decibeam_upgrade1</Command>
+		<Command Type="Research" Position="2">cov_decibeam_upgrade2</Command>
+		<Command Type="Research" Position="2">cov_decibeam_upgrade3</Command>
+		<Command Type="Research" Position="2">cov_hunterbrand_upgrade1</Command>
+		<Command Type="Research" Position="2">cov_hunterbrand_upgrade2</Command>
+		<Command Type="Research" Position="2">cov_hunterbrand_upgrade3</Command>
+		<Command Type="Research" Position="7">cov_decimus_upgrade1</Command>
+		<Command Type="Research" Position="7">cov_decimus_upgrade2</Command>
+		<Command Type="Research" Position="7">cov_decimus_upgrade3</Command>
+		<Command Type="Research" Position="7">cov_lekgologeneral_upgrade1</Command>
+		<Command Type="Research" Position="7">cov_lekgologeneral_upgrade2</Command>
+		<Command Type="Research" Position="7">cov_lekgologeneral_upgrade3</Command>
+		<Command Type="Research" Position="7">cov_gruntgoblin_upgrade1</Command>
+		<Command Type="Research" Position="7">cov_gruntgoblin_upgrade2</Command>
+		<Command Type="Research" Position="7">cov_gruntgoblin_upgrade3</Command>
 		<Command Type="Kill" Position="4" />
 		<ChildObjects>
 			<Object Type="OneTimeSpawnSquad">cov_inf_arbiter_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_bruteChief_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_prophet_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_skirmisherchampion_01</Object>
+			<Object Type="OneTimeSpawnSquad">ban_inf_decimus_01</Object>
+			<Object Type="OneTimeSpawnSquad">ban_inf_huntercaptain_01</Object>
+			<Object Type="OneTimeSpawnSquad">ban_inf_gruntgoblin_01</Object>
 		</ChildObjects>
 		<Sound Type="Create">play_vog_building_leadertemple</Sound>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
@@ -8767,6 +8895,25 @@
 		<Command Type="Research" Position="6">cov_turret_upgrade2</Command>
 		<Command Type="Research" Position="5">unsc_tech_reinforcements1</Command>
 		<Command Type="Kill" Position="4" />
+		<Command Type="TrainSquad" Position="1">ban_inf_decimus_01</Command>
+		<Command Type="TrainSquad" Position="1">ban_inf_huntercaptain_01</Command>
+		<Command Type="TrainSquad" Position="1">ban_inf_gruntgoblin_01</Command>
+		<Command Type="TrainSquad" Position="3">ban_veh_scarab_01</Command>
+		<Command Type="Research" Position="2">cov_decibeam_upgrade1</Command>
+		<Command Type="Research" Position="2">cov_decibeam_upgrade2</Command>
+		<Command Type="Research" Position="2">cov_decibeam_upgrade3</Command>
+		<Command Type="Research" Position="2">cov_hunterbrand_upgrade1</Command>
+		<Command Type="Research" Position="2">cov_hunterbrand_upgrade2</Command>
+		<Command Type="Research" Position="2">cov_hunterbrand_upgrade3</Command>
+		<Command Type="Research" Position="7">cov_decimus_upgrade1</Command>
+		<Command Type="Research" Position="7">cov_decimus_upgrade2</Command>
+		<Command Type="Research" Position="7">cov_decimus_upgrade3</Command>
+		<Command Type="Research" Position="7">cov_lekgologeneral_upgrade1</Command>
+		<Command Type="Research" Position="7">cov_lekgologeneral_upgrade2</Command>
+		<Command Type="Research" Position="7">cov_lekgologeneral_upgrade3</Command>
+		<Command Type="Research" Position="7">cov_gruntgoblin_upgrade1</Command>
+		<Command Type="Research" Position="7">cov_gruntgoblin_upgrade2</Command>
+		<Command Type="Research" Position="7">cov_gruntgoblin_upgrade3</Command>
 		<ChildObjects>
 			<Object Type="OneTimeSpawnSquad">cov_inf_arbiter_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_bruteChief_01</Object>
@@ -8869,6 +9016,25 @@
 		<Command Type="Research" Position="6">cov_turret_upgrade2</Command>
 		<Command Type="Research" Position="5">unsc_tech_reinforcements1</Command>
 		<Command Type="Kill" Position="4" />
+		<Command Type="TrainSquad" Position="1">ban_inf_decimus_01</Command>
+		<Command Type="TrainSquad" Position="1">ban_inf_huntercaptain_01</Command>
+		<Command Type="TrainSquad" Position="1">ban_inf_gruntgoblin_01</Command>
+		<Command Type="TrainSquad" Position="3">ban_veh_scarab_01</Command>
+		<Command Type="Research" Position="2">cov_decibeam_upgrade1</Command>
+		<Command Type="Research" Position="2">cov_decibeam_upgrade2</Command>
+		<Command Type="Research" Position="2">cov_decibeam_upgrade3</Command>
+		<Command Type="Research" Position="2">cov_hunterbrand_upgrade1</Command>
+		<Command Type="Research" Position="2">cov_hunterbrand_upgrade2</Command>
+		<Command Type="Research" Position="2">cov_hunterbrand_upgrade3</Command>
+		<Command Type="Research" Position="7">cov_decimus_upgrade1</Command>
+		<Command Type="Research" Position="7">cov_decimus_upgrade2</Command>
+		<Command Type="Research" Position="7">cov_decimus_upgrade3</Command>
+		<Command Type="Research" Position="7">cov_lekgologeneral_upgrade1</Command>
+		<Command Type="Research" Position="7">cov_lekgologeneral_upgrade2</Command>
+		<Command Type="Research" Position="7">cov_lekgologeneral_upgrade3</Command>
+		<Command Type="Research" Position="7">cov_gruntgoblin_upgrade1</Command>
+		<Command Type="Research" Position="7">cov_gruntgoblin_upgrade2</Command>
+		<Command Type="Research" Position="7">cov_gruntgoblin_upgrade3</Command>
 		<ChildObjects>
 			<Object Type="OneTimeSpawnSquad">cov_inf_arbiter_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_bruteChief_01</Object>
@@ -15198,57 +15364,54 @@
 		<Flag>Update</Flag>
 		<Flag>Build</Flag>
 	</Object>
-	<Object name="hook_bldg_miniBase_01" is="0" id="2072" dbid="3476">
-		<ObjectType>NewCapturePointSystem</ObjectType>
+	<Object name="hook_bldg_miniBase_01" id="0" dbid="4141">
 		<ObjectClass>Building</ObjectClass>
-		<Visual>hook\bonus\house_01\house_01.vis</Visual>
-		<Ability>HookLockDownCover.triggerscript</Ability>
-		<DisplayNameID>24022</DisplayNameID>
-		<RolloverTextID>24023</RolloverTextID>
-		<RoleTextID>24023</RoleTextID>
+		<Visual>hook/building/parkingLotUNSC_01/parkingLotUNSC_hologram_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<DisplayNameID>25936</DisplayNameID>
+		<RolloverTextID>25936</RolloverTextID>
+		<Hitpoints>10</Hitpoints>
+		<LOS>0</LOS>
 		<MovementType>Land</MovementType>
-		<Hitpoints>75000</Hitpoints>
-		<PopCapAddition Type="Unit">10</PopCapAddition>
-		<LOS>55</LOS>
-		<BuildPoints>40</BuildPoints>
-		<ObstructionRadiusX>12</ObstructionRadiusX>
-		<ObstructionRadiusY>9</ObstructionRadiusY>
-		<ObstructionRadiusZ>12</ObstructionRadiusZ>
-		<TerrainHeightTolerance>10</TerrainHeightTolerance>
-		<SelectedRadiusX>10</SelectedRadiusX>
-		<SelectedRadiusZ>10</SelectedRadiusZ>
-		<PickRadius>11.5</PickRadius>
-		<PickOffset>2.5999999</PickOffset>
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Command</SelectType>
-		<DeathReplacement>hook_bonus_house_01</DeathReplacement>
-		<DamageType direction="Full">Heavy</DamageType>
-		<Command Type="Unload" Position="0" AutoClose="true" />
-		<Contain>Infantry</Contain>
-		<MaxContained>1</MaxContained>
-		<ObjectType>NonFlying</ObjectType>
-		<ObjectType>Building</ObjectType>
-		<ObjectType>Garrison</ObjectType>
-		<ObjectType>_Garrison</ObjectType>
-		<ObjectType>GaiaGarrison</ObjectType>
-		<ObjectType>BlitzDestruction</ObjectType>
-		<ObjectType>_Cover</ObjectType>
-		<Sound Type="Exist">play_for_reactor_hook_exist</Sound>
-		<Sound Type="StopExist">stop_for_reactor_hook_exist</Sound>
-		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
-		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+		<PickRadius>14</PickRadius>
+		<PickOffset>0.699999988</PickOffset>
+		<GathererLimit>1</GathererLimit>
+		<Command Type="BuildOther" Position="1" AutoClose="true">unsc_bldg_supplypad_01</Command>
+		<Command Type="BuildOther" Position="2" AutoClose="true">unsc_bldg_reactor_01</Command>
+		<Command Type="BuildOther" Position="3" AutoClose="true">unsc_bldg_fieldArmory_01</Command>
+		<Command Type="BuildOther" Position="7" AutoClose="true">unsc_bldg_barracks_01</Command>
+		<Command Type="BuildOther" Position="6" AutoClose="true">unsc_bldg_vehicledepot_01</Command>
+		<Command Type="BuildOther" Position="5" AutoClose="true">unsc_bldg_airpad_01</Command>
+		<Command Type="BuildOther" Position="1" AutoClose="true">cov_bldg_supplyDepot_01</Command>
+		<Command Type="BuildOther" Position="2" AutoClose="true">cov_bldg_temple_01</Command>
+		<Command Type="BuildOther" Position="5" AutoClose="true">cov_bldg_lightfactory_01</Command>
+		<Command Type="BuildOther" Position="6" AutoClose="true">cov_bldg_heavyfactory_01</Command>
+		<Command Type="BuildOther" Position="7" AutoClose="true">cov_bldg_barracks_01</Command>
+		<ChildObjects>
+			<Object Type="Rally" Offset="40,0,0" Rotation="0">sys_rallystart_01</Object>
+		</ChildObjects>
+		<ObjectType>BuildingSocket</ObjectType>
+		<ObjectType>_BuildingSocket</ObjectType>
+		<ObjectType>_Hook</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>SelectedRect</Flag>
+		<Flag>DontRotateObstruction</Flag>
 		<Flag>Doppled</Flag>
-		<Flag>GrayMapDoppled</Flag>
 		<Flag>Immoveable</Flag>
-		<Flag>SoundBehindFOW</Flag>
 		<Flag>Invulnerable</Flag>
-		<Flag>UnGarrisonToGaia</Flag>
-		<Flag>SoundBehindFOW</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>SingleSocketBuilding</Flag>
+		<Flag>ForceCreateObstruction</Flag>
 		<Flag>CommandableByAnyPlayer</Flag>
-		<Flag>ForceUpdateContainedUnits</Flag>
-		<Flag>ObstructsAir</Flag>
+		<Flag>PermanentSocket</Flag>
+		<Flag>UseBuildRotation</Flag>
+		<Flag>UseAutoParkingLot</Flag>
 	</Object>
 	<!--Object name="hook_bldg_miniBase_01" id="0" dbid="4141">
 		<ObjectClass>Building</ObjectClass>

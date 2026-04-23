@@ -96,7 +96,7 @@
     <TriggerVar ID="140" Type="Power" Name="NewPower3" IsNull="false">FloodArtDefenseDrop</TriggerVar>
     <TriggerVar ID="141" Type="String" Name="NewString6" IsNull="false">flood\fld_bldg_tentacledefense_01.triggerscript</TriggerVar>
     <TriggerVar ID="142" Type="String" Name="NewString6" IsNull="false">banisheddospartan.triggerscript</TriggerVar>
-    <TriggerVar ID="143" Type="String" Name="NewString6" IsNull="false">covenant\ArbiterHeroDrop.triggerscript</TriggerVar>
+    <TriggerVar ID="143" Type="String" Name="NewString6" IsNull="false">vanillaplus\banished\MarauderSupportDrop.triggerscript</TriggerVar>
     <TriggerVar ID="144" Type="Power" Name="NewPower3" IsNull="false">ForSWDefense</TriggerVar>
     <TriggerVar ID="145" Type="String" Name="NewString6" IsNull="false">vanillaplus\forerunner\TurretDrop.triggerscript</TriggerVar>
     <TriggerVar ID="148" Type="String" Name="NewString6" IsNull="false">flood\fld_bldg_ressourcedrop_01.triggerscript</TriggerVar>

@@ -5,7 +5,7 @@
 		<ActionType>Gather</ActionType>
 		<Anim>Gather</Anim>
 		<Resource>CampaignFoo</Resource>
-		<WorkRate>3</WorkRate>
+		<WorkRate>6</WorkRate>
 		<WorkRange>1</WorkRange>
 		<TeamShare />
 	</Action>
