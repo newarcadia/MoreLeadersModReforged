@@ -1488,11 +1488,7 @@
 		</Trigger>
     <Trigger ID="1099" Name="NewTrigger1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-1894" Y="-170" GroupID="-1" TemplateID="-1">
       <TriggerConditions>
-        <And>
-          <Condition ID="0" Type="PlayerIsComputerAI v1" DBID="740" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-            <Input Name="Player" SigID="1" Optional="false">0</Input>
-          </Condition>
-        </And>
+        <And />
       </TriggerConditions>
       <TriggerEffectsOnTrue>
         <Effect ID="8" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">

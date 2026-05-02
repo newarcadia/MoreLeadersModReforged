@@ -54,6 +54,21 @@
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_03" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_odst_01_player</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_odst_01_player</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">camp_inf_police_pistol_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">camp_inf_police_ar_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">camp_inf_police_br_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">camp_inf_marine_pistol_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">camp_inf_marine_ar_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">camp_inf_marine_br_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">camp_inf_marine_sg_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">camp_inf_marine_flame_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">camp_inf_marine_badger_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">camp_inf_marine_rt_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">camp_inf_marine_gl_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">camp_inf_odst_smg_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">camp_inf_odst_br_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">camp_inf_odst_rt_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">camp_inf_odst_laser_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
