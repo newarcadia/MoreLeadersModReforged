@@ -3,7 +3,7 @@
 	<Language name="English">
 		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">Try out Haruspis, our new modmanager for both Halo Wars DE and 2. Please note that this version currently experiences issues with the AI and balancing.
 </String>
-		<String _locID="26217" category="UI" subtitle="false">Release (v1.2)</String>
+		<String _locID="26217" category="UI" subtitle="false">Beta Branch - v1.2.1</String>
 		<String _locID="26218" category="UI" subtitle="false">new-arcadia.net/discord</String>
 		<!-- BlockLeaderpower effect uses this string-->
 		<String _locID="357" category="Code" subtitle="false">JAMMED! </String> 
