@@ -5615,15 +5615,13 @@
 		<SubSelectSort>3000</SubSelectSort>
 		<SelectedRadiusX>1.29999995</SelectedRadiusX>
 		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
-		<Sound Type="Create">play_unsc_marine_birth</Sound>
-		<Sound Type="Death">play_unsc_marine_vo_death</Sound>
-		<Sound Type="Select">play_unsc_marine_select</Sound>
-		<Sound Type="Work">play_unsc_marine_acknowledge</Sound>
-		<Sound Type="Attack">play_unsc_marine_attack</Sound>
-		<Sound Type="Ability">play_unsc_marine_ability</Sound>
-		<Sound Type="Ability" Action="RocketAttackAction">play_unsc_marine_ability2</Sound>
-		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
-		<ExtendedSoundBank>xtnd_ui_marine.bnk</ExtendedSoundBank>
+		<Sound Type="Create">play_mod_knight1_birth</Sound>
+		<Sound Type="Death">play_mod_knight1_death</Sound>
+		<Sound Type="Select">play_mod_knight1_select</Sound>
+		<Sound Type="Work">play_mod_knight1_acknowledge</Sound>
+		<Sound Type="Attack">play_mod_knight1_attack</Sound>
+		<Sound Type="Ability">play_mod_knight1_taunt</Sound>
+		<Sound Type="Pain">play_mod_knight1_pain</Sound>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -5698,15 +5696,13 @@
 		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
 		<SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">DigOut</SquadModeAnim>
-		<Sound Type="Create">play_unsc_marine_birth</Sound>
-		<Sound Type="Death">play_unsc_marine_vo_death</Sound>
-		<Sound Type="Select">play_unsc_marine_select</Sound>
-		<Sound Type="Work">play_unsc_marine_acknowledge</Sound>
-		<Sound Type="Attack">play_unsc_marine_attack</Sound>
-		<Sound Type="Ability">play_unsc_marine_ability</Sound>
-		<Sound Type="Ability" Action="RocketAttackAction">play_unsc_marine_ability2</Sound>
-		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
-		<ExtendedSoundBank>xtnd_ui_marine.bnk</ExtendedSoundBank>
+		<Sound Type="Create">play_mod_knight1_birth</Sound>
+		<Sound Type="Death">play_mod_knight1_death</Sound>
+		<Sound Type="Select">play_mod_knight1_select</Sound>
+		<Sound Type="Work">play_mod_knight1_acknowledge</Sound>
+		<Sound Type="Attack">play_mod_knight1_attack</Sound>
+		<Sound Type="Ability">play_mod_knight1_taunt</Sound>
+		<Sound Type="Pain">play_mod_knight1_pain</Sound>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>

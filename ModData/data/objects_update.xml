@@ -1058,18 +1058,12 @@
 		<GotoType>Air</GotoType>
 		<SelectedRadiusX>2</SelectedRadiusX>
 		<SelectedRadiusZ>2</SelectedRadiusZ>
-		<Sound Type="Create">play_cov_banshee_birth</Sound>
-		<Sound Type="Death">play_cov_banshee_death</Sound>
-		<Sound Type="Select">play_cov_banshee_select</Sound>
-		<Sound Type="Work">play_cov_banshee_acknowledge</Sound>
-		<Sound Type="Attack">play_cov_banshee_attack</Sound>
-		<Sound Type="Ability">play_cov_banshee_ability</Sound>
-		<Sound Type="Exist">start_exist_banshee</Sound>
-		<Sound Type="StopExist">stop_exist_banshee</Sound>
-		<Sound Type="StartMove">start_move_banshee</Sound>
-		<Sound Type="StopMove">stop_move_banshee</Sound>
-		<Sound Type="ImpactDeath">play_impact_death_banshee</Sound>
-		<ExtendedSoundBank>xtnd_ui_banshee.bnk</ExtendedSoundBank>
+		<Sound Type="Create">Play_MLM_protector_attack</Sound>
+		<Sound Type="Death">Play_MLM_enforcer_death</Sound>
+		<Sound Type="Select">Play_MLM_protector_select</Sound>
+		<Sound Type="Work">Play_MLM_retriever_select</Sound>
+		<Sound Type="Attack">Play_MLM_enforcer_attack</Sound>
+		<Sound Type="Pain">Play_MLM_watcher_pain</Sound>
 		<DamageType direction="Full">MediumAir</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Covenant</ObjectType>
@@ -1131,14 +1125,12 @@
 		<SubSelectSort>403100</SubSelectSort>
 		<SelectedRadiusX>1.29999995</SelectedRadiusX>
 		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
-		<Sound Type="Create">play_sentinel_birth</Sound>
-		<Sound Type="Death">play_forerunner_sentinel_death</Sound>
-		<Sound Type="Select">play_sentinel_select</Sound>
-		<Sound Type="Work">play_sentinel_acknowledge</Sound>
-		<Sound Type="Attack">play_sentinel_acknowledge</Sound>
-		<Sound Type="Exist">start_exist_sentinel</Sound>
-		<Sound Type="StopExist">stop_exist_sentinel</Sound>
-		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<Sound Type="Create">Play_MLM_crawler_acknowledge</Sound>
+		<Sound Type="Death">Play_MLM_crawler_death</Sound>
+		<Sound Type="Select">Play_MLM_crawler_select</Sound>
+		<Sound Type="Work">Play_MLM_crawler_acknowledge</Sound>
+		<Sound Type="Attack">Play_MLM_crawler_attack</Sound>
+		<Sound Type="Pain">Play_MLM_crawler_pain</Sound>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -1211,14 +1203,12 @@
 		<SubSelectSort>403100</SubSelectSort>
 		<SelectedRadiusX>1.29999995</SelectedRadiusX>
 		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
-		<Sound Type="Create">play_sentinel_birth</Sound>
-		<Sound Type="Death">play_forerunner_sentinel_death</Sound>
-		<Sound Type="Select">play_sentinel_select</Sound>
-		<Sound Type="Work">play_sentinel_acknowledge</Sound>
-		<Sound Type="Attack">play_sentinel_acknowledge</Sound>
-		<Sound Type="Exist">start_exist_sentinel</Sound>
-		<Sound Type="StopExist">stop_exist_sentinel</Sound>
-		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<Sound Type="Create">Play_MLM_crawler_acknowledge</Sound>
+		<Sound Type="Death">Play_MLM_crawler_death</Sound>
+		<Sound Type="Select">Play_MLM_crawler_select</Sound>
+		<Sound Type="Work">Play_MLM_crawler_acknowledge</Sound>
+		<Sound Type="Attack">Play_MLM_crawler_attack</Sound>
+		<Sound Type="Pain">Play_MLM_crawler_pain</Sound>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -1291,14 +1281,12 @@
 		<SubSelectSort>403100</SubSelectSort>
 		<SelectedRadiusX>1.29999995</SelectedRadiusX>
 		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
-		<Sound Type="Create">play_sentinel_birth</Sound>
-		<Sound Type="Death">play_forerunner_sentinel_death</Sound>
-		<Sound Type="Select">play_sentinel_select</Sound>
-		<Sound Type="Work">play_sentinel_acknowledge</Sound>
-		<Sound Type="Attack">play_sentinel_acknowledge</Sound>
-		<Sound Type="Exist">start_exist_sentinel</Sound>
-		<Sound Type="StopExist">stop_exist_sentinel</Sound>
-		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<Sound Type="Create">Play_MLM_crawler_acknowledge</Sound>
+		<Sound Type="Death">Play_MLM_crawler_death</Sound>
+		<Sound Type="Select">Play_MLM_crawler_select</Sound>
+		<Sound Type="Work">Play_MLM_crawler_acknowledge</Sound>
+		<Sound Type="Attack">Play_MLM_crawler_attack</Sound>
+		<Sound Type="Pain">Play_MLM_crawler_pain</Sound>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -1372,14 +1360,13 @@
 		<SubSelectSort>303100</SubSelectSort>
 		<SelectedRadiusX>1.29999995</SelectedRadiusX>
 		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
-		<Sound Type="Create">play_sentinel_birth</Sound>
-		<Sound Type="Death">play_forerunner_sentinel_death</Sound>
-		<Sound Type="Select">play_sentinel_select</Sound>
-		<Sound Type="Work">play_sentinel_acknowledge</Sound>
-		<Sound Type="Attack">play_sentinel_acknowledge</Sound>
-		<Sound Type="Exist">start_exist_sentinel</Sound>
-		<Sound Type="StopExist">stop_exist_sentinel</Sound>
-		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<Sound Type="Create">Play_MLM_knight_birth</Sound>
+		<Sound Type="Death">Play_MLM_knight_death</Sound>
+		<Sound Type="Select">Play_MLM_knight_select</Sound>
+		<Sound Type="Work">Play_MLM_knight_acknowledge</Sound>
+		<Sound Type="Attack">Play_MLM_knight_attack</Sound>
+		<Sound Type="Pain">Play_MLM_knight_pain</Sound>
+		<Sound Type="Ability">Play_MLM_knight_taunt</Sound>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -1452,14 +1439,13 @@
 		<SubSelectSort>303100</SubSelectSort>
 		<SelectedRadiusX>1.29999995</SelectedRadiusX>
 		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
-		<Sound Type="Create">play_sentinel_birth</Sound>
-		<Sound Type="Death">play_forerunner_sentinel_death</Sound>
-		<Sound Type="Select">play_sentinel_select</Sound>
-		<Sound Type="Work">play_sentinel_acknowledge</Sound>
-		<Sound Type="Attack">play_sentinel_acknowledge</Sound>
-		<Sound Type="Exist">start_exist_sentinel</Sound>
-		<Sound Type="StopExist">stop_exist_sentinel</Sound>
-		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<Sound Type="Create">Play_MLM_knight_birth</Sound>
+		<Sound Type="Death">Play_MLM_knight_death</Sound>
+		<Sound Type="Select">Play_MLM_knight_select</Sound>
+		<Sound Type="Work">Play_MLM_knight_acknowledge</Sound>
+		<Sound Type="Attack">Play_MLM_knight_attack</Sound>
+		<Sound Type="Pain">Play_MLM_knight_pain</Sound>
+		<Sound Type="Ability">Play_MLM_knight_taunt</Sound>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -1532,14 +1518,13 @@
 		<SubSelectSort>303100</SubSelectSort>
 		<SelectedRadiusX>1.29999995</SelectedRadiusX>
 		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
-		<Sound Type="Create">play_sentinel_birth</Sound>
-		<Sound Type="Death">play_forerunner_sentinel_death</Sound>
-		<Sound Type="Select">play_sentinel_select</Sound>
-		<Sound Type="Work">play_sentinel_acknowledge</Sound>
-		<Sound Type="Attack">play_sentinel_acknowledge</Sound>
-		<Sound Type="Exist">start_exist_sentinel</Sound>
-		<Sound Type="StopExist">stop_exist_sentinel</Sound>
-		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<Sound Type="Create">Play_MLM_knight_birth</Sound>
+		<Sound Type="Death">Play_MLM_knight_death</Sound>
+		<Sound Type="Select">Play_MLM_knight_select</Sound>
+		<Sound Type="Work">Play_MLM_knight_acknowledge</Sound>
+		<Sound Type="Attack">Play_MLM_knight_attack</Sound>
+		<Sound Type="Pain">Play_MLM_knight_pain</Sound>
+		<Sound Type="Ability">Play_MLM_knight_taunt</Sound>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -14672,6 +14657,12 @@
 		<GotoType>Air</GotoType>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<Sound Type="Create">Play_MLM_drone_pain</Sound>
+		<Sound Type="Death">Play_MLM_drone_pain</Sound>
+		<Sound Type="Select">Play_MLM_drone_move</Sound>
+		<Sound Type="Work">Play_MLM_drone_acknowledge</Sound>
+		<Sound Type="Attack">Play_MLM_drone_move</Sound>
+		<Sound Type="Pain">Play_MLM_drone_pain</Sound>
 		<DamageType direction="Full">MediumAir</DamageType>
 		<DamageType direction="Full">Shielded</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -14730,10 +14721,12 @@
 		<GotoType>Air</GotoType>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
-		<Sound Type="Exist">start_exist_drone</Sound>
-		<Sound Type="StopExist">stop_exist_drone</Sound>
-		<Sound Type="StartMove">start_move_drone</Sound>
-		<Sound Type="StopMove">stop_move_drone</Sound>
+		<Sound Type="Create">Play_MLM_drone_fly</Sound>
+		<Sound Type="Death">Play_MLM_drone_pain</Sound>
+		<Sound Type="Select">Play_MLM_drone_move</Sound>
+		<Sound Type="Work">Play_MLM_drone_acknowledge</Sound>
+		<Sound Type="Attack">Play_MLM_drone_move</Sound>
+		<Sound Type="Pain">Play_MLM_drone_pain</Sound>
 		<DamageType direction="Full">MediumAir</DamageType>
 		<DamageType direction="Full">Shielded</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -14790,10 +14783,12 @@
 		<GotoType>Air</GotoType>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
-		<Sound Type="Exist">start_exist_drone</Sound>
-		<Sound Type="StopExist">stop_exist_drone</Sound>
-		<Sound Type="StartMove">start_move_drone</Sound>
-		<Sound Type="StopMove">stop_move_drone</Sound>
+		<Sound Type="Create">Play_MLM_drone_fly</Sound>
+		<Sound Type="Death">Play_MLM_drone_pain</Sound>
+		<Sound Type="Select">Play_MLM_drone_move</Sound>
+		<Sound Type="Work">Play_MLM_drone_acknowledge</Sound>
+		<Sound Type="Attack">Play_MLM_drone_move</Sound>
+		<Sound Type="Pain">Play_MLM_drone_pain</Sound>
 		<DamageType direction="Full">MediumAir</DamageType>
 		<DamageType direction="Full">Shielded</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -14851,6 +14846,12 @@
 		<GotoType>Air</GotoType>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<Sound Type="Create">Play_MLM_drone_fly</Sound>
+		<Sound Type="Death">Play_MLM_drone_pain</Sound>
+		<Sound Type="Select">Play_MLM_drone_move</Sound>
+		<Sound Type="Work">Play_MLM_drone_acknowledge</Sound>
+		<Sound Type="Attack">Play_MLM_drone_move</Sound>
+		<Sound Type="Pain">Play_MLM_drone_pain</Sound>
 		<DamageType direction="Full">MediumAir</DamageType>
 		<DamageType direction="Full">Shielded</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -14908,10 +14909,12 @@
 		<GotoType>Air</GotoType>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
-		<Sound Type="Exist">start_exist_drone</Sound>
-		<Sound Type="StopExist">stop_exist_drone</Sound>
-		<Sound Type="StartMove">start_move_drone</Sound>
-		<Sound Type="StopMove">stop_move_drone</Sound>
+		<Sound Type="Create">Play_MLM_drone_fly</Sound>
+		<Sound Type="Death">Play_MLM_drone_pain</Sound>
+		<Sound Type="Select">Play_MLM_drone_move</Sound>
+		<Sound Type="Work">Play_MLM_drone_acknowledge</Sound>
+		<Sound Type="Attack">Play_MLM_drone_move</Sound>
+		<Sound Type="Pain">Play_MLM_drone_pain</Sound>
 		<DamageType direction="Full">MediumAir</DamageType>
 		<DamageType direction="Full">Shielded</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -14968,10 +14971,12 @@
 		<GotoType>Air</GotoType>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
-		<Sound Type="Exist">start_exist_drone</Sound>
-		<Sound Type="StopExist">stop_exist_drone</Sound>
-		<Sound Type="StartMove">start_move_drone</Sound>
-		<Sound Type="StopMove">stop_move_drone</Sound>
+		<Sound Type="Create">Play_MLM_drone_fly</Sound>
+		<Sound Type="Death">Play_MLM_drone_pain</Sound>
+		<Sound Type="Select">Play_MLM_drone_move</Sound>
+		<Sound Type="Work">Play_MLM_drone_acknowledge</Sound>
+		<Sound Type="Attack">Play_MLM_drone_move</Sound>
+		<Sound Type="Pain">Play_MLM_drone_pain</Sound>
 		<DamageType direction="Full">MediumAir</DamageType>
 		<DamageType direction="Full">Shielded</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -15033,14 +15038,12 @@
 		<SubSelectSort>4100</SubSelectSort>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
-		<Sound Type="Create">play_vog_engineer_birth</Sound>
-		<Sound Type="Death">play_cov_engineer_vo_death</Sound>
-		<Sound Type="Select">play_cov_engineer_select</Sound>
-		<Sound Type="Work">play_cov_engineer_acknowledge</Sound>
-		<Sound Type="RocketStart">play_grunt_methane_burst</Sound>
-		<Sound Type="RocketEnd">stop_grunt_methane_burst</Sound>
-		<Sound Type="ImpactDeath">play_impact_death_grunt</Sound>
-		<ExtendedSoundBank>xtnd_ui_engineer.bnk</ExtendedSoundBank>
+		<Sound Type="Create">Play_MLM_drone_fly</Sound>
+		<Sound Type="Death">Play_MLM_drone_pain</Sound>
+		<Sound Type="Select">Play_MLM_drone_move</Sound>
+		<Sound Type="Work">Play_MLM_drone_acknowledge</Sound>
+		<Sound Type="Attack">Play_MLM_drone_move</Sound>
+		<Sound Type="Pain">Play_MLM_drone_pain</Sound>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full">Shielded</DamageType>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
@@ -36294,6 +36297,12 @@
 		<SelectedRadiusX>1.70000005</SelectedRadiusX>
 		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
 		<ObjectType>Forerunner</ObjectType>
+		<Sound Type="Create">Play_MLM_knight_birth</Sound>
+		<Sound Type="Death">Play_MLM_knight_death</Sound>
+		<Sound Type="Select">Play_MLM_knight_select</Sound>
+		<Sound Type="Work">Play_MLM_knight_acknowledge</Sound>
+		<Sound Type="Attack">Play_MLM_knight_attack</Sound>
+		<Sound Type="Pain">Play_MLM_knight_pain</Sound>
 		<DamageType direction="Full" mode="Normal">LightArmored</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -36356,8 +36365,12 @@
 		<SubSelectSort>31300</SubSelectSort>
 		<SelectedRadiusX>1.29999995</SelectedRadiusX>
 		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
-		<Sound Type="StopExist">stop_exist_sentinel</Sound>
-		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<Sound Type="Create">Play_MLM_watcher_acknowledge</Sound>
+		<Sound Type="Death">Play_MLM_watcher_death</Sound>
+		<Sound Type="Select">Play_MLM_watcher_select</Sound>
+		<Sound Type="Work">Play_MLM_watcher_acknowledge</Sound>
+		<Sound Type="Attack">Play_MLM_watcher_acknowledge</Sound>
+		<Sound Type="Pain">Play_MLM_watcher_pain</Sound>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -36429,8 +36442,12 @@
 		<SubSelectSort>3000</SubSelectSort>
 		<SelectedRadiusX>1.29999995</SelectedRadiusX>
 		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
-		<Sound Type="StopExist">stop_exist_sentinel</Sound>
-		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<Sound Type="Create">Play_MLM_protector_attack</Sound>
+		<Sound Type="Death">Play_MLM_watcher_death</Sound>
+		<Sound Type="Select">Play_MLM_protector_select</Sound>
+		<Sound Type="Work">Play_MLM_protector_select</Sound>
+		<Sound Type="Attack">Play_MLM_protector_attack</Sound>
+		<Sound Type="Pain">Play_MLM_watcher_pain</Sound>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -36503,8 +36520,12 @@
 		<SubSelectSort>3000</SubSelectSort>
 		<SelectedRadiusX>1.29999995</SelectedRadiusX>
 		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
-		<Sound Type="StopExist">stop_exist_sentinel</Sound>
-		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<Sound Type="Create">Play_MLM_protector_attack</Sound>
+		<Sound Type="Death">Play_MLM_watcher_death</Sound>
+		<Sound Type="Select">Play_MLM_protector_select</Sound>
+		<Sound Type="Work">Play_MLM_protector_select</Sound>
+		<Sound Type="Attack">Play_MLM_protector_attack</Sound>
+		<Sound Type="Pain">Play_MLM_watcher_pain</Sound>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -36577,8 +36598,12 @@
 		<SubSelectSort>3000</SubSelectSort>
 		<SelectedRadiusX>1.29999995</SelectedRadiusX>
 		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
-		<Sound Type="StopExist">stop_exist_sentinel</Sound>
-		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<Sound Type="Create">Play_MLM_protector_attack</Sound>
+		<Sound Type="Death">Play_MLM_watcher_death</Sound>
+		<Sound Type="Select">Play_MLM_protector_select</Sound>
+		<Sound Type="Work">Play_MLM_protector_select</Sound>
+		<Sound Type="Attack">Play_MLM_protector_attack</Sound>
+		<Sound Type="Pain">Play_MLM_watcher_pain</Sound>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -36651,8 +36676,12 @@
 		<SubSelectSort>3000</SubSelectSort>
 		<SelectedRadiusX>1.29999995</SelectedRadiusX>
 		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
-		<Sound Type="StopExist">stop_exist_sentinel</Sound>
-		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<Sound Type="Create">Play_MLM_protector_attack</Sound>
+		<Sound Type="Death">Play_MLM_watcher_death</Sound>
+		<Sound Type="Select">Play_MLM_protector_select</Sound>
+		<Sound Type="Work">Play_MLM_protector_select</Sound>
+		<Sound Type="Attack">Play_MLM_protector_attack</Sound>
+		<Sound Type="Pain">Play_MLM_watcher_pain</Sound>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -37159,15 +37188,12 @@
 		<SubSelectSort>600</SubSelectSort>
 		<SelectedRadiusX>2.29999995</SelectedRadiusX>
 		<SelectedRadiusZ>2.29999995</SelectedRadiusZ>
-		<Sound Type="Create">play_sentinel_birth</Sound>
-		<Sound Type="Death">play_forerunner_sentinel_death</Sound>
-		<Sound Type="Select">play_sentinel_select</Sound>
-		<Sound Type="Work">play_sentinel_acknowledge</Sound>
-		<Sound Type="Attack">play_sentinel_acknowledge</Sound>
-		<Sound Type="Exist">start_exist_sentinel</Sound>
-		<Sound Type="StopExist">stop_exist_sentinel</Sound>
-		<Sound Type="StartMove">start_move_sentinel</Sound>
-		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<Sound Type="Create">Play_MLM_protector_attack</Sound>
+		<Sound Type="Death">Play_MLM_watcher_death</Sound>
+		<Sound Type="Select">Play_MLM_protector_select</Sound>
+		<Sound Type="Work">Play_MLM_protector_select</Sound>
+		<Sound Type="Attack">Play_MLM_protector_attack</Sound>
+		<Sound Type="Pain">Play_MLM_watcher_pain</Sound>
 		<DamageType direction="Full">Shielded</DamageType>
 		<DamageType direction="Full">Medium</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -39669,15 +39695,12 @@
 		<SubSelectSort>6500</SubSelectSort>
 		<SelectedRadiusX>4</SelectedRadiusX>
 		<SelectedRadiusZ>3</SelectedRadiusZ>
-		<Sound Type="Create">play_sentinel_birth</Sound>
-		<Sound Type="Death">play_forerunner_sentinel_death</Sound>
-		<Sound Type="Select">play_sentinel_select</Sound>
-		<Sound Type="Work">play_sentinel_acknowledge</Sound>
-		<Sound Type="Attack">play_sentinel_acknowledge</Sound>
-		<Sound Type="Exist">start_exist_sentinel</Sound>
-		<Sound Type="StopExist">stop_exist_sentinel</Sound>
-		<Sound Type="StartMove">start_move_sentinel</Sound>
-		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<Sound Type="Create">Play_MLM_protector_attack</Sound>
+		<Sound Type="Death">Play_MLM_enforcer_death</Sound>
+		<Sound Type="Select">Play_MLM_protector_select</Sound>
+		<Sound Type="Work">Play_MLM_protector_select</Sound>
+		<Sound Type="Attack">Play_MLM_enforcer_attack</Sound>
+		<Sound Type="Pain">Play_MLM_watcher_pain</Sound>
 		<DamageType direction="Full">Shielded</DamageType>
 		<DamageType direction="Full">Heavy</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -39747,15 +39770,12 @@
 		<SubSelectSort>7900</SubSelectSort>
 		<SelectedRadiusX>7.3</SelectedRadiusX>
 		<SelectedRadiusZ>2</SelectedRadiusZ>
-		<Sound Type="Create">play_super_sentinel_birth</Sound>
-		<Sound Type="Death">play_forerunner_super_sentinel_death</Sound>
-		<Sound Type="Select">play_super_sentinel_select</Sound>
-		<Sound Type="Work">play_super_sentinel_acknowledge</Sound>
-		<Sound Type="Attack">play_super_sentinel_acknowledge</Sound>
-		<Sound Type="Exist">start_exist_super_sentinel</Sound>
-		<Sound Type="StopExist">stop_exist_super_sentinel</Sound>
-		<Sound Type="StartMove">start_move_super_sentinel</Sound>
-		<Sound Type="StopMove">stop_move_super_sentinel</Sound>
+		<Sound Type="Create">Play_MLM_protector_attack</Sound>
+		<Sound Type="Death">Play_MLM_enforcer_death</Sound>
+		<Sound Type="Select">Play_MLM_protector_select</Sound>
+		<Sound Type="Work">Play_MLM_retriever_select</Sound>
+		<Sound Type="Attack">Play_MLM_enforcer_attack</Sound>
+		<Sound Type="Pain">Play_MLM_watcher_pain</Sound>
 		<DamageType direction="FrontHalf">Shielded</DamageType>
 		<DamageType direction="Full">Heavy</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -42792,13 +42812,13 @@
 		<SubSelectSort>41300</SubSelectSort>
 		<SelectedRadiusX>1.70000005</SelectedRadiusX>
 		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
-		<Sound Type="Create">play_cov_hunter_birth</Sound>
-		<Sound Type="Death">play_cov_hunter_vo_death</Sound>
-		<Sound Type="Pain">play_cov_hunter_vo_hit</Sound>
-		<Sound Type="Select">play_cov_hunter_select</Sound>
-		<Sound Type="Work">play_cov_hunter_acknowledge</Sound>
-		<Sound Type="Attack">play_cov_hunter_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_hunter.bnk</ExtendedSoundBank>
+		<Sound Type="Create">Play_MLM_hunter_cap_select</Sound>
+		<Sound Type="Death">Play_MLM_hunter_cap_death</Sound>
+		<Sound Type="Pain">Play_MLM_hunter_cap_pain</Sound>
+		<Sound Type="Select">Play_MLM_hunter_cap_select</Sound>
+		<Sound Type="Work">Play_MLM_hunter_cap_ack</Sound>
+		<Sound Type="Attack">Play_MLM_hunter_cap_attack</Sound>
+		<Sound Type="Ability">Play_MLM_hunter_cap_ability</Sound>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full">Shielded</DamageType>
 		<DamageType direction="Full">CovenantLeader</DamageType>

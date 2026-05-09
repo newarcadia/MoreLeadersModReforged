@@ -16,7 +16,7 @@
 				<weight>1</weight>
 				<tag type="Attack" start="0" position="0.100000001" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.100000001" end="1" name="effects\vehicle_fx\for\sentinel\muzzleblast_01" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
-				<tag type="Sound" start="0" position="0.100000001" end="1" name="playw_p_pistol_fire" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.100000001" end="1" name="Play_MLM_suppressor_fire" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
 		</anim>
 		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="">

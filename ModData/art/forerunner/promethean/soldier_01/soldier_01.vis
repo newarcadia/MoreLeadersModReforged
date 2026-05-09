@@ -422,27 +422,27 @@
 				<file>unsc\infantry\marine_01\rocketattack_01</file>
 				<weight>1</weight>
 				<tag type="Attack" start="0" position="0.119000003" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
-				<tag type="Sound" start="0" position="0.119999997" end="1" name="play_unsc_odst_rocket_launcher" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.119999997" end="1" name="Play_MLM_scattershot_fire" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.119999997" end="1" name="effects\Unit_FX\unsc\odst\missilelaunch_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\rocketattack_02</file>
 				<weight>1</weight>
 				<tag type="Attack" start="0" position="0.0700000003" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
-				<tag type="Sound" start="0" position="0.0700000003" end="1" name="play_unsc_odst_rocket_launcher" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.0700000003" end="1" name="Play_MLM_scattershot_fire" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.0700000003" end="1" name="effects\Unit_FX\unsc\odst\missilelaunch_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\rocketattack_03</file>
 				<weight>1</weight>
-				<tag type="Sound" start="0" position="0.159999996" end="1" name="play_unsc_odst_rocket_launcher" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.159999996" end="1" name="Play_MLM_scattershot_fire" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.159999996" end="1" name="effects\Unit_FX\unsc\odst\missilelaunch_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.164000005" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\rocketattack_04</file>
 				<weight>1</weight>
-				<tag type="Sound" start="0" position="0.109999999" end="1" name="play_unsc_odst_rocket_launcher" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.109999999" end="1" name="Play_MLM_scattershot_fire" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.109999999" end="1" name="effects\Unit_FX\unsc\odst\missilelaunch_01" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.112999998" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
@@ -460,14 +460,14 @@
 				<file>unsc\infantry\marine_01\assaultrifle_attack_04</file>
 				<weight>30</weight>
 				<tag type="Particle" start="0" position="0.230000004" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
-				<tag type="Sound" start="0" position="0.230000004" end="1" name="play_unsc_marine_mg_test_3shot" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.230000004" end="1" name="Play_MLM_suppressor_fire" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.232999995" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
 			<asset type="Anim">
 				<file>unsc\infantry\marine_01\assaultrifle_attack_01</file>
 				<weight>80</weight>
 				<tag type="Particle" start="0" position="0.159999996" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
-				<tag type="Sound" start="0" position="0.159999996" end="1" name="play_unsc_marine_mg_test_3shot" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.159999996" end="1" name="Play_MLM_suppressor_fire" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.164000005" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.310000002" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.31400001" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
@@ -478,7 +478,7 @@
 				<file>unsc\infantry\marine_01\assaultrifle_attack_02</file>
 				<weight>70</weight>
 				<tag type="Particle" start="0" position="0.186000004" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
-				<tag type="Sound" start="0" position="0.189999998" end="1" name="play_unsc_marine_mg_test_3shot" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.189999998" end="1" name="Play_MLM_suppressor_fire" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.189999998" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.294999987" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.300000012" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
@@ -489,7 +489,7 @@
 				<file>unsc\infantry\marine_01\assaultrifle_attack_03</file>
 				<weight>40</weight>
 				<tag type="Particle" start="0" position="0.0769999996" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
-				<tag type="Sound" start="0" position="0.0799999982" end="1" name="play_unsc_marine_mg_test_3shot" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.0799999982" end="1" name="Play_MLM_suppressor_fire" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.0839999989" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.119999997" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.119999997" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
@@ -508,7 +508,7 @@
 				<file>unsc\infantry\marine_01\assaultrifle_attack_01</file>
 				<weight>5</weight>
 				<tag type="Particle" start="0" position="0.159999996" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
-				<tag type="Sound" start="0" position="0.159999996" end="1" name="play_unsc_marine_mg_test_3shot" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.159999996" end="1" name="Play_MLM_suppressor_fire" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.164000005" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.310000002" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.31400001" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
@@ -519,7 +519,7 @@
 				<file>unsc\infantry\marine_01\assaultrifle_attack_02</file>
 				<weight>5</weight>
 				<tag type="Particle" start="0" position="0.186000004" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
-				<tag type="Sound" start="0" position="0.189999998" end="1" name="play_unsc_marine_mg_test_3shot" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.189999998" end="1" name="Play_MLM_suppressor_fire" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.189999998" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.294999987" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.300000012" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
@@ -530,7 +530,7 @@
 				<file>unsc\infantry\marine_01\assaultrifle_attack_03</file>
 				<weight>20</weight>
 				<tag type="Particle" start="0" position="0.0769999996" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
-				<tag type="Sound" start="0" position="0.0799999982" end="1" name="play_unsc_marine_mg_test_3shot" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.0799999982" end="1" name="Play_MLM_suppressor_fire" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.0839999989" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.119999997" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.119999997" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />

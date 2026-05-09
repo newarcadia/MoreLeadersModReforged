@@ -9,7 +9,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_fiendishreturn</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">for_inf_didact_01</Target>
@@ -34,7 +34,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_viciousblades</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_didact_upgrade1</TechStatus>
 		</Prereqs>
@@ -59,7 +59,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_ghastlyvision</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_didact_upgrade2</TechStatus>
 		</Prereqs>
@@ -104,6 +104,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_phaeton_upgrade1</TechStatus>
 		</Prereqs>
@@ -129,6 +130,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_phaeton_upgrade2</TechStatus>
 		</Prereqs>
@@ -272,7 +274,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_deacon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">ban_inf_gruntgoblin_01</Target>
@@ -300,7 +302,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_deacon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_gruntgoblin_upgrade1</TechStatus>
 		</Prereqs>
@@ -331,7 +333,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_deacon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_gruntgoblin_upgrade2</TechStatus>
 		</Prereqs>
@@ -359,7 +361,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_HeavygruntDeacon_01</Target>
@@ -385,7 +387,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_needler</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_hgruntdeacon_upgrade1</TechStatus>
 		</Prereqs>
@@ -413,7 +415,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_deacon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_hgruntdeacon_upgrade2</TechStatus>
 		</Prereqs>
@@ -730,7 +732,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_wingmen</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">creep_havok_upgrade1</TechStatus>
 		</Prereqs>
@@ -758,7 +760,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_chaffpods</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">creep_havok_upgrade2</TechStatus>
 		</Prereqs>
@@ -805,7 +807,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_wingmen</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">creep_wasp_upgrade1</TechStatus>
 		</Prereqs>
@@ -831,7 +833,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_chaffpods</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">creep_wasp_upgrade2</TechStatus>
 		</Prereqs>
@@ -870,7 +872,7 @@
 		<Cost resourcetype="Power">4</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
-		<ResearchCompleteSound>play_vog_tech_megabarrage</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">creep_air_gunship_01</Target>
@@ -893,7 +895,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">creep_inf_marine_01</Target>
@@ -923,7 +925,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_rpg</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">creep_marine_upgrade1</TechStatus>
 		</Prereqs>
@@ -975,7 +977,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_medic</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">creep_marine_upgrade2</TechStatus>
 		</Prereqs>
@@ -1008,7 +1010,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">creep_inf_badger_01</Target>
@@ -1038,7 +1040,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_rpg</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">creep_badger_upgrade1</TechStatus>
 		</Prereqs>
@@ -1071,7 +1073,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_medic</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">creep_badger_upgrade2</TechStatus>
 		</Prereqs>
@@ -1104,7 +1106,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">creep_inf_empmarine_01</Target>
@@ -1127,7 +1129,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_rpg</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">creep_empmarine_upgrade1</TechStatus>
 		</Prereqs>
@@ -1153,7 +1155,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_medic</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">creep_empmarine_upgrade2</TechStatus>
 		</Prereqs>
@@ -1810,7 +1812,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_boostedram</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">fore_air_sentinel_lp_01_new</Target>
@@ -1830,7 +1832,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_strafe</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_swdefense_upgrade1</TechStatus>
 		</Prereqs>
@@ -1853,7 +1855,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_scoutshield</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_swdefense_upgrade2</TechStatus>
 		</Prereqs>
@@ -1909,7 +1911,7 @@
 		<ResearchPoints>45</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_grenadier</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">creep_spade_upgrade1</TechStatus>
 		</Prereqs>
@@ -1945,7 +1947,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">creep_spade_upgrade2</TechStatus>
 		</Prereqs>
@@ -1988,7 +1990,7 @@
 		<ResearchPoints>30</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_strafe</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">creep_veh_mongoose_01</Target>
@@ -2011,7 +2013,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_strafe</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">creep_mongoose_upgrade1</TechStatus>
 		</Prereqs>
@@ -2040,7 +2042,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_scoutshield</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">creep_mongoose_upgrade2</TechStatus>
 		</Prereqs>
@@ -3559,6 +3561,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_gruntDeacon_01</Target>
@@ -3588,7 +3591,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_needler</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_GruntDeacon_upgrade1</TechStatus>
 		</Prereqs>
@@ -3638,7 +3641,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_deacon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_GruntDeacon_upgrade2</TechStatus>
 		</Prereqs>
@@ -3709,6 +3712,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">covenant_LeaderBrute</TechStatus>
 		</Prereqs>
@@ -3741,7 +3745,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_needler</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_bruteBerserker_upgrade1</TechStatus>
 		</Prereqs>
@@ -3779,7 +3783,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_deacon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_bruteBerserker_upgrade2</TechStatus>
 		</Prereqs>
@@ -3834,7 +3838,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_overdrive</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_chimera_upgrade1</TechStatus>
 		</Prereqs>
@@ -3860,7 +3864,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_shieldamplifier</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_chimera_upgrade2</TechStatus>
 		</Prereqs>
@@ -3886,7 +3890,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_strafe</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">covenant_LeaderMercenay</TechStatus>
 		</Prereqs>
@@ -3915,7 +3919,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_heavyshield</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_champion_upgrade1</TechStatus>
 		</Prereqs>
@@ -3941,7 +3945,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_heavyshield</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_champion_upgrade2</TechStatus>
 		</Prereqs>
@@ -3966,7 +3970,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_stateofgrace</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">covenant_LeaderMercenay</TechStatus>
 		</Prereqs>
@@ -3991,7 +3995,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_harmoniousdigestion</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_repairdrones_upgrade1</TechStatus>
 		</Prereqs>
@@ -4017,7 +4021,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">covenant_LeaderMercenay</TechStatus>
 		</Prereqs>
@@ -4051,7 +4055,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_needler</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_skirmisher_upgrade1</TechStatus>
 		</Prereqs>
@@ -4089,7 +4093,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_deacon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_skirmisher_upgrade2</TechStatus>
 		</Prereqs>
@@ -4125,7 +4129,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_defensegauntlet</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">covenant_LeaderMercenay</TechStatus>
 		</Prereqs>
@@ -4154,7 +4158,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_beamrifle</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_skirmisherAI_upgrade1</TechStatus>
 		</Prereqs>
@@ -4180,7 +4184,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_supremegauntlet</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_skirmisherAI_upgrade2</TechStatus>
 		</Prereqs>
@@ -4211,7 +4215,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_bondedshield</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">covenant_LeaderMercenay</TechStatus>
 		</Prereqs>
@@ -4240,7 +4244,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_spiritbond</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_skirmisherAV_upgrade1</TechStatus>
 		</Prereqs>
@@ -4266,7 +4270,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_assaultbeam</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_skirmisherAV_upgrade2</TechStatus>
 		</Prereqs>
@@ -4292,7 +4296,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">covenant_LeaderMercenay</TechStatus>
 		</Prereqs>
@@ -4322,7 +4326,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_needler</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_drones_upgrade1</TechStatus>
 		</Prereqs>
@@ -4364,7 +4368,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_heavyshield</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_drones_upgrade2</TechStatus>
 		</Prereqs>
@@ -4401,7 +4405,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">covenant_LeaderMercenay</TechStatus>
 		</Prereqs>
@@ -4431,7 +4435,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_needler</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_majordrones_upgrade1</TechStatus>
 		</Prereqs>
@@ -4468,7 +4472,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_heavyshield</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_majordrones_upgrade2</TechStatus>
 		</Prereqs>
@@ -4497,7 +4501,7 @@
 		<ResearchPoints>30</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_repeatingcannon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">covenant_LeaderMercenay</TechStatus>
 		</Prereqs>
@@ -4523,7 +4527,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_repeatingcannon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_beetle_upgrade1</TechStatus>
 		</Prereqs>
@@ -4552,7 +4556,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_repeatingcannon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_beetle_upgrade2</TechStatus>
 		</Prereqs>
@@ -4603,7 +4607,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_stasisdrain</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_artillery_upgrade1</TechStatus>
 		</Prereqs>
@@ -4629,7 +4633,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_stasisbomb</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_artillery_upgrade2</TechStatus>
 		</Prereqs>
@@ -4973,7 +4977,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_scorch</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_ghost_upgrade3</TechStatus>
 		</Prereqs>
@@ -5001,7 +5005,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_scorch</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_bruteChopper_upgrade3</TechStatus>
 		</Prereqs>
@@ -5490,7 +5494,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_chaffpods</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_air_unmanneddrone_01</Target>
@@ -5516,7 +5520,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_duallaunchers</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_drone_upgrade1</TechStatus>
 		</Prereqs>
@@ -5545,7 +5549,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_deflectionplating</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_drone_upgrade2</TechStatus>
 		</Prereqs>
@@ -5574,7 +5578,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_focusinglens</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_sniper_01</Target>
@@ -5599,7 +5603,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_cloak</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_sniper_upgrade1</TechStatus>
 		</Prereqs>
@@ -5628,7 +5632,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_piercingshot</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_sniper_upgrade2</TechStatus>
 		</Prereqs>
@@ -5918,7 +5922,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_canistershell</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_colossus_upgrade1</TechStatus>
 			<TechStatus status="Active">unsc_LeaderAnders</TechStatus>
@@ -5947,7 +5951,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_powerturret</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_colossus_upgrade2</TechStatus>
 			<TechStatus status="Active">unsc_LeaderAnders</TechStatus>
@@ -6006,7 +6010,7 @@
 		<ResearchPoints>45</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_grenadier</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_mantis_upgrade1</TechStatus>
 		</Prereqs>
@@ -6046,7 +6050,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_mantis_upgrade2</TechStatus>
 		</Prereqs>
@@ -6088,6 +6092,7 @@
 		<Cost resourcetype="Supplies">125</Cost>
 		<Cost resourcetype="Power">1</Cost>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_LeaderAnders</TechStatus>
 		</Prereqs>
@@ -6113,7 +6118,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_repairkit</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_LeaderAnders</TechStatus>
 			<TechStatus status="Active">unsc_rangedcyclops_upgrade1</TechStatus>
@@ -6140,7 +6145,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_hightorquejoint</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_LeaderAnders</TechStatus>
 			<TechStatus status="Active">unsc_rangedcyclops_upgrade2</TechStatus>
@@ -6170,7 +6175,7 @@
 		<ResearchPoints>15</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_upgrade_supplypad</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Flag>UniqueProtoUnitInstance</Flag>
 		<Effects>
 			<Effect type="TransformUnit">fld_bldg_ressourcedrop_02</Effect>
@@ -8464,6 +8469,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_elite_01</Target>
@@ -8496,7 +8502,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_needler</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_eliteupgrade_01</TechStatus>
 		</Prereqs>
@@ -8528,7 +8534,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_eliteupgrade_02</TechStatus>
 		</Prereqs>
@@ -8564,7 +8570,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_heavyelite_01</Target>
@@ -8595,7 +8601,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_sniperelite_upgrade1</TechStatus>
 		</Prereqs>
@@ -8642,7 +8648,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_beamrifle</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_sniperelite_upgrade2</TechStatus>
 		</Prereqs>
@@ -8683,7 +8689,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_fuelrodelite</Target>
@@ -8712,7 +8718,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_fuelrodelite_upgrade1</TechStatus>
 		</Prereqs>
@@ -8744,7 +8750,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_jumppack</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_cov_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_fuelrodelite_upgrade2</TechStatus>
 		</Prereqs>
@@ -8821,7 +8827,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_wingmen</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_nightingale_upgrade1</TechStatus>
 		</Prereqs>
@@ -8850,7 +8856,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_wingmen</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_nightingale_upgrade2</TechStatus>
 		</Prereqs>
@@ -8879,7 +8885,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_odst_01_player</Target>
@@ -8909,7 +8915,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_rpg</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_odst_upgrade1_player</TechStatus>
 		</Prereqs>
@@ -8942,7 +8948,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_medic</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_odst_upgrade2</TechStatus>
 		</Prereqs>
@@ -8999,7 +9005,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_wingmen</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_hawk_upgrade1</TechStatus>
 		</Prereqs>
@@ -9043,7 +9049,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_chaffpods</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_hawk_upgrade2</TechStatus>
 		</Prereqs>
@@ -9118,7 +9124,7 @@
 		<Flag>HiddenFromStats</Flag>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_chaffpods</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">creep_LeaderBork</TechStatus>
 			<TechStatus status="Active">unsc_hornet_upgrade3</TechStatus>
@@ -9174,7 +9180,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_wingmen</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">suc_falcon_upgrade1</TechStatus>
 		</Prereqs>
@@ -9203,7 +9209,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_chaffpods</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">suc_falcon_upgrade2</TechStatus>
 		</Prereqs>
@@ -9232,7 +9238,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_warthog_upgrade2</TechStatus>
 		</Prereqs>
@@ -9266,7 +9272,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">suc_inf_infantry_01</Target>
@@ -9294,7 +9300,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_rpg</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">suc_infantry_upgrade1</TechStatus>
 		</Prereqs>
@@ -9340,7 +9346,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_medic</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">suc_infantry_upgrade2</TechStatus>
 		</Prereqs>
@@ -9368,6 +9374,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">suc_inf_heavyinfantry_01</Target>
@@ -9392,7 +9399,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_focusinglens</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">suc_heavyinfantry_upgrade1</TechStatus>
 		</Prereqs>
@@ -9438,6 +9445,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">suc_heavyinfantry_upgrade2</TechStatus>
 		</Prereqs>
@@ -9465,6 +9473,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">suc_inf_sniper_01</Target>
@@ -9487,6 +9496,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">suc_sniper_upgrade1</TechStatus>
 		</Prereqs>
@@ -9512,6 +9522,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">suc_sniper_upgrade2</TechStatus>
 		</Prereqs>
@@ -9537,6 +9548,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">suc_inf_stealth_01</Target>
@@ -9559,6 +9571,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">suc_stealth_upgrade1</TechStatus>
 		</Prereqs>
@@ -9584,6 +9597,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">suc_stealth_upgrade2</TechStatus>
 		</Prereqs>
@@ -9731,7 +9745,7 @@
 		<Cost resourcetype="Power">2</Cost>
 		<ResearchPoints>30</ResearchPoints>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">creep_LeaderBork</TechStatus>
 		</Prereqs>
@@ -9766,7 +9780,7 @@
 		<ResearchPoints>45</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_spartanmech_upgrade1</TechStatus>
 			<TechStatus status="Active">creep_LeaderBork</TechStatus>
@@ -9802,7 +9816,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_spartanmech_upgrade2</TechStatus>
 			<TechStatus status="Active">creep_LeaderBork</TechStatus>
@@ -10080,7 +10094,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_basic</TechStatus>
 		</Prereqs>
@@ -10110,7 +10124,7 @@
 		<ResearchPoints>30</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_neuralimplant</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_spartanalice_upgrade1</TechStatus>
 		</Prereqs>
@@ -10166,7 +10180,7 @@
 		<ResearchPoints>45</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_spartanalice_upgrade2</TechStatus>
 		</Prereqs>
@@ -10194,7 +10208,7 @@
 		<ResearchPoints>30</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_basic</TechStatus>
 		</Prereqs>
@@ -10250,7 +10264,7 @@
 		<ResearchPoints>45</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_neuralimplant</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_spartandouglas_upgrade1</TechStatus>
 		</Prereqs>
@@ -10280,7 +10294,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_spartandouglas_upgrade2</TechStatus>
 		</Prereqs>
@@ -10308,7 +10322,7 @@
 		<ResearchPoints>30</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_basic</TechStatus>
 		</Prereqs>
@@ -10337,7 +10351,7 @@
 		<ResearchPoints>45</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_neuralimplant</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_spartanjerome_upgrade1</TechStatus>
 		</Prereqs>
@@ -10393,7 +10407,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_spartanjerome_upgrade2</TechStatus>
 		</Prereqs>
@@ -10486,7 +10500,7 @@
 		<Flag>Shadow</Flag>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_heavyshield</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">for_veh_eradicator_01_new</Target>
@@ -10509,7 +10523,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_volley</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_eradicator_upgrade1_new</TechStatus>
 		</Prereqs>
@@ -10541,7 +10555,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_powerturret</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_eradicator_upgrade2_new</TechStatus>
 		</Prereqs>
@@ -10571,7 +10585,7 @@
 		<Flag>Shadow</Flag>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_heavyshield</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">fore_air_guardian_01_new</Target>
@@ -10592,7 +10606,7 @@
 		<Flag>Shadow</Flag>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_volley</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_guardian_upgrade1_new</TechStatus>
 		</Prereqs>
@@ -10618,7 +10632,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_powerturret</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_guardian_upgrade2_new</TechStatus>
 		</Prereqs>
@@ -10971,6 +10985,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">fore_inf_walker_01</Target>
@@ -11012,6 +11027,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_walker_upgrade1</TechStatus>
 		</Prereqs>
@@ -11057,6 +11073,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_walker_upgrade2</TechStatus>
 		</Prereqs>
@@ -11111,6 +11128,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">fore_inf_soldier_01</Target>
@@ -11133,6 +11151,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_soldier_upgrade1</TechStatus>
 		</Prereqs>
@@ -11164,6 +11183,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_soldier_upgrade2</TechStatus>
 		</Prereqs>
@@ -11192,7 +11212,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_defensegauntlet</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">fore_inf_knight_01</Target>
@@ -11220,7 +11240,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_ancestralperversion</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_knight_upgrade1</TechStatus>
 		</Prereqs>
@@ -11250,7 +11270,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_assaultbeam</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_knight_upgrade2</TechStatus>
 		</Prereqs>
@@ -11282,7 +11302,7 @@
 		<ResearchPoints>30</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_gunner</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">fore_air_attractor_01</Target>
@@ -11308,7 +11328,7 @@
 		<ResearchPoints>45</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_grenadier</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_attractor_upgrade1</TechStatus>
 		</Prereqs>
@@ -11337,7 +11357,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_attractor_upgrade2</TechStatus>
 		</Prereqs>
@@ -11366,7 +11386,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_blessedimmolation</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">for_air_oracle_01</Target>
@@ -11389,7 +11409,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_ancestralperversion</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_oracle_upgrade1</TechStatus>
 		</Prereqs>
@@ -11421,7 +11441,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_divineabsolution</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_oracle_upgrade2</TechStatus>
 		</Prereqs>
@@ -11446,7 +11466,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_repeatingcannon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">for_air_regulator_01</Target>
@@ -11472,7 +11492,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_repeatingcannon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_regulator_upgrade1</TechStatus>
 		</Prereqs>
@@ -11501,7 +11521,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_repeatingcannon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_regulator_upgrade2</TechStatus>
 		</Prereqs>
@@ -11532,6 +11552,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">fore_air_sentinel_01</Target>
@@ -11560,6 +11581,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_sentinel_upgrade1</TechStatus>
 		</Prereqs>
@@ -11591,7 +11613,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_personalshield</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_sentinel_upgrade2</TechStatus>
 		</Prereqs>
@@ -11644,7 +11666,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_chainamplifier</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_sentinel3_upgrade1</TechStatus>
 		</Prereqs>
@@ -11673,6 +11695,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_sentinel3_upgrade2</TechStatus>
 		</Prereqs>
@@ -11723,6 +11746,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_superwalker_upgrade1</TechStatus>
 		</Prereqs>
@@ -11754,6 +11778,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_superwalker_upgrade2</TechStatus>
 		</Prereqs>
@@ -11798,6 +11823,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_swarm_upgrade1</TechStatus>
 		</Prereqs>
@@ -11820,6 +11846,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_swarm_upgrade2</TechStatus>
 		</Prereqs>
@@ -11864,6 +11891,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_blister_upgrade1</TechStatus>
 		</Prereqs>
@@ -11894,6 +11922,7 @@
 		<Cost resourcetype="Power">3</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<Prereqs>
 			<TechStatus status="Active">for_blister_upgrade2</TechStatus>
@@ -11941,6 +11970,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_hyperion_upgrade1</TechStatus>
 		</Prereqs>
@@ -11979,6 +12009,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_hyperion_upgrade2</TechStatus>
 		</Prereqs>
@@ -12029,6 +12060,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_enforcer_upgrade1</TechStatus>
 		</Prereqs>
@@ -12057,6 +12089,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_enforcer_upgrade2</TechStatus>
 		</Prereqs>
@@ -12084,7 +12117,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="0.8" subtype="PowerRechargeTime" power="ForerunnerLeaderRepair" relativity="Percent">
 				<Target type="Player" />
@@ -12112,7 +12145,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1.15" subtype="MaximumVelocity" relativity="Percent">
 				<Target type="ProtoUnit">fore_air_sentinel_01</Target>
@@ -12168,7 +12201,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_boostedram</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">fore_veh_pilotes_01</Target>
@@ -12203,7 +12236,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_strafe</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_pilotes_upgrade1</TechStatus>
 		</Prereqs>
@@ -12232,7 +12265,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_scoutshield</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">for_pilotes_upgrade2</TechStatus>
 		</Prereqs>
@@ -13036,7 +13069,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">ban_inf_bruteHammer_01</Target>
@@ -13068,7 +13101,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_personalshield</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_bhammer_upgrade1</TechStatus>
 		</Prereqs>
@@ -13099,7 +13132,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_shieldamplifier</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_bhammer_upgrade2</TechStatus>
 		</Prereqs>
@@ -13130,6 +13163,7 @@
 		<ResearchPoints>50</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">ban_inf_goliath_01</Target>
@@ -13157,6 +13191,7 @@
 		<ResearchPoints>50</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_goliath_upgrade1</TechStatus>
 		</Prereqs>
@@ -13187,6 +13222,7 @@
 		<ResearchPoints>65</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_goliath_upgrade2</TechStatus>
 		</Prereqs>
@@ -13242,6 +13278,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_blisterback_upgrade1</TechStatus>
 		</Prereqs>
@@ -13266,6 +13303,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_blisterback_upgrade2</TechStatus>
 		</Prereqs>
@@ -13330,7 +13368,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_jumppack</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_reaver_upgrade1</TechStatus>
 		</Prereqs>
@@ -13365,7 +13403,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_electricshot</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_reaver_upgrade2</TechStatus>
 		</Prereqs>
@@ -13399,7 +13437,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_inheritance</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_basic</TechStatus>
 		</Prereqs>
@@ -13423,7 +13461,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_birthright</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_lekgologeneral_upgrade1</TechStatus>
 		</Prereqs>
@@ -13450,7 +13488,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_destiny</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_lekgologeneral_upgrade2</TechStatus>
 		</Prereqs>
@@ -13499,7 +13537,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_defensegauntlet</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_slugmen_01</Target>
@@ -13521,7 +13559,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_beamrifle</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_slugman_upgrade1</TechStatus>
 		</Prereqs>
@@ -13546,7 +13584,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_supremegauntlet</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_slugman_upgrade2</TechStatus>
 		</Prereqs>
@@ -13571,7 +13609,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_defensegauntlet</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">ban_veh_skitterer_01</Target>
@@ -13598,7 +13636,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_beamrifle</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_skitterer_upgrade1</TechStatus>
 		</Prereqs>
@@ -13628,7 +13666,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_supremegauntlet</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_skitterer_upgrade2</TechStatus>
 		</Prereqs>
@@ -13658,7 +13696,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_regretssentence</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Effects />
 	</Tech>
 	<Tech name="cov_decibeam_upgrade2" type="Normal">
@@ -13669,7 +13707,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_regretsdoom</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_decibeam_upgrade1</TechStatus>
 		</Prereqs>
@@ -13683,7 +13721,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_regretscondemnation</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_decibeam_upgrade2</TechStatus>
 		</Prereqs>
@@ -13697,7 +13735,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_regretssentence</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Effects />
 	</Tech>
 	<Tech name="cov_hunterbrand_upgrade2" type="Normal">
@@ -13708,7 +13746,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_regretsdoom</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_hunterbrand_upgrade1</TechStatus>
 		</Prereqs>
@@ -13722,7 +13760,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_regretscondemnation</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_hunterbrand_upgrade2</TechStatus>
 		</Prereqs>
@@ -14149,7 +14187,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_inheritance</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="TransformProtoUnit" FromType="cov_inf_bruteChief_01" ToType="cov_inf_bruteChief_02" />
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
@@ -14177,7 +14215,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_birthright</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_decimus_upgrade1</TechStatus>
 		</Prereqs>
@@ -14211,7 +14249,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_destiny</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">cov_decimus_upgrade2</TechStatus>
 		</Prereqs>
@@ -14435,7 +14473,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_autocannons</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">ban_veh_bruteChopper_01</Target>
@@ -14471,7 +14509,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_stabilizers</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_bruteChopper_upgrade1</TechStatus>
 		</Prereqs>
@@ -14514,7 +14552,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_bruteChopper_upgrade2</TechStatus>
 		</Prereqs>
@@ -14549,7 +14587,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">ban_inf_bruteGrunt_01</Target>
@@ -14587,7 +14625,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_needler</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_grunt_upgrade1</TechStatus>
 		</Prereqs>
@@ -14647,7 +14685,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_deacon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_grunt_upgrade2</TechStatus>
 		</Prereqs>
@@ -14687,7 +14725,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_bondedshield</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">ban_inf_hunter_01</Target>
@@ -14712,7 +14750,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_spiritbond</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_hunter_upgrade1</TechStatus>
 		</Prereqs>
@@ -14737,7 +14775,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_assaultbeam</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_hunter_upgrade2</TechStatus>
 		</Prereqs>
@@ -14767,7 +14805,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_stateofgrace</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">ban_inf_engineer_01</Target>
@@ -14788,7 +14826,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_harmoniousdigestion</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_engineer_upgrade1</TechStatus>
 		</Prereqs>
@@ -14812,7 +14850,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_boost</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">ban_air_banshee_01</Target>
@@ -14840,7 +14878,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_repeatingcannon</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_banshee_upgrade1</TechStatus>
 		</Prereqs>
@@ -14867,7 +14905,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_sacrifice</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_banshee_upgrade2</TechStatus>
 		</Prereqs>
@@ -14902,7 +14940,7 @@
 		<ResearchPoints>20</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_heavyshield</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">ban_veh_wraith_01</Target>
@@ -14933,7 +14971,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_scorch</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_wraith_upgrade1</TechStatus>
 		</Prereqs>
@@ -14968,7 +15006,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_plasmamodulator</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_wraith_upgrade2</TechStatus>
 		</Prereqs>
@@ -15037,7 +15075,7 @@
 		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_overdrive</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_locust_upgrade1</TechStatus>
 		</Prereqs>
@@ -15072,7 +15110,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_shieldamplifier</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_ban_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">ban_locust_upgrade2</TechStatus>
 		</Prereqs>
@@ -15226,7 +15264,7 @@
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_hawk</ResearchCompleteSound>
+		<ResearchCompleteSound>Play_MLM_vog_unsc_techunlocked</ResearchCompleteSound>
 		<Prereqs>
 			<TechStatus status="Active">unsc_LeaderKeyes</TechStatus>
 			<TechStatus status="Active">unsc_hornet_upgrade3</TechStatus>

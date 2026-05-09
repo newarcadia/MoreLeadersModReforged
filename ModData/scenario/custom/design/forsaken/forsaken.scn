@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Terrain LoadVisRep="true">PHXscn15</Terrain>
+	<Terrain LoadVisRep="true">forsaken</Terrain>
 	<Sky>environment\sky\sw_interior_sky</Sky>
 	<TerrainEnv>environment\sky\cloudy_sky_dome_en.ddx</TerrainEnv>
-	<Lightset>PHXscn15</Lightset>
-	<Pathing>PHXscn15</Pathing>
+	<Lightset>forsaken</Lightset>
+	<Pathing>forsaken</Pathing>
 	<Cinematics />
 	<Lightsets />
 	<TalkingHeads />
