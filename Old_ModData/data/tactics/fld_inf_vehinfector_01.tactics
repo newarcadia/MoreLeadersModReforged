@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>FloodInfection</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>172</DamagePerSecond>
+		<UseDPSasDPA />
+		<MaxRange>4</MaxRange>
+		<WeaponType>Basic</WeaponType>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>FloodInfectionAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>MeleeAttack</Anim>
+		<Weapon>FloodInfection</Weapon>
+		<MainAttack />
+		<MeleeRange />
+		<Infection />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2.5</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>FloodInfectionAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

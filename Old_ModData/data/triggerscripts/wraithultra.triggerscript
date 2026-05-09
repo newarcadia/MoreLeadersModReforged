@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="wraithultra.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Vector" Name="NewVector0" IsNull="false" />
+    <TriggerVar ID="1" Type="Player" Name="NewPlayer1" IsNull="false" />
+    <TriggerVar ID="2" Type="ProtoObject" Name="NewProtoObject2" IsNull="false">fx_proj_plasmaMortar_ad_02</TriggerVar>
+    <TriggerVar ID="5" Type="Vector" Name="NewVector5" IsNull="false" />
+    <TriggerVar ID="9" Type="Float" Name="NewFloat9" IsNull="false">4</TriggerVar>
+    <TriggerVar ID="13" Type="Float" Name="NewFloat9" IsNull="false">4</TriggerVar>
+    <TriggerVar ID="16" Type="Integer" Name="NewInteger16" IsNull="false">-6</TriggerVar>
+    <TriggerVar ID="18" Type="Integer" Name="NewInteger16" IsNull="false">6</TriggerVar>
+    <TriggerVar ID="20" Type="Integer" Name="NewInteger16" IsNull="false">6</TriggerVar>
+    <TriggerVar ID="21" Type="Integer" Name="NewInteger16" IsNull="false">-6</TriggerVar>
+    <TriggerVar ID="24" Type="Float" Name="NewFloat9" IsNull="false">4</TriggerVar>
+    <TriggerVar ID="25" Type="Trigger" Name="NewTrigger0" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="26" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="27" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="28" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="29" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="30" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="31" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="32" Type="Integer" Name="linkedInteger" IsNull="false" />
+    <TriggerVar ID="33" Type="Integer" Name="linkedInteger" IsNull="false" />
+    <TriggerVar ID="34" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="35" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="36" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="37" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="38" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="39" Type="Vector" Name="linkedVector" IsNull="false" />
+    <TriggerVar ID="40" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="41" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="42" Type="Vector" Name="linkedVector" IsNull="false" />
+    <TriggerVar ID="43" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="44" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="45" Type="Vector" Name="linkedVector" IsNull="false" />
+    <TriggerVar ID="46" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="47" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="48" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="49" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="50" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="51" Type="Float" Name="nullFloat" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-3647" Y="-304" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="0" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">1</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">26</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">27</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">28</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">29</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">30</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">31</Output>
+          </Condition>
+          <Condition ID="1" Type="CanRetrieveExternalLocation v1" DBID="440" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="Location" SigID="1" Optional="false">0</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="20" Type="RandomInt v1" DBID="178" Version="1" CommentOut="false">
+          <Input Name="Min" SigID="1" Optional="true">21</Input>
+          <Input Name="Max" SigID="2" Optional="true">20</Input>
+          <Output Name="Random" SigID="3" Optional="false">32</Output>
+        </Effect>
+        <Effect ID="22" Type="AsFloat v3" DBID="358" Version="3" CommentOut="false">
+          <Input Name="Int" SigID="1" Optional="true">32</Input>
+          <Output Name="Float" SigID="4" Optional="false">13</Output>
+        </Effect>
+        <Effect ID="16" Type="RandomInt v1" DBID="178" Version="1" CommentOut="false">
+          <Input Name="Min" SigID="1" Optional="true">16</Input>
+          <Input Name="Max" SigID="2" Optional="true">18</Input>
+          <Output Name="Random" SigID="3" Optional="false">33</Output>
+        </Effect>
+        <Effect ID="17" Type="AsFloat v3" DBID="358" Version="3" CommentOut="false">
+          <Input Name="Int" SigID="1" Optional="true">33</Input>
+          <Output Name="Float" SigID="4" Optional="false">24</Output>
+        </Effect>
+        <Effect ID="2" Type="LocationAdjust v2" DBID="59" Version="2" CommentOut="false">
+          <Input Name="SourceLoc" SigID="1" Optional="false">0</Input>
+          <Input Name="AdjustX" SigID="2" Optional="true">34</Input>
+          <Input Name="AdjustY" SigID="4" Optional="true">9</Input>
+          <Input Name="AdjustZ" SigID="5" Optional="true">35</Input>
+          <Input Name="AdjustVector" SigID="6" Optional="true">36</Input>
+          <Output Name="ResultLoc" SigID="3" Optional="false">5</Output>
+        </Effect>
+        <Effect ID="12" Type="LocationAdjust v2" DBID="59" Version="2" CommentOut="false">
+          <Input Name="SourceLoc" SigID="1" Optional="false">0</Input>
+          <Input Name="AdjustX" SigID="2" Optional="true">13</Input>
+          <Input Name="AdjustY" SigID="4" Optional="true">37</Input>
+          <Input Name="AdjustZ" SigID="5" Optional="true">24</Input>
+          <Input Name="AdjustVector" SigID="6" Optional="true">38</Input>
+          <Output Name="ResultLoc" SigID="3" Optional="false">39</Output>
+        </Effect>
+        <Effect ID="10" Type="LocationAdjust v2" DBID="59" Version="2" CommentOut="false">
+          <Input Name="SourceLoc" SigID="1" Optional="false">0</Input>
+          <Input Name="AdjustX" SigID="2" Optional="true">24</Input>
+          <Input Name="AdjustY" SigID="4" Optional="true">40</Input>
+          <Input Name="AdjustZ" SigID="5" Optional="true">13</Input>
+          <Input Name="AdjustVector" SigID="6" Optional="true">41</Input>
+          <Output Name="ResultLoc" SigID="3" Optional="false">42</Output>
+        </Effect>
+        <Effect ID="8" Type="LocationAdjust v2" DBID="59" Version="2" CommentOut="false">
+          <Input Name="SourceLoc" SigID="1" Optional="false">0</Input>
+          <Input Name="AdjustX" SigID="2" Optional="true">13</Input>
+          <Input Name="AdjustY" SigID="4" Optional="true">43</Input>
+          <Input Name="AdjustZ" SigID="5" Optional="true">24</Input>
+          <Input Name="AdjustVector" SigID="6" Optional="true">44</Input>
+          <Output Name="ResultLoc" SigID="3" Optional="false">45</Output>
+        </Effect>
+        <Effect ID="4" Type="LaunchProjectile v3" DBID="57" Version="3" CommentOut="false">
+          <Input Name="ProjectileOwner" SigID="1" Optional="false">1</Input>
+          <Input Name="ProjectileProto" SigID="2" Optional="false">2</Input>
+          <Input Name="StartLoc" SigID="3" Optional="false">5</Input>
+          <Input Name="TargetLoc" SigID="4" Optional="true">39</Input>
+          <Input Name="TargetUnit" SigID="5" Optional="true">46</Input>
+          <Input Name="DamageOverride" SigID="6" Optional="true">47</Input>
+        </Effect>
+        <Effect ID="1" Type="LaunchProjectile v3" DBID="57" Version="3" CommentOut="false">
+          <Input Name="ProjectileOwner" SigID="1" Optional="false">1</Input>
+          <Input Name="ProjectileProto" SigID="2" Optional="false">2</Input>
+          <Input Name="StartLoc" SigID="3" Optional="false">5</Input>
+          <Input Name="TargetLoc" SigID="4" Optional="true">42</Input>
+          <Input Name="TargetUnit" SigID="5" Optional="true">48</Input>
+          <Input Name="DamageOverride" SigID="6" Optional="true">49</Input>
+        </Effect>
+        <Effect ID="6" Type="LaunchProjectile v3" DBID="57" Version="3" CommentOut="false">
+          <Input Name="ProjectileOwner" SigID="1" Optional="false">1</Input>
+          <Input Name="ProjectileProto" SigID="2" Optional="false">2</Input>
+          <Input Name="StartLoc" SigID="3" Optional="false">5</Input>
+          <Input Name="TargetLoc" SigID="4" Optional="true">45</Input>
+          <Input Name="TargetUnit" SigID="5" Optional="true">50</Input>
+          <Input Name="DamageOverride" SigID="6" Optional="true">51</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="0" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnFalse>
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

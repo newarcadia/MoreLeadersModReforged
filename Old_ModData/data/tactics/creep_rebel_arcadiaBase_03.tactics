@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>SpawnSentinel</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>creep_insurry_scorpion_01</SquadType>
+		<WorkRate>500</WorkRate>
+		<WorkRateVariance>120</WorkRateVariance>
+		<Count>1</Count>
+	</Action>
+	<Action>
+		<Name>SpawnSentinel1</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>creep_insurry_scorpion_01</SquadType>
+		<WorkRate>1</WorkRate>
+		<Count>1</Count>
+	</Action>
+	<Tactic>
+		<PersistentAction>SpawnSentinel</PersistentAction>
+		<PersistentAction>SpawnSentinel1</PersistentAction>
+	</Tactic>
+</TacticData>

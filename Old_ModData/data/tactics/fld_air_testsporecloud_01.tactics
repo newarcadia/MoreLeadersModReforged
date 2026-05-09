@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>FloodInfection</Name>
+		<AttackRate>0.025</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<DOTrate>85</DOTrate>
+		<DOTduration>7</DOTduration>
+		<DOTEffect small="fx_sporecloud_infect" medium="fx_sporecloud_infect" large="fx_sporecloud_infect">fx_sporecloud_infect</DOTEffect>
+		<AOERadius>3</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<MaxRange>10</MaxRange>
+		<WeaponType>Basic</WeaponType>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>FloodInfectionAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>MeleeAttack</Anim>
+		<Weapon>FloodInfection</Weapon>
+		<MainAttack />
+		<Infection />
+		<FindBetterAction />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>FloodInfectionAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

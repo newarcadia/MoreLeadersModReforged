@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>VehicleTakeOver</Name>
+		<ActionType>Join</ActionType>
+		<WorkRange>5</WorkRange>
+		<MergeType>Ground</MergeType>
+		<ProtoObject>fx_hijacked</ProtoObject>
+		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="5" boardTime="21" boardAnim="HijackIdle" unjoinMaxDist="25">Board</JoinType>
+		<DamageModifiers damage="1.29999995" damageTaken="0.769999981" byCombatValue="false" />
+		<Fatality attacker="HijackWraithStart" attackerEnd="HijackWraithEnd" target="Idle" targetEnd="SpartanWraithJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">cov_veh_wraith_01</Fatality>
+		<Fatality attacker="HijackWraithStart" attackerEnd="HijackWraithEnd" target="Idle" targetEnd="SpartanWraithJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">cov_veh_wraithLCE_01</Fatality>
+		<Fatality attacker="HijackGhostStart" attackerEnd="HijackGhostEnd" target="Idle" targetEnd="SpartanGhostJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" cooldown="0">cov_veh_ghost_01</Fatality>
+		<Fatality attacker="HijackChopperStart" attackerEnd="HijackChopperEnd" target="Idle" targetEnd="SpartanChopperJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" cooldown="0">cov_veh_bruteChopper_01</Fatality>
+		<Fatality attacker="HijackLocustStart" attackerEnd="HijackLocustEnd" target="Idle" targetEnd="SpartanLocustJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="true" cooldown="0">cov_veh_locust_01</Fatality>
+		<Fatality attacker="HijackScorpionStart" attackerEnd="HijackScorpionEnd" target="Idle" targetEnd="SpartanScorpionJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_scorpion_01</Fatality>
+		<Fatality attacker="HijackWarthogStart" attackerEnd="HijackWarthogEnd" target="Idle" targetEnd="SpartanWarthogJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_warthog_01</Fatality>
+		<Fatality attacker="HijackWarthogStart" attackerEnd="HijackWarthogEnd" target="Idle" targetEnd="SpartanWarthogJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_warthogLCE_01</Fatality>
+		<Fatality attacker="HijackWolverineStart" attackerEnd="HijackWolverineEnd" target="Idle" targetEnd="SpartanWolverineJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_wolverine_01</Fatality>
+		<Fatality attacker="HijackElephantStart" attackerEnd="HijackElephantEnd" target="Idle" targetEnd="SpartanElephantJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_elephant_01</Fatality>
+		<Fatality attacker="HijackElephantStart" attackerEnd="HijackElephantEnd" target="Idle" targetEnd="SpartanElephantJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_elephant_02</Fatality>
+		<Fatality attacker="HijackCobraStart" attackerEnd="HijackCobraEnd" target="Idle" targetEnd="SpartanCobraJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_cobra_01</Fatality>
+		<Fatality attacker="HijackGremlinStart" attackerEnd="HijackGremlinEnd" target="Idle" targetEnd="SpartanGremlinJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_gremlin_01</Fatality>
+		<Fatality attacker="HijackGrizzlyStart" attackerEnd="HijackGrizzlyEnd" target="Idle" targetEnd="SpartanGrizzlyJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="0.5" cooldown="0">unsc_veh_grizzly_01</Fatality>
+	</Action>
+	<Action>
+		<Name>AircraftTakeOver</Name>
+		<ActionType>Join</ActionType>
+		<WorkRange>10</WorkRange>
+		<MergeType>Ground</MergeType>
+		<ProtoObject>fx_hijacked</ProtoObject>
+		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="5" boardTime="21" boardAnim="HijackIdle" unjoinMaxDist="25">Board</JoinType>
+		<DamageModifiers damage="1.14999998" damageTaken="0.870000005" byCombatValue="false" />
+		<Fatality attacker="HijackBansheeStart" attackerEnd="HijackBansheeEnd" target="Idle" targetEnd="SpartanBansheeJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.800000012" toBoneRelative="true" air="true" airApexPercent="0.629999995" airHeight="8">cov_air_banshee_01</Fatality>
+		<Fatality attacker="HijackVampireStart" attackerEnd="HijackVampireEnd" target="Idle" targetEnd="SpartanVampireJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.800000012" toBoneRelative="true" air="true" airApexPercent="0.629999995" airHeight="8">cov_air_vampire_01</Fatality>
+		<Fatality attacker="HijackHawkStart" attackerEnd="HijackHawkEnd" target="Idle" targetEnd="SpartanHawkJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.800000012" toBoneRelative="true" air="true" airApexPercent="0.629999995" airHeight="8">unsc_air_hawk_01</Fatality>
+		<Fatality attacker="HijackHornetStart" attackerEnd="HijackHornetEnd" target="Idle" targetEnd="SpartanHornetJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.800000012" toBoneRelative="true" air="true" airApexPercent="0.629999995" airHeight="8">unsc_air_hornet_01</Fatality>
+	</Action>
+	<Action>
+		<Name>Dodge</Name>
+		<ActionType>Dodge</ActionType>
+		<DodgeChanceMin>0.75</DodgeChanceMin>
+		<DodgeChanceMax>0.75</DodgeChanceMax>
+		<DodgeMaxAngle>90</DodgeMaxAngle>
+		<DodgeCooldown>2</DodgeCooldown>
+	</Action>
+	<Tactic>
+		<PersistentAction>Dodge</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>SpartanBoardFlying</TargetType>
+			<Action>AircraftTakeOver</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>SpartanBoard</TargetType>
+			<Action>VehicleTakeOver</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

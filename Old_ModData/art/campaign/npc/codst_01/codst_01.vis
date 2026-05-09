@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="stormspartan01">
+	<model name="stormspartan01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>campaign\npc\codst_01\codst_01</file>
+			</asset>
+			<attach type="ModelRef" name="siphon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_magnum_01" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\idle_01</file>
+				<weight>10</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\idle_02</file>
+				<weight>2</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\idle_03</file>
+				<weight>2</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\walk_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\run_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\run_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\idle_01</file>
+				<weight>10</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\idle_01</file>
+				<weight>10</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\death_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\death_03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\death_04</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\death_05</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Flail" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>dlc2/pack1/animations/unsc/infantry/omegateam_jerome01/omegateam_jerome_hydralauncher_flail01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>dlc2/pack1/animations/unsc/infantry/omegateam_jerome01/omegateam_jerome_hydralauncher_flail02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>dlc2/pack1/animations/unsc/infantry/omegateam_jerome01/omegateam_jerome_hydralauncher_flail03</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Stunned" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\stunned01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Transition" tweenTime="5" tweenToAnimation="CombatIdle">
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.0549999997" end="1" name="vfx/dlc2/Units/SpartanGaussCharging" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.75" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.199000001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/RailGunMuzzle" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.200000003" end="1" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.200000003" end="1" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.200000003" end="1" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\attack_02</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.159999996" end="1" name="vfx/dlc2/Units/SpartanGaussCharging" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.75" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.219999999" end="1" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.219999999" end="1" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.219999999" end="1" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.219999999" end="1" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.224000007" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/RailGunMuzzle" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.519999981" end="1" name="vfx/dlc2/Units/SpartanGaussCharging" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.75" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.591000021" end="1" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.591000021" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/RailGunMuzzle" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.591000021" end="1" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.591000021" end="1" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.591000021" end="1" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\attack_03</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.148000002" end="1" name="vfx/dlc2/Units/SpartanGaussCharging" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.75" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.209999993" end="1" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.209999993" end="1" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.209999993" end="1" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.211999997" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/RailGunMuzzle" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.375" end="1" name="vfx/dlc2/Units/SpartanGaussCharging" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.75" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.446999997" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/RailGunMuzzle" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.446999997" end="1" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.446999997" end="1" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.446999997" end="1" tobone="bone_vfx_MuzzlePointLaserGun001" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="GroundPoundTakeoff" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\ground_pound_takeoff</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpartanJet" tobone="bone_vfx_LeftJet" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpartanJet" tobone="bone_vfx_RightJet" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpartanTakeOff" tobone="GrannyRootBone_stormspartan01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="GroundPoundArc" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\ground_pound_arc</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GroundPoundLand" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\ground_pound_land</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.108999997" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedImpactVFX/BlisterBackArtilleryImpact" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.108999997" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedImpactVFX/GorgonLandImpact" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="2" position_type="Time" position="0.115999997" end="1" name="ExplosionMedium" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="-0.899999976" lifespan="0" loop="false" checkSelected="true" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="GroundPound" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\ground_pound_short</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Knockdown" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\knockdown_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\knockdown_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MeleeAttack" exitAction="Transition" tweenTime="0" tweenToAnimation="CombatIdle">
+			<asset type="Anim">
+				<file>campaign\npc\codst_01\melee_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="siphon">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc2/pack1/units/unsc/weapons/spartan_siphon01/mesh_magnum_01</file>
+			</asset>
+		</component>
+	</model>
+</visual>

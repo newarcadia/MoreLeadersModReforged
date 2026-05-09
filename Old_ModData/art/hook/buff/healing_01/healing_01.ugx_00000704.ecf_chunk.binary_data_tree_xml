@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Materials>
+	<Material>
+		<Attributes>
+			<Name dataType="string">default</Name>
+			<Ver dataType="uint32">4</Ver>
+		</Attributes>
+		<NameValues>
+			<SpecPower dataType="float">15</SpecPower>
+			<SpecColorR dataType="float">1</SpecColorR>
+			<SpecColorG dataType="float">1</SpecColorG>
+			<SpecColorB dataType="float">1</SpecColorB>
+			<EnvReflectivity dataType="float">1.5</EnvReflectivity>
+			<EnvSharpness dataType="float">4</EnvSharpness>
+			<EnvFresnel dataType="float">0.5</EnvFresnel>
+			<EnvFresnelPower dataType="float">4</EnvFresnelPower>
+			<AccessoryIndex dataType="uint32">0</AccessoryIndex>
+			<Flags dataType="uint32">17</Flags>
+			<BlendType dataType="uint8">0</BlendType>
+			<Opacity dataType="uint8">255</Opacity>
+		</NameValues>
+		<Maps>
+			<diffuse>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\hook\buff\healing_01\healing_01_df</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</diffuse>
+			<normal>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\hook\buff\healing_01\healing_01_nm</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</normal>
+			<gloss>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\hook\buff\healing_01\healing_01_sp</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</gloss>
+			<opacity>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</opacity>
+			<xform>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</xform>
+			<emissive>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\hook\buff\healing_01\healing_01_em</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</emissive>
+			<ao>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</ao>
+			<env>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,4.600743E-41,0</UVWVel>
+				</Attributes>
+			</env>
+			<envmask>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</envmask>
+			<emxform>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</emxform>
+			<distortion>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</distortion>
+			<highlight>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</highlight>
+			<modulate>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</modulate>
+		</Maps>
+	</Material>
+	<Material>
+		<Attributes>
+			<Name dataType="string">default</Name>
+			<Ver dataType="uint32">4</Ver>
+		</Attributes>
+		<NameValues>
+			<SpecPower dataType="float">25</SpecPower>
+			<SpecColorR dataType="float">1</SpecColorR>
+			<SpecColorG dataType="float">1</SpecColorG>
+			<SpecColorB dataType="float">1</SpecColorB>
+			<EnvReflectivity dataType="float">1.5</EnvReflectivity>
+			<EnvSharpness dataType="float">4</EnvSharpness>
+			<EnvFresnel dataType="float">0.5</EnvFresnel>
+			<EnvFresnelPower dataType="float">4</EnvFresnelPower>
+			<AccessoryIndex dataType="uint32">0</AccessoryIndex>
+			<Flags dataType="uint32">57</Flags>
+			<BlendType dataType="uint8">2</BlendType>
+			<Opacity dataType="uint8">255</Opacity>
+		</NameValues>
+		<Maps>
+			<diffuse>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\hook\buff\healing_01\strips_01_df</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</diffuse>
+			<normal>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\hook\buff\healing_01\strips_01_nm</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</normal>
+			<gloss>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\hook\buff\healing_01\strips_01_sp</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</gloss>
+			<opacity>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\hook\buff\healing_01\strips_01_op</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</opacity>
+			<xform>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</xform>
+			<emissive>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\hook\buff\healing_01\strips_01_em</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</emissive>
+			<ao>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</ao>
+			<env>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,4.600743E-41,0</UVWVel>
+				</Attributes>
+			</env>
+			<envmask>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</envmask>
+			<emxform>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</emxform>
+			<distortion>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</distortion>
+			<highlight>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</highlight>
+			<modulate>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</modulate>
+		</Maps>
+	</Material>
+	<Material>
+		<Attributes>
+			<Name dataType="string">default</Name>
+			<Ver dataType="uint32">4</Ver>
+		</Attributes>
+		<NameValues>
+			<SpecPower dataType="float">25</SpecPower>
+			<SpecColorR dataType="float">0</SpecColorR>
+			<SpecColorG dataType="float">0</SpecColorG>
+			<SpecColorB dataType="float">0</SpecColorB>
+			<EnvReflectivity dataType="float">1</EnvReflectivity>
+			<EnvSharpness dataType="float">1</EnvSharpness>
+			<EnvFresnel dataType="float">0.5</EnvFresnel>
+			<EnvFresnelPower dataType="float">4</EnvFresnelPower>
+			<AccessoryIndex dataType="uint32">0</AccessoryIndex>
+			<Flags dataType="uint32">169</Flags>
+			<BlendType dataType="uint8">0</BlendType>
+			<Opacity dataType="uint8">255</Opacity>
+		</NameValues>
+		<Maps>
+			<diffuse>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">8.82818E-44,8.82818E-44,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\hook\buff\healing_01\ramp_01_df</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</diffuse>
+			<normal>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</normal>
+			<gloss>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</gloss>
+			<opacity>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</opacity>
+			<xform>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</xform>
+			<emissive>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">8.82818E-44,8.82818E-44,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\hook\buff\healing_01\ramp_01_em</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</emissive>
+			<ao>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</ao>
+			<env>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,4.600743E-41,0</UVWVel>
+				</Attributes>
+			</env>
+			<envmask>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</envmask>
+			<emxform>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</emxform>
+			<distortion>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</distortion>
+			<highlight>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</highlight>
+			<modulate>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</modulate>
+		</Maps>
+	</Material>
+	<Material>
+		<Attributes>
+			<Name dataType="string">default</Name>
+			<Ver dataType="uint32">4</Ver>
+		</Attributes>
+		<NameValues>
+			<SpecPower dataType="float">15</SpecPower>
+			<SpecColorR dataType="float">1</SpecColorR>
+			<SpecColorG dataType="float">1</SpecColorG>
+			<SpecColorB dataType="float">1</SpecColorB>
+			<EnvReflectivity dataType="float">2</EnvReflectivity>
+			<EnvSharpness dataType="float">4</EnvSharpness>
+			<EnvFresnel dataType="float">0.5</EnvFresnel>
+			<EnvFresnelPower dataType="float">4</EnvFresnelPower>
+			<AccessoryIndex dataType="uint32">0</AccessoryIndex>
+			<Flags dataType="uint32">57</Flags>
+			<BlendType dataType="uint8">0</BlendType>
+			<Opacity dataType="uint8">255</Opacity>
+		</NameValues>
+		<Maps>
+			<diffuse>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\hook\buff\healing_01\healing_decal_01_df</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</diffuse>
+			<normal>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\hook\buff\healing_01\healing_decal_01_nm</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</normal>
+			<gloss>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\hook\buff\healing_01\healing_decal_01_sp</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</gloss>
+			<opacity>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</opacity>
+			<xform>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</xform>
+			<emissive>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+				<Map>
+					<Attributes>
+						<Name dataType="string">\hook\buff\healing_01\healing_decal_01_em</Name>
+						<Channel dataType="int16">0</Channel>
+						<Flags dataType="uint16">7</Flags>
+					</Attributes>
+				</Map>
+			</emissive>
+			<ao>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</ao>
+			<env>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,4.600743E-41,0</UVWVel>
+				</Attributes>
+			</env>
+			<envmask>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</envmask>
+			<emxform>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</emxform>
+			<distortion>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</distortion>
+			<highlight>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</highlight>
+			<modulate>
+				<Attributes>
+					<UVWVel dataType="float" alignment="16" arraySize="3">0,0,0</UVWVel>
+				</Attributes>
+			</modulate>
+		</Maps>
+	</Material>
+</Materials>

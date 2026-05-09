@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="world_ai.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="0" Type="SquadList" Name="SquadListTeam1" IsNull="false" />
+    <TriggerVar ID="2" Type="Time" Name="NewTime2" IsNull="false">5000</TriggerVar>
+    <TriggerVar ID="4" Type="Time" Name="NewTime2" IsNull="false">10000</TriggerVar>
+    <TriggerVar ID="6" Type="Operator" Name="NewOperator6" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="8" Type="Time" Name="NewTime2" IsNull="false">10000</TriggerVar>
+    <TriggerVar ID="9" Type="Time" Name="NewTime2" IsNull="false">5000</TriggerVar>
+    <TriggerVar ID="13" Type="Time" Name="NewTime13" IsNull="false" />
+    <TriggerVar ID="14" Type="Time" Name="NewTime14" IsNull="false" />
+    <TriggerVar ID="15" Type="MathOperator" Name="NewMathOperator15" IsNull="false">Add</TriggerVar>
+    <TriggerVar ID="17" Type="ListPosition" Name="NewListPosition17" IsNull="false">First</TriggerVar>
+    <TriggerVar ID="19" Type="Vector" Name="DesignSetting1" IsNull="false">0,0,0</TriggerVar>
+    <TriggerVar ID="20" Type="Float" Name="DesignSetting738" IsNull="false">2000</TriggerVar>
+    <TriggerVar ID="21" Type="SquadList" Name="NewSquadList21" IsNull="false" />
+    <TriggerVar ID="22" Type="EntityFilterSet" Name="Var736" IsNull="false" />
+    <TriggerVar ID="23" Type="MathOperator" Name="NewMathOperator23" IsNull="false">Add</TriggerVar>
+    <TriggerVar ID="24" Type="Float" Name="NewFloat24" IsNull="false">49</TriggerVar>
+    <TriggerVar ID="28" Type="Squad" Name="SquadToBeCommanded" IsNull="false" />
+    <TriggerVar ID="29" Type="Float" Name="NewFloat29" IsNull="false" />
+    <TriggerVar ID="30" Type="Operator" Name="NewOperator30" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="32" Type="Bool" Name="NewBool32" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="33" Type="ListPosition" Name="NewListPosition33" IsNull="false">Random</TriggerVar>
+    <TriggerVar ID="35" Type="Time" Name="NewTime35" IsNull="false">5000</TriggerVar>
+    <TriggerVar ID="37" Type="Time" Name="NewTime35" IsNull="false">10000</TriggerVar>
+    <TriggerVar ID="39" Type="Operator" Name="NewOperator39" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="42" Type="Bool" Name="NewBool42" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="45" Type="Player" Name="CreepPlayer" IsNull="false" />
+    <TriggerVar ID="61" Type="Diplomacy" Name="NewDiplomacy61" IsNull="false">Enemy</TriggerVar>
+    <TriggerVar ID="76" Type="Integer" Name="NewInteger76" IsNull="false" />
+    <TriggerVar ID="80" Type="Integer" Name="NewInteger76" IsNull="false">2</TriggerVar>
+    <TriggerVar ID="81" Type="Bool" Name="NewBool81" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="82" Type="LocStringID" Name="NewLocStringID82" IsNull="false">26077</TriggerVar>
+    <TriggerVar ID="91" Type="Trigger" Name="Start" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="92" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="93" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="94" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="95" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="96" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="97" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="98" Type="Team" Name="nullTeam" IsNull="true" />
+    <TriggerVar ID="99" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="100" Type="Time" Name="linkedTime" IsNull="false" />
+    <TriggerVar ID="101" Type="Trigger" Name="Go" IsNull="false">2</TriggerVar>
+    <TriggerVar ID="102" Type="Trigger" Name="Initialize our next activate time." IsNull="false">5</TriggerVar>
+    <TriggerVar ID="103" Type="Trigger" Name="Wait, activate, and increment next time." IsNull="false">6</TriggerVar>
+    <TriggerVar ID="104" Type="Time" Name="nullTime" IsNull="true" />
+    <TriggerVar ID="105" Type="Trigger" Name="GetSquads" IsNull="false">52</TriggerVar>
+    <TriggerVar ID="106" Type="PlayerList" Name="nullPlayerList" IsNull="true" />
+    <TriggerVar ID="107" Type="ProtoSquad" Name="nullProtoSquad" IsNull="true" />
+    <TriggerVar ID="108" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="109" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="110" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="111" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="112" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="113" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="114" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="115" Type="ObjectType" Name="nullObjectType" IsNull="true" />
+    <TriggerVar ID="116" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="117" Type="Integer" Name="nullInteger" IsNull="true" />
+    <TriggerVar ID="118" Type="Trigger" Name="DefendAreaOnceL-Any Defenders?" IsNull="false">9</TriggerVar>
+    <TriggerVar ID="119" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="120" Type="Trigger" Name="DefendAreaOnceL-Filter Enemies" IsNull="false">11</TriggerVar>
+    <TriggerVar ID="121" Type="Player" Name="nullPlayer" IsNull="true" />
+    <TriggerVar ID="122" Type="PlayerList" Name="nullPlayerList" IsNull="true" />
+    <TriggerVar ID="123" Type="ProtoSquad" Name="nullProtoSquad" IsNull="true" />
+    <TriggerVar ID="124" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="125" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="126" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="127" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="128" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="129" Type="ObjectType" Name="nullObjectType" IsNull="true" />
+    <TriggerVar ID="130" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="131" Type="Integer" Name="nullInteger" IsNull="true" />
+    <TriggerVar ID="132" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="133" Type="Trigger" Name="Initialize" IsNull="false">12</TriggerVar>
+    <TriggerVar ID="134" Type="Iterator" Name="linkedIterator" IsNull="false" />
+    <TriggerVar ID="135" Type="Trigger" Name="Loop" IsNull="false">14</TriggerVar>
+    <TriggerVar ID="136" Type="Trigger" Name="DefendAreaOnceL-Get location" IsNull="false">15</TriggerVar>
+    <TriggerVar ID="137" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="138" Type="Object" Name="nullObject" IsNull="true" />
+    <TriggerVar ID="139" Type="Vector" Name="linkedVector" IsNull="false" />
+    <TriggerVar ID="140" Type="Float" Name="linkedFloat" IsNull="false" />
+    <TriggerVar ID="141" Type="Trigger" Name="DefendAreaOnceL-Need to leash?" IsNull="false">17</TriggerVar>
+    <TriggerVar ID="142" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="143" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="144" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="145" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="146" Type="Trigger" Name="DefendAreaOnceL-Assign Targets" IsNull="false">19</TriggerVar>
+    <TriggerVar ID="147" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="148" Type="Time" Name="nullTime" IsNull="true" />
+    <TriggerVar ID="149" Type="Squad" Name="linkedSquad" IsNull="false" />
+    <TriggerVar ID="150" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="151" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="152" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="153" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="154" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="155" Type="Time" Name="linkedTime" IsNull="false" />
+    <TriggerVar ID="156" Type="Trigger" Name="DefendAreaOnceL-Take A Stroll?" IsNull="false">23</TriggerVar>
+    <TriggerVar ID="157" Type="Time" Name="linkedTime" IsNull="false" />
+    <TriggerVar ID="158" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="159" Type="ProtoSquad" Name="linkedProtoSquad" IsNull="false" />
+    <TriggerVar ID="160" Type="Trigger" Name="DefendAreaOnceL-Find loc?" IsNull="false">26</TriggerVar>
+    <TriggerVar ID="161" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="162" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="163" Type="ProtoObject" Name="nullProtoObject" IsNull="true" />
+    <TriggerVar ID="164" Type="Vector" Name="linkedVector" IsNull="false" />
+    <TriggerVar ID="165" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="166" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="167" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="168" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="169" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="170" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="171" Type="UnitList" Name="linkedUnitList" IsNull="false" />
+    <TriggerVar ID="172" Type="Iterator" Name="linkedIterator" IsNull="false" />
+    <TriggerVar ID="173" Type="Trigger" Name="NewTrigger57" IsNull="false">57</TriggerVar>
+    <TriggerVar ID="174" Type="Unit" Name="linkedUnit" IsNull="false" />
+    <TriggerVar ID="175" Type="Integer" Name="nullInteger" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="Start" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-6242" Y="-3948" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="27" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">45</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">92</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">93</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">94</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">95</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">96</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">97</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="75" Type="FilterAddDiplomacy v1" DBID="379" Version="1" CommentOut="false">
+          <Input Name="Diplomacy" SigID="2" Optional="false">61</Input>
+          <Input Name="ComparePlayer" SigID="3" Optional="true">45</Input>
+          <Input Name="CompareTeam" SigID="4" Optional="true">98</Input>
+          <Input Name="InvertFilter" SigID="5" Optional="true">99</Input>
+          <Output Name="EntityFilterSet" SigID="1" Optional="false">22</Output>
+        </Effect>
+        <Effect ID="1" Type="RandomTime v1" DBID="516" Version="1" CommentOut="false">
+          <Input Name="Min" SigID="1" Optional="true">2</Input>
+          <Input Name="Max" SigID="2" Optional="true">4</Input>
+          <Output Name="Random" SigID="3" Optional="false">100</Output>
+        </Effect>
+        <Effect ID="93" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">101</Input>
+        </Effect>
+        <Effect ID="109" Type="setCTFCount v1" DBID="1083" Version="1" CommentOut="false">
+          <Input Name="WidgetID" SigID="1" Optional="false">80</Input>
+          <Input Name="Visible" SigID="2" Optional="false">81</Input>
+          <Input Name="Count" SigID="3" Optional="true">175</Input>
+          <Input Name="Title" SigID="4" Optional="true">82</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="2" Name="Go" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="-2222" Y="-3565" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="1" Type="TriggerActiveTime v1" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">6</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">100</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="5" Type="RandomTime v1" DBID="516" Version="1" CommentOut="false">
+          <Input Name="Min" SigID="1" Optional="true">9</Input>
+          <Input Name="Max" SigID="2" Optional="true">8</Input>
+          <Output Name="Random" SigID="3" Optional="false">14</Output>
+        </Effect>
+        <Effect ID="8" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">102</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="5" Name="Initialize our next activate time." Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="20" Y="-3671" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="7" Type="GetGameTime v1" DBID="265" Version="1" CommentOut="false">
+          <Input Name="DeltaTime" SigID="1" Optional="true">14</Input>
+          <Output Name="ResultTime" SigID="2" Optional="false">13</Output>
+        </Effect>
+        <Effect ID="10" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">103</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="6" Name="Wait, activate, and increment next time." Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1711" Y="-3720" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="5" Type="GameTimeReached v1" DBID="268" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="TestTime" SigID="1" Optional="false">13</Input>
+            <Output Name="TimeRemaining" SigID="2" Optional="true">104</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="11" Type="MathTime v1" DBID="263" Version="1" CommentOut="false">
+          <Input Name="FirstTime" SigID="1" Optional="false">13</Input>
+          <Input Name="MathOperator" SigID="2" Optional="false">15</Input>
+          <Input Name="SecondTime" SigID="3" Optional="false">14</Input>
+          <Output Name="ResultTime" SigID="4" Optional="false">13</Output>
+        </Effect>
+        <Effect ID="12" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">103</Input>
+        </Effect>
+        <Effect ID="14" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">105</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="52" Name="GetSquads" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="4562" Y="-3711" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="53" Type="CanGetSquads v9" DBID="4" Version="9" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="FilterPlayer" SigID="3" Optional="true">45</Input>
+            <Input Name="FilterPlayerList" SigID="12" Optional="true">106</Input>
+            <Input Name="FilterProtoSquad" SigID="6" Optional="true">107</Input>
+            <Input Name="FilterLocation" SigID="1" Optional="true">108</Input>
+            <Input Name="FilterRadius" SigID="2" Optional="true">109</Input>
+            <Input Name="FilterBoxForward" SigID="15" Optional="true">110</Input>
+            <Input Name="FilterBoxHalfX" SigID="16" Optional="true">111</Input>
+            <Input Name="FilterBoxHalfY" SigID="17" Optional="true">112</Input>
+            <Input Name="FilterBoxHalfZ" SigID="18" Optional="true">113</Input>
+            <Input Name="FilterSquadList" SigID="10" Optional="true">114</Input>
+            <Input Name="FilterObjectType" SigID="11" Optional="true">115</Input>
+            <Input Name="IgnoreAirUnits" SigID="19" Optional="true">116</Input>
+            <Output Name="FoundSquads" SigID="9" Optional="true">0</Output>
+            <Output Name="FoundSquadCount" SigID="7" Optional="true">117</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="104" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">118</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="106" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">101</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="9" Name="DefendAreaOnceL-Any Defenders?" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="6842" Y="-3519" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="7" Type="CanGetOneSquad v1" DBID="357" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="SquadList" SigID="1" Optional="false">0</Input>
+            <Input Name="ListPosition" SigID="2" Optional="false">17</Input>
+            <Output Name="FoundSquad" SigID="3" Optional="false">119</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="17" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">120</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="52" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">101</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="11" Name="DefendAreaOnceL-Filter Enemies" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="8532" Y="-4554" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="9" Type="CanGetSquads v9" DBID="4" Version="9" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="FilterPlayer" SigID="3" Optional="true">121</Input>
+            <Input Name="FilterPlayerList" SigID="12" Optional="true">122</Input>
+            <Input Name="FilterProtoSquad" SigID="6" Optional="true">123</Input>
+            <Input Name="FilterLocation" SigID="1" Optional="true">19</Input>
+            <Input Name="FilterRadius" SigID="2" Optional="true">20</Input>
+            <Input Name="FilterBoxForward" SigID="15" Optional="true">124</Input>
+            <Input Name="FilterBoxHalfX" SigID="16" Optional="true">125</Input>
+            <Input Name="FilterBoxHalfY" SigID="17" Optional="true">126</Input>
+            <Input Name="FilterBoxHalfZ" SigID="18" Optional="true">127</Input>
+            <Input Name="FilterSquadList" SigID="10" Optional="true">128</Input>
+            <Input Name="FilterObjectType" SigID="11" Optional="true">129</Input>
+            <Input Name="IgnoreAirUnits" SigID="19" Optional="true">130</Input>
+            <Output Name="FoundSquads" SigID="9" Optional="true">21</Output>
+            <Output Name="FoundSquadCount" SigID="7" Optional="true">131</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="18" Type="SquadListFilter v1" DBID="350" Version="1" CommentOut="false">
+          <Input Name="SourceSquadList" SigID="1" Optional="false">21</Input>
+          <Input Name="EntityFilterSet" SigID="2" Optional="false">22</Input>
+          <Output Name="PassedSquadList" SigID="3" Optional="true">21</Output>
+          <Output Name="FailedSquadList" SigID="4" Optional="true">132</Output>
+        </Effect>
+        <Effect ID="19" Type="MathFloat v1" DBID="353" Version="1" CommentOut="false">
+          <Input Name="FirstFloat" SigID="1" Optional="false">20</Input>
+          <Input Name="MathOperator" SigID="2" Optional="false">23</Input>
+          <Input Name="SecondFloat" SigID="3" Optional="false">24</Input>
+          <Output Name="ResultFloat" SigID="4" Optional="false">29</Output>
+        </Effect>
+        <Effect ID="22" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">133</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="20" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">133</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="12" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="11433" Y="-4372" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="21" Type="IteratorSquadList v1" DBID="153" Version="1" CommentOut="false">
+          <Input Name="SquadList" SigID="1" Optional="false">0</Input>
+          <Output Name="InitializedIterator" SigID="2" Optional="false">134</Output>
+        </Effect>
+        <Effect ID="24" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">135</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="14" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="13227" Y="-4423" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="11" Type="NextSquad v1" DBID="141" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="SquadIterator" SigID="1" Optional="false">134</Input>
+            <Output Name="NextSquad" SigID="2" Optional="false">28</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="25" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">136</Input>
+        </Effect>
+        <Effect ID="110" Type="SquadListGetSize v1" DBID="147" Version="1" CommentOut="false">
+          <Input Name="SquadList" SigID="1" Optional="false">0</Input>
+          <Output Name="Size" SigID="2" Optional="false">76</Output>
+        </Effect>
+        <Effect ID="99" Type="setCTFCount v1" DBID="1083" Version="1" CommentOut="false">
+          <Input Name="WidgetID" SigID="1" Optional="false">80</Input>
+          <Input Name="Visible" SigID="2" Optional="false">81</Input>
+          <Input Name="Count" SigID="3" Optional="true">76</Input>
+          <Input Name="Title" SigID="4" Optional="true">82</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="15" Name="DefendAreaOnceL-Get location" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="14505" Y="-4405" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="29" Type="GetLocation v2" DBID="189" Version="2" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="true">137</Input>
+          <Input Name="Squad" SigID="2" Optional="true">28</Input>
+          <Input Name="Object" SigID="4" Optional="true">138</Input>
+          <Output Name="OutputLocation" SigID="3" Optional="false">139</Output>
+        </Effect>
+        <Effect ID="28" Type="GetDistanceLocationLocation v1" DBID="512" Version="1" CommentOut="false">
+          <Input Name="Location1" SigID="1" Optional="false">139</Input>
+          <Input Name="Location2" SigID="2" Optional="false">19</Input>
+          <Output Name="Distance" SigID="3" Optional="false">140</Output>
+        </Effect>
+        <Effect ID="27" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">141</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="17" Name="DefendAreaOnceL-Need to leash?" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="17173" Y="-4376" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="13" Type="CompareFloat v1" DBID="453" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="FirstFloat" SigID="1" Optional="false">140</Input>
+            <Input Name="CompareType" SigID="2" Optional="false">30</Input>
+            <Input Name="SecondFloat" SigID="3" Optional="false">29</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="30" Type="Move v6" DBID="66" Version="6" CommentOut="false">
+          <Input Name="Squad" SigID="1" Optional="true">28</Input>
+          <Input Name="SquadList" SigID="5" Optional="true">142</Input>
+          <Input Name="TargetUnit" SigID="6" Optional="true">143</Input>
+          <Input Name="TargetSquad" SigID="7" Optional="true">144</Input>
+          <Input Name="TargetLocation" SigID="2" Optional="true">19</Input>
+          <Input Name="AttackMove" SigID="8" Optional="true">32</Input>
+          <Input Name="QueueOrder" SigID="9" Optional="true">145</Input>
+        </Effect>
+        <Effect ID="31" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">135</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="33" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">146</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="19" Name="DefendAreaOnceL-Assign Targets" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="20466" Y="-4879" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="15" Type="IsIdle v1" DBID="264" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Unit" SigID="1" Optional="true">147</Input>
+            <Input Name="Squad" SigID="2" Optional="true">28</Input>
+            <Output Name="IdleDuration" SigID="3" Optional="true">148</Output>
+          </Condition>
+          <Condition ID="16" Type="CanGetOneSquad v1" DBID="357" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="SquadList" SigID="1" Optional="false">21</Input>
+            <Input Name="ListPosition" SigID="2" Optional="false">33</Input>
+            <Output Name="FoundSquad" SigID="3" Optional="false">149</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="34" Type="Work v4" DBID="117" Version="4" CommentOut="false">
+          <Input Name="Squad" SigID="1" Optional="true">28</Input>
+          <Input Name="SquadList" SigID="2" Optional="true">150</Input>
+          <Input Name="TargetUnit" SigID="3" Optional="true">151</Input>
+          <Input Name="TargetSquad" SigID="5" Optional="true">149</Input>
+          <Input Name="TargetLocation" SigID="4" Optional="true">152</Input>
+          <Input Name="AttackMove" SigID="6" Optional="true">32</Input>
+          <Input Name="QueueOrder" SigID="7" Optional="true">153</Input>
+          <Input Name="DoAbility" SigID="8" Optional="true">154</Input>
+        </Effect>
+        <Effect ID="35" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">135</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="38" Type="RandomTime v1" DBID="516" Version="1" CommentOut="false">
+          <Input Name="Min" SigID="1" Optional="true">35</Input>
+          <Input Name="Max" SigID="2" Optional="true">37</Input>
+          <Output Name="Random" SigID="3" Optional="false">155</Output>
+        </Effect>
+        <Effect ID="37" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">156</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="23" Name="DefendAreaOnceL-Take A Stroll?" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="23856" Y="-4650" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="21" Type="CompareTime v1" DBID="170" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="FirstTime" SigID="1" Optional="false">157</Input>
+            <Input Name="CompareType" SigID="2" Optional="false">39</Input>
+            <Input Name="SecondTime" SigID="3" Optional="false">155</Input>
+          </Condition>
+          <Condition ID="20" Type="IsIdle v1" DBID="264" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Unit" SigID="1" Optional="true">158</Input>
+            <Input Name="Squad" SigID="2" Optional="true">28</Input>
+            <Output Name="IdleDuration" SigID="3" Optional="true">157</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="41" Type="GetProtoSquad v1" DBID="630" Version="1" CommentOut="false">
+          <Input Name="Squad" SigID="1" Optional="false">28</Input>
+          <Output Name="ProtoSquad" SigID="2" Optional="false">159</Output>
+        </Effect>
+        <Effect ID="42" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">160</Input>
+        </Effect>
+        <Effect ID="112" Type="GetChildUnits v1" DBID="324" Version="1" CommentOut="false">
+          <Input Name="Squad" SigID="1" Optional="true">28</Input>
+          <Input Name="SquadList" SigID="2" Optional="true">170</Input>
+          <Output Name="ChildUnits" SigID="3" Optional="false">171</Output>
+        </Effect>
+        <Effect ID="115" Type="IteratorUnitList v1" DBID="152" Version="1" CommentOut="false">
+          <Input Name="UnitList" SigID="1" Optional="false">171</Input>
+          <Output Name="InitializedIterator" SigID="2" Optional="false">172</Output>
+        </Effect>
+        <Effect ID="116" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">173</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="45" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">135</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="26" Name="DefendAreaOnceL-Find loc?" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="25791" Y="-4520" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="24" Type="CanGetRandomLocation v1" DBID="956" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="OrigLocation" SigID="1" Optional="false">19</Input>
+            <Input Name="InnerRadius" SigID="2" Optional="true">161</Input>
+            <Input Name="OuterRadius" SigID="3" Optional="false">20</Input>
+            <Input Name="TestObstructions" SigID="4" Optional="true">42</Input>
+            <Input Name="TestPathing" SigID="5" Optional="true">162</Input>
+            <Input Name="TestProtoObject" SigID="6" Optional="true">163</Input>
+            <Input Name="TestProtoSquad" SigID="7" Optional="true">159</Input>
+            <Output Name="RandomLocation" SigID="8" Optional="false">164</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="46" Type="Move v6" DBID="66" Version="6" CommentOut="false">
+          <Input Name="Squad" SigID="1" Optional="true">28</Input>
+          <Input Name="SquadList" SigID="5" Optional="true">165</Input>
+          <Input Name="TargetUnit" SigID="6" Optional="true">166</Input>
+          <Input Name="TargetSquad" SigID="7" Optional="true">167</Input>
+          <Input Name="TargetLocation" SigID="2" Optional="true">164</Input>
+          <Input Name="AttackMove" SigID="8" Optional="true">168</Input>
+          <Input Name="QueueOrder" SigID="9" Optional="true">169</Input>
+        </Effect>
+        <Effect ID="47" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">135</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="49" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">135</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="57" Name="NewTrigger57" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="27505" Y="-5581" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="64" Type="NextUnit v1" DBID="140" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="UnitIterator" SigID="1" Optional="false">172</Input>
+            <Output Name="NextUnit" SigID="2" Optional="false">174</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="111" Type="TeleportUnitsOffObstruction v1" DBID="1060" Version="1" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="false">174</Input>
+        </Effect>
+        <Effect ID="114" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">173</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

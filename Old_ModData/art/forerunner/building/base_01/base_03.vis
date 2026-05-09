@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="built">
+	<model name="built">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>forerunner\building\base_01\base_damaged_03</file>
+				<damagefile>forerunner\building\base_01\base_03</damagefile>
+			</asset>
+			<point pointType="Impact" bone="boneimpact_01" pointData="Metal" />
+			<point pointType="Impact" bone="boneimpact_02" pointData="Metal" />
+			<point pointType="Impact" bone="boneimpact_03" pointData="Metal" />
+			<point pointType="Impact" bone="boneimpact_04" pointData="Metal" />
+			<point pointType="Impact" bone="boneimpact_05" pointData="Metal" />
+			<point pointType="Impact" bone="boneimpact_06" pointData="Metal" />
+			<point pointType="Impact" bone="boneimpact_07" pointData="Metal" />
+			<point pointType="Impact" bone="boneimpact_08" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="15" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>hook\buff\healing_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="15" tweenToAnimation="">
+			<asset type="Anim">
+				<file>hook\buff\healing_01\idle_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_death_large_lowpass" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
+				<tag type="Particle" start="0" position="0" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="boneimpact_01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="boneimpact_02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.135000005" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="boneimpact_04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.140000001" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.147" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="boneimpact_04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="7.86000013" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.166999996" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="boneimpact_08" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.219999999" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="boneimpact_05" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.275000006" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="boneimpact_07" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.280000001" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.589999974" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="boneimpact_06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.589999974" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.699000001" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="boneimpact_03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.699999988" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>hook\buff\healing_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>hook\buff\healing_01\idle_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_ani_cov_supplypad_drop" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Upgrade" exitAction="Loop" tweenTime="15" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>hook\buff\healing_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>

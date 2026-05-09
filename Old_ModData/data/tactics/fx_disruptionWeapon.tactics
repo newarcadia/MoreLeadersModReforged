@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>LightCannon1</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>4</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_disruptionLightningBeam</Projectile>
+		<ImpactEffect size="small">cov_sniperrifle_01</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<AccuracyDistanceFactor>1</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>1</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Turretbuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="building">1</TargetPriority>
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1250</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<Daze TargetType="Mechanical" MovementModifier="0" SmartTargeting="true">3.0f</Daze>
+	</Weapon>
+	<Action>
+		<Name>LightCannon1AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MachinegunAttack</Anim>
+		<Weapon>LightCannon1</Weapon>
+		<MainAttack />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LightCannon1AttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

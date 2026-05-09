@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>LeftCannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>160</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_fuelRod_01</Projectile>
+		<ImpactEffect size="Medium">GammaTankShellBlu</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>0.200000003</Accuracy>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>10</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<Hardpoint>LeftCannonTurret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>800</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<CausePhysicsExplosion particle="effects\promethean\impacts\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
+	<Weapon>
+		<Name>RightCannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>160</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_fuelRod_01</Projectile>
+		<ImpactEffect size="Medium">GammaTankShellBlu</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>0.200000003</Accuracy>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>10</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<Hardpoint>RightCannonTurret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>800</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<CausePhysicsExplosion particle="effects\promethean\impacts\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
+	<Weapon>
+		<Name>Laser</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>160</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_fuelRod_01</Projectile>
+		<ImpactEffect size="Medium">GammaTankShell</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>0.200000003</Accuracy>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>10</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<Hardpoint>Turret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>800</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<CausePhysicsExplosion particle="effects\promethean\impacts\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
+	<Weapon>
+		<Name>chimeraBeam</Name>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>226.800003</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_Beam_01</Projectile>
+		<DOTrate>6.80000019</DOTrate>
+		<DOTduration>1</DOTduration>
+		<DOTEffect small="fx_flameThrowerSm_01" medium="fx_flameThrowerMed_01" large="fx_flameThrowerLg_01">fx_flameThrower_01</DOTEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<EnableHeightBonusDamage />
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Flying">2</TargetPriority>
+		<TargetPriority type="Infantry">1</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<CausePhysicsExplosion particle="effects\promethean\impacts\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
+	<Weapon>
+		<Name>BarrageWeapon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>3200</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_fuelRod_01</Projectile>
+		<ImpactEffect size="Medium">GammaTankShell</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<AirBurstSpan>25.0f</AirBurstSpan>
+		<Hardpoint>Turret</Hardpoint>
+		<Accuracy>0</Accuracy>
+		<MaxDeviation>10</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>15</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.330000013</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.5</AccuracyDeviationFactor>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<AirBurst />
+		<CausePhysicsExplosion particle="effects\promethean\impacts\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
+	<Action>
+		<Name>BarrageAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BarrageAttack</Anim>
+		<Weapon>BarrageWeapon</Weapon>
+		<MainAttack />
+		<DontCheckOrientTolerance />
+		<DontLoopAttackAnim />
+	</Action>
+	<Action>
+		<Name>LaserAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<Anim>LaserAttack</Anim>
+		<Weapon>Laser</Weapon>
+	</Action>
+	<Action>
+		<Name>LeftCannonAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<Anim>CannonAttackLeft</Anim>
+		<Weapon>LeftCannon</Weapon>
+	</Action>
+	<Action>
+		<Name>RightCannonAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<Anim>CannonAttackRight</Anim>
+		<Weapon>RightCannon</Weapon>
+	</Action>
+	<Action>
+		<Name>chimeraBeamAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BeamAttack</Anim>
+		<Weapon>chimeraBeam</Weapon>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Strafing maxDistance="45" turnRate="90" trackingSpeed="40" jitter="20" />
+		<Beam collideWithUnits="false" collideWithTerrain="true" />
+		<PersistBetweenOpps />
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitudeOffset>0</HoverAltitudeOffset>
+		<MaxPitch>5.0f</MaxPitch>
+		<MaxRoll>20.0f</MaxRoll>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>LeftCannonAttackAction</PersistentAction>
+		<PersistentAction>RightCannonAttackAction</PersistentAction>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>BarrageAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>chimeraBeamAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LaserAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RightCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeftCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+	</Tactic>
+</TacticData>

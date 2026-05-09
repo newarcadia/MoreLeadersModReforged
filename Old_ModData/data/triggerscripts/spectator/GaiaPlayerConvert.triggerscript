@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="ControlCreepUnits.triggerscript" Type="TriggerScript" NextTriggerVarID="23" NextTriggerID="3" NextConditionID="3" NextEffectID="5" External="false">
+	<TriggerVars>
+		<TriggerVar ID="1" Type="Trigger" Name="NewTrigger0Var" IsNull="false">1</TriggerVar>
+		<TriggerVar ID="2" Type="Player" Name="newVar2578684" IsNull="false" />
+		<TriggerVar ID="3" Type="Power" Name="nullPowerVar" IsNull="true" />
+		<TriggerVar ID="4" Type="Squad" Name="nullSquadVar" IsNull="true" />
+		<TriggerVar ID="5" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+		<TriggerVar ID="6" Type="Unit" Name="nullUnitVar" IsNull="true" />
+		<TriggerVar ID="7" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+		<TriggerVar ID="8" Type="Cost" Name="nullCostVar" IsNull="true" />
+		<TriggerVar ID="9" Type="String" Name="newVar1841993" IsNull="false">Creeps</TriggerVar>
+		<TriggerVar ID="10" Type="PlayerState" Name="nullPlayerStateVar" IsNull="true" />
+		<TriggerVar ID="11" Type="PlayerList" Name="linkedPlayerListVar" IsNull="false" />
+		<TriggerVar ID="12" Type="Trigger" Name="NewTrigger2Var" IsNull="false">2</TriggerVar>
+		<TriggerVar ID="13" Type="ListPosition" Name="newVar7416599" IsNull="false">First</TriggerVar>
+		<TriggerVar ID="14" Type="Player" Name="newVar6174936" IsNull="false" />
+		<TriggerVar ID="15" Type="ProtoSquad" Name="nullProtoSquadVar" IsNull="true" />
+		<TriggerVar ID="16" Type="Vector" Name="nullVectorVar" IsNull="true" />
+		<TriggerVar ID="17" Type="Float" Name="nullFloatVar" IsNull="true" />
+		<TriggerVar ID="18" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+		<TriggerVar ID="19" Type="ObjectType" Name="nullObjectTypeVar" IsNull="true" />
+		<TriggerVar ID="20" Type="SquadList" Name="newVar8915381" IsNull="false" />
+		<TriggerVar ID="21" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+		<TriggerVar ID="22" Type="Squad" Name="nullSquadVar" IsNull="true" />
+		<TriggerVar ID="23" Type="Tech" Name="" IsNull="false">spec_gaiaunlocks</TriggerVar>
+		<TriggerVar ID="24" Type="Cost" Name="" IsNull="false">0=9999999,1=4,2=0,3=0,4=0</TriggerVar>
+		<TriggerVar ID="25" Type="Float" Name="" IsNull="false">999</TriggerVar>
+		<TriggerVar ID="26" Type="Float" Name="" IsNull="true">999</TriggerVar>
+		<TriggerVar ID="27" Type="Float" Name="PopFutureVar2" IsNull="true" />
+		<TriggerVar ID="28" Type="Float" Name="PopExistingVar2" IsNull="true" />
+		<TriggerVar ID="29" Type="Bool" Name="newVar579110" IsNull="false">True</TriggerVar>
+		<TriggerVar ID="30" Type="PlayerList" Name="nullPlayerListVar" IsNull="true" />
+		<TriggerVar ID="31" Type="PlayerList" Name="nullPlayerListVar" IsNull="true" />
+		<TriggerVar ID="32" Type="Power" Name="newVar4935121" IsNull="false">SpectatorFogOff</TriggerVar>
+		<TriggerVar ID="33" Type="Squad" Name="nullSquadVar" IsNull="true" />
+		<TriggerVar ID="34" Type="Integer" Name="newVar5680150" IsNull="false">2</TriggerVar>
+		<TriggerVar ID="35" Type="Integer" Name="newVar3125518" IsNull="false">1</TriggerVar>
+		<TriggerVar ID="36" Type="Bool" Name="newVar4602604" IsNull="false">True</TriggerVar>
+		<TriggerVar ID="37" Type="Bool" Name="newVar2029730" IsNull="false">True</TriggerVar>
+		<TriggerVar ID="38" Type="Bool" Name="newVar6795865" IsNull="false">True</TriggerVar>
+		<TriggerVar ID="39" Type="PlayerList" Name="nullPlayerListVar" IsNull="true" />
+		<TriggerVar ID="40" Type="Power" Name="newVar4935121" IsNull="false">SpectatorMiniMapOff</TriggerVar>
+		<TriggerVar ID="41" Type="Squad" Name="nullSquadVar" IsNull="true" />
+		<TriggerVar ID="42" Type="Integer" Name="newVar5680150" IsNull="false">2</TriggerVar>
+		<TriggerVar ID="43" Type="Integer" Name="newVar3125518" IsNull="false">1</TriggerVar>
+		<TriggerVar ID="44" Type="Bool" Name="newVar4602604" IsNull="false">True</TriggerVar>
+		<TriggerVar ID="45" Type="Bool" Name="newVar2029730" IsNull="false">True</TriggerVar>
+		<TriggerVar ID="46" Type="Bool" Name="newVar6795865" IsNull="false">True</TriggerVar>
+	</TriggerVars>
+	<Triggers>
+		<Trigger ID="1" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="411" Y="243" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="1" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="ExternPlayer" SigID="1" Optional="true">2</Output>
+						<Output Name="ExternPower" SigID="2" Optional="true">3</Output>
+						<Output Name="ExternSquad" SigID="3" Optional="true">4</Output>
+						<Output Name="ExternSquadList" SigID="7" Optional="true">5</Output>
+						<Output Name="ExternUnit" SigID="4" Optional="true">6</Output>
+						<Output Name="ExternUnitList" SigID="6" Optional="true">7</Output>
+						<Output Name="ExternCost" SigID="5" Optional="true">8</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="1" Type="GetNPCPlayersByName" DBID="943" Version="1" CommentOut="false">
+					<Input Name="NPCPlayerName" SigID="1" Optional="false">9</Input>
+					<Input Name="NPCPlayerState" SigID="2" Optional="true">10</Input>
+					<Output Name="NPCPlayerList" SigID="3" Optional="false">11</Output>
+				</Effect>
+				<Effect ID="7" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">12</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="2" Name="NewTrigger2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1636" Y="205" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="2" Type="CanGetOnePlayer" DBID="434" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="PlayerList" SigID="1" Optional="false">11</Input>
+						<Input Name="ListPosition" SigID="2" Optional="false">13</Input>
+						<Output Name="FoundPlayer" SigID="3" Optional="false">14</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="3" Type="ChangeControlledPlayer" DBID="1027" Version="1" CommentOut="false">
+					<Input Name="FromPlayer" SigID="1" Optional="false">2</Input>
+					<Input Name="ToPlayer" SigID="2" Optional="false">14</Input>
+				</Effect>
+				<Effect ID="8" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">14</Input>
+					<Input Name="Tech" SigID="2" Optional="false">23</Input>
+				</Effect>
+				<Effect ID="256" Type="SetResources" DBID="277" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">14</Input>
+					<Input Name="Resources" SigID="2" Optional="false">24</Input>
+				</Effect>
+				<Effect ID="262" Type="SetPlayerPop" DBID="741" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">14</Input>
+					<Input Name="PopCap" SigID="2" Optional="true">25</Input>
+					<Input Name="PopMax" SigID="3" Optional="true">26</Input>
+					<Input Name="PopFuture" SigID="4" Optional="true">27</Input>
+					<Input Name="PopExisting" SigID="5" Optional="true">28</Input>
+				</Effect>
+				<Effect ID="432" Type="PowerMenuEnable" DBID="1044" Version="1" CommentOut="false">
+					<Input Name="Bool" SigID="1" Optional="false">29</Input>
+					<Input Name="Player" SigID="2" Optional="true">14</Input>
+					<Input Name="PlayerList" SigID="3" Optional="true">30</Input>
+				</Effect>
+				<Effect ID="431" Type="PowerGrant" DBID="456" Version="3" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="true">14</Input>
+					<Input Name="PlayerList" SigID="4" Optional="true">31</Input>
+					<Input Name="Power" SigID="2" Optional="false">32</Input>
+					<Input Name="PowerSquad" SigID="9" Optional="true">33</Input>
+					<Input Name="IconLocation" SigID="3" Optional="true">34</Input>
+					<Input Name="NumUses" SigID="5" Optional="true">35</Input>
+					<Input Name="IgnoreCost" SigID="6" Optional="true">36</Input>
+					<Input Name="IgnoreTech" SigID="7" Optional="true">37</Input>
+					<Input Name="IgnorePop" SigID="8" Optional="true">38</Input>
+				</Effect>
+				<Effect ID="321" Type="PowerGrant" DBID="456" Version="3" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="true">14</Input>
+					<Input Name="PlayerList" SigID="4" Optional="true">39</Input>
+					<Input Name="Power" SigID="2" Optional="false">40</Input>
+					<Input Name="PowerSquad" SigID="9" Optional="true">41</Input>
+					<Input Name="IconLocation" SigID="3" Optional="true">42</Input>
+					<Input Name="NumUses" SigID="5" Optional="true">43</Input>
+					<Input Name="IgnoreCost" SigID="6" Optional="true">44</Input>
+					<Input Name="IgnoreTech" SigID="7" Optional="true">45</Input>
+					<Input Name="IgnorePop" SigID="8" Optional="true">46</Input>
+				</Effect>
+				<Effect ID="4" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="5" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+			</TriggerEffectsOnFalse>
+		</Trigger>
+	</Triggers>
+</TriggerSystem>

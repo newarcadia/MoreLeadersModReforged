@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\infantry\infectedjackalpirate_01\jackal_01</file>
+				<damagefile>template\defaultInfantry</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Defense" tobone="Bip01 R Forearm" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\idle_01</file>
+				<weight>40</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\idle_02</file>
+				<weight>60</weight>
+			</asset>
+			<meshEnable>optionalNeedler</meshEnable>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\walk_01</file>
+				<weight>1</weight>
+			</asset>
+			<meshEnable>optionalNeedler</meshEnable>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\jog_nodshield_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\jog_nodshield_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\jog_nodshield_03</file>
+				<weight>1</weight>
+			</asset>
+			<meshEnable>optionalNeedler</meshEnable>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\run_nodshield_01</file>
+				<weight>1</weight>
+			</asset>
+			<meshEnable>optionalNeedler</meshEnable>
+		</anim>
+		<anim type="EvadeLeft" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\evade_left_01</file>
+				<weight>1</weight>
+			</asset>
+			<meshEnable>optionalNeedler</meshEnable>
+		</anim>
+		<anim type="EvadeRight" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\evade_right_01</file>
+				<weight>1</weight>
+			</asset>
+			<meshEnable>optionalNeedler</meshEnable>
+		</anim>
+		<anim type="PlasmaPistolAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="PlasmaPistolAttack">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\attack_01</file>
+				<weight>60</weight>
+				<tag type="Attack" start="0" position="0.090000011" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.090000011" end="1" name="play_cov_jackal_plasma_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.090000011" end="1" name="effects\Unit_FX\cov\jackal\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.03999996" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.200000003" end="1" name="play_cov_jackal_plasma_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.200000003" end="1" name="effects\Unit_FX\cov\jackal\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.03999996" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.200000003" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.310000002" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.310000002" end="1" name="play_cov_jackal_plasma_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.310000002" end="1" name="effects\Unit_FX\cov\jackal\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.03999996" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.479999989" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.479999989" end="1" name="play_cov_jackal_plasma_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.479999989" end="1" name="effects\Unit_FX\cov\jackal\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.03999996" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\attack_02</file>
+				<weight>15</weight>
+				<tag type="Attack" start="0" position="0.200000003" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.200000003" end="1" name="play_cov_jackal_plasma_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.200000003" end="1" name="effects\Unit_FX\cov\jackal\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.03999996" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.256000012" end="1" name="effects\Unit_FX\cov\jackal\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.03999996" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.25999999" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.25999999" end="1" name="play_cov_jackal_plasma_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.319999993" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.319999993" end="1" name="play_cov_jackal_plasma_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.319999993" end="1" name="effects\Unit_FX\cov\jackal\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.03999996" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.379999995" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.379999995" end="1" name="play_cov_jackal_plasma_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.379999995" end="1" name="effects\Unit_FX\cov\jackal\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.03999996" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.439999998" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.439999998" end="1" name="play_cov_jackal_plasma_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.439999998" end="1" name="effects\Unit_FX\cov\jackal\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.03999996" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.5" end="1" name="play_cov_jackal_plasma_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.5" end="1" name="effects\Unit_FX\cov\jackal\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.03999996" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.600000024" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.600000024" end="1" name="play_cov_jackal_plasma_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.600000024" end="1" name="effects\Unit_FX\cov\jackal\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.03999996" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\attack_03</file>
+				<weight>50</weight>
+				<tag type="Attack" start="0" position="0.0500000007" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.0500000007" end="1" name="play_cov_jackal_plasma_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.0500000007" end="1" name="effects\Unit_FX\cov\jackal\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.03999996" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.239999995" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.239999995" end="1" name="play_cov_jackal_plasma_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.239999995" end="1" name="effects\Unit_FX\cov\jackal\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.03999996" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.430000007" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.430000007" end="1" name="play_cov_jackal_plasma_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.430000007" end="1" name="effects\Unit_FX\cov\jackal\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.03999996" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\attack_04</file>
+				<weight>95</weight>
+				<tag type="Attack" start="0" position="0.0500000007" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.0500000007" end="1" name="play_cov_jackal_plasma_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.0500000007" end="1" name="effects\Unit_FX\cov\jackal\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.03999996" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.140000001" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.140000001" end="1" name="play_cov_jackal_plasma_pistol" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.140000001" end="1" name="effects\Unit_FX\cov\jackal\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.03999996" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<meshEnable>optionalNeedler</meshEnable>
+		</anim>
+		<anim type="PlasmaPistolReload" exitAction="Transition" tweenTime="5" tweenToAnimation="PlasmaPistolAttack">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\combat_action_01</file>
+				<weight>60</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\combat_action_02</file>
+				<weight>60</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\combat_action_03</file>
+				<weight>60</weight>
+			</asset>
+			<meshEnable>optionalNeedler</meshEnable>
+		</anim>
+		<anim type="NeedlerAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="NeedlerAttack">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\attack_01</file>
+				<weight>60</weight>
+				<tag type="Attack" start="0" position="0.088" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.09000001" end="1" name="play_cov_grunt_needler" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.195" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.314" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.484" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\attack_02</file>
+				<weight>15</weight>
+				<tag type="Attack" start="0" position="0.195" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.2" end="1" name="play_cov_grunt_needler" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.258" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.32" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.35" end="1" name="play_cov_grunt_needler" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.38" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.44" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.503" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.597" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\attack_03</file>
+				<weight>50</weight>
+				<tag type="Attack" start="0" position="0.07" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.07" end="1" name="play_cov_grunt_needler" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.239" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.24" end="1" name="play_cov_grunt_needler" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.43" end="1" name="play_cov_grunt_needler" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.434" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\attack_04</file>
+				<weight>95</weight>
+				<tag type="Attack" start="0" position="0.05" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.05" end="1" name="play_cov_grunt_needler" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.138" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.14" end="1" name="play_cov_grunt_needler" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<meshEnable>optionalNeedler</meshEnable>
+		</anim>
+		<anim type="NeedlerReload" exitAction="Transition" tweenTime="2" tweenToAnimation="NeedlerAttack">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\combat_action_01</file>
+				<weight>60</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\combat_action_02</file>
+				<weight>60</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\combat_action_03</file>
+				<weight>60</weight>
+			</asset>
+			<meshEnable>optionalNeedler</meshEnable>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\beam_rifle_idle_01</file>
+				<weight>40</weight>
+			</asset>
+			<meshEnable>optionalNeedler</meshEnable>
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\beam_rifle_idle_01</file>
+				<weight>40</weight>
+			</asset>
+			<meshEnable>optionalNeedler</meshEnable>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\beam_rifle_idle_01</file>
+				<weight>40</weight>
+			</asset>
+			<meshEnable>optionalNeedler</meshEnable>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="DeathByFire" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\death_fire_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\death_fire_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\death_fire_03</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="DeathByHeadshot" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\death_headshot_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\death_headshot_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\death_headshot_03</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="DeathByMachinegun" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\death_machinegun_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\death_machinegun_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\death_machinegun_03</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="DeathByMelee" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\death_melee_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\death_melee_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\death_melee_03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\death_melee_04</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ClamShell" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\clamshell_01_1</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\clamshell_01_2</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\clamshell_02_1</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\clamshell_02_2</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Flail" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\flail_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spin" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Stunned" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\stunned_01</file>
+				<weight>1</weight>
+			</asset>
+			<meshEnable>optionalNeedler</meshEnable>
+		</anim>
+		<anim type="PlasmaGrenadeAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\grenade_attack_01</file>
+				<weight>60</weight>
+				<tag type="Attack" start="0" position="0.333000004" end="1" tobone="Bip01 L Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<meshEnable>optionalNeedler</meshEnable>
+		</anim>
+		<anim type="Fatality_ArbiterJackal_01" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\fatality_arbiterjackal_01b</file>
+				<weight>1</weight>
+				<tag type="KillAndThrow" start="0" position="0.717999995" end="1" tobone="Bip01 Pelvis" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\fatality_arbiterjackal_02b</file>
+				<weight>1</weight>
+				<tag type="KillAndThrow" start="0" position="0.75" end="1" tobone="Bip01 Pelvis" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\fatality_arbiterjackal_03b</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\fatality_arbiterjackal_04b</file>
+				<weight>1</weight>
+				<tag type="KillAndThrow" start="0" position="0.731000006" end="1" tobone="Bip01 Pelvis" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\fatality_arbiterjackal_05b</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\fatality_arbiterjackal_06b</file>
+				<weight>1</weight>
+				<tag type="KillAndThrow" start="0" position="0.74000001" end="1" tobone="Bip01 Pelvis" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\fatality_arbiterjackal_07b</file>
+				<weight>1</weight>
+				<tag type="KillAndThrow" start="0" position="0.660000026" end="1" tobone="Bip01 Pelvis" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Fatality_EliteJackal_01" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\fatality_elitejackal_01b</file>
+				<weight>1</weight>
+				<tag type="KillAndThrow" start="0" position="0.730000019" end="1" tobone="Bip01 Pelvis" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\fatality_elitejackal_02b</file>
+				<weight>1</weight>
+				<tag type="KillAndThrow" start="0" position="0.730000019" end="1" tobone="Bip01 Pelvis" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\fatality_arbiterjackal_05b</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\fatality_arbiterjackal_07b</file>
+				<weight>1</weight>
+				<tag type="KillAndThrow" start="0" position="0.660000026" end="1" tobone="Bip01 Pelvis" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="FloodDeathJog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\flood_death_jog_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelRef" name="Tenticles1" tobone="Bip01 Head" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Tenticles2" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Tenticles1" tobone="Bip01 R Forearm" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+		<anim type="FloodDeath" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\jackal_01\flood_death_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelRef" name="Tenticles1" tobone="Bip01 Head" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Tenticles2" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Tenticles1" tobone="Bip01 R Forearm" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</anim>
+	</model>
+	<model name="Tenticles1">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\Infantry\Attachments_01\tenticles_01\tenticles_01</file>
+			</asset>
+		</component>
+		<anim type="FloodDeathJog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\Infantry\Attachments_01\tenticles_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="FloodDeath" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\Infantry\Attachments_01\tenticles_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Tenticles2">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\Infantry\Attachments_01\tenticles_02\tenticles_02</file>
+			</asset>
+		</component>
+		<anim type="FloodDeathJog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\Infantry\Attachments_01\tenticles_02\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="FloodDeath" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\Infantry\Attachments_01\tenticles_02\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Defense">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>covenant\infantry\weapons_01\skirmisher_bracer_01\skirmisher_bracer_01</file>
+			</asset>
+		</component>
+	</model>
+	<model name="Weapon">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>weapons\covenant\needler_01\needler_L_01</file>
+			</asset>
+		</component>
+	</model>
+</visual>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>megaTurret</Name>
+		<AllowFriendlyFire />
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>4250</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<UseDPSasDPA />
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<Projectile>pow_gp_megaTurret</Projectile>
+		<ImpactEffect size="Medium">cov_plasmamortar_01</ImpactEffect>
+		<ImpactCameraShake duration="0.200000003" strength="0.200000003" />
+		<ImpactRumble leftRumbleType="Fixed" leftStrength="0.200000003" rightRumbleType="Fixed" rightStrength="0.200000003" duration="0.200000003" />
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<MaxRange>500</MaxRange>
+		<AOERadius>7</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1200</PhysicsForceMin>
+		<PhysicsForceMax>1500</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>megaTurretAttackAction</Name>
+		<Weapon>megaTurret</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

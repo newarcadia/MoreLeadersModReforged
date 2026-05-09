@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TipList>
+	<Tip _locID="25859"/>
+	<Tip _locID="25856"/>
+	<Tip _locID="25857"/>
+	<Tip _locID="25858"/>
+	<Tip _locID="25845"/>
+	<Tip _locID="25850"/>
+	<Tip _locID="25859" LoadingScreen="true" />
+	<Tip _locID="25856" LoadingScreen="true" />
+	<Tip _locID="25857" LoadingScreen="true" />
+	<Tip _locID="25858" LoadingScreen="true" />
+	<Tip _locID="25845" LoadingScreen="true" />
+	<Tip _locID="25850" LoadingScreen="true" />
+	<Tip _locID="60003"/>
+	<Tip _locID="60004"/>
+	<Tip _locID="60001" LoadingScreen="true" />
+	<Tip _locID="60002" LoadingScreen="true" />
+	<Tip _locID="60001"/>
+	<Tip _locID="60002"/>
+	<Tip _locID="60003" LoadingScreen="true" />
+	<Tip _locID="60004" LoadingScreen="true" />
+</TipList>

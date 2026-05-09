@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="scarab01">
+	<model name="scarab01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>banished\vehicle\scarab_01\mesh_scarab01</file>
+				<damagefile>banished\vehicle\scarab_01\scarab01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Laser" tobone="socketbone_laser_0_0" frombone="GrannyRootBone_laser_0_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="engine" tobone="socketbone_engine_01" frombone="GrannyRootBone_engine_01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="MissileTurret" tobone="socketbone_turret_mount_01" frombone="GrannyRootBone_turret_mount_01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<point pointType="Impact" bone="bone_impact_body_centre" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_target_leg_front_right" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_target_leg_front_left" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_target_leg_rear_right" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_target_leg_rear_left" pointData="Metal" />
+			<point pointType="Impact" bone="socketbone_laser_0_0" pointData="Metal" />
+			<point pointType="Impact" bone="socketbone_turret_mount_01" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="15" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_idle01_main</file>
+				<weight>5</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_idle02_main</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_idle03_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_walk01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnLeft" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_standingturn_90left01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnRight" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_standingturn_90right01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleWalk" exitAction="Transition" tweenTime="10" tweenToAnimation="Walk">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_idle_walk01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="WalkIdle" exitAction="Transition" tweenTime="8" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_walk_idle01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="BeamAttack" exitAction="Transition" tweenTime="15" tweenToAnimation="BeamAttack">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_full_beamattack01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_idle01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_landing_deploy01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_death01_main</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_death_large_lowpass" tobone="GrannyRootBone_scarab01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
+				<tag type="Sound" start="0" position="0" end="1" name="play_ani_scarab_struggle_02" tobone="GrannyRootBone_scarab01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.00600000005" end="1" name="effects\vehicle_fx\cov\scarab\megadethexplosion_01" tobone="bone_vfx_damage_leg_front_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="2.27999997" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.0130000003" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone_scarab01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.115000002" end="1" name="effects\vehicle_fx\cov\scarab\megadethexplosion_01" tobone="bone_vfx_damage_leg_front_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="2.27999997" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.119999997" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone_scarab01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.237000003" end="1" name="effects\vehicle_fx\cov\scarab\megadethexplosion_01" tobone="bone_vfx_damage_front_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="2.27999997" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.239999995" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone_scarab01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.287999988" end="1" name="effects\vehicle_fx\cov\scarab\megadethexplosion_01" tobone="bone_vfx_damage_leg_back_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="2.27999997" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.289999992" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone_scarab01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.50999999" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone_scarab01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.513000011" end="1" name="effects\vehicle_fx\cov\scarab\megadethexplosion_01" tobone="bone_vfx_damage_mid_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="2.27999997" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\vehicle_fx\cov\scarab\megadethfire_01" tobone="bone_calcaneus_front_left_01" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/vehicle_fx/cov/scarab/megadethooze_01" tobone="bone_vfx_damage_mid_right" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/building_FX/Cov/damage/teenystreamer_01" tobone="bone_vfx_damage_leg_front_left" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/building_FX/Cov/damage/teenystreamer_01" tobone="bone_vfx_damage_leg_front_left" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/building_FX/Cov/damage/teenystreamer_01" tobone="bone_vfx_damage_mid_right" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/building_FX/Cov/damage/teenystreamer_01" tobone="bone_knee_back_left_01" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/building_FX/Cov/damage/teenystreamer_01" tobone="bone_vfx_damage_leg_back_left" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="JogIdle" exitAction="Transition" tweenTime="8" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_walk_idle01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Laser">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>banished\vehicle\scarab_01\mesh_laser_0_0</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="15" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_idle01_laser</file>
+				<weight>5</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_idle02_laser</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_idle03_laser</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnLeft" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_standingturn_90left01_laser</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnRight" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_standingturn_90right01_laser</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleWalk" exitAction="Transition" tweenTime="10" tweenToAnimation="Walk">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_idle_walk01_laser</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="WalkIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_walk_idle01_laser</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_walk01_laser</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="BeamAttack" exitAction="Transition" tweenTime="15" tweenToAnimation="BeamAttack">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_full_beamattack01_laser</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.296999991" end="1" tobone="bone_vfx_BeamMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_idle01_laser</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_death01_laser</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JogIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_walk_idle01_laser</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_landing_deploy01_laser</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Train" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_landing_deploy01_laser</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnHuge_01" tobone="GrannyRootBone_scarab01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="engine">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>banished\vehicle\scarab_01\mesh_engine_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="30" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_idle01_engine</file>
+				<weight>5</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_idle02_engine</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_idle03_engine</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="WalkIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_walk_idle01_engine</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleWalk" exitAction="Transition" tweenTime="10" tweenToAnimation="Walk">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_idle_walk01_engine</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnRight" exitAction="Loop" tweenTime="15" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_standingturn_90right01_engine</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnLeft" exitAction="Loop" tweenTime="15" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_standingturn_90left01_engine</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="15" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_walk01_engine</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="BeamAttack" exitAction="Transition" tweenTime="15" tweenToAnimation="BeamAttack">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_full_beamattack01_engine</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_idle01_engine</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="15" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_death01_engine</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JogIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_walk_idle01_engine</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_landing_deploy01_engine</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="MissileTurret">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>banished\vehicle\scarab_01\mesh_turret_mount_01</file>
+				<damagefile>banished\vehicle\scarab_01\turret</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_idle01_turret_mount</file>
+				<weight>5</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_idle02_turret_mount</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_idle03_turret_mount</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_walk01_turret_mount</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnLeft" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_standingturn_90left01_turret_mount</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnRight" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_standingturn_90right01_turret_mount</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ShadeTurretCombatIdle" exitAction="Transition" tweenTime="5" tweenToAnimation="ShadeTurretCombatIdle">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_turret_open_idle01_turret_mount</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ShadeTurretOpen" exitAction="Freeze" tweenTime="10" tweenToAnimation="ShadeTurretFire">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_turret_open01_turret_mount</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ShadeTurretFire" exitAction="Freeze" tweenTime="10" tweenToAnimation="ShadeTurretClose">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_turret_fire01_turret_mount</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0.00300000003" end="1" tobone="" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.00300000003" end="1" tobone="" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.0260000005" end="1" tobone="bone_vfx_MissileRightMid" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.0260000005" end="1" tobone="bone_vfx_MissileLeftBack" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.0540000014" end="1" tobone="bone_vfx_MissileRightBack" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.0540000014" end="1" tobone="bone_vfx_MissileLeftFront" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="ShadeTurretClose" exitAction="Freeze" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_turret_close01_turret_mount</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="BeamAttack" exitAction="Transition" tweenTime="15" tweenToAnimation="BeamAttack">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_full_beamattack01_turret_mount</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_death01_turret_mount</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="WalkIdle" exitAction="Transition" tweenTime="8" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_walk_idle01_turret_mount</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JogIdle" exitAction="Transition" tweenTime="8" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_walk_idle01_turret_mount</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\scarab_01\scarab01_landing_deploy01_turret_mount</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\nightingale_01\drone_02</file>
+				<damagefile>unsc\air\nightingale_01\drone_01</damagefile>
+			</asset>
+			<point pointType="Board" bone="BoneSpartan" pointData="Metal" />
+		</component>
+		<anim type="Repair" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Heal" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle" />
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" />
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="" />
+		<anim type="Cinematic" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\hawk_01\hawk_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="LaserAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\hawk_01\cannonAttack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MachinegunAttackL" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\hawk_01\mgAttack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MachinegunAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\hawk_01\mgAttack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.0799999982" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.100000001" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.100000001" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.0799999982" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.100000001" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.100000001" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="PlasmaCannonAttack" exitAction="Loop" tweenTime="15" tweenToAnimation="PlasmaCannonAttack">
+			<asset type="Anim">
+				<file>covenant\air\banshee_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.0500000007" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.0500000007" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.0500000007" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.125" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.125" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.125" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.200000003" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.200000003" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.200000003" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.275000006" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.275000006" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.275000006" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.349999994" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.349999994" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.349999994" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.425000012" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.425000012" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.425000012" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.5" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.5" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.574999988" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.574999988" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.574999988" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.649999976" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.649999976" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.649999976" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.725000024" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.725000024" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.725000024" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.800000012" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.800000012" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.800000012" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.875" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.875" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.875" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.949999988" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.949999988" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.949999988" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\air\banshee_01\attack_02</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.0500000007" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.0500000007" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.0500000007" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.125" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.125" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.125" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.200000003" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.200000003" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.200000003" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.275000006" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.275000006" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.275000006" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.349999994" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.349999994" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.349999994" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.425000012" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.425000012" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.425000012" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.5" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.5" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.574999988" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.574999988" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.574999988" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.649999976" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.649999976" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.649999976" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.725000024" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.725000024" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.725000024" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.800000012" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.800000012" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.800000012" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.875" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.875" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.875" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.949999988" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.949999988" end="1" name="effects\vehicle_fx\unsc\hawk\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.930000007" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.949999988" end="1" name="play_weapon_unsc_hornet_minigun" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="SpartanHawkJack" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\spartan_hawk_hijack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.723999977" end="1" name="ani_spartan_jack_success" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="EvadeLeft" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\hawk_01\evadeLeft_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="EvadeRight" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\hawk_01\evadeRight_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TeleportOut" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_teleportstretchOut</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0.042100001126527786</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.31719997525215149</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Particle" start="0" position="0.0130000003" end="1" name="effects\special\teleportVeh_01" tobone="BoneBody" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="TeleportIn" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_teleportstretchIn</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.0068000000901520252</Value>
+							<Alpha>0.16940000653266907</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0.32339999079704285</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\special\teleportVeh_01" tobone="BoneBody" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+</visual>

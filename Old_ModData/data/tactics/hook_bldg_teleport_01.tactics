@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>HotDrop</Name>
+		<ActionType>HotDrop</ActionType>
+		<UseTeleporter />
+		<AlertWhenComplete />
+		<WorkRange>10</WorkRange>
+	</Action>
+	<Action>
+		<Name>SpawnSentinel</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_inf_infectionForm_01</SquadType>
+		<WorkRate>120</WorkRate>
+		<WorkRateVariance>4</WorkRateVariance>
+		<HideSpawnUntilRelease />
+	</Action>
+	<Tactic>
+		<PersistentAction>SpawnSentinel</PersistentAction>
+		<PersistentAction>HotDrop</PersistentAction>
+	</Tactic>
+</TacticData>

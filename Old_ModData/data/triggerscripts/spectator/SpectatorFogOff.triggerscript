@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="SpectatorMiniMapOff.triggerscript" Type="TriggerScript" NextTriggerVarID="21" NextTriggerID="2" NextConditionID="2" NextEffectID="5" External="false">
+	<TriggerVars>
+		<TriggerVar ID="1" Type="Trigger" Name="NewTrigger0Var" IsNull="false">1</TriggerVar>
+		<TriggerVar ID="2" Type="Player" Name="newVar2188749" IsNull="false" />
+		<TriggerVar ID="3" Type="Power" Name="newVar8096708" IsNull="false" />
+		<TriggerVar ID="4" Type="Squad" Name="nullSquadVar" IsNull="true" />
+		<TriggerVar ID="5" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+		<TriggerVar ID="6" Type="Unit" Name="nullUnitVar" IsNull="true" />
+		<TriggerVar ID="7" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+		<TriggerVar ID="8" Type="Cost" Name="nullCostVar" IsNull="true" />
+		<TriggerVar ID="9" Type="Bool" Name="newVar3419267" IsNull="false">False</TriggerVar>
+		<TriggerVar ID="11" Type="PlayerList" Name="nullPlayerListVar" IsNull="true" />
+		<TriggerVar ID="12" Type="Squad" Name="nullSquadVar" IsNull="true" />
+		<TriggerVar ID="13" Type="PlayerList" Name="nullPlayerListVar" IsNull="true" />
+		<TriggerVar ID="14" Type="Power" Name="newVar4935121" IsNull="false">SpectatorFogOn</TriggerVar>
+		<TriggerVar ID="15" Type="Squad" Name="nullSquadVar" IsNull="true" />
+		<TriggerVar ID="16" Type="Integer" Name="newVar5680150" IsNull="false">2</TriggerVar>
+		<TriggerVar ID="17" Type="Integer" Name="newVar3125518" IsNull="false">1</TriggerVar>
+		<TriggerVar ID="18" Type="Bool" Name="newVar4602604" IsNull="false">True</TriggerVar>
+		<TriggerVar ID="19" Type="Bool" Name="newVar2029730" IsNull="false">True</TriggerVar>
+		<TriggerVar ID="20" Type="Bool" Name="newVar6795865" IsNull="false">True</TriggerVar>
+	</TriggerVars>
+	<Triggers>
+		<Trigger ID="1" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="286" Y="232" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="1" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="ExternPlayer" SigID="1" Optional="true">2</Output>
+						<Output Name="ExternPower" SigID="2" Optional="true">3</Output>
+						<Output Name="ExternSquad" SigID="3" Optional="true">4</Output>
+						<Output Name="ExternSquadList" SigID="7" Optional="true">5</Output>
+						<Output Name="ExternUnit" SigID="4" Optional="true">6</Output>
+						<Output Name="ExternUnitList" SigID="6" Optional="true">7</Output>
+						<Output Name="ExternCost" SigID="5" Optional="true">8</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="1" Type="EnableFogOfWar" DBID="385" Version="1" CommentOut="false">
+					<Input Name="Enable" SigID="1" Optional="false">9</Input>
+				</Effect>
+				<Effect ID="2" Type="PowerRevoke" DBID="457" Version="3" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="true">2</Input>
+					<Input Name="PlayerList" SigID="4" Optional="true">11</Input>
+					<Input Name="Power" SigID="2" Optional="false">3</Input>
+					<Input Name="PowerSquad" SigID="5" Optional="true">12</Input>
+				</Effect>
+				<Effect ID="3" Type="PowerGrant" DBID="456" Version="3" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="true">2</Input>
+					<Input Name="PlayerList" SigID="4" Optional="true">13</Input>
+					<Input Name="Power" SigID="2" Optional="false">14</Input>
+					<Input Name="PowerSquad" SigID="9" Optional="true">15</Input>
+					<Input Name="IconLocation" SigID="3" Optional="true">16</Input>
+					<Input Name="NumUses" SigID="5" Optional="true">17</Input>
+					<Input Name="IgnoreCost" SigID="6" Optional="true">18</Input>
+					<Input Name="IgnoreTech" SigID="7" Optional="true">19</Input>
+					<Input Name="IgnorePop" SigID="8" Optional="true">20</Input>
+				</Effect>
+				<Effect ID="4" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+	</Triggers>
+</TriggerSystem>

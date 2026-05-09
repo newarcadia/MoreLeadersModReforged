@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="TechUnlock2.triggerscript" Type="TriggerScript" NextTriggerVarID="20" NextTriggerID="2" NextConditionID="2" NextEffectID="8" External="false">
+	<TriggerVars>
+		<TriggerVar ID="1" Type="Trigger" Name="Enable Tech UpgradeVar" IsNull="false">1</TriggerVar>
+		<TriggerVar ID="2" Type="Player" Name="newPlayerVar" IsNull="false" />
+		<TriggerVar ID="3" Type="Power" Name="newPowerVar" IsNull="false" />
+		<TriggerVar ID="4" Type="Squad" Name="nullSquadVar" IsNull="true" />
+		<TriggerVar ID="5" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+		<TriggerVar ID="6" Type="Unit" Name="nullUnitVar" IsNull="true" />
+		<TriggerVar ID="7" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+		<TriggerVar ID="8" Type="Cost" Name="nullCostVar" IsNull="true" />
+		<TriggerVar ID="9" Type="Tech" Name="newTechVar" IsNull="false">ban_lp_spartanunlock</TriggerVar>
+		<TriggerVar ID="10" Type="Squad" Name="nullSquadVar" IsNull="true" />
+		<TriggerVar ID="11" Type="Squad" Name="nullSquadVar" IsNull="true" />
+		<TriggerVar ID="12" Type="Float" Name="nullFloatVar" IsNull="true" />
+		<TriggerVar ID="13" Type="PlayerList" Name="nullPlayerListVar" IsNull="true" />
+		<TriggerVar ID="14" Type="Squad" Name="nullSquadVar" IsNull="true" />
+		<TriggerVar ID="15" Type="PlayerList" Name="nullPlayerListVar" IsNull="true" />
+		<TriggerVar ID="16" Type="PlayerList" Name="newPlayerListVar" IsNull="false" />
+		<TriggerVar ID="17" Type="Bool" Name="newBoolVar" IsNull="false">False</TriggerVar>
+		<TriggerVar ID="18" Type="LocStringID" Name="newLocStringIDVar" IsNull="false">35062</TriggerVar>
+		<TriggerVar ID="19" Type="Time" Name="newTimeVar" IsNull="false">4000</TriggerVar>
+	</TriggerVars>
+	<Triggers>
+		<Trigger ID="1" Name="Enable Tech Upgrade" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-667" Y="-66" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="1" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="ExternPlayer" SigID="1" Optional="true">2</Output>
+						<Output Name="ExternPower" SigID="2" Optional="true">3</Output>
+						<Output Name="ExternSquad" SigID="3" Optional="true">4</Output>
+						<Output Name="ExternSquadList" SigID="7" Optional="true">5</Output>
+						<Output Name="ExternUnit" SigID="4" Optional="true">6</Output>
+						<Output Name="ExternUnitList" SigID="6" Optional="true">7</Output>
+						<Output Name="ExternCost" SigID="5" Optional="true">8</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="1" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">2</Input>
+					<Input Name="Tech" SigID="2" Optional="false">9</Input>
+				</Effect>
+				<Effect ID="2" Type="PowerChargeUseOf" DBID="77" Version="5" CommentOut="false">
+					<Input Name="Owner" SigID="1" Optional="false">2</Input>
+					<Input Name="Power" SigID="2" Optional="false">3</Input>
+					<Input Name="Squad" SigID="4" Optional="true">10</Input>
+					<Input Name="Target" SigID="5" Optional="true">11</Input>
+					<Input Name="CostMultiplier" SigID="6" Optional="true">12</Input>
+				</Effect>
+				<Effect ID="3" Type="PowerRevoke" DBID="457" Version="3" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="true">2</Input>
+					<Input Name="PlayerList" SigID="4" Optional="true">13</Input>
+					<Input Name="Power" SigID="2" Optional="false">3</Input>
+					<Input Name="PowerSquad" SigID="5" Optional="true">14</Input>
+				</Effect>
+				<Effect ID="4" Type="PlayerListAdd" DBID="124" Version="2" CommentOut="false">
+					<Input Name="AddPlayer" SigID="2" Optional="true">2</Input>
+					<Input Name="AddPlayerList" SigID="3" Optional="true">15</Input>
+					<Output Name="OutputList" SigID="4" Optional="false">16</Output>
+					<Output Name="ClearExisting" SigID="5" Optional="false">17</Output>
+				</Effect>
+				<Effect ID="5" Type="HintMessageShow" DBID="805" Version="1" CommentOut="false">
+					<Input Name="PlayerList" SigID="1" Optional="false">16</Input>
+					<Input Name="LocStringID" SigID="2" Optional="false">18</Input>
+					<Input Name="Time" SigID="3" Optional="true">19</Input>
+				</Effect>
+				<Effect ID="6" Type="UIUnlock" DBID="330" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">2</Input>
+				</Effect>
+				<Effect ID="7" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+	</Triggers>
+</TriggerSystem>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>LightCannon</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>200</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_lightCannon_01</Projectile>
+		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.5</Accuracy>
+		<MaxDeviation>5</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<UseGroupRange />
+	</Weapon>
+	<Action>
+		<Name>ArtilleryAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>LockdownCannonAttack</Anim>
+		<Weapon>LightCannon</Weapon>
+		<MainAttack />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>ArtilleryAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="spawninfantry.triggerscript" Type="TriggerScript" NextTriggerVarID="19" NextTriggerID="2" NextConditionID="3" NextEffectID="4" External="false">
+	<TriggerVars>
+		<TriggerVar ID="1" Type="Trigger" Name="NewTrigger0Var" IsNull="false">1</TriggerVar>
+		<TriggerVar ID="2" Type="Vector" Name="newVectorVar" IsNull="false" />
+		<TriggerVar ID="3" Type="Player" Name="newPlayerVar" IsNull="false" />
+		<TriggerVar ID="4" Type="Power" Name="nullPowerVar" IsNull="true" />
+		<TriggerVar ID="5" Type="Squad" Name="nullSquadVar" IsNull="true" />
+		<TriggerVar ID="6" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+		<TriggerVar ID="7" Type="Unit" Name="nullUnitVar" IsNull="true" />
+		<TriggerVar ID="8" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+		<TriggerVar ID="9" Type="Cost" Name="nullCostVar" IsNull="true" />
+		<TriggerVar ID="10" Type="ProtoSquad" Name="newProtoSquadVar" IsNull="false">fld_air_airinfector_01</TriggerVar>
+		<TriggerVar ID="11" Type="Vector" Name="nullVectorVar" IsNull="true" />
+		<TriggerVar ID="12" Type="Vector" Name="nullVectorVar" IsNull="true" />
+		<TriggerVar ID="13" Type="Vector" Name="nullVectorVar" IsNull="true" />
+		<TriggerVar ID="14" Type="Vector" Name="nullVectorVar" IsNull="true" />
+		<TriggerVar ID="15" Type="Bool" Name="nullBoolVar" IsNull="true" />
+		<TriggerVar ID="16" Type="Squad" Name="nullSquadVar" IsNull="true" />
+		<TriggerVar ID="17" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+		<TriggerVar ID="18" Type="Bool" Name="nullBoolVar" IsNull="true" />
+	</TriggerVars>
+	<Triggers>
+		<Trigger ID="1" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="178" Y="368" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="1" Type="CanRetrieveExternalLocation" DBID="440" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="Location" SigID="1" Optional="false">2</Output>
+					</Condition>
+					<Condition ID="2" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="ExternPlayer" SigID="1" Optional="true">3</Output>
+						<Output Name="ExternPower" SigID="2" Optional="true">4</Output>
+						<Output Name="ExternSquad" SigID="3" Optional="true">5</Output>
+						<Output Name="ExternSquadList" SigID="7" Optional="true">6</Output>
+						<Output Name="ExternUnit" SigID="4" Optional="true">7</Output>
+						<Output Name="ExternUnitList" SigID="6" Optional="true">8</Output>
+						<Output Name="ExternCost" SigID="5" Optional="true">9</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="1" Type="CreateSquad" DBID="36" Version="7" CommentOut="false">
+					<Input Name="ProtoSquad" SigID="1" Optional="false">10</Input>
+					<Input Name="CreateLocation" SigID="2" Optional="false">2</Input>
+					<Input Name="Facing" SigID="12" Optional="true">11</Input>
+					<Input Name="SquadOwner" SigID="3" Optional="false">3</Input>
+					<Input Name="FlyInStart" SigID="8" Optional="true">12</Input>
+					<Input Name="FlyInEnd" SigID="9" Optional="true">13</Input>
+					<Input Name="RallyPoint" SigID="10" Optional="true">14</Input>
+					<Input Name="AttackMoveRallyPoint" SigID="11" Optional="true">15</Input>
+					<Output Name="CreatedSquad" SigID="4" Optional="true">16</Output>
+					<Output Name="AddToSquadList" SigID="5" Optional="true">17</Output>
+					<Output Name="SquadListClearExisting" SigID="6" Optional="true">18</Output>
+				</Effect>
+				<Effect ID="2" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="3" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+			</TriggerEffectsOnFalse>
+		</Trigger>
+	</Triggers>
+</TriggerSystem>

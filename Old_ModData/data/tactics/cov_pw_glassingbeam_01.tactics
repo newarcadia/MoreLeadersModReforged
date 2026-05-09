@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>UpgradedLightning</Name>
+		<AttackRate>0.25</AttackRate>
+		<AllowFriendlyFire />
+		<DamagePerSecond>330</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>leaderPower</WeaponType>
+		<Reapply>0.25</Reapply>
+		<Apply>3</Apply>
+		<DOTrate>8</DOTrate>
+		<DOTduration>10</DOTduration>
+		<DOTEffect small="fx_proj_plasmadotSm_01" medium="fx_proj_plasmadotMed_01" large="fx_proj_plasmadotLg_01">fx_proj_plasmadot_01</DOTEffect>
+		<Projectile>fx_pw_plasmaburn_01</Projectile>
+		<ImpactEffect size="Medium">cov_plasmaburn_01</ImpactEffect>
+		<MaxVelocityLead>45</MaxVelocityLead>
+		<MaxRange>10</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.100000001</AOEDamageFactor>
+		<Hardpoint>Torso</Hardpoint>
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+		<Daze TargetType="EmpEffectNormal" MovementModifier="0" SmartTargeting="true">4.0f</Daze>
+		<TargetsFootOfUnit />
+		<AOEIgnoresYAxis />
+	</Weapon>
+	<Action>
+		<Name>UpgradedLightningAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>Idle</Anim>
+		<Weapon>UpgradedLightning</Weapon>
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>WanderAction</Name>
+		<ActionType>Wander</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>50</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>WanderAction</PersistentAction>
+		<TargetRule>
+			<Relation>Any</Relation>
+			<TargetsGround />
+			<Action>UpgradedLightningAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

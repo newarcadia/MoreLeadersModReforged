@@ -1,0 +1,10 @@
+<EcfFile name="healing_01.ugx" ext=".ugx">
+  <Header id="AAC93746" />
+  <Chunks>
+    <C id="703" align="4" Path="healing_01.ugx_00000703.ecf_chunk" />
+    <C id="700" align="4" Path="healing_01.ugx_00000700.ecf_chunk" />
+    <C id="702" align="5" IsContiguous="true" Path="healing_01.ugx_00000702.ecf_chunk" />
+    <C id="701" align="5" IsContiguous="true" Path="healing_01.ugx_00000701.ecf_chunk" />
+    <C id="704" Path="healing_01.ugx_00000704.ecf_chunk" />
+  </Chunks>
+</EcfFile>

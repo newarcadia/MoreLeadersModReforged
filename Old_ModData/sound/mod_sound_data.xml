@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+  <SoundBanks>
+    <!--
+      Generated-bank patch block.
+      The loader reads the retail pre_load_music.bnk from Sounds.pck, replaces the
+      listed media IDs with this loose WEM, writes sound\generated\English(US)\pre_load_music.bnk,
+      and redirects the game's bank open to that generated copy.
+    -->
+    <!--SoundBank Id="1381504635" Language="English(US)">
+      <ShortName>pre_load_music_patch</ShortName>
+      <Path>English(US)\pre_load_music.bnk</Path>
+      <IncludedMemoryFiles>
+        <File Id="17708173" Language="English(US)"><ShortName>pregame_replacement.wav</ShortName><Path>Music\pregame_replacement.wem</Path></File>
+        <File Id="95358834" Language="English(US)"><ShortName>pregame_replacement.wav</ShortName><Path>Music\pregame_replacement.wem</Path></File>
+        <File Id="171820596" Language="English(US)"><ShortName>pregame_replacement.wav</ShortName><Path>Music\pregame_replacement.wem</Path></File>
+        <File Id="240641672" Language="English(US)"><ShortName>pregame_replacement.wav</ShortName><Path>Music\pregame_replacement.wem</Path></File>
+        <File Id="296882196" Language="English(US)"><ShortName>pregame_replacement.wav</ShortName><Path>Music\pregame_replacement.wem</Path></File>
+        <File Id="327821892" Language="English(US)"><ShortName>pregame_replacement.wav</ShortName><Path>Music\pregame_replacement.wem</Path></File>
+        <File Id="500862610" Language="English(US)"><ShortName>pregame_replacement.wav</ShortName><Path>Music\pregame_replacement.wem</Path></File>
+        <File Id="639298888" Language="English(US)"><ShortName>pregame_replacement.wav</ShortName><Path>Music\pregame_replacement.wem</Path></File>
+        <File Id="671769442" Language="English(US)"><ShortName>pregame_replacement.wav</ShortName><Path>Music\pregame_replacement.wem</Path></File>
+        <File Id="701421934" Language="English(US)"><ShortName>pregame_replacement.wav</ShortName><Path>Music\pregame_replacement.wem</Path></File>
+        <File Id="702240324" Language="English(US)"><ShortName>pregame_replacement.wav</ShortName><Path>Music\pregame_replacement.wem</Path></File>
+        <File Id="962597944" Language="English(US)"><ShortName>pregame_replacement.wav</ShortName><Path>Music\pregame_replacement.wem</Path></File>
+        <File Id="988489342" Language="English(US)"><ShortName>pregame_replacement.wav</ShortName><Path>Music\pregame_replacement.wem</Path></File>
+      </IncludedMemoryFiles>
+    </SoundBank-->
+
+    <!--
+      Generated loose-WEM event bank.
+      Use these event names in objects.xml Sound fields, and add:
+      <ExtendedSoundBank>custom_knight_sounds.bnk</ExtendedSoundBank>
+    -->
+    <SoundBank Id="933440978" Language="SFX" Spatialization="3D" MinDistance="10" MaxDistance="100" Falloff="Steep" MidVolumeDb="1" EndVolumeDb="1" VolumeDb="1">
+      <ShortName>MLM_Forerunner</ShortName>
+      <Path>MLM_Forerunner.bnk</Path>
+      <IncludedEvents>
+        <Event Id="2306459518" Name="Play_MLM_crawler_acknowledge" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="crawler1_acknowledge.wav"/>
+            <Sound ShortName="crawler2_acknowledge.wav"/>
+            <Sound ShortName="crawler1_select.wav"/>
+            <Sound ShortName="crawler2_select.wav"/>
+          </Random>
+        </Event>
+        <Event Id="712026170" Name="Play_MLM_crawler_attack" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="crawler1_attack.wav"/>
+            <Sound ShortName="crawler2_attack.wav"/>
+          </Random>
+        </Event>
+        <Event Id="3315983888" Name="Play_MLM_crawler_death" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="crawler1_death.wav"/>
+            <Sound ShortName="crawler2_death.wav"/>
+          </Random>
+        </Event>
+        <Event Id="649431866" Name="Play_MLM_crawler_pain" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="crawler1_pain.wav"/>
+            <Sound ShortName="crawler2_pain.wav"/>
+          </Random>
+        </Event>
+        <Event Id="4089022686" Name="Play_MLM_crawler_select" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="crawler1_select.wav"/>
+            <Sound ShortName="crawler2_select.wav"/>
+          </Random>
+        </Event>
+        <Event Id="816641892" Name="Play_MLM_enforcer_attack" DurationType="OneShot">
+          <Sound ShortName="enforcer_attack_01.wav"/>
+        </Event>
+        <Event Id="1124555590" Name="Play_MLM_enforcer_death" DurationType="OneShot">
+          <Sound ShortName="enforcer_death_01.wav"/>
+        </Event>
+        <Event Id="1818104879" Name="Play_MLM_knight_acknowledge" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="knight1_acknowledge.wav"/>
+            <Sound ShortName="knight3_acknowledge.wav"/>
+          </Random>
+        </Event>
+        <Event Id="203430825" Name="Play_MLM_knight_attack" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="knight1_attack.wav"/>
+            <Sound ShortName="knight3_attack.wav"/>
+          </Random>
+        </Event>
+        <Event Id="2615563352" Name="Play_MLM_knight_birth" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="knight1_birth.wav"/>
+            <Sound ShortName="knight3_birth.wav"/>
+          </Random>
+        </Event>
+        <Event Id="513458077" Name="Play_MLM_knight_death" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="knight1_death.wav"/>
+            <Sound ShortName="knight3_death.wav"/>
+          </Random>
+        </Event>
+        <Event Id="3137258493" Name="Play_MLM_knight_pain" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="knight1_pain.wav"/>
+            <Sound ShortName="knight3_pain.wav"/>
+          </Random>
+        </Event>
+        <Event Id="1956635153" Name="Play_MLM_knight_select" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="knight1_select.wav"/>
+            <Sound ShortName="knight3_select.wav"/>
+          </Random>
+        </Event>
+        <Event Id="2559096763" Name="Play_MLM_knight_taunt" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="knight1_taunt.wav"/>
+            <Sound ShortName="knight3_taunt.wav"/>
+          </Random>
+        </Event>
+        <Event Id="3809328028" Name="Play_MLM_protector_attack" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="protector_attack_01.wav"/>
+            <Sound ShortName="protector_attack_02.wav"/>
+            <Sound ShortName="protector_attack_03.wav"/>
+            <Sound ShortName="protector_attack_04.wav"/>
+          </Random>
+        </Event>
+        <Event Id="3828596448" Name="Play_MLM_protector_select" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="protector_select_01.wav"/>
+            <Sound ShortName="protector_select_02.wav"/>
+            <Sound ShortName="protector_select_03.wav"/>
+            <Sound ShortName="protector_select_04.wav"/>
+          </Random>
+        </Event>
+        <Event Id="318472736" Name="Play_MLM_retriever_attack" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="retriever_attack_01.wav"/>
+            <Sound ShortName="retriever_attack_02.wav"/>
+            <Sound ShortName="retriever_attack_03.wav"/>
+          </Random>
+        </Event>
+        <Event Id="1827505202" Name="Play_MLM_retriever_death" DurationType="OneShot">
+          <Sound ShortName="retriever_death_01.wav"/>
+        </Event>
+        <Event Id="1581793092" Name="Play_MLM_retriever_select" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="retriever_select_01.wav"/>
+            <Sound ShortName="retriever_select_02.wav"/>
+            <Sound ShortName="retriever_select_03.wav"/>
+          </Random>
+        </Event>
+        <Event Id="1773502572" Name="Play_MLM_sentinel_attack" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="sentinel_attack_01.wav"/>
+            <Sound ShortName="sentinel_attack_02.wav"/>
+            <Sound ShortName="sentinel_attack_03.wav"/>
+            <Sound ShortName="sentinel_attack_04.wav"/>
+          </Random>
+        </Event>
+        <Event Id="3493693680" Name="Play_MLM_sentinel_select" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="sentinel_select_01.wav"/>
+            <Sound ShortName="sentinel_select_02.wav"/>
+            <Sound ShortName="sentinel_select_03.wav"/>
+            <Sound ShortName="sentinel_select_04.wav"/>
+          </Random>
+        </Event>
+        <Event Id="1511239450" Name="Play_MLM_watcher_acknowledge" DurationType="OneShot">
+          <Sound ShortName="watcher_acknowledge.wav"/>
+        </Event>
+        <Event Id="123543972" Name="Play_MLM_watcher_death" DurationType="OneShot">
+          <Sound ShortName="watcher_death.wav"/>
+        </Event>
+        <Event Id="4081596102" Name="Play_MLM_watcher_pain" DurationType="OneShot">
+          <Sound ShortName="watcher_pain.wav"/>
+        </Event>
+        <Event Id="530230274" Name="Play_MLM_watcher_select" DurationType="OneShot">
+          <Sound ShortName="watcher_select.wav"/>
+        </Event>
+      </IncludedEvents>
+      <IncludedMemoryFiles>
+        <File Id="14008777" Language="SFX">
+          <ShortName>knight1_attack.wav</ShortName>
+          <Path>SFX\knight1_attack_01497203.wem</Path>
+        </File>
+        <File Id="34676923" Language="SFX">
+          <ShortName>retriever_attack_01.wav</ShortName>
+          <Path>SFX\retriever_attack_01_01497203.wem</Path>
+        </File>
+        <File Id="35696243" Language="SFX">
+          <ShortName>protector_attack_04.wav</ShortName>
+          <Path>SFX\protector_attack_04_01497203.wem</Path>
+        </File>
+        <File Id="38208283" Language="SFX">
+          <ShortName>protector_attack_01.wav</ShortName>
+          <Path>SFX\protector_attack_01_01497203.wem</Path>
+        </File>
+        <File Id="95049096" Language="SFX">
+          <ShortName>knight3_pain.wav</ShortName>
+          <Path>SFX\knight3_pain_01497203.wem</Path>
+        </File>
+        <File Id="116413410" Language="SFX">
+          <ShortName>watcher_acknowledge.wav</ShortName>
+          <Path>SFX\watcher_acknowledge_01497203.wem</Path>
+        </File>
+        <File Id="125174360" Language="SFX">
+          <ShortName>enforcer_attack_01.wav</ShortName>
+          <Path>SFX\enforcer_attack_01_01497203.wem</Path>
+        </File>
+        <File Id="150347897" Language="SFX">
+          <ShortName>watcher_select.wav</ShortName>
+          <Path>SFX\watcher_select_01497203.wem</Path>
+        </File>
+        <File Id="160556979" Language="SFX">
+          <ShortName>crawler2_attack.wav</ShortName>
+          <Path>SFX\crawler2_attack_01497203.wem</Path>
+        </File>
+        <File Id="161116792" Language="SFX">
+          <ShortName>sentinel_attack_03.wav</ShortName>
+          <Path>SFX\sentinel_attack_03_01497203.wem</Path>
+        </File>
+        <File Id="210275075" Language="SFX">
+          <ShortName>sentinel_attack_04.wav</ShortName>
+          <Path>SFX\sentinel_attack_04_01497203.wem</Path>
+        </File>
+        <File Id="213693813" Language="SFX">
+          <ShortName>crawler1_attack.wav</ShortName>
+          <Path>SFX\crawler1_attack_01497203.wem</Path>
+        </File>
+        <File Id="243737728" Language="SFX">
+          <ShortName>crawler1_acknowledge.wav</ShortName>
+          <Path>SFX\crawler1_acknowledge_01497203.wem</Path>
+        </File>
+        <File Id="260800882" Language="SFX">
+          <ShortName>sentinel_select_01.wav</ShortName>
+          <Path>SFX\sentinel_select_01_01497203.wem</Path>
+        </File>
+        <File Id="266767276" Language="SFX">
+          <ShortName>enforcer_death_01.wav</ShortName>
+          <Path>SFX\enforcer_death_01_01497203.wem</Path>
+        </File>
+        <File Id="276543700" Language="SFX">
+          <ShortName>sentinel_select_04.wav</ShortName>
+          <Path>SFX\sentinel_select_04_01497203.wem</Path>
+        </File>
+        <File Id="288293941" Language="SFX">
+          <ShortName>crawler2_pain.wav</ShortName>
+          <Path>SFX\crawler2_pain_01497203.wem</Path>
+        </File>
+        <File Id="315793342" Language="SFX">
+          <ShortName>protector_attack_02.wav</ShortName>
+          <Path>SFX\protector_attack_02_01497203.wem</Path>
+        </File>
+        <File Id="332779320" Language="SFX">
+          <ShortName>protector_select_03.wav</ShortName>
+          <Path>SFX\protector_select_03_01497203.wem</Path>
+        </File>
+        <File Id="344399047" Language="SFX">
+          <ShortName>protector_select_02.wav</ShortName>
+          <Path>SFX\protector_select_02_01497203.wem</Path>
+        </File>
+        <File Id="354789280" Language="SFX">
+          <ShortName>retriever_death_01.wav</ShortName>
+          <Path>SFX\retriever_death_01_01497203.wem</Path>
+        </File>
+        <File Id="355599508" Language="SFX">
+          <ShortName>protector_attack_03.wav</ShortName>
+          <Path>SFX\protector_attack_03_01497203.wem</Path>
+        </File>
+        <File Id="363866765" Language="SFX">
+          <ShortName>sentinel_select_02.wav</ShortName>
+          <Path>SFX\sentinel_select_02_01497203.wem</Path>
+        </File>
+        <File Id="368810399" Language="SFX">
+          <ShortName>crawler2_select.wav</ShortName>
+          <Path>SFX\crawler2_select_01497203.wem</Path>
+        </File>
+        <File Id="382454073" Language="SFX">
+          <ShortName>sentinel_attack_01.wav</ShortName>
+          <Path>SFX\sentinel_attack_01_01497203.wem</Path>
+        </File>
+        <File Id="390403779" Language="SFX">
+          <ShortName>knight3_acknowledge.wav</ShortName>
+          <Path>SFX\knight3_acknowledge_01497203.wem</Path>
+        </File>
+        <File Id="449939639" Language="SFX">
+          <ShortName>crawler2_acknowledge.wav</ShortName>
+          <Path>SFX\crawler2_acknowledge_01497203.wem</Path>
+        </File>
+        <File Id="517494229" Language="SFX">
+          <ShortName>knight1_taunt.wav</ShortName>
+          <Path>SFX\knight1_taunt_01497203.wem</Path>
+        </File>
+        <File Id="551731359" Language="SFX">
+          <ShortName>crawler1_pain.wav</ShortName>
+          <Path>SFX\crawler1_pain_01497203.wem</Path>
+        </File>
+        <File Id="576191533" Language="SFX">
+          <ShortName>knight3_select.wav</ShortName>
+          <Path>SFX\knight3_select_01497203.wem</Path>
+        </File>
+        <File Id="588018830" Language="SFX">
+          <ShortName>crawler2_death.wav</ShortName>
+          <Path>SFX\crawler2_death_01497203.wem</Path>
+        </File>
+        <File Id="600383811" Language="SFX">
+          <ShortName>retriever_select_02.wav</ShortName>
+          <Path>SFX\retriever_select_02_01497203.wem</Path>
+        </File>
+        <File Id="616271454" Language="SFX">
+          <ShortName>knight3_death.wav</ShortName>
+          <Path>SFX\knight3_death_01497203.wem</Path>
+        </File>
+        <File Id="636316504" Language="SFX">
+          <ShortName>knight1_pain.wav</ShortName>
+          <Path>SFX\knight1_pain_01497203.wem</Path>
+        </File>
+        <File Id="682338380" Language="SFX">
+          <ShortName>watcher_death.wav</ShortName>
+          <Path>SFX\watcher_death_01497203.wem</Path>
+        </File>
+        <File Id="743747252" Language="SFX">
+          <ShortName>knight3_attack.wav</ShortName>
+          <Path>SFX\knight3_attack_01497203.wem</Path>
+        </File>
+        <File Id="814451543" Language="SFX">
+          <ShortName>knight3_taunt.wav</ShortName>
+          <Path>SFX\knight3_taunt_01497203.wem</Path>
+        </File>
+        <File Id="816379465" Language="SFX">
+          <ShortName>retriever_attack_02.wav</ShortName>
+          <Path>SFX\retriever_attack_02_01497203.wem</Path>
+        </File>
+        <File Id="824766921" Language="SFX">
+          <ShortName>knight1_death.wav</ShortName>
+          <Path>SFX\knight1_death_01497203.wem</Path>
+        </File>
+        <File Id="826805981" Language="SFX">
+          <ShortName>protector_select_01.wav</ShortName>
+          <Path>SFX\protector_select_01_01497203.wem</Path>
+        </File>
+        <File Id="833025325" Language="SFX">
+          <ShortName>retriever_select_03.wav</ShortName>
+          <Path>SFX\retriever_select_03_01497203.wem</Path>
+        </File>
+        <File Id="848415239" Language="SFX">
+          <ShortName>protector_select_04.wav</ShortName>
+          <Path>SFX\protector_select_04_01497203.wem</Path>
+        </File>
+        <File Id="850898296" Language="SFX">
+          <ShortName>knight1_acknowledge.wav</ShortName>
+          <Path>SFX\knight1_acknowledge_01497203.wem</Path>
+        </File>
+        <File Id="864483011" Language="SFX">
+          <ShortName>crawler1_select.wav</ShortName>
+          <Path>SFX\crawler1_select_01497203.wem</Path>
+        </File>
+        <File Id="916949894" Language="SFX">
+          <ShortName>retriever_select_01.wav</ShortName>
+          <Path>SFX\retriever_select_01_01497203.wem</Path>
+        </File>
+        <File Id="932087871" Language="SFX">
+          <ShortName>retriever_attack_03.wav</ShortName>
+          <Path>SFX\retriever_attack_03_01497203.wem</Path>
+        </File>
+        <File Id="977253628" Language="SFX">
+          <ShortName>knight1_birth.wav</ShortName>
+          <Path>SFX\knight1_birth_01497203.wem</Path>
+        </File>
+        <File Id="982746374" Language="SFX">
+          <ShortName>sentinel_select_03.wav</ShortName>
+          <Path>SFX\sentinel_select_03_01497203.wem</Path>
+        </File>
+        <File Id="993178105" Language="SFX">
+          <ShortName>knight3_birth.wav</ShortName>
+          <Path>SFX\knight3_birth_01497203.wem</Path>
+        </File>
+        <File Id="1002214269" Language="SFX">
+          <ShortName>crawler1_death.wav</ShortName>
+          <Path>SFX\crawler1_death_01497203.wem</Path>
+        </File>
+        <File Id="1011069766" Language="SFX">
+          <ShortName>watcher_pain.wav</ShortName>
+          <Path>SFX\watcher_pain_01497203.wem</Path>
+        </File>
+        <File Id="1019050539" Language="SFX">
+          <ShortName>sentinel_attack_02.wav</ShortName>
+          <Path>SFX\sentinel_attack_02_01497203.wem</Path>
+        </File>
+        <File Id="1030125772" Language="SFX">
+          <ShortName>knight1_select.wav</ShortName>
+          <Path>SFX\knight1_select_01497203.wem</Path>
+        </File>
+      </IncludedMemoryFiles>
+    </SoundBank>
+    <SoundBank Id="1141610864" Language="SFX" Spatialization="3D" MinDistance="10" MaxDistance="100" Falloff="Linear" MidVolumeDb="4" EndVolumeDb="8" VolumeDb="8">
+      <ShortName>MLM_Banished</ShortName>
+      <Path>MLM_Banished.bnk</Path>
+      <IncludedEvents>
+        <Event Id="915639313" Name="Play_MLM_hunter_cap_ability" DurationType="OneShot">
+          <Sound ShortName="hunter_cap_ability_01.wav"/>
+        </Event>
+        <Event Id="1686162256" Name="Play_MLM_hunter_cap_ack" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="hunter_cap_ack_01.wav"/>
+            <Sound ShortName="hunter_cap_ack_02.wav"/>
+            <Sound ShortName="hunter_cap_select_01.wav"/>
+            <Sound ShortName="hunter_cap_select_02.wav"/>
+          </Random>
+        </Event>
+        <Event Id="163934829" Name="Play_MLM_hunter_cap_attack" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="hunter_cap_attack_01.wav"/>
+            <Sound ShortName="hunter_cap_attack_02.wav"/>
+          </Random>
+        </Event>
+        <Event Id="1775711537" Name="Play_MLM_hunter_cap_death" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="hunter_cap_death_01.wav"/>
+            <Sound ShortName="hunter_cap_death_02.wav"/>
+            <Sound ShortName="hunter_cap_death_03.wav"/>
+          </Random>
+        </Event>
+        <Event Id="735699689" Name="Play_MLM_hunter_cap_pain" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="hunter_cap_pain_01.wav"/>
+            <Sound ShortName="hunter_cap_pain_02.wav"/>
+          </Random>
+        </Event>
+        <Event Id="1415861557" Name="Play_MLM_hunter_cap_select" DurationType="OneShot">
+          <Random>
+            <Sound ShortName="hunter_cap_select_01.wav"/>
+            <Sound ShortName="hunter_cap_select_02.wav"/>
+          </Random>
+        </Event>
+      </IncludedEvents>
+      <IncludedMemoryFiles>
+        <File Id="334264003" Language="SFX">
+          <ShortName>hunter_cap_ack_01.wav</ShortName>
+          <Path>SFX\hunter_cap_ack_01_01497203.wem</Path>
+        </File>
+        <File Id="337560956" Language="SFX">
+          <ShortName>hunter_cap_select_02.wav</ShortName>
+          <Path>SFX\hunter_cap_select_02_01497203.wem</Path>
+        </File>
+        <File Id="357367274" Language="SFX">
+          <ShortName>hunter_cap_ack_02.wav</ShortName>
+          <Path>SFX\hunter_cap_ack_02_01497203.wem</Path>
+        </File>
+        <File Id="371515979" Language="SFX">
+          <ShortName>hunter_cap_select_01.wav</ShortName>
+          <Path>SFX\hunter_cap_select_01_01497203.wem</Path>
+        </File>
+        <File Id="420981641" Language="SFX">
+          <ShortName>hunter_cap_death_02.wav</ShortName>
+          <Path>SFX\hunter_cap_death_02_01497203.wem</Path>
+        </File>
+        <File Id="568464035" Language="SFX">
+          <ShortName>hunter_cap_attack_02.wav</ShortName>
+          <Path>SFX\hunter_cap_attack_02_01497203.wem</Path>
+        </File>
+        <File Id="643584299" Language="SFX">
+          <ShortName>hunter_cap_pain_01.wav</ShortName>
+          <Path>SFX\hunter_cap_pain_01_01497203.wem</Path>
+        </File>
+        <File Id="658748258" Language="SFX">
+          <ShortName>hunter_cap_pain_02.wav</ShortName>
+          <Path>SFX\hunter_cap_pain_02_01497203.wem</Path>
+        </File>
+        <File Id="702639663" Language="SFX">
+          <ShortName>hunter_cap_death_03.wav</ShortName>
+          <Path>SFX\hunter_cap_death_03_01497203.wem</Path>
+        </File>
+        <File Id="728872620" Language="SFX">
+          <ShortName>hunter_cap_attack_01.wav</ShortName>
+          <Path>SFX\hunter_cap_attack_01_01497203.wem</Path>
+        </File>
+        <File Id="806107092" Language="SFX">
+          <ShortName>hunter_cap_death_01.wav</ShortName>
+          <Path>SFX\hunter_cap_death_01_01497203.wem</Path>
+        </File>
+        <File Id="930457725" Language="SFX">
+          <ShortName>hunter_cap_ability_01.wav</ShortName>
+          <Path>SFX\hunter_cap_ability_01_01497203.wem</Path>
+        </File>
+      </IncludedMemoryFiles>
+    </SoundBank>
+    <SoundBank Id="2227667826" Language="SFX" Spatialization="3D" MinDistance="10" MaxDistance="100" Falloff="Linear" MidVolumeDb="4" EndVolumeDb="8" VolumeDb="8">
+      <ShortName>MLM_Covenant</ShortName>
+      <Path>MLM_Covenant.bnk</Path>
+      <IncludedEvents>
+        <Event Id="1058621644" Name="Play_MLM_drone_acknowledge" DurationType="OneShot">
+          <Sound ShortName="drone_acknowledge.wav"/>
+        </Event>
+        <Event Id="1322465347" Name="Play_MLM_drone_fly" DurationType="OneShot">
+          <Sound ShortName="drone_fly.wav"/>
+        </Event>
+        <Event Id="1555372159" Name="Play_MLM_drone_move" DurationType="OneShot">
+          <Sound ShortName="drone_move.wav"/>
+        </Event>
+        <Event Id="2342983728" Name="Play_MLM_drone_pain" DurationType="OneShot">
+          <Sound ShortName="drone_pain.wav"/>
+        </Event>
+      </IncludedEvents>
+      <IncludedMemoryFiles>
+        <File Id="164002699" Language="SFX">
+          <ShortName>drone_pain.wav</ShortName>
+          <Path>SFX\drone_pain_01497203.wem</Path>
+        </File>
+        <File Id="824707428" Language="SFX">
+          <ShortName>drone_move.wav</ShortName>
+          <Path>SFX\drone_move_01497203.wem</Path>
+        </File>
+        <File Id="1014532270" Language="SFX">
+          <ShortName>drone_fly.wav</ShortName>
+          <Path>SFX\drone_fly_01497203.wem</Path>
+        </File>
+        <File Id="1044549855" Language="SFX">
+          <ShortName>drone_acknowledge.wav</ShortName>
+          <Path>SFX\drone_acknowledge_01497203.wem</Path>
+        </File>
+      </IncludedMemoryFiles>
+    </SoundBank>
+    <SoundBank Id="3457632592" Language="SFX" Spatialization="3D" MinDistance="10" MaxDistance="100" Falloff="Linear" MidVolumeDb="4" EndVolumeDb="8" VolumeDb="8">
+      <ShortName>MLM_static</ShortName>
+      <Path>MLM_static.bnk</Path>
+      <IncludedEvents>
+        <Event Id="3036102874" Name="Play_MLM_focusrifle_fire" DurationType="OneShot">
+          <Sound ShortName="focusrifle_fire.wav"/>
+        </Event>
+        <Event Id="445966664" Name="Play_MLM_focusrifle_loop" DurationType="OneShot">
+          <Sound ShortName="focusrifle_loop.wav"/>
+        </Event>
+        <Event Id="972531344" Name="Play_MLM_grenadelauncher_fire" DurationType="OneShot">
+          <Sound ShortName="grenadelauncher_fire.wav"/>
+        </Event>
+        <Event Id="3377746073" Name="Play_MLM_hardlight_fire" DurationType="OneShot">
+          <Sound ShortName="hardlight_fire.wav"/>
+        </Event>
+        <Event Id="2967142366" Name="Play_MLM_incinerator_fire" DurationType="OneShot">
+          <Sound ShortName="incinerator_fire.wav"/>
+        </Event>
+        <Event Id="3425955108" Name="Play_MLM_incinerator_impact" DurationType="OneShot">
+          <Sound ShortName="incinerator_impact.wav"/>
+        </Event>
+        <Event Id="913698457" Name="Play_MLM_lp_unitdrop" DurationType="OneShot">
+          <Sound ShortName="lp_unitdrop.wav"/>
+        </Event>
+        <Event Id="3662382098" Name="Play_MLM_piny_fire" DurationType="OneShot">
+          <Sound ShortName="piny_fire.wav"/>
+        </Event>
+        <Event Id="445332339" Name="Play_MLM_promethean_ability" DurationType="OneShot">
+          <Sound ShortName="promethean_ability.wav"/>
+        </Event>
+        <Event Id="2606017889" Name="Play_MLM_promethean_melee" DurationType="OneShot">
+          <Sound ShortName="promethean_melee.wav"/>
+        </Event>
+        <Event Id="2802646772" Name="Play_MLM_scattershot_fire" DurationType="OneShot">
+          <Sound ShortName="scattershot_fire.wav"/>
+        </Event>
+        <Event Id="788690281" Name="Play_MLM_shotgun_heavyfire" DurationType="OneShot">
+          <Sound ShortName="shotgun_heavyfire.wav"/>
+        </Event>
+        <Event Id="1984215946" Name="Play_MLM_suppressor_fire" DurationType="OneShot">
+          <Sound ShortName="suppressor_fire.wav"/>
+        </Event>
+        <Event Id="2652605390" Name="Play_MLM_turret_fire" DurationType="OneShot">
+          <Sound ShortName="turret_fire.wav"/>
+        </Event>
+      </IncludedEvents>
+      <IncludedMemoryFiles>
+        <File Id="119552060" Language="SFX">
+          <ShortName>promethean_melee.wav</ShortName>
+          <Path>SFX\promethean_melee_01497203.wem</Path>
+        </File>
+        <File Id="123153360" Language="SFX">
+          <ShortName>grenadelauncher_fire.wav</ShortName>
+          <Path>SFX\grenadelauncher_fire_01497203.wem</Path>
+        </File>
+        <File Id="231503809" Language="SFX">
+          <ShortName>lp_unitdrop.wav</ShortName>
+          <Path>SFX\lp_unitdrop_01497203.wem</Path>
+        </File>
+        <File Id="350420367" Language="SFX">
+          <ShortName>scattershot_fire.wav</ShortName>
+          <Path>SFX\scattershot_fire_01497203.wem</Path>
+        </File>
+        <File Id="424665493" Language="SFX">
+          <ShortName>focusrifle_fire.wav</ShortName>
+          <Path>SFX\focusrifle_fire_01497203.wem</Path>
+        </File>
+        <File Id="508649995" Language="SFX">
+          <ShortName>shotgun_heavyfire.wav</ShortName>
+          <Path>SFX\shotgun_heavyfire_01497203.wem</Path>
+        </File>
+        <File Id="574328185" Language="SFX">
+          <ShortName>focusrifle_loop.wav</ShortName>
+          <Path>SFX\focusrifle_loop_01497203.wem</Path>
+        </File>
+        <File Id="575146617" Language="SFX">
+          <ShortName>piny_fire.wav</ShortName>
+          <Path>SFX\piny_fire_01497203.wem</Path>
+        </File>
+        <File Id="596498548" Language="SFX">
+          <ShortName>hardlight_fire.wav</ShortName>
+          <Path>SFX\hardlight_fire_01497203.wem</Path>
+        </File>
+        <File Id="635681386" Language="SFX">
+          <ShortName>incinerator_impact.wav</ShortName>
+          <Path>SFX\incinerator_impact_01497203.wem</Path>
+        </File>
+        <File Id="820186352" Language="SFX">
+          <ShortName>turret_fire.wav</ShortName>
+          <Path>SFX\turret_fire_01497203.wem</Path>
+        </File>
+        <File Id="970840934" Language="SFX">
+          <ShortName>incinerator_fire.wav</ShortName>
+          <Path>SFX\incinerator_fire_01497203.wem</Path>
+        </File>
+        <File Id="974783310" Language="SFX">
+          <ShortName>suppressor_fire.wav</ShortName>
+          <Path>SFX\suppressor_fire_8BCFC7DD.wem</Path>
+        </File>
+        <File Id="1065791533" Language="SFX">
+          <ShortName>promethean_ability.wav</ShortName>
+          <Path>SFX\promethean_ability_01497203.wem</Path>
+        </File>
+      </IncludedMemoryFiles>
+    </SoundBank>
+    <SoundBank Id="3457632596" Language="SFX" Spatialization="2D">
+      <ShortName>MLM_vog</ShortName>
+      <Path>MLM_vog.bnk</Path>
+      <IncludedEvents>
+        <Event Id="2761074219" Name="Play_MLM_vog_ban_techunlocked" DurationType="OneShot">
+          <Sound ShortName="vog_ban_techunlocked.wav"/>
+        </Event>
+        <Event Id="2503811154" Name="Play_MLM_vog_cov_techunlocked" DurationType="OneShot">
+          <Sound ShortName="vog_cov_techunlocked.wav"/>
+        </Event>
+        <Event Id="221589395" Name="Play_MLM_vog_unsc_techunlocked" DurationType="OneShot" >
+          <Sound ShortName="vog_unsc_techunlocked.wav"/>
+        </Event>
+      </IncludedEvents>
+      <IncludedMemoryFiles>
+        <File Id="230273449" Language="SFX">
+          <ShortName>vog_unsc_techunlocked.wav</ShortName>
+          <Path>SFX\vog_unsc_techunlocked_01497203.wem</Path>
+        </File>
+        <File Id="845333330" Language="SFX">
+          <ShortName>vog_cov_techunlocked.wav</ShortName>
+          <Path>SFX\vog_cov_techunlocked_01497203.wem</Path>
+        </File>
+        <File Id="1000719304" Language="SFX">
+          <ShortName>vog_ban_techunlocked.wav</ShortName>
+          <Path>SFX\vog_ban_techunlocked_01497203.wem</Path>
+        </File>
+      </IncludedMemoryFiles>
+    </SoundBank>
+  </SoundBanks>
+</SoundBanksInfo>

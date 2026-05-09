@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Cleansing</Name>
+		<AllowFriendlyFire />
+		<DamagePerSecond>110</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>leaderPower</WeaponType>
+		<Projectile>pow_gp_banishedcleansing_01</Projectile>
+		<ImpactCameraShake duration="0.200000003" strength="0.150000006" />
+		<ImpactRumble leftRumbleType="Fixed" leftStrength="0.200000003" rightRumbleType="Fixed" rightStrength="0.200000003" duration="0.200000003" />
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.100000001</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<AOEIgnoresYAxis />
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>CleansingAttackAction</Name>
+		<Weapon>Cleansing</Weapon>
+	</Action>
+	<Action>
+		<ActionType>RangedAttack</ActionType>
+		<MainAttack />
+		<Name>CleansingAAttackAction</Name>
+		<Weapon>Cleansing</Weapon>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<TargetsGround />
+			<Action>CleansingAAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

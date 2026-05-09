@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>banished\vehicle\grunt_goblin_01\mesh_grunt_goblin01</file>
+				<damagefile>template\defaultInfantry</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\vehicle\grunt_goblin_01\idle_01</file>
+				<weight>5</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\grunt_goblin_01\idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\grunt_goblin_01\idle_03</file>
+				<weight>4</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\grunt_goblin_01\walk_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\grunt_goblin_01\jog_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\grunt_goblin_01\jog_03</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\grunt_goblin_01\jog_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\grunt_goblin_01\jog_03</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Clamshell" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\clamshell_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\clamshell_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\clamshell_03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\clamshell_04</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Flail" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\grunt_goblin_01\flail_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spin" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Stunned" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\stunned_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\vehicle\grunt_goblin_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Transition" tweenTime="10" tweenToAnimation="Gather">
+			<asset type="Anim">
+				<file>banished\vehicle\grunt_goblin_01\idle_01</file>
+				<weight>5</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\vehicle\grunt_goblin_01\idle_03</file>
+				<weight>4</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Build" exitAction="Transition" tweenTime="10" tweenToAnimation="Build">
+			<asset type="Anim">
+				<file>banished\vehicle\grunt_goblin_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Transition" tweenTime="10" tweenToAnimation="Build">
+			<asset type="Anim">
+				<file>banished\vehicle\grunt_goblin_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="SecondaryAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Support">
+			<asset type="Anim">
+				<file>banished\vehicle\grunt_goblin_01\secondary_attack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.25" end="1" tobone="bone_vfx_MissilePoint07" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.25" end="1" name="play_cov_shade_turret_fire" tobone="bone_vfx_MissilePoint07" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.263000011" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="bone_vfx_MissilePoint01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="2.20000005" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.287999988" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="bone_vfx_MissilePoint04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="2.20000005" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.3" end="1" tobone="bone_vfx_MissilePoint05" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.3" end="1" name="play_cov_shade_turret_fire" tobone="bone_vfx_MissilePoint05" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.340000004" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="bone_vfx_MissilePoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="2.20000005" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.349999994" end="1" tobone="bone_vfx_MissilePoint08" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.349999994" end="1" name="play_cov_shade_turret_fire" tobone="bone_vfx_MissilePoint08" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.36500001" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="bone_vfx_MissilePoint05" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="2.20000005" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.400" end="1" tobone="bone_vfx_MissilePoint03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.400" end="1" name="play_cov_shade_turret_fire" tobone="bone_vfx_MissilePoint03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.404000014" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="bone_vfx_MissilePoint09" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="2.20000005" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.449999988" end="1" name="play_cov_shade_turret_fire" tobone="bone_vfx_MissilePoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.449999988" end="1" tobone="bone_vfx_MissilePoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.481" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="bone_vfx_MissilePoint06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="2.20000005" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="bone_vfx_MissilePoint09" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.5" end="1" name="play_cov_shade_turret_fire" tobone="bone_vfx_MissilePoint09" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.550000012" end="1" tobone="bone_vfx_MissilePoint06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.550000012" end="1" name="play_cov_shade_turret_fire" tobone="bone_vfx_MissilePoint06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.56400001" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="bone_vfx_MissilePoint03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="2.20000005" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.600000024" end="1" tobone="bone_vfx_MissilePoint04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.600000024" end="1" name="play_cov_shade_turret_fire" tobone="bone_vfx_MissilePoint04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.609000027" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="bone_vfx_MissilePoint08" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="2.20000005" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.647000015" end="1" name="effects\vehicle_fx\cov\turret\shademuzzleblast_01" tobone="bone_vfx_MissilePoint07" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="2.20000005" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.649999976" end="1" tobone="bone_vfx_MissilePoint01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.649999976" end="1" name="play_cov_shade_turret_fire" tobone="bone_vfx_MissilePoint01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Transition" tweenTime="10" tweenToAnimation="Support">
+			<asset type="Anim">
+				<file>banished\vehicle\grunt_goblin_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.25" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.25" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.25" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.275" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.275" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.3" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.3" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.325" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.325" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.349999994" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.349999994" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.375" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.375" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.400" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.400" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.425000012" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.425000012" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.449999988" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.449999988" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.474999994" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.474999994" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.5" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.524999976" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.524999976" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.550000012" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.550000012" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.575" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.575" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.600000024" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.600000024" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.625" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.625" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.649999976" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.649999976" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.675000012" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.675000012" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.699999988" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.699999988" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.725000024" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.725000024" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.75" end="1" tobone="b_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.75" end="1" name="play_cov_grunt_needler" tobone="b_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="Reload" exitAction="Transition" tweenTime="5" tweenToAnimation="AssaultRifleAttack">
+			<asset type="Anim">
+				<file>banished\vehicle\grunt_goblin_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Support" exitAction="Transition" tweenTime="5" tweenToAnimation="PlasmaPistolAttack">
+			<asset type="Anim">
+				<file>banished\vehicle\grunt_goblin_01\combat_action_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HotDropUp" exitAction="Loop" tweenTime="15" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.3999999463558197</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Sound" start="0" position="0" end="1" name="play_pfx_teleport" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.0599999987" end="1" name="effects\hotdrop\hot_drop_infantrySpawner" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.5" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="HotDropDown" exitAction="Freeze" tweenTime="15" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.35830000042915344</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Sound" start="0" position="0" end="1" name="play_pfx_teleport_end" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.3" end="1" name="effects\hotdrop\hot_drop_infantrySpawner" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.5" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="TeleportOut" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>effects\fx_dummy_teleportstretchOut</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0.042100001126527786</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.31719997525215149</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Particle" start="0" position="0.0130000003" end="1" name="effects\special\teleportInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="TeleportIn" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>effects\fx_dummy_teleportstretchIn</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.0068000000901520252</Value>
+							<Alpha>0.16940000653266907</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0.32339999079704285</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\special\teleportInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Train" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>effects\fx_dummy_teleportstretchIn</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.0068000000901520252</Value>
+							<Alpha>0.16940000653266907</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0.32339999079704285</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\Unit_FX\cov\generic\spawnInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+</visual>

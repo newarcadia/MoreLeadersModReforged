@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DeathMatchPlayer.triggerscript" Type="TriggerScript" NextTriggerVarID="854" NextTriggerID="66" NextConditionID="98" NextEffectID="327" External="false">
+	<TriggerGroups>
+		<Group ID="0" Name="Cov Players">9,10,11,12,13,35,36,37</Group>
+		<Group ID="1" Name="Unsc Players">14,15,16,17,18,38,39,40</Group>
+		<Group ID="2" Name="Pop Model">26, 28, 58, 63</Group>
+	</TriggerGroups>
+	<TriggerVars>
+		<TriggerVar ID="1" Type="Unit" Name="ExternalUnitVar1" IsNull="true" />
+		<TriggerVar ID="2" Type="UnitList" Name="ExternalUnitListVar1" IsNull="true" />
+		<TriggerVar ID="3" Type="Squad" Name="ExternalSquadVar1" IsNull="true" />
+		<TriggerVar ID="4" Type="SquadList" Name="ExternalSquadListVar1" IsNull="true" />
+		<TriggerVar ID="6" Type="Power" Name="ExternalPowerVar1" IsNull="true" />
+		<TriggerVar ID="7" Type="Cost" Name="ExternalCostVar1" IsNull="true" />
+		<TriggerVar ID="8" Type="Vector" Name="ExternalLocationVar1" IsNull="true" />
+		<TriggerVar ID="9" Type="VectorList" Name="ExternalLocationListVar1" IsNull="true" />
+		<TriggerVar ID="10" Type="Player" Name="Player" IsNull="false" />
+		<TriggerVar ID="11" Type="Power" Name="ExternPowerVar1" IsNull="true" />
+		<TriggerVar ID="12" Type="Squad" Name="ExternSquadVar1" IsNull="true" />
+		<TriggerVar ID="13" Type="SquadList" Name="ExternSquadListVar1" IsNull="true" />
+		<TriggerVar ID="14" Type="Unit" Name="ExternUnitVar1" IsNull="true" />
+		<TriggerVar ID="15" Type="UnitList" Name="ExternUnitListVar1" IsNull="true" />
+		<TriggerVar ID="16" Type="Cost" Name="ExternCostVar1" IsNull="true" />
+		<TriggerVar ID="364" Type="String" Name="" IsNull="false">SkirmishPlayer.triggerscript</TriggerVar>
+		<TriggerVar ID="486" Type="Cost" Name="" IsNull="false">0=5000,1=0,2=5000,3=5000,4=0</TriggerVar>
+		<TriggerVar ID="374" Type="Float" Name="ExternalFloatVar1" IsNull="true" />
+		<TriggerVar ID="815" Type="Float" Name="" IsNull="false">5000</TriggerVar>
+		<TriggerVar ID="816" Type="Float" Name="" IsNull="false">5000</TriggerVar>
+		<TriggerVar ID="817" Type="Float" Name="PopFutureVar9" IsNull="true" />
+		<TriggerVar ID="818" Type="Float" Name="PopExistingVar9" IsNull="true" />
+	</TriggerVars>
+	<Triggers>
+		<Trigger ID="0" Name="Startup and launch skirmish rules" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="167" Y="233" GroupID="-1" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="0" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="ExternPlayer" SigID="1" Optional="true">10</Output>
+						<Output Name="ExternPower" SigID="2" Optional="true">11</Output>
+						<Output Name="ExternSquad" SigID="3" Optional="true">12</Output>
+						<Output Name="ExternSquadList" SigID="7" Optional="true">13</Output>
+						<Output Name="ExternUnit" SigID="4" Optional="true">14</Output>
+						<Output Name="ExternUnitList" SigID="6" Optional="true">15</Output>
+						<Output Name="ExternCost" SigID="5" Optional="true">16</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="198" Type="LaunchScript" DBID="392" Version="4" CommentOut="false">
+					<Input Name="ScriptName" SigID="15" Optional="false">364</Input>
+					<Input Name="ExternalUnit" SigID="2" Optional="true">1</Input>
+					<Input Name="ExternalUnitList" SigID="3" Optional="true">2</Input>
+					<Input Name="ExternalSquad" SigID="4" Optional="true">3</Input>
+					<Input Name="ExternalSquadList" SigID="5" Optional="true">4</Input>
+					<Input Name="ExternalPlayer" SigID="6" Optional="true">10</Input>
+					<Input Name="ExternalPower" SigID="7" Optional="true">6</Input>
+					<Input Name="ExternalCost" SigID="8" Optional="true">7</Input>
+					<Input Name="ExternalLocation" SigID="11" Optional="true">8</Input>
+					<Input Name="ExternalLocationList" SigID="12" Optional="true">9</Input>
+					<Input Name="ExternalFloat" SigID="13" Optional="true">374</Input>
+				</Effect>
+				<Effect ID="255" Type="SetResources" DBID="277" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Resources" SigID="2" Optional="false">486</Input>
+				</Effect>
+				<Effect ID="319" Type="SetPlayerPop" DBID="741" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="PopCap" SigID="2" Optional="true">815</Input>
+					<Input Name="PopMax" SigID="3" Optional="true">816</Input>
+					<Input Name="PopFuture" SigID="4" Optional="true">817</Input>
+					<Input Name="PopExisting" SigID="5" Optional="true">818</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+	</Triggers>
+</TriggerSystem>

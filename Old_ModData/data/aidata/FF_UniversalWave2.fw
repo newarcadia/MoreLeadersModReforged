@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Tables>
+	<Table Name="SetA" Type="BuildingBuildList">
+		<Row>
+			<c>fore_veh_pilotes_01,fore_veh_pilotes_01,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01</c> <!-- Wave 1 -->
+		</Row>
+		<Row>
+			<c>for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01</c> <!-- Wave 2 -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01</c> <!-- Wave 3 -->
+		</Row>
+		<Row>
+			<c>fore_air_attractor_01,for_inf_prometheanpawn_01,fore_air_sentinel_01,for_inf_prometheanpawn_01</c> <!-- Wave 4 -->
+		</Row>
+		<Row>
+			<c>fore_air_guardian_01_new,fore_air_attractor_01,fore_air_attractor_01,fore_air_attractor_01,for_inf_prometheanpawn_01</c> <!-- Boss Wave 5 -->
+		</Row>
+		<Row>
+			<c>cov_inf_gruntDeacon_01,cov_inf_gruntDeacon_01,cov_inf_gruntDeacon_01,cov_inf_grunt_01,cov_inf_grunt_01</c> <!-- Wave 6 -->
+		</Row>
+		<Row>
+			<c>cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_ghost_01,cov_inf_majordrones_01,cov_inf_majordrones_01</c> <!-- Wave 7 -->
+		</Row>
+		<Row>
+			<c>cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_artillery_01</c> <!-- Wave 8 -->
+		</Row>
+		<Row>
+			<c>cov_inf_engineer_01,cov_inf_engineer_01,cov_veh_wraith_01,cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01</c> <!-- Wave 9 -->
+		</Row>
+		<Row>
+			<c>cov_inf_prophet_01,cov_inf_suicideGrunt_01,cov_inf_suicideGrunt_01,cov_inf_suicideGrunt_01,cov_inf_fuelrodelite,cov_inf_fuelrodelite</c> <!-- Boss Wave 10 -->
+		</Row>
+		<Row>
+			<c>for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,fore_inf_soldier_01,for_inf_prometheanpawn_01,fore_inf_soldier_01</c> <!-- Wave 11 -->
+		</Row>
+		<Row>
+			<c>for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanknight_01,for_inf_prometheanknight_01</c> <!-- Wave 12 -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,for_air_regulator_01,fore_air_sentinel_01,fore_air_sentinel_01,for_air_regulator_01,fore_air_sentinel_01</c> <!-- Wave 13 -->
+		</Row>
+		<Row>
+			<c>for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanknight_01,for_inf_prometheanknight_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,fore_air_sentinel_01,for_air_regulator_01,fore_air_sentinel_01,fore_air_sentinel_01,for_air_regulator_01,fore_air_sentinel_01</c> <!-- Wave 14 -->
+		</Row>
+		<Row>
+			<c>for_inf_prometheanknight_01,for_inf_prometheanknight_01,for_inf_prometheanpawn_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01</c> <!-- Boss Wave 15 -->
+		</Row>
+		<Row>
+			<c>unsc_inf_marine_01,unsc_inf_marine_01,unsc_inf_marine_01,unsc_inf_marine_01,unsc_inf_marine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_sniper_01,unsc_inf_sniper_01</c> <!-- Wave 16 -->
+		</Row>
+		<Row>
+			<c>unsc_air_unmanneddrone_01,unsc_air_unmanneddrone_01,unsc_air_unmanneddrone_01,unsc_air_unmanneddrone_01,unsc_veh_grizzly_01,unsc_veh_grizzly_01</c> <!-- Wave 17 -->
+		</Row>
+		<Row>
+			<c>unsc_air_hornet_01,unsc_air_hornet_01,unsc_air_hornet_01,unsc_air_hornet_01,unsc_air_falcon_01</c> <!-- Wave 18 -->
+		</Row>
+		<Row>
+			<c>unsc_inf_marine_01,unsc_inf_marine_01,unsc_inf_marine_01,unsc_air_unmanneddrone_01,unsc_veh_grizzly_01,unsc_air_unmanneddrone_01,unsc_air_vulture_01</c> <!-- Wave 19 -->
+		</Row>
+		<Row>
+			<c>unsc_inf_spartanalice_01,unsc_inf_spartanjerome_01,unsc_inf_spartandouglas_01</c> <!-- Boss Wave 20 -->
+		</Row>
+		<Row>
+			<c>creep_inf_marine_01,creep_inf_marine_01,creep_inf_marine_01,creep_inf_empmarine_01,creep_inf_empmarine_01,creep_inf_marine_01,creep_inf_marine_01</c> <!-- Wave 21 -->
+		</Row>
+		<Row>
+			<c>creep_veh_havok_01,creep_veh_havok_01,creep_veh_havok_01,creep_veh_havok_01,creep_veh_spade_01,creep_veh_spade_01,creep_veh_spade_01,creep_veh_spade_01,creep_veh_spade_01</c> <!-- Wave 22 -->
+		</Row>
+		<Row>
+			<c>creep_air_wasp_01,suc_air_raven_01,creep_air_wasp_01,suc_air_raven_01,creep_air_wasp_01,suc_air_raven_01,creep_air_wasp_01,creep_air_wasp_01,creep_air_wasp_01</c> <!-- Wave 23 -->
+		</Row>
+		<Row>
+			<c>creep_inf_empmarine_01,creep_inf_empmarine_01,creep_veh_tank_01,creep_veh_tank_01,creep_veh_tank_01,suc_air_raven_01,suc_air_raven_01</c> <!-- Wave 24  -->
+		</Row>
+		<Row>
+			<c>creep_air_gunship_01,creep_air_gunship_01,creep_air_gunship_01,creep_air_gunship_01</c> <!-- Boss Wave 25 -->
+		</Row>
+		<Row>
+			<c>cov_inf_suicideGrunt_01,cov_inf_suicideGrunt_01,cov_inf_suicideGrunt_01,cov_inf_suicideGrunt_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_gruntDeacon_01,cov_inf_gruntDeacon_01,cov_inf_gruntDeacon_01</c> <!-- Wave 26 -->
+		</Row>
+		<Row>
+			<c>cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_wraith_ultra_01,cov_veh_wraith_ultra_01</c> <!-- Wave 27 -->
+		</Row>
+		<Row>
+			<c>cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01</c> <!-- Wave 28 -->
+		</Row>
+		<Row>
+			<c>cov_air_banshee_space_01,cov_air_banshee_space_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_banshee_space_01,cov_air_banshee_space_01,cov_air_vampire_01</c> <!-- Wave 29 -->
+		</Row>
+		<Row>
+			<c>cov_inf_prophet_01,cov_inf_prophet_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01</c> <!-- Boss Wave 30 -->
+		</Row>
+		<Row>
+			<c>fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01</c> <!-- Wave 31 -->
+		</Row>
+		<Row>
+			<c>for_inf_prometheanknight_01,for_inf_prometheanknight_01,for_inf_prometheanknight_01,for_inf_prometheanknight_01,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Wave 32 -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_03,for_air_regulator_01,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Wave 33 -->
+		</Row>
+		<Row>
+			<c>for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_inf_soldier_01,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Wave 34 -->
+		</Row>
+		<Row>
+			<c>for_inf_didact_01,for_inf_didact_01,for_air_oracle_01,for_air_oracle_01,for_air_oracle_01</c> <!-- Boss Wave 35 -->
+		</Row>
+		<Row>
+			<c>for_air_phaeton_01,for_air_phaeton_01,for_air_phaeton_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01</c> <!-- Wave 36 -->
+		</Row>
+		<Row>
+			<c>for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new</c> <!-- Wave 37 -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01</c> <!-- Wave 38 -->
+		</Row>
+		<Row>
+			<c>for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,fore_veh_pilotes_01,fore_veh_pilotes_01,for_inf_prometheanknight_01,for_veh_eradicator_01_new,for_inf_prometheanknight_01,for_veh_eradicator_01_new,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01</c> <!-- Wave 39 -->
+		</Row>
+		<Row>
+			<c>for_air_supersentinel_01,for_air_supersentinel_01,fore_air_sentinel_03,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Boss Wave 40 -->
+		</Row>
+		<Row>
+			<c>unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_sniper_01,unsc_inf_sniper_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_sniper_01</c> <!-- Wave 41 -->
+		</Row>
+		<Row>
+			<c>unsc_veh_wolverine_01,unsc_veh_wolverine_01,unsc_veh_colossus_01,unsc_veh_colossus_01,unsc_veh_colossus_01,unsc_veh_wolverine_01,unsc_veh_wolverine_01,unsc_veh_colossus_01,unsc_veh_colossus_01</c> <!-- Wave 42 -->
+		</Row>
+		<Row>
+			<c>unsc_air_falcon_01,unsc_air_falcon_01,unsc_air_falcon_01,unsc_air_vulture_01,unsc_air_falcon_01,unsc_air_falcon_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01</c> <!-- Wave 43 -->
+		</Row>
+		<Row>
+			<c>unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_air_hawk_01,unsc_air_hawk_01</c> <!-- Wave 44 -->
+		</Row>
+		<Row>
+			<c>unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01</c> <!-- Boss Wave 45 -->
+		</Row>
+		<Row>
+			<c>cov_inf_suicideGrunt_01,cov_inf_suicideGrunt_01,cov_inf_suicideGrunt_01,cov_inf_suicideGrunt_01,cov_inf_suicideGrunt_01,cov_inf_suicideGrunt_01,cov_inf_suicideGrunt_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01</c> <!-- Wave 46 -->
+		</Row>
+		<Row>
+			<c>cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_revenant_01,cov_veh_wraith_ultra_01,cov_veh_wraith_ultra_01,cov_veh_wraith_ultra_01,cov_veh_wraith_ultra_01,cov_veh_wraith_ultra_01,cov_veh_wraith_ultra_01</c> <!-- Wave 47 -->
+		</Row>
+		<Row>
+			<c>cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01,cov_air_beetle_01</c> <!-- Wave 48 -->
+		</Row>
+		<Row>
+			<c>cov_inf_engineer_01,cov_inf_engineer_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_ghost_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_inf_fuelrodelite,cov_inf_fuelrodelite,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_inf_fuelrodelite,cov_air_vampire_01,cov_air_vampire_01</c> <!-- Wave 49 -->
+		</Row>
+		<Row>
+			<c>unsc_air_destroyer_01,unsc_air_destroyer_01,unsc_air_destroyer_01</c> <!-- Last Wave -->
+		</Row>
+	</Table>
+	<Table Name="SetB" Type="BuildingBuildList">
+		<Row>
+			<c>fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_all_berserker_01,fld_inf_all_berserker_01,fld_inf_all_berserker_01</c> <!-- Wave 1 -->
+		</Row>
+		<Row>
+			<c>fld_veh_all_light_01,fld_veh_all_light_01,fld_veh_all_light_01</c> <!-- Wave 2 -->
+		</Row>
+		<Row>
+			<c>fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01</c> <!-- Wave 3 -->
+		</Row>
+		<Row>
+			<c>fld_inf_all_berserker_01,fld_inf_all_main_01,fld_air_all_light_01,fld_veh_all_light_01</c> <!-- Wave 4 -->
+		</Row>
+		<Row>
+			<c>fld_inf_juggernaut_01,fld_inf_all_berserker_01,fld_inf_all_berserker_01,fld_inf_all_berserker_01,fld_inf_all_main_01</c> <!-- Boss Wave 5 -->
+		</Row>
+		<Row>
+			<c>cov_inf_minorjackal_01,cov_inf_minorjackal_01,cov_inf_minorjackal_01,cov_inf_grunt_01,cov_inf_grunt_01</c> <!-- Wave 6 -->
+		</Row>
+		<Row>
+			<c>cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_ghost_01,cov_veh_ghost_01</c> <!-- Wave 7 -->
+		</Row>
+		<Row>
+			<c>cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_beetle_01</c> <!-- Wave 8 -->
+		</Row>
+		<Row>
+			<c>cov_inf_engineer_01,cov_inf_engineer_01,cov_veh_wraith_01,cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01</c> <!-- Wave 9 -->
+		</Row>
+		<Row>
+			<c>cov_inf_bruteChief_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_hunter_01,cov_inf_hunter_01</c> <!-- Boss Wave 10 -->
+		</Row>
+		<Row>
+			<c>fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_all_antiveh_01,fld_inf_all_antiinf_01,fld_inf_all_antiveh_01,fld_inf_all_antiinf_01</c> <!-- Wave 11 -->
+		</Row>
+		<Row>
+			<c>fld_veh_all_light_01,fld_veh_all_light_01,fld_veh_all_light_01,fld_veh_all_medium_01,fld_veh_all_medium_01</c> <!-- Wave 12 -->
+		</Row>
+		<Row>
+			<c>fld_air_all_light_01,fld_air_swarm_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_swarm_01,fld_air_all_light_01</c> <!-- Wave 13 -->
+		</Row>
+		<Row>
+			<c>fld_veh_all_light_01,fld_veh_all_light_01,fld_veh_all_light_01,fld_veh_all_medium_01,fld_veh_all_medium_01,fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_all_main_01,fld_air_all_light_01,fld_air_swarm_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_swarm_01,fld_air_all_light_01</c> <!-- Wave 14 -->
+		</Row>
+		<Row>
+			<c>fld_inf_tankform_01,fld_inf_tankform_01,fld_inf_stalkerform_01,fld_inf_rangedform_01,fld_inf_rangedform_01,fld_inf_rangedform_01</c> <!-- Boss Wave 15 -->
+		</Row>
+		<Row>
+			<c>unsc_inf_marine_01,unsc_inf_marine_01,unsc_inf_marine_01,unsc_inf_marine_01,unsc_inf_marine_01,unsc_inf_odst_01_player,unsc_inf_odst_01_player,unsc_inf_flameMarine_01,unsc_inf_sniper_01,unsc_inf_sniper_01</c> <!-- Wave 16 -->
+		</Row>
+		<Row>
+			<c>unsc_veh_warthog_01,unsc_veh_warthog_01,unsc_veh_warthog_01,unsc_veh_warthog_01,unsc_veh_scorpion_01,unsc_veh_scorpion_01</c> <!-- Wave 17 -->
+		</Row>
+		<Row>
+			<c>unsc_air_hornet_01,unsc_air_hornet_01,unsc_air_hornet_01,unsc_air_hornet_01,unsc_air_falcon_01</c> <!-- Wave 18 -->
+		</Row>
+		<Row>
+			<c>unsc_inf_marine_01,unsc_inf_marine_01,unsc_inf_marine_01,unsc_veh_warthog_01,unsc_veh_scorpion_01,unsc_veh_warthog_01,unsc_air_vulture_01</c> <!-- Wave 19 -->
+		</Row>
+		<Row>
+			<c>unsc_inf_spartanalice_01,unsc_inf_spartanjerome_01,unsc_inf_spartandouglas_01</c> <!-- Boss Wave 20 -->
+		</Row>
+		<Row>
+			<c>creep_inf_marine_01,creep_inf_marine_01,creep_inf_marine_01,creep_inf_empmarine_01,creep_inf_empmarine_01,creep_inf_marine_01,creep_inf_marine_01</c> <!-- Wave 21 -->
+		</Row>
+		<Row>
+			<c>creep_veh_havok_01,creep_veh_havok_01,creep_veh_havok_01,creep_veh_havok_01,creep_veh_spade_01,creep_veh_spade_01,creep_veh_spade_01,creep_veh_spade_01,creep_veh_spade_01</c> <!-- Wave 22 -->
+		</Row>
+		<Row>
+			<c>creep_air_wasp_01,suc_air_raven_01,creep_air_wasp_01,suc_air_raven_01,creep_air_wasp_01,suc_air_raven_01,creep_air_wasp_01,creep_air_wasp_01,creep_air_wasp_01</c> <!-- Wave 23 -->
+		</Row>
+		<Row>
+			<c>creep_inf_empmarine_01,creep_inf_empmarine_01,creep_veh_tank_01,creep_veh_tank_01,creep_veh_tank_01,suc_air_raven_01,suc_air_raven_01</c> <!-- Wave 24  -->
+		</Row>
+		<Row>
+			<c>creep_air_gunship_01,creep_air_gunship_01,creep_air_gunship_01,creep_air_gunship_01</c> <!-- Boss Wave 25 -->
+		</Row>
+		<Row>
+			<c>cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_jackal_01,cov_inf_minorjackal_01,cov_inf_minorjackal_01,cov_inf_minorjackal_01</c> <!-- Wave 26 -->
+		</Row>
+		<Row>
+			<c>cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01</c> <!-- Wave 27 -->
+		</Row>
+		<Row>
+			<c>cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01</c> <!-- Wave 28 -->
+		</Row>
+		<Row>
+			<c>cov_air_banshee_space_01,cov_air_banshee_space_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_space_01,cov_air_banshee_space_01,cov_air_vampire_01</c> <!-- Wave 29 -->
+		</Row>
+		<Row>
+			<c>cov_inf_bruteChief_01,cov_inf_bruteChief_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01,cov_inf_engineer_01</c> <!-- Boss Wave 30 -->
+		</Row>
+		<Row>
+			<c>fld_inf_all_antiinf_01,fld_inf_all_antiinf_01,fld_inf_all_antiinf_01,fld_inf_all_antiinf_01,fld_inf_all_antiveh_01,fld_inf_all_antiveh_01,fld_inf_all_antiveh_01,fld_inf_all_antiveh_01</c> <!-- Wave 31 -->
+		</Row>
+		<Row>
+			<c>fld_veh_all_medium_01,fld_veh_all_medium_01,fld_veh_all_medium_01,fld_veh_all_medium_01,fld_veh_all_heavy_01,fld_veh_all_heavy_01,fld_veh_all_heavy_01</c> <!-- Wave 32 -->
+		</Row>
+		<Row>
+			<c>fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_sporecloud_01,fld_air_swarm_01,fld_air_sporecloud_01,fld_air_sporecloud_01</c> <!-- Wave 33 -->
+		</Row>
+		<Row>
+			<c>fld_veh_all_heavy_01,fld_veh_all_heavy_01,fld_veh_all_heavy_01,fld_inf_all_antiinf_01,fld_inf_all_antiinf_01,fld_inf_all_antiinf_01,fld_inf_all_antiinf_01,fld_inf_all_antiinf_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01</c> <!-- Wave 34 -->
+		</Row>
+		<Row>
+			<c>flood_Inf_infectedspartan_01_vp,flood_Inf_infectedspartan_01_vp,flood_Inf_infectedspartan_01_vp,flood_Inf_infectedspartan_01_vp,flood_Inf_infectedspartan_01_vp</c> <!-- Boss Wave 35 -->
+		</Row>
+		<Row>
+			<c>fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01</c> <!-- Wave 36 -->
+		</Row>
+		<Row>
+			<c>fld_veh_all_heavy_01,fld_veh_all_heavy_01,fld_veh_all_heavy_01,fld_veh_all_heavy_01,fld_veh_all_heavy_01,fld_veh_all_heavy_01</c> <!-- Wave 37 -->
+		</Row>
+		<Row>
+			<c>fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01</c> <!-- Wave 38 -->
+		</Row>
+		<Row>
+			<c>fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_veh_all_medium_01,fld_veh_all_heavy_01,fld_veh_all_medium_01,fld_veh_all_heavy_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01</c> <!-- Wave 39 -->
+		</Row>
+		<Row>
+			<c>flood_inf_creature_01,flood_inf_creature_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01</c> <!-- Boss Wave 40 -->
+		</Row>
+		<Row>
+			<c>unsc_inf_odst_01_player,unsc_inf_odst_01_player,unsc_inf_odst_01_player,unsc_inf_sniper_01,unsc_inf_sniper_01,unsc_inf_odst_01_player,unsc_inf_odst_01_player,unsc_inf_sniper_01</c> <!-- Wave 41 -->
+		</Row>
+		<Row>
+			<c>unsc_veh_mantis_01,unsc_veh_mantis_01,unsc_veh_colossus_01,unsc_veh_colossus_01,unsc_veh_colossus_01,unsc_veh_mantis_01,unsc_veh_mantis_01,unsc_veh_colossus_01,unsc_veh_colossus_01</c> <!-- Wave 42 -->
+		</Row>
+		<Row>
+			<c>unsc_air_falcon_01,unsc_air_falcon_01,unsc_air_falcon_01,unsc_air_vulture_01,unsc_air_falcon_01,unsc_air_falcon_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01</c> <!-- Wave 43 -->
+		</Row>
+		<Row>
+			<c>unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_air_hawk_01,unsc_air_hawk_01</c> <!-- Wave 44 -->
+		</Row>
+		<Row>
+			<c>unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01</c> <!-- Boss Wave 45 -->
+		</Row>
+		<Row>
+			<c>cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_brute_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01,cov_inf_skirmisherAI_01</c> <!-- Wave 46 -->
+		</Row>
+		<Row>
+			<c>cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_prowler_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01,cov_veh_wraithaa_01</c> <!-- Wave 47 -->
+		</Row>
+		<Row>
+			<c>cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01</c> <!-- Wave 48 -->
+		</Row>
+		<Row>
+			<c>cov_inf_engineer_01,cov_inf_engineer_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_bruteChopper_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_veh_wraith_01,cov_inf_hunter_01,cov_inf_hunter_01,cov_air_vampire_01,cov_air_vampire_01,cov_air_vampire_01,cov_inf_hunter_01,cov_air_vampire_01,cov_air_vampire_01</c> <!-- Wave 49 -->
+		</Row>
+		<Row>
+			<c>cov_titan_phantom_gunship_01,cov_titan_phantom_gunship_01,cov_titan_phantom_gunship_01</c> <!-- Last Wave -->
+		</Row>
+	</Table>
+	<Table Name="SetC" Type="BuildingBuildList">
+		<Row>
+			<c>fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_inf_all_berserker_01,fld_inf_all_berserker_01,fld_inf_all_berserker_01</c> <!-- Wave 1 -->
+		</Row>
+		<Row>
+			<c>fld_veh_all_light_01,fld_veh_all_light_01,fld_veh_all_light_01</c> <!-- Wave 2 -->
+		</Row>
+		<Row>
+			<c>fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01</c> <!-- Wave 3 -->
+		</Row>
+		<Row>
+			<c>fld_inf_all_berserker_01,fld_inf_all_main_01,fld_air_all_light_01,fld_veh_all_light_01</c> <!-- Wave 4 -->
+		</Row>
+		<Row>
+			<c>fld_inf_juggernaut_01,fld_inf_all_berserker_01,fld_inf_all_berserker_01,fld_inf_all_berserker_01,fld_inf_all_main_01</c> <!-- Boss Wave 5 -->
+		</Row>
+		<Row>
+			<c>ban_veh_methanewagon_01,ban_veh_methanewagon_01,ban_veh_methanewagon_01,cov_inf_HeavygruntDeacon_01,cov_inf_HeavygruntDeacon_01</c> <!-- Wave 6 -->
+		</Row>
+		<Row>
+			<c>ban_veh_ghost_01,ban_veh_ghost_01,ban_veh_ghost_01,ban_veh_locust_01,ban_veh_locust_01</c> <!-- Wave 7 -->
+		</Row>
+		<Row>
+			<c>ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_blisterback_01</c> <!-- Wave 8 -->
+		</Row>
+		<Row>
+			<c>ban_inf_engineer_01,ban_inf_engineer_01,ban_veh_wraith_01,cov_inf_HeavygruntDeacon_01,cov_inf_HeavygruntDeacon_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01</c> <!-- Wave 9 -->
+		</Row>
+		<Row>
+			<c>ban_inf_gruntgoblin_01,ban_inf_gruntgoblin_01,ban_inf_gruntgoblin_01,ban_veh_methanewagon_01,ban_inf_hunter_01,ban_inf_hunter_01</c> <!-- Boss Wave 10 -->
+		</Row>
+		<Row>
+			<c>fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_all_antiveh_01,fld_inf_all_antiinf_01,fld_inf_all_antiveh_01,fld_inf_all_antiinf_01</c> <!-- Wave 11 -->
+		</Row>
+		<Row>
+			<c>fld_veh_all_light_01,fld_veh_all_light_01,fld_veh_all_light_01,fld_veh_all_medium_01,fld_veh_all_medium_01</c> <!-- Wave 12 -->
+		</Row>
+		<Row>
+			<c>fld_air_all_light_01,fld_air_swarm_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_swarm_01,fld_air_all_light_01</c> <!-- Wave 13 -->
+		</Row>
+		<Row>
+			<c>fld_veh_all_light_01,fld_veh_all_light_01,fld_veh_all_light_01,fld_veh_all_medium_01,fld_veh_all_medium_01,fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_all_main_01,fld_air_all_light_01,fld_air_swarm_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_swarm_01,fld_air_all_light_01</c> <!-- Wave 14 -->
+		</Row>
+		<Row>
+			<c>fld_inf_tankform_01,fld_inf_tankform_01,fld_inf_stalkerform_01,fld_inf_rangedform_01,fld_inf_rangedform_01,fld_inf_rangedform_01</c> <!-- Boss Wave 15 -->
+		</Row>
+		<Row>
+			<c>unsc_inf_marine_01,unsc_inf_marine_01,unsc_inf_marine_01,unsc_inf_marine_01,unsc_inf_marine_01,cov_inf_elite_01,cov_inf_elite_01,unsc_inf_flameMarine_01,unsc_inf_sniper_01,unsc_inf_sniper_01</c> <!-- Wave 16 -->
+		</Row>
+		<Row>
+			<c>unsc_veh_warthog_01,unsc_veh_warthog_01,unsc_veh_warthog_01,unsc_veh_warthog_01,cov_veh_wraith_ultra_01,cov_veh_wraith_ultra_01</c> <!-- Wave 17 -->
+		</Row>
+		<Row>
+			<c>unsc_air_hornet_01,unsc_air_hornet_01,unsc_air_hornet_01,unsc_air_hornet_01,cov_air_banshee_01</c> <!-- Wave 18 -->
+		</Row>
+		<Row>
+			<c>unsc_inf_marine_01,unsc_inf_marine_01,unsc_inf_marine_01,unsc_veh_warthog_01,cov_veh_wraith_ultra_01,unsc_veh_warthog_01,unsc_air_vulture_01</c> <!-- Wave 19 -->
+		</Row>
+		<Row>
+			<c>unsc_inf_spartanalice_01,unsc_inf_spartanjerome_01,unsc_inf_spartandouglas_01</c> <!-- Boss Wave 20 -->
+		</Row>
+		<Row>
+			<c>for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01,for_inf_prometheanknight_01,for_inf_prometheanknight_01,for_inf_prometheanpawn_01,for_inf_prometheanpawn_01</c> <!-- Wave 21 -->
+		</Row>
+		<Row>
+			<c>for_air_phaeton_01,for_air_phaeton_01,for_air_phaeton_01,for_air_phaeton_01,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01,fore_veh_pilotes_01</c> <!-- Wave 22 -->
+		</Row>
+		<Row>
+			<c>fore_air_sentinel_01,fore_air_sentinel_03,fore_air_sentinel_01,fore_air_sentinel_03,fore_air_sentinel_01,fore_air_sentinel_03,fore_air_sentinel_01,fore_air_sentinel_01,fore_air_sentinel_01</c> <!-- Wave 23 -->
+		</Row>
+		<Row>
+			<c>for_inf_prometheanknight_01,for_inf_prometheanknight_01,for_veh_eradicator_01_new,for_veh_eradicator_01_new,for_veh_eradicator_01_new,fore_air_sentinel_03,fore_air_sentinel_03</c> <!-- Wave 24  -->
+		</Row>
+		<Row>
+			<c>for_air_supersentinel_01,for_air_supersentinel_01</c> <!-- Boss Wave 25 -->
+		</Row>
+		<Row>
+			<c>ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,cov_inf_slugmen_01,ban_veh_methanewagon_01,ban_veh_methanewagon_01,ban_veh_methanewagon_01</c> <!-- Wave 26 -->
+		</Row>
+		<Row>
+			<c>ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_ghost_01,ban_veh_ghost_01,ban_veh_reaver_01,ban_veh_reaver_01</c> <!-- Wave 27 -->
+		</Row>
+		<Row>
+			<c>ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,</c> <!-- Wave 28 -->
+		</Row>
+		<Row>
+			<c>ban_veh_locust_01,ban_veh_locust_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_veh_locust_01,ban_veh_locust_01,ban_air_blisterback_01</c> <!-- Wave 29 -->
+		</Row>
+		<Row>
+			<c>ban_inf_decimus_01,ban_inf_decimus_01,ban_inf_engineer_01,ban_inf_engineer_01,ban_inf_engineer_01,ban_inf_engineer_01,ban_inf_engineer_01,ban_inf_engineer_01,ban_inf_engineer_01,ban_inf_engineer_01,ban_inf_engineer_01,ban_inf_engineer_01,ban_inf_engineer_01,ban_inf_engineer_01</c> <!-- Boss Wave 30 -->
+		</Row>
+		<Row>
+			<c>fld_inf_all_antiinf_01,fld_inf_all_antiinf_01,fld_inf_all_antiinf_01,fld_inf_all_antiinf_01,fld_inf_all_antiveh_01,fld_inf_all_antiveh_01,fld_inf_all_antiveh_01,fld_inf_all_antiveh_01</c> <!-- Wave 31 -->
+		</Row>
+		<Row>
+			<c>fld_veh_all_medium_01,fld_veh_all_medium_01,fld_veh_all_medium_01,fld_veh_all_medium_01,fld_veh_all_heavy_01,fld_veh_all_heavy_01,fld_veh_all_heavy_01</c> <!-- Wave 32 -->
+		</Row>
+		<Row>
+			<c>fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_sporecloud_01,fld_air_swarm_01,fld_air_sporecloud_01,fld_air_sporecloud_01</c> <!-- Wave 33 -->
+		</Row>
+		<Row>
+			<c>fld_veh_all_heavy_01,fld_veh_all_heavy_01,fld_veh_all_heavy_01,fld_inf_all_antiinf_01,fld_inf_all_antiinf_01,fld_inf_all_antiinf_01,fld_inf_all_antiinf_01,fld_inf_all_antiinf_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01</c> <!-- Wave 34 -->
+		</Row>
+		<Row>
+			<c>fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01</c> <!-- Boss Wave 35 -->
+		</Row>
+		<Row>
+			<c>fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01,fld_inf_vehinfector_01</c> <!-- Wave 36 -->
+		</Row>
+		<Row>
+			<c>fld_veh_all_heavy_01,fld_veh_all_heavy_01,fld_veh_all_heavy_01,fld_veh_all_heavy_01,fld_veh_all_heavy_01,fld_veh_all_heavy_01</c> <!-- Wave 37 -->
+		</Row>
+		<Row>
+			<c>fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01</c> <!-- Wave 38 -->
+		</Row>
+		<Row>
+			<c>fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_all_main_01,fld_inf_infectionForm_01,fld_inf_infectionForm_01,fld_veh_all_medium_01,fld_veh_all_heavy_01,fld_veh_all_medium_01,fld_veh_all_heavy_01,fld_air_all_light_01,fld_air_all_light_01,fld_air_all_light_01</c> <!-- Wave 39 -->
+		</Row>
+		<Row>
+			<c>flood_inf_creature_01,flood_inf_creature_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01,fld_air_sporecloud_01</c> <!-- Boss Wave 40 -->
+		</Row>
+		<Row>
+			<c>cov_inf_elite_01,cov_inf_elite_01,cov_inf_elite_01,unsc_inf_sniper_01,unsc_inf_sniper_01,cov_inf_elite_01,cov_inf_elite_01,unsc_inf_sniper_01</c> <!-- Wave 41 -->
+		</Row>
+		<Row>
+			<c>unsc_veh_mantis_01,unsc_veh_mantis_01,unsc_veh_colossus_01,unsc_veh_colossus_01,unsc_veh_colossus_01,unsc_veh_mantis_01,unsc_veh_mantis_01,unsc_veh_colossus_01,unsc_veh_colossus_01</c> <!-- Wave 42 -->
+		</Row>
+		<Row>
+			<c>cov_air_banshee_01,cov_air_banshee_01,cov_air_banshee_01,unsc_air_vulture_01,cov_air_banshee_01,cov_air_banshee_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01</c> <!-- Wave 43 -->
+		</Row>
+		<Row>
+			<c>unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_veh_gremlin_01,unsc_air_hawk_01,unsc_air_hawk_01</c> <!-- Wave 44 -->
+		</Row>
+		<Row>
+			<c>unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01</c> <!-- Boss Wave 45 -->
+		</Row>
+		<Row>
+			<c>ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_goliath_01,ban_inf_spartan_01,ban_inf_spartan_01,ban_inf_spartan_01,ban_inf_spartan_01</c> <!-- Wave 46 -->
+		</Row>
+		<Row>
+			<c>ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_marauder_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01,ban_veh_reaver_01</c> <!-- Wave 47 -->
+		</Row>
+		<Row>
+			<c>ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01,ban_air_banshee_01</c> <!-- Wave 48 -->
+		</Row>
+		<Row>
+			<c>ban_inf_engineer_01,ban_inf_engineer_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_ghost_01,ban_veh_ghost_01,ban_veh_ghost_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_veh_wraith_01,ban_inf_hunter_01,ban_inf_hunter_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_air_blisterback_01,ban_inf_hunter_01,ban_air_blisterback_01,ban_air_blisterback_01</c> <!-- Wave 49 -->
+		</Row>
+		<Row>
+			<c>ban_veh_scarab_01,ban_veh_scarab_01,ban_veh_scarab_01,ban_veh_scarab_01</c> <!-- Last Wave -->
+		</Row>
+	</Table>
+</Tables>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>MiddleCannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>500</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_shadePlasma_02</Projectile>
+		<ImpactEffect size="Medium">cov_shadeplasma_01</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<AccuracyDistanceFactor>1</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>1</AccuracyDeviationFactor>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<Hardpoint>MiddleCannonTurret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>800</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>LeftCannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>500</DamagePerSecond>
+		<WeaponType>ArmorPiercing</WeaponType>
+		<Projectile>fx_proj_shadePlasma_02</Projectile>
+		<ImpactEffect size="Medium">cov_shadeplasma_01</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<AccuracyDistanceFactor>1</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>1</AccuracyDeviationFactor>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<Hardpoint>LeftCannonTurret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>800</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>RightCannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>500</DamagePerSecond>
+		<WeaponType>ArmorPiercing</WeaponType>
+		<Projectile>fx_proj_shadePlasma_02</Projectile>
+		<ImpactEffect size="Medium">cov_shadeplasma_01</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<AccuracyDistanceFactor>1</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>1</AccuracyDeviationFactor>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<Hardpoint>RightCannonTurret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>800</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>BarrageWeapon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>3200</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>ArmorPiercing</WeaponType>
+		<Projectile>fx_proj_shadePlasma_GS_01</Projectile>
+		<ImpactEffect size="Medium">cov_shadeplasma_01</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<AirBurstSpan>25.0f</AirBurstSpan>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>8</MovingMaxDeviation>
+		<AccuracyDistanceFactor>1</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>1</AccuracyDeviationFactor>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<AirBurst />
+	</Weapon>
+	<Action>
+		<Name>MiddleCannonAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<Anim>CannonAttackMiddle</Anim>
+		<Weapon>MiddleCannon</Weapon>
+	</Action>
+	<Action>
+		<Name>LeftCannonAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<Anim>CannonAttackLeft</Anim>
+		<Weapon>LeftCannon</Weapon>
+	</Action>
+	<Action>
+		<Name>RightCannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>CannonAttackRight</Anim>
+		<Weapon>RightCannon</Weapon>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>BarrageAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BarrageAttack</Anim>
+		<Weapon>BarrageWeapon</Weapon>
+		<MainAttack />
+		<DontCheckOrientTolerance />
+		<DontLoopAttackAnim />
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitudeOffset>0</HoverAltitudeOffset>
+		<MaxPitch>5.0f</MaxPitch>
+		<MaxRoll>20.0f</MaxRoll>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Action>
+		<Name>CaptureKOTH</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRate>0.166999996</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>fx_kothhill_01</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>CaptureKOTH</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>fx_kothhill_01</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>CaptureKOTH</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>fx_kothhill_01</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>CaptureKOTH</Action>
+		</TargetRule>
+		<PersistentAction>MiddleCannonAttackAction</PersistentAction>
+		<PersistentAction>LeftCannonAttackAction</PersistentAction>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RightCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>MiddleCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeftCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>BarrageAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+	</Tactic>
+</TacticData>

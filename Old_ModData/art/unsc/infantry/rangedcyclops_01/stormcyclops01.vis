@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="stormcyclops01">
+	<model name="stormcyclops01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\infantry\rangedcyclops_01\mesh_stormcyclops01</file>
+				<damagefile>unsc\infantry\rangedcyclops_01\stormcyclops01</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_idle05</file>
+				<weight>8</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_idle01</file>
+				<weight>3</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_idle02</file>
+				<weight>2</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_idle03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_idle04</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_walk01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_walk02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_run01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_run02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_run03</file>
+				<weight>2</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_run01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_run02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_run03</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_gather01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="2" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_death01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_death02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_death03</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Transition" tweenTime="2" tweenToAnimation="CombatIdle">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_attack01</file>
+				<weight>3</weight>
+				<tag type="Attack" start="0" position="0.164000005" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.164000005" end="1" name="play_tiger_cannon" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.164000005" end="1" name="effects\vehicle_fx\unsc\vulture\sidemuzzleblast_01" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.540000021" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.540000021" end="1" name="play_tiger_cannon" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.540000021" end="1" name="effects\vehicle_fx\unsc\vulture\sidemuzzleblast_01" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_attack02</file>
+				<weight>3</weight>
+				<tag type="Attack" start="0" position="0.319000006" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.319000006" end="1" name="play_tiger_cannon" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.319000006" end="1" name="effects\vehicle_fx\unsc\vulture\sidemuzzleblast_01" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.330000013" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.330000013" end="1" name="play_tiger_cannon" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.330000013" end="1" name="effects\vehicle_fx\unsc\vulture\sidemuzzleblast_01" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_attack03</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.238999993" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.238999993" end="1" name="play_tiger_cannon" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.238999993" end="1" name="effects\vehicle_fx\unsc\vulture\sidemuzzleblast_01" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.25" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.25" end="1" name="play_tiger_cannon" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.25" end="1" name="effects\vehicle_fx\unsc\vulture\sidemuzzleblast_01" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.483999997" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.483999997" end="1" name="play_tiger_cannon" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.483999997" end="1" name="effects\vehicle_fx\unsc\vulture\sidemuzzleblast_01" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.49000001" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.49000001" end="1" name="play_tiger_cannon" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.49000001" end="1" name="effects\vehicle_fx\unsc\vulture\sidemuzzleblast_01" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_attack03_rapidfire</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.238999993" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.238999993" end="1" name="play_tiger_cannon" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.238999993" end="1" name="effects\vehicle_fx\unsc\vulture\sidemuzzleblast_01" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.389999986" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.389999986" end="1" name="play_tiger_cannon" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.389999986" end="1" name="effects\vehicle_fx\unsc\vulture\sidemuzzleblast_01" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.540000021" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.540000021" end="1" name="play_tiger_cannon" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.540000021" end="1" name="effects\vehicle_fx\unsc\vulture\sidemuzzleblast_01" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_attack02_rapidfire</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.230000004" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.230000004" end="1" name="play_tiger_cannon" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.230000004" end="1" name="effects\vehicle_fx\unsc\vulture\sidemuzzleblast_01" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.409999996" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.409999996" end="1" name="play_tiger_cannon" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.409999996" end="1" name="effects\vehicle_fx\unsc\vulture\sidemuzzleblast_01" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.600000024" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.600000024" end="1" name="play_tiger_cannon" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.600000024" end="1" name="effects\vehicle_fx\unsc\vulture\sidemuzzleblast_01" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_attack01_rapidfire</file>
+				<weight>3</weight>
+				<tag type="Attack" start="0" position="0.300000012" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.300000012" end="1" name="play_tiger_cannon" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.300000012" end="1" name="effects\vehicle_fx\unsc\vulture\sidemuzzleblast_01" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.5" end="1" name="play_tiger_cannon" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.5" end="1" name="effects\vehicle_fx\unsc\vulture\sidemuzzleblast_01" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.699999988" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.699999988" end="1" name="play_tiger_cannon" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.699999988" end="1" name="effects\vehicle_fx\unsc\vulture\sidemuzzleblast_01" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Stunned" exitAction="Loop" tweenTime="2" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_stunned</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="OrbitalDropLoop" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_drop_loop01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="OrbitalLanding" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_drop_land01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="0" tweenToAnimation="Build">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_idle05</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="EMPAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_attack01</file>
+				<weight>3</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.109999999" end="1" name="PLAY_SFX_3D_FLY_UNSC_CyclopsMoveShort" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.159999996" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/CyclopsEMPCannonMuzzle" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.349999994" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.159999996" end="1" name="PLAY_SFX_3D_WPN_UNSC_CyclopsEmpCannonFire" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.164000005" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.165999994" end="1" name="PLAY_SFX_3D_FTS_UNSC_CyclopsRun" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.540000021" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.540000021" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/CyclopsEMPCannonMuzzle" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.349999994" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.540000021" end="1" name="PLAY_SFX_3D_WPN_UNSC_CyclopsEmpCannonFire" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.712000012" end="1" name="PLAY_SFX_3D_FLY_UNSC_CyclopsMoveShort" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.815999985" end="1" name="PLAY_SFX_3D_FTS_UNSC_CyclopsRun" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_attack02</file>
+				<weight>3</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.0979999974" end="1" name="PLAY_SFX_3D_FLY_UNSC_CyclopsMoveShort" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.159999996" end="1" name="PLAY_SFX_3D_FTS_UNSC_CyclopsRun" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.319000006" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.319999993" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/CyclopsEMPCannonMuzzle" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.349999994" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.319999993" end="1" name="PLAY_SFX_3D_WPN_UNSC_CyclopsEmpCannonFire" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.330000013" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.741999984" end="1" name="PLAY_SFX_3D_FLY_UNSC_CyclopsMoveShort" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.822000027" end="1" name="PLAY_SFX_3D_FTS_UNSC_CyclopsRun" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_attack03</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.0120000001" end="1" name="PLAY_SFX_3D_FLY_UNSC_CyclopsMoveShort" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0979999974" end="1" name="PLAY_SFX_3D_FTS_UNSC_CyclopsRun" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.238999993" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.239999995" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/CyclopsEMPCannonMuzzle" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.349999994" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.239999995" end="1" name="PLAY_SFX_3D_WPN_UNSC_CyclopsEmpCannonFire" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.25" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.479999989" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/CyclopsEMPCannonMuzzle" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.349999994" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.479999989" end="1" name="PLAY_SFX_3D_WPN_UNSC_CyclopsEmpCannonFire" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.483999997" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.49000001" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.847000003" end="1" name="PLAY_SFX_3D_FLY_UNSC_CyclopsMoveShort" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.907999992" end="1" name="PLAY_SFX_3D_FTS_UNSC_CyclopsRun" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_attack03_rapidfire</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.00600000005" end="1" name="PLAY_SFX_3D_FLY_UNSC_CyclopsMoveShort" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.104000002" end="1" name="PLAY_SFX_3D_FTS_UNSC_CyclopsRun" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.238999993" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.239999995" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/CyclopsEMPCannonMuzzle" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.349999994" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.239999995" end="1" name="PLAY_SFX_3D_WPN_UNSC_CyclopsEmpCannonFire" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.389999986" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.389999986" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/CyclopsEMPCannonMuzzle" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.349999994" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.389999986" end="1" name="PLAY_SFX_3D_WPN_UNSC_CyclopsEmpCannonFire" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.540000021" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.540000021" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/CyclopsEMPCannonMuzzle" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.349999994" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.540000021" end="1" name="PLAY_SFX_3D_WPN_UNSC_CyclopsEmpCannonFire" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.828000009" end="1" name="PLAY_SFX_3D_FLY_UNSC_CyclopsMoveShort" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.907999992" end="1" name="PLAY_SFX_3D_FTS_UNSC_CyclopsRun" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_attack02_rapidfire</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.0670000017" end="1" name="PLAY_SFX_3D_FLY_UNSC_CyclopsMoveShort" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.109999999" end="1" name="PLAY_SFX_3D_FTS_UNSC_CyclopsRun" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.230000004" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.230000004" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/CyclopsEMPCannonMuzzle" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.230000004" end="1" name="PLAY_SFX_3D_WPN_UNSC_CyclopsEmpCannonFire" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.409999996" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.409999996" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/CyclopsEMPCannonMuzzle" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.409999996" end="1" name="PLAY_SFX_3D_WPN_UNSC_CyclopsEmpCannonFire" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.600000024" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.600000024" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/CyclopsEMPCannonMuzzle" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.600000024" end="1" name="PLAY_SFX_3D_WPN_UNSC_CyclopsEmpCannonFire" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.797999978" end="1" name="PLAY_SFX_3D_FLY_UNSC_CyclopsMoveShort" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.870999992" end="1" name="PLAY_SFX_3D_FTS_UNSC_CyclopsRun" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_attack01_rapidfire</file>
+				<weight>3</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.0610000007" end="1" name="PLAY_SFX_3D_FLY_UNSC_CyclopsMoveShort" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.109999999" end="1" name="PLAY_SFX_3D_FTS_UNSC_CyclopsRun" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.300000012" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.300000012" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/CyclopsEMPCannonMuzzle" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.349999994" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.300000012" end="1" name="PLAY_SFX_3D_WPN_UNSC_CyclopsEmpCannonFire" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.5" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.5" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/CyclopsEMPCannonMuzzle" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.349999994" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.5" end="1" name="PLAY_SFX_3D_WPN_UNSC_CyclopsEmpCannonFire" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position_type="Time" position="0.699999988" end="1" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position_type="Time" position="0.699999988" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/CyclopsEMPCannonMuzzle" tobone="bone_vfx_MuzzlePointBottom" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.349999994" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.699999988" end="1" name="PLAY_SFX_3D_WPN_UNSC_CyclopsEmpCannonFire" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.815999985" end="1" name="PLAY_SFX_3D_FLY_UNSC_CyclopsMoveShort" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position_type="Time" position="0.907999992" end="1" name="PLAY_SFX_3D_FTS_UNSC_CyclopsRun" tobone="GrannyRootBone_stormcyclops01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/CyclopsEMPCannon" tobone="bone_vfx_MuzzlePointTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Flail" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\flail_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\flail_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\flail_03</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CombatIdle" exitAction="Transition" tweenTime="5" tweenToAnimation="CombatIdle">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_combat_action01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_combat_action02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_idle02</file>
+				<weight>3</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_idle05</file>
+				<weight>10</weight>
+			</asset>
+		</anim>
+		<anim type="IdleWalk" exitAction="Transition" tweenTime="5" tweenToAnimation="Walk">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_idle_to_walk</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="WalkIdle" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_walk_to_idle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleRun" exitAction="Transition" tweenTime="5" tweenToAnimation="Run">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_idle_to_run</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="RunIdle" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_run_to_idle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnLeft" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_turn_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnRight" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_turn_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleJog" exitAction="Transition" tweenTime="5" tweenToAnimation="Jog">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_idle_to_run</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JogIdle" exitAction="Transition" tweenTime="8" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_run_to_idle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Capture" exitAction="Transition" tweenTime="10" tweenToAnimation="Capture">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_combat_action01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_combat_action02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_idle02</file>
+				<weight>3</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_idle05</file>
+				<weight>10</weight>
+			</asset>
+		</anim>
+		<anim type="Cower" exitAction="Transition" tweenTime="10" tweenToAnimation="Cower">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_cower01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Knockdown" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\rangedcyclops_01\cyclops_knockdown_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>

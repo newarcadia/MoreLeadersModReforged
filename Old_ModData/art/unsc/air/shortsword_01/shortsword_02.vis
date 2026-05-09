@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\shortsword_01\shortsword_01</file>
+			</asset>
+			<attach type="ParticleFile" name="unsc\air\shortsword_01\shortsword_trail_01" tobone="bone_FX03" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="unsc\air\shortsword_01\shortsword_trail_01" tobone="bone_FX04" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\shortsword\thrust_01" tobone="bone_FX01" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\shortsword\thrust_01" tobone="bone_FX02" syncanims="false" disregardorient="false" />
+			<point pointType="Launch" bone="bone_nose" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\shortsword_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MachinegunAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="MachinegunAttack">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Prefire" exitAction="Transition" tweenTime="5" tweenToAnimation="MachinegunAttack">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Postfire" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Turret">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_hornet_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\hornet_01\hornet_mg_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_hornet_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\hornet_01\hornet_mg_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\hornet_01\hornet_mg_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\hornet_01\hornet_mg_01</file>
+			</asset>
+		</component>
+		<anim type="MachinegunAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="MachinegunAttack">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.03" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.031" end="1" tobone="bonelaunchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\hornet\chaingunmuzzle_02" tobone="bonelaunchpoint04" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Prefire" exitAction="Transition" tweenTime="5" tweenToAnimation="MachinegunAttack">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Postfire" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\hornet_01\machinegun_attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>
