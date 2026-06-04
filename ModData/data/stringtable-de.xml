@@ -3,7 +3,7 @@
 	<Language name="English">
 		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">Try out Haruspis, our new modmanager for both Halo Wars DE and 2. Please note that this version currently experiences issues with the AI and balancing.
 </String>
-		<String _locID="26217" category="UI" subtitle="false">Release (v1.2)</String>
+		<String _locID="26217" category="UI" subtitle="false">Beta Branch - v1.2.1</String>
 		<String _locID="26218" category="UI" subtitle="false">new-arcadia.net/discord</String>
 		<!-- BlockLeaderpower effect uses this string-->
 		<String _locID="357" category="Code" subtitle="false">JAMMED! </String> 
@@ -557,7 +557,7 @@ and heavy air units.</String>
 		<String _locID="42725" category="Leaders" subtitle="false">Leader to test work in progress assets.</String>
 		<String _locID="42726" category="Leaders" subtitle="false">Infected Shipmaster</String>
 		<String _locID="42727" category="Leaders" subtitle="false">Unique Units: Infected Combatforms, Leader Power: Glassing</String>
-		<String _locID="42728" category="Leaders" subtitle="false">Shipmaster</String>
+		<String _locID="42728" category="Leaders" subtitle="false">Yam-Blim</String>
 		<String _locID="42729" category="Leaders" subtitle="false">Unique Unit: Ghost and Heavy Grunts, Leader Power: Glassing, Spartan Drop</String>
 		<String _locID="42730" category="Leaders" subtitle="false">Didact</String>
 		<String _locID="42731" category="Leaders" subtitle="false">Unique Units: Promethean, Leader Power: SW Defense</String>
@@ -1412,6 +1412,32 @@ Adds a drone.</String>
 		<String _locID="53139" category="Techs" subtitle="false">DPS/HP Buff.</String>
 		<String _locID="53140" category="Techs" subtitle="false">PHAETON III</String>
 		<String _locID="53141" category="Techs" subtitle="false">DPS/HP Buff.</String>
+		<String _locID="53142" category="Techs" subtitle="false">SHOTGUN</String>
+		<String _locID="53143" category="Techs" subtitle="false">ODST are now equipped with shotguns. This increases the combat effectiveness of the squad.
+Adds another drop.</String>
+		<String _locID="53144" category="Techs" subtitle="false">RPG ODST</String>
+		<String _locID="53145" category="Techs" subtitle="false">1x ODST with rocket joins the squad.
+Adds 2 extra drops.</String>
+		<String _locID="53146" category="Techs" subtitle="false">BATTLE RIFLE</String>
+		<String _locID="53147" category="Techs" subtitle="false">ODST are now equipped with battle rifles. This increases the vision of the squad.
+Adds 2 extra drops.</String>
+		<String _locID="53148" category="Squads" subtitle="false">BRUTE GRENADIER</String>
+		<String _locID="53149" category="Squads" subtitle="false">ENDURING LOCUST</String>
+		<String _locID="53150" category="Squads" subtitle="false">TERROR WRAITH</String>
+		<String _locID="53151" category="Powers" subtitle="false">TERROR WRAITH DROP</String>
+		<String _locID="53152" category="Powers" subtitle="false">1 terror wraith</String>
+		<String _locID="53153" category="Powers" subtitle="false">ENDURING LOCUST DROP</String>
+		<String _locID="53154" category="Powers" subtitle="false">2 enduring locusts</String>
+		<String _locID="53155" category="Powers" subtitle="false">BRUTE GRENADIER DROP</String>
+		<String _locID="53156" category="Powers" subtitle="false">Drop grenadiers into the battlefield.</String>
+		<String _locID="53157" category="Powers" subtitle="false">SPARTAN DROP</String>
+		<String _locID="53158" category="Powers" subtitle="false">Drops an banished Spartan at target location.</String>
+		<String _locID="53159" category="Powers" subtitle="false">AIR DROP</String>
+		<String _locID="53160" category="Powers" subtitle="false">3 banshee and 1 blisterback</String>
+		<String _locID="53161" category="Powers" subtitle="false">HUNTER DROP</String>
+		<String _locID="53162" category="Powers" subtitle="false">2 goliath, 3 hunter and 2 slugmen</String>
+		<String _locID="53163" category="Powers" subtitle="false">GRUNT DROP</String>
+		<String _locID="53164" category="Powers" subtitle="false">1 methane wagon, 2 heavy grunt and 4 grunt squads.</String>
 
 
 		<String _locID="60000" subtitle="false">Tips appear here. Really.</String>

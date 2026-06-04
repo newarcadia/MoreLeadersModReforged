@@ -219,6 +219,22 @@
 	<KeyFrame>queued</KeyFrame>
 	<KeyFrame>pc_off</KeyFrame>
 	<KeyFrame>pc_on</KeyFrame>
+	<Icon type="powericon" name="bbanshee" texture="art\ui\flash\shared\textures\banished\icons\unit\cov_air_banshee_01" owner="BanishedBruteSupport_Drop">-1</Icon>
+	<Icon type="powericon" name="hunter" texture="art\ui\flash\shared\textures\banished\icons\unit\ban_inf_hunter_01" owner="BanishedHunterSupport_Drop">-1</Icon>
+	<Icon type="powericon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\ban_veh_methanewagon_01" owner="BanishedGruntSupport_Drop">-1</Icon>
+	<Icon type="powericon" name="spartan" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_spartan_01" owner="BanishedSpartan_Drop">-1</Icon>
+	<Icon type="powericon" name="bwraith" texture="art\ui\flash\shared\textures\banished\icons\unit\ban_veh_wraith_terror_01" owner="BanishedWraith_Drop">-1</Icon>
+	<Icon type="uniticon" name="bwraith" texture="art\ui\flash\shared\textures\banished\icons\unit\ban_veh_wraith_terror_01" owner="ban_veh_wraith_terror_01">-1</Icon>
+	<Icon type="powericon" name="BanishedLocust_Drop" texture="art\ui\flash\shared\textures\banished\icons\unit\ban_veh_locust_laststand_01" owner="BanishedLocust_Drop">-1</Icon>
+	<Icon type="uniticon" name="blocust" texture="art\ui\flash\shared\textures\banished\icons\unit\ban_veh_locust_laststand_01" owner="ban_veh_locust_laststand_01">-1</Icon>
+	<Icon type="powericon" name="BanishedGrenadier_Drop" texture="art\ui\flash\shared\textures\banished\icons\unit\ban_inf_brutegrenadier_01" owner="BanishedGrenadier_Drop">-1</Icon>
+	<Icon type="uniticon" name="ban_inf_brutegrenadier_01" texture="art\ui\flash\shared\textures\banished\icons\unit\ban_inf_brutegrenadier_01" owner="ban_inf_brutegrenadier_01">-1</Icon>
+	<Icon type="powericon" name="gruntD" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_gruntDeacon_01" owner="BanishedGrunt_Drop">-1</Icon>
+	<Icon type="techicon" name="ODSTUpgrade0" texture="art\ui\flash\shared\textures\unsc\icons\ability\unsc_forge_blast" owner="unsc_oast_upgrade1">-1</Icon>
+	<Icon type="techicon" name="ODSTUpgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_marine_upgrade1" owner="unsc_oast_upgrade2">-1</Icon>
+	<Icon type="techicon" name="ODSTUpgrade1" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_odst_01" owner="unsc_oast_upgrade3">-1</Icon>
+	<Icon type="uniticon" name="odst" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_odst_01" owner="unsc_inf_oast_02">-1</Icon>
+	<Icon type="uniticon" name="odst" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_odst_01" owner="unsc_inf_oast_01">-1</Icon>
 	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\for_inf_didact_01" owner="for_inf_didact_01">-1</Icon>
 	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\for_air_phaeton_01" owner="for_air_phaeton_01">-1</Icon>
 	<Icon type="uniticon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\for_inf_prometheanpawn_01" owner="for_inf_prometheanpawn_01">-1</Icon>

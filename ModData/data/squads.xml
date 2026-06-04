@@ -72,7 +72,7 @@
 		<LeashDeadzone>15</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>25</AggroDistance>
-		<Birth trainerAnim="TrainAir" spawnpoint="bone_spawnPoint03">Trained</Birth>
+		<Birth trainerAnim="TrainAir" spawnpoint="bone_spawnPoint03">FlyIn</Birth>
 		<HPBar offset="0,7,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -103,7 +103,7 @@
 		<LeashDeadzone>15</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>25</AggroDistance>
-		<Birth trainerAnim="TrainAir" spawnpoint="bone_spawnPoint03">Trained</Birth>
+		<Birth trainerAnim="TrainAir" spawnpoint="bone_spawnPoint03">FlyIn</Birth>
 		<HPBar offset="0,7,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -1182,7 +1182,7 @@
 		<LeashDeadzone>15</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>25</AggroDistance>
-		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint03">Trained</Birth>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint03">FlyIn</Birth>
 		<Cost resourcetype="Supplies">200</Cost>
 		<Cost resourcetype="Power">1</Cost>
 		<SubSelectSort>8100</SubSelectSort>
@@ -1215,7 +1215,7 @@
 		<LeashDeadzone>5</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>5</AggroDistance>
-		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint03">Trained</Birth>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint03">FlyIn</Birth>
 		<HPBar offset="0,7,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -2380,7 +2380,7 @@
 		<LeashDeadzone>25</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>30</AggroDistance>
-		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint03">Trained</Birth>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint03">FlyIn</Birth>
 		<HPBar offset="0,9,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -4578,6 +4578,7 @@
 		<Cost resourcetype="Power">1</Cost>
 		<SubSelectSort>8100</SubSelectSort>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<Birth spawnpoint="bone_spawnPoint03">FlyIn</Birth>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<LeashDistance>55</LeashDistance>
@@ -4606,6 +4607,7 @@
 		<Cost resourcetype="Power">1</Cost>
 		<SubSelectSort>2003</SubSelectSort>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<Birth spawnpoint="bone_spawnPoint03">FlyIn</Birth>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<LeashDistance>55</LeashDistance>
@@ -4635,6 +4637,7 @@
 		<Cost resourcetype="Power">1</Cost>
 		<SubSelectSort>2003</SubSelectSort>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<Birth spawnpoint="bone_spawnPoint03">FlyIn</Birth>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<LeashDistance>55</LeashDistance>
@@ -4669,6 +4672,7 @@
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>30</AggroDistance>
 		<HPBar offset="0,5,0">COV_Health</HPBar>
+		<Birth spawnpoint="bone_spawnPoint03">FlyIn</Birth>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>

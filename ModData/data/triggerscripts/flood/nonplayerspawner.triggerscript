@@ -10,7 +10,7 @@
     <TriggerVar ID="5" Type="PlayerState" Name="NewPlayerState5" IsNull="false">Playing</TriggerVar>
     <TriggerVar ID="6" Type="Bool" Name="NewBool6" IsNull="false">False</TriggerVar>
     <TriggerVar ID="7" Type="Bool" Name="NewBool7" IsNull="false">True</TriggerVar>
-    <TriggerVar ID="19" Type="Integer" Name="NewInteger19" IsNull="false">5</TriggerVar>
+    <TriggerVar ID="19" Type="Integer" Name="NewInteger19" IsNull="false">10</TriggerVar>
     <TriggerVar ID="21" Type="Operator" Name="NewOperator13" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
     <TriggerVar ID="24" Type="Operator" Name="NewOperator13" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
     <TriggerVar ID="25" Type="Time" Name="NewTime25" IsNull="false">30000</TriggerVar>

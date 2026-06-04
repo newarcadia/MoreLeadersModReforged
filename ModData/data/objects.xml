@@ -4688,10 +4688,10 @@
 		<Command Type="Research" Position="7">unsc_marine_upgrade1</Command>
 		<Command Type="Research" Position="7">unsc_marine_upgrade2</Command>
 		<Command Type="Research" Position="7">unsc_marine_upgrade3</Command>
-		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01_player</Command>
-		<Command Type="Research" Position="7">unsc_odst_upgrade1_player</Command>
-		<Command Type="Research" Position="7">unsc_odst_upgrade2</Command>
-		<Command Type="Research" Position="7">unsc_odst_upgrade3</Command>
+		<Command Type="TrainSquad" Position="1">unsc_inf_oast_01</Command>
+		<Command Type="Research" Position="7">unsc_oast_upgrade1</Command>
+		<Command Type="Research" Position="7">unsc_oast_upgrade2</Command>
+		<Command Type="Research" Position="7">unsc_oast_upgrade3</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_flameMarine_01</Command>
 		<Command Type="Research" Position="6">unsc_flameMarine_upgrade1</Command>
 		<Command Type="Research" Position="6">unsc_flameMarine_upgrade2</Command>
@@ -6214,7 +6214,7 @@
 		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
 		<ExitFromDirection>2</ExitFromDirection>
-		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01_player</Command>
+		<Command Type="TrainSquad" Position="1">unsc_inf_oast_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_flameMarine_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_inf_sniper_01</Command>
 		<Command Type="ChangeMode" Position="6">Normal</Command>
@@ -6331,7 +6331,7 @@
 		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
 		<ExitFromDirection>2</ExitFromDirection>
-		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01_player</Command>
+		<Command Type="TrainSquad" Position="1">unsc_inf_oast_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_flameMarine_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_inf_sniper_01</Command>
 		<Command Type="ChangeMode" Position="6">Normal</Command>
@@ -15198,59 +15198,7 @@
 		<Flag>Update</Flag>
 		<Flag>Build</Flag>
 	</Object>
-	<Object name="hook_bldg_miniBase_01" is="0" id="2072" dbid="3476">
-		<ObjectType>NewCapturePointSystem</ObjectType>
-		<ObjectClass>Building</ObjectClass>
-		<Visual>hook\bonus\house_01\house_01.vis</Visual>
-		<Ability>HookLockDownCover.triggerscript</Ability>
-		<DisplayNameID>24022</DisplayNameID>
-		<RolloverTextID>24023</RolloverTextID>
-		<RoleTextID>24023</RoleTextID>
-		<MovementType>Land</MovementType>
-		<Hitpoints>75000</Hitpoints>
-		<PopCapAddition Type="Unit">10</PopCapAddition>
-		<LOS>55</LOS>
-		<BuildPoints>40</BuildPoints>
-		<ObstructionRadiusX>12</ObstructionRadiusX>
-		<ObstructionRadiusY>9</ObstructionRadiusY>
-		<ObstructionRadiusZ>12</ObstructionRadiusZ>
-		<TerrainHeightTolerance>10</TerrainHeightTolerance>
-		<SelectedRadiusX>10</SelectedRadiusX>
-		<SelectedRadiusZ>10</SelectedRadiusZ>
-		<PickRadius>11.5</PickRadius>
-		<PickOffset>2.5999999</PickOffset>
-		<PickPriority>Building</PickPriority>
-		<SelectType>Command</SelectType>
-		<DeathReplacement>hook_bonus_house_01</DeathReplacement>
-		<DamageType direction="Full">Heavy</DamageType>
-		<Command Type="Unload" Position="0" AutoClose="true" />
-		<Contain>Infantry</Contain>
-		<MaxContained>1</MaxContained>
-		<ObjectType>NonFlying</ObjectType>
-		<ObjectType>Building</ObjectType>
-		<ObjectType>Garrison</ObjectType>
-		<ObjectType>_Garrison</ObjectType>
-		<ObjectType>GaiaGarrison</ObjectType>
-		<ObjectType>BlitzDestruction</ObjectType>
-		<ObjectType>_Cover</ObjectType>
-		<Sound Type="Exist">play_for_reactor_hook_exist</Sound>
-		<Sound Type="StopExist">stop_for_reactor_hook_exist</Sound>
-		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
-		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
-		<Flag>IgnoreSquadAI</Flag>
-		<Flag>SelectedRect</Flag>
-		<Flag>Doppled</Flag>
-		<Flag>GrayMapDoppled</Flag>
-		<Flag>Immoveable</Flag>
-		<Flag>SoundBehindFOW</Flag>
-		<Flag>Invulnerable</Flag>
-		<Flag>UnGarrisonToGaia</Flag>
-		<Flag>SoundBehindFOW</Flag>
-		<Flag>CommandableByAnyPlayer</Flag>
-		<Flag>ForceUpdateContainedUnits</Flag>
-		<Flag>ObstructsAir</Flag>
-	</Object>
-	<!--Object name="hook_bldg_miniBase_01" id="0" dbid="4141">
+	<Object name="hook_bldg_miniBase_01" id="0" dbid="4141">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>hook/building/parkingLotUNSC_01/parkingLotUNSC_hologram_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
@@ -15279,7 +15227,8 @@
 		<Command Type="BuildOther" Position="6" AutoClose="true">cov_bldg_heavyfactory_01</Command>
 		<Command Type="BuildOther" Position="7" AutoClose="true">cov_bldg_barracks_01</Command>
 		<Command Type="BuildOther" Position="1" AutoClose="true">ban_bldg_supplyDepot_01</Command>
-		<Command Type="BuildOther" Position="2" AutoClose="true">ban_bldg_temple_01</Command>
+		<Command Type="BuildOther" Position="2" AutoClose="true">ban_bldg_powerDepot_01</Command>
+		<Command Type="BuildOther" Position="3" AutoClose="true">ban_bldg_temple_01</Command>
 		<Command Type="BuildOther" Position="5" AutoClose="true">ban_bldg_lightfactory_01</Command>
 		<Command Type="BuildOther" Position="6" AutoClose="true">ban_bldg_heavyfactory_01</Command>
 		<Command Type="BuildOther" Position="7" AutoClose="true">ban_bldg_barracks_01</Command>
@@ -15309,7 +15258,7 @@
 		<Flag>PermanentSocket</Flag>
 		<Flag>UseBuildRotation</Flag>
 		<Flag>UseAutoParkingLot</Flag>
-	</Object-->
+	</Object>
 	<Object name="hook_bldg_socket_01" id="0" dbid="3753">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>unsc\Building\socket_01\socket_01.vis</Visual>

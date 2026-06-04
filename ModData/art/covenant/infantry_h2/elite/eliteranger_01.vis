@@ -128,39 +128,6 @@
 			<attach type="ModelRef" name="Weapon" tobone="r_hand" frombone="r_hand" syncanims="true" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
-		<anim type="Death" exitAction="Transition" tweenTime="16" tweenToAnimation="Idle">
-			<asset type="Anim">
-				<file>effects\fx_dummy_teleportstretchIn</file>
-				<weight>1</weight>
-				<progression>
-					<Stages>
-						<FloatProgressionStage>
-							<Value>0</Value>
-							<Alpha>0</Alpha>
-							<ValueVariance>0</ValueVariance>
-						</FloatProgressionStage>
-						<FloatProgressionStage>
-							<Value>0.00680000009015203</Value>
-							<Alpha>0.169400006532669</Alpha>
-							<ValueVariance>0</ValueVariance>
-						</FloatProgressionStage>
-						<FloatProgressionStage>
-							<Value>1</Value>
-							<Alpha>0.323399990797043</Alpha>
-							<ValueVariance>0</ValueVariance>
-						</FloatProgressionStage>
-						<FloatProgressionStage>
-							<Value>1</Value>
-							<Alpha>1</Alpha>
-							<ValueVariance>0</ValueVariance>
-						</FloatProgressionStage>
-					</Stages>
-					<Cycles>1</Cycles>
-					<Loop>false</Loop>
-				</progression>
-				<tag type="Particle" start="0" position="0.224" end="1" name="effects\Unit_FX\cov\generic\spawnInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
-			</asset>
-		</anim>
 		<anim type="PlasmaPistolAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="PlasmaPistolAttack">
 			<asset type="Anim">
 				<file>covenant\infantry_h2\elite\animations\ranger_idle_01</file>

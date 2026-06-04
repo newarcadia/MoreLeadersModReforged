@@ -35,6 +35,9 @@
 		<Data type="Texture" name="DecalTextureHero">ui\flash\HUD\hud_decal\decal_test\heros\HUD_unsc_hero</Data>
 		<Data type="Texture" name="StaticDecalTextureSpartan">ui\flash\HUD\hud_decal\decal_test\heros\HUD_unsc_hero</Data>
 	</Properties>
+	<Icon type="uniticon" name="covInfantry" SizeX="10" SizeZ="10" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_veh_wraith_terror_01">-1</Icon>
+	<Icon type="uniticon" name="covInfantry" SizeX="8" SizeZ="8" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_veh_locust_laststand_01">-1</Icon>
+	<Icon type="uniticon" name="covInfantry" SizeX="7" SizeY="-1" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_inf_brutegrenadier_01">-1</Icon>
 	<Icon type="uniticon" name="covLeader" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="for_inf_didact_01">-1</Icon>
 	<Icon type="uniticon" name="covLeader" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_inf_gruntgoblin_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="28" Intensity3="18" owner="for_inf_prometheanpawn_01">-1</Icon>
@@ -46,6 +49,8 @@
 	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="ban_veh_methanewagon_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="6" SizeY="-1" SizeZ="7" Intensity1="8" Intensity2="28" Intensity3="18" owner="for_air_phaeton_01">-1</Icon>
 	<!-- UNSC -->
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_oast_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_oast_02">-1</Icon>
 	<Icon type="uniticon" name="fldInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="fld_inf_all_berserker_01">-1</Icon>
 	<Icon type="uniticon" name="fldInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="fld_inf_all_main_01">-1</Icon>
 	<Icon type="uniticon" name="fldInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="fld_inf_all_antiveh_01">-1</Icon>

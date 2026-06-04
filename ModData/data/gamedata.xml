@@ -199,12 +199,14 @@
 		<Good>3</Good>
 		<Extreme>4</Extreme>
 	</GoodAgainstReticle>
-	<MaxNumCorpses>25</MaxNumCorpses>
-	<MaxCorpseDisposalCount>10</MaxCorpseDisposalCount>
-	<InfantryCorpseDecayTime>3</InfantryCorpseDecayTime>
-	<CorpseSinkingSpacing>3</CorpseSinkingSpacing>
+	<MaxNumCorpses>5</MaxNumCorpses>
+	<MaxCorpseDisposalCount>1</MaxCorpseDisposalCount>
+	<InfantryCorpseDecayTime>1</InfantryCorpseDecayTime>
+	<CorpseSinkingSpacing>1</CorpseSinkingSpacing>
 	<InfectionMap>
 		<!-- Infantry -->
+		<InfectionMapEntry base="unsc_inf_oast_01" infected="flood_mapentry_infectedodst_01" infectedSquad="fld_Inf_InfectedMarineSingle_01" />
+		<InfectionMapEntry base="unsc_inf_oast_02" infected="flood_mapentry_infectedodst_01" infectedSquad="fld_Inf_InfectedMarineSingle_01" />
 		<InfectionMapEntry base="unsc_inf_sniper_01" infected="fld_inf_Infectedsniper_01" infectedSquad="fld_inf_InfectedsniperSingle_01" />
 		<InfectionMapEntry base="unsc_inf_flameMarine_01" infected="flood_mapentry_flameMarine_01" infectedSquad="fld_Inf_flameMarineSingle_01" />
 		<InfectionMapEntry base="unsc_inf_flameMarine_02" infected="flood_mapentry_flameMarine_01" infectedSquad="fld_Inf_flameMarineSingle_01" />
@@ -326,8 +328,8 @@
 		<InfectionMapEntry base="cpgn_inf_minorjumppackbrute_01" infected="flood_mapentry_brute_01" infectedSquad="fld_Inf_InfectedBruteSingle_01" />
 		<InfectionMapEntry base="cpgn_inf_majorjumppackbrute_01" infected="flood_mapentry_brute_01" infectedSquad="fld_Inf_InfectedBruteSingle_01" />
 	</InfectionMap>
-	<MaxSquadPathsPerFrame>125</MaxSquadPathsPerFrame>
-	<MaxPlatoonPathsPerFrame>125</MaxPlatoonPathsPerFrame>
+	<MaxSquadPathsPerFrame>150</MaxSquadPathsPerFrame>
+	<MaxPlatoonPathsPerFrame>150</MaxPlatoonPathsPerFrame>
 	<DamageReceivedXPFactor>0.3</DamageReceivedXPFactor>
 	<FatalityTransitionScale>0.25</FatalityTransitionScale>
 	<FatalityMaxTransitionTime>0.25</FatalityMaxTransitionTime>
@@ -377,7 +379,7 @@
 	<ALOppCheckRadius>20.0f</ALOppCheckRadius>
 	<ALFleeDistance>1f</ALFleeDistance>
 	<ALFleeMovementModifier>1.5f</ALFleeMovementModifier>
-	<ALMinWanderDistance>50.0f</ALMinWanderDistance>
+	<ALMinWanderDistance>25.0f</ALMinWanderDistance>
 	<ALMaxWanderDistance>200.0f</ALMaxWanderDistance>
 	<ALSpawnerCheckFrequency>2.0f</ALSpawnerCheckFrequency>
 	<PlayerStates>

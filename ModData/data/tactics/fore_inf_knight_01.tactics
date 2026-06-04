@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>FuelRodCannon</Name>
 		<AttackRate>4</AttackRate>
-		<DamagePerSecond>90</DamagePerSecond>
+		<DamagePerSecond>100</DamagePerSecond>
 		<WeaponType>FuelRod</WeaponType>
 		<Projectile>fx_proj_eradicatorGrenade_01</Projectile>
 		<ImpactEffect size="Medium">for_grenade_01</ImpactEffect>
@@ -36,7 +36,7 @@
 	<Weapon>
 		<Name>BeamCannon</Name>
 		<AttackRate>4</AttackRate>
-		<DamagePerSecond>90</DamagePerSecond>
+		<DamagePerSecond>100</DamagePerSecond>
 		<WeaponType>FuelRod</WeaponType>
 		<Projectile>fx_proj_forerunnerBeam_01</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>

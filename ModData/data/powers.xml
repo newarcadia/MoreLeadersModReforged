@@ -1,5 +1,182 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
+	<Power name="BanishedBruteSupport_Drop">
+		<Attributes>
+			<Cost Supplies="775"/>
+			<Pop type="Unit">9</Pop>
+			<AutoRecharge>180000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>53159</DisplayNameID>
+			<RolloverTextID>53160</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>3</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>banished\BanishedBruteSupport_DropDo.triggerscript</TriggerScript>
+	</Power>
+	<Power name="BanishedHunterSupport_Drop">
+		<Attributes>
+			<Cost Supplies="1050"/>
+			<Pop type="Unit">10</Pop>
+			<AutoRecharge>180000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>53161</DisplayNameID>
+			<RolloverTextID>53162</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>3</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>banished\BanishedHunterSupport_DropDo.triggerscript</TriggerScript>
+	</Power>
+	<Power name="BanishedGruntSupport_Drop">
+		<Attributes>
+			<Cost Supplies="700"/>
+			<Pop type="Unit">10</Pop>
+			<AutoRecharge>180000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>53163</DisplayNameID>
+			<RolloverTextID>53164</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>3</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>banished\BanishedGruntSupport_DropDo.triggerscript</TriggerScript>
+	</Power>
+	<Power name="BanishedWraith_Drop">
+		<Attributes>
+			<Cost Supplies="650"/>
+			<Pop type="Unit">3</Pop>
+			<AutoRecharge>90000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>53151</DisplayNameID>
+			<RolloverTextID>53152</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>5</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>banished\BanishedWraith_DropDo.triggerscript</TriggerScript>
+	</Power>
+	<Power name="BanishedLocust_Drop">
+		<Attributes>
+			<Cost Supplies="700"/>
+			<Pop type="Unit">6</Pop>
+			<AutoRecharge>90000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>53153</DisplayNameID>
+			<RolloverTextID>53154</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>5</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>banished\BanishedLocust_DropDo.triggerscript</TriggerScript>
+	</Power>
+	<Power name="BanishedGrenadier_Drop">
+		<Attributes>
+			<Cost Supplies="180" />
+			<Pop type="Unit">2</Pop>
+			<AutoRecharge>17500</AutoRecharge>
+			<SequentialRecharge />
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>53155</DisplayNameID>
+			<RolloverTextID>53156</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>5</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>banishedgrenadierdrop.triggerscript</TriggerScript>
+	</Power>
+	<Power name="BanishedGrunt_Drop">
+		<Attributes>
+			<Cost Supplies="150" />
+			<Pop type="Unit">1</Pop>
+			<AutoRecharge>17500</AutoRecharge>
+			<SequentialRecharge />
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>53110</DisplayNameID>
+			<RolloverTextID>53111</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>7</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>banishedgruntdrop.triggerscript</TriggerScript>
+	</Power>
 	<Power name="FloodNonPlayerSpawner">
 		<Attributes>
 			<Cost Supplies="400" Power="1" />
@@ -60,8 +237,8 @@
 			<AutoRecharge>17500</AutoRecharge>
 			<SequentialRecharge />
 			<UIRadius>10</UIRadius>
-			<DisplayNameID>5012</DisplayNameID>
-			<RolloverTextID>5013</RolloverTextID>
+			<DisplayNameID>53157</DisplayNameID>
+			<RolloverTextID>53158</RolloverTextID>
 			<PrereqTextID>252</PrereqTextID>
 			<ShowLimit />
 			<LeaderPower />

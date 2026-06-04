@@ -13,7 +13,7 @@
 		<TriggerVar ID="27" Type="String" Name="" IsNull="false">Pass</TriggerVar>
 		<TriggerVar ID="139" Type="Vector" Name="DropLoc" IsNull="false" />
 		<TriggerVar ID="140" Type="Squad" Name="" IsNull="true" />
-		<TriggerVar ID="141" Type="ProtoSquad" Name="" IsNull="false">unsc_inf_odst_01_player</TriggerVar>
+		<TriggerVar ID="141" Type="ProtoSquad" Name="" IsNull="false">unsc_inf_oast_01</TriggerVar>
 		<TriggerVar ID="144" Type="Vector" Name="FlyInStartVar1" IsNull="true" />
 		<TriggerVar ID="145" Type="Vector" Name="FlyInEndVar1" IsNull="true" />
 		<TriggerVar ID="146" Type="Squad" Name="CreatedSquadVar1" IsNull="true" />

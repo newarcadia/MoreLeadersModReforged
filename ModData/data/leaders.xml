@@ -52,8 +52,8 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_03" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_odst_01_player</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_odst_01_player</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_oast_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_oast_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -297,7 +297,7 @@
 		<Pop Type="Unit" Max="70">30</Pop>
 		<Pop Type="Leader" Max="3">1</Pop>
 		<Pop Type="Temple" Max="1">1</Pop>
-		<Pop Type="Spartan" Max="15">15</Pop>
+		<Pop Type="Spartan" Max="20">5</Pop>
 	</Leader>
 	<Leader Name="BanishedElite" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" LeaderPickerOrder="11" StatsID="5" DefaultPlayerSlotFlags="0x20">
 		<Civ>Banished</Civ>
@@ -324,7 +324,7 @@
 		<Pop Type="Unit" Max="70">30</Pop>
 		<Pop Type="Leader" Max="3">3</Pop>
 		<Pop Type="Temple" Max="1">1</Pop>
-		<Pop Type="Spartan" Max="15">15</Pop>
+		<Pop Type="Spartan" Max="20">5</Pop>
 	</Leader>
 	<Leader Name="Flood" LeaderPickerOrder="12" StatsID="1">
 		<Civ>Flood</Civ>

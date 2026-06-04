@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="brutegrenadier01">
+	<model name="brutegrenadier01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>banished\infantry\brutegrenadier_01\brutegrenadier_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/idle_03</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnLeft" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/turn_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnRight" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/turn_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cower" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CombatIdle" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Transition" tweenTime="10" tweenToAnimation="Attack">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/attack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.426999986" end="1" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.426999986" end="1" name="effects\Unit_FX\cov\brute\muzzleblast" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.430000007" end="1" name="play_cov_brute_shot" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/attack_02</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.257999986" end="1" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.25999999" end="1" name="effects\Unit_FX\cov\brute\muzzleblast" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.25999999" end="1" name="play_cov_brute_shot" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.666999996" end="1" tobone="b_hand_grip_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.666999996" end="1" name="effects\Unit_FX\cov\brute\muzzleblast" tobone="b_hand_grip_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.670000017" end="1" name="play_cov_brute_shot" tobone="b_hand_grip_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="AttackMove" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/attack_move01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.579999983" end="1" name="play_cov_brute_shot" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.583999991" end="1" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.583999991" end="1" name="effects\Unit_FX\cov\brute\muzzleblast" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="Stunned" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/stunned_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Flail" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/flail_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.0799999982" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveLong_Idle" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/death_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0" end="1" name="vfx/episode2/Units/CorruptionMediumExp" tobone="b_tank_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="AdvancedCameraShake" start="0" position="0" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0" end="1" tobone="b_tank_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0" end="1" name="PLAY_SFX_3D_VFX_MediumPlasmaDestruction" tobone="GrannyRootBone_brutegrenadier01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.0179999992" end="1" name="PLAY_SFX_3D_FLY_COV_HunterJumpLand" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.0250000004" end="1" name="DIA_3D_WAL_GRENBRUT_Death" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.0610000007" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.465999991" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierDeath" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/death_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="PLAY_SFX_3D_VFX_MediumPlasmaDestruction" tobone="GrannyRootBone_brutegrenadier01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0" end="1" tobone="b_tank_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="AdvancedCameraShake" start="0" position="0" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0" end="1" name="vfx/episode2/Units/CorruptionMediumExp" tobone="b_tank_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.0250000004" end="1" name="DIA_3D_WAL_GRENBRUT_Death" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.0309999995" end="1" name="PLAY_SFX_3D_FLY_COV_HunterJumpLand" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.0610000007" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.282000005" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierDeath" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/death_03</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="PLAY_SFX_3D_VFX_MediumPlasmaDestruction" tobone="GrannyRootBone_brutegrenadier01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0" end="1" tobone="b_tank_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="AdvancedCameraShake" start="0" position="0" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0" end="1" name="vfx/episode2/Units/CorruptionMediumExp" tobone="b_tank_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.0109999999" end="1" name="DIA_3D_WAL_GRENBRUT_Death" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.0370000005" end="1" name="PLAY_SFX_3D_FLY_COV_HunterJumpLand" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.0799999982" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.307000011" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierDeath" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.398999989" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/death_04</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="PLAY_SFX_3D_VFX_MediumPlasmaDestruction" tobone="GrannyRootBone_brutegrenadier01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0" end="1" tobone="b_tank_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="AdvancedCameraShake" start="0" position="0" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0" end="1" name="vfx/episode2/Units/CorruptionMediumExp" tobone="b_tank_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.0309999995" end="1" name="PLAY_SFX_3D_FLY_COV_HunterJumpLand" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.0799999982" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.115999997" end="1" name="DIA_3D_WAL_GRENBRUT_Death" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.270000011" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierDeath" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.453999996" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveLong_Idle" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="Knockdown" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/knockdown_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.0429999828" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.331" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.405000001" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort_Idle" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.490999997" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.662999988" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveLong_Idle" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/walk_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.25999999" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.361999989" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveLong" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.754999995" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.883000016" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveLong" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="WalkIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/walkidle_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.104000002" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.135000005" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.379999995" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort_Idle" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.42899999" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.712000012" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveLong_Idle" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="IdleJog" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/idlerun_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.165999994" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort_Idle" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.847000003" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.889999986" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/run_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.398999989" end="1" name="PLAY_SFX_3D_FTS_COV_HunterRun" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.43599999" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.896000028" end="1" name="PLAY_SFX_3D_FTS_COV_HunterRun" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.975000024" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="JogIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/runidle_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.128999993" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.294" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.386999995" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.638000011" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.656000018" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort_Idle" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.75999999" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/runidle_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.165999994" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.195999995" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.252000004" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.416999996" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.43599999" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort_Idle" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.656000018" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveLong_Idle" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/run_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.398999989" end="1" name="PLAY_SFX_3D_FTS_COV_HunterRun" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.43599999" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.896000028" end="1" name="PLAY_SFX_3D_FTS_COV_HunterRun" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.975000024" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="RunIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/runidle_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.128999993" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.294" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.386999995" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.638000011" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.656000018" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort_Idle" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.760999978" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/runidle_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.165999994" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.195999995" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.252000004" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.43599999" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.43599999" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort_Idle" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.656000018" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveLong_Idle" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="IdleWalk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/idlewalk_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.144999996" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.50999999" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveLong_Idle" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.75999999" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="Special" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/supercharged_siphon_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.0489999987" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort_Idle" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.152999997" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.170000002" end="1" name="vfx/episode2/Units/GrenadierSiphon" tobone="bone_vfx_HandFX_R" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.170000002" end="1" name="vfx/episode2/Units/GrenadierSiphon" tobone="bone_vfx_HandFX_L" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Light" start="0" position="0.170000002" end="1" name="Lights/BuildingsLights/tailLightRED" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.465000004" end="1" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.675000012" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.693000019" end="1" name="DIA_3D_WAL_GRENBRUT_Taunt" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.80400002" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveLong_Idle" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.828000009" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="Transform" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/being_infected</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack2" exitAction="Transition" tweenTime="10" tweenToAnimation="Attack2">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.0370000005" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.178000003" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.426999986" end="1" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.426999986" end="1" name="effects\Unit_FX\cov\brute\muzzleblast" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.430000007" end="1" name="play_cov_brute_shot" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.479000002" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.56400001" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.699000001" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveLong" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.717000008" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.839999974" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.963" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/attack_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.0859999657" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort_Idle" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.195999995" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.257999986" end="1" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.25999999" end="1" name="effects\Unit_FX\cov\brute\muzzleblast" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.25999999" end="1" name="play_cov_brute_shot" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.319000006" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.42899999" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.503000021" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.561999977" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.666999996" end="1" tobone="b_hand_grip_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.666999996" end="1" name="effects\Unit_FX\cov\brute\muzzleblast" tobone="b_hand_grip_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.670000017" end="1" name="play_cov_brute_shot" tobone="b_hand_grip_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.760999978" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveLong" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.839999974" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.975000024" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="AttackMove2" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/attack_move01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.135000005" end="1" name="PLAY_SFX_3D_FTS_COV_HunterRun" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.300999999" end="1" name="PLAY_SFX_3D_FTS_COV_HunterRun" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.465999991" end="1" name="PLAY_SFX_3D_FTS_COV_HunterRun" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.579999983" end="1" name="play_cov_brute_shot" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.583999991" end="1" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.583999991" end="1" name="effects\Unit_FX\cov\brute\muzzleblast" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.632000029" end="1" name="PLAY_SFX_3D_FTS_COV_HunterRun" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.797999978" end="1" name="PLAY_SFX_3D_FTS_COV_HunterRun" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.963" end="1" name="PLAY_SFX_3D_FTS_COV_HunterRun" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="Attack3" exitAction="Transition" tweenTime="10" tweenToAnimation="Attack3">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.0370000005" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.178000003" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.426999986" end="1" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.426999986" end="1" name="effects\Unit_FX\cov\brute\muzzleblast" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.430000007" end="1" name="play_cov_brute_shot" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.479000002" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.56400001" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.699000001" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveLong" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.717000008" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.839999974" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.963" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/attack_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.0859999657" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort_Idle" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.195999995" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.257999986" end="1" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.25999999" end="1" name="effects\Unit_FX\cov\brute\muzzleblast" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.25999999" end="1" name="play_cov_brute_shot" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.319000006" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.42899999" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.503000021" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.561999977" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.666999996" end="1" tobone="b_hand_grip_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.666999996" end="1" name="effects\Unit_FX\cov\brute\muzzleblast" tobone="b_hand_grip_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.670000017" end="1" name="play_cov_brute_shot" tobone="b_hand_grip_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.760999978" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveLong" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.839999974" end="1" name="PLAY_SFX_3D_FTS_COV_HunterWalk" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.975000024" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="AttackMove3" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/attack_move01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.135000005" end="1" name="PLAY_SFX_3D_FTS_COV_HunterRun" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.300999999" end="1" name="PLAY_SFX_3D_FTS_COV_HunterRun" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.465999991" end="1" name="PLAY_SFX_3D_FTS_COV_HunterRun" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.579999983" end="1" name="play_cov_brute_shot" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position="0.583999991" end="1" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.583999991" end="1" name="effects\Unit_FX\cov\brute\muzzleblast" tobone="b_hand_grip_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.632000029" end="1" name="PLAY_SFX_3D_FTS_COV_HunterRun" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.797999978" end="1" name="PLAY_SFX_3D_FTS_COV_HunterRun" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.963" end="1" name="PLAY_SFX_3D_FTS_COV_HunterRun" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="SpecialFail" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>banished\infantry\brutegrenadier_01/idle_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.0859999657" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveLong" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.109999999" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.275000006" end="1" name="DIA_3D_WAL_GRENBRUT_Roar" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.280000001" end="1" name="vfx/episode2/Units/GrenadierSiphon" tobone="bone_vfx_HandFX_L" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.150000006" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.280000001" end="1" name="PLAY_SFX_3D_VFX_BAN_BGCorruptionPoolDryFire" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.282000005" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position="0.282000005" end="1" name="vfx/episode2/Units/GrenadierSiphon" tobone="bone_vfx_HandFX_R" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.150000006" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.294" end="1" name="PLAY_SFX_3D_FLY_BAN_BruteGrenadierMoveShort" tobone="GrannyRootBone_brutegrenadier01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.680999994" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position="0.933000028" end="1" name="PLAY_SFX_3D_FTS_COV_HunterIdle" tobone="b_foot_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+	</model>
+</visual>
