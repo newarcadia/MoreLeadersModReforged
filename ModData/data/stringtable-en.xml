@@ -3,7 +3,7 @@
 	<Language name="English">
 		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">Try out Haruspis, our new modmanager for both Halo Wars DE and 2. Please note that this version currently experiences issues with the AI and balancing.
 </String>
-		<String _locID="26217" category="UI" subtitle="false">Beta Branch - v1.2.1</String>
+		<String _locID="26217" category="UI" subtitle="false">Beta Branch - v1.2.2</String>
 		<String _locID="26218" category="UI" subtitle="false">new-arcadia.net/discord</String>
 		<!-- BlockLeaderpower effect uses this string-->
 		<String _locID="357" category="Code" subtitle="false">JAMMED! </String> 
@@ -1438,6 +1438,7 @@ Adds 2 extra drops.</String>
 		<String _locID="53162" category="Powers" subtitle="false">2 goliath, 3 hunter and 2 slugmen</String>
 		<String _locID="53163" category="Powers" subtitle="false">GRUNT DROP</String>
 		<String _locID="53164" category="Powers" subtitle="false">1 methane wagon, 2 heavy grunt and 4 grunt squads.</String>
+		<String _locID="53165" category="Powers" subtitle="false">Call in a group of Engineers to heal any units and repair any buildings in a small area.</String>
 
 
 		<String _locID="60000" subtitle="false">Tips appear here. Really.</String>

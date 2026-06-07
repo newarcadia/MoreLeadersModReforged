@@ -3911,7 +3911,7 @@
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<ObstructionRadiusX>38</ObstructionRadiusX>
-		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusY>1</ObstructionRadiusY>
 		<ObstructionRadiusZ>22.5</ObstructionRadiusZ>
 		<SelectedRadiusX>17.3999996</SelectedRadiusX>
 		<SelectedRadiusZ>15.6000004</SelectedRadiusZ>
@@ -3975,7 +3975,6 @@
 		<ChildObjectDamageTakenScalar>1</ChildObjectDamageTakenScalar>
 		<BuildingStrengthDisplay>UNSC_Base</BuildingStrengthDisplay>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -4036,7 +4035,7 @@
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<ObstructionRadiusX>38</ObstructionRadiusX>
-		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusY>1</ObstructionRadiusY>
 		<ObstructionRadiusZ>22.5</ObstructionRadiusZ>
 		<SelectedRadiusX>17.3999996</SelectedRadiusX>
 		<SelectedRadiusZ>15.6000004</SelectedRadiusZ>
@@ -4103,7 +4102,6 @@
 		<ChildObjectDamageTakenScalar>1</ChildObjectDamageTakenScalar>
 		<BuildingStrengthDisplay>UNSC_Base</BuildingStrengthDisplay>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -4163,7 +4161,7 @@
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<ObstructionRadiusX>38</ObstructionRadiusX>
-		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusY>1</ObstructionRadiusY>
 		<ObstructionRadiusZ>22.5</ObstructionRadiusZ>
 		<SelectedRadiusX>17.3999996</SelectedRadiusX>
 		<SelectedRadiusZ>15.6000004</SelectedRadiusZ>
@@ -4230,7 +4228,6 @@
 		<ChildObjectDamageTakenScalar>1</ChildObjectDamageTakenScalar>
 		<BuildingStrengthDisplay>UNSC_Base</BuildingStrengthDisplay>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>

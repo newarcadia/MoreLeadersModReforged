@@ -1,73 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TriggerSystem Name="BattleSupport.triggerscript" Type="TriggerScript" NextTriggerVarID="23" NextTriggerID="2" NextConditionID="3" NextEffectID="4" External="false">
-	<TriggerVars>
-		<TriggerVar ID="1" Type="Trigger" Name="NewTrigger0Var" IsNull="false">1</TriggerVar>
-		<TriggerVar ID="2" Type="Player" Name="newVar1439495" IsNull="false" />
-		<TriggerVar ID="3" Type="Power" Name="nullPowerVar" IsNull="true" />
-		<TriggerVar ID="4" Type="Squad" Name="nullSquadVar" IsNull="true" />
-		<TriggerVar ID="5" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
-		<TriggerVar ID="6" Type="Unit" Name="nullUnitVar" IsNull="true" />
-		<TriggerVar ID="7" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
-		<TriggerVar ID="8" Type="Cost" Name="nullCostVar" IsNull="true" />
-		<TriggerVar ID="9" Type="Vector" Name="newVar9830076" IsNull="false" />
-		<TriggerVar ID="10" Type="Float" Name="newVar8343980" IsNull="false">0</TriggerVar>
-		<TriggerVar ID="11" Type="Float" Name="newVar4303056" IsNull="false">20</TriggerVar>
-		<TriggerVar ID="12" Type="Float" Name="newVar8893285" IsNull="false">0</TriggerVar>
-		<TriggerVar ID="13" Type="Vector" Name="nullVectorVar" IsNull="true" />
-		<TriggerVar ID="14" Type="Bool" Name="newVar3441320" IsNull="false">False</TriggerVar>
-		<TriggerVar ID="15" Type="Vector" Name="newVar790842" IsNull="false" />
-		<TriggerVar ID="16" Type="ProtoSquadList" Name="newVar1971648" IsNull="false">unsc_air_hawk_01,unsc_air_hawk_01,unsc_air_hawk_01</TriggerVar>
-		<TriggerVar ID="17" Type="Vector" Name="nullVectorVar" IsNull="true" />
-		<TriggerVar ID="18" Type="Vector" Name="nullVectorVar" IsNull="true" />
-		<TriggerVar ID="19" Type="Bool" Name="nullBoolVar" IsNull="true" />
-		<TriggerVar ID="20" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
-		<TriggerVar ID="21" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
-		<TriggerVar ID="22" Type="Bool" Name="nullBoolVar" IsNull="true" />
-	</TriggerVars>
-	<Triggers>
-		<Trigger ID="1" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-803" Y="-149" GroupID="-1">
-			<TriggerConditions>
-				<And>
-					<Condition ID="1" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Output Name="ExternPlayer" SigID="1" Optional="true">2</Output>
-						<Output Name="ExternPower" SigID="2" Optional="true">3</Output>
-						<Output Name="ExternSquad" SigID="3" Optional="true">4</Output>
-						<Output Name="ExternSquadList" SigID="7" Optional="true">5</Output>
-						<Output Name="ExternUnit" SigID="4" Optional="true">6</Output>
-						<Output Name="ExternUnitList" SigID="6" Optional="true">7</Output>
-						<Output Name="ExternCost" SigID="5" Optional="true">8</Output>
-					</Condition>
-					<Condition ID="2" Type="CanRetrieveExternalLocation" DBID="440" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Output Name="Location" SigID="1" Optional="false">9</Output>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="1" Type="LocationAdjust" DBID="59" Version="3" CommentOut="false">
-					<Input Name="SourceLoc" SigID="1" Optional="false">9</Input>
-					<Input Name="AdjustX" SigID="2" Optional="true">10</Input>
-					<Input Name="AdjustY" SigID="4" Optional="true">11</Input>
-					<Input Name="AdjustZ" SigID="5" Optional="true">12</Input>
-					<Input Name="AdjustVector" SigID="6" Optional="true">13</Input>
-					<Input Name="UseMultiply" SigID="7" Optional="true">14</Input>
-					<Output Name="ResultLoc" SigID="3" Optional="false">15</Output>
-				</Effect>
-				<Effect ID="2" Type="CreateSquads" DBID="875" Version="1" CommentOut="false">
-					<Input Name="FlyInSquads" SigID="1" Optional="false">16</Input>
-					<Input Name="Player" SigID="2" Optional="false">2</Input>
-					<Input Name="CreatePosition" SigID="3" Optional="false">9</Input>
-					<Input Name="Facing" SigID="4" Optional="true">17</Input>
-					<Input Name="FlyInStart" SigID="5" Optional="true">18</Input>
-					<Input Name="FlyInEnd" SigID="6" Optional="true">18</Input>
-					<Input Name="RallyPoint" SigID="7" Optional="true">18</Input>
-					<Input Name="AttackMoveRallyPoint" SigID="8" Optional="true">19</Input>
-					<Output Name="CreatedSquads" SigID="9" Optional="true">20</Output>
-					<Output Name="AddToList" SigID="10" Optional="true">21</Output>
-					<Output Name="ClearExisting" SigID="11" Optional="true">22</Output>
-				</Effect>
-				<Effect ID="3" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
-		</Trigger>
-	</Triggers>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="airDOdrop.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="1" Type="Player" Name="Owner" IsNull="false" />
+    <TriggerVar ID="50" Type="ProtoSquadList" Name="NewProtoSquadList33" IsNull="false">unsc_air_hawk_01,unsc_air_hawk_01,unsc_air_hawk_01</TriggerVar>
+    <TriggerVar ID="62" Type="Vector" Name="TargetLocation" IsNull="false" />
+    <TriggerVar ID="67" Type="Float" Name="Height" IsNull="false">80</TriggerVar>
+    <TriggerVar ID="70" Type="Trigger" Name="startup" IsNull="false">17</TriggerVar>
+    <TriggerVar ID="71" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="72" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="73" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="74" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="75" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="76" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="77" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="78" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="79" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="80" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="81" Type="Vector" Name="linkedVector" IsNull="false" />
+    <TriggerVar ID="82" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="83" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="84" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="85" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="86" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="87" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="88" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="89" Type="Bool" Name="nullBool" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="17" Name="startup" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="-731" Y="1641" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="17" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">1</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">71</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">72</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">73</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">74</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">75</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">76</Output>
+          </Condition>
+          <Condition ID="31" Type="CanRetrieveExternalLocation v1" DBID="440" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="Location" SigID="1" Optional="false">62</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="52" Type="LocationAdjust v3" DBID="59" Version="3" CommentOut="false">
+          <Input Name="SourceLoc" SigID="1" Optional="false">62</Input>
+          <Input Name="AdjustX" SigID="2" Optional="true">77</Input>
+          <Input Name="AdjustY" SigID="4" Optional="true">67</Input>
+          <Input Name="AdjustZ" SigID="5" Optional="true">78</Input>
+          <Input Name="AdjustVector" SigID="6" Optional="true">79</Input>
+          <Input Name="UseMultiply" SigID="7" Optional="true">80</Input>
+          <Output Name="ResultLoc" SigID="3" Optional="false">81</Output>
+        </Effect>
+        <Effect ID="41" Type="CreateSquads v1" DBID="875" Version="1" CommentOut="false">
+          <Input Name="FlyInSquads" SigID="1" Optional="false">50</Input>
+          <Input Name="Player" SigID="2" Optional="false">1</Input>
+          <Input Name="CreatePosition" SigID="3" Optional="false">81</Input>
+          <Input Name="Facing" SigID="4" Optional="true">82</Input>
+          <Input Name="FlyInStart" SigID="5" Optional="true">83</Input>
+          <Input Name="FlyInEnd" SigID="6" Optional="true">84</Input>
+          <Input Name="RallyPoint" SigID="7" Optional="true">85</Input>
+          <Input Name="AttackMoveRallyPoint" SigID="8" Optional="true">86</Input>
+          <Output Name="CreatedSquads" SigID="9" Optional="true">87</Output>
+          <Output Name="AddToList" SigID="10" Optional="true">88</Output>
+          <Output Name="ClearExisting" SigID="11" Optional="true">89</Output>
+        </Effect>
+        <Effect ID="45" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
 </TriggerSystem>

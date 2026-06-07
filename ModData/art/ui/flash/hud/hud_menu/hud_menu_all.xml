@@ -219,6 +219,8 @@
 	<KeyFrame>queued</KeyFrame>
 	<KeyFrame>pc_off</KeyFrame>
 	<KeyFrame>pc_on</KeyFrame>
+	<Icon type="uniticon" name="engineer" texture="art\ui\flash\shared\textures\banished\icons\unit\cov_inf_engineer_01_icon" owner="ban_lp_engineer_01">-1</Icon>
+	<Icon type="powericon" name="repair" name2="specialPWR2" texture="art\ui\flash\shared\textures\unsc\icons\power\UnscLeaderRepair" owner="BanLeaderRepair">-1</Icon>
 	<Icon type="powericon" name="bbanshee" texture="art\ui\flash\shared\textures\banished\icons\unit\cov_air_banshee_01" owner="BanishedBruteSupport_Drop">-1</Icon>
 	<Icon type="powericon" name="hunter" texture="art\ui\flash\shared\textures\banished\icons\unit\ban_inf_hunter_01" owner="BanishedHunterSupport_Drop">-1</Icon>
 	<Icon type="powericon" name="place" texture="art\ui\flash\shared\textures\mlm_reforged\unit\ban_veh_methanewagon_01" owner="BanishedGruntSupport_Drop">-1</Icon>

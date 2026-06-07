@@ -1,5 +1,76 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Objects>
+	<Object name="ban_lp_engineer_01" id="0" dbid="3357">
+		<PhysicsInfo>engineer</PhysicsInfo>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>banished\infantry\engineer_01\engineer_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>24163</DisplayNameID>
+		<RolloverTextID>24164</RolloverTextID>
+		<MovementType>Air</MovementType>
+		<Velocity>12</Velocity>
+		<Acceleration>12</Acceleration>
+		<TurnRate>360</TurnRate>
+		<Hitpoints>3788</Hitpoints>
+		<Shieldpoints>0</Shieldpoints>
+		<AttackGradeDPS>0</AttackGradeDPS>
+		<CombatValue>10</CombatValue>
+		<LOS>5</LOS>
+		<Pop Type="Unit">0</Pop>
+		<Bounty>5</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="1.45" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>banished\ban_lp_engineer_01.tactics</Tactics>
+		<Ability>Holodrone_expire_01.triggerscript</Ability>
+		<RepairPoints>20</RepairPoints>
+		<ObstructionRadiusX>4.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.7</ObstructionRadiusY>
+		<ObstructionRadiusZ>4.5</ObstructionRadiusZ>
+		<PickRadius>3</PickRadius>
+		<PickOffset>0</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Target</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>4100</SubSelectSort>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<Sound Type="Create">play_vog_engineer_birth</Sound>
+		<Sound Type="Death">play_cov_engineer_vo_death</Sound>
+		<Sound Type="Select">play_cov_engineer_select</Sound>
+		<Sound Type="Work">play_cov_engineer_acknowledge</Sound>
+		<Sound Type="RocketStart">play_grunt_methane_burst</Sound>
+		<Sound Type="RocketEnd">stop_grunt_methane_burst</Sound>
+		<Sound Type="ImpactDeath">play_impact_death_grunt</Sound>
+		<ExtendedSoundBank>xtnd_ui_engineer.bnk</ExtendedSoundBank>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Covenant</ObjectType>
+		<ObjectType>HiddenFromStats</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Aircraft</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>MethaneLover</ObjectType>
+		<SurfaceType>gruntFlesh</SurfaceType>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>RocketOnDeath</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
 	<Object name="ban_veh_wraith_terror_01" id="0" dbid="203">
 		<ObjectType>CanBeStunned</ObjectType>
 		<ObjectClass>Squad</ObjectClass>
@@ -175,7 +246,7 @@
 		<LOS>55</LOS>
 		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="105" yawattachment="b_spine_0" />
 		<SingleBoneIK>b_spine_0</SingleBoneIK>
-		<Pop Type="Unit">2</Pop>
+		<Pop Type="Unit">1</Pop>
 		<Bounty>3</Bounty>
 		<Veterancy Level="1" XP="6" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
 		<Veterancy Level="2" XP="15" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
@@ -7774,11 +7845,11 @@
 		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
 		<Pop Type="Spartan">1</Pop>
 		<Bounty>11</Bounty>
-		<Veterancy Level="1" XP="10" Damage="1" Velocity="1.25" Accuracy="1.25" WorkRate="1.25" WeaponRange="1.25" DamageTaken="0.85" />
+		<Veterancy Level="1" XP="10" Damage="1" Velocity="1.4" Accuracy="1.25" WorkRate="1.25" WeaponRange="1.25" DamageTaken="0.85" />
 		<Veterancy Level="2" XP="25" Damage="1.25" Velocity="1" Accuracy="1.25" WorkRate="1.25" WeaponRange="1.25" DamageTaken="0.85" />
-		<Veterancy Level="3" XP="40" Damage="1.25" Velocity="1.25" Accuracy="1" WorkRate="1.25" WeaponRange="1.25" DamageTaken="0.85" />
-		<Veterancy Level="4" XP="65" Damage="1.25" Velocity="1.25" Accuracy="1.25" WorkRate="1" WeaponRange="1.25" DamageTaken="0.85" />
-		<Veterancy Level="5" XP="125" Damage="1.25" Velocity="1.25" Accuracy="1.25" WorkRate="1.25" WeaponRange="1" DamageTaken="0.85" />
+		<Veterancy Level="3" XP="40" Damage="1.25" Velocity="1" Accuracy="1" WorkRate="1.25" WeaponRange="1.25" DamageTaken="0.85" />
+		<Veterancy Level="4" XP="65" Damage="1.25" Velocity="1" Accuracy="1.25" WorkRate="1" WeaponRange="1.25" DamageTaken="0.85" />
+		<Veterancy Level="5" XP="125" Damage="1.25" Velocity="1" Accuracy="1.25" WorkRate="1.25" WeaponRange="1" DamageTaken="0.85" />
 		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
 		<Tactics>cov_inf_skirmisherAIhero_01.tactics</Tactics>
 		<RepairPoints>25</RepairPoints>
@@ -10177,6 +10248,7 @@
 		<ObjectType>Transportable</ObjectType>
 		<ObjectType>GroundVehicle</ObjectType>
 		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<SurfaceType>Flesh</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
@@ -14573,6 +14645,7 @@
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<SurfaceType>GruntFlesh</SurfaceType>
@@ -14641,6 +14714,7 @@
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<SurfaceType>GruntFlesh</SurfaceType>
@@ -14709,6 +14783,7 @@
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<SurfaceType>GruntFlesh</SurfaceType>
@@ -14875,6 +14950,7 @@
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<SurfaceType>GruntFlesh</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
@@ -14951,6 +15027,7 @@
 		<ObjectType>_Leader</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<SurfaceType>GruntFlesh</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
@@ -25937,7 +26014,8 @@
 	</Object>
 	<Object name="cov_inf_heavyelite_01" id="0" dbid="3013">
 		<ObjectType>CanBeStunned</ObjectType>
-		<PhysicsReplacementInfo>eliteranger</PhysicsReplacementInfo>
+		<PhysicsInfo>engineer</PhysicsInfo>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
 		<Visual>covenant\infantry_h2\elite\eliteranger_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
@@ -26009,7 +26087,8 @@
 	</Object>
 	<Object name="cov_inf_heavyelite_02" id="0" dbid="3013">
 		<ObjectType>CanBeStunned</ObjectType>
-		<PhysicsReplacementInfo>eliteranger</PhysicsReplacementInfo>
+		<PhysicsInfo>engineer</PhysicsInfo>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
 		<Visual>covenant\infantry_h2\elite\eliteranger_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
@@ -26080,7 +26159,8 @@
 	</Object>
 	<Object name="cov_inf_heavyelite_03" id="0" dbid="3013">
 		<ObjectType>CanBeStunned</ObjectType>
-		<PhysicsReplacementInfo>eliteranger</PhysicsReplacementInfo>
+		<PhysicsInfo>engineer</PhysicsInfo>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
 		<Visual>covenant\infantry_h2\elite\eliterangerdual_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
@@ -26152,7 +26232,8 @@
 	</Object>
 	<Object name="cov_inf_heavyelite_04" id="0" dbid="3013">
 		<ObjectType>CanBeStunned</ObjectType>
-		<PhysicsReplacementInfo>eliteranger</PhysicsReplacementInfo>
+		<PhysicsInfo>engineer</PhysicsInfo>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
 		<Visual>covenant\infantry_h2\elite\eliterangerdual_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>

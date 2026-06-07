@@ -6048,7 +6048,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="GodPower" amount="1">ODSTHeroDrop</Effect>
-			<Effect type="GodPower" amount="1">CutterSupportDrop</Effect>
+			<Effect type="GodPower" amount="5">CutterSupportDrop</Effect>
 			<Effect type="GodPower" amount="5">UnscOdstDrop_Player</Effect>
 			<Effect type="GodPower" amount="1">UnscLeaderOrbitalBombard</Effect>
 			<Effect type="TransformProtoUnit" FromType="unsc_bldg_command_01" ToType="unsc_bldg_command_02" />

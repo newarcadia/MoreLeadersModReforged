@@ -142,10 +142,6 @@
 		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
 		<PhysicsForceMin>300</PhysicsForceMin>
 		<PhysicsForceMax>600</PhysicsForceMax>
-		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>12</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>36</PostAttackCooldownMax>
 		<Dodgeable />
 	</Weapon>
 	<Action>
@@ -154,7 +150,6 @@
 		<Anim>ShotgunBurstAttack</Anim>
 		<Weapon>InCoverSpecialWeapon</Weapon>
 		<BaseDPSWeapon>InCoverAssaultRifle</BaseDPSWeapon>
-		<MainAttack />
 		<FindBetterAction />
 		<StartDisabled />
 	</Action>
@@ -164,7 +159,6 @@
 		<Anim>ShotgunBurstAttack</Anim>
 		<SupportAnim>Support</SupportAnim>
 		<Weapon>SpecialWeapon</Weapon>
-		<MainAttack />
 		<DontLoopAttackAnim />
 		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
 		<StartDisabled />
