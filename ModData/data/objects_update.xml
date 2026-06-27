@@ -1,5 +1,252 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Objects>
+	<Object name="fx_proj_forsoldier_01" id="0" dbid="66">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects\projectiles\for\sniperrifle_01\sniperrifle_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>150</Velocity>
+		<Tactics>fx_proj_sniperRifle_01.tactics</Tactics>
+		<Lifespan>2</Lifespan>
+		<ObstructionRadiusX>0.100000001</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.100000001</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
+	<Object name="fx_proj_soldiergrenade_01" id="0" dbid="24">
+		<PhysicsReplacementInfo>grenade</PhysicsReplacementInfo>
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects/projectiles/for/eradicatorGrenade_01/eradicatorGrenade_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>40</Velocity>
+		<Tactics>fx_proj_grenade_01.tactics</Tactics>
+		<Lifespan>3</Lifespan>
+		<ObstructionRadiusX>0.100000001</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.100000001</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<MaxProjectileHeight>6</MaxProjectileHeight>
+		<ImpactDecal sizeX="4" sizeZ="4" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\missle_scorch01</ImpactDecal>
+	</Object>
+	<Object name="for_inf_soldier_vp_01" id="0" dbid="198">
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>forerunner\promethean\soldier_vp_01\soldier_vp_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10124</DisplayNameID>
+		<RolloverTextID>10125</RolloverTextID>
+		<RoleTextID>503</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>14</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>720</Hitpoints>
+		<AttackGradeDPS>30</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="b_root" />
+		<SingleBoneIK>b_root</SingleBoneIK>
+		<Pop Type="Unit">0.25</Pop>
+		<Bounty>2</Bounty>
+		<Veterancy Level="1" XP="4" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="10" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="18" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>forerunner\for_inf_soldier_vp_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>1.8</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>1.9</PickRadius>
+		<PickOffset>1.4</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>4600</SubSelectSort>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<SquadModeAnim Mode="Sniper">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+		<Sound Type="StopExist">stop_exist_sentinel</Sound>
+		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>Forerunner</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanBeStunned</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscMarineRockets</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>NoCorpse</Flag>
+		<Flag>UseRelaxedSpeedGroup</Flag>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="for_inf_soldier_vp_02" id="0" dbid="198">
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>forerunner\promethean\soldier_vp_01\soldier_vp_02.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10124</DisplayNameID>
+		<RolloverTextID>10125</RolloverTextID>
+		<RoleTextID>503</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>14</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>720</Hitpoints>
+		<AttackGradeDPS>30</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="180" yawMaxAngle="90"  yawattachment="b_root" />
+		<SingleBoneIK>b_root</SingleBoneIK>
+		<Bounty>2</Bounty>
+		<Veterancy Level="1" XP="4" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="10" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="18" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>forerunner\for_inf_soldier_vp_02.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>1.8</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<PickRadius>1.9</PickRadius>
+		<PickOffset>1.4</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>4600</SubSelectSort>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<SquadModeAnim Mode="Sniper">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+		<Sound Type="StopExist">stop_exist_sentinel</Sound>
+		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>Forerunner</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanBeStunned</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscMarineRockets</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>NoCorpse</Flag>
+		<Flag>UseRelaxedSpeedGroup</Flag>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="for_inf_soldier_vp_off_01" id="0" dbid="198">
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>forerunner\promethean\soldier_vp_01\soldier_vp_off_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10124</DisplayNameID>
+		<RolloverTextID>10125</RolloverTextID>
+		<RoleTextID>503</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>15</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>210</TurnRate>
+		<Hitpoints>2439</Hitpoints>
+		<AttackGradeDPS>42</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="180" yawMaxAngle="90"  yawattachment="b_root" />
+		<SingleBoneIK>b_root</SingleBoneIK>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>2</Bounty>
+		<Veterancy Level="1" XP="4" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="10" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="18" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>forerunner\for_inf_soldier_vp_off_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<RepairPoints>100</RepairPoints>
+		<ObstructionRadiusX>2.5</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>2.5</ObstructionRadiusZ>
+		<PickRadius>1.9</PickRadius>
+		<PickOffset>1.4</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>4600</SubSelectSort>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<SquadModeAnim Mode="Sniper">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+		<Sound Type="Create">play_cov_hunter_birth</Sound>
+		<Sound Type="Death">play_cov_hunter_vo_death</Sound>
+		<Sound Type="Pain">play_cov_hunter_vo_hit</Sound>
+		<Sound Type="Select">play_cov_hunter_select</Sound>
+		<Sound Type="Work">play_cov_hunter_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_hunter_attack</Sound>
+		<ExtendedSoundBank>xtnd_ui_hunter.bnk</ExtendedSoundBank>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full" mode="Normal">LightArmored</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<SurfaceType>EliteFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
 	<Object name="ban_lp_engineer_01" id="0" dbid="3357">
 		<PhysicsInfo>engineer</PhysicsInfo>
 		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
@@ -43734,8 +43981,8 @@
 		<AttackGradeDPS>42</AttackGradeDPS>
 		<CombatValue>2</CombatValue>
 		<LOS>55</LOS>
-		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="b_spine1" />
-		<SingleBoneIK>b_spine1</SingleBoneIK>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="b_spine_1" />
+		<SingleBoneIK>b_spine_1</SingleBoneIK>
 		<Pop Type="Unit">0.5</Pop>
 		<Bounty>2</Bounty>
 		<Veterancy Level="1" XP="4" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />

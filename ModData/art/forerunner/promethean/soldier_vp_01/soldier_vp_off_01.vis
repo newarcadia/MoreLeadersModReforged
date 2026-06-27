@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="elite_assualt">
+	<model name="elite_assualt">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>forerunner\promethean\soldier_vp_01\soldier_vp_off_01</file>
+				<damagefile>forerunner\promethean\soldier_vp_01\soldier_vp_off_01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" />
+			<point pointType="Pickup" bone="b_spine_0" pointData="Metal" />
+		</component>
+		<anim type="TurnRight" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_turn_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnLeft" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_turn_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Transition" tweenTime="15" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_attack01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.400000006" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaCasterFire" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position_type="Time" position="0.400000006" end="1" name="vfx/dlc2/Units/PlasmaCasterMuzzle" tobone="b_hand_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position_type="Time" position="0.402999997" end="1" tobone="b_hand_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position_type="Time" position="0.699999988" end="1" name="PLAY_SFX_3D_FLY_BAN_PlasmaCasterReload" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_attack02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.430000007" end="1" name="PLAY_SFX_3D_FLY_BAN_PlasmaCasterReload" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Particle" start="0" position_type="Time" position="0.430000007" end="1" name="vfx/dlc2/Units/PlasmaCasterMuzzle" tobone="b_hand_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position_type="Time" position="0.430000007" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaCasterFire" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position_type="Time" position="0.433999985" end="1" tobone="b_hand_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Transition" tweenTime="10" tweenToAnimation="Repair">
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Build" exitAction="Transition" tweenTime="10" tweenToAnimation="Build">
+			<asset type="Anim">
+				<file>dlc2/pack2/animations/covenant/infantry/eliteassault01/eliteassault_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Transition" tweenTime="10" tweenToAnimation="Gather">
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_gather01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Stunned" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_stunned01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spin" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_flail01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Flail" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_flail01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="15" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_run01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="15" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_run01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="15" tweenToAnimation="">
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_walk_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Transition" tweenTime="15" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_idle01</file>
+				<weight>10</weight>
+			</asset>
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_combatidle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cower" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_cower01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_cower02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_cower03</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AttackGrenade" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_grenade_throw01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.300000012" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position_type="Time" position="0.323000014" end="1" name="DIA_3D_WAL_ASSAU_Excertion" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position_type="Time" position="0.354999989" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperWalk" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position_type="Time" position="0.372000009" end="1" tobone="b_finger_middle_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position_type="Time" position="0.42899999" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperWalk" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position_type="Time" position="0.74000001" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="Knockdown" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_knockdown01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_knockdown02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_knockdown03</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Capture" exitAction="Loop" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_capture01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="StasisGrenade" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>forerunner\promethean\soldier_vp_01\anim\eliteassault_plasma_grenade_throw01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.282999992" end="1" name="DIA_3D_WAL_ASSAU_Excertion" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position_type="Time" position="0.300000012" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position_type="Time" position="0.354999989" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperWalk" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Attack" start="0" position_type="Time" position="0.372000009" end="1" tobone="b_finger_middle_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position_type="Time" position="0.42899999" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperWalk" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+				<tag type="Sound" start="0" position_type="Time" position="0.74000001" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true"/>
+			</asset>
+		</anim>
+		<anim type="Transform" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/infantry/infectedelitecarbine_01/carbineelite_transform01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Weapon">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>forerunner\promethean\soldier_vp_01\tur</file>
+			</asset>
+		</component>
+	</model>
+</visual>
