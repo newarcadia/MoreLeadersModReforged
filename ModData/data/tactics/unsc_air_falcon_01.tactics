@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Laser</Name>
 		<AttackRate>6</AttackRate>
-		<DamagePerSecond>50</DamagePerSecond>
+		<DamagePerSecond>60</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_rotaryMG_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rotarymg_01</ImpactEffect>
@@ -26,7 +26,7 @@
 	<Weapon>
 		<Name>LeftMachinegun</Name>
 		<AttackRate>0.125</AttackRate>
-		<DamagePerSecond>35</DamagePerSecond>
+		<DamagePerSecond>60</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
@@ -48,7 +48,7 @@
 	<Weapon>
 		<Name>RightMachinegun</Name>
 		<AttackRate>0.125</AttackRate>
-		<DamagePerSecond>35</DamagePerSecond>
+		<DamagePerSecond>60</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">Tankshell</ImpactEffect>

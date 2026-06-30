@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>IncoverBrutegun</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>81.9000015</DamagePerSecond>
+		<DamagePerSecond>120</DamagePerSecond>
 		<WeaponType>ArmorPiercingFuelRod</WeaponType>
 		<Projectile>fx_proj_bruteGun_01</Projectile>
 		<ImpactEffect size="Medium">cov_brutegun_01</ImpactEffect>
@@ -36,7 +36,7 @@
 	<Weapon>
 		<Name>Brutegun</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>181.9000015</DamagePerSecond>
+		<DamagePerSecond>222</DamagePerSecond>
 		<WeaponType>ArmorPiercingFuelRod</WeaponType>
 		<Projectile>fx_proj_bruteGun_01</Projectile>
 		<ImpactEffect size="small">cov_brutegun_01</ImpactEffect>
@@ -69,7 +69,7 @@
 	<Weapon>
 		<Name>UpgradedIncoverBrutegun</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>10.8999996</DamagePerSecond>
+		<DamagePerSecond>33</DamagePerSecond>
 		<WeaponType>ArmorPiercingFuelRod</WeaponType>
 		<Projectile>fx_proj_bruteGun_02</Projectile>
 		<ImpactEffect size="Medium">cov_brutegun_02</ImpactEffect>

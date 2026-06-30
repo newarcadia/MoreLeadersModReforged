@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Shotgun</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>33</DamagePerSecond>
+		<DamagePerSecond>40</DamagePerSecond>
 		<WeaponType>Grenade</WeaponType>
 		<Projectile>fx_proj_grenade_01</Projectile>
 		<ImpactEffect size="Medium">tankshell</ImpactEffect>

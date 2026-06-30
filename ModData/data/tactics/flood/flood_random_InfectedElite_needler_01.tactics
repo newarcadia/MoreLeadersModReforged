@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Needler</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>20</DamagePerSecond>
+		<DamagePerSecond>30</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_needler_01</Projectile>
 		<ImpactEffect size="Medium">needler_01</ImpactEffect>
@@ -17,7 +17,7 @@
 	<Weapon>
 		<Name>InCoverNeedler</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>35</DamagePerSecond>
+		<DamagePerSecond>50</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_needler_01</Projectile>
 		<ImpactEffect size="Medium">needler_01</ImpactEffect>

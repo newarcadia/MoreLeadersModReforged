@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Machinegun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>136.350006</DamagePerSecond>
+		<DamagePerSecond>140</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_machineGun_01</Projectile>
 		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
@@ -25,7 +25,7 @@
 	<Weapon>
 		<Name>Cannon</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>136.350006</DamagePerSecond>
+		<DamagePerSecond>140</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_cannon_01</Projectile>
 		<ImpactEffect size="Medium">Tankshell</ImpactEffect>

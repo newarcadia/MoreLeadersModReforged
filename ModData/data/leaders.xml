@@ -12,13 +12,14 @@
 		<FlashPortrait>img://art\ui\flash\shared\textures\leaders\leaderpict_spec.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leaderpict_specbanner.ddx</UIControlBackground>
 	</Leader>
-	<Leader Name="Random All" LeaderPickerOrder="1" Random="true">
-		<Civ />
-		<NameID>23722</NameID>
-		<DescriptionID>23723</DescriptionID>
-		<FlashCivID>2</FlashCivID>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\random.ddx</FlashPortrait>
-		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leader_pict_random.ddx</UIControlBackground>
+	<Leader Name="Spectator" LeaderPickerOrder="1" Random="false">
+		<Civ>UNSC</Civ>
+		<Tech>spectator_leader</Tech>
+		<NameID>42716</NameID>
+		<DescriptionID>42717</DescriptionID>
+		<FlashCivID>0</FlashCivID>
+		<FlashPortrait>img://art\ui\flash\shared\textures\leaders\leaderpict_spec.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leaderpict_specbanner.ddx</UIControlBackground>
 	</Leader>
 	<Leader Name="Cutter" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="2" StatsID="1" DefaultPlayerSlotFlags="0x81">
 		<Civ>UNSC</Civ>

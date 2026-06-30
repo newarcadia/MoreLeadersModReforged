@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>BeamCannon</Name>
 		<AttackRate>0.1</AttackRate>
-		<DamagePerSecond>100</DamagePerSecond>
+		<DamagePerSecond>140</DamagePerSecond>
 		<WeaponType>ArmorPiercing</WeaponType>
 		<Projectile>fx_proj_beam_01</Projectile>
 		<ImpactEffect size="Medium">foxEmp</ImpactEffect>

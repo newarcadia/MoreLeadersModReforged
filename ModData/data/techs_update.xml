@@ -11372,15 +11372,17 @@
 				<Target type="ProtoSquad">fore_inf_knight_01</Target>
 				<Target type="ProtoSquad">for_inf_prometheanknight_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.33" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.44" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">fore_inf_knight_01</Target>
 				<Target type="ProtoUnit">for_inf_prometheanknight_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.33" subtype="hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.44" subtype="hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">for_inf_prometheanknight_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="SpawnSentinel" relativity="Absolute">
 				<Target type="ProtoUnit">fore_inf_knight_01</Target>
 			</Effect>
+			<!--Effect type="Data" amount="1" subtype="ActionEnable" action="SpawnSentinel" relativity="Absolute">
+				<Target type="ProtoUnit">fore_inf_knight_01</Target>
+			</Effect-->
 		</Effects>
 	</Tech>
 	<Tech name="for_knight_upgrade3" type="Normal">

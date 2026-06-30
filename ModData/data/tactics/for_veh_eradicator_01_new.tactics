@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>MissileLauncher</Name>
 		<AttackRate>6</AttackRate>
-		<DamagePerSecond>200</DamagePerSecond>
+		<DamagePerSecond>210</DamagePerSecond>
 		<WeaponType>leaderPower</WeaponType>
 		<Projectile>fx_proj_eradicatorGrenade_01</Projectile>
 		<ImpactEffect size="Medium">for_grenade_01</ImpactEffect>
@@ -16,7 +16,7 @@
 	<Weapon>
 		<Name>UpgradedMissileLauncher</Name>
 		<AttackRate>6</AttackRate>
-		<DamagePerSecond>200</DamagePerSecond>
+		<DamagePerSecond>210</DamagePerSecond>
 		<WeaponType>leaderPower</WeaponType>
 		<Projectile>fx_proj_eradicatorGrenade_01</Projectile>
 		<ImpactEffect size="Medium">for_grenade_01</ImpactEffect>
@@ -57,7 +57,7 @@
 	<Weapon>
 		<Name>PlasmaCannon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>50</DamagePerSecond>
+		<DamagePerSecond>60</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_plasmaCannon_01</Projectile>
 		<ImpactEffect size="Medium">cov_plasmacannon_01</ImpactEffect>
@@ -80,7 +80,7 @@
 	<Weapon>
 		<Name>PlasmaCannon2</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>50</DamagePerSecond>
+		<DamagePerSecond>60</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_plasmaCannon_01</Projectile>
 		<ImpactEffect size="Medium">cov_plasmacannon_01</ImpactEffect>
@@ -103,7 +103,7 @@
 	<Weapon>
 		<Name>BeamCannon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>75</DamagePerSecond>
+		<DamagePerSecond>100</DamagePerSecond>
 		<WeaponType>leaderPower</WeaponType>
 		<Projectile>fx_proj_spartanlaser_01</Projectile>
 		<ImpactEffect size="Medium">unsc_spartanlaser_01</ImpactEffect>

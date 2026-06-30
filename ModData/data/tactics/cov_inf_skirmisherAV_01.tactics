@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>BeamCannon</Name>
 		<AttackRate>4</AttackRate>
-		<DamagePerSecond>80</DamagePerSecond>
+		<DamagePerSecond>90</DamagePerSecond>
 		<WeaponType>FuelRod</WeaponType>
 		<Projectile>fx_focusbeam</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>

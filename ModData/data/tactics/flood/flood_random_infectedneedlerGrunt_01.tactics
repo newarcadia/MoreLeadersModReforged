@@ -48,7 +48,7 @@
 	<Weapon>
 		<Name>Needler</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>18</DamagePerSecond>
+		<DamagePerSecond>33</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_needler_01</Projectile>
 		<ImpactEffect size="small">needler_01</ImpactEffect>

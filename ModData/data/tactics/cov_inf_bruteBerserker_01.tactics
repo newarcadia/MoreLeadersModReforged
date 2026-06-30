@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Sword</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>77</DamagePerSecond>
+		<DamagePerSecond>86</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<MaxRange>3</MaxRange>
 		<Hardpoint>Torso</Hardpoint>

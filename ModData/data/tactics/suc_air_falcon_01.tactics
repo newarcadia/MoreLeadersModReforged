@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>RocketLauncher</Name>
 		<AttackRate>6</AttackRate>
-		<DamagePerSecond>70.1500015</DamagePerSecond>
+		<DamagePerSecond>80</DamagePerSecond>
 		<WeaponType>Missile</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
@@ -30,7 +30,7 @@
 	<Weapon>
 		<Name>Machinegun</Name>
 		<AttackRate>0.125</AttackRate>
-		<DamagePerSecond>70.1500015</DamagePerSecond>
+		<DamagePerSecond>80</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_rotaryMG_01</Projectile>
 		<ImpactEffect size="small">unsc_rotarymg_01</ImpactEffect>
@@ -51,7 +51,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>LeftWingman</Name>
-		<DamagePerSecond>17.5</DamagePerSecond>
+		<DamagePerSecond>25</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
@@ -71,7 +71,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>RightWingMan</Name>
-		<DamagePerSecond>17.5</DamagePerSecond>
+		<DamagePerSecond>25</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
