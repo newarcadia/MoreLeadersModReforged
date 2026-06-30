@@ -3,32 +3,6 @@
 	<Leader Name="Gaia" Icon="">
 		<Civ>Gaia</Civ>
 	</Leader>
-	<!-- FreeForAll -->
-	<Leader Name="FreeForAll" Icon="ui\game\icon\unsc\leader\Captain Cutter" Test="true" Random="false">
-		<Civ>FreeForAll</Civ>
-		<Tech>ffa_templeader</Tech>
-		<NameID>9</NameID>
-		<DescriptionID>9</DescriptionID>
-		<FlashCivID>0</FlashCivID>
-		<FlashImg>orbital</FlashImg>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
-		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
-		<Resource Type="CampaignFoo">99999999</Resource>
-		<Resource Type="Collectable">0</Resource>
-		<Resource Type="Power">0</Resource>
-		<StartingUnit Offset="0,0,0" BuildOther="ffa_starterbase_01" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<RallyPointOffset>50,0,0</RallyPointOffset>
-		<RepairRate>1</RepairRate>
-		<RepairDelay>20</RepairDelay>
-		<RepairCost Type="Supplies">35</RepairCost>
-		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="99">30</Pop>
-		<Pop Type="Spartan" Max="3">3</Pop>
-		<Pop Type="Leader" Max="1">1</Pop>
-		<Pop Type="Temple" Max="1">1</Pop>
-	</Leader>
-	<!-- Extra -->
 	<Leader Name="Spectator" LeaderPickerOrder="0" Random="false">
 		<Civ>UNSC</Civ>
 		<Tech>spectator_leader</Tech>
@@ -421,6 +395,132 @@
 		<StartingUnit Offset="0,0,0" BuildOther="for_bldg_builder_03" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">for_inf_prometheanpawn_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_prometheanpawn_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_soldier_vp_off_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_soldier_vp_off_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_soldier_vp_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_soldier_vp_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_soldier_vp_02</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_inf_warden_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_hero_didact_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>

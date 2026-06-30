@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Squads>
+	<Squad name="for_inf_warden_01" dbid="915">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_scarab</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3060</DisplayNameID>
+		<RolloverTextID>3061</RolloverTextID>
+		<PrereqTextID>246</PrereqTextID>
+		<RoleTextID>508</RoleTextID>
+		<BuildPoints>90</BuildPoints>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint02" endPoint="bone_spawnPoint02">Trained</Birth>
+		<Cost resourcetype="Supplies">3000</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<SubSelectSort>6600</SubSelectSort>
+		<HPBar sizeX="12.0f" sizeY="3.0f" offset="0,21,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="COV_Star_Scarab_Centered">COV_Star_Scarab</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">for_inf_warden_01</Unit>
+		</Units>
+		<TurnRadius min="2" max="16" />
+		<DazeResist>0.100000001</DazeResist>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
 	<Squad name="for_inf_soldier_vp_off_01" formationType="Line" dbid="874">
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_flamemarine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>

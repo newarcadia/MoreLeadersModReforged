@@ -1,5 +1,131 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Objects>
+	<Object name="for_hero_didact_01" is="0" id="2061" dbid="3233">
+		<Ability>vanillaplus\forerunner\oracle.triggerscript</Ability>
+		<PhysicsInfo>sentinel</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>forerunner\promethean\didact_01\didact_01.vis</Visual>
+		<FlightLevel>25</FlightLevel>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<DisplayNameID>23944</DisplayNameID>
+		<RolloverTextID>23945</RolloverTextID>
+		<MovementType>Air</MovementType>
+		<Velocity>30</Velocity>
+		<ReverseSpeed>25.0f</ReverseSpeed>
+		<TurnRate>1000</TurnRate>
+		<Hitpoints>12500</Hitpoints>
+		<AttackGradeDPS>0</AttackGradeDPS>
+		<CombatValue>0</CombatValue>
+		<LOS>55</LOS>
+		<CombatValue>4</CombatValue>
+		<Pop Type="Leader">1</Pop>
+		<Bounty>45</Bounty>
+		<Tactics>for_air_oracle_01.tactics</Tactics>
+		<ObstructionRadiusX>2.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>2.5</ObstructionRadiusZ>
+		<PickRadius>3.4000001</PickRadius>
+		<PickOffset>-0.100000001</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<SubSelectSort>10003</SubSelectSort>
+		<GotoType>Air</GotoType>
+		<SelectedRadiusX>2</SelectedRadiusX>
+		<SelectedRadiusZ>2</SelectedRadiusZ>
+		<DamageType direction="Full">MediumAir</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Hero</ObjectType>
+		<ObjectType>_Hero</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>AirCraft</ObjectType>
+		<ObjectType>Forerunner</ObjectType>
+		<Sound Type="Create">play_sentinel_birth</Sound>
+		<Sound Type="Death">play_forerunner_sentinel_death</Sound>
+		<Sound Type="Select">play_sentinel_select</Sound>
+		<Sound Type="Work">play_sentinel_acknowledge</Sound>
+		<Sound Type="Attack">play_sentinel_acknowledge</Sound>
+		<Sound Type="Exist">start_exist_sentinel</Sound>
+		<Sound Type="StopExist">stop_exist_sentinel</Sound>
+		<Sound Type="StartMove">start_move_sentinel</Sound>
+		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<SurfaceType>Metal</SurfaceType>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Repairable</Flag>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="for_inf_warden_01" id="0" dbid="2824">
+		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>forerunner\promethean\warden_01\warden_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>23526</DisplayNameID>
+		<RolloverTextID>23527</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>13</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>20550</Hitpoints>
+		<AttackGradeDPS>450</AttackGradeDPS>
+		<CombatValue>30</CombatValue>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Pelvis" />
+		<SingleBoneIK>Pelvis</SingleBoneIK>
+		<LOS>55</LOS>
+		<Pop Type="Leader">1</Pop>
+		<Bounty>60</Bounty>
+		<Veterancy Level="1" XP="60" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="150" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="270" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<AmmoMax>120</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>cov_inf_bruteChief_01.tactics</Tactics>
+		<RepairPoints>200</RepairPoints>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>6.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<PickRadius>2.5</PickRadius>
+		<PickOffset>1.79999995</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Hero</GotoType>
+		<SubSelectSort>1000</SubSelectSort>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">CovenantLeader</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Hero</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>Infantry</ObjectType>
+		<ObjectType>HardInfection</ObjectType>
+		<ObjectType>_Hero</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>_Leader</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>Cov_Health</HPBar>
+	</Object>
 	<Object name="fx_proj_forsoldier_01" id="0" dbid="66">
 		<ObjectClass>Projectile</ObjectClass>
 		<Visual>effects\projectiles\for\sniperrifle_01\sniperrifle_01.vis</Visual>
@@ -1649,7 +1775,7 @@
 	<Object name="for_inf_didact_01" id="0" dbid="201">
 		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>forerunner\infantry\didact_01\didact_01.vis</Visual>
+		<Visual>forerunner\promethean\didact_01\didact_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_arbiter</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10128</DisplayNameID>
@@ -1661,8 +1787,8 @@
 		<Hitpoints>20000</Hitpoints>
 		<AttackGradeDPS>450</AttackGradeDPS>
 		<CombatValue>30</CombatValue>
-		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="45" yawattachment="Bip01 Spine" />
-		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="45" yawattachment="pelvis" />
+		<SingleBoneIK>pelvis</SingleBoneIK>
 		<LOS>55</LOS>
 		<Pop Type="Leader">1</Pop>
 		<Bounty>60</Bounty>
