@@ -1869,6 +1869,7 @@
 		<Hardpoint name="RightCannonTurret" autocenter="true" combined="true" yawrate="90" yawmaxangle="60" yawattachment="CannonRight" />
 		<Hardpoint name="Turret" autocenter="true" yawrate="90" pitchrate="90" pitchMinAngle="-30" pitchMaxAngle="75" yawattachment="Turret" pitchattachment="Turret" />
 		<Tactics>forerunner\for_air_phaeton_01.tactics</Tactics>
+		<NumStasisFieldsToStop>3</NumStasisFieldsToStop>
 		<Pop Type="Unit">5</Pop>
 		<Bounty>8</Bounty>
 		<Veterancy Level="1" XP="66" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
@@ -36758,6 +36759,7 @@
 		<Hardpoint name="BeamCannon" autocenter="true" singleboneik="true" relativeToUnit="true" pitchrate="360" yawrate="360" yawattachment="BoneSentinel" pitchattachment="BoneSentinel" />
 		<SingleBoneIK>BoneSentinel</SingleBoneIK>
 		<Tactics>for_air_regulator_01.tactics</Tactics>
+		<NumStasisFieldsToStop>2</NumStasisFieldsToStop>
 		<RepairPoints>100</RepairPoints>
 		<ObstructionRadiusX>3</ObstructionRadiusX>
 		<ObstructionRadiusY>2</ObstructionRadiusY>
@@ -38480,6 +38482,7 @@
 		<Pop Type="Unit">1</Pop>
 		<Bounty>4</Bounty>
 		<Tactics>fore_air_sentinel_01.tactics</Tactics>
+		<NumStasisFieldsToStop>2</NumStasisFieldsToStop>
 		<RepairPoints>100</RepairPoints>
 		<ObstructionRadiusX>3</ObstructionRadiusX>
 		<ObstructionRadiusY>2</ObstructionRadiusY>
@@ -38627,6 +38630,7 @@
 		<Pop Type="Unit">2</Pop>
 		<Bounty>16</Bounty>
 		<Tactics>fore_air_sentinel_03.tactics</Tactics>
+		<NumStasisFieldsToStop>3</NumStasisFieldsToStop>
 		<RepairPoints>100</RepairPoints>
 		<ObstructionRadiusX>6</ObstructionRadiusX>
 		<ObstructionRadiusY>2</ObstructionRadiusY>
@@ -38745,6 +38749,7 @@
 		<Pop Type="Unit">2</Pop>
 		<Bounty>16</Bounty>
 		<Tactics>fore_air_guardian_01.tactics</Tactics>
+		<NumStasisFieldsToStop>3</NumStasisFieldsToStop>
 		<RepairPoints>100</RepairPoints>
 		<ObstructionRadiusX>6</ObstructionRadiusX>
 		<ObstructionRadiusY>2</ObstructionRadiusY>
