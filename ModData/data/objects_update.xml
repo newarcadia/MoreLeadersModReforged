@@ -8366,11 +8366,11 @@
 		<LOS>55</LOS>
 		<Pop Type="Spartan">1</Pop>
 		<Bounty>20</Bounty>
-		<Veterancy Level="1" XP="10" Damage="1" Velocity="1.25" Accuracy="1.25" WorkRate="1.25" WeaponRange="1.25" DamageTaken="0.85" />
-		<Veterancy Level="2" XP="25" Damage="1.25" Velocity="1" Accuracy="1.25" WorkRate="1.25" WeaponRange="1.25" DamageTaken="0.85" />
-		<Veterancy Level="3" XP="40" Damage="1.25" Velocity="1" Accuracy="1" WorkRate="1.25" WeaponRange="1" DamageTaken="0.85" />
-		<Veterancy Level="4" XP="65" Damage="1.25" Velocity="1" Accuracy="1.25" WorkRate="1" WeaponRange="1" DamageTaken="0.85" />
-		<Veterancy Level="5" XP="125" Damage="1" Velocity="1" Accuracy="1.25" WorkRate="1.25" WeaponRange="1" DamageTaken="0.85" />
+		<Veterancy Level="1" XP="40" Damage="1" Velocity="1.25" Accuracy="1.25" WorkRate="1.25" WeaponRange="1.25" DamageTaken="0.85" />
+		<Veterancy Level="2" XP="75" Damage="1.25" Velocity="1" Accuracy="1.25" WorkRate="1.25" WeaponRange="1.25" DamageTaken="0.85" />
+		<Veterancy Level="3" XP="125" Damage="1.25" Velocity="1" Accuracy="1" WorkRate="1.25" WeaponRange="1" DamageTaken="0.85" />
+		<Veterancy Level="4" XP="175" Damage="1.25" Velocity="1" Accuracy="1.25" WorkRate="1" WeaponRange="1" DamageTaken="0.85" />
+		<Veterancy Level="5" XP="250" Damage="1" Velocity="1" Accuracy="1.25" WorkRate="1.25" WeaponRange="1" DamageTaken="0.85" />
 		<LevelUpEffect>fx_unitLevelUp</LevelUpEffect>
 		<AmmoMax>60</AmmoMax>
 		<AmmoRegenRate>1</AmmoRegenRate>

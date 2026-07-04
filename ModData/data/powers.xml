@@ -407,7 +407,7 @@
 	</Power>
 	<Power name="ArbiterHeroDrop">
 		<Attributes>
-			<Cost Supplies="350" Power="1" />
+			<Cost Supplies="350" Power="3" />
 			<Pop type="Spartan">1</Pop>
 			<AutoRecharge>120000</AutoRecharge>
 			<UIRadius>10</UIRadius>
